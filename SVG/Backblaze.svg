@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   viewBox="0 0 1365.3333 1365.3333"
+   height="1365.3333"
+   width="1365.3333"
+   xml:space="preserve"
+   id="svg2"
+   version="1.1"><metadata
+     id="metadata8"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+     id="defs6"><clipPath
+       id="clipPath18"
+       clipPathUnits="userSpaceOnUse"><path
+         id="path16"
+         d="M 0,1024 H 1024 V 0 H 0 Z" /></clipPath></defs><g
+     transform="matrix(1.3333333,0,0,-1.3333333,0,1365.3333)"
+     id="g10"><g
+       id="g12"><g
+         clip-path="url(#clipPath18)"
+         id="g14"><g
+           transform="translate(1024,512)"
+           id="g20"><path
+             id="path22"
+             style="fill:#b11a30;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             d="m 0,0 c 0,-282.77 -229.23,-512 -512,-512 -282.77,0 -512,229.23 -512,512 0,282.77 229.23,512 512,512 C -229.23,512 0,282.77 0,0" /></g><g
+           transform="translate(344.4922,365.6846)"
+           id="g24"><path
+             id="path26"
+             style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             d="m 0,0 c 11.872,-33.302 30.24,-86.688 102.892,-113.793 61.153,-22.924 146.797,-26.955 196.153,36.288 11.35,14.188 -3.584,8.661 -18.518,2.987 -38.397,-12.095 -80.303,-4.04 -111.479,21.43 C 127.01,-18.069 143.437,21.132 122.38,21.579 52.939,23.073 16.726,50.178 -2.016,73.25 -6.272,78.7 -12.843,35.916 0,0 m 178.157,221.316 c -5.675,-50.476 50.177,-100.801 5.749,-169.197 -30.389,-47.34 16.652,-113.943 77.281,-101.772 66.306,13.215 82.957,55.179 81.24,103.937 -2.315,61.9 -26.955,79.148 -81.687,125.591 -59.435,50.177 -13.664,145.379 -13.664,145.379 0,0 -62.347,-48.385 -68.919,-103.938 m -77.878,224.452 c 0,0 85.345,-74.817 73.921,-141.048 C 169.048,274.853 129.772,226.468 150.978,180.174 173.826,130.296 185.699,34.049 82.881,58.913 -18.518,83.255 -10.678,207.652 64.662,272.986 c 75.34,65.335 50.55,139.555 35.617,172.782" /></g></g></g></g></svg>
