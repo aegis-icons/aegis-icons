@@ -12,4 +12,4 @@ Site / app icons for open source Android authenticator [Aegis](https://github.co
 - [Two Factor Auth List](https://twofactorauth.org/)
 
 ## Preview 
-[![See full preview](full_preview.png)](full_preview.md)
+[![See full preview](partial_preview.png)](full_preview.md)
