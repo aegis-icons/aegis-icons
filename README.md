@@ -1,6 +1,6 @@
 # 2FA Icons for Aegis
 
-![Showcase banner](showcase.png)
+[![Showcase banner](showcase.png)](full_preview.md)
 
 **[Browse the icons](/PNG)** • **[See the full preview](full_preview.md)**
 
