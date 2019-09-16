@@ -1,36 +1,17 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   viewBox="0 0 1365.3333 1365.3333"
-   height="1365.3333"
-   width="1365.3333"
-   xml:space="preserve"
-   id="svg2"
-   version="1.1"><metadata
-     id="metadata8"><rdf:RDF><cc:Work
-         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
-     id="defs6"><clipPath
-       id="clipPath18"
-       clipPathUnits="userSpaceOnUse"><path
-         id="path16"
-         d="M 0,1024 H 1024 V 0 H 0 Z" /></clipPath></defs><g
-     transform="matrix(1.3333333,0,0,-1.3333333,0,1365.3333)"
-     id="g10"><g
-       id="g12"><g
-         clip-path="url(#clipPath18)"
-         id="g14"><g
-           transform="translate(1024,512)"
-           id="g20"><path
-             id="path22"
-             style="fill:#3953ad;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             d="m 0,0 c 0,-282.77 -229.23,-512 -512,-512 -282.77,0 -512,229.23 -512,512 0,282.77 229.23,512 512,512 C -229.23,512 0,282.77 0,0" /></g><g
-           transform="translate(565.7588,436.7041)"
-           id="g24"><path
-             id="path26"
-             style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             d="m 0,0 h -106.623 l -28.843,150.698 H 25.835 Z m -293.162,305.428 c -9.045,0.128 -16.469,-7.125 -16.597,-16.17 0,-0.96 0.043,-1.92 0.214,-2.859 l 69.61,-422.633 c 1.792,-10.646 10.987,-18.496 21.803,-18.603 H 115.84 c 8.149,-0.086 15.104,5.781 16.427,13.781 l 69.759,427.306 c 1.452,8.917 -4.607,17.344 -13.546,18.794 -0.96,0.171 -1.899,0.235 -2.837,0.214 z" /></g></g></g></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1024 1024" style="enable-background:new 0 0 1024 1024;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#0052CC;}
+	.st1{fill:#FFFFFF;}
+</style>
+<g id="Guides">
+</g>
+<g id="Icon">
+	<circle class="st0" cx="512" cy="512" r="512"/>
+	<path class="st1" d="M272.6,281.9c-9-0.1-16.5,7.1-16.6,16.2c0,1,0,1.9,0.2,2.9l69.6,422.6c1.8,10.6,11,18.5,21.8,18.6h334
+		c8.1,0.1,15.1-5.8,16.4-13.8L767.8,301c1.5-8.9-4.6-17.3-13.5-18.8c-1-0.2-1.9-0.2-2.8-0.2L272.6,281.9z M565.8,587.3H459.1
+		l-28.8-150.7h161.3L565.8,587.3z"/>
+</g>
+</svg>

@@ -1,36 +1,23 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   viewBox="0 0 1365.3333 1365.3333"
-   height="1365.3333"
-   width="1365.3333"
-   xml:space="preserve"
-   id="svg2"
-   version="1.1"><metadata
-     id="metadata8"><rdf:RDF><cc:Work
-         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
-     id="defs6"><clipPath
-       id="clipPath18"
-       clipPathUnits="userSpaceOnUse"><path
-         id="path16"
-         d="M 0,1024 H 1024 V 0 H 0 Z" /></clipPath></defs><g
-     transform="matrix(1.3333333,0,0,-1.3333333,0,1365.3333)"
-     id="g10"><g
-       id="g12"><g
-         clip-path="url(#clipPath18)"
-         id="g14"><g
-           transform="translate(1024,512)"
-           id="g20"><path
-             id="path22"
-             style="fill:#422b8d;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             d="m 0,0 c 0,-282.77 -229.23,-512 -512,-512 -282.77,0 -512,229.23 -512,512 0,282.77 229.23,512 512,512 C -229.23,512 0,282.77 0,0" /></g><g
-           transform="translate(536.9746,607.9741)"
-           id="g24"><path
-             id="path26"
-             style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-             d="M 0,0 H 51.208 C 74.252,26.884 85.774,53.79 89.614,83.213 H 38.428 C 33.285,53.79 20.483,26.884 0,0 m 67.852,-67.851 c -10.221,10.242 -29.424,23.043 -61.429,23.043 -34.588,0 -70.433,-8.982 -96.016,-17.922 V 83.213 h -51.208 v -221.475 l 35.845,16.642 c 0,0 58.89,26.885 110.099,26.885 25.603,0 32.004,-14.083 32.004,-26.885 v -153.625 h 51.208 v 153.625 c 1.259,3.82 1.259,32.027 -20.503,53.769 m -207.394,-207.372 57.609,51.186 -57.609,51.208 z m 318.771,-30.769 c 0,-11.5 -8.983,-20.482 -20.483,-20.482 h -367.42 c -11.522,0 -20.483,8.982 -20.483,20.482 v 419.93 c 0,11.522 8.961,20.505 20.483,20.505 h 367.42 c 11.5,0 20.483,-8.983 20.483,-20.505 z m -20.483,466.018 h -367.42 c -25.625,0 -46.087,-20.484 -46.087,-46.088 v -419.93 c 0,-25.561 20.462,-46.065 46.087,-46.065 h 367.42 c 25.605,0 46.066,20.504 46.066,46.065 v 419.93 c 0.021,25.604 -20.441,46.088 -46.066,46.088" /></g></g></g></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1024 1024" style="enable-background:new 0 0 1024 1024;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#430098;}
+	.st1{fill:#FFFFFF;}
+</style>
+<g id="Guides">
+</g>
+<g id="Icon">
+	<circle class="st0" cx="512" cy="512" r="512"/>
+	<g>
+		<title>Heroku icon</title>
+		<path class="st1" d="M695.7,256H328.3c-25.6,0-46.1,20.5-46.1,46.1V722c0,25.6,20.5,46.1,46.1,46.1h367.4
+			c25.6,0,46.1-20.5,46.1-46.1V302.1C741.8,276.5,721.3,256,695.7,256z M716.2,722c0,11.5-9,20.5-20.5,20.5H328.3
+			c-11.5,0-20.5-9-20.5-20.5V302.1c0-11.5,9-20.5,20.5-20.5h367.4c11.5,0,20.5,9,20.5,20.5L716.2,722z M397.4,691.2l57.6-51.2
+			l-57.6-51.2V691.2z M604.8,483.9c-10.2-10.2-29.4-23-61.4-23c-34.6,0-70.4,9-96,17.9V332.8h-51.2v221.5l35.8-16.6
+			c0,0,58.9-26.9,110.1-26.9c25.6,0,32,14.1,32,26.9v153.6h51.2V537.6C626.6,533.8,626.6,505.6,604.8,483.9z M537,416h51.2
+			c23-26.9,34.6-53.8,38.4-83.2h-51.2C570.3,362.2,557.5,389.1,537,416z"/>
+	</g>
+</g>
+</svg>

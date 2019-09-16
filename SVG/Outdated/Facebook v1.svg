@@ -3,15 +3,14 @@
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1024 1024" style="enable-background:new 0 0 1024 1024;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#123F6D;}
+	.st0{fill:#3C5A99;}
 	.st1{fill:#FFFFFF;}
 </style>
 <g id="Guides">
 </g>
 <g id="Icon">
 	<circle class="st0" cx="512" cy="512" r="512"/>
-	<path class="st1" d="M680.1,471.3l54.7-94.9c21.1,37.2,33.2,80.2,33.2,126.1c0,61.4-21.7,117.8-57.8,162H569l43.5-75.5H555
-		l67.8-117.6L680.1,471.3z M630.6,359.5L455.1,664.3l0.1,0.2H313.8c-36.2-44.2-57.8-100.6-57.8-162c0-45.9,12.2-89,33.3-126.3
-		l91.6,159.2l101.2-176H630.6z"/>
+	<path id="f_1_" class="st1" d="M551.8,768V534.8h78.6l11.8-91.3h-90.4v-58.1c0-26.4,7.3-44.3,45.1-44.3h47.9v-81.4
+		c-8.3-1.1-36.9-3.6-70.2-3.6c-69.5,0-117.1,42.4-117.1,120.3v67.2h-78.3v91.3h78.3V768H551.8z"/>
 </g>
 </svg>
