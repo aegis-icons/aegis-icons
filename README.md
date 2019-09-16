@@ -2,7 +2,7 @@
 
 ![Showcase banner](showcase.png)
 
-**[Browse the icons](/PNG)** • **[See the preview](full_preview.md)**
+**[Browse the icons](/PNG)** • **[See the full preview](full_preview.md)**
 
 Site / app icons for open source Android authenticator [Aegis](https://github.com/beemdevelopment/Aegis).
 
