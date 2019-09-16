@@ -1,6 +1,6 @@
 # 2FA Icons for Aegis
 
-**[Browse the icons](/PNG)**
+**[Browse the icons](/PNG)** • **[See the preview](full_preview.md)**
 
 Site / app icons for open source Android authenticator [Aegis](https://github.com/beemdevelopment/Aegis).
 
@@ -11,6 +11,3 @@ Site / app icons for open source Android authenticator [Aegis](https://github.co
 - Various branding pages
 - [Two Factor Auth List](https://twofactorauth.org/)
 - [Authy - Guides](https://authy.com/guides/)
-
-## Preview 
-[![See full preview](partial_preview.png)](full_preview.md)
