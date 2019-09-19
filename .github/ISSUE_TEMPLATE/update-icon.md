@@ -1,8 +1,8 @@
 ---
-name: Update Icon
+name: Update icon
 about: Request update for icon, if logo or main brand color is outdated
 title: 'Update icon: '
-labels: ''
+labels: Update
 assignees: ''
 
 ---
