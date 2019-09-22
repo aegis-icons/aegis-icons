@@ -15,6 +15,7 @@ Site / app icons for open source Android authenticator [Aegis](https://github.co
 
 ## Credits
 - [Simple Icons](https://simpleicons.org/) ([CC0 1.0 Universal](https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md))
+- [Font Awesome](https://fontawesome.com/) by Fonticons ([CC BY 4.0](https://github.com/FortAwesome/Font-Awesome/blob/master/LICENSE.txt))
 - [Unicons](https://iconscout.com/unicons) by Iconscout ([Apache 2.0](https://github.com/Iconscout/unicons/blob/master/LICENSE))
 - [Feather Icons](https://feathericons.com/) by Cole Bemis ([MIT](https://github.com/feathericons/feather/blob/master/LICENSE))
 
