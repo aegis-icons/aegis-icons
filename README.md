@@ -19,4 +19,4 @@ Site / app icons for open source Android authenticator [Aegis](https://github.co
 - [Feather Icons](https://feathericons.com/) by Cole Bemis ([MIT](https://github.com/feathericons/feather/blob/master/LICENSE))
 
 ## Disclaimer
-This project includes material that may be protected as a trademark in some jurisdictions. If you want to use icon(s) publicly, you have to ensure that you have the legal right to do so and that you do not infringe any trademark rights. Please do not use brand logos for any purpose except to represent the company, product, or service to which they refer.
+This project includes material that may be protected as a trademark in some jurisdictions. If you want to use icon(s) publicly, you have to ensure that you have the legal right to do so and that you do not infringe any trademark rights. Please do not use brand based icons for any purpose except to represent the company, product, or service to which they refer.
