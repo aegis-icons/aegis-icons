@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1024 1024" style="enable-background:new 0 0 1024 1024;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#6001D2;}
+	.st1{fill:#FFFFFF;}
+</style>
+<g id="Guides">
+</g>
+<g id="Icon">
+	<circle class="st0" cx="512" cy="512" r="512"/>
+	<g id="Logo" transform="translate(260.95542,41.213839)" inkscape:groupmode="layer" inkscape:label="Layer 1">
+		<path id="path1139" inkscape:connector-curvature="0" sodipodi:nodetypes="ccccccccc" class="st1" d="M-16,344.2H89.8l61.6,157.5
+			l62.4-157.5h102.9l-155,372.9H58l42.4-98.8L-16,344.2z"/>
+		<g>
+			<circle id="path1155" class="st1" cx="331" cy="557.9" r="64"/>
+			<path id="path1157" inkscape:connector-curvature="0" sodipodi:nodetypes="ccccc" class="st1" d="M416.1,470.3H300.8l102.3-245.8
+				H518L416.1,470.3z"/>
+		</g>
+	</g>
+</g>
+</svg>
