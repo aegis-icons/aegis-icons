@@ -9,7 +9,16 @@ Site / app icons for open source Android authenticator [Aegis](https://github.co
 [Make a issue](https://github.com/krisu5/aegis-icons/issues) if you want to request a icon.
 
 ## Resources
-- Various branding pages
+
+### Logos
+- Official branding pages
+- [Simple Icons](https://simpleicons.org/)
+- [Wikimedia](https://commons.wikimedia.org/wiki/Category:Logos)
+- [VectorLogoZone](https://www.vectorlogo.zone/)
+- [SVG PORN](https://svgporn.com/)
+- [Worldvectorlogo](https://worldvectorlogo.com/)
+
+### List of sites supporting 2FA
 - [Two Factor Auth List](https://twofactorauth.org/)
 - [Authy - Guides](https://authy.com/guides/)
 - [Two-factor authentication list](https://evanhahn.com/2fa/)
