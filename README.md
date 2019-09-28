@@ -16,7 +16,6 @@ Site / app icons for open source Android authenticator [Aegis](https://github.co
 - [Wikimedia](https://commons.wikimedia.org/wiki/Category:Logos)
 - [VectorLogoZone](https://www.vectorlogo.zone/)
 - [SVG PORN](https://svgporn.com/)
-- [Worldvectorlogo](https://worldvectorlogo.com/)
 
 ### List of sites supporting 2FA
 - [Two Factor Auth List](https://twofactorauth.org/)
