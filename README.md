@@ -21,6 +21,7 @@ Site / app icons for open source Android authenticator [Aegis](https://github.co
 - [Two Factor Auth List](https://twofactorauth.org/)
 - [Authy - Guides](https://authy.com/guides/)
 - [Two-factor authentication list](https://evanhahn.com/2fa/)
+- [andOTP's thumbnail directory](https://github.com/andOTP/andOTP/tree/master/app/src/main/res/drawable)
 
 ## Credits
 - [Simple Icons](https://simpleicons.org/) ([CC0 1.0 Universal](https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md))
