@@ -12,10 +12,11 @@ Site / app icons for open source Android authenticator [Aegis](https://github.co
 
 ### Logos
 - Official branding pages
+- Wikipedia pages
 - [Simple Icons](https://simpleicons.org/)
-- [Wikimedia](https://commons.wikimedia.org/wiki/Category:Logos)
 - [SVG PORN](https://svgporn.com/)
 - [Worldvectorlogo](https://worldvectorlogo.com/)
+- [Seeklogo](https://seeklogo.com/)
 
 ### Lists of sites supporting 2FA
 - [Two Factor Auth List](https://twofactorauth.org/)
