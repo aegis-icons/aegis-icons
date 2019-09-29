@@ -12,7 +12,7 @@ Site / app icons for open source Android authenticator [Aegis](https://github.co
 
 ### Logos
 - Official branding pages
-- Wikipedia pages
+- Wikipedia pages / [Wikimedia Commons](https://commons.wikimedia.org/wiki/Main_Page)
 - [Simple Icons](https://simpleicons.org/)
 - [SVG PORN](https://svgporn.com/)
 - [Worldvectorlogo](https://worldvectorlogo.com/)
