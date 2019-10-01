@@ -1,0 +1,1234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1024 1024" style="enable-background:new 0 0 1024 1024;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#112E51;}
+	.st1{fill:#FFFFFF;}
+</style>
+<g id="Guides">
+</g>
+<g id="Icon">
+	<circle class="st0" cx="512" cy="512" r="512"/>
+	<g>
+		<script  xmlns="">self.tr_qhwSSyDfxgKPMVJr = function(frame,opts){(function(frame){
+
+				if (frame.traceDefinedOpener === true) return;
+
+				if (!frame.window) return;
+
+				if (!frame.window.open) return;
+
+
+
+				//frame[&quot;opener&quot;] = null;
+
+				var windowOpen = frame.window.open;
+
+
+
+				Object.defineProperty(frame.window,&quot;open&quot;,{
+
+					value:function(){
+
+						var newArgs = arguments;
+
+						newArgs[1] = &quot;&quot;;
+
+						var result = windowOpen.apply(this,newArgs);
+
+
+
+						//console.log(this);
+
+						//console.log(arguments);
+
+						return result;
+
+					}
+
+				});
+
+
+
+				frame.traceDefinedOpener = true;
+
+			})(frame,opts)};  (function(opts,frames,funcName){
+
+			self[funcName](window,opts);
+
+
+
+			if (frames !== true) return;
+
+
+
+			// HTMLFrameElement is an obsolete element however is still implemented in browsers
+
+			[&quot;HTMLIFrameElement&quot;,&quot;HTMLFrameElement&quot;].forEach(function(el){
+
+				var wind = self[el].prototype.__lookupGetter__(&apos;contentWindow&apos;),
+
+					cont = self[el].prototype.__lookupGetter__(&apos;contentDocument&apos;);
+
+
+
+				Object.defineProperties(self[el].prototype,{
+
+					contentWindow:{
+
+						get:function(){
+
+							if (this.src &amp;&amp; this.src.indexOf(&apos;//&apos;) !== -1 &amp;&amp; location.host !== this.src.split(&apos;/&apos;)[2]) return wind.apply(this);
+
+
+
+							var frame = wind.apply(this);
+
+							if (frame) {
+
+								try {frame.HTMLCanvasElement;}catch(e){}
+
+								self[funcName](frame,opts);
+
+							}
+
+
+
+							return frame;
+
+						}
+
+					},
+
+					contentDocument:{
+
+						get:function(){
+
+							if (this.src &amp;&amp; this.src.indexOf(&apos;//&apos;) !== -1 &amp;&amp; location.host !== this.src.split(&apos;/&apos;)[2]) return cont.apply(this);
+
+
+
+							var frame = cont.apply(this);
+
+							if (frame &amp;&amp; frame !== null) {
+
+								try {frame.HTMLCanvasElement;}catch(e){}
+
+								self[funcName](frame,opts);
+
+							}
+
+
+
+							return frame;
+
+						}
+
+					}
+
+				});
+
+			});
+
+		})(null,true,&quot;tr_qhwSSyDfxgKPMVJr&quot;);
+			</script>
+		<script  xmlns="">self.tr_NyjvmdkVeFGoiRci = function(frame,opts){(function(frame){
+
+				if (frame.traceDefinedBeacon === true) return;
+
+				if (!frame.navigator) return;
+
+
+
+				Object.defineProperty(frame.navigator,&quot;sendBeacon&quot;,{
+
+					enumerable:true,
+
+					configurable:false,
+
+					value:function(){
+
+						window.top.postMessage(&quot;trace-protection::ran::sendbeacon::main&quot;, &apos;*&apos;);
+
+						console.log(&quot;%c [Tr]-&gt;Blocked[SB] &quot;,&quot;font-size:1em;line-height:2em;color:#1a1a1a;background-color:#ffffff;border:.2em solid #0f0;&quot;);
+
+						return true;
+
+					}
+
+				});
+
+				Object.defineProperty(frame.navigator.sendBeacon,&quot;toString&quot;,{
+
+					value:function(){
+
+						return &quot;function sendBeacon() { [native code] }&quot;;
+
+					}
+
+				});
+
+
+
+				frame.traceDefinedBeacon = true;
+
+			})(frame,opts)};  (function(opts,frames,funcName){
+
+			self[funcName](window,opts);
+
+
+
+			if (frames !== true) return;
+
+
+
+			// HTMLFrameElement is an obsolete element however is still implemented in browsers
+
+			[&quot;HTMLIFrameElement&quot;,&quot;HTMLFrameElement&quot;].forEach(function(el){
+
+				var wind = self[el].prototype.__lookupGetter__(&apos;contentWindow&apos;),
+
+					cont = self[el].prototype.__lookupGetter__(&apos;contentDocument&apos;);
+
+
+
+				Object.defineProperties(self[el].prototype,{
+
+					contentWindow:{
+
+						get:function(){
+
+							if (this.src &amp;&amp; this.src.indexOf(&apos;//&apos;) !== -1 &amp;&amp; location.host !== this.src.split(&apos;/&apos;)[2]) return wind.apply(this);
+
+
+
+							var frame = wind.apply(this);
+
+							if (frame) {
+
+								try {frame.HTMLCanvasElement;}catch(e){}
+
+								self[funcName](frame,opts);
+
+							}
+
+
+
+							return frame;
+
+						}
+
+					},
+
+					contentDocument:{
+
+						get:function(){
+
+							if (this.src &amp;&amp; this.src.indexOf(&apos;//&apos;) !== -1 &amp;&amp; location.host !== this.src.split(&apos;/&apos;)[2]) return cont.apply(this);
+
+
+
+							var frame = cont.apply(this);
+
+							if (frame &amp;&amp; frame !== null) {
+
+								try {frame.HTMLCanvasElement;}catch(e){}
+
+								self[funcName](frame,opts);
+
+							}
+
+
+
+							return frame;
+
+						}
+
+					}
+
+				});
+
+			});
+
+		})(null,true,&quot;tr_NyjvmdkVeFGoiRci&quot;);
+			</script>
+		<script  xmlns="">self.tr_efJxAjEXKXfkpgLy = function(frame,opts){(function(frame,opts){
+
+				if (frame.traceDefinedNet === true) return;
+
+				if (!frame.navigator) return;
+
+
+
+				var dret = JSON.parse(opts);
+
+				dret.addEventListener = function(){
+
+					console.log(&quot;%c [Tr]-&gt;Protected[NE] &quot;,&quot;font-size:1em;line-height:2em;color:#1a1a1a;background-color:#ffffff;border:.2em solid #0f0;&quot;);
+
+				};
+
+				Object.defineProperty(frame.navigator,&quot;connection&quot;,{
+
+					enumerable:true,
+
+					configurable:false,
+
+					get:function(){
+
+						console.log(&quot;%c [Tr]-&gt;Protected[NI] &quot;,&quot;font-size:1em;line-height:2em;color:#1a1a1a;background-color:#ffffff;border:.2em solid #0f0;&quot;);
+
+						return dret;
+
+					}
+
+				});
+
+
+
+				frame.traceDefinedNet = true;
+
+			})(frame,opts)};  (function(opts,frames,funcName){
+
+			self[funcName](window,opts);
+
+
+
+			if (frames !== true) return;
+
+
+
+			// HTMLFrameElement is an obsolete element however is still implemented in browsers
+
+			[&quot;HTMLIFrameElement&quot;,&quot;HTMLFrameElement&quot;].forEach(function(el){
+
+				var wind = self[el].prototype.__lookupGetter__(&apos;contentWindow&apos;),
+
+					cont = self[el].prototype.__lookupGetter__(&apos;contentDocument&apos;);
+
+
+
+				Object.defineProperties(self[el].prototype,{
+
+					contentWindow:{
+
+						get:function(){
+
+							if (this.src &amp;&amp; this.src.indexOf(&apos;//&apos;) !== -1 &amp;&amp; location.host !== this.src.split(&apos;/&apos;)[2]) return wind.apply(this);
+
+
+
+							var frame = wind.apply(this);
+
+							if (frame) {
+
+								try {frame.HTMLCanvasElement;}catch(e){}
+
+								self[funcName](frame,opts);
+
+							}
+
+
+
+							return frame;
+
+						}
+
+					},
+
+					contentDocument:{
+
+						get:function(){
+
+							if (this.src &amp;&amp; this.src.indexOf(&apos;//&apos;) !== -1 &amp;&amp; location.host !== this.src.split(&apos;/&apos;)[2]) return cont.apply(this);
+
+
+
+							var frame = cont.apply(this);
+
+							if (frame &amp;&amp; frame !== null) {
+
+								try {frame.HTMLCanvasElement;}catch(e){}
+
+								self[funcName](frame,opts);
+
+							}
+
+
+
+							return frame;
+
+						}
+
+					}
+
+				});
+
+			});
+
+		})((function(opts){
+
+				return opts;
+
+			})(&apos;{&quot;downlink&quot;:7.5,&quot;effectiveType&quot;:&quot;4g&quot;,&quot;onchange&quot;:null,&quot;rtt&quot;:100}&apos;),true,&quot;tr_efJxAjEXKXfkpgLy&quot;);
+			</script>
+		<script  xmlns="">self.tr_HpOVmsEPHVHaqnOe = function(frame,opts){(function(frame,opts) {
+
+					if (frame.traceDefinedDeviceEnum === true) return;
+
+					if (!frame.navigator) return;
+
+
+
+					Object.defineProperty(frame.navigator, &quot;webkitGetUserMedia&quot;,{
+
+						enumerable:true,
+
+						configurable:false,
+
+						value:undefined
+
+					});
+
+
+
+					if (frame.navigator.mediaDevices){
+
+						Object.defineProperty(frame.navigator.mediaDevices, &quot;enumerateDevices&quot;,{
+
+							enumerable:true,
+
+							configurable:false,
+
+							value:undefined
+
+						});
+
+					}
+
+
+
+					if (frame.MediaStreamTrack){
+
+						Object.defineProperties(frame.MediaStreamTrack, {
+
+							&quot;getSources&quot;:{
+
+								enumerable:true,
+
+								configurable:false,
+
+								value:undefined
+
+							},
+
+							&quot;getMediaDevices&quot;:{
+
+								enumerable:true,
+
+								configurable:false,
+
+								value:undefined
+
+							}
+
+						});
+
+					}
+
+
+
+					frame.traceDefinedDeviceEnum = true;
+
+				})(frame,opts)};  (function(opts,frames,funcName){
+
+			self[funcName](window,opts);
+
+
+
+			if (frames !== true) return;
+
+
+
+			// HTMLFrameElement is an obsolete element however is still implemented in browsers
+
+			[&quot;HTMLIFrameElement&quot;,&quot;HTMLFrameElement&quot;].forEach(function(el){
+
+				var wind = self[el].prototype.__lookupGetter__(&apos;contentWindow&apos;),
+
+					cont = self[el].prototype.__lookupGetter__(&apos;contentDocument&apos;);
+
+
+
+				Object.defineProperties(self[el].prototype,{
+
+					contentWindow:{
+
+						get:function(){
+
+							if (this.src &amp;&amp; this.src.indexOf(&apos;//&apos;) !== -1 &amp;&amp; location.host !== this.src.split(&apos;/&apos;)[2]) return wind.apply(this);
+
+
+
+							var frame = wind.apply(this);
+
+							if (frame) {
+
+								try {frame.HTMLCanvasElement;}catch(e){}
+
+								self[funcName](frame,opts);
+
+							}
+
+
+
+							return frame;
+
+						}
+
+					},
+
+					contentDocument:{
+
+						get:function(){
+
+							if (this.src &amp;&amp; this.src.indexOf(&apos;//&apos;) !== -1 &amp;&amp; location.host !== this.src.split(&apos;/&apos;)[2]) return cont.apply(this);
+
+
+
+							var frame = cont.apply(this);
+
+							if (frame &amp;&amp; frame !== null) {
+
+								try {frame.HTMLCanvasElement;}catch(e){}
+
+								self[funcName](frame,opts);
+
+							}
+
+
+
+							return frame;
+
+						}
+
+					}
+
+				});
+
+			});
+
+		})((function(opts){
+
+					return JSON.parse(opts);
+
+				})(&apos;{&quot;enabled&quot;:true}&apos;),true,&quot;tr_HpOVmsEPHVHaqnOe&quot;);
+			</script>
+		<script  xmlns="">self.tr_hqxQCxccGhUzuIor = function(frame,opts){(function(frame){
+
+				if (frame.traceDefinedRects === true) return;
+
+
+
+				function updatedRect(old,round,overwrite){
+
+					function genOffset(round,val){
+
+						var off = Math.floor(Math.random()*100)/100;
+
+						return val + (round ? Math.round(off) : off);
+
+					}
+
+
+
+					var temp = overwrite === true ? old : new DOMRect();
+
+
+
+					temp.top 	= genOffset(round,old.top);
+
+					temp.right	= genOffset(round,old.right);
+
+					temp.bottom = genOffset(round,old.bottom);
+
+					temp.left 	= genOffset(round,old.left);
+
+					temp.width 	= genOffset(round,old.width);
+
+					temp.height = genOffset(round,old.height);
+
+					temp.x 		= genOffset(round,old.x);
+
+					temp.y 		= genOffset(round,old.y);
+
+
+
+					return temp;
+
+				}
+
+
+
+				[&quot;Element&quot;,&quot;Range&quot;].forEach(function(el){
+
+					// Check for broken frames
+
+					if (frame[el] === undefined) return;
+
+
+
+					// getClientRects
+
+					var clientRects = frame[el].prototype.getClientRects;
+
+
+
+					Object.defineProperty(frame[el].prototype,&quot;getClientRects&quot;,{
+
+						value:function(){
+
+							var rects = clientRects.apply(this,arguments);
+
+							var krect = Object.keys(rects);
+
+
+
+							var DOMRectList = function(){};
+
+							var list = new DOMRectList();
+
+							list.length = krect.length;
+
+							for (var i = 0;i&lt;list.length;i++){
+
+								if (krect[i] === &quot;length&quot;) continue;
+
+								list[i] = updatedRect(rects[krect[i]],false,false);
+
+							}
+
+
+
+							window.top.postMessage(&quot;trace-protection::ran::clientrects::get&quot;, &apos;*&apos;);
+
+							return list;
+
+						}
+
+					});
+
+					Object.defineProperty(frame[el].prototype.getClientRects, &quot;toString&quot;,{
+
+						value:function(){
+
+							window.top.postMessage(&quot;trace-protection::ran::clientrects::getstring&quot;, &apos;*&apos;);
+
+							return &quot;getClientRects() { [native code] }&quot;;
+
+						}
+
+					});
+
+
+
+					// getBoundingClientRect
+
+					var boundingRects = frame[el].prototype.getBoundingClientRect;
+
+
+
+					Object.defineProperty(frame[el].prototype,&quot;getBoundingClientRect&quot;,{
+
+						value:function(){
+
+							var rect = boundingRects.apply(this,arguments);
+
+							if (this === undefined || this === null) return rect;
+
+
+
+							if (location.host.includes(&quot;google&quot;)) return rect;
+
+
+
+							window.top.postMessage(&quot;trace-protection::ran::clientrectsbounding::get&quot;, &apos;*&apos;);
+
+
+
+							return updatedRect(rect,true,true);
+
+						}
+
+					});
+
+					Object.defineProperty(frame[el].prototype.getBoundingClientRect, &quot;toString&quot;,{
+
+						value:function(){
+
+							window.top.postMessage(&quot;trace-protection::ran::clientrectsbounding::getstring&quot;, &apos;*&apos;);
+
+							return &quot;getBoundingClientRect() { [native code] }&quot;;
+
+						}
+
+					});
+
+				});
+
+
+
+				frame.traceDefinedRects = true;
+
+			})(frame,opts)};  (function(opts,frames,funcName){
+
+			self[funcName](window,opts);
+
+
+
+			if (frames !== true) return;
+
+
+
+			// HTMLFrameElement is an obsolete element however is still implemented in browsers
+
+			[&quot;HTMLIFrameElement&quot;,&quot;HTMLFrameElement&quot;].forEach(function(el){
+
+				var wind = self[el].prototype.__lookupGetter__(&apos;contentWindow&apos;),
+
+					cont = self[el].prototype.__lookupGetter__(&apos;contentDocument&apos;);
+
+
+
+				Object.defineProperties(self[el].prototype,{
+
+					contentWindow:{
+
+						get:function(){
+
+							if (this.src &amp;&amp; this.src.indexOf(&apos;//&apos;) !== -1 &amp;&amp; location.host !== this.src.split(&apos;/&apos;)[2]) return wind.apply(this);
+
+
+
+							var frame = wind.apply(this);
+
+							if (frame) {
+
+								try {frame.HTMLCanvasElement;}catch(e){}
+
+								self[funcName](frame,opts);
+
+							}
+
+
+
+							return frame;
+
+						}
+
+					},
+
+					contentDocument:{
+
+						get:function(){
+
+							if (this.src &amp;&amp; this.src.indexOf(&apos;//&apos;) !== -1 &amp;&amp; location.host !== this.src.split(&apos;/&apos;)[2]) return cont.apply(this);
+
+
+
+							var frame = cont.apply(this);
+
+							if (frame &amp;&amp; frame !== null) {
+
+								try {frame.HTMLCanvasElement;}catch(e){}
+
+								self[funcName](frame,opts);
+
+							}
+
+
+
+							return frame;
+
+						}
+
+					}
+
+				});
+
+			});
+
+		})(null,true,&quot;tr_hqxQCxccGhUzuIor&quot;);
+			</script>
+		<script  xmlns="">self.tr_JAbvSuUEurMGSzow = function(frame,opts){(function(frame,opts){
+
+				opts = JSON.parse(opts);
+
+				if (frame.traceDefinedHardwareId === true) return;
+
+				if (!frame.navigator) return;
+
+
+
+				if (opts[0] === true){
+
+					Object.defineProperty(frame.navigator, &quot;hardwareConcurrency&quot;,{
+
+						enumerable:true,
+
+						configurable:false,
+
+						value:opts[1] || 4
+
+					});
+
+				}
+
+				if (opts[2] === true){
+
+					Object.defineProperty(frame.navigator, &quot;deviceMemory&quot;,{
+
+						enumerable:true,
+
+						configurable:false,
+
+						value:opts[3] || 6
+
+					});
+
+				}
+
+				if (opts[4] === true){
+
+					Object.defineProperty(frame.navigator, &quot;getVRDisplays&quot;,{
+
+						enumerable:false,
+
+						configurable:false,
+
+						value:undefined
+
+					});
+
+					Object.defineProperty(frame.navigator, &quot;activeVRDisplays&quot;,{
+
+						enumerable:false,
+
+						configurable:false,
+
+						value:undefined
+
+					});
+
+				}
+
+				if (opts[5] === true){
+
+					Object.defineProperty(frame.navigator, &quot;getGamepads&quot;,{
+
+						enumerable:false,
+
+						configurable:false,
+
+						value:undefined
+
+					});
+
+				}
+
+
+
+				frame.traceDefinedHardwareId = true;
+
+			})(frame,opts)};  (function(opts,frames,funcName){
+
+			self[funcName](window,opts);
+
+
+
+			if (frames !== true) return;
+
+
+
+			// HTMLFrameElement is an obsolete element however is still implemented in browsers
+
+			[&quot;HTMLIFrameElement&quot;,&quot;HTMLFrameElement&quot;].forEach(function(el){
+
+				var wind = self[el].prototype.__lookupGetter__(&apos;contentWindow&apos;),
+
+					cont = self[el].prototype.__lookupGetter__(&apos;contentDocument&apos;);
+
+
+
+				Object.defineProperties(self[el].prototype,{
+
+					contentWindow:{
+
+						get:function(){
+
+							if (this.src &amp;&amp; this.src.indexOf(&apos;//&apos;) !== -1 &amp;&amp; location.host !== this.src.split(&apos;/&apos;)[2]) return wind.apply(this);
+
+
+
+							var frame = wind.apply(this);
+
+							if (frame) {
+
+								try {frame.HTMLCanvasElement;}catch(e){}
+
+								self[funcName](frame,opts);
+
+							}
+
+
+
+							return frame;
+
+						}
+
+					},
+
+					contentDocument:{
+
+						get:function(){
+
+							if (this.src &amp;&amp; this.src.indexOf(&apos;//&apos;) !== -1 &amp;&amp; location.host !== this.src.split(&apos;/&apos;)[2]) return cont.apply(this);
+
+
+
+							var frame = cont.apply(this);
+
+							if (frame &amp;&amp; frame !== null) {
+
+								try {frame.HTMLCanvasElement;}catch(e){}
+
+								self[funcName](frame,opts);
+
+							}
+
+
+
+							return frame;
+
+						}
+
+					}
+
+				});
+
+			});
+
+		})((function(opts){
+
+				return opts;
+
+			})(&apos;[true,4,true,4,true,true]&apos;),true,&quot;tr_JAbvSuUEurMGSzow&quot;);
+			</script>
+		<title>rgb</title>
+		<desc>Created with Sketch.</desc>
+		<g id="Page-1">
+			<g id="rgb">
+				<g id="Layer_1_1_">
+					<path id="Shape_8_" class="st1" d="M458.2,617.7L477,510.4c-19.3-14.9-26.9-40.5-18.9-63.5c7.9-23,29.7-38.5,54.1-38.4V289.4
+						H367c-14.9,0-29.2,5.9-39.8,16.5c-10.5,10.5-16.5,24.9-16.5,39.8v275.8c0,5.2,1.1,10.3,3.4,15C326.3,661.1,374.3,740.2,512,801
+						V622.1C494,622.2,476,620.7,458.2,617.7L458.2,617.7z"/>
+					<path id="Shape_9_" class="st1" d="M656.9,289H512v119.1l0,0c24.3-0.1,45.9,15.2,54,38c8,22.9,0.7,48.4-18.3,63.4l18.8,107.8
+						c-18,3.1-36.2,4.7-54.4,4.7v178.6c137.5-60.5,185.7-139.9,197.9-164.5c2.3-4.7,3.4-9.8,3.4-15V345.5c0.1-15-5.8-29.4-16.4-40
+						S671.9,289,656.9,289L656.9,289z"/>
+				</g>
+			</g>
+		</g>
+		<script  xmlns="">(function(){
+
+			function disableFunction(frame){
+
+				if (frame === null) return;
+
+				if (frame.traceDefinedBattery === true) return;
+
+				if (!frame.navigator) return;
+
+
+
+				var BatteryManager = function(){
+
+					this.charging = true;
+
+					this.chargingTime = Infinity;
+
+					this.dischargingTime = Infinity;
+
+					this.level = 1.00;
+
+					this.onchargingchange = null;
+
+					this.onchargingtimechange = null;
+
+					this.ondischargingtimechange = null;
+
+					this.onlevelchange = null;
+
+
+
+					window.top.postMessage(&quot;trace-protection::ran::battery::main&quot;, &apos;*&apos;);
+
+				};
+
+
+
+				Object.defineProperty(frame.navigator,&quot;getBattery&quot;,{
+
+					enumerable:true,
+
+					configurable:false,
+
+					value:undefined //new BatteryManager()
+
+				});
+
+
+
+				frame.traceDefinedBattery = true;
+
+			}
+
+			Object.defineProperty(navigator,&quot;getBattery&quot;,{
+
+				enumerable:true,
+
+				configurable:false,
+
+				value:undefined
+
+			});
+
+		})(undefined);
+			</script>
+		<script  xmlns="">(function(opts){
+
+			var opts = JSON.parse(opts);
+
+
+
+			function disableFunction(frame,opts,data){
+
+				if (frame === null) return;
+
+
+
+				function defScreenProp(name,val,offset){
+
+					if (offset) val = frame.screen[name] + val;
+
+
+
+					Object.defineProperty(frame.screen,name,{
+
+						enumerable:true,
+
+						configurable:false,
+
+						writable:false,
+
+						value:val
+
+					});
+
+				}
+
+
+
+				function defProp(name,val,offset){
+
+					if (offset) val = frame[name] + val;
+
+
+
+					Object.defineProperty(frame,name,{
+
+						enumerable:true,
+
+						configurable:false,
+
+						writable:false,
+
+						value:val
+
+					});
+
+				}
+
+
+
+				if (frame.traceDefinedScreen === true) return;
+
+
+
+				// Loop through different resolution settings adding a small random offset
+
+				if (opts[&quot;randomOpts&quot;][&quot;enabled&quot;] === true){
+
+					var screenVars = [&quot;availHeight&quot;,&quot;availLeft&quot;,&quot;availTop&quot;,&quot;availWidth&quot;,&quot;height&quot;,&quot;width&quot;];
+
+					for (var screenVar in screenVars){
+
+						defScreenProp(
+
+							screenVars[screenVar],
+
+							(Math.floor(Math.random()*parseInt(opts[&quot;randomOpts&quot;][&quot;values&quot;][0]))+parseInt(opts[&quot;randomOpts&quot;][&quot;values&quot;][1])),
+
+							true
+
+						);
+
+					}
+
+				}
+
+
+
+				if (opts[&quot;commonResolutions&quot;][&quot;enabled&quot;] === true){
+
+					defScreenProp(&quot;availHeight&quot;,data[&quot;scRes&quot;][1],false);
+
+					defScreenProp(&quot;availWidth&quot;,data[&quot;scRes&quot;][0],false);
+
+					defScreenProp(&quot;height&quot;,data[&quot;scRes&quot;][1],false);
+
+					defScreenProp(&quot;width&quot;,data[&quot;scRes&quot;][0],false);
+
+				}
+
+
+
+				// Change pixel depths
+
+				if (opts[&quot;modifyDepths&quot;][&quot;enabled&quot;] === true) {
+
+					defScreenProp(&quot;colorDepth&quot;, data[&quot;colorDepth&quot;], true);
+
+					defScreenProp(&quot;pixelDepth&quot;, data[&quot;pixelDepth&quot;], true);
+
+				}
+
+
+
+				if (opts[&quot;modifyPixelRatio&quot;][&quot;enabled&quot;] === true){
+
+					frame.devicePixelRatio = data[&quot;pixelRatio&quot;];
+
+				}
+
+
+
+				if (frame.screen.mozOrientation) defScreenProp(&quot;mozOrientation&quot;,undefined);
+
+
+
+				// Spoof window properties
+
+				if (frame.innerHeight) 	defProp(&quot;innerHeight&quot;,data[&quot;innerHeight&quot;],true);
+
+				if (frame.innerWidth) 	defProp(&quot;innerWidth&quot;,data[&quot;innerWidth&quot;],true);
+
+				if (frame.outerHeight) 	defProp(&quot;outerHeight&quot;,data[&quot;outerHeight&quot;],true);
+
+				if (frame.outerWidth) 	defProp(&quot;outerWidth&quot;,data[&quot;outerWidth&quot;],true);
+
+
+
+				frame.traceDefinedScreen = true;
+
+			}
+
+
+
+			var rand = function(max){
+
+				return Math.floor(Math.random()*max);
+
+			};
+
+
+
+			var depthOffsets = [-6,6,12,24];
+
+			var data = {
+
+				&quot;scRes&quot;:opts[&quot;commonResolutions&quot;][&quot;resolutions&quot;][rand(opts[&quot;commonResolutions&quot;][&quot;resolutions&quot;].length)],
+
+				&quot;colorDepth&quot;:depthOffsets[rand(depthOffsets.length)],
+
+				&quot;pixelDepth&quot;:depthOffsets[rand(depthOffsets.length)],
+
+				&quot;pixelRatio&quot;:rand(4)+1,
+
+
+
+				&quot;innerHeight&quot;:rand(20),
+
+				&quot;innerWidth&quot;:rand(20),
+
+				&quot;outerHeight&quot;:rand(20),
+
+				&quot;outerWidth&quot;:rand(20)
+
+			};
+
+
+
+			disableFunction(window,opts,data);
+
+			var wind = HTMLIFrameElement.prototype.__lookupGetter__(&apos;contentWindow&apos;),
+
+				cont = HTMLIFrameElement.prototype.__lookupGetter__(&apos;contentDocument&apos;);
+
+
+
+			Object.defineProperties(HTMLIFrameElement.prototype,{
+
+				contentWindow:{
+
+					get:function(){
+
+						var frame = wind.apply(this);
+
+						if (this.src &amp;&amp; this.src.indexOf(&apos;//&apos;) !== -1 &amp;&amp; location.host !== this.src.split(&apos;/&apos;)[2]) return frame;
+
+						try {frame.HTMLCanvasElement;}catch(e){}
+
+						disableFunction(frame,opts,data);
+
+						return frame;
+
+					}
+
+				},
+
+				contentDocument:{
+
+					get:function(){
+
+						if (this.src &amp;&amp; this.src.indexOf(&apos;//&apos;) !== -1 &amp;&amp; location.host !== this.src.split(&apos;/&apos;)[2]) return cont.apply(this);
+
+						var frame = wind.apply(this);
+
+						try {frame.HTMLCanvasElement} catch(e){}
+
+						disableFunction(frame,opts,data);
+
+						return cont.apply(this);
+
+					}
+
+				}
+
+			});
+
+		})(&apos;{&quot;randomOpts&quot;:{&quot;enabled&quot;:true,&quot;values&quot;:[-50,50]},&quot;commonResolutions&quot;:{&quot;enabled&quot;:false,&quot;resolutions&quot;:[[1024,768],[1280,720],[1280,800],[1280,1024],[1360,768],[1366,768],[1440,900],[1600,900],[1920,1080],[1920,1440],[3440,1440],[3840,1600]]},&quot;modifyDepths&quot;:{&quot;enabled&quot;:true},&quot;modifyPixelRatio&quot;:{&quot;enabled&quot;:true}}&apos;);
+			</script>
+	</g>
+</g>
+</svg>
