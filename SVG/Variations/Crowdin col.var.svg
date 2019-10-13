@@ -3,14 +3,14 @@
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1024 1024" style="enable-background:new 0 0 1024 1024;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#2E3340;}
+	.st0{fill:#66BB6A;}
 	.st1{fill:#FFFFFF;}
 </style>
 <g id="Guides">
 </g>
 <g id="Icon">
 	<circle class="st0" cx="512" cy="512" r="512"/>
-	<g id="Crowdin_Symbol">
+	<g id="Crowdin_Symbol_1_">
 		<path class="st1" d="M781.5,449.4c1.3,0,2.2-1.1,2.2-2.4c0-1.1-0.8-2-1.9-2.2c-17.7-3.5-45.7-6.4-76.5-6.4
 			c-68.9,0-151.5,14.8-162.5,71.7c-0.4,2.1-1.2,12.9-1.5,15c6.3,1,10.9,1.8,14.5,2.3c-0.4,2.9-0.6,5.7-0.7,8.6
 			c-0.1,5.3,0,10.2,0.3,14.9c-4.4-0.6-9-1.2-13.6-1.9c5.6,58.9,37.9,75.7,71.8,76.4h2.4c21.4,0,43.2-6.2,59-12
