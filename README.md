@@ -17,7 +17,6 @@ Monochrome-styled 2FA icons for open source Android authenticator [Aegis](https:
 - [SVG PORN](https://svgporn.com/)
 - [Worldvectorlogo](https://worldvectorlogo.com/)
 - [Seeklogo](https://seeklogo.com/)
-- [simple-svg-brand-logos](https://github.com/herrbischoff/simple-svg-brand-logos)
 - [Awesome Logos](https://www.awesomelogos.org/)
 
 ### Lists of sites supporting 2FA
