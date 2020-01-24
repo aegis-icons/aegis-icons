@@ -4,7 +4,7 @@
 
 **[Browse site and app icons](/PNG)** • **[Download icon pack](../../releases/latest)**
 
-[![Site and app icons](full_preview.png)](/PNG)
+[![Site and app icons](full_preview.webp)](/PNG)
 
 ## Generic
 
