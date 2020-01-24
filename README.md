@@ -24,7 +24,6 @@ Monochrome-styled 2FA icons for open source Android authenticator [Aegis](https:
 - [Authy - Guides](https://authy.com/guides/)
 - [Two-factor authentication list](https://evanhahn.com/2fa/)
 - [andOTP's thumbnail directory](https://github.com/andOTP/andOTP/tree/master/app/src/main/res/drawable)
-- [raivo-issuer-icons vectors directory](https://github.com/tijme/raivo-issuer-icons/tree/master/vectors)
 
 ## Credits
 - [Simple Icons](https://simpleicons.org/) ([CC0 1.0 Universal](https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md))
