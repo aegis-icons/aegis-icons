@@ -22,4 +22,4 @@
 
 **[Browse outdated icons](/PNG/Outdated)** • **[Download icon pack](../../releases/latest)**
 
-[![Variation icons](full_preview_outdated.png)](/PNG/Variations)
+[![Variation icons](full_preview_outdated.png)](/PNG/Outdated)
