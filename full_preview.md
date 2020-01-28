@@ -20,6 +20,6 @@
 
 ## Outdated
 
-**[Browse variation icons](/PNG/Outdated)** • **[Download icon pack](../../releases/latest)**
+**[Browse outdated icons](/PNG/Outdated)** • **[Download icon pack](../../releases/latest)**
 
 [![Variation icons](full_preview_outdated.png)](/PNG/Variations)
