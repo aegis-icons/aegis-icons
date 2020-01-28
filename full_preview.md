@@ -17,3 +17,9 @@
 **[Browse variation icons](/PNG/Variations)** • **[Download icon pack](../../releases/latest)**
 
 [![Variation icons](full_preview_variations.png)](/PNG/Variations)
+
+## Outdated
+
+**[Browse variation icons](/PNG/Outdated)** • **[Download icon pack](../../releases/latest)**
+
+[![Variation icons](full_preview_outdated.png)](/PNG/Variations)
