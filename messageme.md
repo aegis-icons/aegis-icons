@@ -8,7 +8,7 @@ _Remove spaces and replace **[at]** with **@** and **[dot]** with **.**_
 
 ----
 
-Please attach papers that indicates ownership of the specific trademark(s)!
+Please attach info that indicates ownership of the specific trademark(s)!
 
 *Emails that aren't related to icon takedowns are ignored and left unanswered.*
 
