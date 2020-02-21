@@ -2,3 +2,4 @@
 *.zip
 *.URL
 .resources/
+.compress/
