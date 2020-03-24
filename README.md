@@ -14,6 +14,7 @@ Monochrome-styled 2FA icons for open source Android authenticator [Aegis](https:
 - Official branding pages
 - Wikipedia pages / [Wikimedia Commons](https://commons.wikimedia.org/wiki/Main_Page)
 - [Awesome Logos](https://www.awesomelogos.org/)
+- [jaywcjlove / logo](https://github.com/jaywcjlove/logo/tree/master/img) (for chinese apps & sites)
 - [Seeklogo](https://seeklogo.com/)
 - [Simple Icons](https://simpleicons.org/)
 - [Worldvectorlogo](https://worldvectorlogo.com/)
