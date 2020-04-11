@@ -28,6 +28,7 @@ Unofficial monochrome-styled 2FA icons for open source Android authenticator [Ae
 
 ## Credits
 - [Feather Icons](https://feathericons.com/) by Cole Bemis ([MIT](https://github.com/feathericons/feather/blob/master/LICENSE))
+- [Fork Awesome](https://forkaweso.me/Fork-Awesome/) ([SIL OFL 1.1](https://github.com/ForkAwesome/Fork-Awesome/blob/master/LICENSES))
 - [Font Awesome](https://fontawesome.com/) by Fonticons ([CC BY 4.0](https://github.com/FortAwesome/Font-Awesome/blob/master/LICENSE.txt))
 - [fontdiao](https://github.com/lexrus/fontdiao) by Lex Tang ([WTFPL](https://github.com/lexrus/fontdiao#license))
 - [Linux Deepin icon theme](https://github.com/linuxdeepin/deepin-icon-theme) by Wuhan Deepin Technology ([GPL 3.0](https://github.com/linuxdeepin/deepin-icon-theme/blob/master/LICENSE))
