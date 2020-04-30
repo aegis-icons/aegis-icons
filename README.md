@@ -6,7 +6,7 @@
 
 Unofficial monochrome-styled 2FA icons for open source Android authenticator [Aegis](https://github.com/beemdevelopment/Aegis).
 
-[Make a issue](https://github.com/krisu5/aegis-icons/issues) if you want to request a icon.
+[Make a issue](https://github.com/krisu5/aegis-icons/issues) if you want to request a new icon, or even better check out [CONTRIBUTING.md](https://github.com/krisu5/aegis-icons/blob/master/CONTRIBUTING.md) to start making it yourself!
 
 ## Resources
 
