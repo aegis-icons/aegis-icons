@@ -28,7 +28,7 @@ Scour the logo resources (URL, app data, etc.) to find a vector-based image (SVG
 Open the file with Adobe Illustrator, [Inkscape](https://inkscape.org), or another vector image editor of your choice. Follow the [Style guidelines](#style-guidelines) to create a suitable icon(s).
 
 ### Save and export
-Save the file in its original format (whether AI or SVG), and additionally export as a PNG file with 1024 px for both height and width. Optionally compress the PNG file using [PNG Gauntlet](https://pnggauntlet.com) or other lossless compression.
+Save the file in its original format (whether AI or SVG), and additionally export as a PNG file with 1024 px for both height and width. Compress the PNG file using [Pingo](https://css-ig.net/pingo) with highest possible compression (-s9) or [ImageOptim](https://imageoptim.com/mac), if you're using Mac.
 
 ### Submit to repository
 
@@ -64,4 +64,4 @@ Submit your icon for review by [opening a new issue](https://github.com/krisu5/a
           - Examples: `Black Desert Online alt bg.var.png`
 
 ## Maintainer's Guide
-  - As needed, update `full_preview.md`, `full_preview_generic.png`, `full_preview_variations.png`, and `full_preview_outdated.png`.
+  - As needed, update `full_preview.md`, `full_preview_generic.png`, `full_preview_generic.webp`, `full_preview_variations.png`, and `full_preview_outdated.png`.
