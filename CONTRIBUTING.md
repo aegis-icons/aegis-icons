@@ -1,3 +1,7 @@
+# ⚠ Contributing process is still work in progress
+
+Do not submit icons, until this notice is gone and documents / assets related to contributing are finalized.
+
 # Contributing
 
 Thank you for taking the time to contribute! Ask for help, report a bug, or request a feature simply by [opening a new issue](https://github.com/krisu5/aegis-icons/issues)! If you would like to contribute icons or code, please fork the project and keep reading!
