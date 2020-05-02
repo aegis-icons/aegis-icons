@@ -1,13 +1,16 @@
 # ⚠ Contributing process is still work in progress
+**⚠ Do not submit icons, until this notice is gone and documents / assets related to contributing are finalized.**
 
-Do not submit icons, until this notice is gone and documents / assets related to contributing are finalized.
+----
 
 # Contributing
-
 Thank you for taking the time to contribute! Ask for help, report a bug, or request a feature simply by [opening a new issue](https://github.com/krisu5/aegis-icons/issues)! If you would like to contribute icons or code, please fork the project and keep reading!
 
-#### Table of contents
+**For contributing, you need to know basics of making and editing vector graphics.**
 
+---
+
+#### Table of contents
 - [**Icon creation walkthrough**](#icon-creation-walkthrough)
   - [Find source images](#find-source-images)
   - [Editing with Inkscape or Adobe Illustrator](#editing-with-inkscape-or-adobe-illustrator)
@@ -17,16 +20,24 @@ Thank you for taking the time to contribute! Ask for help, report a bug, or requ
   - [Style](#style)
   - [Variations](#variations)
   - [Technical](#technical)
+- [**Resources**](#resources)
+  - [Logos](#logos)
+  - [Lists of sites supporting 2FA](#lists-of-sites-supporting-2fa)
+  - [Software](#software)
 - [**Maintainer's guide**](#maintainers-guide)
+
+---
 
 ## Icon creation walkthrough
 
 ### Find source images
-Scour the logo resources (URL, app data, etc.) to find a vector-based image (SVG, AI, etc.). Here are some places you can check:
-- Company press kit (Example: [Zenkit](https://zenkit.com/en/press-kit/) logo press kit contains Zenkit_Logo1_Flat.eps, which when opened with Inkscape turns out to contain a vector-based logo.)
-- Logo on company website; try right-clicking it and selecting *Save image as...*, and hope that the save dialogue appears with SVG, AI, etc., not JPEG, PNG, etc. If right-clicking the image does not have an option for *Save image as...*, try using Google Chrome and clicking *Inspect* at the bottom of the right-click menu (this works in other browsers too, but may have a different name). This opens the developer tools which can reveal hidden URLs. (Example: [Floatplane](https://www.floatplane.com), inspecting the icon in the footer reveals the URL https://frontend.floatplane.com/2.15.1/assets/images/logos/floatplane/icon-white.svg which can be copied-and-pasted into the browser to open the image, and then saved normally.)
-- Search [Wikimedia Commons](https://commons.wikimedia.org) (Example: [Linus Tech Tips](https://commons.wikimedia.org/wiki/File:2018_Linus_Tech_Tips_logo.svg))
-- Right-click the website and select *View page source*, then press *Ctrl+F* to open the search tool and type things like `.SVG` or `.AI` to look for hidden image URLs (Example: [You Need A Budget](https://www.youneedabudget.com) reveals the hidden URL https://www-assets.youneedabudget.com/wp-content/themes/dupatta/dist/images/safari-pinned-tab_9f66dfb85bfc4fae0f8fc465c3c2d978.svg which can be copied-and-pasted into the browser to open the image, and then saved normally.)
+Scour the logo resources (URL, app data, etc.) to find a vector-based image (SVG, AI, EPS etc.). Here are some places you can check:
+- Company press kit (e.g. [Zenkit press kit](https://zenkit.com/en/press-kit/) contains `Zenkit_Logo1_Flat.eps`, which when opened with Inkscape turns out to contain a vector-based logo.)
+- Logo on company website; try right-clicking it and selecting *Save image as...*, and see if the save dialogue appears with SVG, AI, etc., not JPEG, PNG, or other raster based format.
+  - If right-clicking the image does not have an option for *Save image as...*, try using *Inspect* at the bottom of the right-click menu. This opens the developer tools which can reveal hidden URLs.
+  - E.g. at [Floatplane](https://www.floatplane.com), inspecting the icon in the footer reveals the URL `https://frontend.floatplane.com/2.15.1/assets/images/logos/floatplane/icon-white.svg` which can be copied-and-pasted into the browser to open the image, and then saved normally.
+- Right-click the website and select *View page source*, then press *Ctrl+F* to open the search tool and type things like `.SVG` or `.AI` to look for hidden image URLs (Example: [You Need A Budget](https://www.youneedabudget.com) reveals the hidden SVG resource `https://www-assets.youneedabudget.com/wp-content/themes/dupatta/dist/images/safari-pinned-tab_*.svg` which can be copied-and-pasted into the browser to open the image, and then saved normally.)
+- If everything else fails, then check [logo resources](#logos) section
 
 ### Editing with Inkscape or Adobe Illustrator
 Open the file with Adobe Illustrator, [Inkscape](https://inkscape.org), or another vector image editor of your choice. Follow the [Style guidelines](#style-guidelines) to create a suitable icon(s).
@@ -35,10 +46,11 @@ Open the file with Adobe Illustrator, [Inkscape](https://inkscape.org), or anoth
 Save the file in its original format (whether AI or SVG), and additionally export as a PNG file with 1024 px for both height and width. Compress the PNG file using [Pingo](https://css-ig.net/pingo) with highest possible compression (-s9) or [ImageOptim](https://imageoptim.com/mac), if you're using Mac.
 
 ### Submit to repository
-
 Submit your icon for review by [opening a new issue](https://github.com/krisu5/aegis-icons/issues) and attaching your file(s) and source(s). Alternately, you are encouraged to refer to [this GitHub guide](https://guides.github.com/activities/contributing-to-open-source) to fork the Aegis Icons project, add the changed files to your fork, then create a Pull Request with your submissions. This more-complex method is less work for the maintainers, and gives you more impressive contribution stats on your GitHub user homepage 😉
 
 ## Style requirements
+[placeholder, write stuff here]
+
 ## Style
 - The primary icon uses the main company logo, whether that is a [logomark, logotype, or something else](https://blog.designcrowd.com/article/997/logo-logomark-logotype-whats-the-difference-and-what-do-you-need).
 - The icon has:
@@ -67,5 +79,38 @@ Submit your icon for review by [opening a new issue](https://github.com/krisu5/a
         - Icon variations with multiple differences: `Primary icon name **alt fg/bg.var**.extension`
           - Examples: `Black Desert Online alt bg.var.png`
 
+## Resources
+Resources marked with star (⭐) are recommended and most used by the maintainers.
+
+### Logos
+These are good resources for finding logos in vector format, when no official brand kit / vector logos are available.
+
+- [jaywcjlove / logo](https://github.com/jaywcjlove/logo/tree/master/img) *(good for finding logos of Chinese apps & sites)*
+- [lexrus / fontdiao](https://github.com/lexrus/fontdiao/tree/master/svg) *(good for finding logos of Chinese apps & sites)*
+- [LogoSear.ch](https://logosear.ch/) ⭐
+- [Seeklogo](https://seeklogo.com/)
+- [Simple Icons](https://simpleicons.org/) ⭐
+- [Worldvectorlogo](https://worldvectorlogo.com/)
+- [Wikimedia Commons](https://commons.wikimedia.org/wiki/Main_Page)
+- Wikipedia pages of the brand
+
+Google searching also works really well with right keywords (like `[app / site name] svg`)
+
+### Lists of sites supporting 2FA
+Need ideas for icons? These list apps / websites that support 2FA (and what kind of format too).
+
+- [andOTP's thumbnail directory](https://github.com/andOTP/andOTP/tree/master/app/src/main/res/drawable) ⭐ *(look for the filenames starting with `thumb_`)*
+- [Authy - Guides](https://authy.com/guides/) ⭐
+- [Two-factor authentication list](https://evanhahn.com/2fa/)
+- [Two Factor Auth List](https://twofactorauth.org/) ⭐
+
+### Software
+Looking for software to start make icons? Here's some of the well known ones.
+
+- [Adobe Illustrator](https://www.adobe.com/products/illustrator.html) ⭐ *(industry standard, most used software in this repository)*
+- [Affinity Designer](https://affinity.serif.com/en-gb/designer/) *(way cheaper but powerful alternative to Illustrator)*
+- [Inkscape](https://inkscape.org/) *(popular open source option)*
+
+
 ## Maintainer's Guide
-  - As needed, update `full_preview.md`, `full_preview_generic.png`, `full_preview_generic.webp`, `full_preview_variations.png`, and `full_preview_outdated.png`.
+  - As needed, update `full_preview.md`,  `full_preview.png` (and convert that to `full_preview.webp`), `full_preview_generic.png`, `full_preview_variations.png`, and `full_preview_outdated.png`.
