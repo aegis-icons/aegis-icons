@@ -8,24 +8,6 @@ Unofficial monochrome-styled 2FA icons for open source Android authenticator [Ae
 
 [Make a issue](https://github.com/krisu5/aegis-icons/issues) if you want to request a new icon, or check out [CONTRIBUTING.md](https://github.com/krisu5/aegis-icons/blob/master/CONTRIBUTING.md) to start making icons yourself!
 
-## Resources
-
-### Logos
-- Official branding pages
-- Wikipedia pages / [Wikimedia Commons](https://commons.wikimedia.org/wiki/Main_Page)
-- [Awesome Logos](https://www.awesomelogos.org/)
-- [jaywcjlove / logo](https://github.com/jaywcjlove/logo/tree/master/img) (for Chinese apps & sites)
-- [lexrus / fontdiao](https://github.com/lexrus/fontdiao/tree/master/svg) (for Chinese apps & sites)
-- [Seeklogo](https://seeklogo.com/)
-- [Simple Icons](https://simpleicons.org/)
-- [Worldvectorlogo](https://worldvectorlogo.com/)
-
-### Lists of sites supporting 2FA
-- [Two Factor Auth List](https://twofactorauth.org/)
-- [Authy - Guides](https://authy.com/guides/)
-- [andOTP's thumbnail directory](https://github.com/andOTP/andOTP/tree/master/app/src/main/res/drawable)
-- [Two-factor authentication list](https://evanhahn.com/2fa/)
-
 ## Credits
 - [Feather Icons](https://feathericons.com/) by Cole Bemis ([MIT](https://github.com/feathericons/feather/blob/master/LICENSE))
 - [Fork Awesome](https://forkaweso.me/Fork-Awesome/) ([SIL OFL 1.1](https://github.com/ForkAwesome/Fork-Awesome/blob/master/LICENSES))
