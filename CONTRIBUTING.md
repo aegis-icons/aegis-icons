@@ -6,7 +6,9 @@
 # Contributing
 Thank you for taking the time to contribute! Ask for help, report a bug, or request a feature simply by [opening a new issue](https://github.com/krisu5/aegis-icons/issues)! If you would like to contribute icons or code, please fork the project and keep reading!
 
-**For contributing, you need to know basics of making and editing vector graphics.**
+**For contributing, you have to know basics of making and editing vector graphics.**
+
+It's recommended to also have some knowledge of design in general.
 
 ---
 
@@ -15,6 +17,7 @@ Thank you for taking the time to contribute! Ask for help, report a bug, or requ
   - [Find source images](#find-source-images)
   - [Editing with Inkscape or Adobe Illustrator](#editing-with-inkscape-or-adobe-illustrator)
   - [Save and export](#save-and-export)
+  - [Compression](#compression)
   - [Submit to repository](#submit-to-repository)
 - [**Style requirements**](#style-requirements)
   - [Style](#style)
@@ -36,22 +39,27 @@ Scour the logo resources (URL, app data, etc.) to find a vector-based image (SVG
 - Logo on company website; try right-clicking it and selecting *Save image as...*, and see if the save dialogue appears with SVG, AI, etc., not JPEG, PNG, or other raster based format.
   - If right-clicking the image does not have an option for *Save image as...*, try using *Inspect* at the bottom of the right-click menu. This opens the developer tools which can reveal hidden URLs.
   - E.g. at [Floatplane](https://www.floatplane.com), inspecting the icon in the footer reveals the URL `https://frontend.floatplane.com/2.15.1/assets/images/logos/floatplane/icon-white.svg` which can be copied-and-pasted into the browser to open the image, and then saved normally.
-- Right-click the website and select *View page source*, then press *Ctrl+F* to open the search tool and type things like `.SVG` or `.AI` to look for hidden image URLs (Example: [You Need A Budget](https://www.youneedabudget.com) reveals the hidden SVG resource `https://www-assets.youneedabudget.com/wp-content/themes/dupatta/dist/images/safari-pinned-tab_*.svg` which can be copied-and-pasted into the browser to open the image, and then saved normally.)
-- If everything else fails, then check [logo resources](#logos) section
+- Right-click the website and select *View page source*, then press *Ctrl+F* to open the search tool and type things like `.SVG` or `.AI` to look for hidden image URLs 
+  - E.g. [You Need A Budget](https://www.youneedabudget.com) reveals the hidden SVG resource `https://www-assets.youneedabudget.com/wp-content/themes/dupatta/dist/images/safari-pinned-tab_*.svg` which can be copied-and-pasted into the browser to open the image, and then saved normally.)
+- If everything else fails, then check [logo resources](#logos) section.
 
 ### Editing with Inkscape or Adobe Illustrator
 Open the file with Adobe Illustrator, [Inkscape](https://inkscape.org), or another vector image editor of your choice. Follow the [Style guidelines](#style-guidelines) to create a suitable icon(s).
 
 ### Save and export
-Save the file in its original format (whether AI or SVG), and additionally export as a PNG file with 1024 px for both height and width. Compress the PNG file using [Pingo](https://css-ig.net/pingo) with highest possible compression (-s9) or [ImageOptim](https://imageoptim.com/mac), if you're using Mac.
+Save the file in its original format (whether AI or SVG), and additionally export as a PNG file with 1024 px for both height and width.
+
+### Compression
+Compress the PNG file with either using [pingo](https://css-ig.net/pingo) (recommended), [ImageOptim](https://imageoptim.com/mac) (if you're using Mac) or [TinyPNG webapp](https://tinypng.com/).
+
+If possible, **always use pingo.** It has best PNG compression currently and it's really fast. When using pingo's Windows GUI software *pinga*, [use these settings](https://user-images.githubusercontent.com/3540275/80963782-52ef5f80-8e18-11ea-8dbe-fc1c58fa81e4.png). For command line, use `pingo -s9 [file.png]`.
 
 ### Submit to repository
 Submit your icon for review by [opening a new issue](https://github.com/krisu5/aegis-icons/issues) and attaching your file(s) and source(s). Alternately, you are encouraged to refer to [this GitHub guide](https://guides.github.com/activities/contributing-to-open-source) to fork the Aegis Icons project, add the changed files to your fork, then create a Pull Request with your submissions. This more-complex method is less work for the maintainers, and gives you more impressive contribution stats on your GitHub user homepage 😉
 
 ## Style requirements
-[placeholder, write stuff here]
 
-## Style
+### Style
 - The primary icon uses the main company logo, whether that is a [logomark, logotype, or something else](https://blog.designcrowd.com/article/997/logo-logomark-logotype-whats-the-difference-and-what-do-you-need).
 - The icon has:
   - Image/page canvas of 1024 x 1024px
@@ -60,12 +68,12 @@ Submit your icon for review by [opening a new issue](https://github.com/krisu5/a
   - Company logo in flat white or flat black, depending on whichever creates greatest contrast with background color. This may require modifying an original multicolor company logo.
   - Company logo maximum height is 50% (512px) and maximum width is 75% (768 px).
 
-### Variations
+#### Variations
 - Other logos and variations (including logomarks when they are not the main brand logo) are accepted in the "Variations" subfolder.
 - Variations use the same filename as the
 - All variations otherwise follow the same style requirements as the primary logo.
 
-### Technical
+#### Technical
   - Master source file is vector-based AI or SVG format. Raster images (PNG/JPEG/etc) are unacceptable, including raster images embedded within the vector file.
   - SVG and PNG size are 1024 x 1024 px without any scale
   - Export for Aegis is 1024x1024px PNG file
@@ -113,4 +121,4 @@ Looking for software to start make icons? Here's some of the well known ones.
 
 
 ## Maintainer's Guide
-  - As needed, update `full_preview.md`,  `full_preview.png` (and convert that to `full_preview.webp`), `full_preview_generic.png`, `full_preview_variations.png`, and `full_preview_outdated.png`.
+  - As needed, update `full_preview.md`,  `full_preview.png` (and convert that to `full_preview.webp` with command `pingo -webp-nigh=100 -s9 full_preview.png`), `full_preview_generic.png`, `full_preview_variations.png`, and `full_preview_outdated.png`.
