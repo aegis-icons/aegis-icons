@@ -29,7 +29,7 @@ Even though PC is needed, you don't need to install extra software. Web browser 
 5. Click the circle part of the icon that has the background color. [🖼 Example](https://user-images.githubusercontent.com/3540275/81182240-35f09300-8fb6-11ea-975f-48a84888714e.png)
 6. Click the "color button". [🖼 Example](https://user-images.githubusercontent.com/3540275/81182244-36892980-8fb6-11ea-8b8c-8702bda5ec09.png)
 7. Select color you want.
-8. Click "Export" button. [🖼 Example](https://user-images.githubusercontent.com/3540275/81182247-3721c000-8fb6-11ea-80c9-e48a5a03da4c.png)
+8. Click "Export" button. [🖼 Example](https://user-images.githubusercontent.com/3540275/81184942-a947d400-8fb9-11ea-9a62-194430b7f6e4.png)
 9. Change `svg` to `png`.
 10. Change both `640px` to `1024px`.
 11. Download.
