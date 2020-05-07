@@ -3,7 +3,7 @@
 ## How I use these icons?
 
 1. Either download icons [separately](/PNG) or as [icon pack ZIP](../../releases/latest) (click to unhide "Assets" sections and download ZIP that starts with `PNGs_`)
-   - If you downloaded icon pack, use file manager to unzip it (if you don't have one, I recommend [Amaze](https://play.google.com/store/apps/details?id=com.amaze.filemanager&hl=en_US))
+   - If you downloaded icon pack, use file manager to unzip it (if you don't have one, I recommend [Amaze](https://github.com/TeamAmaze/AmazeFileManager/blob/master/README.md))
     - If you didn't find a icon for site / app you wanted, [double-check here](full_preview.md) and [make a issue](https://github.com/krisu5/aegis-icons/issues) you didn't find one.
 2. In Aegis, long press 2FA account you want to add the icon and press the "pencil" icon to edit. [🖼 Example](https://user-images.githubusercontent.com/3540275/80872785-e875dc80-8cbc-11ea-8451-0fff3ed4565f.png)
 3. In "Edit Profile", press the circle that has one letter in it. [🖼 Example](https://user-images.githubusercontent.com/3540275/80872798-f9bee900-8cbc-11ea-9a7d-c0f94a675044.png)
@@ -21,8 +21,8 @@ Repeat steps 2 to 7 for other accounts.
 
 Even though PC is needed, you don't need to install extra software. Web browser is all you need.
 
-1. [Get the SVG file for the icon you want to edit](/SVG).
-	- SVG is [vector file format](https://simple.wikipedia.org/wiki/Vector_graphics) that can  be easily edited, specially with colors. It's also possible to edit it via text (that's subject on the next tutorial).
+1. [Get the SVG file(s) for the icon(s) you want to edit](/SVG).
+	- SVG is [vector file format](https://simple.wikipedia.org/wiki/Vector_graphics) that can  be easily edited, specially with colors. It's also possible to edit it via text (that's the subject on the next tutorial).
 2. Right-click image and save it (or click "Raw" button and then save it).
 3. Go to [Vectr](https://vectr.com/new), webapp for vector making / editing.
 4. Select the SVG file. [🖼 Example](https://user-images.githubusercontent.com/3540275/81182238-34bf6600-8fb6-11ea-958c-05d1bf46ce7f.png)
@@ -31,13 +31,28 @@ Even though PC is needed, you don't need to install extra software. Web browser 
 7. Select color you want.
 8. Click "Export" button. [🖼 Example](https://user-images.githubusercontent.com/3540275/81184942-a947d400-8fb9-11ea-9a62-194430b7f6e4.png)
 9. Change `svg` to `png`.
-10. Change both `640px` to `1024px`.
+10. Change both `640px` values to `1024px`.
 11. Download.
 
 If you want to use a software, [Inkscape](https://inkscape.org/) is best free option. But you're on your own there.
 
 ### Harder way, but PC isn't necessary
 
+This tutorial focuses on icon editing in Android and with [Amaze file manager](https://github.com/TeamAmaze/AmazeFileManager/blob/master/README.md).
+
+1. [Get the SVG file(s) for the icon(s) you want to edit](/SVG).
+2. On Chrome (or Chromium-based browsers), long press the "raw" button and select "download link".
+3. Open **Amaze** and go to "Downloads" folder.
+4. Press menu icon on the file (three dots) and select "Open with".
+5. In the "Open As" dialog, select "text".
+6. Select "Amaze Text Editor".
+7. Select the color using [this web color picker](https://color.joelb.dev/).
+8. Copy the color by press the hex value. [🖼 Example](https://user-images.githubusercontent.com/3540275/81327385-da043800-90a3-11ea-9770-93250d10b643.png)
+9. Go back to Amaze, find part called `.st0` and replace the hex color value. [🖼 Example](https://user-images.githubusercontent.com/3540275/81327392-db356500-90a3-11ea-8b31-c60c27c0c5bc.png)
+	- If there isn't `.st0`, look for `circle` element and check the class to see the name.
+10. Press the "save" icon. [🖼 Example](https://user-images.githubusercontent.com/3540275/81327396-db356500-90a3-11ea-8f0e-7957ac7f3d90.png)
+11. [Convert SVG to PNG with "Cloud Convert" webapp](https://cloudconvert.com/svg-to-png)
+	- Or you could download "SVG conventer" app from Play Store.
 
 ## These icons aren't integrated in the app?
 
