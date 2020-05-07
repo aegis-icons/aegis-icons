@@ -52,7 +52,7 @@ This tutorial focuses on icon editing in Android and with [Amaze file manager](h
 	- If there isn't `.st0`, look for `circle` element and check the class to see the name.
 10. Press the "save" icon. [🖼 Example](https://user-images.githubusercontent.com/3540275/81327396-db356500-90a3-11ea-8f0e-7957ac7f3d90.png)
 11. [Convert SVG to PNG with "Cloud Convert" webapp](https://cloudconvert.com/svg-to-png)
-	- Or you could download "SVG conventer" app from Play Store.
+	- Or you could download some "SVG converter" app from Play Store.
 
 ## These icons aren't integrated in the app?
 
