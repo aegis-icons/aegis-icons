@@ -1,6 +1,7 @@
 *.lnk
 *.zip
 *.URL
-.resources/
-.compress/
+_compress/*.png
+_compress/*.webp
+_resources/
 _screenshots/
