@@ -4,22 +4,24 @@
 
 **[Browse site and app icons](/PNG)** • **[Download icon pack](../../releases/latest)**
 
-[![Site and app icons](full_preview.webp)](/PNG)
+[![Site and app icons](/_previews/full_preview.webp)](/PNG)
+
+*(Can't see the preview? [Click here](https://raw.githubusercontent.com/krisu5/aegis-icons/master/_previews/full_preview.png))*
 
 ## Generic
 
-**[Browse generic icons](/PNG/Generic%20Icons)** • **[Download icon pack](../../releases/latest)**
+**[Browse generic icons](/PNG/Generic)** • **[Download icon pack](../../releases/latest)**
 
-[![Generic icons](full_preview_generic.png)](/PNG/Generic%20Icons)
+[![Generic icons](/_previews/full_preview_generic.png)](/PNG/Generic)
 
-## Variations
+## Variations / Alternatives
 
 **[Browse variation icons](/PNG/Variations)** • **[Download icon pack](../../releases/latest)**
 
-[![Variation icons](full_preview_variations.png)](/PNG/Variations)
+[![Variation icons](/_previews/full_preview_variations.png)](/PNG/Variations)
 
 ## Outdated
 
 **[Browse outdated icons](/PNG/Outdated)** • **[Download icon pack](../../releases/latest)**
 
-[![Variation icons](full_preview_outdated.png)](/PNG/Outdated)
+[![Variation icons](/_previews/full_preview_outdated.png)](/PNG/Outdated)
