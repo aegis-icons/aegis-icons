@@ -1,12 +1,14 @@
 # 2FA Icons for Aegis
 
-[![Showcase banner](showcase.png)](full_preview.md)
+[![Showcase banner](/_previews/showcase.png)](full_preview.md)
 
 **[Browse the icons](/PNG)** • **[See the full preview](full_preview.md)** • **[Download icon pack](../../releases/latest)** • **[FAQ](FAQ.md)**
 
 Unofficial monochrome-styled 2FA icons for open source Android authenticator [Aegis](https://github.com/beemdevelopment/Aegis).
 
 [Make a issue](https://github.com/krisu5/aegis-icons/issues) if you want to request a new icon, or check out [CONTRIBUTING.md](https://github.com/krisu5/aegis-icons/blob/master/CONTRIBUTING.md) to start making icons yourself!
+
+**[📁 Repository for Illustrator files](https://github.com/krisu5/aegis-icons_AIs)**
 
 ## Credits
 - [Feather Icons](https://feathericons.com/) by Cole Bemis ([MIT](https://github.com/feathericons/feather/blob/master/LICENSE))
