@@ -39,22 +39,27 @@ Scour the logo resources (URL, app data, etc.) to find a vector-based image (SVG
 - Logo on company website; try right-clicking it and selecting *Save image as...*, and see if the save dialogue appears with SVG, AI, etc., not JPEG, PNG, or other raster based format.
   - If right-clicking the image does not have an option for *Save image as...*, try using *Inspect* at the bottom of the right-click menu. This opens the developer tools which can reveal hidden URLs.
   - E.g. at [Floatplane](https://www.floatplane.com), inspecting the icon in the footer reveals the URL `https://frontend.floatplane.com/2.15.1/assets/images/logos/floatplane/icon-white.svg` which can be copied-and-pasted into the browser to open the image, and then saved normally.
-- Right-click the website and select *View page source*, then press *Ctrl+F* to open the search tool and type things like `.SVG` or `.AI` to look for hidden image URLs 
-  - E.g. [You Need A Budget](https://www.youneedabudget.com) reveals the hidden SVG resource `https://www-assets.youneedabudget.com/wp-content/themes/dupatta/dist/images/safari-pinned-tab_*.svg` which can be copied-and-pasted into the browser to open the image, and then saved normally.)
+- Right-click the website and select *View page source*, then press *Ctrl+F* to open the search tool and type `SVG` to look for possible SVG vector files. Web inspector is also useful and better tool for some (press `F12`).
+  - E.g. [You Need A Budget](https://www.youneedabudget.com) reveals the hidden SVG resource `https://www-assets.youneedabudget.com/wp-content/themes/dupatta/dist/images/safari-pinned-tab_[random-alphanumerical].svg` which can be copied-and-pasted into the browser to open the image, and then saved normally.)
+  - Sometimes SVG is embedded as inline. Means that instead of linking to external file, whole SVG file code is added to the HTML (see [SVG code example](https://github.com/krisu5/aegis-icons/blob/master/SVG/Generic/Bitcoin.svg?short_path=5f7f93b)). In that case, copy the SVG code completely from HTML (usually website embedded SVG starts with `<svg version` and so forth & ends with `</svg>`), open your refer notepad software and save copypasted text as `filename.svg`. You can test if the file works by opening in it into web browser.
 - If everything else fails, then check [logo resources](#logos) section.
 
 ### Editing with Inkscape or Adobe Illustrator
 Open the file with Adobe Illustrator, [Inkscape](https://inkscape.org), or another vector image editor of your choice. Follow the [Style guidelines](#style-guidelines) to create a suitable icon(s).
 
 ### Save and export
-Save the file in its original format (whether AI or SVG), and additionally export as a PNG file with 1024 px for both height and width.
+If you're using Adobe Illustrator, save the file as AI **and** SVG. Remember to rename the artboard (`Shift + O`) before saving.
+
+For other softwares, save as SVG.
+
+Then export file as a PNG with 1024px for both height and width (1x scale for Illustrator's "Export for Screens").
 
 ### Compression
-Compress the PNG file with either using [pingo](https://css-ig.net/pingo)<b>*</b> (Windows), [Trimage](https://trimage.org/) (Linux & MacOS), [ImageOptim](https://imageoptim.com/mac) (MacOS) or [TinyPNG webapp](https://tinypng.com/).
+Compress the PNG file(s) with either using [pingo](https://css-ig.net/pingo)<b>*</b> (Windows), [ImageOptim](https://imageoptim.com/mac) (MacOS), [Trimage](https://trimage.org/) (Linux & MacOS) or [TinyPNG](https://tinypng.com/) (web app).
 
-When using pingo's Windows GUI software *pinga*, [use these settings](https://user-images.githubusercontent.com/3540275/80963782-52ef5f80-8e18-11ea-8dbe-fc1c58fa81e4.png). For command line, use `pingo -s9 [file.png]`.
+When using pingo's Windows GUI software *pinga*, [use these settings](https://user-images.githubusercontent.com/3540275/80963782-52ef5f80-8e18-11ea-8dbe-fc1c58fa81e4.png). For command line, use `pingo -s9 filename.png` or use [batch script](https://github.com/krisu5/aegis-icons/blob/master/_compress/.1_pingo-script-for-icons.bat).
 
-If your software of choice has compression settings, set those  maximum as well.
+If your software of choice has compression settings, set those  maximum as well. **Do not use lossy compressions.**
 
 > <b>*</b> While *pingo* is still the best & fastest PNG compressor currently, we can't recommend it 100% anymore because of author's uncertain behaviour. Recently, the author  of *pingo* has erased Linux version, feedback forum and changelog completely without warning and explanation. Good GUI alternatives for Windows are [FileOptimizer](https://sourceforge.net/projects/nikkhokkho/files/FileOptimizer/) and [PNGGauntlet](https://pnggauntlet.com/). For command line usage, check out *zopflipng* ([main source](https://github.com/google/zopfli), [tutorial](https://ariya.io/2016/06/using-zopfli-to-optimize-png-images), [Node.js port](https://github.com/pierreinglebert/node-zopfli), [builded Windows binaries](https://github.com/garyzyg/zopfli-windows/releases)).
 
@@ -97,8 +102,8 @@ Resources marked with star (⭐) are recommended and most used by the maintainer
 ### Logos
 These are good resources for finding logos in vector format, when no official brand kit / vector logos are available.
 
-- [jaywcjlove / logo](https://github.com/jaywcjlove/logo/tree/master/img) *(good for finding logos of Chinese apps & sites)*
-- [lexrus / fontdiao](https://github.com/lexrus/fontdiao/tree/master/svg) *(good for finding logos of Chinese apps & sites)*
+- [jaywcjlove / logo](https://github.com/jaywcjlove/logo/tree/master/img) (good for finding logos of Chinese apps & sites)
+- [lexrus / fontdiao](https://github.com/lexrus/fontdiao/tree/master/svg) (good for finding logos of Chinese apps & sites)
 - [LogoSear.ch](https://logosear.ch/) ⭐
 - [Seeklogo](https://seeklogo.com/)
 - [Simple Icons](https://simpleicons.org/) ⭐
@@ -111,7 +116,7 @@ Google searching also works really well with right keywords (like `[app / site n
 ### Lists of sites supporting 2FA
 Need ideas for icons? These list apps / websites that support 2FA (and what kind of format too).
 
-- [andOTP's thumbnail directory](https://github.com/andOTP/andOTP/tree/master/app/src/main/res/drawable) ⭐ *(look for the filenames starting with `thumb_`)*
+- [andOTP's thumbnail directory](https://github.com/andOTP/andOTP/tree/master/app/src/main/res/drawable) ⭐ (look for the filenames starting with `thumb_`)
 - [Authy - Guides](https://authy.com/guides/) ⭐
 - [Two-factor authentication list](https://evanhahn.com/2fa/)
 - [Two Factor Auth List](https://twofactorauth.org/) ⭐
@@ -119,9 +124,9 @@ Need ideas for icons? These list apps / websites that support 2FA (and what kind
 ### Software
 Looking for software to start make icons? Here's some of the well known ones.
 
-- [Adobe Illustrator](https://www.adobe.com/products/illustrator.html) ⭐ *(industry standard, most used software in this repository)*
-- [Affinity Designer](https://affinity.serif.com/en-gb/designer/) *(way cheaper but powerful alternative to Illustrator)*
-- [Inkscape](https://inkscape.org/) *(popular open source option)*
+- [Adobe Illustrator](https://www.adobe.com/products/illustrator.html) ⭐ (industry standard, most used software in this repository)
+- [Affinity Designer](https://affinity.serif.com/en-gb/designer/) (way cheaper but powerful alternative to Illustrator)
+- [Inkscape](https://inkscape.org/) (popular open source option)
 
 
 ## Maintainer's Guide
