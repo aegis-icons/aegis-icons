@@ -50,9 +50,13 @@ Open the file with Adobe Illustrator, [Inkscape](https://inkscape.org), or anoth
 Save the file in its original format (whether AI or SVG), and additionally export as a PNG file with 1024 px for both height and width.
 
 ### Compression
-Compress the PNG file with either using [pingo](https://css-ig.net/pingo) (recommended), [ImageOptim](https://imageoptim.com/mac) (if you're using Mac) or [TinyPNG webapp](https://tinypng.com/).
+Compress the PNG file with either using [pingo](https://css-ig.net/pingo)<b>*</b> (Windows), [Trimage](https://trimage.org/) (Linux & MacOS), [ImageOptim](https://imageoptim.com/mac) (MacOS) or [TinyPNG webapp](https://tinypng.com/).
 
-If possible, **always use pingo.** It has best PNG compression currently and it's really fast. When using pingo's Windows GUI software *pinga*, [use these settings](https://user-images.githubusercontent.com/3540275/80963782-52ef5f80-8e18-11ea-8dbe-fc1c58fa81e4.png). For command line, use `pingo -s9 [file.png]`.
+When using pingo's Windows GUI software *pinga*, [use these settings](https://user-images.githubusercontent.com/3540275/80963782-52ef5f80-8e18-11ea-8dbe-fc1c58fa81e4.png). For command line, use `pingo -s9 [file.png]`.
+
+If your software of choice has compression settings, set those  maximum as well.
+
+> <b>*</b> While *pingo* is still the best & fastest PNG compressor currently, we can't recommend it 100% anymore because of author's uncertain behaviour. Recently, the author  of *pingo* has erased Linux version, feedback forum and changelog completely without warning and explanation. Good GUI alternative for Windows is [FileOptimizer](https://sourceforge.net/projects/nikkhokkho/files/FileOptimizer/). For command line usage, check out *zopflipng* ([main source](https://github.com/google/zopfli), [tutorial](https://ariya.io/2016/06/using-zopfli-to-optimize-png-images), [Node.js port](https://github.com/pierreinglebert/node-zopfli), [builded Windows binaries](https://github.com/garyzyg/zopfli-windows/releases)).
 
 ### Submit to repository
 Submit your icon for review by [opening a new issue](https://github.com/krisu5/aegis-icons/issues) and attaching your file(s) and source(s). Alternately, you are encouraged to refer to [this GitHub guide](https://guides.github.com/activities/contributing-to-open-source) to fork the Aegis Icons project, add the changed files to your fork, then create a Pull Request with your submissions. This more-complex method is less work for the maintainers, and gives you more impressive contribution stats on your GitHub user homepage 😉
