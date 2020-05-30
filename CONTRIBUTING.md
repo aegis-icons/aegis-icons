@@ -36,6 +36,7 @@ It's recommended to also have some knowledge of design in general.
 ### Find source images
 Scour the logo resources (URL, app data etc.) to find a vector-based image (SVG, AI, EPS, PDF). Here are some places you can check:
 - Company press kit (e.g. [Zenkit press kit](https://zenkit.com/en/press-kit/) contains `Zenkit_Logo1_Flat.eps`.)
+  - Look for pages like: *Brand, Press, Media, Logos, Assets* etc.
 - Logo on company website; try right-clicking it and selecting *Save image as...*, and see if the save dialogue appears with SVG, **not** JPEG, PNG or other raster based format.
   - If right-clicking the image does not have an option for *Save image as...*, try using *Inspect* at the bottom of the right-click menu. This opens the developer tools which can reveal hidden URLs.
   - E.g. at [Floatplane](https://www.floatplane.com), inspecting the icon in the footer reveals the URL `https://frontend.floatplane.com/2.15.1/assets/images/logos/floatplane/icon-white.svg` which can be copied-and-pasted into the browser to open the image, and then saved normally.
