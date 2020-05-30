@@ -34,15 +34,20 @@ It's recommended to also have some knowledge of design in general.
 ## Icon creation walkthrough
 
 ### Find source images
-Scour the logo resources (URL, app data, etc.) to find a vector-based image (SVG, AI, EPS etc.). Here are some places you can check:
-- Company press kit (e.g. [Zenkit press kit](https://zenkit.com/en/press-kit/) contains `Zenkit_Logo1_Flat.eps`, which when opened with Inkscape turns out to contain a vector-based logo.)
-- Logo on company website; try right-clicking it and selecting *Save image as...*, and see if the save dialogue appears with SVG, AI, etc., not JPEG, PNG, or other raster based format.
+Scour the logo resources (URL, app data etc.) to find a vector-based image (SVG, AI, EPS, PDF). Here are some places you can check:
+- Company press kit (e.g. [Zenkit press kit](https://zenkit.com/en/press-kit/) contains `Zenkit_Logo1_Flat.eps`.)
+- Logo on company website; try right-clicking it and selecting *Save image as...*, and see if the save dialogue appears with SVG, **not** JPEG, PNG or other raster based format.
   - If right-clicking the image does not have an option for *Save image as...*, try using *Inspect* at the bottom of the right-click menu. This opens the developer tools which can reveal hidden URLs.
   - E.g. at [Floatplane](https://www.floatplane.com), inspecting the icon in the footer reveals the URL `https://frontend.floatplane.com/2.15.1/assets/images/logos/floatplane/icon-white.svg` which can be copied-and-pasted into the browser to open the image, and then saved normally.
 - Right-click the website and select *View page source*, then press *Ctrl+F* to open the search tool and type `SVG` to look for possible SVG vector files. Web inspector is also useful and better tool for some (press `F12`).
   - E.g. [You Need A Budget](https://www.youneedabudget.com) reveals the hidden SVG resource `https://www-assets.youneedabudget.com/wp-content/themes/dupatta/dist/images/safari-pinned-tab_[random-alphanumerical].svg` which can be copied-and-pasted into the browser to open the image, and then saved normally.)
-  - Sometimes SVG is embedded as inline. Means that instead of linking to external file, whole SVG file code is added to the HTML (see [SVG code example](https://github.com/krisu5/aegis-icons/blob/master/SVG/Generic/Bitcoin.svg?short_path=5f7f93b)). In that case, copy the SVG code completely from HTML (usually website embedded SVG starts with `<svg version` and so forth & ends with `</svg>`), open your refer notepad software and save copypasted text as `filename.svg`. You can test if the file works by opening in it into web browser.
-- If everything else fails, then check [logo resources](#logos) section.
+  - Sometimes SVG is embedded as inline. Means that instead of linking to external file, whole SVG file code is added to the HTML (see [SVG code example](https://gist.github.com/krisu5/677a8a3478331498929a11b900741aa2)). In that case, copy the SVG code completely from HTML (often, website embedded SVG starts with `<svg class` and so forth & ends with `</svg>`), open your refer text editor and save copypasted text as `filename.svg`. You can test if the file works by opening in it into web browser.
+- If everything has failed so far, then check [logo resources](#logos) section.
+- As last resort, you could try image tracing on Illustrator, Inkscape etc. Usually results differ from bad to kind of decent. Rule of thumb with tracing is using image that's high resolution, few colors and doesn't have  any artifacts. 
+  - [Vector Magic](https://vectormagic.com/) does way better job, but unfortunately they don't offer free services. [Vectorizer.io](https://www.vectorizer.io/) has free option, but with annoying limitations.
+  - Making vectorized logo from stratch is also option, if you're skilled and patient enough.
+
+> ⚠ Watch out for "fake" SVGs that are using raster graphics ([example](https://github.com/haiwen/seafile-client/blob/7d8f06111960921ce01ef08e169d41bae13959ed/data/icons/scalable/apps/seafile.svg?short_path=d0d75d2#L54)). These are not common, but still exists.
 
 ### Editing with Inkscape or Adobe Illustrator
 Open the file with Adobe Illustrator, [Inkscape](https://inkscape.org), or another vector image editor of your choice. Follow the [Style guidelines](#style-guidelines) to create a suitable icon(s).
@@ -64,7 +69,7 @@ If your software of choice has compression settings, set those  maximum as well.
 > <b>*</b> While *pingo* is still one of the best & fastest PNG compressor currently, we can't recommend it 100% anymore because of author's uncertain behaviour. Recently, the author  of *pingo* has erased Linux version, feedback forum and changelog completely without warning and explanation. Good GUI alternatives for Windows are [FileOptimizer](https://sourceforge.net/projects/nikkhokkho/files/FileOptimizer/) and [PNGGauntlet](https://pnggauntlet.com/). For command line usage, check out *zopflipng* ([main source](https://github.com/google/zopfli), [tutorial](https://ariya.io/2016/06/using-zopfli-to-optimize-png-images), [Node.js port](https://github.com/pierreinglebert/node-zopfli), [builded Windows binaries](https://github.com/garyzyg/zopfli-windows/releases)).
 
 ### Submit to repository
-Submit your icon for review by [opening a new issue](https://github.com/krisu5/aegis-icons/issues) and attaching your file(s) and source(s). Alternately, you are encouraged to refer to [this GitHub guide](https://guides.github.com/activities/contributing-to-open-source) to fork the Aegis Icons project, add the changed files to your fork, then create a Pull Request with your submissions. This more-complex method is less work for the maintainers, and gives you more impressive contribution stats on your GitHub user homepage 😉
+Submit your icon for review by [opening a new issue](https://github.com/krisu5/aegis-icons/issues) and attaching your file(s) and source(s). Alternately, you are encouraged to refer to [this GitHub guide](https://guides.github.com/activities/contributing-to-open-source) to fork the Aegis Icons project, add the changed files to your fork, then create a Pull Request with your submissions. This more-complex method is less work for the maintainers, and gives you more impressive contribution stats on your GitHub user homepage. 😉
 
 ## Style requirements
 
