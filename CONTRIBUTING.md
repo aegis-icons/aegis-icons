@@ -16,6 +16,7 @@ It's recommended to also have some knowledge of design in general.
 - [**Icon creation walkthrough**](#icon-creation-walkthrough)
   - [Finding source images](#finding-source-images)
   - [Colors](#colors)
+  - [Templates](#templates)
   - [Save and export](#save-and-export)
   - [Compression](#compression)
   - [Submit to repository](#submit-to-repository)
@@ -35,7 +36,7 @@ It's recommended to also have some knowledge of design in general.
 ## Icon creation walkthrough
 
 ### Finding source images
-Scour the logo resources (URL, data URI etc.) to find a vector-based image (SVG, AI, EPS, PDF). Here are some places you can check:
+Scour the logo resources (URL, data URI etc.) to find a vector-based image (SVG, AI, EPS, PDF). Here are things you can check:
 - Press kit on the company website (e.g. [Zenkit press kit](https://zenkit.com/en/press-kit/) contains `Zenkit_Logo1_Flat.eps`).
   - Look for pages like: *Brand, Press, Media, Logos, Assets* etc.
 - Logo on company website; try right-clicking it and selecting *Save image as...*, and see if the save dialogue appears with SVG, **not** JPEG, PNG or other raster graphic format.
@@ -52,20 +53,36 @@ Scour the logo resources (URL, data URI etc.) to find a vector-based image (SVG,
 > ⚠ Watch out for SVGs that are using raster graphics ([example](https://github.com/haiwen/seafile-client/blob/7d8f06111960921ce01ef08e169d41bae13959ed/data/icons/scalable/apps/seafile.svg?short_path=d0d75d2#L54)). These are not common, but still exists.
 
 ### Colors
-- If you find brand guideline that has documented brand colors ([example](https://brave.com/brave-branding-assets/)), then go with that. Use main brand color, that has specifically said on the guideline or based on what color is used most.
-- Or if logo only has one color, use that as icon background.
-- [continue this]
+- Never use white as background color.
+- Don't use gradients, use single colors.
+- Logo (a.k.a foreground, fg) should always use white (`#FFFFFF`) with 100% opacity.
+  - Exceptions are `fg.var` icons (see [technical](#technical)) that use black (`#000000`) as foreground color. These are for icons that have bright background color that makes white logo hard to see for some screens / eyes.
+  - E.g. [regular Snapchat icon](https://user-images.githubusercontent.com/3540275/83945146-6162d980-a811-11ea-8910-9e93ff65e804.png), [Snapchat fg.var icon](https://user-images.githubusercontent.com/3540275/83945157-6fb0f580-a811-11ea-8fc4-494dcfff53ae.png).
+- If you find brand guideline that has documented brand colors ([example](https://brave.com/brave-branding-assets/) <sup>[[archive]](https://web.archive.org/web/20200606124434/https://brave.com/brave-branding-assets/)</sup>), then go with that. Use primary brand color, that has specifically said on the guideline or based on what color is used most.
+- If there's no guidelines and logo only has one color, use logo color as icon background.
+  - In Illustrator, if logo is using gradient, use [this method](http://miraimages.com/illustrator-gradient-colors-to-swatches/) <sup>[[archive]](https://web.archive.org/web/20200606124113/http://miraimages.com/illustrator-gradient-colors-to-swatches/)</sup> to extract all the colors in the gradient to the swatches. Then select the color what you think looks the best.
+- If icon you're making is using dark background, you **need to make** `bg.var` icon version as well (see [technical](#technical)).
+  - If there's no guidelines for alternative colors, check the website or app to see what other colors there might be.
+- For generic icons, use background color `#607D8B` <sup><a href="#ftn1" id="ftn-sec1">[1]</a></sup> and white foreground.
+  - Templates `ai_template_generic.ait` & `svg_template_generic.svg` has correct background color set.
+
+### Templates
+When making icons, download provided [templates](/_templates).
+
+For Illustrator, use `ai_template.ait` (for regular icons) or `ai_template_generic.ait` (for generic icons).
+
+For other softwares, use `svg_template.svg` (for regular icons) or `svg_template_generic.svg` (for generic icons).
 
 ### Save and export
 - If you're using Adobe Illustrator, save the file as AI **and** SVG.
   - Remember to **rename the artboard** (`Shift + O`) before saving.
 - For other softwares, just save as SVG.
-  - Remember to remove the **guide lines!**
-- Then export file as a PNG with original height and width (1024px).
-  - Use **1x scale** for Illustrator CC's "Export for Screens". (`Alt + Ctrl + E` on Windows, `⌘ + Option + E` on MacOS)
+  - Remember to **remove the guide strokes!**
+- Then export file as a PNG with original height and width (1024 x 1024 px).
+  - Use **1x scale** for Illustrator CC's "Export for Screens" (`Alt + Ctrl + E` on Windows, `⌘ + Option + E` on MacOS).
 
 ### Compression
-Compress the PNG file(s) with either using [pingo](https://css-ig.net/pingo)<a href="#ftn1"><sup id="ftn-sec1">[1]</sup></a> (Windows, lossless), [ImageOptim](https://imageoptim.com/mac) (MacOS, lossless by default),<br>
+Compress the PNG file(s) with either using [pingo](https://css-ig.net/pingo) <sup><a href="#ftn2" id="ftn-sec2">[2]</a></sup> (Windows, lossless), [ImageOptim](https://imageoptim.com/mac) (MacOS, lossless by default),<br>
 [Trimage](https://trimage.org/) (Linux & MacOS, lossless) or [TinyPNG](https://tinypng.com/) (web app, lossy).
 
 When using pingo's Windows GUI software *pinga*, [use these settings](https://user-images.githubusercontent.com/3540275/80963782-52ef5f80-8e18-11ea-8dbe-fc1c58fa81e4.png). For command line, use `pingo -s9 filename.png` or use [batch script](https://github.com/krisu5/aegis-icons/blob/master/_compress/.1_pingo-script-for-icons.bat).
@@ -78,7 +95,7 @@ Submit your icon for review by [opening a new issue](https://github.com/krisu5/a
 ## Style requirements
 
 ### Style
-- The primary icon uses the main company logo, whether that is a [logomark, logotype, or something else](https://blog.designcrowd.com/article/997/logo-logomark-logotype-whats-the-difference-and-what-do-you-need).
+- The primary icon uses the main company logo, whether that is a [logomark, logotype, or something else](https://blog.designcrowd.com/article/997/logo-logomark-logotype-whats-the-difference-and-what-do-you-need) <sup>[[archive]](https://web.archive.org/web/20200606123728/https://blog.designcrowd.com/article/997/logo-logomark-logotype-whats-the-difference-and-what-do-you-need)</sup>.
 - The icon has:
   - Image/page canvas of 1024 x 1024px
   - Transparent background
@@ -140,4 +157,6 @@ Looking for software to start make icons? Here's some of the well known ones.
   - As needed, update `full_preview.md`,  `full_preview.png` (and convert that to `full_preview.webp` with command `pingo -webp-nigh=100 -s9 full_preview.png`), `full_preview_generic.png`, `full_preview_variations.png`, and `full_preview_outdated.png`.
 
 ## Footnotes
-<a href="#ftn-sec1"><sup id="ftn1">[1]</sup></a> While *pingo* is still one of the best & fastest PNG compressor currently, we can't recommend it 100% anymore because of author's uncertain behaviour. Recently, the author  of *pingo* has erased Linux version, feedback forum and changelog completely without warning and explanation. Good GUI alternatives for Windows are [FileOptimizer](https://sourceforge.net/projects/nikkhokkho/files/FileOptimizer/) and [PNGGauntlet](https://pnggauntlet.com/). For command line usage, check out *zopflipng* ([main source](https://github.com/google/zopfli), [tutorial](https://ariya.io/2016/06/using-zopfli-to-optimize-png-images), [Node.js port](https://github.com/pierreinglebert/node-zopfli), [builded Windows binaries](https://github.com/garyzyg/zopfli-windows/releases)).
+<sup><a href="#ftn-sec1" id="ftn1">[1]</a></sup> This color is taken from [2014's Material design color system](https://material.io/design/color/the-color-system.html#tools-for-picking-colors) (Blue Grey, 500).
+
+<sup><a href="#ftn-sec2" id="ftn2">[2]</a></sup> While *pingo* is still one of the best & fastest PNG compressor currently, we can't recommend it 100% anymore because of author's uncertain behaviour. Recently, the author  of *pingo* has erased Linux version, feedback forum and changelog completely without warning and explanation. Good GUI alternatives for Windows are [FileOptimizer](https://sourceforge.net/projects/nikkhokkho/files/FileOptimizer/) and [PNGGauntlet](https://pnggauntlet.com/). For command line usage, check out *zopflipng* ([main source](https://github.com/google/zopfli), [tutorial](https://ariya.io/2016/06/using-zopfli-to-optimize-png-images), [Node.js port](https://github.com/pierreinglebert/node-zopfli), [builded Windows binaries](https://github.com/garyzyg/zopfli-windows/releases)).
