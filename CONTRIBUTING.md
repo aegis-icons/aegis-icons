@@ -54,7 +54,7 @@ Scour the logo resources (URL, data URI etc.) to find a vector-based image (SVG,
 
 ### Colors
 - Never use white as background color.
-- Don't use gradients, use single colors.
+- Don't use gradients, use solid colors.
 - Logo (a.k.a foreground, fg) should always use white (`#FFFFFF`) with 100% opacity.
   - Exceptions are `fg.var` icons (see [technical](#technical)) that use black (`#000000`) as foreground color. These are for icons that have bright background color that makes white logo hard to see for some screens / eyes.
   - E.g. [regular Snapchat icon](https://user-images.githubusercontent.com/3540275/83945146-6162d980-a811-11ea-8910-9e93ff65e804.png), [Snapchat fg.var icon](https://user-images.githubusercontent.com/3540275/83945157-6fb0f580-a811-11ea-8fc4-494dcfff53ae.png).
@@ -85,7 +85,7 @@ For other softwares, use `svg_template.svg` (for regular icons) or `svg_template
 Compress the PNG file(s) with either using [pingo](https://css-ig.net/pingo) <sup><a href="#ftn2" id="ftn-sec2">[2]</a></sup> (Windows, lossless), [ImageOptim](https://imageoptim.com/mac) (MacOS, lossless by default),<br>
 [Trimage](https://trimage.org/) (Linux & MacOS, lossless) or [TinyPNG](https://tinypng.com/) (web app, lossy).
 
-When using pingo's Windows GUI software *pinga*, [use these settings](https://user-images.githubusercontent.com/3540275/80963782-52ef5f80-8e18-11ea-8dbe-fc1c58fa81e4.png). For command line, use `pingo -s9 filename.png` or use [batch script](https://github.com/krisu5/aegis-icons/blob/master/_compress/.1_pingo-script-for-icons.bat).
+When using pingo's Windows GUI software *pinga*, [use these settings](https://user-images.githubusercontent.com/3540275/80963782-52ef5f80-8e18-11ea-8dbe-fc1c58fa81e4.png). For command line, use `pingo -s9 filename.png` or use [batch script](/_compress/.1_pingo-script-for-icons.bat).
 
 If your software of choice has compression settings, set those  maximum as well. **Do not use lossy compressions that has visible differences / artifacts.** When in doubt, use lossless.
 

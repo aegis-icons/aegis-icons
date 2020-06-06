@@ -8,7 +8,7 @@ Unofficial monochrome-styled 2FA icons for open source Android authenticator [Ae
 
 [Make a issue](https://github.com/krisu5/aegis-icons/issues) if you want to request a new icon, or check out [CONTRIBUTING.md](https://github.com/krisu5/aegis-icons/blob/master/CONTRIBUTING.md) to start making icons yourself!
 
-**[📁 Repository for Illustrator files](https://github.com/krisu5/aegis-icons_AIs)**
+📁 **[Repository for Illustrator files](https://github.com/krisu5/aegis-icons_AIs)**
 
 ## Credits
 - [Feather Icons](https://feathericons.com/) by Cole Bemis ([MIT](https://github.com/feathericons/feather/blob/master/LICENSE))
