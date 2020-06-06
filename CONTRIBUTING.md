@@ -28,6 +28,7 @@ It's recommended to also have some knowledge of design in general.
   - [Lists of sites supporting 2FA](#lists-of-sites-supporting-2fa)
   - [Software](#software)
 - [**Maintainer's guide**](#maintainers-guide)
+- [**Footnotes**](#footnotes)
 
 ---
 
@@ -51,26 +52,25 @@ Scour the logo resources (URL, data URI etc.) to find a vector-based image (SVG,
 > ⚠ Watch out for SVGs that are using raster graphics ([example](https://github.com/haiwen/seafile-client/blob/7d8f06111960921ce01ef08e169d41bae13959ed/data/icons/scalable/apps/seafile.svg?short_path=d0d75d2#L54)). These are not common, but still exists.
 
 ### Colors
-- If you find brand guideline that has documented brand colors ([example](https://brave.com/brave-branding-assets/)), then go with that. Use main brand color, that has specifically said on the guideline or based on what color used most.
+- If you find brand guideline that has documented brand colors ([example](https://brave.com/brave-branding-assets/)), then go with that. Use main brand color, that has specifically said on the guideline or based on what color is used most.
 - Or if logo only has one color, use that as icon background.
 - [continue this]
-
 
 ### Save and export
 - If you're using Adobe Illustrator, save the file as AI **and** SVG.
   - Remember to **rename the artboard** (`Shift + O`) before saving.
-- For other softwares, save as SVG.
+- For other softwares, just save as SVG.
+  - Remember to remove the **guide lines!**
 - Then export file as a PNG with original height and width (1024px).
-  - Use **1x scale** for Illustrator CC's "Export for Screens".
+  - Use **1x scale** for Illustrator CC's "Export for Screens". (`Alt + Ctrl + E` on Windows, `⌘ + Option + E` on MacOS)
 
 ### Compression
-Compress the PNG file(s) with either using [pingo](https://css-ig.net/pingo)<sup>1</sup> (Windows), [ImageOptim](https://imageoptim.com/mac) (MacOS), [Trimage](https://trimage.org/) (Linux & MacOS) or [TinyPNG](https://tinypng.com/) (web app).
+Compress the PNG file(s) with either using [pingo](https://css-ig.net/pingo)<a href="#ftn1"><sup>[1]</sup></a> (Windows, lossless), [ImageOptim](https://imageoptim.com/mac) (MacOS, lossless by default),<br>
+[Trimage](https://trimage.org/) (Linux & MacOS, lossless) or [TinyPNG](https://tinypng.com/) (web app, lossy).
 
 When using pingo's Windows GUI software *pinga*, [use these settings](https://user-images.githubusercontent.com/3540275/80963782-52ef5f80-8e18-11ea-8dbe-fc1c58fa81e4.png). For command line, use `pingo -s9 filename.png` or use [batch script](https://github.com/krisu5/aegis-icons/blob/master/_compress/.1_pingo-script-for-icons.bat).
 
-If your software of choice has compression settings, set those  maximum as well. **Do not use lossy compressions that has visible differences / artifacts.**
-
-> <sup>1</sup> While *pingo* is still one of the best & fastest PNG compressor currently, we can't recommend it 100% anymore because of author's uncertain behaviour. Recently, the author  of *pingo* has erased Linux version, feedback forum and changelog completely without warning and explanation. Good GUI alternatives for Windows are [FileOptimizer](https://sourceforge.net/projects/nikkhokkho/files/FileOptimizer/) and [PNGGauntlet](https://pnggauntlet.com/). For command line usage, check out *zopflipng* ([main source](https://github.com/google/zopfli), [tutorial](https://ariya.io/2016/06/using-zopfli-to-optimize-png-images), [Node.js port](https://github.com/pierreinglebert/node-zopfli), [builded Windows binaries](https://github.com/garyzyg/zopfli-windows/releases)).
+If your software of choice has compression settings, set those  maximum as well. **Do not use lossy compressions that has visible differences / artifacts.** When in doubt, use lossless.
 
 ### Submit to repository
 Submit your icon for review by [opening a new issue](https://github.com/krisu5/aegis-icons/issues) and attaching your file(s) and source(s). Alternately, you are encouraged to refer to [this GitHub guide](https://guides.github.com/activities/contributing-to-open-source) to fork the Aegis Icons project, add the changed files to your fork, then create a Pull Request with your submissions. This more-complex method is less work for the maintainers, and gives you more impressive contribution stats on your GitHub user homepage. 😉
@@ -138,3 +138,6 @@ Looking for software to start make icons? Here's some of the well known ones.
 
 ## Maintainer's Guide
   - As needed, update `full_preview.md`,  `full_preview.png` (and convert that to `full_preview.webp` with command `pingo -webp-nigh=100 -s9 full_preview.png`), `full_preview_generic.png`, `full_preview_variations.png`, and `full_preview_outdated.png`.
+
+## Footnotes
+<b id="ftn1"><sup>[1]</sup></b> While *pingo* is still one of the best & fastest PNG compressor currently, we can't recommend it 100% anymore because of author's uncertain behaviour. Recently, the author  of *pingo* has erased Linux version, feedback forum and changelog completely without warning and explanation. Good GUI alternatives for Windows are [FileOptimizer](https://sourceforge.net/projects/nikkhokkho/files/FileOptimizer/) and [PNGGauntlet](https://pnggauntlet.com/). For command line usage, check out *zopflipng* ([main source](https://github.com/google/zopfli), [tutorial](https://ariya.io/2016/06/using-zopfli-to-optimize-png-images), [Node.js port](https://github.com/pierreinglebert/node-zopfli), [builded Windows binaries](https://github.com/garyzyg/zopfli-windows/releases)).
