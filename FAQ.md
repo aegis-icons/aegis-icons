@@ -9,7 +9,7 @@
 3. In "Edit Profile", press the circle that has one letter in it. 🖼 [Example](https://user-images.githubusercontent.com/3540275/80872798-f9bee900-8cbc-11ea-9a7d-c0f94a675044.png)
 4. Select app for finding icons (like file manager or gallery app).
 5. Go to folder where the icons are and select icon image you want.
-6. After selecting the icon, there's *checkmark button* you **have to press** for confirming selected icon. [🖼 Example](https://user-images.githubusercontent.com/3540275/80872803-00e5f700-8cbd-11ea-911d-a573d95d4299.png)
+6. After selecting the icon, there's *checkmark button* you **have to press** for confirming selected icon. 🖼 [Example](https://user-images.githubusercontent.com/3540275/80872803-00e5f700-8cbd-11ea-911d-a573d95d4299.png)
 7. Press "Save". 🖼 [Example](https://user-images.githubusercontent.com/3540275/80872809-08a59b80-8cbd-11ea-88cf-39c932fc4710.png)
 8. 🖼 [Finished! :)](https://user-images.githubusercontent.com/3540275/80872810-093e3200-8cbd-11ea-9615-9a343ccb7756.png)
 
