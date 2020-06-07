@@ -15,8 +15,8 @@ It's recommended to also have some knowledge of design in general.
 #### Table of contents
 - [**Icon creation walkthrough**](#icon-creation-walkthrough)
   - [Finding source images](#finding-source-images)
-  - [Colors](#colors)
   - [Templates](#templates)
+  - [Colors](#colors)
   - [Save and export](#save-and-export)
   - [Compression](#compression)
   - [Submit to repository](#submit-to-repository)
@@ -41,7 +41,7 @@ Scour the logo resources (URL, data URI etc.) to find a vector-based image (SVG,
   - Look for pages like: *Brand, Press, Media, Logos, Assets* etc.
 - Logo on company website; try right-clicking it and selecting *Save image as...*, and see if the save dialogue appears with SVG, **not** JPEG, PNG or other raster graphic format.
   - If right-clicking the image does not have an option for *Save image as...*, try using *Inspect* at the bottom of the right-click menu. This opens the developer tools which can reveal hidden URLs.
-  - E.g. at [Floatplane](https://www.floatplane.com), inspecting the icon in the footer reveals the URL `https://frontend.floatplane.com/2.15.1/assets/images/logos/floatplane/icon-white.svg` which can be copied-and-pasted into the browser to open the image, and then saved normally.
+    - E.g. at [Floatplane](https://www.floatplane.com), inspecting the icon in the footer reveals the URL `https://frontend.floatplane.com/2.15.1/assets/images/logos/floatplane/icon-white.svg` which can be copied-and-pasted into the browser to open the image, and then saved normally.
   - Sometimes SVG is embedded as inline. Means that instead of linking to external file, whole SVG file code is added to the HTML (see [SVG code example](https://gist.github.com/krisu5/677a8a3478331498929a11b900741aa2)). In that case, copy the SVG code completely from HTML (often, website embedded SVG starts with `<svg class` and so forth & ends with `</svg>`), open your refer text editor and save copypasted text as `filename.svg`. You can test if the file works by opening in it into web browser.
 - Right-click the website and select *View page source*, then press *Ctrl+F* to open the search tool and type `SVG` to look for possible SVG vector files. Web inspector is also useful and better tool for some (press `F12`).
   - E.g. [You Need A Budget](https://www.youneedabudget.com) reveals the hidden SVG resource in HTML metadata section `https://www-assets.youneedabudget.com/wp-content/themes/dupatta/dist/images/safari-pinned-tab_[random-alphanumerical].svg` which can be copied-and-pasted into the browser to open the image, and then saved normally).
@@ -52,26 +52,27 @@ Scour the logo resources (URL, data URI etc.) to find a vector-based image (SVG,
 
 > ⚠ Watch out for SVGs that are using raster graphics ([example](https://github.com/haiwen/seafile-client/blob/7d8f06111960921ce01ef08e169d41bae13959ed/data/icons/scalable/apps/seafile.svg?short_path=d0d75d2#L54)). These are not common, but still exists.
 
-### Colors
-- Never use white as background color.
-- Don't use gradients, use solid colors.
-- Logo (a.k.a foreground, fg) should always use white (`#FFFFFF`) with 100% opacity.
-  - Exceptions are `fg.var` icons (see [technical](#technical)) that use black (`#000000`) as foreground color. These are for icons that have bright background color that makes white logo hard to see for some screens / eyes.
-  - E.g. [regular Snapchat icon](https://user-images.githubusercontent.com/3540275/83945146-6162d980-a811-11ea-8910-9e93ff65e804.png), [Snapchat fg.var icon](https://user-images.githubusercontent.com/3540275/83945157-6fb0f580-a811-11ea-8fc4-494dcfff53ae.png).
-- If you find brand guideline that has documented brand colors ([example](https://brave.com/brave-branding-assets/) <sup>[[archive]](https://web.archive.org/web/20200606124434/https://brave.com/brave-branding-assets/)</sup>), then go with that. Use primary brand color, that has specifically said on the guideline or based on what color is used most.
-- If there's no guidelines and logo only has one color, use logo color as icon background.
-  - In Illustrator, if logo is using gradient, use [this method](http://miraimages.com/illustrator-gradient-colors-to-swatches/) <sup>[[archive]](https://web.archive.org/web/20200606124113/http://miraimages.com/illustrator-gradient-colors-to-swatches/)</sup> to extract all the colors in the gradient to the swatches. Then select the color what you think looks the best.
-- If icon you're making is using dark background, you **need to make** `bg.var` icon version as well (see [technical](#technical)).
-  - If there's no guidelines for alternative colors, check the website or app to see what other colors there might be.
-- For generic icons, use background color `#607D8B` <sup><a href="#ftn1" id="ftn-sec1">[1]</a></sup> and white foreground.
-  - Templates `ai_template_generic.ait` & `svg_template_generic.svg` has correct background color set.
-
 ### Templates
 When making icons, download provided [templates](/_templates).
 
 For Illustrator, use `ai_template.ait` (for regular icons) or `ai_template_generic.ait` (for generic icons).
 
 For other softwares, use `svg_template.svg` (for regular icons) or `svg_template_generic.svg` (for generic icons).
+
+### Colors
+- Never use white as background color.
+- Don't use gradients, use solid colors.
+- Keep everything at 100% opacity, no blending etc.
+- Logo (a.k.a. foreground, fg) should always use white (`#FFFFFF`).
+  - Exceptions are `fg.var` icons (see [technical](#technical)) that use black (`#000000`) as foreground color. These are for icons that have bright background color that makes white logo hard to see for some screens / eyes.
+    - E.g. [regular Snapchat icon](https://user-images.githubusercontent.com/3540275/83945146-6162d980-a811-11ea-8910-9e93ff65e804.png), [Snapchat fg.var icon](https://user-images.githubusercontent.com/3540275/83945157-6fb0f580-a811-11ea-8fc4-494dcfff53ae.png).
+- If you find brand guideline that has documented brand colors ([example](https://brave.com/brave-branding-assets/) <sup>[[archive]](https://web.archive.org/web/20200606124434/https://brave.com/brave-branding-assets/)</sup>), then go with that. Use primary brand color, that has specifically said on the guideline or based on what color is used most.
+- If there's no guidelines and logo only has one color, use logo color as icon background.
+  - **Tip:** In Illustrator, if logo is using gradient, use [this method](http://miraimages.com/illustrator-gradient-colors-to-swatches/) <sup>[[archive]](https://web.archive.org/web/20200606124113/http://miraimages.com/illustrator-gradient-colors-to-swatches/)</sup> to extract all the colors in the gradient to the swatches. Then select the color what you think looks the best.
+- If icon you're making is using dark background, you **need to make** `bg.var` icon version as well (see [technical](#technical)).
+  - If there's no guidelines for alternative colors, check the website or app to see what other colors there might be.
+- For generic icons, use background color `#607D8B` <sup><a href="#ftn1" id="ftn-sec1">[1]</a></sup> and white foreground.
+  - Templates `ai_template_generic.ait` & `svg_template_generic.svg` has correct background color set.
 
 ### Save and export
 - If you're using Adobe Illustrator, save the file as AI **and** SVG.

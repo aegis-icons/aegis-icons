@@ -47,7 +47,7 @@ This tutorial focuses on icon editing in Android and with [Amaze file manager](h
 5. In the "Open As" dialog, select "text".
 6. Select "Amaze Text Editor".
 7. Select the color using color picker.
-   - Good mobile-friendly sites: https://color.obscuredetour.com/ & https://color.joelb.dev/
+   - Good mobile-friendly web apps: https://color.obscuredetour.com/ & https://color.joelb.dev/
 8. Copy the hex color value.
    - Hex color starts with hash (#) and has 6 alphanumerical characters.
 9. Go back to Amaze, find part called `.st0` and replace the hex color value. 🖼 [Example](https://user-images.githubusercontent.com/3540275/81327392-db356500-90a3-11ea-8b31-c60c27c0c5bc.png)
