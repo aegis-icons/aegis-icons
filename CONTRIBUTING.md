@@ -55,9 +55,9 @@ Scour the logo resources (URL, data URI etc.) to find a vector-based image (SVG,
 ### Templates
 When making icons, download provided [templates](/_templates).
 
-For Illustrator, use `ai_template.ait` (for regular icons) or `ai_template_generic.ait` (for generic icons).
-
-For other softwares, use `svg_template.svg` (for regular icons) or `svg_template_generic.svg` (for generic icons).
+- For Illustrator, use `ai_template.ait` (for regular icons) or `ai_template_generic.ait` (for generic icons).
+  - `.ait` is Illustrator template file format, **don't save over template file!** (Read [save and export](#save-and-export) for more info).
+- Other softwares, use `svg_template.svg` (for regular icons) or `svg_template_generic.svg` (for generic icons).
 
 ### Colors
 - Never use white as background color.
@@ -158,6 +158,6 @@ Looking for software to start make icons? Here's some of the well known ones.
   - As needed, update `full_preview.md`,  `full_preview.png` (and convert that to `full_preview.webp` with command `pingo -webp-nigh=100 -s9 full_preview.png`), `full_preview_generic.png`, `full_preview_variations.png`, and `full_preview_outdated.png`.
 
 ## Footnotes
-<sup><a href="#ftn-sec1" id="ftn1">[1]</a></sup> This color is taken from [2014's Material design color system](https://material.io/design/color/the-color-system.html#tools-for-picking-colors) (Blue Grey, 500).
+<sup><a href="#ftn-sec1" id="ftn1">[1]</a></sup> This color is taken from [Material Design 2014 color system](https://material.io/design/color/the-color-system.html#tools-for-picking-colors) (Blue Grey, 500).
 
 <sup><a href="#ftn-sec2" id="ftn2">[2]</a></sup> While *pingo* is still one of the best & fastest PNG compressor currently, we can't recommend it 100% anymore because of author's uncertain behaviour. Recently, the author  of *pingo* has erased Linux version, feedback forum and changelog completely without warning and explanation. Good GUI alternatives for Windows are [FileOptimizer](https://sourceforge.net/projects/nikkhokkho/files/FileOptimizer/) and [PNGGauntlet](https://pnggauntlet.com/). For command line usage, check out *zopflipng* ([main source](https://github.com/google/zopfli), [tutorial](https://ariya.io/2016/06/using-zopfli-to-optimize-png-images), [Node.js port](https://github.com/pierreinglebert/node-zopfli), [builded Windows binaries](https://github.com/garyzyg/zopfli-windows/releases)).
