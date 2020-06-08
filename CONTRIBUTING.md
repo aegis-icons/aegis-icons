@@ -47,7 +47,7 @@ Scour the logo resources (URL, data URI etc.) to find a vector-based image (SVG,
   - E.g. [You Need A Budget](https://www.youneedabudget.com) reveals the hidden SVG resource in HTML metadata section `https://www-assets.youneedabudget.com/wp-content/themes/dupatta/dist/images/safari-pinned-tab_[random-alphanumerical].svg` which can be copied-and-pasted into the browser to open the image, and then saved normally).
 - If everything has failed so far, then check [logo resources](#logos) section.
 - As last resort, you could try image tracing on Illustrator, Inkscape etc. Usually results varies from bad to kind of decent. Rule of thumb with tracing is using image that's high resolution, not many colors and doesn't have any artifacts. 
-  - [Vector Magic](https://vectormagic.com/) does way better job, but unfortunately they don't offer free services.<br>[Vectorizer.io](https://www.vectorizer.io/) is also good alternative and has free option, but with annoying restrictions.
+  - [Vector Magic](https://vectormagic.com/) does way better job, but unfortunately they don't offer free services.<br>[Vectorizer.io](https://www.vectorizer.io/) is good alternative and has free option, but with annoying restrictions.
   - Making vectorized logo from stratch is also option, if you're skilled and patient enough.
 
 > ⚠ Watch out for SVGs that are using raster graphics ([example](https://github.com/haiwen/seafile-client/blob/7d8f06111960921ce01ef08e169d41bae13959ed/data/icons/scalable/apps/seafile.svg?short_path=d0d75d2#L54)). These are not common, but still exists.
