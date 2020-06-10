@@ -58,6 +58,7 @@ When making icons, download provided [templates](/_templates).
 - For Illustrator, use `ai_template.ait` (for regular icons) or `ai_template_generic.ait` (for generic icons).
   - `.ait` is Illustrator template file format, **don't save over template file!** (Read [save and export](#save-and-export) for more info).
 - Other softwares, use `svg_template.svg` (for regular icons) or `svg_template_generic.svg` (for generic icons).
+  - In Inkscape, save the SVG as "Plain SVG", not "Inkscape SVG".
 
 ### Colors
 - Never use white as background color.
