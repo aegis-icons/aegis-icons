@@ -57,8 +57,8 @@ When making icons, download provided [templates](/_templates).
 
 - For Illustrator, use `ai_template.ait` (for regular icons) or `ai_template_generic.ait` (for generic icons).
   - `.ait` is Illustrator template file format, **don't save over template file!** (Read [save and export](#save-and-export) for more info).
-- Other softwares, use `svg_template.svg` (for regular icons) or `svg_template_generic.svg` (for generic icons).
-  - In Inkscape, save the SVG as "Plain SVG", not "Inkscape SVG".
+- Other softwares, use `svg_template.svg` (for regular icons) or `svg_template_generic.svg` (for generic icons). 
+  - Inkscape users, please read [save and export](#save-and-export) section.
 
 ### Colors
 - Never use white as background color.
@@ -80,6 +80,7 @@ When making icons, download provided [templates](/_templates).
   - Remember to **rename the artboard** (`Shift + O`) before saving.
 - For other softwares, just save as SVG.
   - Remember to **remove the guide strokes!**
+  - In Inkscape, save the SVG as "Plain SVG", not "Inkscape SVG".
 - Then export file as a PNG with original height and width (1024 x 1024 px).
   - Use **1x scale** for Illustrator CC's "Export for Screens" (`Alt + Ctrl + E` on Windows, `⌘ + Option + E` on MacOS).
 
