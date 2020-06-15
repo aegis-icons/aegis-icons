@@ -29,6 +29,7 @@ It's recommended to also have some knowledge of design in general.
   - [Lists of sites supporting 2FA](#lists-of-sites-supporting-2fa)
   - [Software](#software)
 - [**Maintainer's guide**](#maintainers-guide)
+  - [Contact sheets](#contact-sheets)
 - [**Footnotes**](#footnotes)
 
 ---
@@ -112,17 +113,17 @@ Submit your icon for review by [opening a new issue](https://github.com/krisu5/a
 - All variations otherwise follow the same style requirements as the primary logo.
 
 #### Technical
-  - Master source file is vector-based AI or SVG format. Raster images (PNG/JPEG/etc) are unacceptable, including raster images embedded within the vector file.
-  - SVG and PNG size are 1024 x 1024 px without any scale
-  - Filename
-    - Primary icon: `Company or Product Name.extension`
-          - Examples: `Epic Games.ai`, `itch.io.svg`, `AWS.png`
-        - Icon variations with alternate logo: `Primary icon name **alt**.extension`
-          - Examples: `AppFolio alt.svg`, `You Need A Budget alt.png`
-        - Icon variations with different foreground/background brand color: `Primary icon name **fg/bg.var**.extension`
-          - Examples: `Snapchat fg.var.png`, `Squarespace bg.var.png`
-        - Icon variations with multiple differences: `Primary icon name **alt fg/bg.var**.extension`
-          - Examples: `Black Desert Online alt bg.var.png`
+- Master source file is vector-based AI or SVG format. Raster images (PNG/JPEG/etc) are unacceptable, including raster images embedded within the vector file.
+- SVG and PNG size are 1024 x 1024 px without any scale
+- Filename
+- Primary icon: `Company or Product Name.extension`
+      - Examples: `Epic Games.ai`, `itch.io.svg`, `AWS.png`
+    - Icon variations with alternate logo: `Primary icon name **alt**.extension`
+      - Examples: `AppFolio alt.svg`, `You Need A Budget alt.png`
+    - Icon variations with different foreground/background brand color: `Primary icon name **fg/bg.var**.extension`
+      - Examples: `Snapchat fg.var.png`, `Squarespace bg.var.png`
+    - Icon variations with multiple differences: `Primary icon name **alt fg/bg.var**.extension`
+      - Examples: `Black Desert Online alt bg.var.png`
 
 ## Resources
 Resources marked with star (⭐) are recommended and most used by the maintainers.
@@ -157,7 +158,10 @@ Looking for software to start make icons? Here's some of the well known ones.
 - [Inkscape](https://inkscape.org/) (popular open source option)
 
 ## Maintainer's Guide
-  - As needed, update `full_preview.md`,  `full_preview.png` (and convert that to `full_preview.webp` with command `pingo -webp-nigh=100 -s9 full_preview.png`), `full_preview_generic.png`, `full_preview_variations.png`, and `full_preview_outdated.png`.
+- As needed, update `full_preview.md`, `full_preview.png` (and convert that to `full_preview.webp` with using *pingo* command `pingo -webp-nigh=100 -s9 full_preview.png`), `full_preview_generic.png`, `full_preview_variations.png`, and `full_preview_outdated.png`.
+
+### Contact sheets (previews)
+We are using *Snap2IMG* software for making 
 
 ## Footnotes
 <sup><a href="#ftn-sec1" id="ftn1">[1]</a></sup> This color is taken from [Material Design 2014 color system](https://material.io/design/color/the-color-system.html#tools-for-picking-colors) (Blue Grey, 500).
