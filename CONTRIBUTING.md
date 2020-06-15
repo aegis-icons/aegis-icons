@@ -170,7 +170,7 @@ Typeface for filenames is [Cascadia Code](https://github.com/microsoft/cascadia-
 Check at "advanced" menu that text antialiasing is set as *ClearType*.
 
 - **Basic Setup** section ([screenshot](https://user-images.githubusercontent.com/3540275/84652052-a1ae1000-af13-11ea-829a-e810ab36e8a8.png))
-  - Folder: *[folder with PNGS that you want preview made of]*
+  - Folder: */PNG/, /PNG/Generic/, /PNG/Outdated/* or */PNG/Variations/*
   - Create index images for: *This folder only*
   - Width and height: *128*
     - Adapt height to row content: **checked**
@@ -199,7 +199,7 @@ Check at "advanced" menu that text antialiasing is set as *ClearType*.
 - **Styling** section ([screenshot](https://user-images.githubusercontent.com/3540275/84652096-ba1e2a80-af13-11ea-9117-6dad42da53c2.png))
   - Page Background:
     - Color: *white* (RGB `255 255 255`)
-    - Texture: *no texture*
+    - Texture: *No Texture*
   - Thumbnails:
     - Add a shadow / Grayscale / Draw border around thumbnails: **not checked**.
 
