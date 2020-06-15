@@ -29,7 +29,8 @@ It's recommended to also have some knowledge of design in general.
   - [Lists of sites supporting 2FA](#lists-of-sites-supporting-2fa)
   - [Software](#software)
 - [**Maintainer's guide**](#maintainers-guide)
-  - [Contact sheets](#contact-sheets)
+  - [Contact sheets (previews)](#contact-sheets-previews)
+    - [Snap2IMG config](#snap2img-config)
 - [**Footnotes**](#footnotes)
 
 ---
@@ -161,7 +162,46 @@ Looking for software to start make icons? Here's some of the well known ones.
 - As needed, update `full_preview.md`, `full_preview.png` (and convert that to `full_preview.webp` with using *pingo* command `pingo -webp-nigh=100 -s9 full_preview.png`), `full_preview_generic.png`, `full_preview_variations.png`, and `full_preview_outdated.png`.
 
 ### Contact sheets (previews)
-We are using *Snap2IMG* software for making 
+We are using [*Snap2IMG*](https://www.rlvision.com/snap2img/about.php) software for generating previews (unfortunately, it's Windows only software. **Cross platform alternative wanted!** Submit your suggestions at issues).
+
+Typeface for filenames is [Cascadia Code](https://github.com/microsoft/cascadia-code).
+
+#### Snap2IMG Config
+Check at "advanced" menu that text antialiasing is set as *ClearType*.
+
+- **Basic Setup** section ([screenshot](https://user-images.githubusercontent.com/3540275/84652052-a1ae1000-af13-11ea-829a-e810ab36e8a8.png))
+  - Folder: *[folder with PNGS that you want preview made of]*
+  - Create index images for: *This folder only*
+  - Width and height: *128*
+    - Adapt height to row content: **checked**
+    - Ignore aspect ratio: **not checked**
+  - Thumbs per row: *6*
+    - Always pad to full width: **not checked**
+  - Limit rows: **not checked**.
+
+- **Spacing** section ([screenshot](https://user-images.githubusercontent.com/3540275/84652069-a96db480-af13-11ea-98b0-35f2d30224b8.png))
+  - Spacing Between Thumbnails:
+    - ↔: *12*
+    - ↕: *28*
+  - Page margins:
+    - Top / Left / Right: *16*
+    - Bottom: *0*.
+    
+- **Text** section ([screenshot](https://user-images.githubusercontent.com/3540275/84652079-b12d5900-af13-11ea-895e-e6e0acefd49a.png))
+  - Show header: **not checked**
+  - Show filenames: **checked**
+    - Text: *<Filename>*
+    - Font: *Cascadia Mono 9* (install `CascadiaMono.ttf` and set size as *9*)
+    - Extend upwards / Solid background / Truncate to one line: **not checked**
+    - Ignore aspect ratio: **checked**
+  - Show footer: **not checked**.
+
+- **Styling** section ([screenshot](https://user-images.githubusercontent.com/3540275/84652096-ba1e2a80-af13-11ea-9117-6dad42da53c2.png))
+  - Page Background:
+    - Color: *white* (RGB `255 255 255`)
+    - Texture: *no texture*
+  - Thumbnails:
+    - Add a shadow / Grayscale / Draw border around thumbnails: **not checked**.
 
 ## Footnotes
 <sup><a href="#ftn-sec1" id="ftn1">[1]</a></sup> This color is taken from [Material Design 2014 color system](https://material.io/design/color/the-color-system.html#tools-for-picking-colors) (Blue Grey, 500).
