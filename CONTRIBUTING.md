@@ -64,8 +64,8 @@ When making icons, download provided [templates](/_templates).
 - Other softwares, use `svg_template.svg` (for primary icons) or `svg_template_generic.svg` (for generic icons).
 
 ### Layout
-- Use logomark <sup><a href="#ftn2" id="ftn-sec2">[2]</a></sup> if brand is using one.
-  - Logomarks are sometimes way too generic ([example](https://user-images.githubusercontent.com/3540275/84707338-32faa200-af67-11ea-9e49-ce1fe7f86acc.png)). In these cases if possible, use logotext <sup><a href="#ftn2" id="ftn-sec2">[2]</a></sup> as well (depends on length of text).
+- Use logomark <sup><a href="#ftn1" id="ftn-sec1">[1]</a></sup> if brand is using one.
+  - Logomarks are sometimes way too generic ([example](https://user-images.githubusercontent.com/3540275/84707338-32faa200-af67-11ea-9e49-ce1fe7f86acc.png)). In these cases if possible, use logotext <sup><a href="#ftn1">[1]</a></sup> as well (depends on length of text).
 - If logo **only** has text, use that.
   - If you think that text is too long and hard to read on smaller size, **use first letter of text.**
 - Square like shaped logos shouldn't step outside of the guides.
@@ -85,7 +85,7 @@ When making icons, download provided [templates](/_templates).
   - **Tip:** In Illustrator, if logo is using gradient, use [this method](http://miraimages.com/illustrator-gradient-colors-to-swatches/) <sup>[[archive]](https://web.archive.org/web/20200606124113/http://miraimages.com/illustrator-gradient-colors-to-swatches/)</sup> to extract all the colors in the gradient to the swatches. Then select the color what you think looks the best.
 - If icon you're making is using dark background, you **need to make** `bg.var` icon version as well (see [technical](#technical)).
   - If there's no guidelines for alternative colors, check the website or app to see what other colors there might be.
-- For generic icons, use background color `#607D8B` <sup><a href="#ftn1" id="ftn-sec1">[1]</a></sup> and white foreground.
+- For generic icons, use background color `#607D8B` <sup><a href="#ftn2" id="ftn-sec2">[2]</a></sup> and white foreground.
   - Templates `ai_template_generic.ait` & `svg_template_generic.svg` has correct background color set.
   
 ### Generic icons
@@ -123,7 +123,7 @@ Submit your icon for review by [opening a new issue](https://github.com/krisu5/a
 ## Style requirements
 
 ### Style
-- The primary icon uses the main company logo, whether that is a logomark, logotype, or something else <sup><a href="#ftn2" id="ftn-sec2">[2]</a></sup>.
+- The primary icon uses the main company logo, whether that is a logomark, logotype, or something else <sup><a href="#ftn1">[1]</a></sup>.
 - The icon has:
   - Image/page canvas of 1024 x 1024px.
   - Solid background circle with company brand color (see colors section), spanning 100% of image canvas (1024px).
@@ -226,8 +226,8 @@ Check at "advanced" menu that text antialiasing is set as *ClearType*.
     - Add a shadow / Grayscale / Draw border around thumbnails: **not checked**.
 
 ## Footnotes
-<sup><a href="#ftn-sec1" id="ftn1">[1]</a></sup> This color is taken from [Material Design 2014 color system](https://material.io/design/color/the-color-system.html#tools-for-picking-colors) (Blue Grey, 500).
+<sup><a href="#ftn-sec1" id="ftn1">[1]</a></sup> Article: [Logo, Logomark, Logotype - What's The Difference And What Do You Need?](https://blog.designcrowd.com/article/997/logo-logomark-logotype-whats-the-difference-and-what-do-you-need) <sup>[[archive]](https://web.archive.org/web/20200606123728/https://blog.designcrowd.com/article/997/logo-logomark-logotype-whats-the-difference-and-what-do-you-need)</sup>.
 
-<sup><a href="#ftn-sec2" id="ftn2">[2]</a></sup> Article: [Logo, Logomark, Logotype - What's The Difference And What Do You Need?](https://blog.designcrowd.com/article/997/logo-logomark-logotype-whats-the-difference-and-what-do-you-need) <sup>[[archive]](https://web.archive.org/web/20200606123728/https://blog.designcrowd.com/article/997/logo-logomark-logotype-whats-the-difference-and-what-do-you-need)</sup>.
+<sup><a href="#ftn-sec2" id="ftn2">[2]</a></sup> This color is taken from [Material Design 2014 color system](https://material.io/design/color/the-color-system.html#tools-for-picking-colors) (Blue Grey, 500).
 
-<sup><a href="#ftn-sec3" id="ftn3">[2]</a></sup> While *pingo* is still one of the best & fastest PNG compressor currently, we can't recommend it 100% anymore because of author's uncertain behaviour. Recently, the author  of *pingo* has erased Linux version, feedback forum and changelog completely without warning and explanation. Good GUI alternatives for Windows are [FileOptimizer](https://sourceforge.net/projects/nikkhokkho/files/FileOptimizer/) and [PNGGauntlet](https://pnggauntlet.com/). For command line usage, check out *zopflipng* ([main source](https://github.com/google/zopfli), [tutorial](https://ariya.io/2016/06/using-zopfli-to-optimize-png-images), [Node.js port](https://github.com/pierreinglebert/node-zopfli), [builded Windows binaries](https://github.com/garyzyg/zopfli-windows/releases)).
+<sup><a href="#ftn-sec3" id="ftn3">[3]</a></sup> While *pingo* is still one of the best & fastest PNG compressor currently, we can't recommend it 100% anymore because of author's uncertain behaviour. Recently, the author  of *pingo* has erased Linux version, feedback forum and changelog completely without warning and explanation. Good GUI alternatives for Windows are [FileOptimizer](https://sourceforge.net/projects/nikkhokkho/files/FileOptimizer/) and [PNGGauntlet](https://pnggauntlet.com/). For command line usage, check out *zopflipng* ([main source](https://github.com/google/zopfli), [tutorial](https://ariya.io/2016/06/using-zopfli-to-optimize-png-images), [Node.js port](https://github.com/pierreinglebert/node-zopfli), [builded Windows binaries](https://github.com/garyzyg/zopfli-windows/releases)).
