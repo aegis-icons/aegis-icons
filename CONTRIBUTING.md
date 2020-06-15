@@ -190,7 +190,7 @@ Check at "advanced" menu that text antialiasing is set as *ClearType*.
 - **Text** section ([screenshot](https://user-images.githubusercontent.com/3540275/84652079-b12d5900-af13-11ea-895e-e6e0acefd49a.png))
   - Show header: **not checked**
   - Show filenames: **checked**
-    - Text: *< Filename >*
+    - Text: *\<Filename\>*
     - Font: *Cascadia Mono 9* (install `CascadiaMono.ttf` and set size as *9*)
     - Extend upwards / Solid background / Truncate to one line: **not checked**
     - Ignore aspect ratio: **checked**
