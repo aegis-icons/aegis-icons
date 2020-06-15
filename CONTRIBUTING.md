@@ -128,7 +128,7 @@ Submit your icon for review by [opening a new issue](https://github.com/krisu5/a
   - Image/page canvas of 1024 x 1024px.
   - Solid background circle with company brand color (see colors section), spanning 100% of image canvas (1024px).
   - Alpha channel.
-  - Company logo in flat white or flat black, depending on whichever creates greatest contrast with background color. This may require modifying an original multicolor company logo.
+  - Company logo in white (`#FFFFFF`) or black (`#000000`), depending on whichever creates greatest contrast with background color. This may require modifying an original multicolor company logo.
   - Company logo maximum height is 50% (512px) and maximum width is 75% (768 px).
 
 #### Variations
@@ -138,15 +138,15 @@ Submit your icon for review by [opening a new issue](https://github.com/krisu5/a
 #### Technical
 - Master source file is vector-based AI or SVG format. Raster images (PNG, JPEG, etc) are unacceptable, including raster images embedded within the vector file.
 - SVG and PNG size are 1024 x 1024 px without any scale.
-- **Filename**
-    - Primary icon: `[Company or Product Name].[extension]`
-          - Examples: `Epic Games.ai`, `itch.io.svg`, `AWS.png`
-        - Icon variations with alternate logo: `[Primary icon name] alt.[extension]`
-          - Examples: `AppFolio alt.svg`, `You Need A Budget alt.png`
-        - Icon variations with different foreground / background brand color: `[Primary icon name] fg/bg.var.[extension]`
-          - Examples: `Snapchat fg.var.png`, `Squarespace bg.var.png`
-        - Alternative icons with different foreground / background brand color: `[Primary icon name] alt fg/bg.var.[extension]`
-          - Examples: `Black Desert Online alt bg.var.png`
+- **Filename:**
+  - Primary icon: `[Company or Product Name].[extension]`
+    - Examples: `Epic Games.ai`, `itch.io.svg`, `AWS.png`
+  - Icon variations with alternate logo: `[Primary icon name] alt.[extension]`
+    - Examples: `AppFolio alt.svg`, `You Need A Budget alt.png`
+  - Icon variations with different foreground / background brand color: `[Primary icon name] fg/bg.var.[extension]`
+    - Examples: `Snapchat fg.var.png`, `Squarespace bg.var.png`
+  - Alt. icons with different foreground / background brand color: `[Primary icon name] alt fg/bg.var.[extension]`
+    - Examples: `Black Desert Online alt bg.var.png`
 
 ## Resources
 Resources marked with star (⭐) are recommended and most used by the maintainers.
