@@ -181,8 +181,8 @@ Check at "advanced" menu that text antialiasing is set as *ClearType*.
 
 - **Spacing** section ([screenshot](https://user-images.githubusercontent.com/3540275/84652069-a96db480-af13-11ea-98b0-35f2d30224b8.png))
   - Spacing Between Thumbnails:
-    - ↔: *12*
-    - ↕: *28*
+    - ↔️: *12*
+    - ↕️: *28*
   - Page margins:
     - Top / Left / Right: *16*
     - Bottom: *0*.
