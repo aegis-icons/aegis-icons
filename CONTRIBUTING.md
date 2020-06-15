@@ -170,7 +170,7 @@ Typeface for filenames is [Cascadia Code](https://github.com/microsoft/cascadia-
 Check at "advanced" menu that text antialiasing is set as *ClearType*.
 
 - **Basic Setup** section ([screenshot](https://user-images.githubusercontent.com/3540275/84652052-a1ae1000-af13-11ea-829a-e810ab36e8a8.png))
-  - Folder: */PNG/, /PNG/Generic/, /PNG/Outdated/* or */PNG/Variations/*
+  - Folder: *PNG/, PNG/Generic/, PNG/Outdated/* or *PNG/Variations/*
   - Create index images for: *This folder only*
   - Width and height: *128*
     - Adapt height to row content: **checked**
