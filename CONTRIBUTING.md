@@ -1,10 +1,5 @@
-# ⚠ Contributing process is still work in progress
-**⚠ Do not submit icons, until this notice is gone and documents / assets related to contributing are finalized.**
-
-----
-
 # Contributing
-Thank you for taking the time to contribute! Ask for help, report a bug, or request a feature simply by [opening a new issue](https://github.com/krisu5/aegis-icons/issues)! If you would like to contribute icons or code, please fork the project and keep reading!
+Thank you for taking the time to contribute! Ask for help, report a bug, or request a feature simply by [opening a new issue](https://github.com/krisu5/aegis-icons/issues)! If you would like to contribute icons or code, please fork the project and keep reading! Documentation may look long, but it's mostly simple rules and suggestions.
 
 **For contributing, you have to know basics of making and editing vector graphics.**
 
@@ -20,7 +15,7 @@ It's recommended to also have some knowledge of design in general.
   - [Colors](#colors)
   - [Generic icons](#generic-icons)
   - [Save and export](#save-and-export)
-  - [Compression](#compression)
+  - [PNG compression](#png-compression)
   - [Submit to repository](#submit-to-repository)
 - [**Style requirements**](#style-requirements)
   - [Style](#style)
@@ -51,7 +46,8 @@ Scour the logo resources (URL, data URI etc.) to find a vector-based image (SVG,
   - E.g. [You Need A Budget](https://www.youneedabudget.com) reveals the hidden SVG resource in HTML metadata section `https://www-assets.youneedabudget.com/wp-content/themes/dupatta/dist/images/safari-pinned-tab_[random-alphanumerical].svg` which can be copied-and-pasted into the browser to open the image, and then saved normally).
 - If everything has failed so far, then check [logo resources](#logos) section.
 - As last resort, you could try image tracing on Illustrator, Inkscape etc. Usually results varies from bad to kind of decent. Rule of thumb with tracing is using image that's high resolution, not many colors and doesn't have any artifacts. 
-  - [Vector Magic](https://vectormagic.com/) does way better job, but unfortunately they don't offer free services.<br>[Vectorizer.io](https://www.vectorizer.io/) is good alternative and has free option, but with annoying restrictions.
+  - [Vector Magic](https://vectormagic.com/) does way better job, but unfortunately they don't offer free services.
+  - [Vectorizer.io](https://www.vectorizer.io/) is good alternative and has free option, but with annoying restrictions.
   - Making vectorized logo from stratch is also option, if you're skilled and patient enough.
 
 > ⚠ Watch out for SVGs that are using raster graphics ([example](https://github.com/haiwen/seafile-client/blob/7d8f06111960921ce01ef08e169d41bae13959ed/data/icons/scalable/apps/seafile.svg?short_path=d0d75d2#L54)). These are not common, but still exists.
@@ -66,10 +62,11 @@ When making icons, download provided [templates](/_templates).
 ### Layout
 - Use logomark <sup><a href="#ftn1" id="ftn-sec1">[1]</a></sup> if brand is using one.
   - Logomarks are sometimes way too generic ([example](https://user-images.githubusercontent.com/3540275/84707338-32faa200-af67-11ea-9e49-ce1fe7f86acc.png)). In these cases if possible, use logotext <sup><a href="#ftn1">[1]</a></sup> as well (depends on length of text).
-- If logo **only** has text, use that.
+- If logo **only has text**, use that.
   - If you think that text is too long and hard to read on smaller size, **use first letter of text.**
+- Stay inside of the guides as much as possible.
 - Square like shaped logos shouldn't step outside of the guides.
-- For wider logos, furthest left & right side guides are max size limit (but recommended to keep it under that if possible).
+- For wider logos, furthest left & right side guides are max size limit.
 - Technically center doesn't always look center in your eyes. You can manually visual center the logo, if necessary.
 - Be mindful of white space. It's art form, not science. :)
 
@@ -89,7 +86,7 @@ When making icons, download provided [templates](/_templates).
   - Templates `ai_template_generic.ait` & `svg_template_generic.svg` has correct background color set.
   
 ### Generic icons
-"Generic" means icons that doesn't represent any brand and are using symbol-like vectors.
+"Generic", in this case, means icons that doesn't represent any brand and are using symbol-like vectors.
 
 - Use `ai_template_generic.ait` or `svg_template_generic.svg` template, depending on the software.
 - Don't change the background color of the template (`#607D8B`).
@@ -104,10 +101,11 @@ When making icons, download provided [templates](/_templates).
 - For other softwares, just save as SVG.
   - Remember to **remove the guide strokes!**
   - **In Inkscape,** save the SVG as "Plain SVG", not "Inkscape SVG".
+  - Don't minify / compress the SVG.
 - Then export file as a PNG with original height and width (1024 x 1024 px).
   - Use **1x scale** for Illustrator CC's "Export for Screens" (`Alt + Ctrl + E` on Windows, `⌘ + Option + E` on MacOS).
 
-### Compression
+### PNG compression
 Compress the PNG file(s) with either using [pingo](https://css-ig.net/pingo) <sup><a href="#ftn3" id="ftn-sec3">[3]</a></sup> (Windows, lossless), [ImageOptim](https://imageoptim.com/mac) (MacOS, lossless by default),<br>
 [Trimage](https://trimage.org/) (Linux & MacOS, lossless) or [TinyPNG](https://tinypng.com/) (web app, lossy).
 
@@ -118,7 +116,7 @@ If your software of choice has compression settings, set those maximum as well.
 **Do not use lossy compressions that has visible differences / artifacts.** When in doubt, use lossless.
 
 ### Submit to repository
-Submit your icon for review by [opening a new issue](https://github.com/krisu5/aegis-icons/issues) and attaching your file(s) and source(s). Alternately, you are encouraged to refer to [this GitHub guide](https://guides.github.com/activities/contributing-to-open-source) to fork the Aegis Icons project, add the changed files to your fork, then create a Pull Request with your submissions. This more-complex method is less work for the maintainers, and gives you more impressive contribution stats on your GitHub user homepage. 😉 (If possible, please don't add AI files in the pull requests. Instead, zip it and upload it in the PR comment section or sent AI files to [aegis-icons_AIs](https://github.com/krisu5/aegis-icons_AIs) repo instead.)
+Submit your icon for review by [opening a new issue](https://github.com/krisu5/aegis-icons/issues/new/choose) (select "Icon submission") and attaching your file(s) and source(s). Alternately, you are encouraged to refer to [this GitHub guide](https://guides.github.com/activities/contributing-to-open-source) to fork the Aegis Icons project, add the changed files to your fork, then create a Pull Request with your submissions. This more-complex method is less work for the maintainers, and gives you more impressive contribution stats on your GitHub user homepage. 😉 (If possible, please don't add AI files in the pull requests. Instead, zip it and upload it in the PR comment section or sent AI files to [aegis-icons_AIs](https://github.com/krisu5/aegis-icons_AIs) repo instead.)
 
 ## Style requirements
 
@@ -138,15 +136,18 @@ Submit your icon for review by [opening a new issue](https://github.com/krisu5/a
 #### Technical
 - Master source file is vector-based AI or SVG format. Raster images (PNG, JPEG, etc) are unacceptable, including raster images embedded within the vector file.
 - SVG and PNG size are 1024 x 1024 px without any scale.
+
 - **Filename:**
   - Primary icon: `[Company or Product Name].[extension]`
-    - Examples: `Epic Games.ai`, `itch.io.svg`, `AWS.png`
+    - Examples: `Epic Games.ai`, `itch.io.svg`, `AWS.png`.
   - Icon variations with alternate logo: `[Primary icon name] alt.[extension]`
-    - Examples: `AppFolio alt.svg`, `You Need A Budget alt.png`
+    - Examples: `AppFolio alt.svg`, `You Need A Budget alt.png`.
   - Icon variations with different foreground / background brand color: `[Primary icon name] fg/bg.var.[extension]`
     - Examples: `Snapchat fg.var.png`, `Squarespace bg.var.png`
+    - `Fg.var` is for bright brand colors
+    - `Bg.var` are made for dark / AMOLED themes.
   - Alt. icons with different foreground / background brand color: `[Primary icon name] alt fg/bg.var.[extension]`
-    - Examples: `Black Desert Online alt bg.var.png`
+    - Examples: `Black Desert Online alt bg.var.png`.
 
 ## Resources
 Resources marked with star (⭐) are recommended and most used by the maintainers.
@@ -181,47 +182,49 @@ Looking for software to start make icons? Here's some of the well known ones.
 - [Inkscape](https://inkscape.org/) (popular open source option)
 
 ## Maintainer's Guide
-As needed, update `full_preview.md`, `full_preview.png` (and convert that to `full_preview.webp` with using *pingo* command `pingo -webp-nigh=100 -s9 full_preview.png`), `full_preview_generic.png`, `full_preview_variations.png`, and `full_preview_outdated.png`.
+*This is for admins of the repo. If you're regular contributor, you can ignore this section.*
+
+As needed, update `full_preview.md`, `full_preview.png` (and convert that to `full_preview.webp` with using *pingo* command `pingo -webp-nigh=100 -s9 full_preview.png` [[batch script](/_compress/.2_pingo-script-for-previews.bat)]), `full_preview_generic.png`, `full_preview_variations.png`, and `full_preview_outdated.png`.
 
 ### Contact sheets (previews)
 We are using [*Snap2IMG*](https://www.rlvision.com/snap2img/about.php) software for generating previews (unfortunately, it's Windows only software. **Cross platform alternative wanted!** Submit your suggestions at issues).
 
-Typeface for filenames is [Cascadia Code](https://github.com/microsoft/cascadia-code) (mono version).
+Typeface for filenames is *[Cascadia Code](https://github.com/microsoft/cascadia-code) (mono version)*.
 
 #### Snap2IMG config
 Check at "advanced" menu that text antialiasing is set as *ClearType*.
 
 - **Basic Setup** section ([screenshot](https://user-images.githubusercontent.com/3540275/84652052-a1ae1000-af13-11ea-829a-e810ab36e8a8.png))
-  - Folder: *PNG/, PNG/Generic/, PNG/Outdated/* or *PNG/Variations/*
-  - Create index images for: *This folder only*
+  - Folder: *PNG/, PNG/Generic/, PNG/Outdated/* or *PNG/Variations/*.
+  - Create index images for: *This folder only*.
   - Width and height: *128*
     - Adapt height to row content: **checked**
-    - Ignore aspect ratio: **not checked**
+    - Ignore aspect ratio: **not checked**.
   - Thumbs per row: *6*
-    - Always pad to full width: **not checked**
+    - Always pad to full width: **not checked**.
   - Limit rows: **not checked**.
 
 - **Spacing** section ([screenshot](https://user-images.githubusercontent.com/3540275/84652069-a96db480-af13-11ea-98b0-35f2d30224b8.png))
   - Spacing Between Thumbnails:
     - ↔️ (left to right): *12*
-    - ↕️ (top to bottom): *28*
+    - ↕️ (top to bottom): *28*.
   - Page margins:
     - Top / Left / Right: *16*
     - Bottom: *0*.
     
 - **Text** section ([screenshot](https://user-images.githubusercontent.com/3540275/84652079-b12d5900-af13-11ea-895e-e6e0acefd49a.png))
-  - Show header: **not checked**
+  - Show header: **not checked**.
   - Show filenames: **checked**
     - Text: *\<Filename\>*
     - Font: *Cascadia Mono 9* (install `CascadiaMono.ttf` and set size as *9*)
     - Extend upwards / Solid background / Truncate to one line: **not checked**
-    - Ignore aspect ratio: **checked**
+    - Ignore aspect ratio: **checked**.
   - Show footer: **not checked**.
 
 - **Styling** section ([screenshot](https://user-images.githubusercontent.com/3540275/84652096-ba1e2a80-af13-11ea-9117-6dad42da53c2.png))
   - Page Background:
     - Color: *white* (RGB `255 255 255`)
-    - Texture: *No Texture*
+    - Texture: *No Texture*.
   - Thumbnails:
     - Add a shadow / Grayscale / Draw border around thumbnails: **not checked**.
 
