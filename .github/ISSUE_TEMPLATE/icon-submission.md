@@ -23,4 +23,4 @@ Add x inside of the brackets: [ ] -> [x]
 Uploaded files:
 
 <!-- ^^^ ADD FILES HERE ABOVE THIS LINE ^^^
-Zip the files (Github doesn't accept SVG or AI files). -->
+Zip the files (Github doesn't accept SVG or AI files there). -->
