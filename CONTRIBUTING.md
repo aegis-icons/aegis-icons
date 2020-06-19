@@ -13,7 +13,7 @@ It's recommended to also have some knowledge of design in general.
   - [Templates](#templates)
   - [Layout](#layout)
   - [Colors](#colors)
-  - [bg.var & fg.var icons](bg-var-fg-var-icons)
+  - [bg.var & fg.var icons](#bgvar--fgvar-icons)
   - [Alternative icons](#alternative-icons)
   - [Generic icons](#generic-icons)
   - [Save and export](#save-and-export)
