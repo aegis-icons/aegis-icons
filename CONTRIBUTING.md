@@ -98,7 +98,7 @@ When making icons, download provided [templates](/_templates).
 ### Alternative icons
 "Alternative", in this case, means icons for brands that provide alternative logos of their brands (Example: [regular IVPN](https://user-images.githubusercontent.com/3540275/85149274-c549c100-b259-11ea-8477-6164b679c673.png), [alternative IVPN](https://user-images.githubusercontent.com/3540275/85149294-ca0e7500-b259-11ea-9655-b867c21ba1b6.png)).
 
-Just change the logo for alternative version and save as seperate file.
+Just change the logo for alternative version.
 
 ### Generic icons
 "Generic", in this case, means icons that doesn't represent any brand and are using symbol-like vectors.
