@@ -18,9 +18,10 @@ It's recommended to also have some knowledge of design in general.
   - [PNG compression](#png-compression)
   - [Submit to repository](#submit-to-repository)
 - [**Style requirements**](#style-requirements)
-  - [Style](#style)
   - [Variations](#variations)
-  - [Technical](#technical)
+- [Technical](#technical)
+  - [Filename](#filename)
+    - [Version naming and organizing](#version-naming-and-organizing)
 - [**Resources**](#resources)
   - [Logos](#logos)
   - [Lists of sites supporting 2FA](#lists-of-sites-supporting-2fa)
@@ -75,12 +76,12 @@ When making icons, download provided [templates](/_templates).
 - Don't use gradients, use solid colors.
 - Keep everything at 100% opacity, no blending etc.
 - Logo (a.k.a. foreground, fg) should always use white (`#FFFFFF`).
-  - Exceptions are `fg.var` icons (see [technical](#technical)) that use black (`#000000`) as foreground color. These are for icons that have bright background color that makes white logo hard to see for some screens / eyes.
+  - Exceptions are `fg.var` icons (see [filename](#filename) section) that use black (`#000000`) as foreground color. These are for icons that have bright background color that makes white logo hard to see for some screens / eyes.
     - E.g. [primary Snapchat icon](https://user-images.githubusercontent.com/3540275/83945146-6162d980-a811-11ea-8910-9e93ff65e804.png), [Snapchat fg.var icon](https://user-images.githubusercontent.com/3540275/83945157-6fb0f580-a811-11ea-8fc4-494dcfff53ae.png).
 - If you find brand guideline that has documented brand colors ([example](https://brave.com/brave-branding-assets/) <sup>[[archive]](https://web.archive.org/web/20200606124434/https://brave.com/brave-branding-assets/)</sup>), then go with that. Use primary brand color, that has specifically said on the guideline or based on what color is used most.
 - If there's no guidelines and logo only has one color, use logo color as icon background.
   - **Tip:** In Illustrator, if logo is using gradient, use [this method](http://miraimages.com/illustrator-gradient-colors-to-swatches/) <sup>[[archive]](https://web.archive.org/web/20200606124113/http://miraimages.com/illustrator-gradient-colors-to-swatches/)</sup> to extract all the colors in the gradient to the swatches. Then select the color what you think looks the best.
-- If icon you're making is using dark background, you **need to make** `bg.var` icon version as well (see [technical](#technical)).
+- If icon you're making is using dark background, you **need to make** `bg.var` icon version as well (see [filename](#filename) section).
   - If there's no guidelines for alternative colors, check the website or app to see what other colors there might be.
 - For generic icons, use background color `#607D8B` <sup><a href="#ftn2" id="ftn-sec2">[2]</a></sup> and white foreground.
   - Templates `ai_template_generic.ait` & `svg_template_generic.svg` has correct background color set.
@@ -104,6 +105,7 @@ When making icons, download provided [templates](/_templates).
   - Don't minify / compress the SVG.
 - Then export file as a PNG with original height and width (1024 x 1024 px).
   - Use **1x scale** for Illustrator CC's "Export for Screens" (`Alt + Ctrl + E` on Windows, `⌘ + Option + E` on MacOS).
+- Read info about naming at [filename](#filename) section.
 
 ### PNG compression
 Compress the PNG file(s) with either using *[pingo](https://css-ig.net/pingo)* <sup><a href="#ftn3" id="ftn-sec3">[3]</a></sup> (Windows, lossless), *[ImageOptim](https://imageoptim.com/mac)* (MacOS, lossless by default),<br>
@@ -119,35 +121,44 @@ If your software of choice has compression settings, set those maximum as well.
 Submit your icon for review by [opening a new issue](https://github.com/krisu5/aegis-icons/issues/new/choose) (select "Icon submission") and attaching your file(s) and source(s). Alternately, you are encouraged to refer to [this GitHub guide](https://guides.github.com/activities/contributing-to-open-source) to fork the Aegis Icons project, add the changed files to your fork, then create a Pull Request with your submissions. This more-complex method is less work for the maintainers, and gives you more impressive contribution stats on your GitHub user homepage. 😉 (If possible, please don't add AI files in the pull requests. Instead, zip it and upload it in the PR comment section or sent AI files to [aegis-icons_AIs](https://github.com/krisu5/aegis-icons_AIs) repo instead.)
 
 ## Style requirements
-
-### Style
 - The primary icon uses the main company logo, whether that is a logomark, logotype, or something else <sup><a href="#ftn1">[1]</a></sup>.
 - The icon has:
-  - Image/page canvas of 1024 x 1024px.
-  - Solid background circle with company brand color (see colors section), spanning 100% of image canvas (1024px).
+  - Image/page canvas of 1024 x 1024 px.
+  - Solid background circle with company brand color (see [colors section), spanning 100% of image canvas (1024px).
   - Alpha channel.
   - Company logo in white (`#FFFFFF`) or black (`#000000`), depending on whichever creates greatest contrast with background color. This may require modifying an original multicolor company logo.
-  - Company logo maximum height is 50% (512px) and maximum width is 75% (768 px).
+  - Company logo maximum height is 50% (512px) and maximum width is 75% (768px).
 
-#### Variations
+### Variations
 - Other logos and variations (including logomarks when they are not the main brand logo) are accepted in the "Variations" subfolder.
 - All variations otherwise follow the same style requirements as the primary logo.
 
-#### Technical
-- Master source file is vector-based AI or SVG format. Raster images (PNG, JPEG, etc) are unacceptable, including raster images embedded within the vector file.
+## Technical
+- Master source file is vector-based AI or SVG format. Raster images (PNG, JPEG, GIF etc.) are unacceptable, including raster images embedded within the vector file.
 - SVG and PNG size are 1024 x 1024 px without any scale.
+- AI template's color mode is RGB color.
 
-- **Filename:**
-  - Primary icon: `[Company or Product Name].[extension]`
+### Filename
+  - Primary icon: `[Company or Product Name].[extension]`.
     - Examples: `Epic Games.ai`, `itch.io.svg`, `AWS.png`.
-  - Icon variations with alternate logo: `[Primary icon name] alt.[extension]`
+  - Icon variations with alternate logo: `[Primary icon name] alt.[extension]`.
     - Examples: `AppFolio alt.svg`, `You Need A Budget alt.png`.
-  - Icon variations with different foreground / background brand color: `[Primary icon name] fg/bg.var.[extension]`
-    - Examples: `Snapchat fg.var.png`, `Squarespace bg.var.png`
-    - `Fg.var` is for bright brand colors
+  - Icon variations with different foreground / background brand color: `[Primary icon name] fg/bg.var.[extension]`.
+    - Examples: `Snapchat fg.var.png`, `Squarespace bg.var.png`.
+    - `Fg.var` is for bright brand colors.
     - `Bg.var` are made for dark / AMOLED themes.
-  - Alt. icons with different foreground / background brand color: `[Primary icon name] alt fg/bg.var.[extension]`
+  - Alt. icons with different foreground / background brand color: `[Primary icon name] alt fg/bg.var.[extension]`.
     - Examples: `Black Desert Online alt bg.var.png`.
+    
+#### Version naming and organizing
+- Icon files that are outdated for first time, `v1` is added to end of the filename.
+  - Examples: `Yahoo v1.svg`, `Dashlane v1.png`.
+- Newer files also gets version label here from out.
+  - Examples: `Yahoo v2.svg`, `Dashlane v2.png`.
+- Version label number increases when new versions are released (`v3`, `v4`, `v5`, `v6` etc.).
+- Label number is also added / updated on the Illustrator file's artboard (`Alt + Ctrl + E` on Windows, `⌘ + Option + E` on MacOS).
+- Outdated versions are moved to self titled directory (`PNG/Outdated`, `SVG/Oudated`).
+  - In [aegis-icons_AIs](https://github.com/krisu5/aegis-icons_AIs) repo, directory is `Outdated/`.
 
 ## Resources
 Resources marked with star (⭐) are recommended and most used by the maintainers.
@@ -164,7 +175,9 @@ These are good resources for finding logos in vector format, when no official br
 - [Wikimedia Commons](https://commons.wikimedia.org/wiki/Main_Page)
 - Wikipedia pages of the brand
 
-Google searching also works really well with right keywords (like `[app / site name] svg`)
+More resources at [LogoSear.ch's "Alternative Logo Sources"](https://logosear.ch/alternatives/) list.
+
+Google searching also works really well with right keywords (like `[app / site name] svg`).
 
 ### Lists of sites supporting 2FA
 Need ideas for icons? These list apps / websites that support 2FA (and what kind of format too).
@@ -197,33 +210,33 @@ Check at "advanced" menu that text antialiasing is set as *ClearType*.
 - **Basic Setup** section ([screenshot](https://user-images.githubusercontent.com/3540275/84652052-a1ae1000-af13-11ea-829a-e810ab36e8a8.png))
   - Folder: *PNG/, PNG/Generic/, PNG/Outdated/* or *PNG/Variations/*.
   - Create index images for: *This folder only*.
-  - Width and height: *128*
-    - Adapt height to row content: **checked**
+  - Width and height: *128*.
+    - Adapt height to row content: **checked**.
     - Ignore aspect ratio: **not checked**.
-  - Thumbs per row: *6*
+  - Thumbs per row: *6*.
     - Always pad to full width: **not checked**.
   - Limit rows: **not checked**.
 
 - **Spacing** section ([screenshot](https://user-images.githubusercontent.com/3540275/84652069-a96db480-af13-11ea-98b0-35f2d30224b8.png))
   - Spacing Between Thumbnails:
-    - ↔️ (left to right): *12*
+    - ↔️ (left to right): *12*.
     - ↕️ (top to bottom): *28*.
   - Page margins:
-    - Top / Left / Right: *16*
+    - Top / Left / Right: *16*.
     - Bottom: *0*.
     
 - **Text** section ([screenshot](https://user-images.githubusercontent.com/3540275/84652079-b12d5900-af13-11ea-895e-e6e0acefd49a.png))
   - Show header: **not checked**.
-  - Show filenames: **checked**
-    - Text: *\<Filename\>*
-    - Font: *Cascadia Mono 9* (install `CascadiaMono.ttf` and set size as *9*)
-    - Extend upwards / Solid background / Truncate to one line: **not checked**
+  - Show filenames: **checked**.
+    - Text: *\<Filename\>*.
+    - Font: *Cascadia Mono 9* (install `CascadiaMono.ttf` and set size as *9*).
+    - Extend upwards / Solid background / Truncate to one line: **not checked**.
     - Ignore aspect ratio: **checked**.
   - Show footer: **not checked**.
 
 - **Styling** section ([screenshot](https://user-images.githubusercontent.com/3540275/84652096-ba1e2a80-af13-11ea-9117-6dad42da53c2.png))
   - Page Background:
-    - Color: *white* (RGB `255 255 255`)
+    - Color: *white* (RGB `255 255 255`).
     - Texture: *No Texture*.
   - Thumbnails:
     - Add a shadow / Grayscale / Draw border around thumbnails: **not checked**.
@@ -233,4 +246,4 @@ Check at "advanced" menu that text antialiasing is set as *ClearType*.
 
 <sup><a href="#ftn-sec2" id="ftn2">[2]</a></sup> This color is taken from [Material Design 2014 color system](https://material.io/design/color/the-color-system.html#tools-for-picking-colors) (Blue Grey, 500).
 
-<sup><a href="#ftn-sec3" id="ftn3">[3]</a></sup> While *pingo* is still one of the best & fastest PNG compressor currently, we can't recommend it 100% anymore because of author's uncertain behaviour. Recently, the author  of *pingo* has erased Linux version, feedback forum and changelog completely without warning and explanation. Good GUI alternatives for Windows are *[FileOptimizer](https://sourceforge.net/projects/nikkhokkho/files/FileOptimizer/)* and *[PNGGauntlet](https://pnggauntlet.com/)*. For command line usage, check out *[Efficient Compression Tool](https://github.com/fhanau/Efficient-Compression-Tool)* or *[zopflipng](https://github.com/google/zopfli)* ([tutorial](https://ariya.io/2016/06/using-zopfli-to-optimize-png-images), [Node.js port](https://github.com/pierreinglebert/node-zopfli), [builded Windows binaries](https://github.com/garyzyg/zopfli-windows/releases)).
+<sup><a href="#ftn-sec3" id="ftn3">[3]</a></sup> While *pingo* is still one of the best & fastest PNG compressor currently, we can't recommend it 100% anymore because of author's uncertain behaviour. Recently, the author  of *pingo* has erased Linux version, feedback forum and changelog completely without warning and explanation. Good GUI alternatives for Windows are *[FileOptimizer](https://sourceforge.net/projects/nikkhokkho/files/FileOptimizer/)* and *[PNGGauntlet](https://pnggauntlet.com/)*. For command line usage, check out *[Efficient Compression Tool](https://github.com/fhanau/Efficient-Compression-Tool)* or *[zopflipng](https://github.com/google/zopfli)* ([tutorial](https://ariya.io/2016/06/using-zopfli-to-optimize-png-images) <sup>[[archive]](https://web.archive.org/web/20200619115110/https://ariya.io/2016/06/using-zopfli-to-optimize-png-images)</sup>, [Node.js port](https://github.com/pierreinglebert/node-zopfli), [builded Windows binaries](https://github.com/garyzyg/zopfli-windows/releases)).
