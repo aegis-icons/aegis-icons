@@ -19,7 +19,7 @@ It's recommended to also have some knowledge of design in general.
   - [Save and export](#save-and-export)
   - [PNG compression](#png-compression)
   - [Submit to repository](#submit-to-repository)
-- [Technical](#technical)
+- [**Technical**](#technical)
   - [Directories](#directories)
   - [Filename](#filename)
     - [Version naming and organizing](#version-naming-and-organizing)
