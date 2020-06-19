@@ -113,7 +113,7 @@ Just change the logo for alternative version and save as seperate file.
 ### Save and export
 - If you're using Adobe Illustrator, save the file as AI **and** SVG.
   - Remember to **rename the artboard** (shortcut: `Shift + O`) before saving.
-    - Name artboard based of [filenaming system](#filename).
+    - Name artboard based of [filenaming system](#filename) (without extension).
 - For other softwares, just save as SVG.
   - Remember to **remove the guide strokes!**
   - **In Inkscape,** save the SVG as "Plain SVG", not "Inkscape SVG".
