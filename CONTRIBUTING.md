@@ -162,6 +162,8 @@ Submit your icon for review by [opening a new issue](https://github.com/krisu5/a
     - Examples: `Snapchat fg.var.png`, `Squarespace bg.var.png`.
   - Alt. icons with different foreground / background brand color: `[Primary icon name] alt fg/bg.var.[extension]`.
     - Examples: `Black Desert Online alt bg.var.png`.
+  - Generic icon: name as what the icon symbolizes with big capital letter.
+    - Example: `Cloud.png`
     
 #### Version naming and organizing
 - Icon files that are outdated for first time, `v1` is added to end of the filename.
