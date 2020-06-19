@@ -67,7 +67,7 @@ When making icons, download provided [templates](/_templates).
 - If logo **only has text**, use that.
   - If you think that text is too long and hard to read on smaller size, **use first letter of text.**
 - Stay inside of the guides as much as possible.
-- Square like shaped logos shouldn't step outside of the guides.
+- Square like shaped logos shouldn't step outside of the guides (size wise).
 - For wider logos, furthest left & right side guides are max size limit.
 - Technically center doesn't always look center in your eyes. You can manually visual center the logo, if necessary.
 - Be mindful of white space. It's art form, not science. :)
