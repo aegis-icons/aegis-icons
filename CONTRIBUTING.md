@@ -13,13 +13,14 @@ It's recommended to also have some knowledge of design in general.
   - [Templates](#templates)
   - [Layout](#layout)
   - [Colors](#colors)
+  - [bg.var & fg.var icons](bg-var-fg-var-icons)
+  - [Alternative icons](#alternative-icons)
   - [Generic icons](#generic-icons)
   - [Save and export](#save-and-export)
   - [PNG compression](#png-compression)
   - [Submit to repository](#submit-to-repository)
-- [**Style requirements**](#style-requirements)
-  - [Variations](#variations)
 - [Technical](#technical)
+  - [Directories](#directories)
   - [Filename](#filename)
     - [Version naming and organizing](#version-naming-and-organizing)
 - [**Resources**](#resources)
@@ -75,17 +76,30 @@ When making icons, download provided [templates](/_templates).
 - Never use white as background color.
 - Don't use gradients, use solid colors.
 - Keep everything at 100% opacity, no blending etc.
-- Logo (a.k.a. foreground, fg) should always use white (`#FFFFFF`).
-  - Exceptions are `fg.var` icons (see [filename](#filename) section) that use black (`#000000`) as foreground color. These are for icons that have bright background color that makes white logo hard to see for some screens / eyes.
-    - E.g. [primary Snapchat icon](https://user-images.githubusercontent.com/3540275/83945146-6162d980-a811-11ea-8910-9e93ff65e804.png), [Snapchat fg.var icon](https://user-images.githubusercontent.com/3540275/83945157-6fb0f580-a811-11ea-8fc4-494dcfff53ae.png).
+- Logo (a.k.a. foreground, fg) should use white (`#FFFFFF`).
 - If you find brand guideline that has documented brand colors ([example](https://brave.com/brave-branding-assets/) <sup>[[archive]](https://web.archive.org/web/20200606124434/https://brave.com/brave-branding-assets/)</sup>), then go with that. Use primary brand color, that has specifically said on the guideline or based on what color is used most.
 - If there's no guidelines and logo only has one color, use logo color as icon background.
   - **Tip:** In Illustrator, if logo is using gradient, use [this method](http://miraimages.com/illustrator-gradient-colors-to-swatches/) <sup>[[archive]](https://web.archive.org/web/20200606124113/http://miraimages.com/illustrator-gradient-colors-to-swatches/)</sup> to extract all the colors in the gradient to the swatches. Then select the color what you think looks the best.
-- If icon you're making is using dark background, you **need to make** `bg.var` icon version as well (see [filename](#filename) section).
-  - If there's no guidelines for alternative colors, check the website or app to see what other colors there might be.
+- If icon you're making is using dark background, you **need to make** `bg.var` icon version as well.
+  - Or if opposite, background is too bright, then make `fg.var` icon version.
 - For generic icons, use background color `#607D8B` <sup><a href="#ftn2" id="ftn-sec2">[2]</a></sup> and white foreground.
   - Templates `ai_template_generic.ait` & `svg_template_generic.svg` has correct background color set.
   
+### bg.var & fg.var icons
+- `bg.var` icons are made for dark / AMOLED themes. These are made when primary icon has dark background that blend in when using the darker theme.
+  - Examples: [primary Steam icon](https://user-images.githubusercontent.com/3540275/85153557-042e4580-b25f-11ea-85ff-7cb883f977d4.png), [Steam bg.var icon](https://user-images.githubusercontent.com/3540275/85153530-fbd60a80-b25e-11ea-9197-d7400eeec74f.png).
+  - Use brighter alternative background.
+  - If there's no guidelines for alternative colors, check the website or app to see what other colors there might be.
+
+- `fg.var` icons are made when brand color is bright and hard to see for white foreground.
+  - Examples: [primary Snapchat icon](https://user-images.githubusercontent.com/3540275/83945146-6162d980-a811-11ea-8910-9e93ff65e804.png), [Snapchat fg.var icon](https://user-images.githubusercontent.com/3540275/83945157-6fb0f580-a811-11ea-8fc4-494dcfff53ae.png). 
+  - Use black (`#000000`) as foreground color.
+  
+### Alternative icons
+"Alternative", in this case, means icons for brands that provide alternative logos of their brands (Example: [regular IVPN](https://user-images.githubusercontent.com/3540275/85149274-c549c100-b259-11ea-8477-6164b679c673.png), [alternative IVPN](https://user-images.githubusercontent.com/3540275/85149294-ca0e7500-b259-11ea-9655-b867c21ba1b6.png)).
+
+Just change the logo for alternative version and save as seperate file.
+
 ### Generic icons
 "Generic", in this case, means icons that doesn't represent any brand and are using symbol-like vectors.
 
@@ -98,14 +112,16 @@ When making icons, download provided [templates](/_templates).
 
 ### Save and export
 - If you're using Adobe Illustrator, save the file as AI **and** SVG.
-  - Remember to **rename the artboard** (`Shift + O`) before saving.
+  - Remember to **rename the artboard** (shortcut: `Shift + O`) before saving.
+    - Name artboard based of [filenaming system](#filename).
 - For other softwares, just save as SVG.
   - Remember to **remove the guide strokes!**
   - **In Inkscape,** save the SVG as "Plain SVG", not "Inkscape SVG".
   - Don't minify / compress the SVG.
 - Then export file as a PNG with original height and width (1024 x 1024 px).
-  - Use **1x scale** for Illustrator CC's "Export for Screens" (`Alt + Ctrl + E` on Windows, `⌘ + Option + E` on MacOS).
+  - Use **1x scale** for Illustrator CC's "Export for Screens" (shortcut: `Alt + Ctrl + E` on Windows, `⌘ + Option + E` on MacOS).
 - Read info about naming at [filename](#filename) section.
+- If you're submitting pull request, read also [directories](#directories) section.
 
 ### PNG compression
 Compress the PNG file(s) with either using *[pingo](https://css-ig.net/pingo)* <sup><a href="#ftn3" id="ftn-sec3">[3]</a></sup> (Windows, lossless), *[ImageOptim](https://imageoptim.com/mac)* (MacOS, lossless by default),<br>
@@ -120,23 +136,22 @@ If your software of choice has compression settings, set those maximum as well.
 ### Submit to repository
 Submit your icon for review by [opening a new issue](https://github.com/krisu5/aegis-icons/issues/new/choose) (select "Icon submission") and attaching your file(s) and source(s). Alternately, you are encouraged to refer to [this GitHub guide](https://guides.github.com/activities/contributing-to-open-source) to fork the Aegis Icons project, add the changed files to your fork, then create a Pull Request with your submissions. This more-complex method is less work for the maintainers, and gives you more impressive contribution stats on your GitHub user homepage. 😉 (If possible, please don't add AI files in the pull requests. Instead, zip it and upload it in the PR comment section or sent AI files to [aegis-icons_AIs](https://github.com/krisu5/aegis-icons_AIs) repo instead.)
 
-## Style requirements
-- The primary icon uses the main company logo, whether that is a logomark, logotype, or something else <sup><a href="#ftn1">[1]</a></sup>.
-- The icon has:
-  - Image/page canvas of 1024 x 1024 px.
-  - Solid background circle with company brand color (see [colors section), spanning 100% of image canvas (1024px).
-  - Alpha channel.
-  - Company logo in white (`#FFFFFF`) or black (`#000000`), depending on whichever creates greatest contrast with background color. This may require modifying an original multicolor company logo.
-  - Company logo maximum height is 50% (512px) and maximum width is 75% (768px).
-
-### Variations
-- Other logos and variations (including logomarks when they are not the main brand logo) are accepted in the "Variations" subfolder.
-- All variations otherwise follow the same style requirements as the primary logo.
-
 ## Technical
 - Master source file is vector-based AI or SVG format. Raster images (PNG, JPEG, GIF etc.) are unacceptable, including raster images embedded within the vector file.
 - SVG and PNG size are 1024 x 1024 px without any scale.
 - AI template's color mode is RGB color.
+- The icon has:
+  - Image/page canvas of 1024 x 1024 px.
+  - Alpha channel.
+  - Solid background circle with company brand color, spanning 100% of image canvas (1024px).
+  - Company logo maximum height is 50% (512px) and maximum width is 75% (768px).
+
+### Directories
+- Non-variation primary icons are added to root of `PNG/` and `SVG/` folder.
+  - AI files are added to root of [aegis-icons_AIs](https://github.com/krisu5/aegis-icons_AIs) repo.
+- Variation icons (`bg.var` or `fg.var`) and alternative (`alt`) are added to `PNG/Variations` and `SVG/Variations` folder.
+  - At [aegis-icons_AIs](https://github.com/krisu5/aegis-icons_AIs) repo, it's `Variations/`.
+- For outdated icons, see [version naming and organizing](#version-naming-and-organizing) section.
 
 ### Filename
   - Primary icon: `[Company or Product Name].[extension]`.
@@ -156,7 +171,7 @@ Submit your icon for review by [opening a new issue](https://github.com/krisu5/a
 - Newer files also gets version label here from out.
   - Examples: `Yahoo v2.svg`, `Dashlane v2.png`.
 - Version label number increases when new versions are released (`v3`, `v4`, `v5`, `v6` etc.).
-- Label number is also added / updated on the Illustrator file's artboard (`Alt + Ctrl + E` on Windows, `⌘ + Option + E` on MacOS).
+- Label number is also added / updated on the Illustrator file's artboard (shortcut: `Shift + O`).
 - Outdated versions are moved to self titled directory (`PNG/Outdated/`, `SVG/Outdated/`).
   - In [aegis-icons_AIs](https://github.com/krisu5/aegis-icons_AIs) repo, directory is `Outdated/`.
 
