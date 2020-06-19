@@ -157,7 +157,7 @@ Submit your icon for review by [opening a new issue](https://github.com/krisu5/a
   - Examples: `Yahoo v2.svg`, `Dashlane v2.png`.
 - Version label number increases when new versions are released (`v3`, `v4`, `v5`, `v6` etc.).
 - Label number is also added / updated on the Illustrator file's artboard (`Alt + Ctrl + E` on Windows, `⌘ + Option + E` on MacOS).
-- Outdated versions are moved to self titled directory (`PNG/Outdated/`, `SVG/Oudated/`).
+- Outdated versions are moved to self titled directory (`PNG/Outdated/`, `SVG/Outdated/`).
   - In [aegis-icons_AIs](https://github.com/krisu5/aegis-icons_AIs) repo, directory is `Outdated/`.
 
 ## Resources
