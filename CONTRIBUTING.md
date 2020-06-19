@@ -145,8 +145,8 @@ Submit your icon for review by [opening a new issue](https://github.com/krisu5/a
     - Examples: `AppFolio alt.svg`, `You Need A Budget alt.png`.
   - Icon variations with different foreground / background brand color: `[Primary icon name] fg/bg.var.[extension]`.
     - Examples: `Snapchat fg.var.png`, `Squarespace bg.var.png`.
-    - `Fg.var` is for bright brand colors.
-    - `Bg.var` are made for dark / AMOLED themes.
+    - `fg.var` is for bright brand colors.
+    - `bg.var` are made for dark / AMOLED themes.
   - Alt. icons with different foreground / background brand color: `[Primary icon name] alt fg/bg.var.[extension]`.
     - Examples: `Black Desert Online alt bg.var.png`.
     
