@@ -23,7 +23,7 @@ Even though PC is needed, you don't need to install extra software. Web browser 
 1. [Get the SVG file(s) for the icon(s) you want to edit](/SVG).
 	- SVG is [vector file format](https://simple.wikipedia.org/wiki/Vector_graphics) that can  be easily edited, specially with colors. It's also possible to edit it via text (that's the subject on the next tutorial).
 2. Right-click image and save it (or click "Raw" button and then save it).
-3. Go to [Vectr](https://vectr.com/new), webapp for vector making / editing.
+3. Go to [Vectr](https://vectr.com/new), web app for vector making / editing.
 4. Select the SVG file. 🖼 [Example](https://user-images.githubusercontent.com/3540275/81182238-34bf6600-8fb6-11ea-958c-05d1bf46ce7f.png)
 5. Click the circle part of the icon that has the background color. 🖼 [Example](https://user-images.githubusercontent.com/3540275/81182240-35f09300-8fb6-11ea-975f-48a84888714e.png)
 6. Click the "color button". 🖼 [Example](https://user-images.githubusercontent.com/3540275/81182244-36892980-8fb6-11ea-8b8c-8702bda5ec09.png)
@@ -45,14 +45,17 @@ This tutorial focuses on icon editing in Android and with [Amaze file manager](h
 4. Press menu icon on the file (three dots) and select "Open with".
 5. In the "Open As" dialog, select "text".
 6. Select "Amaze Text Editor".
-7. Select the color using color picker.
+7. Copy and paste code below after the word `<circle`. 🖼 [Example](https://user-images.githubusercontent.com/3540275/85229338-ca417880-b3f1-11ea-9bd3-8e4fe3e12c8c.png)
+```
+ style="background: #COLOR !important;"
+```
+8. Select the color using color picker.
    - Good mobile-friendly web apps: https://color.obscuredetour.com/ & https://color.joelb.dev/
-8. Copy the hex color value.
+9. Copy the hex color value.
    - Hex color starts with hash (#) and has 6 alphanumerical characters.
-9. Go back to Amaze, find part called `.st0` and replace the hex color value. 🖼 [Example](https://user-images.githubusercontent.com/3540275/81327392-db356500-90a3-11ea-8b31-c60c27c0c5bc.png)
-   - If there isn't `.st0`, look for `circle` element and check the class to see the name.
-10. Press the "save" icon. 🖼 [Example](https://user-images.githubusercontent.com/3540275/81327396-db356500-90a3-11ea-8f0e-7957ac7f3d90.png)
-11. [Convert SVG to PNG with "CloudConvert" web app](https://cloudconvert.com/svg-to-png).
+10. Replace the `#COLOR` text with copied hex color. 🖼 [Example](https://user-images.githubusercontent.com/3540275/85229339-cada0f00-b3f1-11ea-8af9-82c5f85472dc.png)
+11. Press the "save" icon. 🖼 [Example](https://user-images.githubusercontent.com/3540275/85229340-cc0b3c00-b3f1-11ea-9f35-9b99394e7e2c.png)
+12. [Convert SVG to PNG with "CloudConvert" web app](https://cloudconvert.com/svg-to-png).
 	- Or you could download some "SVG converter" app from Play Store.
 
 ## These icons aren't integrated in the app?
