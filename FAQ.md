@@ -45,16 +45,16 @@ This tutorial focuses on icon editing in Android and with [Amaze file manager](h
 4. Press menu icon on the file (three dots) and select "Open with".
 5. In the "Open As" dialog, select "text".
 6. Select "Amaze Text Editor".
-7. Copy and paste code below after the word `<circle`. 🖼 [Example](https://user-images.githubusercontent.com/3540275/85229338-ca417880-b3f1-11ea-9bd3-8e4fe3e12c8c.png)
+7. Copy and paste code below after the word `<circle`. 🖼 [Example](https://user-images.githubusercontent.com/3540275/85231721-480d8000-b402-11ea-8b19-4221b2c777b4.png)
 ```
- style="background: #COLOR !important;"
+ style="fill: #COLOR !important;"
 ```
 8. Select the color using color picker.
    - Good mobile-friendly web apps: https://color.obscuredetour.com/ & https://color.joelb.dev/
 9. Copy the hex color value.
    - Hex color starts with hash (#) and has 6 alphanumerical characters.
-10. Replace the `#COLOR` text with copied hex color. 🖼 [Example](https://user-images.githubusercontent.com/3540275/85229339-cada0f00-b3f1-11ea-8af9-82c5f85472dc.png)
-11. Press the "save" icon. 🖼 [Example](https://user-images.githubusercontent.com/3540275/85229340-cc0b3c00-b3f1-11ea-9f35-9b99394e7e2c.png)
+10. Replace the `#COLOR` text with copied hex color. 🖼 [Example](https://user-images.githubusercontent.com/3540275/85231723-48a61680-b402-11ea-85cf-e21c9c4ca252.png)
+11. Press the "save" icon. 🖼 [Example](https://user-images.githubusercontent.com/3540275/85231725-49d74380-b402-11ea-8364-e468e9214263.png)
 12. [Convert SVG to PNG with "CloudConvert" web app](https://cloudconvert.com/svg-to-png).
 	- Or you could download some "SVG converter" app from Play Store.
 
