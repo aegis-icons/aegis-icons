@@ -39,13 +39,14 @@ It's recommended to also have some knowledge of design in general.
 ### Finding source images
 Scour the logo resources (URL, data URI etc.) to find a vector-based image (SVG, AI, EPS, PDF). Here are things you can check:
 - Press kit on the company website (e.g. [Zenkit press kit](https://zenkit.com/en/press-kit/) contains `Zenkit_Logo1_Flat.eps`).
-  - Look for pages like: *Brand, Press, Media, Logos, Assets* etc.
+  - Look for pages like: *Brand, Press, Media, Logos, Assets, Marketing* etc.
 - Logo on company website; try right-clicking it and selecting *Save image as...*, and see if the save dialogue appears with SVG, **not** JPEG, PNG or other raster graphic format.
   - If right-clicking the image does not have an option for *Save image as...*, try using *Inspect* at the bottom of the right-click menu. This opens the developer tools which can reveal hidden URLs.
     - E.g. at [Floatplane](https://www.floatplane.com), inspecting the icon in the footer reveals the URL `https://frontend.floatplane.com/2.15.1/assets/images/logos/floatplane/icon-white.svg` which can be copied-and-pasted into the browser to open the image, and then saved normally.
   - Sometimes SVG is embedded as inline. Means that instead of linking to external file, whole SVG file code is added to the HTML (see [SVG code example](https://gist.github.com/krisu5/677a8a3478331498929a11b900741aa2)). In that case, copy the SVG code completely from HTML (often, website embedded SVG starts with `<svg class` and so forth & ends with `</svg>`), open your refer text editor and save copypasted text as `filename.svg`. You can test if the file works by opening in it into web browser.
-- Right-click the website and select *View page source*, then press *Ctrl+F* to open the search tool and type `SVG` to look for possible SVG vector files. Web inspector is also useful and better tool for some (press `F12`).
+- Right-click the website and select *View page source*, then press `Ctrl + F` to open the search tool and type `SVG` to look for possible SVG vector files. Web inspector is also useful and better tool for some (press `F12`).
   - E.g. [You Need A Budget](https://www.youneedabudget.com) reveals the hidden SVG resource in HTML metadata section `https://www-assets.youneedabudget.com/wp-content/themes/dupatta/dist/images/safari-pinned-tab_[random-alphanumerical].svg` which can be copied-and-pasted into the browser to open the image, and then saved normally).
+- Easier alternative way for finding SVGs from pages is using *[SVG Gobbler](https://github.com/rossmoody/svg-gobbler#readme)* browser extension (Chrome & Firefox). Doesn't need any permissions.
 - If everything has failed so far, then check [logo resources](#logos) section.
 - As last resort, you could try image tracing on Illustrator, Inkscape etc. Usually results varies from bad to kind of decent. Rule of thumb with tracing is using image that's high resolution, not many colors and doesn't have any artifacts. 
   - [Vector Magic](https://vectormagic.com/) does way better job, but unfortunately they don't offer free services.
@@ -71,22 +72,23 @@ When making icons, download provided [templates](/_templates).
 - For wider logos, furthest left & right side guides are max size limit.
 - Technically center doesn't always look center in your eyes. You can manually visual center the logo, if necessary.
 - Be mindful of white space. It's art form, not science. :)
+- Optional: icons should have similar ["optical volumes"](https://blog.nucleoapp.com/nucleo-icon-guidelines-introduction-70092f8b4697) (scroll to "Grid and Optical Volume" section <sup>[[archive.is w/ linked section]](https://archive.is/HiMEB#28.5%)</sup>)
 
 ### Colors
 - Never use white as background color.
 - Don't use gradients, use solid colors.
 - Keep everything at 100% opacity, no blending etc.
 - Logo (a.k.a. foreground, fg) should use white (`#FFFFFF`).
-- If you find brand guideline that has documented brand colors ([example](https://brave.com/brave-branding-assets/) <sup>[[archive]](https://web.archive.org/web/20200606124434/https://brave.com/brave-branding-assets/)</sup>), then go with that. Use primary brand color, that has specifically said on the guideline or based on what color is used most.
+- If you find brand guideline that has documented brand colors ([example](https://brave.com/brave-branding-assets/) <sup>[[wayback machine]](https://web.archive.org/web/20200606124434/https://brave.com/brave-branding-assets/)</sup>), then go with that. For background color, use primary brand color that has specifically said on the guideline or based on what color is used most.
 - If there's no guidelines and logo only has one color, use logo color as icon background.
-  - **Tip:** In Illustrator, if logo is using gradient, use [this method](http://miraimages.com/illustrator-gradient-colors-to-swatches/) <sup>[[archive]](https://web.archive.org/web/20200606124113/http://miraimages.com/illustrator-gradient-colors-to-swatches/)</sup> to extract all the colors in the gradient to the swatches. Then select the color what you think looks the best.
-- If icon you're making is using dark background, you **need to make** `bg.var` icon version as well.
-  - Or if opposite, background is too bright, then make `fg.var` icon version.
+  - **Tip:** In Illustrator, if logo is using gradient, use [this method](http://miraimages.com/illustrator-gradient-colors-to-swatches/) <sup>[[wayback machine]](https://web.archive.org/web/20200606124113/http://miraimages.com/illustrator-gradient-colors-to-swatches/)</sup> to extract all the colors in the gradient to the swatches. Then select the color what you think looks the best.
+- If icon you're making is using dark background, you **have to make** `bg.var` icon version as well.
+  - Or opposite, background is too bright for white logo, then make `fg.var` icon version.
 - For generic icons, use background color `#607D8B` <sup><a href="#ftn2" id="ftn-sec2">[2]</a></sup> and white foreground.
   - Templates `ai_template_generic.ait` & `svg_template_generic.svg` has correct background color set.
   
 ### bg.var & fg.var icons
-- `bg.var` icons are made for dark / AMOLED themes. These are made when primary icon has dark background that blend in when using the darker theme.
+- `bg.var` icons are for dark / AMOLED themes. These are made when primary icon has dark background that blends in when using the darker theme.
   - Examples: [primary Steam icon](https://user-images.githubusercontent.com/3540275/85153557-042e4580-b25f-11ea-85ff-7cb883f977d4.png), [Steam bg.var icon](https://user-images.githubusercontent.com/3540275/85153530-fbd60a80-b25e-11ea-9197-d7400eeec74f.png).
   - Use brighter alternative background.
   - If there's no guidelines for alternative colors, check the website or app to see what other colors there might be.
@@ -149,7 +151,7 @@ Submit your icon for review by [opening a new issue](https://github.com/krisu5/a
 ### Directories
 - Non-variation primary icons are added to root of `PNG/` and `SVG/` folder.
   - AI files are added to root of [aegis-icons_AIs](https://github.com/krisu5/aegis-icons_AIs) repo.
-- Variation icons (`bg.var` or `fg.var`) and alternative (`alt`) are added to `PNG/Variations` and `SVG/Variations` folder.
+- Variation icons (`bg.var` or `fg.var`) and alternative (`alt`) are added to `PNG/Variations/` and `SVG/Variations/` folder.
   - At [aegis-icons_AIs](https://github.com/krisu5/aegis-icons_AIs) repo, it's `Variations/`.
 - For outdated icons, see [version naming and organizing](#version-naming-and-organizing) section.
 
@@ -257,8 +259,8 @@ Check at "advanced" menu that text antialiasing is set as *ClearType*.
     - Add a shadow / Grayscale / Draw border around thumbnails: **not checked**.
 
 ## Footnotes
-<sup><a href="#ftn-sec1" id="ftn1">[1]</a></sup> Article: [Logo, Logomark, Logotype - What's The Difference And What Do You Need?](https://blog.designcrowd.com/article/997/logo-logomark-logotype-whats-the-difference-and-what-do-you-need) <sup>[[archive]](https://web.archive.org/web/20200606123728/https://blog.designcrowd.com/article/997/logo-logomark-logotype-whats-the-difference-and-what-do-you-need)</sup>.
+<sup><a href="#ftn-sec1" id="ftn1">[1]</a></sup> Article: [Logo, Logomark, Logotype - What's The Difference And What Do You Need?](https://blog.designcrowd.com/article/997/logo-logomark-logotype-whats-the-difference-and-what-do-you-need) <sup>[[wayback machine]](https://web.archive.org/web/20200606123728/https://blog.designcrowd.com/article/997/logo-logomark-logotype-whats-the-difference-and-what-do-you-need)</sup>.
 
-<sup><a href="#ftn-sec2" id="ftn2">[2]</a></sup> This color is taken from [Material Design 2014 color system](https://material.io/design/color/the-color-system.html#tools-for-picking-colors) (Blue Grey, 500).
+<sup><a href="#ftn-sec2" id="ftn2">[2]</a></sup> This color is taken from [Material Design 2014 color system](https://material.io/design/color/the-color-system.html#tools-for-picking-colors) <sup>[[archive.is w/ linked section]](https://archive.is/96QQG#77%)</sup> (Blue Grey, 500).
 
-<sup><a href="#ftn-sec3" id="ftn3">[3]</a></sup> While *pingo* is still one of the best & fastest PNG compressor currently, we can't recommend it 100% anymore because of author's uncertain behaviour. Recently, the author  of *pingo* has erased Linux version, feedback forum and changelog completely without warning and explanation. Good GUI alternatives for Windows are *[FileOptimizer](https://sourceforge.net/projects/nikkhokkho/files/FileOptimizer/)* and *[PNGGauntlet](https://pnggauntlet.com/)*. For command line usage, check out *[Efficient Compression Tool](https://github.com/fhanau/Efficient-Compression-Tool)* or *[zopflipng](https://github.com/google/zopfli)* ([tutorial](https://ariya.io/2016/06/using-zopfli-to-optimize-png-images) <sup>[[archive]](https://web.archive.org/web/20200619115110/https://ariya.io/2016/06/using-zopfli-to-optimize-png-images)</sup>, [Node.js port](https://github.com/pierreinglebert/node-zopfli), [builded Windows binaries](https://github.com/garyzyg/zopfli-windows/releases)).
+<sup><a href="#ftn-sec3" id="ftn3">[3]</a></sup> While *pingo* is still one of the best & fastest PNG compressor currently, we can't recommend it 100% anymore because of author's uncertain behaviour. Recently, the author of *pingo* has erased Linux version, feedback forum and changelog completely without warning and explanation. Good GUI alternatives for Windows are *[FileOptimizer](https://sourceforge.net/projects/nikkhokkho/files/FileOptimizer/)* and *[PNGGauntlet](https://pnggauntlet.com/)*. For command line usage, check out *[Efficient Compression Tool](https://github.com/fhanau/Efficient-Compression-Tool)* or *[zopflipng](https://github.com/google/zopfli)* ([tutorial](https://ariya.io/2016/06/using-zopfli-to-optimize-png-images) <sup>[[wayback machine]](https://web.archive.org/web/20200619115110/https://ariya.io/2016/06/using-zopfli-to-optimize-png-images)</sup>, [Node.js port](https://github.com/pierreinglebert/node-zopfli), [builded Windows binaries](https://github.com/garyzyg/zopfli-windows/releases)).
