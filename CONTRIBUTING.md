@@ -22,7 +22,7 @@ It's recommended to also have some knowledge of design in general.
 - [**Technical**](#technical)
   - [Directories](#directories)
   - [Filename](#filename)
-    - [Version naming and organizing](#version-naming-and-organizing)
+    - [Version naming and organizing old files](#version-naming-and-organizing-old-files)
 - [**Resources**](#resources)
   - [Logos](#logos)
   - [Lists of sites supporting 2FA](#lists-of-sites-supporting-2fa)
@@ -39,14 +39,14 @@ It's recommended to also have some knowledge of design in general.
 ### Finding source images
 Scour the logo resources (URL, data URI etc.) to find a vector-based image (SVG, AI, EPS, PDF). Here are things you can check:
 - Press kit on the company website (e.g. [Zenkit press kit](https://zenkit.com/en/press-kit/) contains `Zenkit_Logo1_Flat.eps`).
-  - Look for pages like: *Brand, Press, Media, Logos, Assets, Marketing* etc.
+  - Look for pages like: *Brand, Press, Media, Logos, Assets, Marketing, About* etc.
 - Logo on company website; try right-clicking it and selecting *Save image as...*, and see if the save dialogue appears with SVG, **not** JPEG, PNG or other raster graphic format.
   - If right-clicking the image does not have an option for *Save image as...*, try using *Inspect* at the bottom of the right-click menu. This opens the developer tools which can reveal hidden URLs.
     - E.g. at [Floatplane](https://www.floatplane.com), inspecting the icon in the footer reveals the URL `https://frontend.floatplane.com/2.15.1/assets/images/logos/floatplane/icon-white.svg` which can be copied-and-pasted into the browser to open the image, and then saved normally.
   - Sometimes SVG is embedded as inline. Means that instead of linking to external file, whole SVG file code is added to the HTML (see [SVG code example](https://gist.github.com/krisu5/677a8a3478331498929a11b900741aa2)). In that case, copy the SVG code completely from HTML (often, website embedded SVG starts with `<svg class` and so forth & ends with `</svg>`), open your refer text editor and save copypasted text as `filename.svg`. You can test if the file works by opening in it into web browser.
 - Right-click the website and select *View page source*, then press `Ctrl + F` to open the search tool and type `SVG` to look for possible SVG vector files. Web inspector is also useful and better tool for some (press `F12`).
   - E.g. [You Need A Budget](https://www.youneedabudget.com) reveals the hidden SVG resource in HTML metadata section `https://www-assets.youneedabudget.com/wp-content/themes/dupatta/dist/images/safari-pinned-tab_[random-alphanumerical].svg` which can be copied-and-pasted into the browser to open the image, and then saved normally).
-- Easier alternative way for finding SVGs from pages is using *[SVG Gobbler](https://github.com/rossmoody/svg-gobbler#readme)* browser extension (Chrome & Firefox). Doesn't need any permissions.
+- Easier alternative way for finding SVGs from pages is using [SVG Gobbler](https://github.com/rossmoody/svg-gobbler#readme) browser extension (Chrome & Firefox). Doesn't need any permissions.
 - If everything has failed so far, then check [logo resources](#logos) section.
 - As last resort, you could try image tracing on Illustrator, Inkscape etc. Usually results varies from bad to kind of decent. Rule of thumb with tracing is using image that's high resolution, not many colors and doesn't have any artifacts. 
   - [Vector Magic](https://vectormagic.com/) does way better job, but unfortunately they don't offer free services.
@@ -72,7 +72,7 @@ When making icons, download provided [templates](/_templates).
 - For wider logos, furthest left & right side guides are max size limit.
 - Technically center doesn't always look center in your eyes. You can manually visual center the logo, if necessary.
 - Be mindful of white space. It's art form, not science. :)
-- Optional: icons should have similar ["optical volumes"](https://blog.nucleoapp.com/nucleo-icon-guidelines-introduction-70092f8b4697) (scroll to "Grid and Optical Volume" section <sup>[[archive.is w/ linked section]](https://archive.is/HiMEB#28.5%)</sup>)
+- **Optional:** icons should have similar ["optical volumes"](https://blog.nucleoapp.com/nucleo-icon-guidelines-introduction-70092f8b4697) (scroll to "Grid and Optical Volume" section <sup>[[archive.is w/ linked section]](https://archive.is/HiMEB#28.5%)</sup>)
 
 ### Colors
 - Never use white as background color.
@@ -110,7 +110,8 @@ Just change the logo for alternative version.
 - Foreground color is always white (`#FFFFFF`).
 - Use either of these icon library, depending on availability or visual looks:
   - [Unicons](https://iconscout.com/unicons/explore/line) (primary)
-  - [Feather](https://feathericons.com/) (secondary).
+  - [Feather](https://feathericons.com/) (secondary)
+  - [Cryptocurrency Icons](http://cryptoicons.co/) ([link to SVG directory](https://github.com/spothq/cryptocurrency-icons/tree/master/svg/black), when neither of the icon libraries has icon for cryptocurrency).
 
 ### Save and export
 - If you're using Adobe Illustrator, save the file as AI **and** SVG.
@@ -167,7 +168,7 @@ Submit your icon for review by [opening a new issue](https://github.com/krisu5/a
   - Generic icon: name as what the icon symbolizes with big capital letter.
     - Example: `Cloud.png`.
     
-#### Version naming and organizing
+#### Version naming and organizing old files
 - Icon files that are outdated for first time, `v1` is added to end of the filename.
   - Examples: `Yahoo v1.svg`, `Dashlane v1.png`.
 - Newer files also gets version label here from out.
@@ -259,7 +260,7 @@ Check at "advanced" menu that text antialiasing is set as *ClearType*.
     - Add a shadow / Grayscale / Draw border around thumbnails: **not checked**.
 
 ## Footnotes
-<sup><a href="#ftn-sec1" id="ftn1">[1]</a></sup> Article: [Logo, Logomark, Logotype - What's The Difference And What Do You Need?](https://blog.designcrowd.com/article/997/logo-logomark-logotype-whats-the-difference-and-what-do-you-need) <sup>[[wayback machine]](https://web.archive.org/web/20200606123728/https://blog.designcrowd.com/article/997/logo-logomark-logotype-whats-the-difference-and-what-do-you-need)</sup>.
+<sup><a href="#ftn-sec1" id="ftn1">[1]</a></sup> Article: [Logo, Logomark, Logotype - What's The Difference And What Do You Need?](https://blog.designcrowd.com/article/997/logo-logomark-logotype-whats-the-difference-and-what-do-you-need) <sup>[[wayback machine]](https://web.archive.org/web/20200606123728/https://blog.designcrowd.com/article/997/logo-logomark-logotype-whats-the-difference-and-what-do-you-need)</sup>
 
 <sup><a href="#ftn-sec2" id="ftn2">[2]</a></sup> This color is taken from [Material Design 2014 color system](https://material.io/design/color/the-color-system.html#tools-for-picking-colors) <sup>[[archive.is w/ linked section]](https://archive.is/96QQG#77%)</sup> (Blue Grey, 500).
 
