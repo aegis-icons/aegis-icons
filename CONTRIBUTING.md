@@ -154,7 +154,7 @@ Submit your icon for review by [opening a new issue](https://github.com/krisu5/a
   - AI files are added to root of [aegis-icons_AIs](https://github.com/krisu5/aegis-icons_AIs) repo.
 - Variation icons (`bg.var` or `fg.var`) and alternative (`alt`) are added to `PNG/Variations/` and `SVG/Variations/` folder.
   - At [aegis-icons_AIs](https://github.com/krisu5/aegis-icons_AIs) repo, it's `Variations/`.
-- For outdated icons, see [version naming and organizing](#version-naming-and-organizing) section.
+- For outdated icons, see [version naming and organizing old files](#version-naming-and-organizing-old-files) section.
 
 ### Filename
   - Primary icon: `[Company or Product Name].[extension]`.
