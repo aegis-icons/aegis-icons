@@ -1,5 +1,5 @@
 ---
-name: Icon request
+name: Icon request (app / site)
 about: Suggest a new icon
 title: 'Icon request: '
 labels: New Icon
