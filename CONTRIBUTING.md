@@ -104,7 +104,7 @@ When making icons, download provided [templates](/_templates).
   - Use black (`#000000`) as foreground color.
   
 ### Alternative icons
-"Alternative", in this case, means icons for brands that provide alternative logos of their brands (examples: [regular IVPN](https://user-images.githubusercontent.com/3540275/85149274-c549c100-b259-11ea-8477-6164b679c673.png), [alternative IVPN](https://user-images.githubusercontent.com/3540275/85149294-ca0e7500-b259-11ea-9655-b867c21ba1b6.png)).
+"Alternative", in this case, means icons for brands that provide alternative logos of their brands (examples: [primary IVPN](https://user-images.githubusercontent.com/3540275/85149274-c549c100-b259-11ea-8477-6164b679c673.png), [alternative IVPN](https://user-images.githubusercontent.com/3540275/85149294-ca0e7500-b259-11ea-9655-b867c21ba1b6.png)).
 
 Just change the logo for alternative version.
 
