@@ -42,8 +42,8 @@ Scour the logo resources (URL, data URI etc.) to find a vector-based image (SVG,
   - e.g. [Zenkit press kit](https://zenkit.com/en/press-kit/) contains `Zenkit_Logo1_Flat.eps`.
   - Look for pages like: *Brand, Press, Media, Logos, Assets, Marketing, About* etc.
 - **Embedded logo(s) on company website**
-  - Easiest way for finding / downloading SVGs from web pages is using [SVG Gobbler](https://github.com/rossmoody/svg-gobbler#readme) browser extension (Chrome & Firefox). Doesn't need any permissions.
-    - Alternative: [svg-grabber](https://chrome.google.com/webstore/detail/svg-grabber-get-all-the-s/ndakggdliegnegeclmfgodmgemdokdmg) (Chrome only). Needs permission for write / read websites.
+  - Easiest way for finding / downloading SVGs from web pages is using [SVG Gobbler](https://github.com/rossmoody/svg-gobbler#readme) browser extension (Chrome & Firefox).
+    - Alternative: [svg-grabber](https://chrome.google.com/webstore/detail/svg-grabber-get-all-the-s/ndakggdliegnegeclmfgodmgemdokdmg) (Chrome only).
   - **Ways without extension:**
     1. Try right-clicking logo image and selecting *Save image as...*, and see if the save dialogue appears with SVG, not JPG, PNG or other raster graphic format.
        - If right-clicking the image does not have an option for *Save image as...*, try using *Inspect* at the bottom of the right-click menu. This opens the developer tools which can reveal hidden URLs.
