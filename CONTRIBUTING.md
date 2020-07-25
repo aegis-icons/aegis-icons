@@ -89,7 +89,7 @@ When making icons, download provided [templates](/_templates).
   - For multi-color logos, pick the best looking or most used color. 
     - **Tip:** In Illustrator, if logo is using gradient, use [this method](http://miraimages.com/illustrator-gradient-colors-to-swatches/) <sup>[[wayback machine]](https://web.archive.org/web/20200606124113/http://miraimages.com/illustrator-gradient-colors-to-swatches/)</sup> to extract all the colors in the gradient to the swatches.
 - If icon you're making is using dark background, you **have to make** `bg.var` icon version as well.
-  - Or opposite, background is too bright for white logo, then make `fg.var` icon version.
+  - Or opposite, if background is too bright for white logo, then make `fg.var` icon version.
 - For generic icons, use background color `#607D8B` <sup><a href="#ftn2" id="ftn-sec2">[2]</a></sup> and white foreground.
   - Templates `ai_template_generic.ait` & `svg_template_generic.svg` has correct background color set.
   
@@ -134,10 +134,9 @@ Just change the logo for alternative version.
 - If you're submitting pull request, read also [directories](#directories) section.
 
 ### PNG compression
-Compress the PNG file(s) with either using *[pingo](https://css-ig.net/pingo)* <sup><a href="#ftn3" id="ftn-sec3">[3]</a></sup> (Windows, lossless), *[ImageOptim](https://imageoptim.com/mac)* (MacOS, lossless by default),<br>
-*[Trimage](https://trimage.org/)* (Linux & MacOS, lossless) or *[TinyPNG](https://tinypng.com/)* (web app, lossy).
+Compress the PNG file(s) with either using *[pingo](https://css-ig.net/pingo)* <sup><a href="#ftn3" id="ftn-sec3">[3]</a></sup> (Windows, lossless), *[ImageOptim](https://imageoptim.com/mac)* (MacOS, lossless by default), *[Trimage](https://trimage.org/)* (Linux & MacOS, lossless) or *[TinyPNG](https://tinypng.com/)* (web app, lossy).
 
-When using pingo's Windows GUI software *pinga*, [use these settings](https://user-images.githubusercontent.com/3540275/80963782-52ef5f80-8e18-11ea-8dbe-fc1c58fa81e4.png). For command line, use `pingo -s9 filename.png` or [batch script](/_compress).
+When using pingo's Windows GUI software *pinga*, [use these settings](https://user-images.githubusercontent.com/3540275/80963782-52ef5f80-8e18-11ea-8dbe-fc1c58fa81e4.png). For command line, use `pingo -s9 filename.png` or [batch script](/_compress/.1_pingo-script-for-icons.bat).
 
 If your software of choice has compression settings, set those maximum as well.
 
@@ -184,6 +183,7 @@ Submit your icon for review by [opening a new issue](https://github.com/krisu5/a
 - Label number is also added / updated on the Illustrator file's artboard (shortcut: `Shift + O`).
 - Outdated versions are moved to self titled directory (`PNG/Outdated/`, `SVG/Outdated/`).
   - In [aegis-icons_AIs](https://github.com/krisu5/aegis-icons_AIs) repo, directory is `Outdated/`.
+- Icons which are based of now dead service, should be moved to "Outdated" directory just as it is.
 
 ## Resources
 Resources marked with star (⭐) are recommended and most used by the maintainers.
@@ -227,10 +227,10 @@ As needed, update `full_preview.md`, `full_preview.png` (and convert that to `fu
 ### Contact sheets (previews)
 We are using [*Snap2IMG*](https://www.rlvision.com/snap2img/about.php) software for generating previews (unfortunately, it's Windows only software. **Cross platform alternative wanted!** Submit your suggestions at issues).
 
-Typeface for filenames is *[Cascadia Code](https://github.com/microsoft/cascadia-code) (mono version)*.
+Typeface for filenames is *[Cascadia Code](https://github.com/microsoft/cascadia-code)* (mono version).
 
 #### Snap2IMG config
-Check at "advanced" menu that text antialiasing is set as *ClearType*.
+Check at "advanced" menu that text antialiasing is set as ClearType.
 
 - **Basic Setup** section ([screenshot](https://user-images.githubusercontent.com/3540275/84652052-a1ae1000-af13-11ea-829a-e810ab36e8a8.png))
   - Folder: *PNG/, PNG/Generic/, PNG/Outdated/* or *PNG/Variations/*.
@@ -271,4 +271,4 @@ Check at "advanced" menu that text antialiasing is set as *ClearType*.
 
 <sup><a href="#ftn-sec2" id="ftn2">[2]</a></sup> This color is taken from [Material Design 2014 color system](https://material.io/design/color/the-color-system.html#tools-for-picking-colors) <sup>[[archive.is w/ linked section]](https://archive.is/96QQG#77%)</sup> (Blue Grey, 500).
 
-<sup><a href="#ftn-sec3" id="ftn3">[3]</a></sup> While *pingo* is still one of the best & fastest PNG compressor currently, we can't recommend it 100% anymore because of author's uncertain behaviour. Recently, the author of *pingo* has erased Linux version, feedback forum and changelog completely without warning and explanation. Good GUI alternatives for Windows are *[FileOptimizer](https://sourceforge.net/projects/nikkhokkho/files/FileOptimizer/)* and *[PNGGauntlet](https://pnggauntlet.com/)*. For command line usage, check out *[Efficient Compression Tool](https://github.com/fhanau/Efficient-Compression-Tool)* or *[zopflipng](https://github.com/google/zopfli)* ([tutorial](https://ariya.io/2016/06/using-zopfli-to-optimize-png-images) <sup>[[wayback machine]](https://web.archive.org/web/20200619115110/https://ariya.io/2016/06/using-zopfli-to-optimize-png-images)</sup>, [Node.js port](https://github.com/pierreinglebert/node-zopfli), [builded Windows binaries](https://github.com/garyzyg/zopfli-windows/releases)).
+<sup><a href="#ftn-sec3" id="ftn3">[3]</a></sup> While *pingo* is still one of the best & fastest PNG compressor currently, we can't recommend it 100% anymore because of author's uncertain behaviour. The author of *pingo* has erased Linux version, feedback forum, changelog and even documentation completely without warning and explanation. Good GUI alternatives for Windows are *[FileOptimizer](https://sourceforge.net/projects/nikkhokkho/files/FileOptimizer/)* and *[PNGGauntlet](https://pnggauntlet.com/)*. For command line usage, check out *[Efficient Compression Tool](https://github.com/fhanau/Efficient-Compression-Tool)* or *[zopflipng](https://github.com/google/zopfli)* ([tutorial](https://ariya.io/2016/06/using-zopfli-to-optimize-png-images) <sup>[[wayback machine]](https://web.archive.org/web/20200619115110/https://ariya.io/2016/06/using-zopfli-to-optimize-png-images)</sup>, [Node.js port](https://github.com/pierreinglebert/node-zopfli), [builded Windows binaries](https://github.com/garyzyg/zopfli-windows/releases)).
