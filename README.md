@@ -1,10 +1,18 @@
-# 2FA Icons for Aegis
+<p align="center">
+<img src="https://raw.githubusercontent.com/aegis-icons/logo-assets/master/logomark_logotext.svg" width="350" />
+</p>
+
+<p align="center">
+<i>
+Unofficial monochrome-styled 2FA icons for open source Android authenticator <a href="https://github.com/beemdevelopment/Aegis">Aegis</a>.
+</i>
+</p>
 
 [![Showcase banner](showcase.png)](full_preview.md)
 
-**[Browse the icons](/PNG)** • **[See the full preview](full_preview.md)** • **[Download icon pack](../../releases/latest)** • **[FAQ](FAQ.md)**
-
-Unofficial monochrome-styled 2FA icons for open source Android authenticator [Aegis](https://github.com/beemdevelopment/Aegis).
+<p align="center">
+<b><a href="/PNG">Browse the icons</a></b> • <b><a href="full_preview.md">See the full preview</a></b> • <b><a href="../../releases/latest">Download icon pack</a></b> • <b><a href="FAQ.md">FAQ</a></b>
+</p>
 
 [Make a issue](https://github.com/krisu5/aegis-icons/issues) if you want to request a new icon (read our [short guidelines](issue_guidelines.md) first), or check out [CONTRIBUTING.md](https://github.com/krisu5/aegis-icons/blob/master/CONTRIBUTING.md) to start making icons yourself!
 
