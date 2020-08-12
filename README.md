@@ -1,17 +1,21 @@
 <p align="center">
-<img src="https://raw.githubusercontent.com/aegis-icons/logo-assets/master/logomark_logotext.svg" width="350" />
+    <a href="#readme">
+        <img src="https://raw.githubusercontent.com/aegis-icons/logo-assets/master/logomark_logotext.svg" width="350" />
+    </a>
 </p>
 
 <p align="center">
-<i>
-Unofficial monochrome-styled 2FA icons for open source Android authenticator <a href="https://github.com/beemdevelopment/Aegis">Aegis</a>.
-</i>
+    <i>Unofficial monochrome-styled 2FA icons for open source Android authenticator <a href="https://github.com/beemdevelopment/Aegis">Aegis</a>.</i>
 </p>
 
-[![Showcase banner](showcase.png)](full_preview.md)
+<p align="center">
+    <a href="full_preview.md">
+        <img src="showcase.png" alt="Showcase banner">
+    </a>
+</p>
 
 <p align="center">
-<b><a href="/PNG">Browse the icons</a></b> • <b><a href="full_preview.md">See the full preview</a></b> • <b><a href="../../releases/latest">Download icon pack</a></b> • <b><a href="FAQ.md">FAQ</a></b>
+    <b><a href="/PNG">Browse the icons</a></b> • <b><a href="full_preview.md">See the full preview</a></b> • <b><a href="../../releases/latest">Download icon pack</a></b> • <b><a href="FAQ.md">FAQ</a></b>
 </p>
 
 [Make a issue](https://github.com/krisu5/aegis-icons/issues) if you want to request a new icon (read our [short guidelines](issue_guidelines.md) first), or check out [CONTRIBUTING.md](https://github.com/krisu5/aegis-icons/blob/master/CONTRIBUTING.md) to start making icons yourself!
