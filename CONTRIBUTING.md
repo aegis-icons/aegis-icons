@@ -60,7 +60,7 @@ Scour the logo resources (URL, data URI etc.) to find a vector-based image (SVG,
 > ⚠ Watch out for SVGs that are using raster graphics ([example](https://github.com/haiwen/seafile-client/blob/7d8f06111960921ce01ef08e169d41bae13959ed/data/icons/scalable/apps/seafile.svg?short_path=d0d75d2#L54)). These are not common, but still exists.
 
 ### Templates
-When making icons, download provided [templates](/_templates).
+When making icons, download and use provided [templates](/_templates).
 
 - For Illustrator, use `ai_template.ait` (for primary icons) or `ai_template_generic.ait` (for generic icons).
   - `.ait` is Illustrator template file format, **don't save over template file!** (Read [save and export](#save-and-export) for more info).
@@ -79,7 +79,7 @@ When making icons, download provided [templates](/_templates).
 
 ### Colors
 - Never use white as background color.
-- Don't pick a random colors, unless there's no other options.
+- Don't pick a random colors, unless there's absolutely no other options.
 - Don't use gradients, use solid colors.
 - Keep everything at 100% opacity, no blending etc.
 - Logo (a.k.a. foreground, fg) should use white (`#FFFFFF`).
@@ -103,7 +103,7 @@ When making icons, download provided [templates](/_templates).
   - Use black (`#000000`) as foreground color.
   
 ### Alternative icons
-"Alternative", in this case, means icons for brands that provide alternative logos of their brands (examples: [primary IVPN](https://user-images.githubusercontent.com/3540275/85149274-c549c100-b259-11ea-8477-6164b679c673.png), [alternative IVPN](https://user-images.githubusercontent.com/3540275/85149294-ca0e7500-b259-11ea-9655-b867c21ba1b6.png)).
+"Alternative", in this case, means icons for brands that provide alternative logos of their brands (examples: [primary IVPN icon](https://user-images.githubusercontent.com/3540275/85149274-c549c100-b259-11ea-8477-6164b679c673.png), [alternative IVPN icon](https://user-images.githubusercontent.com/3540275/85149294-ca0e7500-b259-11ea-9655-b867c21ba1b6.png)).
 
 Just change the logo for alternative version.
 
@@ -166,9 +166,11 @@ Submit your icon for review by [opening a new issue](../../issues/new/choose) (s
     - Examples: `Epic Games.ai`, `itch.io.svg`, `AWS.png`.
   - Icon variations with alternate logo: `[Primary icon name] alt.[extension]`.
     - Examples: `AppFolio alt.svg`, `You Need A Budget alt.png`.
-  - Icon variations with different foreground / background brand color: `[Primary icon name] fg/bg.var.[extension]`.
+  - Icon variations with black foreground or different background color: `[Primary icon name] fg/bg.var.[extension]`.
     - Examples: `Snapchat fg.var.png`, `Squarespace bg.var.png`.
-  - Alt. icons with different foreground / background brand color: `[Primary icon name] alt fg/bg.var.[extension]`.
+  - Icon variations with black foreground **and** different background color: `[Primary icon name] bg.fg.var.[extension]`.
+    - Examples: `Lichess bg.fg.var.png`.
+  - Alt. icons with black foreground or different background color: `[Primary icon name] alt fg/bg.var.[extension]`.
     - Examples: `Black Desert Online alt bg.var.png`.
   - Generic icon: name as what the icon symbolizes with big capital letter.
     - Example: `Cloud.png`.
