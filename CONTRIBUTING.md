@@ -142,7 +142,7 @@ If your software of choice has compression settings, set those maximum as well.
 **Do not use lossy compressions that has visible differences / artifacts.** When in doubt, use lossless.
 
 ### Submit to repository
-Submit your icon for review by [opening a new issue](../../issues/new/choose) (select "Icon submission") and attaching your file(s) and source(s). Alternately, you are encouraged to refer to [this GitHub guide](https://guides.github.com/activities/contributing-to-open-source) to fork the Aegis Icons project, add the changed files to your fork, then create a Pull Request with your submissions. This more-complex method is less work for the maintainers, and gives you more impressive contribution stats on your GitHub user homepage. 😉 (If possible, please don't add AI files in the pull requests. Instead, zip it and upload it in the PR comment section or sent AI files to [aegis-icons_AIs](https://github.com/aegis-icons/ai-files) repo instead.)
+Submit your icon for review by [opening a new issue](../../issues/new/choose) (select "Icon submission") and attaching your file(s) and source(s). Alternately, you are encouraged to refer to [this GitHub guide](https://guides.github.com/activities/contributing-to-open-source) to fork the Aegis Icons project, add the changed files to your fork, then create a Pull Request with your submissions. This more-complex method is less work for the maintainers, and gives you more impressive contribution stats on your GitHub user homepage. 😉 (If possible, please don't add AI files in the pull requests. Instead, zip it and upload it in the PR comment section or sent AI files to [aegis-icons / ai-files](https://github.com/aegis-icons/ai-files) repo instead.)
 
 ## Technical
 - Master source file is vector-based AI or SVG format. Raster images (PNG, JPEG, GIF etc.) are unacceptable, including raster images embedded within the vector file.
@@ -156,9 +156,9 @@ Submit your icon for review by [opening a new issue](../../issues/new/choose) (s
 
 ### Directories
 - Non-variation primary icons are added to root of `PNG/` and `SVG/` folder.
-  - AI files are added to root of [aegis-icons_AIs](https://github.com/aegis-icons/ai-files) repo.
+  - AI files are added to root of [aegis-icons / ai-files](https://github.com/aegis-icons/ai-files) repo.
 - Variation icons (`bg.var` or `fg.var`) and alternative (`alt`) are added to `PNG/Variations/` and `SVG/Variations/` folder.
-  - At [aegis-icons_AIs](https://github.com/aegis-icons/ai-files) repo, it's `Variations/`.
+  - At [aegis-icons / ai-files](https://github.com/aegis-icons/ai-files) repo, it's `Variations/`.
 - For outdated icons, see [version naming and organizing old files](#version-naming-and-organizing-old-files) section.
 
 ### Filename
@@ -182,7 +182,7 @@ Submit your icon for review by [opening a new issue](../../issues/new/choose) (s
 - Version label number increases when new versions are released (`v3`, `v4`, `v5`, `v6` etc.).
 - Label number is also added / updated on the Illustrator file's artboard (shortcut: `Shift + O`).
 - Outdated versions are moved to self titled directory (`PNG/Outdated/`, `SVG/Outdated/`).
-  - In [aegis-icons_AIs](https://github.com/aegis-icons/ai-files) repo, directory is `Outdated/`.
+  - In [aegis-icons / ai-files](https://github.com/aegis-icons/ai-files) repo, directory is `Outdated/`.
 - Icons which are based of now dead service, should be moved to "Outdated" directory just as it is.
 
 ## Resources
