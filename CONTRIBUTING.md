@@ -1,5 +1,5 @@
 # Contributing
-Thank you for taking the time to contribute! Ask for help, report a bug, or request a feature simply by [opening a new issue](https://github.com/krisu5/aegis-icons/issues)! If you would like to contribute icons or code, please fork the project and keep reading! Documentation may look long, but it's mostly simple rules and suggestions.
+Thank you for taking the time to contribute! Ask for help, report a bug, or request a feature simply by [opening a new issue](../../issues)! If you would like to contribute icons or code, please fork the project and keep reading! Documentation may look long, but it's mostly simple rules and suggestions.
 
 **For contributing, you have to know basics of making and editing vector graphics.**
 
@@ -68,7 +68,6 @@ When making icons, download provided [templates](/_templates).
 
 ### Layout
 - Use logomark <sup><a href="#ftn1" id="ftn-sec1">[1]</a></sup> if brand is using one.
-  - Logomarks are sometimes way too generic ([example](https://user-images.githubusercontent.com/3540275/84707338-32faa200-af67-11ea-9e49-ce1fe7f86acc.png)). In these cases if possible, use logotext <sup><a href="#ftn1">[1]</a></sup> as well (depends on length of text).
 - If logo **only has text**, use that.
   - If you think that text is too long and hard to read on smaller size, **use first letter of text.**
 - Stay inside of the guides as much as possible.
@@ -143,7 +142,7 @@ If your software of choice has compression settings, set those maximum as well.
 **Do not use lossy compressions that has visible differences / artifacts.** When in doubt, use lossless.
 
 ### Submit to repository
-Submit your icon for review by [opening a new issue](https://github.com/krisu5/aegis-icons/issues/new/choose) (select "Icon submission") and attaching your file(s) and source(s). Alternately, you are encouraged to refer to [this GitHub guide](https://guides.github.com/activities/contributing-to-open-source) to fork the Aegis Icons project, add the changed files to your fork, then create a Pull Request with your submissions. This more-complex method is less work for the maintainers, and gives you more impressive contribution stats on your GitHub user homepage. 😉 (If possible, please don't add AI files in the pull requests. Instead, zip it and upload it in the PR comment section or sent AI files to [aegis-icons_AIs](https://github.com/krisu5/aegis-icons_AIs) repo instead.)
+Submit your icon for review by [opening a new issue](../../issues/new/choose) (select "Icon submission") and attaching your file(s) and source(s). Alternately, you are encouraged to refer to [this GitHub guide](https://guides.github.com/activities/contributing-to-open-source) to fork the Aegis Icons project, add the changed files to your fork, then create a Pull Request with your submissions. This more-complex method is less work for the maintainers, and gives you more impressive contribution stats on your GitHub user homepage. 😉 (If possible, please don't add AI files in the pull requests. Instead, zip it and upload it in the PR comment section or sent AI files to [aegis-icons_AIs](https://github.com/aegis-icons/ai-files) repo instead.)
 
 ## Technical
 - Master source file is vector-based AI or SVG format. Raster images (PNG, JPEG, GIF etc.) are unacceptable, including raster images embedded within the vector file.
@@ -157,9 +156,9 @@ Submit your icon for review by [opening a new issue](https://github.com/krisu5/a
 
 ### Directories
 - Non-variation primary icons are added to root of `PNG/` and `SVG/` folder.
-  - AI files are added to root of [aegis-icons_AIs](https://github.com/krisu5/aegis-icons_AIs) repo.
+  - AI files are added to root of [aegis-icons_AIs](https://github.com/aegis-icons/ai-files) repo.
 - Variation icons (`bg.var` or `fg.var`) and alternative (`alt`) are added to `PNG/Variations/` and `SVG/Variations/` folder.
-  - At [aegis-icons_AIs](https://github.com/krisu5/aegis-icons_AIs) repo, it's `Variations/`.
+  - At [aegis-icons_AIs](https://github.com/aegis-icons/ai-files) repo, it's `Variations/`.
 - For outdated icons, see [version naming and organizing old files](#version-naming-and-organizing-old-files) section.
 
 ### Filename
@@ -175,6 +174,7 @@ Submit your icon for review by [opening a new issue](https://github.com/krisu5/a
     - Example: `Cloud.png`.
     
 #### Version naming and organizing old files
+- New versions of icons are only made when it's major change (new logo or brand color).
 - Icon files that are outdated for first time, `v1` is added to end of the filename.
   - Examples: `Yahoo v1.svg`, `Dashlane v1.png`.
 - Newer files also gets version label here from out.
@@ -182,7 +182,7 @@ Submit your icon for review by [opening a new issue](https://github.com/krisu5/a
 - Version label number increases when new versions are released (`v3`, `v4`, `v5`, `v6` etc.).
 - Label number is also added / updated on the Illustrator file's artboard (shortcut: `Shift + O`).
 - Outdated versions are moved to self titled directory (`PNG/Outdated/`, `SVG/Outdated/`).
-  - In [aegis-icons_AIs](https://github.com/krisu5/aegis-icons_AIs) repo, directory is `Outdated/`.
+  - In [aegis-icons_AIs](https://github.com/aegis-icons/ai-files) repo, directory is `Outdated/`.
 - Icons which are based of now dead service, should be moved to "Outdated" directory just as it is.
 
 ## Resources
