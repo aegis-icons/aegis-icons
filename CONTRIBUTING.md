@@ -42,7 +42,7 @@ Scour the logo resources (URL, data URI etc.) to find a vector-based image (SVG,
   - e.g. [Zenkit press kit](https://zenkit.com/en/press-kit/) contains `Zenkit_Logo1_Flat.eps`.
   - Look for pages like: *Brand, Press, Media, Logos, Assets, Marketing, About* etc.
 - **Embedded logo(s) on company website**
-  - Easiest way for finding / downloading SVGs from web pages is using [SVG Gobbler](https://github.com/rossmoody/svg-gobbler#readme) browser extension (Chrome & Firefox).
+  - Easiest way for finding / downloading SVGs from web pages is using [SVG Gobbler](https://www.svggobbler.com/) browser extension (Chrome & Firefox).
     - Alternative: [svg-grabber](https://chrome.google.com/webstore/detail/svg-grabber-get-all-the-s/ndakggdliegnegeclmfgodmgemdokdmg) (Chrome only).
   - **Ways without extension:**
     1. Try right-clicking logo image and selecting *Save image as...*, and see if the save dialogue appears with SVG, not JPG, PNG or other raster graphic format.
@@ -116,7 +116,7 @@ Just change the logo for alternative version.
 - Use either of these icon library, depending on availability or visual looks:
   - [Unicons](https://iconscout.com/unicons/explore/line) (primary)
   - [Feather](https://feathericons.com/) (secondary)
-    - [Featherity](https://github.com/featherity/featherity) (community fork of Feather)
+    - [Featherity](https://featherity.netlify.app/) (community fork of Feather)
   - [Cryptocurrency Icons](http://cryptoicons.co/) ([link to SVG directory](https://github.com/spothq/cryptocurrency-icons/tree/master/svg/black), when neither of the icon libraries has icon for cryptocurrency).
 
 ### Save and export
