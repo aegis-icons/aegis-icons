@@ -116,7 +116,7 @@ Just change the logo for alternative version.
 - Use either of these icon library, depending on availability or visual looks:
   - [Unicons](https://iconscout.com/unicons/explore/line) (primary)
   - [Feather](https://feathericons.com/) (secondary)
-    - [Featherity](https://featherity.netlify.app/) (community fork of Feather)
+    - [Lucide](https://lucide.netlify.app/) (community fork of Feather)
   - [Cryptocurrency Icons](http://cryptoicons.co/) ([link to SVG directory](https://github.com/spothq/cryptocurrency-icons/tree/master/svg/black), when neither of the icon libraries has icon for cryptocurrency).
 
 ### Save and export
