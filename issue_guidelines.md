@@ -11,4 +11,4 @@
 
 <sup>[1]</sup> Only exception is *hate speech sites* (such as Gab, Parler, Voat etc). These will be rejected without explanation.
 
-<p align="center"><b>After reading and accepting guidelines, <a href="../../issues">you can make new issue</a>.</b></p>
+<p align="center"><b>After reading and accepting guidelines, <a href="../../issues/new/choose">you can make new issue</a>.</b></p>
