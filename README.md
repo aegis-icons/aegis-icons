@@ -10,17 +10,22 @@
 
 <p align="center">
     <a href="full_preview.md">
-        <img src="showcase.png" alt="Showcase banner">
+        <img src="showcase.png" alt="Showcase banner" />
     </a>
 </p>
 
 <p align="center">
-    <b><a href="/PNG">Browse the icons</a></b> • <b><a href="full_preview.md">See the full preview</a></b> • <b><a href="../../releases/latest">Download icon pack</a></b> • <b><a href="FAQ.md">FAQ</a></b>
+    <b><a href="/PNG">Browse the icons</a></b> • <b><a href="full_preview.md">See the full preview</a></b> • <b><a href="../../releases/latest">Download icon pack</a></b>
+    • <b><a href="FAQ.md">FAQ</a></b> • <b><a href="CONTRIBUTING.md">Contributing</a></b>
 </p>
 
-[Make a issue](../../issues) if you want to request a new icon (read our [short guidelines](issue_guidelines.md) first), or check out [CONTRIBUTING.md](CONTRIBUTING.md) to start making icons yourself!
+<p align="center">
+    <i><b>Make a issue</b> if you want to request a new icon (read our <a href="issue_guidelines.md">short guidelines</a> first).</i>
+</p>
 
-📁 **[Repository for Illustrator files](https://github.com/aegis-icons/ai-files)**
+<p align="center">
+    📁 <b><a href="https://github.com/aegis-icons/ai-files">Repository for Illustrator files</a></b>
+</p>
 
 ## Credits
 - [Cryptocurrency Icons](http://cryptoicons.co/) ([CC0 1.0 Universal](https://github.com/spothq/cryptocurrency-icons/blob/master/LICENSE.md))
