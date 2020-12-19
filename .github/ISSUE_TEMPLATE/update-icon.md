@@ -1,6 +1,6 @@
 ---
 name: Update icon
-about: Request update for icon, if logo or main brand color is outdated
+about: Request update for icon, if logo or main brand color is outdated.
 title: 'Update icon: '
 labels: Update
 assignees: ''
@@ -8,7 +8,7 @@ assignees: ''
 ---
 
 <!--
-First, read our short guidelines: https://github.com/krisu5/aegis-icons/blob/master/issue_guidelines.md
+First, read our short guidelines: https://git.io/JLu8h
 
 Remember to add **name of the site or app** at the end of the title -->
 
