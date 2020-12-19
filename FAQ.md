@@ -58,15 +58,17 @@ This tutorial focuses on icon editing in Android and with [Amaze file manager](h
 12. [Convert SVG to PNG with "CloudConvert" web app](https://cloudconvert.com/svg-to-png).
 	- Or you could download some "SVG converter" app from Play Store.
 
+## Why only some of icons have `bg.var`, `fg.var` or `alt` version?
+
+- `Bg.var` versions are made when original icon has dark background color. Dark background blends in on Dark and AMOLED themes. 
+- `Fg.var` versions has logo color changed to black when background color is brightly colored (eg. Snapchat).
+- `Alt` icons have alternative logo, if app / site has one.
+
+We try to honor app / webservice's branding as much as possible, so that's why there's variations as well for these situations.
+
 ## These icons aren't integrated in the app?
 
-Currently these icons aren't integrated in the app or way to automate the process.
+Currently these icons aren't integrated in the app.
 
-"Aegis-icons" is still unofficial project that doesn't relate to original app in any way.
-
-## Can't you make an app for automating the process?
-
-Sorry, I'm just designer. I don't have any programming background and personally don't enjoy programming that much.
-
-If you want to do it, be my guest! Or even better, [fork the Aegis app itself](https://github.com/beemdevelopment/Aegis).
+Upcoming [icon pack feature](https://github.com/beemdevelopment/Aegis/issues/509) will make adding icons easier to do.
 

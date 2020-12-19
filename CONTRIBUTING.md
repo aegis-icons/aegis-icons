@@ -160,6 +160,8 @@ Submit your icon for review by [opening a new issue](../../issues/new/choose) (s
   - AI files are added to root of [aegis-icons / ai-files](https://github.com/aegis-icons/ai-files) repo.
 - Variation icons (`bg.var` or `fg.var`) and alternative (`alt`) are added to `PNG/Variations/` and `SVG/Variations/` folder.
   - At [aegis-icons / ai-files](https://github.com/aegis-icons/ai-files) repo, it's `Variations/`.
+- Generic icons are added to `PNG/Generic/` and `SVG/Generic/` folder.
+  - At [aegis-icons / ai-files](https://github.com/aegis-icons/ai-files) repo, it's `Generic/`.
 - For outdated icons, see [version naming and organizing old files](#version-naming-and-organizing-old-files) section.
 
 ### Filename
@@ -176,7 +178,7 @@ Submit your icon for review by [opening a new issue](../../issues/new/choose) (s
   - Alt. icons with black foreground or different background color:
     - `[Primary icon name] alt bg.var.[extension]`
     - `[Primary icon name] alt fg.var.[extension]`
-    - *Example:* `Black Desert Online alt bg.var.png`
+    - *Example:* `Discourse alt bg.var.png`
   - Generic icon: name as what the icon symbolizes with big capital letter.
     - *Example:* `Cloud.png`
     
