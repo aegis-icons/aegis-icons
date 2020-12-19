@@ -229,7 +229,9 @@ Looking for software to start make icons? Here's some of the well known ones.
 ## Maintainer's Guide
 *This is for admins of the repo. If you're regular contributor, you can ignore this section.*
 
-As needed, update `full_preview.md`, `full_preview.png` (and convert that to `full_preview.webp` with using *pingo* command `pingo -webp-nigh=100 -s9 full_preview.png` [[batch script](/_compress/.2_pingo-script-for-previews.bat)]), `full_preview_generic.png`, `full_preview_variations.png`, and `full_preview_outdated.png`.
+As needed, update `full_preview.md`, `full_preview.png` (and convert that to `full_preview.webp` with using *pingo* command `pingo -s9 -webp-lossless full_preview.png` [[batch script](/_compress/.2_pingo_make-webp.bat)]), `full_preview_generic.png`, `full_preview_variations.png`, and `full_preview_outdated.png`.
+
+Compress PNGs with *pingo* too (`pingo -s9 *.png` or with [batch script](/_compress/.1_pingo_compress-png.bat)).
 
 ### Contact sheets (previews)
 We are using [*Snap2IMG*](https://www.rlvision.com/snap2img/about.php) software for generating previews (unfortunately, it's Windows only software. **Cross platform alternative wanted!** Submit your suggestions at issues).
