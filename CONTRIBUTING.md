@@ -173,7 +173,7 @@ Submit your icon for review by [opening a new issue](../../issues/new/choose) (s
     - `[Primary icon name] bg.var.[extension]`
     - `[Primary icon name] fg.var.[extension]`
     - *Examples:* `Snapchat fg.var.png`, `Squarespace bg.var.png`
-  - Icon variations with different background color **and** black foreground: `[Primary icon name] fg.bg.var.[extension]`
+  - Icon variations with black foreground **and** different background color: `[Primary icon name] fg.bg.var.[extension]`
     - *Example:* `Lichess fg.bg.var.png`
   - Alt. icons with black foreground or different background color:
     - `[Primary icon name] alt bg.var.[extension]`
