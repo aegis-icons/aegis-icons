@@ -137,7 +137,7 @@ Just change the logo for alternative version.
 ### PNG compression
 Compress the PNG file(s) with either using *[pingo](https://css-ig.net/pingo)* <sup><a href="#ftn3" id="ftn-sec3">[3]</a></sup> (Windows, lossless), *[ImageOptim](https://imageoptim.com/mac)* (MacOS, lossless by default), *[Trimage](https://trimage.org/)* (Linux & MacOS, lossless) or *[TinyPNG](https://tinypng.com/)* (web app, lossy).
 
-When using pingo's Windows GUI software *pinga*, [use these settings](https://user-images.githubusercontent.com/3540275/80963782-52ef5f80-8e18-11ea-8dbe-fc1c58fa81e4.png). For command line, use `pingo -s9 filename.png` or [batch script](/_compress/.1_pingo-script-for-icons.bat).
+When using pingo's Windows GUI software *pinga*, [use these settings](https://user-images.githubusercontent.com/3540275/80963782-52ef5f80-8e18-11ea-8dbe-fc1c58fa81e4.png). For command line, use `pingo -s9 filename.png` or [batch script](/_compress/.1_pingo_compress-png.bat).
 
 If your software of choice has compression settings, set those maximum as well.
 
