@@ -8,7 +8,7 @@ import zipfile
 def _do_gen_def(args):
     pack = {
         "uuid": "c1018b93-4e8c-490a-b575-30dde62a833e",
-        "name": "Kristian's Icon Pack",
+        "name": "aegis-icons",
         "version": 0,
         "icons": []
     }
