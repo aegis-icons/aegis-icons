@@ -30,6 +30,7 @@ It's recommended to also have some knowledge of design in general.
 - [**Maintainer's guide**](#maintainers-guide)
   - [Contact sheets (previews)](#contact-sheets-previews)
     - [Snap2IMG config](#snap2img-config)
+- [**Issue guidelines**](#issue-guidelines)
 - [**Footnotes**](#footnotes)
 
 ---
@@ -48,7 +49,8 @@ Scour the logo resources (URL, data URI etc.) to find a vector-based image (SVG,
     1. Try right-clicking logo image and selecting *Save image as...*, and see if the save dialogue appears with SVG, not JPG, PNG or other raster graphic format.
        - If right-clicking the image does not have an option for *Save image as...*, try using *Inspect* at the bottom of the right-click menu. This opens the developer tools which can reveal hidden URLs.
        - E.g. at [Floatplane](https://www.floatplane.com), inspecting the icon in the footer reveals the URL `https://frontend.floatplane.com/2.15.1/assets/images/logos/floatplane/icon-white.svg` which can be copied-and-pasted into the browser to open the image, and then saved normally.
-       - Sometimes SVG is embedded as inline. Means that instead of linking to external file, whole SVG file code is added to the HTML (see [SVG code example](https://gist.github.com/krisu5/677a8a3478331498929a11b900741aa2)). In that case, copy the SVG code completely from HTML (often, website embedded SVG starts with `<svg class` and so forth & ends with `</svg>`), open your refer text editor and save copypasted text as `filename.svg`. You can test if the file works by opening in it into web browser.
+       - Sometimes SVG is embedded as inline. Means that instead of linking to external file, whole SVG file code is added to the HTML (see [SVG code example](https://gist.github.com/krisu5/677a8a3478331498929a11b900741aa2)). In that case, copy the SVG code completely from HTML (website embedded SVG starts with `<svg` & so forth and ends with `</svg>`), open your refer text editor and save copypasted text as `filename.svg`. You can test if the file works by opening in it into web browser.
+         - If SVG doesn't seem to work, it probably is missing some markup. Try web tools like [Vecta.io's Nano](https://vecta.io/nano) or [SVGminify.com](https://www.svgminify.com/), these minimize the size and modify SVG to correct markup.
     2. Right-click the website and select *View page source*, then press `Ctrl + F` to open the search tool and type `SVG` to look for possible SVG vector files. Web inspector is also useful and better tool for some (press `F12`).
        - E.g. [You Need A Budget](https://www.youneedabudget.com) reveals the hidden SVG resource in HTML metadata section `https://www-assets.youneedabudget.com/wp-content/themes/dupatta/dist/images/safari-pinned-tab_[random-alphanumerical].svg` which can be copied-and-pasted into the browser to open the image, and then saved normally).
 - If everything has failed so far, then **check [logo resources](#logos) section.**
@@ -135,7 +137,7 @@ Just change the logo for alternative version.
 ### PNG compression
 Compress the PNG file(s) with either using *[pingo](https://css-ig.net/pingo)* <sup><a href="#ftn3" id="ftn-sec3">[3]</a></sup> (Windows, lossless), *[ImageOptim](https://imageoptim.com/mac)* (MacOS, lossless by default), *[Trimage](https://trimage.org/)* (Linux & MacOS, lossless) or *[TinyPNG](https://tinypng.com/)* (web app, lossy).
 
-When using pingo's Windows GUI software *pinga*, [use these settings](https://user-images.githubusercontent.com/3540275/80963782-52ef5f80-8e18-11ea-8dbe-fc1c58fa81e4.png). For command line, use `pingo -s9 filename.png` or [batch script](/_compress/.1_pingo-script-for-icons.bat).
+When using pingo's Windows GUI software *pinga*, [use these settings](https://user-images.githubusercontent.com/3540275/80963782-52ef5f80-8e18-11ea-8dbe-fc1c58fa81e4.png). For command line, use `pingo -s9 filename.png` or [batch script](/_compress/.1_pingo_compress-png.bat).
 
 If your software of choice has compression settings, set those maximum as well.
 
@@ -159,21 +161,27 @@ Submit your icon for review by [opening a new issue](../../issues/new/choose) (s
   - AI files are added to root of [aegis-icons / ai-files](https://github.com/aegis-icons/ai-files) repo.
 - Variation icons (`bg.var` or `fg.var`) and alternative (`alt`) are added to `PNG/Variations/` and `SVG/Variations/` folder.
   - At [aegis-icons / ai-files](https://github.com/aegis-icons/ai-files) repo, it's `Variations/`.
+- Generic icons are added to `PNG/Generic/` and `SVG/Generic/` folder.
+  - At [aegis-icons / ai-files](https://github.com/aegis-icons/ai-files) repo, it's `Generic/`.
 - For outdated icons, see [version naming and organizing old files](#version-naming-and-organizing-old-files) section.
 
 ### Filename
-  - Primary icon: `[Company or Product Name].[extension]`.
-    - Examples: `Epic Games.ai`, `itch.io.svg`, `AWS.png`.
-  - Icon variations with alternate logo: `[Primary icon name] alt.[extension]`.
-    - Examples: `AppFolio alt.svg`, `You Need A Budget alt.png`.
-  - Icon variations with black foreground or different background color: `[Primary icon name] fg/bg.var.[extension]`.
-    - Examples: `Snapchat fg.var.png`, `Squarespace bg.var.png`.
-  - Icon variations with black foreground **and** different background color: `[Primary icon name] bg.fg.var.[extension]`.
-    - Examples: `Lichess bg.fg.var.png`.
-  - Alt. icons with black foreground or different background color: `[Primary icon name] alt fg/bg.var.[extension]`.
-    - Examples: `Black Desert Online alt bg.var.png`.
+  - Primary icon: `[Company or Product Name].[extension]`
+    - *Examples:* `Epic Games.ai`, `itch.io.svg`, `AWS.png`
+  - Icon variations with alternate logo: `[Primary icon name] alt.[extension]`
+    - *Examples:* `AppFolio alt.svg`, `You Need A Budget alt.png`
+  - Icon variations with black foreground or different background color:
+    - `[Primary icon name] bg.var.[extension]`
+    - `[Primary icon name] fg.var.[extension]`
+    - *Examples:* `Snapchat fg.var.png`, `Squarespace bg.var.png`
+  - Icon variations with black foreground **and** different background color: `[Primary icon name] fg.bg.var.[extension]`
+    - *Example:* `Lichess fg.bg.var.png`
+  - Alt. icons with black foreground or different background color:
+    - `[Primary icon name] alt bg.var.[extension]`
+    - `[Primary icon name] alt fg.var.[extension]`
+    - *Example:* `Discourse alt bg.var.png`
   - Generic icon: name as what the icon symbolizes with big capital letter.
-    - Example: `Cloud.png`.
+    - *Example:* `Cloud.png`
     
 #### Version naming and organizing old files
 - New versions of icons are only made when it's major change (new logo or brand color).
@@ -224,7 +232,9 @@ Looking for software to start make icons? Here's some of the well known ones.
 ## Maintainer's Guide
 *This is for admins of the repo. If you're regular contributor, you can ignore this section.*
 
-As needed, update `full_preview.md`, `full_preview.png` (and convert that to `full_preview.webp` with using *pingo* command `pingo -webp-nigh=100 -s9 full_preview.png` [[batch script](/_compress/.2_pingo-script-for-previews.bat)]), `full_preview_generic.png`, `full_preview_variations.png`, and `full_preview_outdated.png`.
+As needed, update `full_preview.md`, `full_preview.png` (and convert that to `full_preview.webp` with using *pingo* command `pingo -s9 -webp-lossless full_preview.png` [[batch script](/_compress/.2_pingo_make-webp.bat)]), `full_preview_generic.png`, `full_preview_variations.png`, and `full_preview_outdated.png`.
+
+Compress PNGs with *pingo* too (`pingo -s9 *.png` or with [batch script](/_compress/.1_pingo_compress-png.bat)).
 
 ### Contact sheets (previews)
 We are using [*Snap2IMG*](https://www.rlvision.com/snap2img/about.php) software for generating previews (unfortunately, it's Windows only software. **Cross platform alternative wanted!** Submit your suggestions at issues).
@@ -268,9 +278,22 @@ Check at "advanced" menu that text antialiasing is set as ClearType.
   - Thumbnails:
     - Add a shadow / Grayscale / Draw border around thumbnails: **not checked**.
 
+## Issue guidelines
+1. App / site icon related requests has to have Aegis supported 2FA support one way or another, this project does not make icons outside of Aegis usage.
+2. Check that icon you're about to request doesn't [already exist](full_preview.md) or requested in the [issues](https://github.com/krisu5/aegis-icons/issues).
+3. Read the issue template and fill **at least** required parts.
+4. If you have question or miscellaneous suggestion, check [FAQ](FAQ.md) first.
+5. Please think twice before requesting icons that possibly are overly complex to make ([example](https://github.com/krisu5/aegis-icons/issues/92)). Ask yourself if the icon is really worth of time and effort.
+   - Aegis-icons can reject any icon request for any reason. But most of the requests gets filled. Usually we do provide explanation and possibly alternative option if we reject the request.
+   - *Hate speech site related requests* (such as Gab, Parler, Voat etc.) will be rejected without explanation, **no exceptions.**
+6. For forums we have decided to make icons based of forum software they use, because those are more universally usable for icons then specific communities. *This is judged case by case.*
+   - Finding out the forum software, we are using tools such as [What CMS](https://whatcms.org) and [W3Techs Site Info](https://w3techs.com/sites).
+
+<b>After reading and accepting guidelines, <a href="../../issues/new/choose">you can make new issue</a>.</b>
+
 ## Footnotes
 <sup><a href="#ftn-sec1" id="ftn1">[1]</a></sup> Article: [Logo, Logomark, Logotype - What's The Difference And What Do You Need?](https://blog.designcrowd.com/article/997/logo-logomark-logotype-whats-the-difference-and-what-do-you-need) <sup>[[wayback machine]](https://web.archive.org/web/20200606123728/https://blog.designcrowd.com/article/997/logo-logomark-logotype-whats-the-difference-and-what-do-you-need)</sup>
 
 <sup><a href="#ftn-sec2" id="ftn2">[2]</a></sup> This color is taken from [Material Design 2014 color system](https://material.io/design/color/the-color-system.html#tools-for-picking-colors) <sup>[[archive.is w/ linked section]](https://archive.is/96QQG#77%)</sup> (Blue Grey, 500).
 
-<sup><a href="#ftn-sec3" id="ftn3">[3]</a></sup> While *pingo* is still one of the best & fastest PNG compressor currently, we can't recommend it 100% anymore because of author's uncertain behaviour. The author of *pingo* has erased Linux version, feedback forum, changelog and even documentation completely without warning and explanation. Good GUI alternatives for Windows are *[FileOptimizer](https://sourceforge.net/projects/nikkhokkho/files/FileOptimizer/)* and *[PNGGauntlet](https://pnggauntlet.com/)*. For command line usage, check out *[Efficient Compression Tool](https://github.com/fhanau/Efficient-Compression-Tool)* or *[zopflipng](https://github.com/google/zopfli)* ([tutorial](https://ariya.io/2016/06/using-zopfli-to-optimize-png-images) <sup>[[wayback machine]](https://web.archive.org/web/20200619115110/https://ariya.io/2016/06/using-zopfli-to-optimize-png-images)</sup>, [Node.js port](https://github.com/pierreinglebert/node-zopfli), [builded Windows binaries](https://github.com/garyzyg/zopfli-windows/releases)).
+<sup><a href="#ftn-sec3" id="ftn3">[3]</a></sup> While *pingo* is still one of the best & fastest PNG compressor currently, we can't recommend it 100% anymore because of author's uncertain behaviour. The author of *pingo* has erased Linux version, <del>feedback forum</del>, changelog and even documentation completely without warning and explanation. Good GUI alternatives for Windows are *[FileOptimizer](https://sourceforge.net/projects/nikkhokkho/files/FileOptimizer/)* and *[PNGGauntlet](https://pnggauntlet.com/)*. For command line usage, check out *[Efficient Compression Tool](https://github.com/fhanau/Efficient-Compression-Tool)* or *[zopflipng](https://github.com/google/zopfli)* ([tutorial](https://ariya.io/2016/06/using-zopfli-to-optimize-png-images) <sup>[[wayback machine]](https://web.archive.org/web/20200619115110/https://ariya.io/2016/06/using-zopfli-to-optimize-png-images)</sup>, [Node.js port](https://github.com/pierreinglebert/node-zopfli), [builded Windows binaries](https://github.com/garyzyg/zopfli-windows/releases)).

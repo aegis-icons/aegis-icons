@@ -1,6 +1,6 @@
 ---
 name: Icon request (app / site)
-about: Suggest a new icon
+about: Suggest a new icon.
 title: 'Icon request: '
 labels: New Icon
 assignees: ''
@@ -8,7 +8,7 @@ assignees: ''
 ---
 
 <!--
-First, read our short guidelines: https://github.com/krisu5/aegis-icons/blob/master/issue_guidelines.md
+First, read our short guidelines: https://git.io/JLu8h
 
 Remember to add **name of the site or app** at the end of the title -->
 

@@ -20,7 +20,7 @@
 </p>
 
 <p align="center">
-    <i><b>Make a issue</b> if you want to request a new icon (read our <a href="issue_guidelines.md">short guidelines</a> first).</i>
+    <i><b>Make a issue</b> if you want to request a new icon (please read our <a href="CONTRIBUTING.md#issue-guidelines">short guidelines</a> first).</i>
 </p>
 
 <p align="center">
@@ -39,4 +39,6 @@
 - [Unicons](https://iconscout.com/unicons) by Iconscout ([Apache 2.0](https://github.com/Iconscout/unicons/blob/master/LICENSE))
 
 ## Disclaimer
-This project includes material that may be protected as a trademark in some jurisdictions. Trademarks seen here in "aegis-icons" project does not indicate endorsement to the brands. If you want to use icon(s) publicly, you have to ensure that you have the legal right to do so and that you do not infringe any trademark rights. Please do not use brand based icons for any purpose except to represent the company, product, or service to which they refer. The CC0 license applies only to templates, texts and some of the icons. Everything else is either licensed (see the credits) or property of trademark owners. If you're owner of certain trademark(s) and want icon taken down for whatever reason, please [make a new issue](../../issues/new) or [email me directly](messageme.md).
+This project includes material that may be protected as a trademark in some jurisdictions. Trademarks seen here in "aegis-icons" project does not indicate endorsement to the brands. If you want to use icon(s) publicly, you have to ensure that you have the legal right to do so and that you do not infringe any trademark rights. Please do not use brand based icons for any purpose except to represent the company, product, or service to which they refer. The CC0 license applies only to templates, texts, codes and some of the icons. Everything else is either licensed (see the credits) or property of trademark owners. If you're owner of certain trademark(s) and want icon taken down for whatever reason, please [make a new issue](../../issues/new) or [email me directly](messageme.md).
+
+We don't make icons for general purpose, we only focus on Aegis's user space.
