@@ -159,9 +159,9 @@ Submit your icon for review by [opening a new issue](../../issues/new/choose) (s
 ### Directories
 - Non-variation primary icons are added to root of `PNG/` and `SVG/` folder.
   - AI files are added to root of [aegis-icons / ai-files](https://github.com/aegis-icons/ai-files) repo.
-- Variation icons (`bg.var` or `fg.var`) and alternative (`alt`) are added to `PNG/Variations/` and `SVG/Variations/` folder.
+- Variation icons (`bg.var` or `fg.var`) and alternative (`alt`) are added to `PNG/Variations/` and `SVG/.Variations/` folder.
   - At [aegis-icons / ai-files](https://github.com/aegis-icons/ai-files) repo, it's `Variations/`.
-- Generic icons are added to `PNG/Generic/` and `SVG/Generic/` folder.
+- Generic icons are added to `PNG/Generic/` and `SVG/.Generic/` folder.
   - At [aegis-icons / ai-files](https://github.com/aegis-icons/ai-files) repo, it's `Generic/`.
 - For outdated icons, see [version naming and organizing old files](#version-naming-and-organizing-old-files) section.
 
@@ -191,7 +191,7 @@ Submit your icon for review by [opening a new issue](../../issues/new/choose) (s
   - Examples: `Yahoo v2.svg`, `Dashlane v2.png`.
 - Version label number increases when new versions are released (`v3`, `v4`, `v5`, `v6` etc.).
 - Label number is also added / updated on the Illustrator file's artboard (shortcut: `Shift + O`).
-- Outdated versions are moved to self titled directory (`PNG/Outdated/`, `SVG/Outdated/`).
+- Outdated versions are moved to self titled directory (`PNG/Outdated/`, `SVG/.Outdated/`).
   - In [aegis-icons / ai-files](https://github.com/aegis-icons/ai-files) repo, directory is `Outdated/`.
 - Icons which are based of now dead service, should be moved to "Outdated" directory just as it is.
 
