@@ -220,7 +220,7 @@ Need ideas for icons? These list apps / websites that support 2FA (and what kind
 - [andOTP's thumbnail directory](https://github.com/andOTP/andOTP/tree/master/app/src/main/res/drawable) ⭐ (look for the filenames starting with `thumb_`)
 - [Authy - Guides](https://authy.com/guides/) ⭐
 - [Two-factor authentication list](https://evanhahn.com/2fa/)
-- [Two Factor Auth List](https://twofactorauth.org/) ⭐
+- [Two Factor Auth List](https://2fa.directory/) ⭐
 
 ### Software
 Looking for software to start make icons? Here's some of the well known ones.
