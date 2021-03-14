@@ -2,7 +2,7 @@
 name: Icon submission
 about: Submit your icon creation! Remember to read CONTRIBUTING.md first, if you haven't already.
 title: 'Icon submission: '
-labels: Icon Submission
+labels: Submission
 assignees: ''
 
 ---
