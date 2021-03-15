@@ -17,9 +17,9 @@ These are people who has contributed our project with commits or sending icon su
     - Our first contributer! ✨
 - **[justsomemate](https://github.com/justsomemate)**
   - For these icons: *Clover* ([#167](https://github.com/aegis-icons/aegis-icons/issues/167)), *Kaseya* ([#168](https://github.com/aegis-icons/aegis-icons/issues/168)), *Unitrends* ([#169](https://github.com/aegis-icons/aegis-icons/issues/169)), *Twilio* ([#170](https://github.com/aegis-icons/aegis-icons/issues/170)), *Palo Alto Networks* ([#171](https://github.com/aegis-icons/aegis-icons/issues/171)).
-- **[krisu5](https://github.com/krisu5)**
+- **[krisu5](https://github.com/krisu5)** (Kristian Salonen)
   - Head maintainer of the project.
-- **[sreeragag7](https://github.com/sreeragag7)**
+- **[sreeragag7](https://github.com/sreeragag7)** (Sreerag)
   - For these icons: *OffGamers* ([#141](https://github.com/aegis-icons/aegis-icons/pull/141)), *OneSignal* ([#144](https://github.com/aegis-icons/aegis-icons/pull/144)), *Nvidia* ([#163](https://github.com/aegis-icons/aegis-icons/pull/163)).
-- **[ukanuk](https://github.com/ukanuk)**
+- **[ukanuk](https://github.com/ukanuk)** (Micah Lindstrom)
   - For the first draft of *CONTRIBUTING.md* document ([#65](https://github.com/aegis-icons/aegis-icons/pull/65)).
