@@ -4,7 +4,7 @@ These are people who has contributed our project with commits or sending icon su
 
 *Only maintainers can edit this document, editing this document doesn't count as contribution! Names are in alphabetical order based of username.*
 
-*If you want name changed or deleted, [make a issue](https://github.com/aegis-icons/aegis-icons/issues/new).*
+*If you want name changed or deleted, [please make a issue](https://github.com/aegis-icons/aegis-icons/issues/new).*
 
 ---
 
@@ -13,8 +13,8 @@ These are people who has contributed our project with commits or sending icon su
 - **[IamRifki](https://github.com/IamRifki)** (Dania Rifki)
   - For *Tokopedia* icon ([#84](https://github.com/aegis-icons/aegis-icons/pull/84)).
 - **[jaden](https://github.com/jaden)** (Dan Hersam)
-  - For reducing size of PNG files ([#12](https://github.com/aegis-icons/aegis-icons/pull/12)).
-    - Our first contributer! ✨
+  - For reducing size of PNG files for the first time ([#12](https://github.com/aegis-icons/aegis-icons/pull/12)).
+    - Our first contributor! ✨
 - **[justsomemate](https://github.com/justsomemate)**
   - For these icons: *Clover* ([#167](https://github.com/aegis-icons/aegis-icons/issues/167)), *Kaseya* ([#168](https://github.com/aegis-icons/aegis-icons/issues/168)), *Unitrends* ([#169](https://github.com/aegis-icons/aegis-icons/issues/169)), *Twilio* ([#170](https://github.com/aegis-icons/aegis-icons/issues/170)), *Palo Alto Networks* ([#171](https://github.com/aegis-icons/aegis-icons/issues/171)).
 - **[krisu5](https://github.com/krisu5)** (Kristian Salonen)
