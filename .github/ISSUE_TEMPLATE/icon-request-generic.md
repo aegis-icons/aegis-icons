@@ -1,6 +1,6 @@
 ---
 name: Icon request (generic)
-about: Suggest a new *generic* icon (i.e. icon that doesn't represent any brand and are using symbol-like vectors).
+about: Suggest a new *generic* icon (i.e. icon that doesn't represent any brand and uses symbols).
 title: 'Generic icon request: '
 labels: Generic, New Icon
 assignees: ''
