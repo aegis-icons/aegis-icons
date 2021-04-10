@@ -1,7 +1,7 @@
 {
     "uuid": "c1018b93-4e8c-490a-b575-30dde62a833e",
     "name": "aegis-icons",
-    "version": 0,
+    "version": 20210410,
     "icons": [
         {
             "filename": "SVG\\.Generic\\Bitcoin.svg",
@@ -161,56 +161,63 @@
             "filename": "SVG\\.Outdated\\Bitwarden v1.svg",
             "category": "4. Outdated",
             "issuer": [
-                "Bitwarden v1"
+                "Bitwarden"
             ]
         },
         {
             "filename": "SVG\\.Outdated\\Codeberg v1.svg",
             "category": "4. Outdated",
             "issuer": [
-                "Codeberg v1"
+                "Codeberg"
             ]
         },
         {
             "filename": "SVG\\.Outdated\\Dashlane v1.svg",
             "category": "4. Outdated",
             "issuer": [
-                "Dashlane v1"
+                "Dashlane"
+            ]
+        },
+        {
+            "filename": "SVG\\.Outdated\\ExpressVPN v1.svg",
+            "category": "4. Outdated",
+            "issuer": [
+                "ExpressVPN"
             ]
         },
         {
             "filename": "SVG\\.Outdated\\Facebook v1.svg",
             "category": "4. Outdated",
             "issuer": [
-                "Facebook v1"
+                "Facebook"
             ]
         },
         {
             "filename": "SVG\\.Outdated\\Firefox v1.svg",
             "category": "4. Outdated",
             "issuer": [
-                "Firefox v1"
+                "Firefox"
             ]
         },
         {
             "filename": "SVG\\.Outdated\\GoDaddy v1 bg.var.svg",
             "category": "4. Outdated",
             "issuer": [
-                "GoDaddy v1 bg.var"
+                "GoDaddy"
             ]
         },
         {
             "filename": "SVG\\.Outdated\\GoDaddy v1.svg",
             "category": "4. Outdated",
             "issuer": [
-                "GoDaddy v1"
+                "GoDaddy "
             ]
         },
         {
             "filename": "SVG\\.Outdated\\IFTTT v1.svg",
             "category": "4. Outdated",
             "issuer": [
-                "IFTTT v1"
+                "IFTTT "
             ]
         },
         {
@@ -224,427 +231,483 @@
             "filename": "SVG\\.Outdated\\NameSilo v1.svg",
             "category": "4. Outdated",
             "issuer": [
-                "NameSilo v1"
+                "NameSilo"
             ]
         },
         {
             "filename": "SVG\\.Outdated\\OVH v1.svg",
             "category": "4. Outdated",
             "issuer": [
-                "OVH v1"
+                "OVH"
             ]
         },
         {
             "filename": "SVG\\.Outdated\\PayPal v1.svg",
             "category": "4. Outdated",
             "issuer": [
-                "PayPal v1"
+                "PayPal"
             ]
         },
         {
             "filename": "SVG\\.Outdated\\Privacy v1.svg",
             "category": "4. Outdated",
             "issuer": [
-                "Privacy v1"
+                "Privacy"
+            ]
+        },
+        {
+            "filename": "SVG\\.Outdated\\Trello v1.svg",
+            "category": "4. Outdated",
+            "issuer": [
+                "Trello"
             ]
         },
         {
             "filename": "SVG\\.Outdated\\Twitch v1.svg",
             "category": "4. Outdated",
             "issuer": [
-                "Twitch v1"
+                "Twitch"
             ]
         },
         {
             "filename": "SVG\\.Outdated\\Yahoo v1.svg",
             "category": "4. Outdated",
             "issuer": [
-                "Yahoo v1"
+                "Yahoo"
             ]
         },
         {
             "filename": "SVG\\.Variations\\AWS bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
-                "AWS bg.var"
+                "AWS"
             ]
         },
         {
             "filename": "SVG\\.Variations\\Activision bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
-                "Activision bg.var"
+                "Activision"
             ]
         },
         {
             "filename": "SVG\\.Variations\\AngelList bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
-                "AngelList bg.var"
+                "AngelList"
             ]
         },
         {
             "filename": "SVG\\.Variations\\Basecamp fg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
-                "Basecamp fg.var"
+                "Basecamp"
+            ]
+        },
+        {
+            "filename": "SVG\\.Variations\\Bethesda bg.var.svg",
+            "category": "2. Variations & Alts",
+            "issuer": [
+                "Bethesda"
             ]
         },
         {
             "filename": "SVG\\.Variations\\Betterment bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
-                "Betterment bg.var"
+                "Betterment"
             ]
         },
         {
             "filename": "SVG\\.Variations\\Bitpanda bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
-                "Bitpanda bg.var"
+                "Bitpanda"
             ]
         },
         {
             "filename": "SVG\\.Variations\\Black Desert Online bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
-                "Black Desert Online bg.var"
+                "Black Desert Online"
             ]
         },
         {
             "filename": "SVG\\.Variations\\Buffer bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
-                "Buffer bg.var"
+                "Buffer"
             ]
         },
         {
             "filename": "SVG\\.Variations\\CODING bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
-                "CODING bg.var"
+                "CODING"
             ]
         },
         {
             "filename": "SVG\\.Variations\\Crowdin bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
-                "Crowdin bg.var"
+                "Crowdin"
             ]
         },
         {
             "filename": "SVG\\.Variations\\Discourse alt bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
-                "Discourse alt bg.var"
+                "Discourse"
             ]
         },
         {
             "filename": "SVG\\.Variations\\Discourse alt.svg",
             "category": "2. Variations & Alts",
             "issuer": [
-                "Discourse alt"
+                "Discourse"
             ]
         },
         {
             "filename": "SVG\\.Variations\\Discourse bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
-                "Discourse bg.var"
+                "Discourse"
             ]
         },
         {
             "filename": "SVG\\.Variations\\DocuSign bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
-                "DocuSign bg.var"
+                "DocuSign"
             ]
         },
         {
             "filename": "SVG\\.Variations\\Epic Games bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
-                "Epic Games bg.var"
+                "Epic Games"
             ]
         },
         {
             "filename": "SVG\\.Variations\\Friendica fg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
-                "Friendica fg.var"
+                "Friendica"
             ]
         },
         {
             "filename": "SVG\\.Variations\\Github bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
-                "Github bg.var"
+                "Github"
+            ]
+        },
+        {
+            "filename": "SVG\\.Variations\\HYGH bg.var.svg",
+            "category": "2. Variations & Alts",
+            "issuer": [
+                "HYGH"
             ]
         },
         {
             "filename": "SVG\\.Variations\\IFTTT v2 bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
-                "IFTTT v2 bg.var"
+                "IFTTT"
             ]
         },
         {
             "filename": "SVG\\.Variations\\IVPN alt.svg",
             "category": "2. Variations & Alts",
             "issuer": [
-                "IVPN alt"
+                "IVPN"
             ]
         },
         {
             "filename": "SVG\\.Variations\\JetBrains bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
-                "JetBrains bg.var"
+                "JetBrains"
             ]
         },
         {
             "filename": "SVG\\.Variations\\Keeper fg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
-                "Keeper fg.var"
+                "Keeper"
             ]
         },
         {
             "filename": "SVG\\.Variations\\Lichess bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
-                "Lichess bg.var"
+                "Lichess"
             ]
         },
         {
             "filename": "SVG\\.Variations\\Lichess fg.bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
-                "Lichess fg.bg.var"
+                "Lichess"
             ]
         },
         {
             "filename": "SVG\\.Variations\\Mailchimp fg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
-                "Mailchimp fg.var"
+                "Mailchimp"
             ]
         },
         {
             "filename": "SVG\\.Variations\\Media Temple bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
-                "Media Temple bg.var"
+                "Media Temple"
             ]
         },
         {
             "filename": "SVG\\.Variations\\MercadoLibre fg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
-                "MercadoLibre fg.var"
+                "MercadoLibre"
             ]
         },
         {
             "filename": "SVG\\.Variations\\Newegg alt.svg",
             "category": "2. Variations & Alts",
             "issuer": [
-                "Newegg alt"
+                "Newegg"
             ]
         },
         {
             "filename": "SVG\\.Variations\\NotABug.org bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
-                "NotABug.org bg.var"
+                "NotABug.org"
             ]
         },
         {
             "filename": "SVG\\.Variations\\Nuki bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
-                "Nuki bg.var"
+                "Nuki"
             ]
         },
         {
             "filename": "SVG\\.Variations\\Nuki fg.bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
-                "Nuki fg.bg.var"
+                "Nuki"
+            ]
+        },
+        {
+            "filename": "SVG\\.Variations\\Obsidian Entertainment bg.var.svg",
+            "category": "2. Variations & Alts",
+            "issuer": [
+                "Obsidian Entertainment"
+            ]
+        },
+        {
+            "filename": "SVG\\.Variations\\Obsidian Entertainment fg.bg.var.svg",
+            "category": "2. Variations & Alts",
+            "issuer": [
+                "Obsidian Entertainment"
+            ]
+        },
+        {
+            "filename": "SVG\\.Variations\\Philips alt.svg",
+            "category": "2. Variations & Alts",
+            "issuer": [
+                "Philips"
             ]
         },
         {
             "filename": "SVG\\.Variations\\Plex bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
-                "Plex bg.var"
+                "Plex"
             ]
         },
         {
             "filename": "SVG\\.Variations\\Privacy v2 bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
-                "Privacy v2 bg.var"
+                "Privacy"
             ]
         },
         {
             "filename": "SVG\\.Variations\\Snapchat fg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
-                "Snapchat fg.var"
+                "Snapchat"
             ]
         },
         {
             "filename": "SVG\\.Variations\\Sophos alt.svg",
             "category": "2. Variations & Alts",
             "issuer": [
-                "Sophos alt"
+                "Sophos"
             ]
         },
         {
             "filename": "SVG\\.Variations\\Squarespace bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
-                "Squarespace bg.var"
+                "Squarespace"
             ]
         },
         {
             "filename": "SVG\\.Variations\\Stake bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
-                "Stake bg.var"
+                "Stake"
             ]
         },
         {
             "filename": "SVG\\.Variations\\Star Citizen bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
-                "Star Citizen bg.var"
+                "Star Citizen"
             ]
         },
         {
             "filename": "SVG\\.Variations\\Steam bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
-                "Steam bg.var"
+                "Steam"
             ]
         },
         {
             "filename": "SVG\\.Variations\\Uber bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
-                "Uber bg.var"
+                "Uber"
             ]
         },
         {
             "filename": "SVG\\.Variations\\Uberspace bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
-                "Uberspace bg.var"
+                "Uberspace"
             ]
         },
         {
             "filename": "SVG\\.Variations\\Ubisoft bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
-                "Ubisoft bg.var"
+                "Ubisoft"
+            ]
+        },
+        {
+            "filename": "SVG\\.Variations\\Unitrends bg.var.svg",
+            "category": "2. Variations & Alts",
+            "issuer": [
+                "Unitrends"
+            ]
+        },
+        {
+            "filename": "SVG\\.Variations\\Unity bg.var.svg",
+            "category": "2. Variations & Alts",
+            "issuer": [
+                "Unity"
             ]
         },
         {
             "filename": "SVG\\.Variations\\V2EX alt bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
-                "V2EX alt bg.var"
+                "V2EX"
             ]
         },
         {
             "filename": "SVG\\.Variations\\V2EX alt.svg",
             "category": "2. Variations & Alts",
             "issuer": [
-                "V2EX alt"
+                "V2EX"
             ]
         },
         {
             "filename": "SVG\\.Variations\\V2EX bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
-                "V2EX bg.var"
+                "V2EX"
             ]
         },
         {
             "filename": "SVG\\.Variations\\VRChat bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
-                "VRChat bg.var"
+                "VRChat"
             ]
         },
         {
             "filename": "SVG\\.Variations\\WEB.DE fg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
-                "WEB.DE fg.var"
+                "WEB.DE"
             ]
         },
         {
             "filename": "SVG\\.Variations\\Wallabag bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
-                "Wallabag bg.var"
+                "Wallabag"
             ]
         },
         {
             "filename": "SVG\\.Variations\\Wix bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
-                "Wix bg.var"
+                "Wix"
             ]
         },
         {
             "filename": "SVG\\.Variations\\Wordpress bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
-                "Wordpress bg.var"
+                "Wordpress"
             ]
         },
         {
             "filename": "SVG\\.Variations\\You Need A Budget alt.svg",
             "category": "2. Variations & Alts",
             "issuer": [
-                "You Need A Budget alt"
+                "You Need A Budget"
             ]
         },
         {
             "filename": "SVG\\.Variations\\ZeroTier bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
-                "ZeroTier bg.var"
+                "ZeroTier"
             ]
         },
         {
             "filename": "SVG\\.Variations\\axe bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
-                "axe bg.var"
+                "axe"
             ]
         },
         {
             "filename": "SVG\\.Variations\\diaspora bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
-                "diaspora bg.var"
+                "diaspora"
             ]
         },
         {
             "filename": "SVG\\.Variations\\niconico bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
-                "niconico bg.var"
+                "niconico"
             ]
         },
         {
             "filename": "SVG\\.Variations\\sourcehut bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
-                "sourcehut bg.var"
+                "sourcehut"
             ]
         },
         {
@@ -809,10 +872,24 @@
             ]
         },
         {
+            "filename": "SVG\\Bethesda.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Bethesda"
+            ]
+        },
+        {
             "filename": "SVG\\Betterment.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "Betterment"
+            ]
+        },
+        {
+            "filename": "SVG\\BeyondTrust.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "BeyondTrust"
             ]
         },
         {
@@ -827,6 +904,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "BitGo"
+            ]
+        },
+        {
+            "filename": "SVG\\BitMEX.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "BitMEX"
             ]
         },
         {
@@ -865,10 +949,24 @@
             ]
         },
         {
+            "filename": "SVG\\Bittrex.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Bittrex"
+            ]
+        },
+        {
+            "filename": "SVG\\Bitwala.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Bitwala"
+            ]
+        },
+        {
             "filename": "SVG\\Bitwarden v2.svg",
             "category": "1. Apps & Sites",
             "issuer": [
-                "Bitwarden v2"
+                "Bitwarden"
             ]
         },
         {
@@ -883,6 +981,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Blizzard"
+            ]
+        },
+        {
+            "filename": "SVG\\BlockFi.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "BlockFi"
             ]
         },
         {
@@ -928,6 +1033,20 @@
             ]
         },
         {
+            "filename": "SVG\\Bugzilla.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Bugzilla"
+            ]
+        },
+        {
+            "filename": "SVG\\Bybit.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Bybit"
+            ]
+        },
+        {
             "filename": "SVG\\CEX.IO.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -942,10 +1061,24 @@
             ]
         },
         {
+            "filename": "SVG\\CTemplar.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "CTemplar"
+            ]
+        },
+        {
             "filename": "SVG\\Carrd.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "Carrd"
+            ]
+        },
+        {
+            "filename": "SVG\\Celsius.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Celsius"
             ]
         },
         {
@@ -970,10 +1103,24 @@
             ]
         },
         {
+            "filename": "SVG\\Clover.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Clover"
+            ]
+        },
+        {
             "filename": "SVG\\Clubhouse.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "Clubhouse"
+            ]
+        },
+        {
+            "filename": "SVG\\Cobo.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Cobo"
             ]
         },
         {
@@ -987,7 +1134,7 @@
             "filename": "SVG\\Codeberg v2.svg",
             "category": "1. Apps & Sites",
             "issuer": [
-                "Codeberg v2"
+                "Codeberg"
             ]
         },
         {
@@ -995,6 +1142,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Coinbase"
+            ]
+        },
+        {
+            "filename": "SVG\\Coinigy.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Coinigy"
             ]
         },
         {
@@ -1026,10 +1180,24 @@
             ]
         },
         {
+            "filename": "SVG\\Credly.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Credly"
+            ]
+        },
+        {
             "filename": "SVG\\Crowdin.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "Crowdin"
+            ]
+        },
+        {
+            "filename": "SVG\\Crypto.com.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Crypto.com"
             ]
         },
         {
@@ -1043,7 +1211,21 @@
             "filename": "SVG\\Dashlane v2.svg",
             "category": "1. Apps & Sites",
             "issuer": [
-                "Dashlane v2"
+                "Dashlane"
+            ]
+        },
+        {
+            "filename": "SVG\\Deribit.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Deribit"
+            ]
+        },
+        {
+            "filename": "SVG\\Deversifi.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Deversifi"
             ]
         },
         {
@@ -1051,6 +1233,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "DigitalOcean"
+            ]
+        },
+        {
+            "filename": "SVG\\Digix.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Digix"
             ]
         },
         {
@@ -1117,10 +1306,24 @@
             ]
         },
         {
+            "filename": "SVG\\DueDEX.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "DueDEX"
+            ]
+        },
+        {
             "filename": "SVG\\Electronic Arts.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "Electronic Arts"
+            ]
+        },
+        {
+            "filename": "SVG\\Enom.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Enom"
             ]
         },
         {
@@ -1145,7 +1348,7 @@
             ]
         },
         {
-            "filename": "SVG\\ExpressVPN.svg",
+            "filename": "SVG\\ExpressVPN v2.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "ExpressVPN"
@@ -1159,10 +1362,17 @@
             ]
         },
         {
+            "filename": "SVG\\FTX.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "FTX"
+            ]
+        },
+        {
             "filename": "SVG\\Facebook v2.svg",
             "category": "1. Apps & Sites",
             "issuer": [
-                "Facebook v2"
+                "Facebook"
             ]
         },
         {
@@ -1197,7 +1407,7 @@
             "filename": "SVG\\Firefox v2.svg",
             "category": "1. Apps & Sites",
             "issuer": [
-                "Firefox v2"
+                "Firefox"
             ]
         },
         {
@@ -1212,6 +1422,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Friendica"
+            ]
+        },
+        {
+            "filename": "SVG\\Fundrise.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Fundrise"
             ]
         },
         {
@@ -1233,6 +1450,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Gandi"
+            ]
+        },
+        {
+            "filename": "SVG\\Gatsby.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Gatsby"
             ]
         },
         {
@@ -1274,7 +1498,7 @@
             "filename": "SVG\\GoDaddy v2.svg",
             "category": "1. Apps & Sites",
             "issuer": [
-                "GoDaddy v2"
+                "GoDaddy"
             ]
         },
         {
@@ -1320,6 +1544,13 @@
             ]
         },
         {
+            "filename": "SVG\\HYGH.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "HYGH"
+            ]
+        },
+        {
             "filename": "SVG\\Hack The Box.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -1348,6 +1579,13 @@
             ]
         },
         {
+            "filename": "SVG\\HitBTC.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "HitBTC"
+            ]
+        },
+        {
             "filename": "SVG\\Home Assistant.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -1369,6 +1607,13 @@
             ]
         },
         {
+            "filename": "SVG\\Huobi.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Huobi"
+            ]
+        },
+        {
             "filename": "SVG\\IBM.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -1379,7 +1624,7 @@
             "filename": "SVG\\IFTTT v2.svg",
             "category": "1. Apps & Sites",
             "issuer": [
-                "IFTTT v2"
+                "IFTTT"
             ]
         },
         {
@@ -1439,6 +1684,13 @@
             ]
         },
         {
+            "filename": "SVG\\Kaseya.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Kaseya"
+            ]
+        },
+        {
             "filename": "SVG\\Keeper.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -1460,10 +1712,31 @@
             ]
         },
         {
+            "filename": "SVG\\Koofr.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Koofr"
+            ]
+        },
+        {
             "filename": "SVG\\Kraken.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "Kraken"
+            ]
+        },
+        {
+            "filename": "SVG\\Kryptono.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Kryptono"
+            ]
+        },
+        {
+            "filename": "SVG\\KuCoin.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "KuCoin"
             ]
         },
         {
@@ -1551,6 +1824,20 @@
             ]
         },
         {
+            "filename": "SVG\\Mailo.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Mailo"
+            ]
+        },
+        {
+            "filename": "SVG\\MangaDex.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "MangaDex"
+            ]
+        },
+        {
             "filename": "SVG\\Mastodon.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -1603,7 +1890,7 @@
             "filename": "SVG\\NameSilo v2.svg",
             "category": "1. Apps & Sites",
             "issuer": [
-                "NameSilo v2"
+                "NameSilo"
             ]
         },
         {
@@ -1625,6 +1912,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Newegg"
+            ]
+        },
+        {
+            "filename": "SVG\\Nexo.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Nexo"
             ]
         },
         {
@@ -1698,6 +1992,13 @@
             ]
         },
         {
+            "filename": "SVG\\Nvidia.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Nvidia"
+            ]
+        },
+        {
             "filename": "SVG\\ORCID.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -1708,7 +2009,14 @@
             "filename": "SVG\\OVH v2.svg",
             "category": "1. Apps & Sites",
             "issuer": [
-                "OVH v2"
+                "OVH"
+            ]
+        },
+        {
+            "filename": "SVG\\Obsidian Entertainment.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Obsidian Entertainment"
             ]
         },
         {
@@ -1726,10 +2034,24 @@
             ]
         },
         {
+            "filename": "SVG\\Open Collective.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Open Collective"
+            ]
+        },
+        {
             "filename": "SVG\\OpenSRS.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "OpenSRS"
+            ]
+        },
+        {
+            "filename": "SVG\\OpenVPN.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "OpenVPN"
             ]
         },
         {
@@ -1754,6 +2076,13 @@
             ]
         },
         {
+            "filename": "SVG\\Palo Alto Networks.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Palo Alto Networks"
+            ]
+        },
+        {
             "filename": "SVG\\Parsec.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -1771,7 +2100,7 @@
             "filename": "SVG\\PayPal v2.svg",
             "category": "1. Apps & Sites",
             "issuer": [
-                "PayPal v2"
+                "PayPal"
             ]
         },
         {
@@ -1779,6 +2108,20 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Phabricator"
+            ]
+        },
+        {
+            "filename": "SVG\\Phemex.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Phemex"
+            ]
+        },
+        {
+            "filename": "SVG\\Philips.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Philips"
             ]
         },
         {
@@ -1831,10 +2174,17 @@
             ]
         },
         {
+            "filename": "SVG\\PrimeXBT.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "PrimeXBT"
+            ]
+        },
+        {
             "filename": "SVG\\Privacy v2.svg",
             "category": "1. Apps & Sites",
             "issuer": [
-                "Privacy v2"
+                "Privacy"
             ]
         },
         {
@@ -1842,6 +2192,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Private Internet Access"
+            ]
+        },
+        {
+            "filename": "SVG\\Probit.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Probit"
             ]
         },
         {
@@ -1877,6 +2234,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Python Package Index"
+            ]
+        },
+        {
+            "filename": "SVG\\Qloud.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Qloud"
             ]
         },
         {
@@ -1922,6 +2286,13 @@
             ]
         },
         {
+            "filename": "SVG\\Roundcube.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Roundcube"
+            ]
+        },
+        {
             "filename": "SVG\\STRATO.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -1933,6 +2304,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Samsung"
+            ]
+        },
+        {
+            "filename": "SVG\\Satang.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Satang"
             ]
         },
         {
@@ -1957,10 +2335,31 @@
             ]
         },
         {
+            "filename": "SVG\\SendCutSend.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "SendCutSend"
+            ]
+        },
+        {
+            "filename": "SVG\\Shareworks.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Shareworks"
+            ]
+        },
+        {
             "filename": "SVG\\Shopify.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "Shopify"
+            ]
+        },
+        {
+            "filename": "SVG\\Short.io.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Short.io"
             ]
         },
         {
@@ -2027,6 +2426,13 @@
             ]
         },
         {
+            "filename": "SVG\\StartMail.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "StartMail"
+            ]
+        },
+        {
             "filename": "SVG\\Steam.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2069,10 +2475,24 @@
             ]
         },
         {
+            "filename": "SVG\\T-Mobile.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "T-Mobile"
+            ]
+        },
+        {
             "filename": "SVG\\TaxAct.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "TaxAct"
+            ]
+        },
+        {
+            "filename": "SVG\\TaxSlayer.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "TaxSlayer"
             ]
         },
         {
@@ -2104,6 +2524,13 @@
             ]
         },
         {
+            "filename": "SVG\\Trading 212.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Trading 212"
+            ]
+        },
+        {
             "filename": "SVG\\TradingView.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2111,7 +2538,7 @@
             ]
         },
         {
-            "filename": "SVG\\Trello.svg",
+            "filename": "SVG\\Trello v2.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "Trello"
@@ -2139,10 +2566,17 @@
             ]
         },
         {
+            "filename": "SVG\\Twilio.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Twilio"
+            ]
+        },
+        {
             "filename": "SVG\\Twitch v2.svg",
             "category": "1. Apps & Sites",
             "issuer": [
-                "Twitch v2"
+                "Twitch"
             ]
         },
         {
@@ -2178,6 +2612,20 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Ubisoft"
+            ]
+        },
+        {
+            "filename": "SVG\\Unitrends.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Unitrends"
+            ]
+        },
+        {
+            "filename": "SVG\\Unity.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Unity"
             ]
         },
         {
@@ -2324,7 +2772,14 @@
             "filename": "SVG\\Yahoo v2.svg",
             "category": "1. Apps & Sites",
             "issuer": [
-                "Yahoo v2"
+                "Yahoo"
+            ]
+        },
+        {
+            "filename": "SVG\\YoBit.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "YoBit"
             ]
         },
         {
@@ -2395,6 +2850,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "diaspora"
+            ]
+        },
+        {
+            "filename": "SVG\\dismail.de.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "dismail.de"
             ]
         },
         {
