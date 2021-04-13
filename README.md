@@ -1,6 +1,6 @@
 <p align="center">
     <a href="#readme">
-        <img src="https://raw.githubusercontent.com/aegis-icons/design-assets/master/logomark_logotext.svg" width="350" />
+        <img src="https://raw.githubusercontent.com/aegis-icons/design-assets/master/readme-banner.svg" width="350" />
     </a>
 </p>
 
