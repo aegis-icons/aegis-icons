@@ -6,18 +6,14 @@
 	.st0{fill:#6001D2;}
 	.st1{fill:#FFFFFF;}
 </style>
-<g id="Guides">
+<g id="Min_Guides__x28_DO_NOT_REMOVE_x29_">
+</g>
+<g id="Max_Guides__x28_DO_NOT_REMOVE_x29__1_">
 </g>
 <g id="Icon">
-	<circle class="st0" cx="512" cy="512" r="512"/>
-	<g id="Logo" transform="translate(260.95542,41.213839)" inkscape:groupmode="layer" inkscape:label="Layer 1">
-		<path id="path1139" inkscape:connector-curvature="0" sodipodi:nodetypes="ccccccccc" class="st1" d="M-16,344.2H89.8l61.6,157.5
-			l62.4-157.5h102.9l-155,372.9H58l42.4-98.8L-16,344.2z"/>
-		<g>
-			<circle id="path1155" class="st1" cx="331" cy="557.9" r="64"/>
-			<path id="path1157" inkscape:connector-curvature="0" sodipodi:nodetypes="ccccc" class="st1" d="M416.1,470.3H300.8l102.3-245.8
-				H518L416.1,470.3z"/>
-		</g>
-	</g>
+	<circle id="Background" class="st0" cx="512" cy="512" r="512"/>
+	<path class="st1" d="M245,385.5h105.7L412.3,543l62.4-157.5h102.9l-155,372.9H319l42.4-98.8L245,385.5z M528,599.1
+		c0,35.4,28.7,64,64,64c35.4,0,64-28.7,64-64c0-35.4-28.7-64-64-64C556.6,535,528,563.7,528,599.1z M779,265.7H664.1L561.8,511.5
+		h115.3L779,265.7z"/>
 </g>
 </svg>
