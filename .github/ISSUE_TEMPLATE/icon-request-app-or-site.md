@@ -8,7 +8,8 @@ assignees: ''
 ---
 
 <!--
-First, read our short guidelines: https://git.io/JLu8h
+First, read our issue guidelines: https://git.io/JLu8h
+(Only takes half a minute to read!)
 
 Remember to add **name of the site or app** at the end of the title -->
 
