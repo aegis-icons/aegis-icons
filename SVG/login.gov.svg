@@ -1,17 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 1024 1024" style="enable-background:new 0 0 1024 1024;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#112E51;}
-	.st1{fill:#FFFFFF;}
-</style>
-<g id="Guides">
-</g>
-<g id="Icon">
-	<circle class="st0" cx="512" cy="512" r="512"/>
-	<g>
-		<script  xmlns="">self.tr_qhwSSyDfxgKPMVJr = function(frame,opts){(function(frame){
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" style="enable-background:new 0 0 1024 1024" xml:space="preserve">
+   <style>
+      .st1{fill:#fff}
+   </style>
+   <g id="Icon">
+      <circle cx="512" cy="512" r="512" style="fill:#112e51"/>
+      <script>
+         self.tr_qhwSSyDfxgKPMVJr = function(frame,opts){(function(frame){
 
 				if (frame.traceDefinedOpener === true) return;
 
@@ -132,8 +126,9 @@
 			});
 
 		})(null,true,&quot;tr_qhwSSyDfxgKPMVJr&quot;);
-			</script>
-		<script  xmlns="">self.tr_NyjvmdkVeFGoiRci = function(frame,opts){(function(frame){
+      </script>
+      <script>
+         self.tr_NyjvmdkVeFGoiRci = function(frame,opts){(function(frame){
 
 				if (frame.traceDefinedBeacon === true) return;
 
@@ -252,8 +247,9 @@
 			});
 
 		})(null,true,&quot;tr_NyjvmdkVeFGoiRci&quot;);
-			</script>
-		<script  xmlns="">self.tr_efJxAjEXKXfkpgLy = function(frame,opts){(function(frame,opts){
+      </script>
+      <script>
+         self.tr_efJxAjEXKXfkpgLy = function(frame,opts){(function(frame,opts){
 
 				if (frame.traceDefinedNet === true) return;
 
@@ -372,8 +368,9 @@
 				return opts;
 
 			})(&apos;{&quot;downlink&quot;:7.5,&quot;effectiveType&quot;:&quot;4g&quot;,&quot;onchange&quot;:null,&quot;rtt&quot;:100}&apos;),true,&quot;tr_efJxAjEXKXfkpgLy&quot;);
-			</script>
-		<script  xmlns="">self.tr_HpOVmsEPHVHaqnOe = function(frame,opts){(function(frame,opts) {
+      </script>
+      <script>
+         self.tr_HpOVmsEPHVHaqnOe = function(frame,opts){(function(frame,opts) {
 
 					if (frame.traceDefinedDeviceEnum === true) return;
 
@@ -524,8 +521,9 @@
 					return JSON.parse(opts);
 
 				})(&apos;{&quot;enabled&quot;:true}&apos;),true,&quot;tr_HpOVmsEPHVHaqnOe&quot;);
-			</script>
-		<script  xmlns="">self.tr_hqxQCxccGhUzuIor = function(frame,opts){(function(frame){
+      </script>
+      <script>
+         self.tr_hqxQCxccGhUzuIor = function(frame,opts){(function(frame){
 
 				if (frame.traceDefinedRects === true) return;
 
@@ -760,8 +758,9 @@
 			});
 
 		})(null,true,&quot;tr_hqxQCxccGhUzuIor&quot;);
-			</script>
-		<script  xmlns="">self.tr_JAbvSuUEurMGSzow = function(frame,opts){(function(frame,opts){
+      </script>
+      <script>
+         self.tr_JAbvSuUEurMGSzow = function(frame,opts){(function(frame,opts){
 
 				opts = JSON.parse(opts);
 
@@ -924,22 +923,17 @@
 				return opts;
 
 			})(&apos;[true,4,true,4,true,true]&apos;),true,&quot;tr_JAbvSuUEurMGSzow&quot;);
-			</script>
-		<title>rgb</title>
-		<desc>Created with Sketch.</desc>
-		<g id="Page-1">
-			<g id="rgb">
-				<g id="Layer_1_1_">
-					<path id="Shape_8_" class="st1" d="M458.2,617.7L477,510.4c-19.3-14.9-26.9-40.5-18.9-63.5c7.9-23,29.7-38.5,54.1-38.4V289.4
-						H367c-14.9,0-29.2,5.9-39.8,16.5c-10.5,10.5-16.5,24.9-16.5,39.8v275.8c0,5.2,1.1,10.3,3.4,15C326.3,661.1,374.3,740.2,512,801
-						V622.1C494,622.2,476,620.7,458.2,617.7L458.2,617.7z"/>
-					<path id="Shape_9_" class="st1" d="M656.9,289H512v119.1l0,0c24.3-0.1,45.9,15.2,54,38c8,22.9,0.7,48.4-18.3,63.4l18.8,107.8
-						c-18,3.1-36.2,4.7-54.4,4.7v178.6c137.5-60.5,185.7-139.9,197.9-164.5c2.3-4.7,3.4-9.8,3.4-15V345.5c0.1-15-5.8-29.4-16.4-40
-						S671.9,289,656.9,289L656.9,289z"/>
-				</g>
-			</g>
-		</g>
-		<script  xmlns="">(function(){
+      </script>
+      <g id="Page-1">
+         <g id="rgb">
+            <g id="Layer_1_1_">
+               <path id="Shape_8_" class="st1" d="M458.2 617.7 477 510.4c-19.3-14.9-26.9-40.5-18.9-63.5 7.9-23 29.7-38.5 54.1-38.4V289.4H367c-14.9 0-29.2 5.9-39.8 16.5-10.5 10.5-16.5 24.9-16.5 39.8v275.8c0 5.2 1.1 10.3 3.4 15C326.3 661.1 374.3 740.2 512 801V622.1c-18 .1-36-1.4-53.8-4.4z"/>
+               <path id="Shape_9_" class="st1" d="M656.9 289H512v119.1c24.3-.1 45.9 15.2 54 38 8 22.9.7 48.4-18.3 63.4l18.8 107.8c-18 3.1-36.2 4.7-54.4 4.7v178.6C649.6 740.1 697.8 660.7 710 636.1c2.3-4.7 3.4-9.8 3.4-15V345.5c.1-15-5.8-29.4-16.4-40S671.9 289 656.9 289z"/>
+            </g>
+         </g>
+      </g>
+      <script>
+         (function(){
 
 			function disableFunction(frame){
 
@@ -1004,8 +998,9 @@
 			});
 
 		})(undefined);
-			</script>
-		<script  xmlns="">(function(opts){
+      </script>
+      <script>
+         (function(opts){
 
 			var opts = JSON.parse(opts);
 
@@ -1228,7 +1223,6 @@
 			});
 
 		})(&apos;{&quot;randomOpts&quot;:{&quot;enabled&quot;:true,&quot;values&quot;:[-50,50]},&quot;commonResolutions&quot;:{&quot;enabled&quot;:false,&quot;resolutions&quot;:[[1024,768],[1280,720],[1280,800],[1280,1024],[1360,768],[1366,768],[1440,900],[1600,900],[1920,1080],[1920,1440],[3440,1440],[3840,1600]]},&quot;modifyDepths&quot;:{&quot;enabled&quot;:true},&quot;modifyPixelRatio&quot;:{&quot;enabled&quot;:true}}&apos;);
-			</script>
-	</g>
-</g>
+      </script>
+   </g>
 </svg>

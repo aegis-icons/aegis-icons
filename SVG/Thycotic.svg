@@ -1,18 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 1024 1024" style="enable-background:new 0 0 1024 1024;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#82BE40;}
-	.st1{fill:#FFFFFF;}
-</style>
-<g id="Min_Guides__x28_DO_NOT_REMOVE_x29_">
-</g>
-<g id="Max_Guides__x28_DO_NOT_REMOVE_x29_">
-</g>
-<g id="Icon">
-	<circle id="Background" class="st0" cx="512" cy="512" r="512"/>
-	<path class="st1" d="M471.1,593.3l-78,76.3L209.5,477.4h144.7L471.1,593.3z M807.7,495.6l-39.6-39L555.5,676.8H400.1L697,386.2
-		l-39-39h149.7"/>
-</g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" style="enable-background:new 0 0 1024 1024" xml:space="preserve">
+   <circle cx="512" cy="512" r="512" style="fill:#82be40"/>
+   <path d="m471.1 593.3-78 76.3-183.6-192.2h144.7l116.9 115.9zm336.6-97.7-39.6-39-212.6 220.2H400.1L697 386.2l-39-39h149.7" style="fill:#fff"/>
 </svg>

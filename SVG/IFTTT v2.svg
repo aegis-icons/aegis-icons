@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 1024 1024" style="enable-background:new 0 0 1024 1024;" xml:space="preserve">
-<style type="text/css">
-	.st0{display:none;}
-	.st1{fill:#FFFFFF;}
-</style>
-<g id="Guides" class="st0">
-</g>
-<g id="Icon">
-	<circle cx="512" cy="512" r="512"/>
-	<path class="st1" d="M224,432.9H273v154.3H224V432.9z M504.5,432.9h-84.2v49.1h35.1v105.2h49.1V481.9h35.1v-49.1H504.5z
-		 M637.7,432.9h-84.2v49.1h35.1v105.2h49.1V481.9h35.1v-49.1H637.7z M771,432.9h-84.2v49.1h35.1v105.2H771V481.9H806v-49.1H771z
-		 M406.3,481.9v-49.1H294.1v154.3h49.1v-42.1h42.1V496h-42.1v-14H406.3z"/>
-</g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" style="enable-background:new 0 0 1024 1024" xml:space="preserve">
+   <circle cx="512" cy="512" r="512"/>
+   <path d="M224 432.9h49v154.3h-49V432.9zm280.5 0h-84.2V482h35.1v105.2h49.1V481.9h35.1v-49.1h-35.1zm133.2 0h-84.2V482h35.1v105.2h49.1V481.9h35.1v-49.1h-35.1zm133.3 0h-84.2V482h35.1v105.2H771V481.9h35v-49.1h-35zm-364.7 49v-49.1H294.1v154.3h49.1V545h42.1v-49h-42.1v-14h63.1z" style="fill:#fff"/>
 </svg>

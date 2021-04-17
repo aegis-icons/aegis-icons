@@ -1,21 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 1024 1024" style="enable-background:new 0 0 1024 1024;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#02A6C2;}
-	.st1{fill:#FFFFFF;}
-</style>
-<g id="Min_Guides__x28_DO_NOT_REMOVE_x29_">
-</g>
-<g id="Max_Guides__x28_DO_NOT_REMOVE_x29_">
-</g>
-<g id="Icon">
-	<circle id="Background" class="st0" cx="512" cy="512" r="512"/>
-	<path class="st1" d="M401.5,289.4c122.2,0,244.3,0,366.5,0c0,39.5,0,78.9,0,118.4c-122.2,0-244.3,0-366.5,0
-		C401.5,368.3,401.5,328.9,401.5,289.4z M256,571.2c39.5,0,78.9,0,118.4,0c0-39.5,0-79,0-118.5c-39.5,0-78.9,0-118.4,0
-		C256,492.3,256,531.8,256,571.2z M401.5,571.2c62.2,0,124.4,0,186.6,0c12.3,0,24.6,0.1,36.9-0.1c13.5-0.1,27,0,40.5-0.1
-		c0-39.4,0-78.8,0-118.3c-14.7-0.1-29.4,0.1-44-0.1c-73.3,0-146.6,0-220,0C401.5,492.2,401.5,531.7,401.5,571.2z M401.5,734.6
-		c39.5,0,78.9,0,118.4,0c0-39.5,0-78.9,0-118.4c-39.5,0-78.9,0-118.4,0C401.5,655.7,401.5,695.1,401.5,734.6z"/>
-</g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" style="enable-background:new 0 0 1024 1024" xml:space="preserve">
+   <circle cx="512" cy="512" r="512" style="fill:#02a6c2"/>
+   <path d="M401.5 289.4H768v118.4H401.5V289.4zM256 571.2h118.4V452.7H256v118.5zm145.5 0h186.6c12.3 0 24.6.1 36.9-.1 13.5-.1 27 0 40.5-.1V452.7c-14.7-.1-29.4.1-44-.1h-220v118.6zm0 163.4h118.4V616.2H401.5v118.4z" style="fill:#fff"/>
 </svg>

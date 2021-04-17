@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 1024 1024" style="enable-background:new 0 0 1024 1024;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#0061FF;}
-	.st1{fill:#FFFFFF;}
-</style>
-<g id="Guides">
-</g>
-<g id="Icon">
-	<circle class="st0" cx="512" cy="512" r="512"/>
-	<path class="st1" d="M384,313.5l-128,81.5l128,81.5l128-81.5L384,313.5z M640,313.5l-128,81.5l128,81.5l128-81.5L640,313.5z
-		 M256,558.2l128,81.5l128-81.5l-128-81.5L256,558.2z M640,476.6l-128,81.5l128,81.5l128-81.5L640,476.6z M384,666.9l128,81.5
-		l128-81.5l-128-81.5L384,666.9z"/>
-</g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" style="enable-background:new 0 0 1024 1024" xml:space="preserve">
+   <circle cx="512" cy="512" r="512" style="fill:#0061ff"/>
+   <path d="M384 313.5 256 395l128 81.5L512 395l-128-81.5zm256 0L512 395l128 81.5L768 395l-128-81.5zM256 558.2l128 81.5 128-81.5-128-81.5-128 81.5zm384-81.6-128 81.5 128 81.5 128-81.5-128-81.5zM384 666.9l128 81.5 128-81.5-128-81.5-128 81.5z" style="fill:#fff"/>
 </svg>
