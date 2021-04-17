@@ -3,8 +3,7 @@
 *.URL
 _compress/*.png
 _compress/*.webp
-_compress/pingo_backup/
+_compress/(svg_input)/*.*
 _resources/
 _screenshots/
-_templates/svg_template_AIs/
 __pycache__/
