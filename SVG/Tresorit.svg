@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 1024 1024" style="enable-background:new 0 0 1024 1024;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#2B6DF1;}
-	.st1{fill:#FFFFFF;}
-</style>
-<g id="Guides">
-</g>
-<g id="Icon">
-	<circle class="st0" cx="512" cy="512" r="512"/>
-	<path id="symbol" class="st1" d="M512,241.9L278.8,377V647l233.2,135l233.2-135V377L512,241.9z M327.9,405.3L512,298.7l80.4,46.6
-		l-264.6,152V405.3z M696.1,618.7L512,725.3L327.9,618.7v-64.9l313.7-180.2l54.6,31.6V618.7z"/>
-</g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" style="enable-background:new 0 0 1024 1024" xml:space="preserve">
+   <circle cx="512" cy="512" r="512" style="fill:#2b6df1"/>
+   <path d="M512 241.9 278.8 377v270L512 782l233.2-135V377L512 241.9zM327.9 405.3 512 298.7l80.4 46.6-264.6 152v-92zm368.2 213.4L512 725.3 327.9 618.7v-64.9l313.7-180.2 54.6 31.6v213.5z" style="fill:#fff"/>
 </svg>

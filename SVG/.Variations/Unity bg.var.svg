@@ -1,19 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 1024 1024" style="enable-background:new 0 0 1024 1024;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#939597;}
-	.st1{fill:#FFFFFF;}
-</style>
-<g id="Min_Guides__x28_DO_NOT_REMOVE_x29_">
-</g>
-<g id="Max_Guides__x28_DO_NOT_REMOVE_x29_">
-</g>
-<g id="Icon">
-	<circle id="Background" class="st0" cx="512" cy="512" r="512"/>
-	<path class="st1" d="M665.4,276l-192.8,50.2l-28.5,49l-57.9-0.4L245,512l141.1,137.2l57.9-0.4l28.6,48.9L665.4,748L717,560.6
-		L687.7,512l29.3-48.5L665.4,276z M448.7,383.1l147.5-36.9l-84.7,142.6H342.1L448.7,383.1z M448.7,640.9L342.1,535.2h169.3
-		l84.7,142.6L448.7,640.9z M637.4,654.6L552.7,512l84.7-142.6L678.3,512L637.4,654.6z"/>
-</g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" style="enable-background:new 0 0 1024 1024" xml:space="preserve">
+   <circle cx="512" cy="512" r="512" style="fill:#939597"/>
+   <path d="m665.4 276-192.8 50.2-28.5 49-57.9-.4L245 512l141.1 137.2 57.9-.4 28.6 48.9L665.4 748 717 560.6 687.7 512l29.3-48.5L665.4 276zM448.7 383.1l147.5-36.9-84.7 142.6H342.1l106.6-105.7zm0 257.8L342.1 535.2h169.3l84.7 142.6-147.4-36.9zm188.7 13.7L552.7 512l84.7-142.6L678.3 512l-40.9 142.6z" style="fill:#fff"/>
 </svg>

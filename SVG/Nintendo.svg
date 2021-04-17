@@ -1,18 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 1024 1024" style="enable-background:new 0 0 1024 1024;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#E60012;}
-	.st1{fill:#FFFFFF;}
-</style>
-<g id="Guides">
-</g>
-<g id="Icon">
-	<circle class="st0" cx="512" cy="512" r="512"/>
-	<g>
-		<title>Nintendo icon</title>
-		<path class="st1" d="M296.9,307.7h127.3l176.6,285v-285h126.4v408.7H600.9l-177.4-285v285H296.9V307.7"/>
-	</g>
-</g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" style="enable-background:new 0 0 1024 1024" xml:space="preserve">
+   <circle cx="512" cy="512" r="512" style="fill:#e60012"/>
+   <path d="M296.9 307.7h127.3l176.6 285v-285h126.4v408.7H600.9l-177.4-285v285H296.9V307.7" style="fill:#fff"/>
 </svg>

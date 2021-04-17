@@ -1,17 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 1024 1024" style="enable-background:new 0 0 1024 1024;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#607D8B;}
-	.st1{fill:#FFFFFF;}
-</style>
-<g id="Guides">
-</g>
-<g id="Icon">
-	<circle class="st0" cx="512" cy="512" r="512"/>
-	<g>
-		<script  xmlns="">self.tr_PVRZKCHffvxjZuGz = function(frame,opts){(function(frame){
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" style="enable-background:new 0 0 1024 1024" xml:space="preserve">
+   <g id="Icon">
+      <circle cx="512" cy="512" r="512" style="fill:#607d8b"/>
+      <script>
+         self.tr_PVRZKCHffvxjZuGz = function(frame,opts){(function(frame){
 
 				if (frame.traceDefinedOpener === true) return;
 
@@ -132,8 +123,9 @@
 			});
 
 		})(null,true,&quot;tr_PVRZKCHffvxjZuGz&quot;);
-			</script>
-		<script  xmlns="">self.tr_HGdiRPGcvtRDRLoH = function(frame,opts){(function(frame){
+      </script>
+      <script>
+         self.tr_HGdiRPGcvtRDRLoH = function(frame,opts){(function(frame){
 
 				if (frame.traceDefinedBeacon === true) return;
 
@@ -252,8 +244,9 @@
 			});
 
 		})(null,true,&quot;tr_HGdiRPGcvtRDRLoH&quot;);
-			</script>
-		<script  xmlns="">self.tr_scjGkqFrrJbMIZVs = function(frame,opts){(function(frame,opts){
+      </script>
+      <script>
+         self.tr_scjGkqFrrJbMIZVs = function(frame,opts){(function(frame,opts){
 
 				if (frame.traceDefinedNet === true) return;
 
@@ -372,8 +365,9 @@
 				return opts;
 
 			})(&apos;{&quot;downlink&quot;:7.5,&quot;effectiveType&quot;:&quot;4g&quot;,&quot;onchange&quot;:null,&quot;rtt&quot;:100}&apos;),true,&quot;tr_scjGkqFrrJbMIZVs&quot;);
-			</script>
-		<script  xmlns="">self.tr_tdLIPfECBdRvuluT = function(frame,opts){(function(frame,opts) {
+      </script>
+      <script>
+         self.tr_tdLIPfECBdRvuluT = function(frame,opts){(function(frame,opts) {
 
 					if (frame.traceDefinedDeviceEnum === true) return;
 
@@ -524,8 +518,9 @@
 					return JSON.parse(opts);
 
 				})(&apos;{&quot;enabled&quot;:true}&apos;),true,&quot;tr_tdLIPfECBdRvuluT&quot;);
-			</script>
-		<script  xmlns="">self.tr_kYWNuHPzQzyFJDhM = function(frame,opts){(function(frame){
+      </script>
+      <script>
+         self.tr_kYWNuHPzQzyFJDhM = function(frame,opts){(function(frame){
 
 				if (frame.traceDefinedRects === true) return;
 
@@ -760,8 +755,9 @@
 			});
 
 		})(null,true,&quot;tr_kYWNuHPzQzyFJDhM&quot;);
-			</script>
-		<script  xmlns="">self.tr_BnOQyRptpZBSWEYb = function(frame,opts){(function(frame,opts){
+      </script>
+      <script>
+         self.tr_BnOQyRptpZBSWEYb = function(frame,opts){(function(frame,opts){
 
 				opts = JSON.parse(opts);
 
@@ -924,17 +920,10 @@
 				return opts;
 
 			})(&apos;[true,4,true,4,true,true]&apos;),true,&quot;tr_BnOQyRptpZBSWEYb&quot;);
-			</script>
-		<path class="st1" d="M710.2,611.1H313.8c-10.9,0-19.8,8.9-19.8,19.8c0,10.9,8.9,19.8,19.8,19.8h396.4c10.9,0,19.8-8.9,19.8-19.8
-			C730,620,721.1,611.1,710.2,611.1z M710.2,690.4H313.8c-10.9,0-19.8,8.9-19.8,19.8s8.9,19.8,19.8,19.8h396.4
-			c10.9,0,19.8-8.9,19.8-19.8S721.1,690.4,710.2,690.4z M393.1,412.9c-10.9,0-19.8,8.9-19.8,19.8s8.9,19.8,19.8,19.8
-			s19.8-8.9,19.8-19.8S404,412.9,393.1,412.9z M670.5,294H353.5c-32.8,0-59.5,26.6-59.5,59.5V512c0,32.8,26.6,59.5,59.5,59.5h317.1
-			c32.8,0,59.5-26.6,59.5-59.5V353.5C730,320.6,703.4,294,670.5,294z M690.4,512c0,10.9-8.9,19.8-19.8,19.8H353.5
-			c-10.9,0-19.8-8.9-19.8-19.8V353.5c0-10.9,8.9-19.8,19.8-19.8h317.1c10.9,0,19.8,8.9,19.8,19.8V512z M512,373.3
-			c-32.8,0-59.5,26.6-59.5,59.5s26.6,59.5,59.5,59.5s59.5-26.6,59.5-59.5S544.8,373.3,512,373.3z M512,452.5
-			c-10.9,0-19.8-8.9-19.8-19.8s8.9-19.8,19.8-19.8c10.9,0,19.8,8.9,19.8,19.8S522.9,452.5,512,452.5z M630.9,412.9
-			c-10.9,0-19.8,8.9-19.8,19.8s8.9,19.8,19.8,19.8c10.9,0,19.8-8.9,19.8-19.8S641.9,412.9,630.9,412.9z"/>
-		<script  xmlns="">(function(){
+      </script>
+      <path d="M710.2 611.1H313.8c-10.9 0-19.8 8.9-19.8 19.8s8.9 19.8 19.8 19.8h396.4c10.9 0 19.8-8.9 19.8-19.8s-8.9-19.8-19.8-19.8zm0 79.3H313.8c-10.9 0-19.8 8.9-19.8 19.8s8.9 19.8 19.8 19.8h396.4c10.9 0 19.8-8.9 19.8-19.8s-8.9-19.8-19.8-19.8zM393.1 412.9c-10.9 0-19.8 8.9-19.8 19.8s8.9 19.8 19.8 19.8 19.8-8.9 19.8-19.8-8.9-19.8-19.8-19.8zM670.5 294h-317c-32.8 0-59.5 26.6-59.5 59.5V512c0 32.8 26.6 59.5 59.5 59.5h317.1c32.8 0 59.5-26.6 59.5-59.5V353.5c-.1-32.9-26.7-59.5-59.6-59.5zm19.9 218c0 10.9-8.9 19.8-19.8 19.8H353.5c-10.9 0-19.8-8.9-19.8-19.8V353.5c0-10.9 8.9-19.8 19.8-19.8h317.1c10.9 0 19.8 8.9 19.8 19.8V512zM512 373.3c-32.8 0-59.5 26.6-59.5 59.5s26.6 59.5 59.5 59.5 59.5-26.6 59.5-59.5-26.7-59.5-59.5-59.5zm0 79.2c-10.9 0-19.8-8.9-19.8-19.8s8.9-19.8 19.8-19.8 19.8 8.9 19.8 19.8-8.9 19.8-19.8 19.8zm118.9-39.6c-10.9 0-19.8 8.9-19.8 19.8s8.9 19.8 19.8 19.8 19.8-8.9 19.8-19.8-8.8-19.8-19.8-19.8z" style="fill:#fff"/>
+      <script>
+         (function(){
 
 			function disableFunction(frame){
 
@@ -999,8 +988,9 @@
 			});
 
 		})(undefined);
-			</script>
-		<script  xmlns="">(function(opts){
+      </script>
+      <script>
+         (function(opts){
 
 			var opts = JSON.parse(opts);
 
@@ -1223,7 +1213,6 @@
 			});
 
 		})(&apos;{&quot;randomOpts&quot;:{&quot;enabled&quot;:true,&quot;values&quot;:[-50,50]},&quot;commonResolutions&quot;:{&quot;enabled&quot;:false,&quot;resolutions&quot;:[[1024,768],[1280,720],[1280,800],[1280,1024],[1360,768],[1366,768],[1440,900],[1600,900],[1920,1080],[1920,1440],[3440,1440],[3840,1600]]},&quot;modifyDepths&quot;:{&quot;enabled&quot;:true},&quot;modifyPixelRatio&quot;:{&quot;enabled&quot;:true}}&apos;);
-			</script>
-	</g>
-</g>
+      </script>
+   </g>
 </svg>

@@ -1,20 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 1024 1024" style="enable-background:new 0 0 1024 1024;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#E24329;}
-	.st1{fill:#FFFFFF;}
-</style>
-<g id="Guides">
-</g>
-<g id="Icon">
-	<circle class="st0" cx="512" cy="512" r="512"/>
-	<g>
-		<title>GitLab icon</title>
-		<path class="st1" d="M766.7,552.8l-28.6-88.2l-56.8-174.6c-2.9-9-15.6-9-18.5,0L606,464.6H417.6l-56.8-174.5
-			c-2.9-9-15.6-9-18.5-0.1l-56.8,174.6l-28.6,88.2c-2.6,8,0.3,16.8,7.1,21.8l247.8,180l247.8-180
-			C766.5,569.7,769.3,560.9,766.7,552.8"/>
-	</g>
-</g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" style="enable-background:new 0 0 1024 1024" xml:space="preserve">
+   <circle cx="512" cy="512" r="512" style="fill:#e24329"/>
+   <path d="m766.7 552.8-28.6-88.2L681.3 290c-2.9-9-15.6-9-18.5 0L606 464.6H417.6l-56.8-174.5c-2.9-9-15.6-9-18.5-.1l-56.8 174.6-28.6 88.2c-2.6 8 .3 16.8 7.1 21.8l247.8 180 247.8-180c6.9-4.9 9.7-13.7 7.1-21.8" style="fill:#fff"/>
 </svg>
