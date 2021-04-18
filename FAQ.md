@@ -16,7 +16,7 @@ Repeat steps 2 to 6 for other accounts.
 
 ## How can I make icon with different background color?
 
-### Easy way, but you need a PC
+### Easy "PC only" way
 
 Even though PC is needed, you don't need to install extra software. Web browser is all you need.
 
@@ -35,27 +35,26 @@ Even though PC is needed, you don't need to install extra software. Web browser 
 
 If you want to use a software, [Inkscape](https://inkscape.org/) and [SVG Splash](https://www.svgsplash.com/) are best free options. But you're on your own there.
 
-### Harder way, but PC isn't necessary
+### Harder Android way
 
-This tutorial focuses on icon editing in Android and with [Amaze file manager](https://github.com/TeamAmaze/AmazeFileManager/blob/master/README.md).
+This tutorial focuses on icon editing in Android and with [Amaze file manager](https://github.com/TeamAmaze/AmazeFileManager/blob/master/README.md). This is slightly more technical method, so this method is only recommended for more advanced users. You apply this method on PC too using Notepad or other plain text editor.
 
-1. [Get the SVG file(s) for the icon(s) you want to edit](/SVG).
+1. [Go to file(s) for the icon(s) you want to edit](/SVG).
 2. On Chrome (or Chromium-based browsers), long press the "raw" button and select "download link".
 3. Open **Amaze** and go to "Downloads" folder.
 4. Press menu icon on the file (three dots) and select "Open with".
 5. In the "Open As" dialog, select "text".
 6. Select "Amaze Text Editor".
-7. Copy and paste code below after the word `<circle`. 🖼 [Example](https://user-images.githubusercontent.com/3540275/85231721-480d8000-b402-11ea-8b19-4221b2c777b4.png)
-```
- style="fill: #COLOR !important;"
-```
-8. Select the color using color picker.
+7. Find a color you like using color picker.
    - Good mobile-friendly web apps: https://color.obscuredetour.com/ & https://color.joelb.dev/
-9. Copy the hex color value.
-   - Hex color starts with hash (#) and has 6 alphanumerical characters.
-10. Replace the `#COLOR` text with copied hex color. 🖼 [Example](https://user-images.githubusercontent.com/3540275/85231723-48a61680-b402-11ea-85cf-e21c9c4ca252.png)
-11. Press the "save" icon. 🖼 [Example](https://user-images.githubusercontent.com/3540275/85231725-49d74380-b402-11ea-8364-e468e9214263.png)
-12. [Convert SVG to PNG with "CloudConvert" web app](https://cloudconvert.com/svg-to-png).
+8. Copy the HEX color value.
+   - HEX color starts with hash (#) and has 6 alphanumerical characters.
+9. Find `<circle` part from the code, then look for `fill:#RANDOMHEX`. 🖼 [Example](https://user-images.githubusercontent.com/3540275/115146777-ac1fc580-a060-11eb-9e85-d010ca23da52.png)
+   - In this example, `#RANDOMHEX` is `#1a8cff`.
+9. Replace the HEX color code text with copied hex color. 🖼 [Example](https://user-images.githubusercontent.com/3540275/115147154-564c1d00-a062-11eb-8972-2729903a5530.png)
+   - In this example, *replacable* HEX code is `#1a8cff` and HEX code *we want* is `#e32b3f`.
+10. Press the "save" icon. 🖼 [Example](https://user-images.githubusercontent.com/3540275/115147156-56e4b380-a062-11eb-9f2b-aebb6e9fc839.png)
+11. [Convert SVG to PNG with "CloudConvert" web app](https://cloudconvert.com/svg-to-png).
 	- Or you could download some "SVG converter" app from Play Store.
 
 ## Why only some of icons have `bg.var`, `fg.var` or `alt` version?
