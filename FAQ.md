@@ -37,7 +37,7 @@ If you want to use a software, [Inkscape](https://inkscape.org/) and [SVG Splash
 
 ### Harder Android way
 
-This tutorial focuses on icon editing in Android and with [Amaze file manager](https://github.com/TeamAmaze/AmazeFileManager/blob/master/README.md). This is slightly more technical method, so this method is only recommended for more advanced users. You apply this method on PC too using Notepad or other plain text editor.
+This tutorial focuses on icon editing in Android and with [Amaze file manager](https://github.com/TeamAmaze/AmazeFileManager/blob/master/README.md). This is slightly more technical method, so it's only recommended for more advanced users. You apply this method on PC too using Notepad or other plain text editor.
 
 1. [Get the SVG file(s) for the icon(s) you want to edit](/SVG).
 2. On Chrome (or Chromium-based browsers), long press the "raw" button and select "download link".
@@ -51,6 +51,10 @@ This tutorial focuses on icon editing in Android and with [Amaze file manager](h
    - HEX color starts with hash (#) and has 6 alphanumerical characters.
 9. Find `<circle` part from the code, then look for `fill:#RANDOMHEX`. 🖼 [Example](https://user-images.githubusercontent.com/3540275/115146777-ac1fc580-a060-11eb-9e85-d010ca23da52.png)
    - In this example, `#RANDOMHEX` is `#1a8cff`.
+   - Black icons don't `style` attribute, so you need to add it manually (check the example screenshot above).
+   ```
+   style="fill:#RANDOMHEX"
+   ```
 9. Replace the HEX color code text with copied hex color. 🖼 [Example](https://user-images.githubusercontent.com/3540275/115147154-564c1d00-a062-11eb-8972-2729903a5530.png)
    - In this example, *replacable* HEX code is `#1a8cff` and HEX code *we want* is `#e32b3f`.
 10. Press the "save" icon. 🖼 [Example](https://user-images.githubusercontent.com/3540275/115147156-56e4b380-a062-11eb-9f2b-aebb6e9fc839.png)
