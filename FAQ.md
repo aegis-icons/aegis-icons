@@ -21,7 +21,7 @@ Repeat steps 2 to 6 for other accounts.
 Even though PC is needed, you don't need to install extra software. Web browser is all you need.
 
 1. [Get the SVG file(s) for the icon(s) you want to edit](/SVG).
-	- SVG is [vector file format](https://simple.wikipedia.org/wiki/Vector_graphics) that can  be easily edited, specially with colors. It's also possible to edit it via text (that's the subject on the next tutorial).
+   - SVG is [vector file format](https://simple.wikipedia.org/wiki/Vector_graphics) that can  be easily edited, specially with colors. It's also possible to edit it via text (that's the subject on the next tutorial).
 2. Right-click image and save it (or click "Raw" button and then save it).
 3. Go to [Vectr](https://vectr.com/new), web app for vector making / editing.
 4. Select the SVG file. 🖼 [Example](https://user-images.githubusercontent.com/3540275/81182238-34bf6600-8fb6-11ea-958c-05d1bf46ce7f.png)
