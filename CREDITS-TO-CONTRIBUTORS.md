@@ -4,7 +4,7 @@ These are people who has contributed our project with commits or sending icon su
 
 *Only maintainers can edit this document, editing this document doesn't count as contribution! Names are in alphabetical order based of the username.*
 
-*If you want name changed or deleted, [please make a issue](https://github.com/aegis-icons/aegis-icons/issues/new).*
+*If you want name changed or deleted, [please make a new issue](https://github.com/aegis-icons/aegis-icons/issues/new) or comment on your PR / issue.*
 
 ---
 
