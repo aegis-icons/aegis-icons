@@ -19,6 +19,8 @@ These are people who has contributed our project with commits or sending icon su
   - For these icons: *Clover* ([#167](https://github.com/aegis-icons/aegis-icons/issues/167)), *Kaseya* ([#168](https://github.com/aegis-icons/aegis-icons/issues/168)), *Unitrends* ([#169](https://github.com/aegis-icons/aegis-icons/issues/169)), *Twilio* ([#170](https://github.com/aegis-icons/aegis-icons/issues/170)), *Palo Alto Networks* ([#171](https://github.com/aegis-icons/aegis-icons/issues/171)).
 - **[krisu5](https://github.com/krisu5)** (Kristian Salonen)
   - Head maintainer of the project.
+- **[maxlysenko](https://github.com/maxlysenko)**
+  - For these icons: *Avast* ([#223](https://github.com/aegis-icons/aegis-icons/issues/223)), *Keenetic* ([#226](https://github.com/aegis-icons/aegis-icons/issues/226)), *RealVNC* ([#224](https://github.com/aegis-icons/aegis-icons/issues/224)), *SAP* ([#225](https://github.com/aegis-icons/aegis-icons/issues/225)).
 - **[Selovert](https://github.com/Selovert)** (Tassilo Selover-Stephan)
   - For these icons: *BlockFi* ([#175](https://github.com/aegis-icons/aegis-icons/issues/175)), *Fundrise* ([#176](https://github.com/aegis-icons/aegis-icons/issues/176)), *Obsidian Entertainment* ([#177](https://github.com/aegis-icons/aegis-icons/issues/177)), *SendCutSend* ([#178](https://github.com/aegis-icons/aegis-icons/issues/178)), *Shareworks* ([#179](https://github.com/aegis-icons/aegis-icons/issues/179)), *TaxSlayer* ([#180](https://github.com/aegis-icons/aegis-icons/issues/180)).
 - **[sreeragag7](https://github.com/sreeragag7)** (Sreerag)
