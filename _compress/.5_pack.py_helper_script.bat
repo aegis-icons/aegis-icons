@@ -1,5 +1,11 @@
 @echo off
 cd ..
+setlocal EnableDelayedExpansion
+for /f "skip=1 tokens=1-6" %%a in ('wmic path win32_localtime get day^,hour^,minute^,month^,second^,year /format:table') do (
+    if "%%b" neq "" (
+        set /a version=%%f*10000+%%d*100+%%a
+    )
+)
 echo.
 echo ---------------------------------
 echo ----- PACK.PY HELPER SCRIPT -----
@@ -31,12 +37,6 @@ goto loop
 :makeSVGZip
 echo - - - - - - - - - - - - - - - - -
 echo.
-setlocal EnableDelayedExpansion
-for /f "skip=1 tokens=1-6" %%a in ('wmic path win32_localtime get day^,hour^,minute^,month^,second^,year /format:table') do (
-    if "%%b" neq "" (
-        set /a version=%%f*10000+%%d*100+%%a
-    )
-)
 pack.py gen --output SVGs_%version%.zip --version %version%
 echo.
 echo ---------------------------------
@@ -44,12 +44,7 @@ goto loop
 
 :zipPNGs
 echo - - - - - - - - - - - - - - - - -
-setlocal EnableDelayedExpansion
-for /f "skip=1 tokens=1-6" %%a in ('wmic path win32_localtime get day^,hour^,minute^,month^,second^,year /format:table') do (
-    if "%%b" neq "" (
-        set /a version=%%f*10000+%%d*100+%%a
-    )
-)
+echo.
 7za a -tzip "%cd%\PNGs_%version%.zip" "%cd%\PNG\"
 echo.
 echo ---------------------------------
