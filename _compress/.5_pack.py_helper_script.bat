@@ -12,7 +12,7 @@ echo [2] Make the iconpack ZIP (JSON has to generated first)
 echo [3] Zip the PNG files
 echo [4] Exit
 echo.
-choice /c 1234 /n /m "Chosen input: "
+choice /c 1234 /n /m "Chosen input (1-4): "
 echo.
 
 if errorlevel 4 goto exitScript
