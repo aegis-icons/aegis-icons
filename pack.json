@@ -1,7 +1,7 @@
 {
     "uuid": "c1018b93-4e8c-490a-b575-30dde62a833e",
     "name": "aegis-icons",
-    "version": 20210410,
+    "version": 0,
     "icons": [
         {
             "filename": "SVG/.Generic/Bitcoin.svg",
@@ -85,6 +85,13 @@
             "category": "3. Generic",
             "issuer": [
                 "Music"
+            ]
+        },
+        {
+            "filename": "SVG/.Generic/Note.svg",
+            "category": "3. Generic",
+            "issuer": [
+                "Note"
             ]
         },
         {
@@ -179,6 +186,13 @@
             ]
         },
         {
+            "filename": "SVG/.Outdated/Discord v1.svg",
+            "category": "4. Outdated",
+            "issuer": [
+                "Discord"
+            ]
+        },
+        {
             "filename": "SVG/.Outdated/ExpressVPN v1.svg",
             "category": "4. Outdated",
             "issuer": [
@@ -210,7 +224,7 @@
             "filename": "SVG/.Outdated/GoDaddy v1.svg",
             "category": "4. Outdated",
             "issuer": [
-                "GoDaddy "
+                "GoDaddy"
             ]
         },
         {
@@ -270,10 +284,10 @@
             ]
         },
         {
-            "filename": "SVG/.Outdated/Yahoo v1.svg",
-            "category": "4. Outdated",
+            "filename": "SVG/.Variations/1984 Hosting bg.var.svg",
+            "category": "2. Variations & Alts",
             "issuer": [
-                "Yahoo"
+                "1984 Hosting"
             ]
         },
         {
@@ -456,6 +470,13 @@
             "category": "2. Variations & Alts",
             "issuer": [
                 "Mailchimp"
+            ]
+        },
+        {
+            "filename": "SVG/.Variations/Mapbox bg.var.svg",
+            "category": "2. Variations & Alts",
+            "issuer": [
+                "Mapbox"
             ]
         },
         {
@@ -711,6 +732,13 @@
             ]
         },
         {
+            "filename": "SVG/1984 Hosting.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "1984 Hosting"
+            ]
+        },
+        {
             "filename": "SVG/1Password.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -788,6 +816,13 @@
             ]
         },
         {
+            "filename": "SVG/Apigee.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Apigee"
+            ]
+        },
+        {
             "filename": "SVG/AppFolio.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -841,6 +876,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Autodesk"
+            ]
+        },
+        {
+            "filename": "SVG/Avast.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Avast"
             ]
         },
         {
@@ -1138,6 +1180,13 @@
             ]
         },
         {
+            "filename": "SVG/CoinEx.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "CoinEx"
+            ]
+        },
+        {
             "filename": "SVG/Coinbase.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -1243,7 +1292,7 @@
             ]
         },
         {
-            "filename": "SVG/Discord.svg",
+            "filename": "SVG/Discord v2.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "Discord"
@@ -1348,6 +1397,13 @@
             ]
         },
         {
+            "filename": "SVG/Exact.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Exact"
+            ]
+        },
+        {
             "filename": "SVG/ExpressVPN v2.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -1415,6 +1471,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Floatplane"
+            ]
+        },
+        {
+            "filename": "SVG/Forward Email.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Forward Email"
             ]
         },
         {
@@ -1614,6 +1677,13 @@
             ]
         },
         {
+            "filename": "SVG/Hurricane Electric Internet Service.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Hurricane Electric Internet Service"
+            ]
+        },
+        {
             "filename": "SVG/IBM.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -1677,6 +1747,13 @@
             ]
         },
         {
+            "filename": "SVG/Joomla.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Joomla"
+            ]
+        },
+        {
             "filename": "SVG/Justworks.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -1688,6 +1765,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Kaseya"
+            ]
+        },
+        {
+            "filename": "SVG/Keenetic.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Keenetic"
             ]
         },
         {
@@ -1838,6 +1922,13 @@
             ]
         },
         {
+            "filename": "SVG/Mapbox.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Mapbox"
+            ]
+        },
+        {
             "filename": "SVG/Mastodon.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -1873,6 +1964,13 @@
             ]
         },
         {
+            "filename": "SVG/MongoDB.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "MongoDB"
+            ]
+        },
+        {
             "filename": "SVG/MyHeritage.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -1891,6 +1989,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "NameSilo"
+            ]
+        },
+        {
+            "filename": "SVG/Namebase.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Namebase"
             ]
         },
         {
@@ -1940,6 +2045,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Nexus Mods"
+            ]
+        },
+        {
+            "filename": "SVG/NiceHash.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "NiceHash"
             ]
         },
         {
@@ -2024,6 +2136,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "OffGamers"
+            ]
+        },
+        {
+            "filename": "SVG/OneProvider.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "OneProvider"
             ]
         },
         {
@@ -2153,6 +2272,13 @@
             ]
         },
         {
+            "filename": "SVG/Poloniex.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Poloniex"
+            ]
+        },
+        {
             "filename": "SVG/Porkbun.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2258,6 +2384,13 @@
             ]
         },
         {
+            "filename": "SVG/RealVNC.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "RealVNC"
+            ]
+        },
+        {
             "filename": "SVG/Reddit.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2290,6 +2423,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Roundcube"
+            ]
+        },
+        {
+            "filename": "SVG/SAP.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "SAP"
             ]
         },
         {
@@ -2391,10 +2531,10 @@
             ]
         },
         {
-            "filename": "SVG/Sourceforge.svg",
+            "filename": "SVG/SourceForge.svg",
             "category": "1. Apps & Sites",
             "issuer": [
-                "Sourceforge"
+                "SourceForge"
             ]
         },
         {
@@ -2503,10 +2643,24 @@
             ]
         },
         {
+            "filename": "SVG/Tenable.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Tenable"
+            ]
+        },
+        {
             "filename": "SVG/Tesla.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "Tesla"
+            ]
+        },
+        {
+            "filename": "SVG/Thycotic.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Thycotic"
             ]
         },
         {
@@ -2664,6 +2818,13 @@
             ]
         },
         {
+            "filename": "SVG/Versio.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Versio"
+            ]
+        },
+        {
             "filename": "SVG/VirusTotal.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2766,13 +2927,6 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Xing"
-            ]
-        },
-        {
-            "filename": "SVG/Yahoo v2.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "Yahoo"
             ]
         },
         {
@@ -2885,6 +3039,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "mailbox.org"
+            ]
+        },
+        {
+            "filename": "SVG/minerstat.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "minerstat"
             ]
         },
         {
