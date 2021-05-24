@@ -8,7 +8,7 @@ for /f "skip=1 tokens=1-6" %%a in ('wmic path win32_localtime get day^,hour^,min
 )
 echo.
 echo ---------------------------------
-echo ----- PACK.PY HELPER SCRIPT -----
+echo ------- ICON PACK CREATOR -------
 echo ---------------------------------
 :loop
 echo.
@@ -23,7 +23,7 @@ echo.
 
 if errorlevel 4 goto exitScript
 if errorlevel 3 goto zipPNGs
-if errorlevel 2 goto makeSVGZip
+if errorlevel 2 goto makeSVGzip
 if errorlevel 1 goto generateJson
 
 :generateJson
@@ -34,18 +34,18 @@ echo.
 echo ---------------------------------
 goto loop
 
-:makeSVGZip
+:makeSVGzip
 echo - - - - - - - - - - - - - - - - -
 echo.
-pack.py gen --output SVGs_%version%.zip --version %version%
+pack.py gen --output aegis-icons_SVGs_v%version%.zip --version %version%
 echo.
 echo ---------------------------------
 goto loop
 
 :zipPNGs
 echo - - - - - - - - - - - - - - - - -
-echo.
-7za a -tzip "%cd%\PNGs_%version%.zip" "%cd%\PNG\"
+:: line-break by 7za
+7za a -tzip "%cd%\aegis-icons_PNGs_v%version%.zip" "%cd%\PNG\*"
 echo.
 echo ---------------------------------
 goto loop
