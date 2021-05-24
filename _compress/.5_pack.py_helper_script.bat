@@ -15,7 +15,7 @@ echo.
 choice /c 1234 /n /m "Chosen input: "
 echo.
 
-if errorlevel 4 goto exit
+if errorlevel 4 goto exitScript
 if errorlevel 3 goto zipPNGs
 if errorlevel 2 goto makeSVGZip
 if errorlevel 1 goto generateJson
@@ -55,5 +55,5 @@ echo.
 echo ---------------------------------
 goto loop
 
-:exit
+:exitScript
 exit
