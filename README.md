@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-    <b><a href="/PNG">Browse the icons</a></b> • <b><a href="full_preview.md">See the full preview</a></b> • <b><a href="../../releases/latest">Download icon pack</a></b>
+    <b><a href="/SVG">Browse the icons</a></b> • <b><a href="full_preview.md">See the full preview</a></b> • <b><a href="../../releases/latest">Download icon pack</a></b>
     • <b><a href="FAQ.md">FAQ</a></b> • <b><a href="CONTRIBUTING.md">Contributing</a></b>
 </p>
 
