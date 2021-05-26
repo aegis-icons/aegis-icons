@@ -45,7 +45,7 @@ goto loop
 :zipPNGs
 echo - - - - - - - - - - - - - - - - -
 :: line-break by 7za
-7za a -tzip "%cd%\aegis-icons_PNGs_v%version%.zip" "%cd%\PNG\*"
+7za a -tzip "%cd%\aegis-icons_PNGs_v%version%_legacy.zip" "%cd%\PNG\*"
 echo.
 echo ---------------------------------
 goto loop
