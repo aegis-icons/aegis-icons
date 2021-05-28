@@ -17,6 +17,7 @@ It's recommended to also have some knowledge of design in general.
   - [Alternative icons](#alternative-icons)
   - [Generic icons](#generic-icons)
   - [Save and export](#save-and-export)
+  - [SVG compression](#svg-compression)
   - [Submit to repository](#submit-to-repository)
 - [**Technical**](#technical)
   - [Directories](#directories)
@@ -52,7 +53,7 @@ Scour the logo resources (URL, data URI etc.) to find a vector-based image (SVG,
          - If SVG doesn't seem to work, it probably is missing some markup. Try web tools like [Vecta.io's Nano](https://vecta.io/nano) or [SVGminify.com](https://www.svgminify.com/), these minimize the size and modify SVG to correct markup.
     2. Right-click the website and select *View page source*, then press `Ctrl + F` to open the search tool and type `SVG` to look for possible SVG vector files. Web inspector is also useful and better tool for some (press `F12`).
        - E.g. [You Need A Budget](https://www.youneedabudget.com) reveals the hidden SVG resource in HTML metadata section `https://www-assets.youneedabudget.com/wp-content/themes/dupatta/dist/images/safari-pinned-tab_[random-alphanumerical].svg` which can be copied-and-pasted into the browser to open the image, and then saved normally).
-- If everything has failed so far, then **check [logo resources](#logos) section.**
+- If everything has failed so far, then **check [logo resources](#logos) section.** Remember though, logo has to be latest one company uses.
 - As last resort, you could try **image tracing on Illustrator, Inkscape etc.** Usually results varies from bad to kind of decent. Rule of thumb with tracing is using image that's high resolution, not many colors and doesn't have any artifacts. 
   - [Vector Magic](https://vectormagic.com/) does way better job, but unfortunately they don't offer free services.
   - [Vectorizer.io](https://www.vectorizer.io/) is good alternative and has free option, but with annoying restrictions.
@@ -68,15 +69,14 @@ When making icons, download and use provided [templates](/_templates).
 - Other softwares, use `svg_template.svg` (for primary icons) or `svg_template_generic.svg` (for generic icons).
 
 ### Layout
-- Use logomark <sup><a href="#ftn1" id="ftn-sec1">[1]</a></sup> if brand is using one.
-- If logo **only has text**, use that.
-  - If you think that text is too long and hard to read on smaller size, **use first letter of text.**
+- Always use logomark <sup><a href="#ftn1" id="ftn-sec1">[1]</a></sup> if brand is using one.
+- If logo only has text, use that instead.
+  - **Only if absolutely necessary:** if you think that text is too long, small and hard to read on smaller size, use first letter of text.
 - Stay inside of the guides as much as possible.
 - Square like shaped logos shouldn't step outside of the guides (size wise).
 - For wider logos, furthest left & right side guides are max size limit.
 - Technically center doesn't always look center in your eyes. You can manually visual center the logo, if necessary.
-- Be mindful of white space. It's art form, not science. :)
-- **Optional:** icons should have similar ["optical volumes"](https://blog.nucleoapp.com/nucleo-icon-guidelines-introduction-70092f8b4697) (scroll to "Grid and Optical Volume" section <sup>[[archive.is w/ linked section]](https://archive.is/HiMEB#28.5%)</sup>)
+- **Compare your creation to other icons, try to keep logo size consistent to other icons.**
 
 ### Colors
 - Never use white as background color.
@@ -127,13 +127,23 @@ Just change the logo for alternative version.
 - For other softwares, just save as SVG.
   - Remember to **remove the guide strokes!**
   - **In Inkscape,** save the SVG as "Plain SVG", not "Inkscape SVG".
-  - Don't minify / compress the SVG.
 - **Don't make PNG files!** These are now made by maintainers to keep files & compressions consistent.
 - Read info about naming at [filename](#filename) section.
 - If you're submitting pull request, read also [directories](#directories) section.
 
+### SVG compression
+*If you comfortable with command line tools:*
+- Install [Node.js](https://nodejs.org/en/download/) and [SVGO](https://github.com/svg/svgo#installation)
+- Use this command: `svgo --multipass --pretty --indent 3 -f "input_folder/path_here" -o "output_folder/path_here"`
+  - Or if you're in Windows, we have [batch file](https://github.com/aegis-icons/aegis-icons/blob/master/_compress/.0_svgo_prettify-svg.bat) for this.
+
+*If you don't know how to use command line:*
+- Use [SVGOMG](https://jakearchibald.github.io/svgomg/)
+  - Just tick "[Prettify markup](https://user-images.githubusercontent.com/3540275/119977202-c97d7300-bfc0-11eb-8a67-00ec5b578134.png)" before downloading the compressed SVG.
+  - **Don't make other changes to settings.**
+
 ### Submit to repository
-Submit your icon for review by [opening a new issue](../../issues/new/choose) (select "Icon submission") and attaching your file(s) and source(s). Alternately, you are encouraged to refer to [this GitHub guide](https://guides.github.com/activities/contributing-to-open-source) to fork the Aegis Icons project, add the changed files to your fork, then create a Pull Request with your submissions. This more-complex method is less work for the maintainers, and gives you more impressive contribution stats on your GitHub user homepage. 😉 (If possible, please don't add AI files in the pull requests. Instead, zip it and upload it in the PR comment section or sent AI files to [aegis-icons / ai-files](https://github.com/aegis-icons/ai-files) repo instead.)
+Submit your icon for review by [opening a new issue](../../issues/new/choose) (select "Icon submission") and attaching your file(s) and source(s). Alternately, you are encouraged to refer to [this GitHub guide](https://guides.github.com/activities/contributing-to-open-source) to fork the aegis-icons project, add the changed files to your fork, then create a pull request with your submissions. (Don't add AI files in the pull requests. Instead, zip it and upload it in the PR comment section or sent AI files to [aegis-icons / ai-files](https://github.com/aegis-icons/ai-files) repo instead.)
 
 ## Technical
 - Master source file is vector-based AI or SVG format. Raster images (PNG, JPEG, GIF etc.) are unacceptable, including raster images embedded within the vector file.
@@ -284,5 +294,3 @@ Check at "advanced" menu that text antialiasing is set as ClearType.
 <sup><a href="#ftn-sec1" id="ftn1">[1]</a></sup> Article: [Logo, Logomark, Logotype - What's The Difference And What Do You Need?](https://blog.designcrowd.com/article/997/logo-logomark-logotype-whats-the-difference-and-what-do-you-need) <sup>[[wayback machine]](https://web.archive.org/web/20200606123728/https://blog.designcrowd.com/article/997/logo-logomark-logotype-whats-the-difference-and-what-do-you-need)</sup>
 
 <sup><a href="#ftn-sec2" id="ftn2">[2]</a></sup> This color is taken from [Material Design 2014 color system](https://material.io/design/color/the-color-system.html#tools-for-picking-colors) <sup>[[archive.is w/ linked section]](https://archive.is/96QQG#77%)</sup> (Blue Grey, 500).
-
-<sup><a href="#ftn-sec3" id="ftn3">[3]</a></sup> While *pingo* is still one of the best & fastest PNG compressor currently, we can't recommend it 100% anymore because of author's uncertain behaviour. The author of *pingo* has erased Linux version, <del>feedback forum</del>, changelog and even documentation completely without warning and explanation. Good GUI alternatives for Windows are *[FileOptimizer](https://sourceforge.net/projects/nikkhokkho/files/FileOptimizer/)* and *[PNGGauntlet](https://pnggauntlet.com/)*. For command line usage, check out *[Efficient Compression Tool](https://github.com/fhanau/Efficient-Compression-Tool)* or *[zopflipng](https://github.com/google/zopfli)* ([tutorial](https://ariya.io/2016/06/using-zopfli-to-optimize-png-images) <sup>[[wayback machine]](https://web.archive.org/web/20200619115110/https://ariya.io/2016/06/using-zopfli-to-optimize-png-images)</sup>, [Node.js port](https://github.com/pierreinglebert/node-zopfli), [builded Windows binaries](https://github.com/garyzyg/zopfli-windows/releases)).
