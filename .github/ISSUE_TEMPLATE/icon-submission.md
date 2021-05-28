@@ -26,5 +26,5 @@ Replace space with x inside of the brackets: [ ] -> [x]
 
 Uploaded files:
 
-<!-- ^^^ ADD SVG (AND AI) FILES HERE ABOVE THIS LINE ^^^
+<!-- ^^^ ADD SVG (AND AI) FILES HERE ABOVE THIS LINE, NO PNG FILES! ^^^
 Zip the files (Github doesn't accept SVG or AI files as is there). -->
