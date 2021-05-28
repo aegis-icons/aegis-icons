@@ -17,7 +17,6 @@ It's recommended to also have some knowledge of design in general.
   - [Alternative icons](#alternative-icons)
   - [Generic icons](#generic-icons)
   - [Save and export](#save-and-export)
-  - [PNG compression](#png-compression)
   - [Submit to repository](#submit-to-repository)
 - [**Technical**](#technical)
   - [Directories](#directories)
@@ -46,7 +45,7 @@ Scour the logo resources (URL, data URI etc.) to find a vector-based image (SVG,
   - Easiest way for finding / downloading SVGs from web pages is using [SVG Gobbler](https://www.svggobbler.com/) browser extension (Chrome & Firefox).
     - Alternative: [svg-grabber](https://chrome.google.com/webstore/detail/svg-grabber-get-all-the-s/ndakggdliegnegeclmfgodmgemdokdmg) (Chrome only).
   - **Ways without extension:**
-    1. Try right-clicking logo image and selecting *Save image as...*, and see if the save dialogue appears with SVG, not JPG, PNG or other raster graphic format.
+    1. Try right-clicking logo image and selecting *Save image as...*, and see if the save dialogue appears with SVG (not JPG, PNG, GIF, WebP or [any other raster graphic format](https://en.wikipedia.org/wiki/Image_file_formats#Raster_formats)).
        - If right-clicking the image does not have an option for *Save image as...*, try using *Inspect* at the bottom of the right-click menu. This opens the developer tools which can reveal hidden URLs.
        - E.g. at [Floatplane](https://www.floatplane.com), inspecting the icon in the footer reveals the URL `https://frontend.floatplane.com/2.15.1/assets/images/logos/floatplane/icon-white.svg` which can be copied-and-pasted into the browser to open the image, and then saved normally.
        - Sometimes SVG is embedded as inline. Means that instead of linking to external file, whole SVG file code is added to the HTML (see [SVG code example](https://gist.github.com/krisu5/677a8a3478331498929a11b900741aa2)). In that case, copy the SVG code completely from HTML (website embedded SVG starts with `<svg` & so forth and ends with `</svg>`), open your refer text editor and save copypasted text as `filename.svg`. You can test if the file works by opening in it into web browser.
@@ -129,19 +128,9 @@ Just change the logo for alternative version.
   - Remember to **remove the guide strokes!**
   - **In Inkscape,** save the SVG as "Plain SVG", not "Inkscape SVG".
   - Don't minify / compress the SVG.
-- Then export file as a PNG with original height and width (1024 x 1024 px).
-  - Use **1x scale** for Illustrator CC's "Export for Screens" (shortcut: `Alt + Ctrl + E` on Windows, `⌘ + Option + E` on MacOS).
+- **Don't make PNG files!** These are now made by maintainers to keep files & compressions consistent.
 - Read info about naming at [filename](#filename) section.
 - If you're submitting pull request, read also [directories](#directories) section.
-
-### PNG compression
-Compress the PNG file(s) with either using *[pingo](https://css-ig.net/pingo)* <sup><a href="#ftn3" id="ftn-sec3">[3]</a></sup> (Windows, lossless), *[ImageOptim](https://imageoptim.com/mac)* (MacOS, lossless by default), *[Trimage](https://trimage.org/)* (Linux & MacOS, lossless) or *[TinyPNG](https://tinypng.com/)* (web app, lossy).
-
-When using pingo's Windows GUI software *pinga*, [use these settings](https://user-images.githubusercontent.com/3540275/80963782-52ef5f80-8e18-11ea-8dbe-fc1c58fa81e4.png). For command line, use `pingo -s9 filename.png` or [batch script](/_compress/.1_pingo_compress-png.bat).
-
-If your software of choice has compression settings, set those maximum as well.
-
-**Do not use lossy compressions that has visible differences / artifacts.** When in doubt, use lossless.
 
 ### Submit to repository
 Submit your icon for review by [opening a new issue](../../issues/new/choose) (select "Icon submission") and attaching your file(s) and source(s). Alternately, you are encouraged to refer to [this GitHub guide](https://guides.github.com/activities/contributing-to-open-source) to fork the Aegis Icons project, add the changed files to your fork, then create a Pull Request with your submissions. This more-complex method is less work for the maintainers, and gives you more impressive contribution stats on your GitHub user homepage. 😉 (If possible, please don't add AI files in the pull requests. Instead, zip it and upload it in the PR comment section or sent AI files to [aegis-icons / ai-files](https://github.com/aegis-icons/ai-files) repo instead.)
@@ -173,15 +162,15 @@ Submit your icon for review by [opening a new issue](../../issues/new/choose) (s
   - Icon variations with black foreground or different background color:
     - `[Primary icon name] bg.var.[extension]`
     - `[Primary icon name] fg.var.[extension]`
-    - *Examples:* `Snapchat fg.var.png`, `Squarespace bg.var.png`
+    - *Examples:* `Snapchat fg.var.svg`, `Squarespace bg.var.svg`
   - Icon variations with black foreground **and** different background color: `[Primary icon name] fg.bg.var.[extension]`
-    - *Example:* `Lichess fg.bg.var.png`
+    - *Example:* `Lichess fg.bg.var.svg`
   - Alt. icons with black foreground or different background color:
     - `[Primary icon name] alt bg.var.[extension]`
     - `[Primary icon name] alt fg.var.[extension]`
-    - *Example:* `Discourse alt bg.var.png`
+    - *Example:* `Discourse alt bg.var.svg`
   - Generic icon: name as what the icon symbolizes with big capital letter.
-    - *Example:* `Cloud.png`
+    - *Example:* `Cloud.svg`
     
 #### Version naming and organizing old files
 - New versions of icons are only made when it's major change (new logo or brand color).
