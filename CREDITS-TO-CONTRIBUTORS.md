@@ -2,14 +2,18 @@
 
 These are people who has contributed our project with commits or sending icon submissions via issues.
 
-*Only maintainers can edit this document, editing this document doesn't count as contribution! Names are in alphabetical order based of the username.*
+**Only maintainers can edit this document, editing this document doesn't count as contribution!**
+
+*Names are in alphanumerical order based of the username.*
 
 *If you want name changed or deleted, [please make a new issue](https://github.com/aegis-icons/aegis-icons/issues/new) or comment on your PR / issue.*
 
 ---
 
+- **[alalloush](https://github.com/alalloush)**
+  - For *Xiaomi* icon ([#247](https://github.com/aegis-icons/aegis-icons/pull/247)).
 - **[alexbakker](https://github.com/alexbakker)** (Alexander Bakker)
-  - For *pack.py* script ([#143](https://github.com/aegis-icons/aegis-icons/pull/143)).
+  - For *pack.py* script ([#143](https://github.com/aegis-icons/aegis-icons/pull/143)) and its updates ([#238](https://github.com/aegis-icons/aegis-icons/pull/238)).
 - **[IamRifki](https://github.com/IamRifki)** (Dania Rifki)
   - For *Tokopedia* icon ([#84](https://github.com/aegis-icons/aegis-icons/pull/84)).
 - **[jaden](https://github.com/jaden)** (Dan Hersam)
