@@ -52,7 +52,7 @@ If you want to use a software, [Inkscape](https://inkscape.org/) and [SVG Splash
 
 ### Harder Android way
 
-This tutorial focuses on icon editing in Android and with [Amaze file manager](https://github.com/TeamAmaze/AmazeFileManager/blob/master/README.md). This is slightly more technical method, so it's only recommended for more advanced users. You apply this method on PC too using Notepad or other plain text editor.
+This tutorial focuses on icon editing in Android and with [Amaze file manager](https://github.com/TeamAmaze/AmazeFileManager#readme). This is slightly more technical method, so it's only recommended for more advanced users. You apply this method on PC too using Notepad or other plain text editor.
 
 1. [Get the SVG file(s) for the icon(s) you want to edit](/SVG).
 2. On Chrome (or Chromium-based browsers), long press the "raw" button and select "download link".
