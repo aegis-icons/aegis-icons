@@ -74,10 +74,10 @@ This tutorial focuses on icon editing in Android and with [Amaze file manager](h
    - In this example, *replacable* HEX code is `#1a8cff` and HEX code *we want* is `#e32b3f`.
 10. Press the "save" icon. 🖼 [[Example]](https://user-images.githubusercontent.com/3540275/115147156-56e4b380-a062-11eb-9f2b-aebb6e9fc839.png)
 
-## Why only some of icons have `bg.var`, `fg.var`, `fg.bg.var` or `alt` version?
+## Why only some of the icons have `bg.var`, `fg.var`, `fg.bg.var` or `alt` version?
 
 - `Bg.var` (background variation) icons are made when original icon has dark background color. Dark background blends in on Dark and AMOLED themes. 
-- `Fg.var` (foreground variation) versions has logo color changed to black when background color is brightly colored (eg. Snapchat).
+- `Fg.var` (foreground variation) icons has logo color changed to black when background color is brightly colored (eg. Snapchat).
 - `Fg.bg.var` is combination of both variations. Made when even background variation color is too bright / light. We try to avoid making these as much as possible.
 - `Alt` icons have alternative logo, if app / site has one.
 
