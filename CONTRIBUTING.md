@@ -48,15 +48,16 @@ Scour the logo resources (URL, data URI etc.) to find a vector-based image (SVG,
   - **Ways without extension:**
     1. Try right-clicking logo image and selecting *Save image as...*, and see if the save dialogue appears with SVG (not JPG, PNG, GIF, WebP or [any other raster graphic format](https://en.wikipedia.org/wiki/Image_file_formats#Raster_formats)).
        - If right-clicking the image does not have an option for *Save image as...*, try using *Inspect* at the bottom of the right-click menu. This opens the developer tools which can reveal hidden URLs.
-       - E.g. at [Floatplane](https://www.floatplane.com), inspecting the icon in the footer reveals the URL `https://frontend.floatplane.com/2.15.1/assets/images/logos/floatplane/icon-white.svg` which can be copied-and-pasted into the browser to open the image, and then saved normally.
+          - E.g. at [Codeberg](https://codeberg.org/), inspecting the logo in the left side of the navigation or logo at center reveals the location of SVG. Right-click and "open in new tab" to see the SVG file.
        - Sometimes SVG is embedded as inline. Means that instead of linking to external file, whole SVG file code is added to the HTML (see [SVG code example](https://gist.github.com/krisu5/677a8a3478331498929a11b900741aa2)). In that case, copy the SVG code completely from HTML (website embedded SVG starts with `<svg` & so forth and ends with `</svg>`), open your refer text editor and save copypasted text as `filename.svg`. You can test if the file works by opening in it into web browser.
          - If SVG doesn't seem to work, it probably is missing some markup. Try web tools like [Vecta.io's Nano](https://vecta.io/nano) or [SVGminify.com](https://www.svgminify.com/), these minimize the size and modify SVG to correct markup.
     2. Right-click the website and select *View page source*, then press `Ctrl + F` to open the search tool and type `SVG` to look for possible SVG vector files. Web inspector is also useful and better tool for some (press `F12`).
        - E.g. [You Need A Budget](https://www.youneedabudget.com) reveals the hidden SVG resource in HTML metadata section `https://www-assets.youneedabudget.com/wp-content/themes/dupatta/dist/images/safari-pinned-tab_[random-alphanumerical].svg` which can be copied-and-pasted into the browser to open the image, and then saved normally).
 - If everything has failed so far, then **check [logo resources](#logos) section.** Remember though, logo has to be latest one company uses.
-- As last resort, you could try **image tracing on Illustrator, Inkscape etc.** Usually results varies from bad to kind of decent. Rule of thumb with tracing is using image that's high resolution, not many colors and doesn't have any artifacts. 
-  - [Vector Magic](https://vectormagic.com/) does way better job, but unfortunately they don't offer free services.
-  - [Vectorizer.io](https://www.vectorizer.io/) is good alternative and has free option, but with annoying restrictions.
+- As last resort, you could try **image tracing on Illustrator, Inkscape etc.** Usually results varies from bad to kind of decent. Rule of thumb with tracing is using image that's high resolution, not many colors and doesn't have any artifacts.
+  - [Vectorizer.io](https://anonym.to/?https://www.vectorizer.io) is better alternative and has free option, but also has absurd wait times for free users.
+    - There's loophole though: open dev tools (`F12`), inspect the output image and copy the SVG code from there.
+  - [Vector Magic](https://vectormagic.com/) is the one of best – if not the best – image tracer, but unfortunately they don't offer any free services.
 - **Making vectorized logo from stratch** is also option, if you're skilled and patient enough.
 
 > ⚠ Watch out for SVGs that are using raster graphics ([example](https://github.com/haiwen/seafile-client/blob/7d8f06111960921ce01ef08e169d41bae13959ed/data/icons/scalable/apps/seafile.svg?short_path=d0d75d2#L54)). These are not common, but still exists.
@@ -79,7 +80,7 @@ When making icons, download and use provided [templates](/_templates).
 - **Compare your creation to other icons, try to keep logo size consistent to other icons.**
 
 ### Colors
-- Never use white as background color.
+- Never use white as background color, white is always preserved for logo / fg.
 - Don't pick a random colors, unless there's absolutely no other options.
 - Don't use gradients, use solid colors.
 - Keep everything at 100% opacity, no blending etc.
@@ -95,21 +96,23 @@ When making icons, download and use provided [templates](/_templates).
   
 ### bg.var & fg.var icons
 - `bg.var` icons are for dark / AMOLED themes. These are made when primary icon has dark background that blends in when using the darker theme.
-  - Examples: [primary Steam icon](https://user-images.githubusercontent.com/3540275/85153557-042e4580-b25f-11ea-85ff-7cb883f977d4.png), [Steam bg.var icon](https://user-images.githubusercontent.com/3540275/85153530-fbd60a80-b25e-11ea-9197-d7400eeec74f.png).
+  - Examples: [primary Steam icon](https://user-images.githubusercontent.com/3540275/85153557-042e4580-b25f-11ea-85ff-7cb883f977d4.png), [Steam `bg.var` icon](https://user-images.githubusercontent.com/3540275/85153530-fbd60a80-b25e-11ea-9197-d7400eeec74f.png).
   - Use brighter alternative background.
   - If there's no guidelines for alternative colors, check the website or app to see what other colors there might be.
 
 - `fg.var` icons are made when brand color is bright and hard to see for white foreground.
-  - Examples: [primary Snapchat icon](https://user-images.githubusercontent.com/3540275/83945146-6162d980-a811-11ea-8910-9e93ff65e804.png), [Snapchat fg.var icon](https://user-images.githubusercontent.com/3540275/83945157-6fb0f580-a811-11ea-8fc4-494dcfff53ae.png). 
+  - Examples: [primary Snapchat icon](https://user-images.githubusercontent.com/3540275/83945146-6162d980-a811-11ea-8910-9e93ff65e804.png), [Snapchat `fg.var` icon](https://user-images.githubusercontent.com/3540275/83945157-6fb0f580-a811-11ea-8fc4-494dcfff53ae.png). 
   - Use black (`#000000`) as foreground color.
   
 ### Alternative icons
-"Alternative", in this case, means icons for brands that provide alternative logos of their brands (examples: [primary IVPN icon](https://user-images.githubusercontent.com/3540275/85149274-c549c100-b259-11ea-8477-6164b679c673.png), [alternative IVPN icon](https://user-images.githubusercontent.com/3540275/85149294-ca0e7500-b259-11ea-9655-b867c21ba1b6.png)).
+"Alternative" – in this case – means icons for brands that provide alternative logos of their brands.
+
+> Examples: [primary IVPN icon](https://user-images.githubusercontent.com/3540275/85149274-c549c100-b259-11ea-8477-6164b679c673.png), [IVPN `alt` icon](https://user-images.githubusercontent.com/3540275/85149294-ca0e7500-b259-11ea-9655-b867c21ba1b6.png).
 
 Just change the logo for alternative version.
 
 ### Generic icons
-"Generic", in this case, means icons that doesn't represent any brand and are using symbol-like vectors.
+"Generic" – in this case – means icons that doesn't represent any brand and are using symbol-like vectors.
 
 - Use `ai_template_generic.ait` or `svg_template_generic.svg` template, depending on the software.
 - Don't change the background color of the template (`#607D8B`).
@@ -117,7 +120,7 @@ Just change the logo for alternative version.
 - Use either of these icon library, depending on availability or visual looks:
   - [Unicons](https://iconscout.com/unicons/explore/line) (primary)
   - [Feather](https://feathericons.com/) (secondary)
-    - [Lucide](https://lucide.netlify.app/) (community fork of Feather)
+    - [Lucide](https://lucide.dev/) (community fork of Feather)
   - [Cryptocurrency Icons](http://cryptoicons.co/) ([link to SVG directory](https://github.com/spothq/cryptocurrency-icons/tree/master/svg/black), when neither of the icon libraries has icon for cryptocurrency).
 
 ### Save and export
@@ -158,7 +161,7 @@ Submit your icon for review by [opening a new issue](../../issues/new/choose) (s
 ### Directories
 - Non-variation primary icons are added to root of `PNG/` and `SVG/` folder.
   - AI files are added to root of [aegis-icons / ai-files](https://github.com/aegis-icons/ai-files) repo.
-- Variation icons (`bg.var` or `fg.var`) and alternative (`alt`) are added to `PNG/Variations/` and `SVG/.Variations/` folder.
+- Variation (`bg.var` or `fg.var`) and alternative (`alt`) icons are added to `PNG/Variations/` and `SVG/.Variations/` folder.
   - At [aegis-icons / ai-files](https://github.com/aegis-icons/ai-files) repo, it's `Variations/`.
 - Generic icons are added to `PNG/Generic/` and `SVG/.Generic/` folder.
   - At [aegis-icons / ai-files](https://github.com/aegis-icons/ai-files) repo, it's `Generic/`.
@@ -184,7 +187,7 @@ Submit your icon for review by [opening a new issue](../../issues/new/choose) (s
     
 #### Version naming and organizing old files
 - New versions of icons are only made when it's major change (new logo or brand color).
-- Icon files that are outdated for first time, `v1` is added to end of the filename.
+- Icon files that are outdated for the first time, `v1` is added to end of the filename.
   - Examples: `Yahoo v1.svg`, `Dashlane v1.png`.
 - Newer files also gets version label here from out.
   - Examples: `Yahoo v2.svg`, `Dashlane v2.png`.
