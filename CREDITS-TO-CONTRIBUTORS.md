@@ -27,6 +27,8 @@ These are people who has contributed our project with commits or sending icon su
   - For these icons: *Avast* ([#223](https://github.com/aegis-icons/aegis-icons/issues/223)), *Keenetic* ([#226](https://github.com/aegis-icons/aegis-icons/issues/226)), *RealVNC* ([#224](https://github.com/aegis-icons/aegis-icons/issues/224)), *SAP* ([#225](https://github.com/aegis-icons/aegis-icons/issues/225)).
 - **[Selovert](https://github.com/Selovert)** (Tassilo Selover-Stephan)
   - For these icons: *BlockFi* ([#175](https://github.com/aegis-icons/aegis-icons/issues/175)), *Fundrise* ([#176](https://github.com/aegis-icons/aegis-icons/issues/176)), *Obsidian Entertainment* ([#177](https://github.com/aegis-icons/aegis-icons/issues/177)), *SendCutSend* ([#178](https://github.com/aegis-icons/aegis-icons/issues/178)), *Shareworks* ([#179](https://github.com/aegis-icons/aegis-icons/issues/179)), *TaxSlayer* ([#180](https://github.com/aegis-icons/aegis-icons/issues/180)).
+- **[skozharinov](https://github.com/skozharinov)** (Sergey Kozharinov)
+  - For these icons: *OnlyFans* ([#248](https://github.com/aegis-icons/aegis-icons/issues/248)), *Qwintry* ([#249](https://github.com/aegis-icons/aegis-icons/issues/249)), *Upwork* ([#250](https://github.com/aegis-icons/aegis-icons/issues/250)).
 - **[sreeragag7](https://github.com/sreeragag7)** (Sreerag)
   - For these icons: *OffGamers* ([#141](https://github.com/aegis-icons/aegis-icons/pull/141)), *OneSignal* ([#144](https://github.com/aegis-icons/aegis-icons/pull/144)), *Nvidia* ([#163](https://github.com/aegis-icons/aegis-icons/pull/163)).
 - **[ukanuk](https://github.com/ukanuk)** (Micah Lindstrom)
