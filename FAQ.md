@@ -45,9 +45,8 @@ Even though PC is needed, you don't need to install extra software. Web browser 
 6. Click the "color button". 🖼 [[Example]](https://user-images.githubusercontent.com/3540275/81182244-36892980-8fb6-11ea-8b8c-8702bda5ec09.png)
 7. Select color you want.
 8. Click "Export" button. 🖼 [[Example]](https://user-images.githubusercontent.com/3540275/81184942-a947d400-8fb9-11ea-9a62-194430b7f6e4.png)
-9. Change `svg` to `png`.
-10. Change both `640px` values to `1024px`.
-11. Download and move PNG(s) into your phone with your refer method (USB, email, cloud etc).
+9. Change both `640px` values to `1024px`.
+10. Download and move edited SVG(s) into your phone with your refer method (USB, email, cloud etc).
 
 If you want to use a software, [Inkscape](https://inkscape.org/) and [SVG Splash](https://www.svgsplash.com/) are best free options. But you're on your own there.
 
@@ -74,20 +73,16 @@ This tutorial focuses on icon editing in Android and with [Amaze file manager](h
 9. Replace the HEX color code text with copied hex color. 🖼 [[Example]](https://user-images.githubusercontent.com/3540275/115147154-564c1d00-a062-11eb-8972-2729903a5530.png)
    - In this example, *replacable* HEX code is `#1a8cff` and HEX code *we want* is `#e32b3f`.
 10. Press the "save" icon. 🖼 [[Example]](https://user-images.githubusercontent.com/3540275/115147156-56e4b380-a062-11eb-9f2b-aebb6e9fc839.png)
-11. [Convert SVG to PNG with "CloudConvert" web app](https://cloudconvert.com/svg-to-png).
-	- Or you could download some "SVG converter" app from Play Store.
 
-## Why only some of icons have `bg.var`, `fg.var` or `alt` version?
+## Why only some of icons have `bg.var`, `fg.var`, `fg.bg.var` or `alt` version?
 
-- `Bg.var` versions are made when original icon has dark background color. Dark background blends in on Dark and AMOLED themes. 
-- `Fg.var` versions has logo color changed to black when background color is brightly colored (eg. Snapchat).
+- `Bg.var` (background variation) icons are made when original icon has dark background color. Dark background blends in on Dark and AMOLED themes. 
+- `Fg.var` (foreground variation) versions has logo color changed to black when background color is brightly colored (eg. Snapchat).
+- `Fg.bg.var` is combination of both variations. Made when even background variation color is too bright / light. We try to avoid making these as much as possible.
 - `Alt` icons have alternative logo, if app / site has one.
 
-We try to honor app / webservice's branding as much as possible, so that's why there's variations as well for these situations.
+We try to honor app / website's branding as much as possible, so that's why there's variations as well for these situations.
 
-## These icons aren't integrated in the app?
+## Can you make variation for X icon?
 
-Currently these icons aren't integrated in the app.
-
-Upcoming [icon pack feature](https://github.com/beemdevelopment/Aegis/issues/509) will make adding icons easier to do.
-
+We don't make new icon variations for icons by request.
