@@ -2,17 +2,33 @@
 
 ## How I use these icons?
 
-1. Either download icons [separately](/PNG) or as [icon pack ZIP](../../releases/latest) (click to unhide "Assets" sections and download ZIP that starts with `PNGs_`)
-   - If you downloaded icon pack, use file manager to unzip it (if you don't have one, I recommend [Amaze](https://github.com/TeamAmaze/AmazeFileManager/blob/master/README.md))
-   - If you didn't find a icon for site / app you wanted, [double-check here](full_preview.md) and [make a issue](https://github.com/krisu5/aegis-icons/issues) you didn't find one.
-2. In Aegis, long press 2FA account you want to add the icon and press the "pencil" icon to edit. 🖼 [Example](https://user-images.githubusercontent.com/3540275/80872785-e875dc80-8cbc-11ea-8451-0fff3ed4565f.png)
-3. In "Edit Profile", press the circle that has one letter in it. 🖼 [Example](https://user-images.githubusercontent.com/3540275/80872798-f9bee900-8cbc-11ea-9a7d-c0f94a675044.png)
-4. Select app for finding icons (like file manager or gallery app).
-5. Go to folder where the icons are and select icon image you want.
-6. Press "Save". 🖼 [Example](https://user-images.githubusercontent.com/3540275/80872809-08a59b80-8cbd-11ea-88cf-39c932fc4710.png)
-7. 🖼 [Finished! :)](https://user-images.githubusercontent.com/3540275/80872810-093e3200-8cbd-11ea-9615-9a343ccb7756.png)
+### With icon pack
 
-Repeat steps 2 to 6 for other accounts.
+First, you need to download and enable icon pack:
+
+1. [Download icon pack](https://github.com/aegis-icons/aegis-icons/releases/latest).
+2. In **Aegis**, tap "more menu" (three dots) and select "Settings".
+3. Select "Icon Packs".
+4. Tap "plus" button at bottom right.
+5. Locate the icon pack ZIP file (usually at the "Downloads" folder).
+
+Now you can add icons to your entries:
+
+1. Long-press the entry and then tap "pencil button". 🖼 [[Example]](https://user-images.githubusercontent.com/3540275/120072239-7f1cf480-c09b-11eb-9aef-d7f8fd0f7825.png)
+2. In "Edit entry", tap the circle that has one letter in it. 🖼 [[Example]](https://user-images.githubusercontent.com/3540275/120072428-8f819f00-c09c-11eb-88c5-06fc400a6ba8.png)
+3. Now picker should appear and you can select the icon you want from the aegis-icons pack.
+4. After the selection, tap "Save" button at top-right.
+
+Do steps 1-4 above for other accounts you have.
+
+### Manually
+
+1. Download the icon (eg. from [our SVG directory](https://github.com/aegis-icons/aegis-icons/tree/master/SVG))
+2. In **Aegis**, long-press the entry and then tap "pencil button". 🖼 [[Example]](https://user-images.githubusercontent.com/3540275/120072239-7f1cf480-c09b-11eb-9aef-d7f8fd0f7825.png)
+3. In "Edit entry", tap the circle that has one letter in it. 🖼 [[Example]](https://user-images.githubusercontent.com/3540275/120072428-8f819f00-c09c-11eb-88c5-06fc400a6ba8.png)
+4. If you don't have any icon packs enabled, then select app for locating icon (like file manager or gallery app)
+   - If you *do* have a icon pack enabled, first press button with "Custom" label 🖼 [[Example]](https://user-images.githubusercontent.com/3540275/120072964-f86a1680-c09e-11eb-990e-a12539ac6bee.png) and *then* select the app for locating icon that you downloaded.
+5. After the selection, tap "Save" button at top-right.
 
 ## How can I make icon with different background color?
 
@@ -24,11 +40,11 @@ Even though PC is needed, you don't need to install extra software. Web browser 
    - SVG is [vector file format](https://simple.wikipedia.org/wiki/Vector_graphics) that can  be easily edited, specially with colors. It's also possible to edit it via text (that's the subject on the next tutorial).
 2. Right-click image and save it (or click "Raw" button and then save it).
 3. Go to [Vectr](https://vectr.com/new), web app for vector making / editing.
-4. Select the SVG file. 🖼 [Example](https://user-images.githubusercontent.com/3540275/81182238-34bf6600-8fb6-11ea-958c-05d1bf46ce7f.png)
-5. Click the circle part of the icon that has the background color. 🖼 [Example](https://user-images.githubusercontent.com/3540275/81182240-35f09300-8fb6-11ea-975f-48a84888714e.png)
-6. Click the "color button". 🖼 [Example](https://user-images.githubusercontent.com/3540275/81182244-36892980-8fb6-11ea-8b8c-8702bda5ec09.png)
+4. Select the SVG file. 🖼 [[Example]](https://user-images.githubusercontent.com/3540275/81182238-34bf6600-8fb6-11ea-958c-05d1bf46ce7f.png)
+5. Click the circle part of the icon that has the background color. 🖼 [[Example]](https://user-images.githubusercontent.com/3540275/81182240-35f09300-8fb6-11ea-975f-48a84888714e.png)
+6. Click the "color button". 🖼 [[Example]](https://user-images.githubusercontent.com/3540275/81182244-36892980-8fb6-11ea-8b8c-8702bda5ec09.png)
 7. Select color you want.
-8. Click "Export" button. 🖼 [Example](https://user-images.githubusercontent.com/3540275/81184942-a947d400-8fb9-11ea-9a62-194430b7f6e4.png)
+8. Click "Export" button. 🖼 [[Example]](https://user-images.githubusercontent.com/3540275/81184942-a947d400-8fb9-11ea-9a62-194430b7f6e4.png)
 9. Change `svg` to `png`.
 10. Change both `640px` values to `1024px`.
 11. Download and move PNG(s) into your phone with your refer method (USB, email, cloud etc).
@@ -49,15 +65,15 @@ This tutorial focuses on icon editing in Android and with [Amaze file manager](h
    - Good mobile-friendly web apps: https://color.obscuredetour.com/ & https://color.joelb.dev/
 8. Copy the HEX color value.
    - HEX color starts with hash (#) and has 6 alphanumerical characters.
-9. Find `<circle` part from the code, then look for `fill:#RANDOMHEX`. 🖼 [Example](https://user-images.githubusercontent.com/3540275/115146777-ac1fc580-a060-11eb-9e85-d010ca23da52.png)
+9. Find `<circle` part from the code, then look for `fill:#RANDOMHEX`. 🖼 [[Example]](https://user-images.githubusercontent.com/3540275/115146777-ac1fc580-a060-11eb-9e85-d010ca23da52.png)
    - In this example, `#RANDOMHEX` is `#1a8cff`.
    - Black icons don't have `style` attribute, so you need to add it manually (check the example screenshot above).
    ```
    style="fill:#RANDOMHEX"
    ```
-9. Replace the HEX color code text with copied hex color. 🖼 [Example](https://user-images.githubusercontent.com/3540275/115147154-564c1d00-a062-11eb-8972-2729903a5530.png)
+9. Replace the HEX color code text with copied hex color. 🖼 [[Example]](https://user-images.githubusercontent.com/3540275/115147154-564c1d00-a062-11eb-8972-2729903a5530.png)
    - In this example, *replacable* HEX code is `#1a8cff` and HEX code *we want* is `#e32b3f`.
-10. Press the "save" icon. 🖼 [Example](https://user-images.githubusercontent.com/3540275/115147156-56e4b380-a062-11eb-9f2b-aebb6e9fc839.png)
+10. Press the "save" icon. 🖼 [[Example]](https://user-images.githubusercontent.com/3540275/115147156-56e4b380-a062-11eb-9f2b-aebb6e9fc839.png)
 11. [Convert SVG to PNG with "CloudConvert" web app](https://cloudconvert.com/svg-to-png).
 	- Or you could download some "SVG converter" app from Play Store.
 
