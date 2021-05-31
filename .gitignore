@@ -2,6 +2,7 @@
 *.zip
 *.URL
 _compress/*.png
+_compress/*.svg
 _compress/*.webp
 _compress/(svg_input)/*.*
 _resources/
