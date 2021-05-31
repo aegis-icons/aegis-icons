@@ -20,7 +20,7 @@ These are people who has contributed our project with commits or sending icon su
   - For reducing size of PNG files for the first time ([#12](https://github.com/aegis-icons/aegis-icons/pull/12)).
     - Our first contributor! ✨
 - **[justsomemate](https://github.com/justsomemate)**
-  - For these icons: *Clover* ([#167](https://github.com/aegis-icons/aegis-icons/issues/167)), *Kaseya* ([#168](https://github.com/aegis-icons/aegis-icons/issues/168)), *Unitrends* ([#169](https://github.com/aegis-icons/aegis-icons/issues/169)), *Twilio* ([#170](https://github.com/aegis-icons/aegis-icons/issues/170)), *Palo Alto Networks* ([#171](https://github.com/aegis-icons/aegis-icons/issues/171)).
+  - For these icons: *Clover* ([#167](https://github.com/aegis-icons/aegis-icons/issues/167)), *Kaseya* ([#168](https://github.com/aegis-icons/aegis-icons/issues/168)), *Unitrends* ([#169](https://github.com/aegis-icons/aegis-icons/issues/169)), *Twilio* ([#170](https://github.com/aegis-icons/aegis-icons/issues/170)), *Palo Alto Networks* ([#171](https://github.com/aegis-icons/aegis-icons/issues/171)), *1040.com* ([#255](https://github.com/aegis-icons/aegis-icons/issues/255)).
 - **[krisu5](https://github.com/krisu5)** (Kristian Salonen)
   - Head maintainer of the project.
 - **[maxlysenko](https://github.com/maxlysenko)**
