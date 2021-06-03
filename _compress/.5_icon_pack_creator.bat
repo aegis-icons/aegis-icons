@@ -40,8 +40,6 @@ goto loop
 echo - - - - - - - - - - - - - - - - -
 echo.
 :: 32-bit version of Notepad++ has to be installed
-echo Opening "pack.json" to Notepad++ ...
-start "" /b "%ProgramFiles(x86)%\Notepad++\notepad++.exe" "%cd%\pack.json"
 echo Opening "pack_TEMPLATE.json" ^& "pack.json" files to Notepad++ (new session for compare plugin) ...
 start "" /b "%ProgramFiles(x86)%\Notepad++\notepad++.exe" -multiInst -nosession "%cd%\pack_TEMPLATE.json" "%cd%\pack.json"
 echo.
