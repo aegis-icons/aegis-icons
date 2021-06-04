@@ -25,6 +25,13 @@
             ]
         },
         {
+            "filename": "SVG/.Generic/Education.svg",
+            "category": "3. Generic",
+            "issuer": [
+                "Education"
+            ]
+        },
+        {
             "filename": "SVG/.Generic/Euro.svg",
             "category": "3. Generic",
             "issuer": [
@@ -1593,6 +1600,13 @@
             ]
         },
         {
+            "filename": "SVG/Glimesh.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Glimesh"
+            ]
+        },
+        { 
             "filename": "SVG/Global Entry.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -1625,6 +1639,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Greenview Data"
+            ]
+        },
+        {
+            "filename": "SVG/Groups.io.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Groups.io"
             ]
         },
         {
@@ -2363,6 +2384,13 @@
             ]
         },
         {
+            "filename": "SVG/Populi.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Populi"
+            ]
+        },
+        {
             "filename": "SVG/Porkbun.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2444,6 +2472,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Python Package Index"
+            ]
+        },
+        {
+            "filename": "SVG/Qantas.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Qantas"
             ]
         },
         {
