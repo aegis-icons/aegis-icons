@@ -12,7 +12,6 @@ echo ------- ICON PACK HELPER --------
 echo ---------------------------------
 :loop
 echo.
-echo Choose:
 echo [1] Generate JSON
 echo [2] Edit JSONs on Notepad++
 echo [3] Make the iconpack ZIP (JSON has to generated first)
