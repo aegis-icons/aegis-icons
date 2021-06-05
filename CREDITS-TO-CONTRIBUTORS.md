@@ -14,6 +14,10 @@ These are people who has contributed our project with commits or sending icon su
   - For *Xiaomi* icon ([#247](https://github.com/aegis-icons/aegis-icons/pull/247)).
 - **[alexbakker](https://github.com/alexbakker)** (Alexander Bakker)
   - For *pack.py* script ([#143](https://github.com/aegis-icons/aegis-icons/pull/143)) and its updates ([#238](https://github.com/aegis-icons/aegis-icons/pull/238)).
+- **[devmrcl](https://github.com/devmrcl)** (Marcel Hopf)
+  - For these icons: *IONOS* ([#271](https://github.com/aegis-icons/aegis-icons/issues/271)), *Bitrix24* ([#272](https://github.com/aegis-icons/aegis-icons/issues/272)).
+- **[gr99t](https://github.com/gr99t)**
+  - For *Packagist* icon ([#270](https://github.com/aegis-icons/aegis-icons/issues/270)).
 - **[IamRifki](https://github.com/IamRifki)** (Dania Rifki)
   - For *Tokopedia* icon ([#84](https://github.com/aegis-icons/aegis-icons/pull/84)).
 - **[jaden](https://github.com/jaden)** (Dan Hersam)
