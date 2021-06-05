@@ -991,6 +991,13 @@
             ]
         },
         {
+            "filename": "SVG/Bitrix24.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Bitrix24"
+            ]
+        },
+        {
             "filename": "SVG/Bitstamp.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -1782,6 +1789,13 @@
             ]
         },
         {
+            "filename": "SVG/IONOS.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "IONOS"
+            ]
+        },
+        {
             "filename": "SVG/IVPN.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2297,6 +2311,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "PIEE"
+            ]
+        },
+        {
+            "filename": "SVG/Packagist.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Packagist"
             ]
         },
         {
