@@ -8,7 +8,7 @@ for /f "skip=1 tokens=1-6" %%a in ('wmic path win32_localtime get day^,hour^,min
 )
 echo.
 echo ---------------------------------
-echo ------- ICON PACK CREATOR -------
+echo ------- ICON PACK HELPER --------
 echo ---------------------------------
 :loop
 echo.
