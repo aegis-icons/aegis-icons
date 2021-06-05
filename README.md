@@ -23,10 +23,6 @@
     <i><b>Make a issue</b> if you want to request a new icon (please read our <a href="CONTRIBUTING.md#issue-guidelines">issue guidelines</a> first).</i>
 </p>
 
-<p align="center">
-    📁 <b><a href="https://github.com/aegis-icons/ai-files">Repository for Illustrator files</a></b>
-</p>
-
 ## Credits
 - [Cryptocurrency Icons](http://cryptoicons.co/) ([CC0 1.0 Universal](https://github.com/spothq/cryptocurrency-icons/blob/master/LICENSE.md))
 - [Feather](https://feathericons.com/) by Cole Bemis ([MIT](https://github.com/feathericons/feather/blob/master/LICENSE))
