@@ -169,6 +169,7 @@ Just change the logo for alternative version.
 - If you're using Adobe Illustrator, save the file as AI **and** SVG.
   - Remember to **rename the artboard** (shortcut: `Shift + O`) before saving.
     - Name artboard based of [filenaming system](#filename) (without extension).
+  - If you're using CC version, **export SVG with "Export for Screens"** (`File -> Export -> Export for Screens...`)
 - For other softwares:
   - Remember to **remove the guide strokes!**
   - **In Inkscape,** save the SVG as "Plain SVG", not "Inkscape SVG".
