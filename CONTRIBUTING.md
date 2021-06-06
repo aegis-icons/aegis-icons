@@ -39,7 +39,7 @@ It's recommended to also have some knowledge of design in general.
 ---
 
 ## Icon creation walkthrough
-First of all before doing anything, icon you're making for app / website **must have Aegis supported 2FA support**. We don't accept icons based of services that don't have this requirement.
+First of all before doing anything, icon you're making for app / website **must have Aegis supported 2FA support**, one way or another. We don't accept icons based of services that don't have this requirement.
 
 ### Finding source images
 Scour the logo resources (URL, data URI etc.) to find a vector-based image (SVG, AI, EPS, PDF). Here are things you can check:
