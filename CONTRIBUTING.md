@@ -190,7 +190,7 @@ Just change the logo for alternative version.
 
 📝 *Those who made the vector with Affinity Designer:*
 
-- After the compression, open SVG to plain text editor and from the top, remove everything *from that line* after `xmlns="http://www.w3.org/2000/svg"` **EXCEPT** `>` character ([example](https://github.com/aegis-icons/aegis-icons/blob/master/SVG/1984%20Hosting.svg?short_path=db53e9b#L1)).
+- After the compression, open SVG to plain text editor and from the top, remove everything *from that line* after `xmlns="http://www.w3.org/2000/svg"` **EXCEPT** `>` character ([example](https://github.com/aegis-icons/aegis-icons/blob/a7dd1cdd3c051ef1b7c2e274539185294060df6a/SVG/1984%20Hosting.svg?short_path=db53e9b#L1)).
 
 ### Submit to repository
 Submit your icon for review by [opening a new issue](../../issues/new/choose) (select "Icon submission") and attaching your file(s) and source(s). Alternately, you are encouraged to refer to [this GitHub guide](https://guides.github.com/activities/contributing-to-open-source) to fork the aegis-icons project, add the changed files to your fork, then create a pull request with your submissions. (Don't add AI files in the pull requests. Instead, zip it and upload it in the PR comment section.)
