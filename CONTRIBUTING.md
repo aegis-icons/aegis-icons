@@ -92,7 +92,7 @@ When making icons, download and use provided [templates](/_templates).
 **If you're using Mac:** in shortcuts, `CTRL` instead means `⌘ Cmd`.
 
 1. Ungroup all the groups related to the logo completely.
-   - Select layes in "Layers" window (`F7`) and press `CTRL + Shift + G` multiple times until everything is ungrouped.
+   - Select layers in "Layers" window (`F7`) and press `CTRL + Shift + G` multiple times until everything is ungrouped.
      - After this, check if there's layers called "\<title\>" and delete those. ⚠ **Really important,** because exporting SVG with "\<title\>" layer inside of compound path can make some Illustrator versions to crash and makes SVG not function properly.
 2. Usually, it's simple as selecting all the logo parts (temporary lock "Background" layer if needed) and make compound path (`Object -> Compound Path -> Make` or `CTRL + 8`).
    - If compound pathing doesn't work, open "Pathfinder" window (`CTRL + Shift + F9`) and press "Unite" (top-left icon in the window under "Shape modes" text).
