@@ -1,5 +1,7 @@
 # Contributing
-Thank you for taking the time to contribute! Ask for help, report a bug, or request a feature simply by [opening a new issue](../../issues)! If you would like to contribute icons or code, please fork the project and keep reading! Documentation may look long, but it's mostly simple rules and suggestions.
+Thank you for taking the time to contribute! Ask for help, report a bug or request a feature, read [issue guidelines](#issue-guidelines) first!
+
+If you would like to contribute icons or code, please fork the project and keep reading! (Documentation is long, because we strive for high quality.)
 
 **For contributing, you have to know basics of making and editing vector graphics.**
 
@@ -12,6 +14,7 @@ It's recommended to also have some knowledge of design in general.
   - [Finding source images](#finding-source-images)
   - [Templates](#templates)
   - [Layout](#layout)
+  - [Vectors](#vectors)
   - [Colors](#colors)
   - [bg.var & fg.var icons](#bgvar--fgvar-icons)
   - [Alternative icons](#alternative-icons)
@@ -78,6 +81,45 @@ When making icons, download and use provided [templates](/_templates).
 - For wider logos, furthest left & right side guides are max size limit.
 - Technically center doesn't always look center in your eyes. You can manually visual center the logo, if necessary.
 - **Compare your creation to other icons, try to keep logo size consistent to other icons.**
+  - Don't automatically make vertical logos to max. width unless absolutely needed.
+
+### Vectors
+- Logo must be in **single** path / compound path / object:
+
+<details>
+<summary>In <i>Adobe Illustrator</i></summary>
+
+**If you're using Mac:** in shortcuts, `CTRL` instead means `⌘ Cmd`.
+
+1. Ungroup all the groups related to the logo completely.
+   - Select layes in "Layers" window (`F7`) and press `CTRL + Shift + G` multiple times until everything is ungrouped.
+     - After this, check if there's layers called "\<title\>" and delete those. ⚠ **Really important,** because exporting SVG with "\<title\>" layer inside of compound path can make some Illustrator versions to crash and makes SVG not function properly.
+2. Usually, it's simple as selecting all the logo parts (temporary lock "Background" layer if needed) and make compound path (`Object -> Compound Path -> Make` or `CTRL + 8`).
+   - If compound pathing doesn't work, open "Pathfinder" window (`CTRL + Shift + F9`) and press "Unite" (top-left icon in the window under "Shape modes" text).
+</details>
+
+<details>
+<summary>In <i>Affinity Designer</i></summary>
+
+1. Open "Layers" window, if it's not already open (`View -> Studio -> Layers`).
+2. In canvas, use "Move" tool (`V`) and select logo layers by click & drag across the logo (avoid selecting circle).
+3. Ungroup multiple times until everything in the logo is ungrouped (Windows: `CTRL + Shift + G` or Mac: `⌘ Cmd + Shift + G`).
+4. Unselect everything (click outside of canvas with "Move" tool).
+5. Repeat step 2.
+   - **Before moving to step 6,** read and do "Affinity Designer designers" part at bottom.
+6. Combine logo with `Layer -> Geometry -> Add`.
+</details>
+
+<details>
+<summary>In <i>Inkscape</i></summary>
+
+1. Open "Objects" window (`Object -> Objects`).
+2. Select all the objects related to logo (`Shift + Click` in the "Objects" window).
+3. Ungroup the object multiple times until everything is ungrouped (`Object -> Ungroup` or `CTRL + Shift + G`).
+4. "Union" the objects to together (`Path -> Union`).
+</details>
+
+- 📝 **Affinity Designer designers:** change "fill mode" of the logo vector and its parts from *Winding (Non-Zero)* **into** *Alternative (Even-Odd)* (`Layer -> Fill Mode`). Why? Because it creates CSS rules we don't want for our SVGs and want everything to contain by the path.
 
 ### Colors
 - Never use white as background color, white is always preserved for logo / fg.
@@ -130,6 +172,7 @@ Just change the logo for alternative version.
 - For other softwares, just save as SVG.
   - Remember to **remove the guide strokes!**
   - **In Inkscape,** save the SVG as "Plain SVG", not "Inkscape SVG".
+  - **In Affinity Designer,** export SVG with "SVG (digital - small size)" preset.
 - **Don't make PNG files!** These are now made by maintainers to keep files & compressions consistent.
 - Read info about naming at [filename](#filename) section.
 - If you're submitting pull request, read also [directories](#directories) section.
@@ -144,6 +187,10 @@ Just change the logo for alternative version.
 - Use [SVGOMG](https://jakearchibald.github.io/svgomg/)
   - Just tick "[Prettify markup](https://user-images.githubusercontent.com/3540275/119977202-c97d7300-bfc0-11eb-8a67-00ec5b578134.png)" before downloading the compressed SVG.
   - **Don't make other changes to settings.**
+
+📝 *Those who made the vector with Affinity Designer:*
+
+- After the compression, open SVG to plain text editor and from the top, remove everything *from that line* after `xmlns="http://www.w3.org/2000/svg"` **EXCEPT** `>` character ([example](https://github.com/aegis-icons/aegis-icons/blob/master/SVG/1984%20Hosting.svg?short_path=db53e9b#L1)).
 
 ### Submit to repository
 Submit your icon for review by [opening a new issue](../../issues/new/choose) (select "Icon submission") and attaching your file(s) and source(s). Alternately, you are encouraged to refer to [this GitHub guide](https://guides.github.com/activities/contributing-to-open-source) to fork the aegis-icons project, add the changed files to your fork, then create a pull request with your submissions. (Don't add AI files in the pull requests. Instead, zip it and upload it in the PR comment section.)
@@ -199,6 +246,8 @@ Resources marked with star (⭐) are recommended and most used by the maintainer
 ### Logos
 These are good resources for finding logos in vector format, when no official brand kit / vector logos are available.
 
+**Remember to always check if logo provided by these resources is latest one company uses!**
+
 - [jaywcjlove / logo](https://github.com/jaywcjlove/logo/tree/master/img) (good for finding logos of Chinese apps & sites)
 - [lexrus / fontdiao](https://github.com/lexrus/fontdiao/tree/master/svg) (good for finding logos of Chinese apps & sites)
 - [LogoSear.ch](https://logosear.ch/) ⭐
@@ -210,7 +259,9 @@ These are good resources for finding logos in vector format, when no official br
 
 More resources at [LogoSear.ch's "Alternative Logo Sources"](https://logosear.ch/alternatives/) list.
 
-Google searching also works really well with right keywords (like `[app / site name] svg`).
+*Google searching tips:* 
+- `site:www.officalsiteforappslashsite.com filetype:pdf` (you can rip vectors from PDF, really often logos in these PDFs are vector).
+- `[app / site name] svg`.
 
 ### Lists of sites supporting 2FA
 Need ideas for icons? These list apps / websites that support 2FA (and what kind of format too).
