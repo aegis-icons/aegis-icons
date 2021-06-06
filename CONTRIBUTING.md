@@ -82,7 +82,6 @@ When making icons, download and use provided [templates](/_templates).
 - For wider logos, furthest left & right side guides are max size limit.
 - Technically center doesn't always look center in your eyes. You can manually visual center the logo, if necessary.
 - **Compare your creation to other icons, try to keep logo size consistent to other icons.**
-  - Don't automatically make vertical logos to max. width unless absolutely needed.
 
 ### Vectors
 - Logo must be in **single** path / compound path / object:
