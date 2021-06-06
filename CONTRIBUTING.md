@@ -173,7 +173,7 @@ Just change the logo for alternative version.
   - Remember to **remove the guide strokes!**
   - **In Inkscape,** save the SVG as "Plain SVG", not "Inkscape SVG".
   - **In Affinity Designer,** export SVG with "SVG (digital - small size)" preset.
-  - **In other softwares,** save as "SVG" or "Plain SVG", whichever is the safest bet.
+  - **In software that's non-above,** save as "SVG" or "Plain SVG", whichever is the safest bet.
 - **Don't make PNG files!** These are now made by maintainers to keep files & compressions consistent.
 - Read info about naming at [filename](#filename) section.
 - If you're submitting pull request, read also [directories](#directories) section.
