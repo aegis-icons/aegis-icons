@@ -3,7 +3,7 @@ Thank you for taking the time to contribute! Ask for help, report a bug or reque
 
 If you would like to contribute icons or code, please fork the project and keep reading! (Documentation is long, because we strive for high quality.)
 
-**For contributing, you have to know basics of making and editing vector graphics.**
+**For contributing, you have to know basics of making and editing vectors with vector graphics editor.**
 
 It's recommended to also have some knowledge of design in general.
 
