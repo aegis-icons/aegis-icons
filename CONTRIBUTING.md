@@ -331,7 +331,7 @@ Check at "advanced" menu that text antialiasing is set as ClearType.
 
 ## Issue guidelines
 1. App / site icon related requests has to have Aegis supported 2FA support one way or another, this project does not make icons outside of Aegis usage.
-2. Check that icon you're about to request doesn't [already exist](full_preview.md) or requested in the [issues](https://github.com/krisu5/aegis-icons/issues).
+2. Check that icon you're about to request doesn't [already exist](/SVG) or requested in the [issues](https://github.com/krisu5/aegis-icons/issues).
 3. Read the issue template and fill **at least** required parts.
 4. If you have question or miscellaneous suggestion, check [FAQ](FAQ.md) first.
 5. Aegis-icons can reject any icon request for any reason, but most of the requests gets filled. Usually we do provide explanation and possibly alternative option if we reject the request.
