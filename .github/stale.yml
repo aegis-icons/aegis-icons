@@ -5,7 +5,7 @@ daysUntilClose: 7
 # Issues with these labels will never be considered stale
 exemptLabels:
   - pinned
-  - "On hold"
+  - On hold
   - Maybe
 # Label to use when marking an issue as stale
 staleLabel: Stale
