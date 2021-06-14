@@ -417,6 +417,13 @@
             ]
         },
         {
+            "filename": "SVG/.Variations/Gaijin Entertainment bg.var.svg",
+            "category": "2. Variations & Alts",
+            "issuer": [
+                "Gaijin Entertainment bg.var"
+            ]
+        },
+        {
             "filename": "SVG/.Variations/Github bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
@@ -757,6 +764,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "AWS"
+            ]
+        },
+        {
+            "filename": "SVG/Active24.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Active24"
             ]
         },
         {
@@ -1555,6 +1569,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "GMX"
+            ]
+        },
+        {
+            "filename": "SVG/Gaijin Entertainment.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Gaijin Entertainment"
             ]
         },
         {
@@ -3018,6 +3039,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "WEB.DE"
+            ]
+        },
+        {
+            "filename": "SVG/WEDOS.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "WEDOS"
             ]
         },
         {
