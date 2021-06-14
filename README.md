@@ -1,5 +1,5 @@
 <p align="center">
-    <a href="#readme">
+    <a href="https://aegis-icons.github.io/">
         <img src="https://raw.githubusercontent.com/aegis-icons/design-assets/master/readme-banner.svg" width="350" />
     </a>
 </p>
@@ -9,14 +9,14 @@
 </p>
 
 <p align="center">
-    <a href="full_preview.md">
+    <a href="https://aegis-icons.github.io/">
         <img src="showcase.png" alt="Showcase banner" />
     </a>
 </p>
 
 <p align="center">
-   <b><a href="../../releases/latest">Download icon pack</a></b> • <b><a href="FAQ.md">FAQ</a></b> • <b><a href="/SVG">Browse the icons</a></b> • 
-   <b><a href="full_preview.md">See the full preview</a></b> • <b><a href="CONTRIBUTING.md">Contributing</a></b>
+   <b><a href="https://aegis-icons.github.io/">Browse the icons on our website</a></b> • <b><a href="../../releases/latest">Download icon pack</a></b> • <b><a href="FAQ.md">FAQ</a></b> • 
+   <b><a href="CONTRIBUTING.md">Contributing</a></b>
 </p>
 
 <p align="center">
