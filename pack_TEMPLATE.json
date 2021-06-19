@@ -298,6 +298,13 @@
             ]
         },
         {
+            "filename": "SVG/.Variations/500px bg.var.svg",
+            "category": "2. Variations & Alts",
+            "issuer": [
+                "500px bg.var"
+            ]
+        },
+        {
             "filename": "SVG/.Variations/AWS bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
@@ -757,6 +764,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "1Password"
+            ]
+        },
+        {
+            "filename": "SVG/500px.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "500px"
             ]
         },
         {
@@ -1509,6 +1523,13 @@
             ]
         },
         {
+            "filename": "SVG/Fathom Analytics.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Fathom Analytics"
+            ]
+        },
+        {
             "filename": "SVG/Figma.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -1646,6 +1667,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "GoDaddy"
+            ]
+        },
+        {
+            "filename": "SVG/GoatCounter.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "GoatCounter"
             ]
         },
         {
@@ -2076,6 +2104,13 @@
             ]
         },
         {
+            "filename": "SVG/MediaWiki.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "MediaWiki"
+            ]
+        },
+        {
             "filename": "SVG/MercadoLibre.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2311,6 +2346,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "OpenVPN"
+            ]
+        },
+        {
+            "filename": "SVG/Opera.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Opera"
             ]
         },
         {
@@ -2720,6 +2762,13 @@
             ]
         },
         {
+            "filename": "SVG/Square Enix.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Square Enix"
+            ]
+        },
+        {
             "filename": "SVG/Squarespace.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2857,6 +2906,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Tokopedia"
+            ]
+        },
+        {
+            "filename": "SVG/TorGuard.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "TorGuard"
             ]
         },
         {
@@ -3081,6 +3137,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Wealthsimple"
+            ]
+        },
+        {
+            "filename": "SVG/Webflow.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Webflow"
             ]
         },
         {
