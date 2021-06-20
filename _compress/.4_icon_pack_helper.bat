@@ -16,12 +16,14 @@ echo [1] Generate JSON
 echo [2] Edit JSONs on Notepad++
 echo [3] Make the iconpack ZIP (JSON has to generated first)
 echo [4] Zip the PNG files
-echo [5] Exit
+echo [5] Make the iconpack ZIP with manually added version
+echo [6] Exit
 echo.
-choice /c 12345 /n /m "Choose (1-5): "
+choice /c 123456 /n /m "Choose (1-6): "
 echo.
 
-if errorlevel 5 goto exitScript
+if errorlevel 6 goto exitScript
+if errorlevel 5 goto makeSVGzipDiffVer
 if errorlevel 4 goto zipPNGs
 if errorlevel 3 goto makeSVGzip
 if errorlevel 2 goto editJsons
@@ -57,6 +59,17 @@ goto loop
 echo - - - - - - - - - - - - - - - - -
 :: line-break by 7-Zip CMD (has to be installed)
 7za a -tzip "%cd%\aegis-icons_PNGs_v%version%_legacy.zip" "%cd%\PNG\*"
+echo.
+echo ---------------------------------
+goto loop
+
+:makeSVGzipDiffVer
+echo - - - - - - - - - - - - - - - - -
+echo.
+echo Add version number
+set /p customver="(format: YYYYMMDD): "
+echo.
+pack.py gen --output aegis-icons_SVGs_v%customver%.zip --version %customver%
 echo.
 echo ---------------------------------
 goto loop
