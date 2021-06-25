@@ -283,51 +283,7 @@ Looking for software to start make icons? Here's some of the well known ones.
 ## Maintainer's Guide
 *This is for admins of the repo. If you're regular contributor, you can ignore this section.*
 
-As needed, update `full_preview.md`, `full_preview.png` (and convert that to `full_preview.webp` with using *pingo* command `pingo -s9 -webp-lossless full_preview.png` [[batch script](/_compress/.2_pingo_make-webp.bat)]), `full_preview_generic.png`, `full_preview_variations.png`, and `full_preview_outdated.png`.
-
-Compress PNGs with *pingo* too (`pingo -s9 *.png` or with [batch script](/_compress/.1_pingo_compress-png.bat)).
-
-### Contact sheets (previews)
-We are using [*Snap2IMG*](https://www.rlvision.com/snap2img/about.php) software for generating previews (unfortunately, it's Windows only software. **Cross platform alternative wanted!** Submit your suggestions at issues).
-
-Typeface for filenames is *[Cascadia Code](https://github.com/microsoft/cascadia-code)* (mono version).
-
-#### Snap2IMG config
-Check at "advanced" menu that text antialiasing is set as ClearType.
-
-- **Basic Setup** section ([screenshot](https://user-images.githubusercontent.com/3540275/84652052-a1ae1000-af13-11ea-829a-e810ab36e8a8.png))
-  - Folder: *PNG/, PNG/Generic/, PNG/Outdated/* or *PNG/Variations/*.
-  - Create index images for: *This folder only*.
-  - Width and height: *128*.
-    - Adapt height to row content: **checked**.
-    - Ignore aspect ratio: **not checked**.
-  - Thumbs per row: *6*.
-    - Always pad to full width: **not checked**.
-  - Limit rows: **not checked**.
-
-- **Spacing** section ([screenshot](https://user-images.githubusercontent.com/3540275/84652069-a96db480-af13-11ea-98b0-35f2d30224b8.png))
-  - Spacing Between Thumbnails:
-    - ↔️ (left to right): *12*.
-    - ↕️ (top to bottom): *28*.
-  - Page margins:
-    - Top / Left / Right: *16*.
-    - Bottom: *0*.
-    
-- **Text** section ([screenshot](https://user-images.githubusercontent.com/3540275/84652079-b12d5900-af13-11ea-895e-e6e0acefd49a.png))
-  - Show header: **not checked**.
-  - Show filenames: **checked**.
-    - Text: *\<Filename\>*.
-    - Font: *Cascadia Mono 9* (install `CascadiaMono.ttf` and set size as *9*).
-    - Extend upwards / Solid background / Truncate to one line: **not checked**.
-    - Ignore aspect ratio: **checked**.
-  - Show footer: **not checked**.
-
-- **Styling** section ([screenshot](https://user-images.githubusercontent.com/3540275/84652096-ba1e2a80-af13-11ea-9117-6dad42da53c2.png))
-  - Page Background:
-    - Color: *white* (RGB `255 255 255`).
-    - Texture: *No Texture*.
-  - Thumbnails:
-    - Add a shadow / Grayscale / Draw border around thumbnails: **not checked**.
+[This section needs update]
 
 ## Issue guidelines
 1. App / site icon related requests has to have Aegis supported 2FA support one way or another, this project does not make icons outside of Aegis usage.
