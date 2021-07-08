@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" style="enable-background:new 0 0 1024 1024" xml:space="preserve">
-   <circle cx="512" cy="512" r="512" style="fill:#c12127"/>
-   <path d="M407.3 599.3h69.8v-34.9h69.8V424.7H407.3v174.6zm69.8-139.7H512v69.8h-34.9v-69.8zm97.7-34.9v139.7h69.8V459.6h34.9v104.7h34.9V459.6h34.9v104.7h34.9V424.7H574.8zM239.7 564.4h69.8V459.6h34.9v104.7h34.9V424.7H239.7v139.7z" style="fill:#fff"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+   <circle cx="512" cy="512" r="512" style="fill:#cb3837"/>
+   <path d="M407.26 599.29h69.83v-34.92h69.83V424.71H407.26zm69.83-139.66H512v69.83h-34.91zm97.76-34.91v139.65h69.83V459.63h34.91v104.74h34.91V459.63h34.91v104.74h34.91V424.71zM239.67 564.37h69.83V459.63h34.91v104.74h34.91V424.71H239.67z" style="fill:#fff"/>
 </svg>
