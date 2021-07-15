@@ -1,4 +1,5 @@
 @echo off
+title Icon Pack Helper for aegis-icons
 cd ..
 setlocal EnableDelayedExpansion
 for /f "skip=1 tokens=1-6" %%a in ('wmic path win32_localtime get day^,hour^,minute^,month^,second^,year /format:table') do (
@@ -50,15 +51,18 @@ goto loop
 :makeSVGzip
 echo - - - - - - - - - - - - - - - - -
 echo.
-pack.py gen --output aegis-icons_SVGs_v%version%.zip --version %version%
+pack.py gen --output aegis-icons.zip --version %version%
 echo.
 echo ---------------------------------
 goto loop
 
 :zipPNGs
 echo - - - - - - - - - - - - - - - - -
-:: line-break by 7-Zip CMD (has to be installed)
-7za a -tzip "%cd%\aegis-icons_PNGs_v%version%_legacy.zip" "%cd%\PNG\*"
+:: line-break by 7-Zip CMD
+7za a -tzip "%cd%\aegis-icons_PNGs_legacy.zip" "%cd%\PNG\*"
+:: Files that has to be in the folder that's added to the PATH:
+::   7za.dll, 7za.exe, 7zxa.dll
+:: These files can be downloaded from 7-Zip Extra <https://www.7-zip.org/download.html>
 echo.
 echo ---------------------------------
 goto loop
@@ -69,7 +73,7 @@ echo.
 echo Add version number
 set /p customver="(format: YYYYMMDD): "
 echo.
-pack.py gen --output aegis-icons_SVGs_v%customver%.zip --version %customver%
+pack.py gen --output aegis-icons_v%customver%.zip --version %customver%
 echo.
 echo ---------------------------------
 goto loop
