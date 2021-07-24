@@ -1,12 +1,4 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
-   <style>
-      .st1{fill:#fff}
-   </style>
-   <g id="Icon">
-      <circle cx="512" cy="512" r="512" style="fill:#086dd6"/>
-      <g id="Logo_recreated_by_krisu">
-         <path class="st1" d="M726.6 297.4v429.2H297.4V297.4h429.2m39-39H258.4v507.2h507.2V258.4z"/>
-         <path class="st1" d="M523.8 404.6h-23.7c-43.9 0-79.5 35.6-79.5 79.5v135.5h37.8V484.8c0-25.7 20.8-46.5 46.5-46.5h13.9c25.7 0 46.5 20.8 46.5 46.5v134.6h37.8V484c.2-43.9-35.4-79.4-79.3-79.4z"/>
-      </g>
-   </g>
+   <circle cx="512" cy="512" r="512" style="fill:#086dd6"/>
+   <path data-name="Standard Notes logo (vector remake by krisu)" d="M691 333v358H333V333h358m32.5-32.5h-423v423h423v-423zM521.87 422.38h-19.74a66.27 66.27 0 0 0-66.27 66.27v113h31.56v-112.3a38.81 38.81 0 0 1 38.81-38.81h11.56a38.81 38.81 0 0 1 38.81 38.81v112.27h31.56v-113a66.27 66.27 0 0 0-66.29-66.24z" style="fill:#fff"/>
 </svg>
