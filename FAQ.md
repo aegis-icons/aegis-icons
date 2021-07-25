@@ -19,8 +19,6 @@ Now you can add icons to your entries:
 3. Now picker should appear and you can select the icon you want from the aegis-icons pack.
 4. After the selection, tap "Save" button at top-right.
 
-Do steps 1-4 above for other accounts you have.
-
 ### Manually
 
 1. Download the icon (eg. from [our website](https://aegis-icons.github.io/))
@@ -84,3 +82,7 @@ We try to honor app / website's branding as much as possible, so that's why ther
 ## Can you make variation for X icon?
 
 We don't make new icon variations for icons by request.
+
+## There's rendering issues with X icon.
+
+If you notice such issues with icon, please [report us](https://github.com/aegis-icons/aegis-icons/issues/new) and we fix the icon and/or make PNG counterpart for it.
