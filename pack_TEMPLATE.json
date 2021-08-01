@@ -753,6 +753,13 @@
             ]
         },
         {
+            "filename": "SVG/.Variations/Opalstack bg.var.svg",
+            "category": "2. Variations & Alts",
+            "issuer": [
+                "Opalstack"
+            ]
+        },
+        {
             "filename": "SVG/.Variations/Philips alt.svg",
             "category": "2. Variations & Alts",
             "issuer": [
@@ -1121,6 +1128,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Asustor"
+            ]
+        },
+        {
+            "filename": "SVG/Aternos.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Aternos"
             ]
         },
         {
@@ -2447,6 +2461,13 @@
             ]
         },
         {
+            "filename": "SVG/Name.com.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Name.com"
+            ]
+        },
+        { 
             "filename": "SVG/NameSilo v2.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2626,6 +2647,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "OnlyFans"
+            ]
+        },
+        {
+            "filename": "SVG/Opalstack.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Opalstack"
             ]
         },
         {
