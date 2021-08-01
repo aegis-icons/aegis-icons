@@ -1264,6 +1264,13 @@
             ]
         },
         {
+            "filename": "SVG/Bitpay.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Bitpay"  
+            ]
+        },
+        {
             "filename": "SVG/Bitrix24.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -1849,6 +1856,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Fundrise"
+            ]
+        },
+        {
+            "filename": "SVG/Fusang.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Fusang"
             ]
         },
         {
@@ -2467,7 +2481,7 @@
                 "Name.com"
             ]
         },
-        { 
+        {
             "filename": "SVG/NameSilo v2.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2951,6 +2965,13 @@
             ]
         },
         {
+            "filename": "SVG/Ring.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Ring"
+            ]
+        },
+        {
             "filename": "SVG/Robinhood.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3102,6 +3123,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "SourceForge"
+            ]
+        },
+        {
+            "filename": "SVG/Splashtop.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Splashtop"
             ]
         },
         {
