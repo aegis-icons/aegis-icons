@@ -20,6 +20,8 @@ These are people who has contributed our project with commits or sending icon su
   - For *Packagist* icon ([#270](https://github.com/aegis-icons/aegis-icons/issues/270)).
 - **[IamRifki](https://github.com/IamRifki)** (Dania Rifki)
   - For *Tokopedia* icon ([#84](https://github.com/aegis-icons/aegis-icons/pull/84)).
+- **[ixti](https://github.com/ixti)** (Alexey Zapparov)
+  - For *RubyGems.org* icon ([#298](https://github.com/aegis-icons/aegis-icons/pull/298)).
 - **[jaden](https://github.com/jaden)** (Dan Hersam)
   - For reducing size of PNG files for the first time ([#12](https://github.com/aegis-icons/aegis-icons/pull/12)).
     - Our first contributor! ✨
