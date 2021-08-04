@@ -21,14 +21,14 @@ These are people who has contributed our project with commits or sending icon su
 - **[IamRifki](https://github.com/IamRifki)** (Dania Rifki)
   - For *Tokopedia* icon ([#84](https://github.com/aegis-icons/aegis-icons/pull/84)).
 - **[ixti](https://github.com/ixti)** (Alexey Zapparov)
-  - For *RubyGems.org* icon ([#298](https://github.com/aegis-icons/aegis-icons/pull/298)).
+  - For these icons: *RubyGems.org* ([#298](https://github.com/aegis-icons/aegis-icons/pull/298)), *Carta* ([#307](https://github.com/aegis-icons/aegis-icons/pull/307)).
 - **[jaden](https://github.com/jaden)** (Dan Hersam)
   - For reducing size of PNG files for the first time ([#12](https://github.com/aegis-icons/aegis-icons/pull/12)).
     - Our first contributor! ✨
 - **[joshcancode](https://github.com/joshcancode)**
   - For updating *Toontown Rewritten* icon ([#288](https://github.com/aegis-icons/aegis-icons/pull/288))
 - **[justsomemate](https://github.com/justsomemate)**
-  - For these icons: *Clover* ([#167](https://github.com/aegis-icons/aegis-icons/issues/167)), *Kaseya* ([#168](https://github.com/aegis-icons/aegis-icons/issues/168)), *Unitrends* ([#169](https://github.com/aegis-icons/aegis-icons/issues/169)), *Twilio* ([#170](https://github.com/aegis-icons/aegis-icons/issues/170)), *Palo Alto Networks* ([#171](https://github.com/aegis-icons/aegis-icons/issues/171)), *1040.com* ([#255](https://github.com/aegis-icons/aegis-icons/issues/255)), *Critical Start* ([#259](https://github.com/aegis-icons/aegis-icons/issues/259)).
+  *Clover* ([#167](https://github.com/aegis-icons/aegis-icons/issues/167)), *Kaseya* ([#168](https://github.com/aegis-icons/aegis-icons/issues/168)), *Unitrends* ([#169](https://github.com/aegis-icons/aegis-icons/issues/169)), *Twilio* ([#170](https://github.com/aegis-icons/aegis-icons/issues/170)), *Palo Alto Networks* ([#171](https://github.com/aegis-icons/aegis-icons/issues/171)), *1040.com* ([#255](https://github.com/aegis-icons/aegis-icons/issues/255)), *Critical Start* ([#259](https://github.com/aegis-icons/aegis-icons/issues/259)).
 - **[krisu5](https://github.com/krisu5)** (Kristian Salonen)
   - Head maintainer of the project.
 - **[matteoballabio](https://github.com/matteoballabio)** (Matteo Ballabio)
