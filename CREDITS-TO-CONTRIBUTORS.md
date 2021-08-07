@@ -42,6 +42,6 @@ These are people who has contributed our project with commits or sending icon su
 - **[skozharinov](https://github.com/skozharinov)** (Sergey Kozharinov)
   - For these icons: *OnlyFans* ([#248](https://github.com/aegis-icons/aegis-icons/issues/248)), *Qwintry* ([#249](https://github.com/aegis-icons/aegis-icons/issues/249)), *Upwork* ([#250](https://github.com/aegis-icons/aegis-icons/issues/250)).
 - **[sreeragag7](https://github.com/sreeragag7)** (Sreerag)
-  - For these icons: *OffGamers* ([#141](https://github.com/aegis-icons/aegis-icons/pull/141)), *OneSignal* ([#144](https://github.com/aegis-icons/aegis-icons/pull/144)), *Nvidia* ([#163](https://github.com/aegis-icons/aegis-icons/pull/163)).
+  - For these icons: *OffGamers* ([#141](https://github.com/aegis-icons/aegis-icons/pull/141)), *OneSignal* ([#144](https://github.com/aegis-icons/aegis-icons/pull/144)), *Nvidia* ([#163](https://github.com/aegis-icons/aegis-icons/pull/163)), *Zerodha* ([#310](https://github.com/aegis-icons/aegis-icons/issues/310)).
 - **[ukanuk](https://github.com/ukanuk)** (Micah Lindstrom)
   - For the first draft of *CONTRIBUTING.md* document ([#65](https://github.com/aegis-icons/aegis-icons/pull/65)).
