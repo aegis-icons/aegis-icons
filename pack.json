@@ -5,3808 +5,3815 @@
     "icons": [
         {
             "filename": "SVG/.Generic/Bitcoin.svg",
-            "category": null,
+            "category": "3. Generic",
             "issuer": [
                 "Bitcoin"
             ]
         },
         {
             "filename": "SVG/.Generic/Cloud.svg",
-            "category": null,
+            "category": "3. Generic",
             "issuer": [
                 "Cloud"
             ]
         },
         {
             "filename": "SVG/.Generic/Dollar.svg",
-            "category": null,
+            "category": "3. Generic",
             "issuer": [
                 "Dollar"
             ]
         },
         {
             "filename": "SVG/.Generic/Education.svg",
-            "category": null,
+            "category": "3. Generic",
             "issuer": [
                 "Education"
             ]
         },
         {
             "filename": "SVG/.Generic/Euro.svg",
-            "category": null,
+            "category": "3. Generic",
             "issuer": [
                 "Euro"
             ]
         },
         {
             "filename": "SVG/.Generic/Gallery.svg",
-            "category": null,
+            "category": "3. Generic",
             "issuer": [
                 "Gallery"
             ]
         },
         {
             "filename": "SVG/.Generic/Gaming.svg",
-            "category": null,
+            "category": "3. Generic",
             "issuer": [
                 "Gaming"
             ]
         },
         {
             "filename": "SVG/.Generic/Internet Globe.svg",
-            "category": null,
+            "category": "3. Generic",
             "issuer": [
                 "Internet Globe"
             ]
         },
         {
             "filename": "SVG/.Generic/Key.svg",
-            "category": null,
+            "category": "3. Generic",
             "issuer": [
                 "Key"
             ]
         },
         {
             "filename": "SVG/.Generic/Mail.svg",
-            "category": null,
+            "category": "3. Generic",
             "issuer": [
                 "Mail"
             ]
         },
         {
             "filename": "SVG/.Generic/Monero.svg",
-            "category": null,
+            "category": "3. Generic",
             "issuer": [
                 "Monero"
             ]
         },
         {
             "filename": "SVG/.Generic/Money.svg",
-            "category": null,
+            "category": "3. Generic",
             "issuer": [
                 "Money"
             ]
         },
         {
             "filename": "SVG/.Generic/Music.svg",
-            "category": null,
+            "category": "3. Generic",
             "issuer": [
                 "Music"
             ]
         },
         {
             "filename": "SVG/.Generic/Note.svg",
-            "category": null,
+            "category": "3. Generic",
             "issuer": [
                 "Note"
             ]
         },
         {
             "filename": "SVG/.Generic/Plane.svg",
-            "category": null,
+            "category": "3. Generic",
             "issuer": [
                 "Plane"
             ]
         },
         {
             "filename": "SVG/.Generic/Pound.svg",
-            "category": null,
+            "category": "3. Generic",
             "issuer": [
                 "Pound"
             ]
         },
         {
             "filename": "SVG/.Generic/Privacy.svg",
-            "category": null,
+            "category": "3. Generic",
             "issuer": [
                 "Privacy"
             ]
         },
         {
             "filename": "SVG/.Generic/RSS.svg",
-            "category": null,
+            "category": "3. Generic",
             "issuer": [
                 "RSS"
             ]
         },
         {
             "filename": "SVG/.Generic/Security.svg",
-            "category": null,
+            "category": "3. Generic",
             "issuer": [
                 "Security"
             ]
         },
         {
             "filename": "SVG/.Generic/Server.svg",
-            "category": null,
+            "category": "3. Generic",
             "issuer": [
                 "Server"
             ]
         },
         {
             "filename": "SVG/.Generic/Shopping.svg",
-            "category": null,
+            "category": "3. Generic",
             "issuer": [
                 "Shopping"
             ]
         },
         {
             "filename": "SVG/.Generic/Talk.svg",
-            "category": null,
+            "category": "3. Generic",
             "issuer": [
                 "Talk"
             ]
         },
         {
             "filename": "SVG/.Generic/User.svg",
-            "category": null,
+            "category": "3. Generic",
             "issuer": [
                 "User"
             ]
         },
         {
             "filename": "SVG/.Generic/Video.svg",
-            "category": null,
+            "category": "3. Generic",
             "issuer": [
                 "Video"
             ]
         },
         {
             "filename": "SVG/.Outdated/AppFolio v1.svg",
-            "category": null,
+            "category": "4. Outdated",
             "issuer": [
-                "AppFolio v1"
+                "AppFolio"
             ]
         },
         {
             "filename": "SVG/.Outdated/Azure v1.svg",
-            "category": null,
+            "category": "4. Outdated",
             "issuer": [
-                "Azure v1"
+                "Azure"
             ]
         },
         {
             "filename": "SVG/.Outdated/Bitfinex v1.svg",
-            "category": null,
+            "category": "4. Outdated",
             "issuer": [
-                "Bitfinex v1"
+                "Bitfinex"
             ]
         },
         {
             "filename": "SVG/.Outdated/Bitpanda bg.var v1.svg",
-            "category": null,
+            "category": "4. Outdated",
             "issuer": [
-                "Bitpanda bg.var v1"
+                "Bitpanda"
             ]
         },
         {
             "filename": "SVG/.Outdated/Bitpanda v1.svg",
-            "category": null,
+            "category": "4. Outdated",
             "issuer": [
-                "Bitpanda v1"
+                "Bitpanda"
             ]
         },
         {
             "filename": "SVG/.Outdated/Bitwala.svg",
-            "category": null,
+            "category": "4. Outdated",
             "issuer": [
                 "Bitwala"
             ]
         },
         {
             "filename": "SVG/.Outdated/Bitwarden v1.svg",
-            "category": null,
+            "category": "4. Outdated",
             "issuer": [
-                "Bitwarden v1"
+                "Bitwarden"
             ]
         },
         {
             "filename": "SVG/.Outdated/Celsius v1.svg",
-            "category": null,
+            "category": "4. Outdated",
             "issuer": [
-                "Celsius v1"
+                "Celsius"
             ]
         },
         {
             "filename": "SVG/.Outdated/Codeberg v1.svg",
-            "category": null,
+            "category": "4. Outdated",
             "issuer": [
-                "Codeberg v1"
+                "Codeberg"
             ]
         },
         {
             "filename": "SVG/.Outdated/Coinbase v1.svg",
-            "category": null,
+            "category": "4. Outdated",
             "issuer": [
-                "Coinbase v1"
+                "Coinbase"
             ]
         },
         {
             "filename": "SVG/.Outdated/Contabo v1.svg",
-            "category": null,
+            "category": "4. Outdated",
             "issuer": [
-                "Contabo v1"
+                "Contabo"
             ]
         },
         {
             "filename": "SVG/.Outdated/Dashlane v1.svg",
-            "category": null,
+            "category": "4. Outdated",
             "issuer": [
-                "Dashlane v1"
+                "Dashlane"
             ]
         },
         {
             "filename": "SVG/.Outdated/Discord v1.svg",
-            "category": null,
+            "category": "4. Outdated",
             "issuer": [
-                "Discord v1"
+                "Discord"
             ]
         },
         {
             "filename": "SVG/.Outdated/Disroot v1.svg",
-            "category": null,
+            "category": "4. Outdated",
             "issuer": [
-                "Disroot v1"
+                "Disroot"
             ]
         },
         {
             "filename": "SVG/.Outdated/Drupal v1.svg",
-            "category": null,
+            "category": "4. Outdated",
             "issuer": [
-                "Drupal v1"
+                "Drupal"
             ]
         },
         {
             "filename": "SVG/.Outdated/Enom v1.svg",
-            "category": null,
+            "category": "4. Outdated",
             "issuer": [
-                "Enom v1"
+                "Enom"
             ]
         },
         {
             "filename": "SVG/.Outdated/ExpressVPN v1.svg",
-            "category": null,
+            "category": "4. Outdated",
             "issuer": [
-                "ExpressVPN v1"
+                "ExpressVPN"
             ]
         },
         {
             "filename": "SVG/.Outdated/Facebook v1.svg",
-            "category": null,
+            "category": "4. Outdated",
             "issuer": [
-                "Facebook v1"
+                "Facebook"
             ]
         },
         {
             "filename": "SVG/.Outdated/Firefox v1.svg",
-            "category": null,
+            "category": "4. Outdated",
             "issuer": [
-                "Firefox v1"
+                "Firefox"
             ]
         },
         {
             "filename": "SVG/.Outdated/Gandi v1.svg",
-            "category": null,
+            "category": "4. Outdated",
             "issuer": [
-                "Gandi v1"
+                "Gandi"
             ]
         },
         {
             "filename": "SVG/.Outdated/GoDaddy v1 bg.var.svg",
-            "category": null,
+            "category": "4. Outdated",
             "issuer": [
-                "GoDaddy v1 bg.var"
+                "GoDaddy"
             ]
         },
         {
             "filename": "SVG/.Outdated/GoDaddy v1.svg",
-            "category": null,
+            "category": "4. Outdated",
             "issuer": [
-                "GoDaddy v1"
+                "GoDaddy"
             ]
         },
         {
             "filename": "SVG/.Outdated/H&R Block v1.svg",
-            "category": null,
+            "category": "4. Outdated",
             "issuer": [
-                "H&R Block v1"
+                "H&R Block"
             ]
         },
         {
             "filename": "SVG/.Outdated/Hostwinds v1.svg",
-            "category": null,
+            "category": "4. Outdated",
             "issuer": [
-                "Hostwinds v1"
+                "Hostwinds"
             ]
         },
         {
             "filename": "SVG/.Outdated/IFTTT v1.svg",
-            "category": null,
+            "category": "4. Outdated",
             "issuer": [
-                "IFTTT v1"
+                "IFTTT "
             ]
         },
         {
             "filename": "SVG/.Outdated/Justworks v1.svg",
-            "category": null,
+            "category": "4. Outdated",
             "issuer": [
-                "Justworks v1"
+                "Justworks"
             ]
         },
         {
             "filename": "SVG/.Outdated/MangaDex v1.svg",
-            "category": null,
+            "category": "4. Outdated",
             "issuer": [
-                "MangaDex v1"
+                "MangaDex"
             ]
         },
         {
             "filename": "SVG/.Outdated/Mixer.svg",
-            "category": null,
+            "category": "4. Outdated",
             "issuer": [
                 "Mixer"
             ]
         },
         {
             "filename": "SVG/.Outdated/NameSilo v1.svg",
-            "category": null,
+            "category": "4. Outdated",
             "issuer": [
-                "NameSilo v1"
+                "NameSilo"
             ]
         },
         {
             "filename": "SVG/.Outdated/NextDNS v1.svg",
-            "category": null,
+            "category": "4. Outdated",
             "issuer": [
-                "NextDNS v1"
+                "NextDNS"
             ]
         },
         {
             "filename": "SVG/.Outdated/OVH v1.svg",
-            "category": null,
+            "category": "4. Outdated",
             "issuer": [
-                "OVH v1"
+                "OVH"
             ]
         },
         {
             "filename": "SVG/.Outdated/OwnCube v1.svg",
-            "category": null,
+            "category": "4. Outdated",
             "issuer": [
-                "OwnCube v1"
+                "OwnCube"
             ]
         },
         {
             "filename": "SVG/.Outdated/Patreon v1.svg",
-            "category": null,
+            "category": "4. Outdated",
             "issuer": [
-                "Patreon v1"
+                "Patreon"
             ]
         },
         {
             "filename": "SVG/.Outdated/PayPal v1.svg",
-            "category": null,
+            "category": "4. Outdated",
             "issuer": [
-                "PayPal v1"
+                "PayPal"
             ]
         },
         {
             "filename": "SVG/.Outdated/Pinterest v1.svg",
-            "category": null,
+            "category": "4. Outdated",
             "issuer": [
-                "Pinterest v1"
+                "Pinterest"
             ]
         },
         {
             "filename": "SVG/.Outdated/Privacy v1.svg",
-            "category": null,
+            "category": "4. Outdated",
             "issuer": [
-                "Privacy v1"
+                "Privacy"
             ]
         },
         {
             "filename": "SVG/.Outdated/Private Internet Access v1.svg",
-            "category": null,
+            "category": "4. Outdated",
             "issuer": [
-                "Private Internet Access v1"
+                "Private Internet Access"
             ]
         },
         {
             "filename": "SVG/.Outdated/Stripe v1.svg",
-            "category": null,
+            "category": "4. Outdated",
             "issuer": [
-                "Stripe v1"
+                "Stripe"
             ]
         },
         {
             "filename": "SVG/.Outdated/TradingView v1.svg",
-            "category": null,
+            "category": "4. Outdated",
             "issuer": [
-                "TradingView v1"
+                "TradingView"
             ]
         },
         {
             "filename": "SVG/.Outdated/Trello v1.svg",
-            "category": null,
+            "category": "4. Outdated",
             "issuer": [
-                "Trello v1"
+                "Trello"
             ]
         },
         {
             "filename": "SVG/.Outdated/Twitch v1.svg",
-            "category": null,
+            "category": "4. Outdated",
             "issuer": [
-                "Twitch v1"
+                "Twitch"
             ]
         },
         {
             "filename": "SVG/.Outdated/VK v1.svg",
-            "category": null,
+            "category": "4. Outdated",
             "issuer": [
-                "VK v1"
+                "VK"
             ]
         },
         {
             "filename": "SVG/.Outdated/Windscribe v1.svg",
-            "category": null,
+            "category": "4. Outdated",
             "issuer": [
-                "Windscribe v1"
+                "Windscribe"
             ]
         },
         {
             "filename": "SVG/.Variations/1984 Hosting bg.var.svg",
-            "category": null,
+            "category": "2. Variations & Alts",
             "issuer": [
-                "1984 Hosting bg.var"
+                "1984 Hosting"
             ]
         },
         {
             "filename": "SVG/.Variations/500px bg.var.svg",
-            "category": null,
+            "category": "2. Variations & Alts",
             "issuer": [
-                "500px bg.var"
+                "500px"
             ]
         },
         {
             "filename": "SVG/.Variations/AWS bg.var.svg",
-            "category": null,
+            "category": "2. Variations & Alts",
             "issuer": [
-                "AWS bg.var"
+                "AWS"
             ]
         },
         {
             "filename": "SVG/.Variations/Activision bg.var.svg",
-            "category": null,
+            "category": "2. Variations & Alts",
             "issuer": [
-                "Activision bg.var"
+                "Activision"
             ]
         },
         {
             "filename": "SVG/.Variations/Adafruit bg.var.svg",
-            "category": null,
+            "category": "2. Variations & Alts",
             "issuer": [
-                "Adafruit bg.var"
+                "Adafruit"
             ]
         },
         {
             "filename": "SVG/.Variations/AngelList bg.var.svg",
-            "category": null,
+            "category": "2. Variations & Alts",
             "issuer": [
-                "AngelList bg.var"
+                "AngelList"
             ]
         },
         {
             "filename": "SVG/.Variations/Basecamp fg.var.svg",
-            "category": null,
+            "category": "2. Variations & Alts",
             "issuer": [
-                "Basecamp fg.var"
+                "Basecamp"
             ]
         },
         {
             "filename": "SVG/.Variations/Bethesda bg.var.svg",
-            "category": null,
+            "category": "2. Variations & Alts",
             "issuer": [
-                "Bethesda bg.var"
+                "Bethesda"
             ]
         },
         {
             "filename": "SVG/.Variations/Bitpanda v2 bg.var.svg",
-            "category": null,
+            "category": "2. Variations & Alts",
             "issuer": [
-                "Bitpanda v2 bg.var"
+                "Bitpanda"
             ]
         },
         {
             "filename": "SVG/.Variations/Black Desert Online bg.var.svg",
-            "category": null,
+            "category": "2. Variations & Alts",
             "issuer": [
-                "Black Desert Online bg.var"
+                "Black Desert Online"
             ]
         },
         {
             "filename": "SVG/.Variations/Buffer bg.var.svg",
-            "category": null,
+            "category": "2. Variations & Alts",
             "issuer": [
-                "Buffer bg.var"
+                "Buffer"
             ]
         },
         {
             "filename": "SVG/.Variations/CODING bg.var.svg",
-            "category": null,
+            "category": "2. Variations & Alts",
             "issuer": [
-                "CODING bg.var"
+                "CODING"
             ]
         },
         {
             "filename": "SVG/.Variations/Crowdin bg.var.svg",
-            "category": null,
+            "category": "2. Variations & Alts",
             "issuer": [
-                "Crowdin bg.var"
+                "Crowdin"
             ]
         },
         {
             "filename": "SVG/.Variations/Discogs bg.var.svg",
-            "category": null,
+            "category": "2. Variations & Alts",
             "issuer": [
-                "Discogs bg.var"
+                "Discogs"
             ]
         },
         {
             "filename": "SVG/.Variations/Discogs fg.bg.var.svg",
-            "category": null,
+            "category": "2. Variations & Alts",
             "issuer": [
-                "Discogs fg.bg.var"
+                "Discogs"
             ]
         },
         {
             "filename": "SVG/.Variations/Discourse alt bg.var.svg",
-            "category": null,
+            "category": "2. Variations & Alts",
             "issuer": [
-                "Discourse alt bg.var"
+                "Discourse"
             ]
         },
         {
             "filename": "SVG/.Variations/Discourse alt.svg",
-            "category": null,
+            "category": "2. Variations & Alts",
             "issuer": [
-                "Discourse alt"
+                "Discourse"
             ]
         },
         {
             "filename": "SVG/.Variations/Discourse bg.var.svg",
-            "category": null,
+            "category": "2. Variations & Alts",
             "issuer": [
-                "Discourse bg.var"
+                "Discourse"
             ]
         },
         {
             "filename": "SVG/.Variations/DocuSign bg.var.svg",
-            "category": null,
+            "category": "2. Variations & Alts",
             "issuer": [
-                "DocuSign bg.var"
+                "DocuSign"
             ]
         },
         {
             "filename": "SVG/.Variations/Epic Games bg.var.svg",
-            "category": null,
+            "category": "2. Variations & Alts",
             "issuer": [
-                "Epic Games bg.var"
+                "Epic Games"
             ]
         },
         {
             "filename": "SVG/.Variations/Friendica fg.var.svg",
-            "category": null,
+            "category": "2. Variations & Alts",
             "issuer": [
-                "Friendica fg.var"
+                "Friendica"
             ]
         },
         {
             "filename": "SVG/.Variations/Gaijin Entertainment bg.var.svg",
-            "category": null,
+            "category": "2. Variations & Alts",
             "issuer": [
-                "Gaijin Entertainment bg.var"
+                "Gaijin Entertainment"
             ]
         },
         {
             "filename": "SVG/.Variations/Github bg.var.svg",
-            "category": null,
+            "category": "2. Variations & Alts",
             "issuer": [
-                "Github bg.var"
+                "Github"
             ]
         },
         {
             "filename": "SVG/.Variations/HYGH bg.var.svg",
-            "category": null,
+            "category": "2. Variations & Alts",
             "issuer": [
-                "HYGH bg.var"
+                "HYGH"
             ]
         },
         {
             "filename": "SVG/.Variations/IFTTT v2 bg.var.svg",
-            "category": null,
+            "category": "2. Variations & Alts",
             "issuer": [
-                "IFTTT v2 bg.var"
+                "IFTTT"
             ]
         },
         {
             "filename": "SVG/.Variations/IVPN alt.svg",
-            "category": null,
+            "category": "2. Variations & Alts",
             "issuer": [
-                "IVPN alt"
+                "IVPN"
             ]
         },
         {
             "filename": "SVG/.Variations/JetBrains bg.var.svg",
-            "category": null,
+            "category": "2. Variations & Alts",
             "issuer": [
-                "JetBrains bg.var"
+                "JetBrains"
             ]
         },
         {
             "filename": "SVG/.Variations/Keeper fg.var.svg",
-            "category": null,
+            "category": "2. Variations & Alts",
             "issuer": [
-                "Keeper fg.var"
+                "Keeper"
             ]
         },
         {
             "filename": "SVG/.Variations/Lichess bg.var.svg",
-            "category": null,
+            "category": "2. Variations & Alts",
             "issuer": [
-                "Lichess bg.var"
+                "Lichess"
             ]
         },
         {
             "filename": "SVG/.Variations/Lichess fg.bg.var.svg",
-            "category": null,
+            "category": "2. Variations & Alts",
             "issuer": [
-                "Lichess fg.bg.var"
+                "Lichess"
             ]
         },
         {
             "filename": "SVG/.Variations/Mailchimp fg.var.svg",
-            "category": null,
+            "category": "2. Variations & Alts",
             "issuer": [
-                "Mailchimp fg.var"
+                "Mailchimp"
             ]
         },
         {
             "filename": "SVG/.Variations/Mapbox bg.var.svg",
-            "category": null,
+            "category": "2. Variations & Alts",
             "issuer": [
-                "Mapbox bg.var"
+                "Mapbox"
             ]
         },
         {
             "filename": "SVG/.Variations/Media Temple bg.var.svg",
-            "category": null,
+            "category": "2. Variations & Alts",
             "issuer": [
-                "Media Temple bg.var"
+                "Media Temple"
             ]
         },
         {
             "filename": "SVG/.Variations/MercadoLibre fg.var.svg",
-            "category": null,
+            "category": "2. Variations & Alts",
             "issuer": [
-                "MercadoLibre fg.var"
+                "MercadoLibre"
             ]
         },
         {
             "filename": "SVG/.Variations/Newegg alt.svg",
-            "category": null,
+            "category": "2. Variations & Alts",
             "issuer": [
-                "Newegg alt"
+                "Newegg"
             ]
         },
         {
             "filename": "SVG/.Variations/NotABug.org bg.var.svg",
-            "category": null,
+            "category": "2. Variations & Alts",
             "issuer": [
-                "NotABug.org bg.var"
+                "NotABug.org"
             ]
         },
         {
             "filename": "SVG/.Variations/Nuki bg.var.svg",
-            "category": null,
+            "category": "2. Variations & Alts",
             "issuer": [
-                "Nuki bg.var"
+                "Nuki"
             ]
         },
         {
             "filename": "SVG/.Variations/Nuki fg.bg.var.svg",
-            "category": null,
+            "category": "2. Variations & Alts",
             "issuer": [
-                "Nuki fg.bg.var"
+                "Nuki"
             ]
         },
         {
             "filename": "SVG/.Variations/Nuri bg.var.svg",
-            "category": null,
+            "category": "2. Variations & Alts",
             "issuer": [
-                "Nuri bg.var"
+                "Nuri"
             ]
         },
         {
             "filename": "SVG/.Variations/Obsidian Entertainment bg.var.svg",
-            "category": null,
+            "category": "2. Variations & Alts",
             "issuer": [
-                "Obsidian Entertainment bg.var"
+                "Obsidian Entertainment"
             ]
         },
         {
             "filename": "SVG/.Variations/Opalstack bg.var.svg",
-            "category": null,
+            "category": "2. Variations & Alts",
             "issuer": [
-                "Opalstack bg.var"
+                "Opalstack"
             ]
         },
         {
             "filename": "SVG/.Variations/Philips alt.svg",
-            "category": null,
+            "category": "2. Variations & Alts",
             "issuer": [
-                "Philips alt"
+                "Philips"
             ]
         },
         {
             "filename": "SVG/.Variations/Plex bg.var.svg",
-            "category": null,
+            "category": "2. Variations & Alts",
             "issuer": [
-                "Plex bg.var"
+                "Plex"
             ]
         },
         {
             "filename": "SVG/.Variations/Privacy v2 bg.var.svg",
-            "category": null,
+            "category": "2. Variations & Alts",
             "issuer": [
-                "Privacy v2 bg.var"
+                "Privacy"
             ]
         },
         {
             "filename": "SVG/.Variations/Snapchat fg.var.svg",
-            "category": null,
+            "category": "2. Variations & Alts",
             "issuer": [
-                "Snapchat fg.var"
+                "Snapchat"
             ]
         },
         {
             "filename": "SVG/.Variations/Sophos alt.svg",
-            "category": null,
+            "category": "2. Variations & Alts",
             "issuer": [
-                "Sophos alt"
+                "Sophos"
             ]
         },
         {
             "filename": "SVG/.Variations/Squarespace bg.var.svg",
-            "category": null,
+            "category": "2. Variations & Alts",
             "issuer": [
-                "Squarespace bg.var"
+                "Squarespace"
             ]
         },
         {
             "filename": "SVG/.Variations/Stake bg.var.svg",
-            "category": null,
+            "category": "2. Variations & Alts",
             "issuer": [
-                "Stake bg.var"
+                "Stake"
             ]
         },
         {
             "filename": "SVG/.Variations/Star Citizen bg.var.svg",
-            "category": null,
+            "category": "2. Variations & Alts",
             "issuer": [
-                "Star Citizen bg.var"
+                "Star Citizen"
             ]
         },
         {
             "filename": "SVG/.Variations/Steam bg.var.svg",
-            "category": null,
+            "category": "2. Variations & Alts",
             "issuer": [
-                "Steam bg.var"
+                "Steam"
             ]
         },
         {
             "filename": "SVG/.Variations/Tweakers fg.var.svg",
-            "category": null,
+            "category": "2. Variations & Alts",
             "issuer": [
-                "Tweakers fg.var"
+                "Tweakers"
             ]
         },
         {
             "filename": "SVG/.Variations/Uber bg.var.svg",
-            "category": null,
+            "category": "2. Variations & Alts",
             "issuer": [
-                "Uber bg.var"
+                "Uber"
             ]
         },
         {
             "filename": "SVG/.Variations/Uberspace bg.var.svg",
-            "category": null,
+            "category": "2. Variations & Alts",
             "issuer": [
-                "Uberspace bg.var"
+                "Uberspace"
             ]
         },
         {
             "filename": "SVG/.Variations/Ubisoft bg.var.svg",
-            "category": null,
+            "category": "2. Variations & Alts",
             "issuer": [
-                "Ubisoft bg.var"
+                "Ubisoft"
             ]
         },
         {
             "filename": "SVG/.Variations/Unitrends bg.var.svg",
-            "category": null,
+            "category": "2. Variations & Alts",
             "issuer": [
-                "Unitrends bg.var"
+                "Unitrends"
             ]
         },
         {
             "filename": "SVG/.Variations/Unity bg.var.svg",
-            "category": null,
+            "category": "2. Variations & Alts",
             "issuer": [
-                "Unity bg.var"
+                "Unity"
             ]
         },
         {
             "filename": "SVG/.Variations/V2EX alt bg.var.svg",
-            "category": null,
+            "category": "2. Variations & Alts",
             "issuer": [
-                "V2EX alt bg.var"
+                "V2EX"
             ]
         },
         {
             "filename": "SVG/.Variations/V2EX alt.svg",
-            "category": null,
+            "category": "2. Variations & Alts",
             "issuer": [
-                "V2EX alt"
+                "V2EX"
             ]
         },
         {
             "filename": "SVG/.Variations/V2EX bg.var.svg",
-            "category": null,
+            "category": "2. Variations & Alts",
             "issuer": [
-                "V2EX bg.var"
+                "V2EX"
             ]
         },
         {
             "filename": "SVG/.Variations/VRChat bg.var.svg",
-            "category": null,
+            "category": "2. Variations & Alts",
             "issuer": [
-                "VRChat bg.var"
+                "VRChat"
             ]
         },
         {
             "filename": "SVG/.Variations/WEB.DE fg.var.svg",
-            "category": null,
+            "category": "2. Variations & Alts",
             "issuer": [
-                "WEB.DE fg.var"
+                "WEB.DE"
             ]
         },
         {
             "filename": "SVG/.Variations/Wallabag bg.var.svg",
-            "category": null,
+            "category": "2. Variations & Alts",
             "issuer": [
-                "Wallabag bg.var"
+                "Wallabag"
             ]
         },
         {
             "filename": "SVG/.Variations/Windscribe v2 bg.var.svg",
-            "category": null,
+            "category": "2. Variations & Alts",
             "issuer": [
-                "Windscribe v2 bg.var"
+                "Windscribe"
             ]
         },
         {
             "filename": "SVG/.Variations/Wix bg.var.svg",
-            "category": null,
+            "category": "2. Variations & Alts",
             "issuer": [
-                "Wix bg.var"
+                "Wix"
             ]
         },
         {
             "filename": "SVG/.Variations/Wordpress bg.var.svg",
-            "category": null,
+            "category": "2. Variations & Alts",
             "issuer": [
-                "Wordpress bg.var"
+                "Wordpress"
             ]
         },
         {
             "filename": "SVG/.Variations/You Need A Budget alt.svg",
-            "category": null,
+            "category": "2. Variations & Alts",
             "issuer": [
-                "You Need A Budget alt"
+                "You Need A Budget"
             ]
         },
         {
             "filename": "SVG/.Variations/ZeroTier bg.var.svg",
-            "category": null,
+            "category": "2. Variations & Alts",
             "issuer": [
-                "ZeroTier bg.var"
+                "ZeroTier"
             ]
         },
         {
             "filename": "SVG/.Variations/axe bg.var.svg",
-            "category": null,
+            "category": "2. Variations & Alts",
             "issuer": [
-                "axe bg.var"
+                "axe"
             ]
         },
         {
             "filename": "SVG/.Variations/diaspora bg.var.svg",
-            "category": null,
+            "category": "2. Variations & Alts",
             "issuer": [
-                "diaspora bg.var"
+                "diaspora"
             ]
         },
         {
             "filename": "SVG/.Variations/niconico bg.var.svg",
-            "category": null,
+            "category": "2. Variations & Alts",
             "issuer": [
-                "niconico bg.var"
+                "niconico"
             ]
         },
         {
             "filename": "SVG/.Variations/sourcehut bg.var.svg",
-            "category": null,
+            "category": "2. Variations & Alts",
             "issuer": [
-                "sourcehut bg.var"
+                "sourcehut"
             ]
         },
         {
             "filename": "SVG/1040.com.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "1040.com"
             ]
         },
         {
             "filename": "SVG/1984 Hosting.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "1984 Hosting"
             ]
         },
         {
             "filename": "SVG/1Password.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "1Password"
             ]
         },
         {
             "filename": "SVG/500px.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "500px"
             ]
         },
         {
             "filename": "SVG/AWS.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "AWS"
             ]
         },
         {
             "filename": "SVG/Active24.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Active24"
             ]
         },
         {
             "filename": "SVG/Activision.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Activision"
             ]
         },
         {
             "filename": "SVG/AdGuard.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "AdGuard"
             ]
         },
         {
             "filename": "SVG/Adafruit.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Adafruit"
             ]
         },
         {
             "filename": "SVG/Adobe.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Adobe"
             ]
         },
         {
             "filename": "SVG/AirVPN.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "AirVPN"
             ]
         },
         {
             "filename": "SVG/Algolia.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Algolia"
             ]
         },
         {
             "filename": "SVG/AllMyLinks.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "AllMyLinks"
             ]
         },
         {
             "filename": "SVG/Amazon.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Amazon"
             ]
         },
         {
             "filename": "SVG/AngelList.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "AngelList"
             ]
         },
         {
             "filename": "SVG/AnonAddy.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "AnonAddy"
             ]
         },
         {
             "filename": "SVG/AnyDesk.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "AnyDesk"
             ]
         },
         {
             "filename": "SVG/Apigee.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Apigee"
             ]
         },
         {
             "filename": "SVG/AppVeyor.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "AppVeyor"
             ]
         },
         {
             "filename": "SVG/Appfolio v2.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
-                "Appfolio v2"
+                "Appfolio"
             ]
         },
         {
             "filename": "SVG/Apple.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Apple"
             ]
         },
         {
             "filename": "SVG/ArenaNet.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "ArenaNet"
             ]
         },
         {
             "filename": "SVG/Asustor.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Asustor"
             ]
         },
         {
             "filename": "SVG/Aternos.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Aternos"
             ]
         },
         {
             "filename": "SVG/Atlassian.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Atlassian"
             ]
         },
         {
             "filename": "SVG/Autistici.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Autistici"
             ]
         },
         {
             "filename": "SVG/Autodesk.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Autodesk"
             ]
         },
         {
             "filename": "SVG/Avast.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Avast"
             ]
         },
         {
             "filename": "SVG/Azure v2.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
-                "Azure v2"
+                "Azure"
             ]
         },
         {
             "filename": "SVG/Backblaze.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Backblaze"
             ]
         },
         {
             "filename": "SVG/Basecamp.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Basecamp"
             ]
         },
         {
             "filename": "SVG/Best Buy.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Best Buy"
             ]
         },
         {
             "filename": "SVG/Bethesda.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Bethesda"
             ]
         },
         {
             "filename": "SVG/Betterment.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Betterment"
             ]
         },
         {
             "filename": "SVG/BeyondTrust.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "BeyondTrust"
             ]
         },
         {
             "filename": "SVG/Binance.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Binance"
             ]
         },
         {
             "filename": "SVG/BitGo.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "BitGo"
             ]
         },
         {
             "filename": "SVG/BitMEX.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "BitMEX"
             ]
         },
         {
             "filename": "SVG/Bitbucket.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Bitbucket"
             ]
         },
         {
             "filename": "SVG/Bitdefender.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Bitdefender"
             ]
         },
         {
             "filename": "SVG/Bitfinex v2.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
-                "Bitfinex v2"
+                "Bitfinex"
             ]
         },
         {
             "filename": "SVG/Bitpanda v2.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
-                "Bitpanda v2"
+                "Bitpanda"
             ]
         },
         {
             "filename": "SVG/Bitpay.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
-                "Bitpay"
+                "Bitpay"  
             ]
         },
         {
             "filename": "SVG/Bitrix24.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Bitrix24"
             ]
         },
         {
             "filename": "SVG/Bitstamp.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Bitstamp"
             ]
         },
         {
             "filename": "SVG/Bittrex.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Bittrex"
             ]
         },
         {
             "filename": "SVG/Bitwarden v2.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
-                "Bitwarden v2"
+                "Bitwarden"
             ]
         },
         {
             "filename": "SVG/Black Desert Online.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Black Desert Online"
             ]
         },
         {
             "filename": "SVG/Blizzard.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Blizzard"
             ]
         },
         {
             "filename": "SVG/BlockFi.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "BlockFi"
             ]
         },
         {
             "filename": "SVG/Blockstream Green.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Blockstream Green"
             ]
         },
         {
             "filename": "SVG/Bluehost.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Bluehost"
             ]
         },
         {
             "filename": "SVG/BorgBase.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "BorgBase"
             ]
         },
         {
             "filename": "SVG/Box.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Box"
             ]
         },
         {
             "filename": "SVG/Boxcryptor.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Boxcryptor"
             ]
         },
         {
             "filename": "SVG/Brave.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Brave"
             ]
         },
         {
             "filename": "SVG/Buffer.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Buffer"
             ]
         },
         {
             "filename": "SVG/Bugzilla.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Bugzilla"
             ]
         },
         {
             "filename": "SVG/Bybit.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Bybit"
             ]
         },
         {
             "filename": "SVG/CEX.IO.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "CEX.IO"
             ]
         },
         {
             "filename": "SVG/CODING.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "CODING"
             ]
         },
         {
             "filename": "SVG/CTemplar.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "CTemplar"
             ]
         },
         {
             "filename": "SVG/Carrd.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Carrd"
             ]
         },
         {
             "filename": "SVG/Carta.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Carta"
             ]
         },
         {
             "filename": "SVG/Celsius v2.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
-                "Celsius v2"
+                "Celsius"
             ]
         },
         {
             "filename": "SVG/Changelly.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Changelly"
             ]
         },
         {
             "filename": "SVG/Cisco.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Cisco"
             ]
         },
         {
             "filename": "SVG/ClickUp.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "ClickUp"
             ]
         },
         {
             "filename": "SVG/Cloudflare.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Cloudflare"
             ]
         },
         {
             "filename": "SVG/Clover.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Clover"
             ]
         },
         {
             "filename": "SVG/Clubhouse.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Clubhouse"
             ]
         },
         {
             "filename": "SVG/Cobo.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Cobo"
             ]
         },
         {
             "filename": "SVG/CodeShip.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "CodeShip"
             ]
         },
         {
             "filename": "SVG/Codeberg v2.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
-                "Codeberg v2"
+                "Codeberg"
             ]
         },
         {
             "filename": "SVG/CoinDCX.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "CoinDCX"
             ]
         },
         {
             "filename": "SVG/CoinEx.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "CoinEx"
             ]
         },
         {
             "filename": "SVG/CoinTracking.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "CoinTracking"
             ]
         },
         {
             "filename": "SVG/Coinbase v2.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
-                "Coinbase v2"
+                "Coinbase"
             ]
         },
         {
             "filename": "SVG/Coinigy.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Coinigy"
             ]
         },
         {
             "filename": "SVG/Coinmama.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Coinmama"
             ]
         },
         {
             "filename": "SVG/Contabo v2.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
-                "Contabo v2"
+                "Contabo"
             ]
         },
         {
             "filename": "SVG/Cozy Cloud.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Cozy Cloud"
             ]
         },
         {
             "filename": "SVG/CrashPlan.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "CrashPlan"
             ]
         },
         {
             "filename": "SVG/Credly.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Credly"
             ]
         },
         {
             "filename": "SVG/Critical Start.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Critical Start"
             ]
         },
         {
             "filename": "SVG/Crowdin.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Crowdin"
             ]
         },
         {
             "filename": "SVG/Crypto.com.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Crypto.com"
             ]
         },
         {
             "filename": "SVG/DEGIRO.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "DEGIRO"
             ]
         },
         {
             "filename": "SVG/Dashlane v2.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
-                "Dashlane v2"
+                "Dashlane"
             ]
         },
         {
             "filename": "SVG/Deribit.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Deribit"
             ]
         },
         {
             "filename": "SVG/Deversifi.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Deversifi"
             ]
         },
         {
             "filename": "SVG/DigitalOcean.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "DigitalOcean"
             ]
         },
         {
             "filename": "SVG/Digix.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Digix"
             ]
         },
         {
             "filename": "SVG/DirectAdmin.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "DirectAdmin"
             ]
         },
         {
             "filename": "SVG/Discogs.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Discogs"
             ]
         },
         {
             "filename": "SVG/Discord v2.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
-                "Discord v2"
+                "Discord"
             ]
         },
         {
             "filename": "SVG/Discourse.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Discourse"
             ]
         },
         {
             "filename": "SVG/Disroot v2.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
-                "Disroot v2"
+                "Disroot"
             ]
         },
         {
             "filename": "SVG/Docker.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Docker"
             ]
         },
         {
             "filename": "SVG/DocuSign.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "DocuSign"
             ]
         },
         {
             "filename": "SVG/DreamFactory.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "DreamFactory"
             ]
         },
         {
             "filename": "SVG/Dreamhost.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Dreamhost"
             ]
         },
         {
             "filename": "SVG/Dropbox.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Dropbox"
             ]
         },
         {
             "filename": "SVG/Drupal v2.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
-                "Drupal v2"
+                "Drupal"
             ]
         },
         {
             "filename": "SVG/DueDEX.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "DueDEX"
             ]
         },
         {
             "filename": "SVG/Electronic Arts.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Electronic Arts"
             ]
         },
         {
             "filename": "SVG/Enom v2.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
-                "Enom v2"
+                "Enom"
             ]
         },
         {
             "filename": "SVG/Epic Games.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Epic Games"
             ]
         },
         {
             "filename": "SVG/Etsy.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Etsy"
             ]
         },
         {
             "filename": "SVG/Evernote.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Evernote"
             ]
         },
         {
             "filename": "SVG/Exact.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Exact"
             ]
         },
         {
             "filename": "SVG/ExpressVPN v2.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
-                "ExpressVPN v2"
+                "ExpressVPN"
             ]
         },
         {
             "filename": "SVG/FRITZ!.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "FRITZ!"
             ]
         },
         {
             "filename": "SVG/FTX.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "FTX"
             ]
         },
         {
             "filename": "SVG/Facebook v2.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
-                "Facebook v2"
+                "Facebook"
             ]
         },
         {
             "filename": "SVG/Fanatical.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Fanatical"
             ]
         },
         {
             "filename": "SVG/Fastly.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Fastly"
             ]
         },
         {
             "filename": "SVG/Fastmail.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Fastmail"
             ]
         },
         {
             "filename": "SVG/Fathom Analytics.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Fathom Analytics"
             ]
         },
         {
             "filename": "SVG/Figma.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Figma"
             ]
         },
         {
             "filename": "SVG/Firefly III.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Firefly III"
             ]
         },
         {
             "filename": "SVG/Firefox v2.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
-                "Firefox v2"
+                "Firefox"
             ]
         },
         {
             "filename": "SVG/Floatplane.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Floatplane"
             ]
         },
         {
             "filename": "SVG/Forum Italia.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Forum Italia"
             ]
         },
         {
             "filename": "SVG/Forward Email.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Forward Email"
             ]
         },
         {
             "filename": "SVG/FreeTaxUSA.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "FreeTaxUSA"
             ]
         },
         {
             "filename": "SVG/Friendica.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Friendica"
             ]
         },
         {
             "filename": "SVG/Fundrise.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Fundrise"
             ]
         },
         {
             "filename": "SVG/Fusang.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Fusang"
             ]
         },
         {
             "filename": "SVG/G2A.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "G2A"
             ]
         },
         {
             "filename": "SVG/GMX.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "GMX"
             ]
         },
         {
             "filename": "SVG/Gaijin Entertainment.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Gaijin Entertainment"
             ]
         },
         {
             "filename": "SVG/Gandi v2.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
-                "Gandi v2"
+                "Gandi"
             ]
         },
         {
             "filename": "SVG/Gatsby.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Gatsby"
             ]
         },
         {
             "filename": "SVG/Gemini.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Gemini"
             ]
         },
         {
             "filename": "SVG/Gitea.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Gitea"
             ]
         },
         {
             "filename": "SVG/Github.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Github"
             ]
         },
         {
             "filename": "SVG/Gitlab.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Gitlab"
             ]
         },
         {
             "filename": "SVG/Glassdoor.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Glassdoor"
             ]
         },
         {
             "filename": "SVG/Glimesh.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Glimesh"
             ]
         },
-        {
+        { 
             "filename": "SVG/Global Entry.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Global Entry"
             ]
         },
         {
             "filename": "SVG/GoDaddy v2.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
-                "GoDaddy v2"
+                "GoDaddy"
             ]
         },
         {
             "filename": "SVG/GoatCounter.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "GoatCounter"
             ]
         },
         {
             "filename": "SVG/Google.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Google"
             ]
         },
         {
             "filename": "SVG/Grammarly.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Grammarly"
             ]
         },
         {
             "filename": "SVG/Greenview Data.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Greenview Data"
             ]
         },
         {
             "filename": "SVG/Groups.io.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Groups.io"
             ]
         },
         {
             "filename": "SVG/Guilded.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Guilded"
             ]
         },
         {
             "filename": "SVG/H&R Block v2.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
-                "H&R Block v2"
+                "H&R Block"
             ]
         },
         {
             "filename": "SVG/HEY.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "HEY"
             ]
         },
         {
             "filename": "SVG/HM Revenue & Customs.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "HM Revenue & Customs"
             ]
         },
         {
             "filename": "SVG/HYGH.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "HYGH"
             ]
         },
         {
             "filename": "SVG/Hack The Box.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Hack The Box"
             ]
         },
         {
             "filename": "SVG/HackNotice.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "HackNotice"
             ]
         },
         {
             "filename": "SVG/Heroku.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Heroku"
             ]
         },
         {
             "filename": "SVG/Hetzner.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Hetzner"
             ]
         },
         {
             "filename": "SVG/HitBTC.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "HitBTC"
             ]
         },
         {
             "filename": "SVG/Home Assistant.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Home Assistant"
             ]
         },
         {
             "filename": "SVG/Hostwinds v2.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
-                "Hostwinds v2"
+                "Hostwinds"
             ]
         },
         {
             "filename": "SVG/Hover.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Hover"
             ]
         },
         {
             "filename": "SVG/Hubspot.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Hubspot"
             ]
         },
         {
             "filename": "SVG/Humble Bundle.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Humble Bundle"
             ]
         },
         {
             "filename": "SVG/Huobi.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Huobi"
             ]
         },
         {
             "filename": "SVG/Hurricane Electric.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Hurricane Electric"
             ]
         },
         {
             "filename": "SVG/IBM.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "IBM"
             ]
         },
         {
             "filename": "SVG/IFTTT v2.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
-                "IFTTT v2"
+                "IFTTT"
             ]
         },
         {
             "filename": "SVG/INWX.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "INWX"
             ]
         },
         {
             "filename": "SVG/IONOS.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "IONOS"
             ]
         },
         {
             "filename": "SVG/IVPN.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "IVPN"
             ]
         },
         {
             "filename": "SVG/Icedrive.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Icedrive"
             ]
         },
         {
             "filename": "SVG/Infomaniak.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Infomaniak"
             ]
         },
         {
             "filename": "SVG/Instagram.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Instagram"
             ]
         },
         {
             "filename": "SVG/Intuit.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Intuit"
             ]
         },
         {
             "filename": "SVG/Invision Community.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Invision Community"
             ]
         },
         {
             "filename": "SVG/Jagex.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Jagex"
             ]
         },
         {
             "filename": "SVG/JetBrains.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "JetBrains"
             ]
         },
         {
             "filename": "SVG/Joker.com.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Joker.com"
             ]
         },
         {
             "filename": "SVG/Joomla.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Joomla"
             ]
         },
         {
             "filename": "SVG/Justworks v2.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
-                "Justworks v2"
+                "Justworks"
             ]
         },
         {
             "filename": "SVG/Kaseya.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Kaseya"
             ]
         },
         {
             "filename": "SVG/Keenetic.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Keenetic"
             ]
         },
         {
             "filename": "SVG/Keeper.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Keeper"
             ]
         },
         {
             "filename": "SVG/Keycloak.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Keycloak"
             ]
         },
         {
             "filename": "SVG/Kickstarter.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Kickstarter"
             ]
         },
         {
             "filename": "SVG/Koofr.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Koofr"
             ]
         },
         {
             "filename": "SVG/Kraken.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Kraken"
             ]
         },
         {
             "filename": "SVG/Kriptomat.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Kriptomat"
             ]
         },
         {
             "filename": "SVG/Kryptono.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Kryptono"
             ]
         },
         {
             "filename": "SVG/KuCoin.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "KuCoin"
             ]
         },
         {
             "filename": "SVG/LastPass.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "LastPass"
             ]
         },
         {
             "filename": "SVG/Lichess.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Lichess"
             ]
         },
         {
             "filename": "SVG/Linkedin.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Linkedin"
             ]
         },
         {
             "filename": "SVG/Linode.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Linode"
             ]
         },
         {
             "filename": "SVG/Linus Tech Tips.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Linus Tech Tips"
             ]
         },
         {
             "filename": "SVG/Localbitcoins.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Localbitcoins"
             ]
         },
         {
             "filename": "SVG/LogMeIn.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "LogMeIn"
             ]
         },
         {
             "filename": "SVG/Luno.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Luno"
             ]
         },
         {
             "filename": "SVG/MEGA.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "MEGA"
             ]
         },
         {
             "filename": "SVG/Magento.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Magento"
             ]
         },
         {
             "filename": "SVG/Mailchimp.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Mailchimp"
             ]
         },
         {
             "filename": "SVG/Mailcow.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Mailcow"
             ]
         },
         {
             "filename": "SVG/Mailfence.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Mailfence"
             ]
         },
         {
             "filename": "SVG/Mailo.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Mailo"
             ]
         },
         {
             "filename": "SVG/MangaDex v2.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
-                "MangaDex v2"
+                "MangaDex"
             ]
         },
         {
             "filename": "SVG/Mapbox.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Mapbox"
             ]
         },
         {
             "filename": "SVG/Mastodon.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Mastodon"
             ]
         },
         {
             "filename": "SVG/Matomo.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Matomo"
             ]
         },
         {
             "filename": "SVG/Media Temple.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Media Temple"
             ]
         },
         {
             "filename": "SVG/MediaWiki.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "MediaWiki"
             ]
         },
         {
             "filename": "SVG/MercadoLibre.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "MercadoLibre"
             ]
         },
         {
             "filename": "SVG/Microsoft.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Microsoft"
             ]
         },
         {
             "filename": "SVG/MongoDB.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "MongoDB"
             ]
         },
         {
             "filename": "SVG/MyAnimeList.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "MyAnimeList"
             ]
         },
         {
             "filename": "SVG/MyHeritage.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "MyHeritage"
             ]
         },
         {
             "filename": "SVG/NPM.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "NPM"
             ]
         },
         {
             "filename": "SVG/NVIDIA.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "NVIDIA"
             ]
         },
         {
             "filename": "SVG/Name.com.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Name.com"
             ]
         },
         {
             "filename": "SVG/NameSilo v2.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
-                "NameSilo v2"
+                "NameSilo"
             ]
         },
         {
             "filename": "SVG/Namebase.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Namebase"
             ]
         },
         {
             "filename": "SVG/Namecheap.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Namecheap"
             ]
         },
         {
             "filename": "SVG/Neowin.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Neowin"
             ]
         },
         {
             "filename": "SVG/Netlify.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Netlify"
             ]
         },
         {
             "filename": "SVG/Newegg.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Newegg"
             ]
         },
         {
             "filename": "SVG/Nexo.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Nexo"
             ]
         },
         {
             "filename": "SVG/NextDNS v2.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
-                "NextDNS v2"
+                "NextDNS"
             ]
         },
         {
             "filename": "SVG/Nextcloud.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Nextcloud"
             ]
         },
         {
             "filename": "SVG/Nexus Mods.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Nexus Mods"
             ]
         },
         {
             "filename": "SVG/NiceHash.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "NiceHash"
             ]
         },
         {
             "filename": "SVG/Nintendo.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Nintendo"
             ]
         },
         {
             "filename": "SVG/Nitrogen Sports.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Nitrogen Sports"
             ]
         },
         {
             "filename": "SVG/Njalla.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Njalla"
             ]
         },
         {
             "filename": "SVG/NordVPN.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "NordVPN"
             ]
         },
         {
             "filename": "SVG/NotABug.org.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "NotABug.org"
             ]
         },
         {
             "filename": "SVG/Nuki.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Nuki"
             ]
         },
         {
             "filename": "SVG/Nuri.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Nuri"
             ]
         },
         {
             "filename": "SVG/Nutstore.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Nutstore"
             ]
         },
         {
             "filename": "SVG/ORCID.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "ORCID"
             ]
         },
         {
             "filename": "SVG/OVH v2.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
-                "OVH v2"
+                "OVH"
             ]
         },
         {
             "filename": "SVG/Obsidian Entertainment.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Obsidian Entertainment"
             ]
         },
         {
             "filename": "SVG/OffGamers.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "OffGamers"
             ]
         },
         {
             "filename": "SVG/OneProvider.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "OneProvider"
             ]
         },
         {
             "filename": "SVG/OneSignal.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "OneSignal"
             ]
         },
         {
             "filename": "SVG/OnlyFans.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "OnlyFans"
             ]
         },
         {
             "filename": "SVG/Opalstack.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Opalstack"
             ]
         },
         {
             "filename": "SVG/Open Collective.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Open Collective"
             ]
         },
         {
             "filename": "SVG/OpenSRS.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "OpenSRS"
             ]
         },
         {
             "filename": "SVG/OpenVPN.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "OpenVPN"
             ]
         },
         {
             "filename": "SVG/Opera.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Opera"
             ]
         },
         {
             "filename": "SVG/Origin.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Origin"
             ]
         },
         {
             "filename": "SVG/OwnCube v2.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
-                "OwnCube v2"
+                "OwnCube"
             ]
         },
         {
             "filename": "SVG/PIEE.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "PIEE"
             ]
         },
         {
             "filename": "SVG/Packagist.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Packagist"
             ]
         },
         {
             "filename": "SVG/Palo Alto Networks.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Palo Alto Networks"
             ]
         },
         {
             "filename": "SVG/Parsec.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Parsec"
             ]
         },
         {
             "filename": "SVG/Patreon v2.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
-                "Patreon v2"
+                "Patreon"
             ]
         },
         {
             "filename": "SVG/PayPal v2.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
-                "PayPal v2"
+                "PayPal"
             ]
         },
         {
             "filename": "SVG/Phabricator.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Phabricator"
             ]
         },
         {
             "filename": "SVG/Phemex.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Phemex"
             ]
         },
         {
             "filename": "SVG/Philips.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Philips"
             ]
         },
         {
             "filename": "SVG/Pinterest v2.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
-                "Pinterest v2"
+                "Pinterest"
             ]
         },
         {
             "filename": "SVG/Pixelfed.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Pixelfed"
             ]
         },
         {
             "filename": "SVG/PlayStation.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "PlayStation"
             ]
         },
         {
             "filename": "SVG/Plex.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Plex"
             ]
         },
         {
             "filename": "SVG/Pluralsight.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Pluralsight"
             ]
         },
         {
             "filename": "SVG/Poloniex.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Poloniex"
             ]
         },
         {
             "filename": "SVG/Populi.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Populi"
             ]
         },
         {
             "filename": "SVG/Porkbun.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Porkbun"
             ]
         },
         {
             "filename": "SVG/Posteo.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Posteo"
             ]
         },
         {
             "filename": "SVG/Prey.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Prey"
             ]
         },
         {
             "filename": "SVG/PrimeXBT.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "PrimeXBT"
             ]
         },
         {
             "filename": "SVG/Privacy v2.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
-                "Privacy v2"
+                "Privacy"
             ]
         },
         {
             "filename": "SVG/Private Internet Access v2.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
-                "Private Internet Access v2"
+                "Private Internet Access"
             ]
         },
         {
             "filename": "SVG/Probit.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Probit"
             ]
         },
         {
             "filename": "SVG/ProtonVPN.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "ProtonVPN"
             ]
         },
         {
             "filename": "SVG/Protonmail.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Protonmail"
             ]
         },
         {
             "filename": "SVG/Proxmox.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Proxmox"
             ]
         },
         {
             "filename": "SVG/Pushover.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Pushover"
             ]
         },
         {
             "filename": "SVG/Python Package Index.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Python Package Index"
             ]
         },
         {
             "filename": "SVG/Qantas.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Qantas"
             ]
         },
         {
             "filename": "SVG/Qloud.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Qloud"
             ]
         },
         {
             "filename": "SVG/Qwintry.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Qwintry"
             ]
         },
         {
             "filename": "SVG/Rackspace.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Rackspace"
             ]
         },
         {
             "filename": "SVG/Razer.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Razer"
             ]
         },
         {
             "filename": "SVG/RealVNC.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "RealVNC"
             ]
         },
         {
             "filename": "SVG/Reddit.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Reddit"
             ]
         },
         {
             "filename": "SVG/Report URI.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Report URI"
             ]
         },
         {
             "filename": "SVG/Ring.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Ring"
             ]
         },
         {
             "filename": "SVG/Robinhood.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Robinhood"
             ]
         },
         {
             "filename": "SVG/RoboForm.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "RoboForm"
             ]
         },
         {
             "filename": "SVG/Rockstar Games.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Rockstar Games"
             ]
         },
         {
             "filename": "SVG/Roundcube.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Roundcube"
             ]
         },
         {
             "filename": "SVG/RubyGems.org.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "RubyGems.org"
             ]
         },
         {
             "filename": "SVG/SAP.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "SAP"
             ]
         },
         {
             "filename": "SVG/SOGo.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "SOGo"
             ]
         },
         {
             "filename": "SVG/STRATO.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "STRATO"
             ]
         },
         {
             "filename": "SVG/Samsung.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Samsung"
             ]
         },
         {
             "filename": "SVG/Satang.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Satang"
             ]
         },
         {
             "filename": "SVG/Scaleway.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Scaleway"
             ]
         },
         {
             "filename": "SVG/Seafile.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Seafile"
             ]
         },
         {
             "filename": "SVG/Segment.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Segment"
             ]
         },
         {
             "filename": "SVG/SendCutSend.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "SendCutSend"
             ]
         },
         {
             "filename": "SVG/SendGrid.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "SendGrid"
             ]
         },
         {
             "filename": "SVG/Shareworks.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Shareworks"
             ]
         },
         {
             "filename": "SVG/Shopify.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Shopify"
             ]
         },
         {
             "filename": "SVG/Short.io.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Short.io"
             ]
         },
         {
             "filename": "SVG/SimpleLogin.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "SimpleLogin"
             ]
         },
         {
             "filename": "SVG/Slack.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Slack"
             ]
         },
         {
             "filename": "SVG/Snapchat.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Snapchat"
             ]
         },
         {
             "filename": "SVG/Sophos.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Sophos"
             ]
         },
         {
             "filename": "SVG/SourceForge.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "SourceForge"
             ]
         },
         {
             "filename": "SVG/Splashtop.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Splashtop"
             ]
         },
         {
             "filename": "SVG/Square Enix.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Square Enix"
             ]
         },
         {
             "filename": "SVG/Squarespace.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Squarespace"
             ]
         },
         {
             "filename": "SVG/Stake.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Stake"
             ]
         },
         {
             "filename": "SVG/Standard Notes.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Standard Notes"
             ]
         },
         {
             "filename": "SVG/Star Citizen.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Star Citizen"
             ]
         },
         {
             "filename": "SVG/Star Wars The Old Republic.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
-                "Star Wars The Old Republic"
+                "Star Wars: The Old Republic"
             ]
         },
         {
             "filename": "SVG/StartMail.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "StartMail"
             ]
         },
         {
             "filename": "SVG/Steam.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Steam"
             ]
         },
         {
             "filename": "SVG/Stripe v2.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
-                "Stripe v2"
+                "Stripe"
             ]
         },
         {
             "filename": "SVG/SumoLogic.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "SumoLogic"
             ]
         },
         {
             "filename": "SVG/Surfshark.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Surfshark"
             ]
         },
         {
             "filename": "SVG/Sync.com.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Sync.com"
             ]
         },
         {
             "filename": "SVG/Synology.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Synology"
             ]
         },
         {
             "filename": "SVG/T-Mobile.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "T-Mobile"
             ]
         },
         {
             "filename": "SVG/TaxAct.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "TaxAct"
             ]
         },
         {
             "filename": "SVG/TaxSlayer.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "TaxSlayer"
             ]
         },
         {
             "filename": "SVG/TeamViewer.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "TeamViewer"
             ]
         },
         {
             "filename": "SVG/Teespring.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Teespring"
             ]
         },
-        {
+        { 
             "filename": "SVG/Tenable.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Tenable"
             ]
         },
         {
-            "filename": "SVG/Tesla.svg",
+            "filename": "SVG/Termius.svg",
             "category": null,
+            "issuer": [
+                "Termius"
+            ]
+        },
+        {
+            "filename": "SVG/Tesla.svg",
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Tesla"
             ]
         },
         {
             "filename": "SVG/Thycotic.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Thycotic"
             ]
         },
         {
             "filename": "SVG/Ting.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Ting"
             ]
         },
         {
             "filename": "SVG/Tokopedia.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Tokopedia"
             ]
         },
         {
             "filename": "SVG/Toontown Rewritten.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Toontown Rewritten"
             ]
         },
         {
             "filename": "SVG/TorGuard.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "TorGuard"
             ]
         },
         {
             "filename": "SVG/Trading 212.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Trading 212"
             ]
         },
         {
             "filename": "SVG/TradingView v2.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
-                "TradingView v2"
+                "TradingView"
             ]
         },
         {
             "filename": "SVG/TransIP.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "TransIP"
             ]
         },
         {
             "filename": "SVG/Trello v2.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
-                "Trello v2"
+                "Trello"
             ]
         },
         {
             "filename": "SVG/Tresorit.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Tresorit"
             ]
         },
         {
             "filename": "SVG/TrueNAS.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "TrueNAS"
             ]
         },
         {
             "filename": "SVG/Tumblr.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Tumblr"
             ]
         },
         {
             "filename": "SVG/Tutanota.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Tutanota"
             ]
         },
         {
             "filename": "SVG/Tweakers.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Tweakers"
             ]
         },
         {
             "filename": "SVG/Twilio.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Twilio"
             ]
         },
         {
             "filename": "SVG/Twitch v2.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
-                "Twitch v2"
+                "Twitch"
             ]
         },
         {
             "filename": "SVG/Twitter.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Twitter"
             ]
         },
         {
             "filename": "SVG/Uber.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Uber"
             ]
         },
         {
             "filename": "SVG/Uberspace.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Uberspace"
             ]
         },
         {
             "filename": "SVG/Ubiquiti.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Ubiquiti"
             ]
         },
         {
             "filename": "SVG/Ubisoft.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Ubisoft"
             ]
         },
         {
             "filename": "SVG/Unitrends.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Unitrends"
             ]
         },
         {
             "filename": "SVG/Unity.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Unity"
             ]
         },
         {
             "filename": "SVG/UpCloud.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "UpCloud"
             ]
         },
         {
             "filename": "SVG/UptimeRobot.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "UptimeRobot"
             ]
         },
         {
             "filename": "SVG/Upwork.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Upwork"
             ]
         },
         {
             "filename": "SVG/V2EX.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "V2EX"
             ]
         },
         {
             "filename": "SVG/VK v2.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
-                "VK v2"
+                "VK"
             ]
         },
         {
             "filename": "SVG/VRChat.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "VRChat"
             ]
         },
         {
             "filename": "SVG/Versio.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Versio"
             ]
         },
         {
             "filename": "SVG/VirusTotal.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "VirusTotal"
             ]
         },
         {
             "filename": "SVG/Vultr.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Vultr"
             ]
         },
         {
             "filename": "SVG/WEB.DE.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "WEB.DE"
             ]
         },
         {
             "filename": "SVG/WEDOS.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "WEDOS"
             ]
         },
         {
             "filename": "SVG/WP Engine.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "WP Engine"
             ]
         },
         {
             "filename": "SVG/Wallabag.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Wallabag"
             ]
         },
         {
             "filename": "SVG/Wargaming.net.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Wargaming.net"
             ]
         },
         {
             "filename": "SVG/WazirX.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "WazirX"
             ]
         },
         {
             "filename": "SVG/Wealthfront.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Wealthfront"
             ]
         },
         {
             "filename": "SVG/Wealthsimple.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Wealthsimple"
             ]
         },
         {
             "filename": "SVG/Webflow.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Webflow"
             ]
         },
         {
             "filename": "SVG/Webmin.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Webmin"
             ]
         },
         {
             "filename": "SVG/Wikipedia.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Wikipedia"
             ]
         },
         {
             "filename": "SVG/Windscribe v2.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
-                "Windscribe v2"
+                "Windscribe"
             ]
         },
         {
             "filename": "SVG/Wix.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Wix"
             ]
         },
         {
             "filename": "SVG/Wordpress.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Wordpress"
             ]
         },
         {
             "filename": "SVG/Wyze.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Wyze"
             ]
         },
         {
             "filename": "SVG/XDA-Developers.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "XDA-Developers"
             ]
         },
         {
             "filename": "SVG/XenForo.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "XenForo"
             ]
         },
         {
             "filename": "SVG/Xero.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Xero"
             ]
         },
         {
             "filename": "SVG/Xiaomi.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Xiaomi"
             ]
         },
         {
             "filename": "SVG/Xing.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Xing"
             ]
         },
         {
             "filename": "SVG/YoBit.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "YoBit"
             ]
         },
         {
             "filename": "SVG/YoYo Games.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "YoYo Games"
             ]
         },
         {
             "filename": "SVG/You Need A Budget.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "You Need A Budget"
             ]
         },
         {
             "filename": "SVG/Zapier.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Zapier"
             ]
         },
         {
             "filename": "SVG/Zendesk.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Zendesk"
             ]
         },
         {
             "filename": "SVG/Zenkit.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Zenkit"
             ]
         },
         {
             "filename": "SVG/ZeroTier.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "ZeroTier"
             ]
         },
         {
             "filename": "SVG/Zerodha.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Zerodha"
             ]
         },
         {
             "filename": "SVG/Zoho.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Zoho"
             ]
         },
         {
             "filename": "SVG/Zoom.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Zoom"
             ]
         },
         {
             "filename": "SVG/axe.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "axe"
             ]
         },
         {
             "filename": "SVG/diaspora.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "diaspora"
             ]
         },
         {
             "filename": "SVG/dismail.de.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "dismail.de"
             ]
         },
         {
             "filename": "SVG/itch.io.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "itch.io"
             ]
         },
         {
             "filename": "SVG/login.gov.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "login.gov"
             ]
         },
         {
             "filename": "SVG/mail.de.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "mail.de"
             ]
         },
         {
             "filename": "SVG/mailbox.org.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "mailbox.org"
             ]
         },
         {
             "filename": "SVG/minerstat.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "minerstat"
             ]
         },
         {
             "filename": "SVG/netcup.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "netcup"
             ]
         },
         {
             "filename": "SVG/niconico.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "niconico"
             ]
         },
         {
             "filename": "SVG/pCloud.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "pCloud"
             ]
         },
         {
             "filename": "SVG/sourcehut.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "sourcehut"
             ]
         },
         {
             "filename": "SVG/viagogo.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "viagogo"
             ]
