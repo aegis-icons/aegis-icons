@@ -15,18 +15,20 @@ echo ---------------------------------
 echo.
 echo [1] Generate JSON
 echo [2] Edit JSONs on Notepad++
-echo [3] Make the iconpack ZIP (JSON has to generated first)
-echo [4] Zip the PNG files
-echo [5] Make the iconpack ZIP with manually added version
-echo [6] Exit
+echo [3] Dry run-ish (generate ^& delete icon pack ZIP)
+echo [4] Make the icon pack ZIP (JSON has to generated first)
+echo [5] Make pack ZIP with manually added version
+echo [6] Zip the PNG files
+echo [7] Exit
 echo.
-choice /c 123456 /n /m "Choose (1-6): "
+choice /c 1234567 /n /m "Choose (1-6): "
 echo.
 
-if errorlevel 6 goto exitScript
+if errorlevel 7 goto exitScript
+if errorlevel 6 goto zipPNGs
 if errorlevel 5 goto makeSVGzipDiffVer
-if errorlevel 4 goto zipPNGs
-if errorlevel 3 goto makeSVGzip
+if errorlevel 4 goto makeSVGzip
+if errorlevel 3 goto dryRunish
 if errorlevel 2 goto editJsons
 if errorlevel 1 goto generateJson
 
@@ -44,6 +46,15 @@ echo.
 :: 32-bit version of Notepad++ has to be installed
 echo Opening "pack_TEMPLATE.json" ^& "pack.json" files to Notepad++ (new session for compare plugin) ...
 start "" /b "%ProgramFiles(x86)%\Notepad++\notepad++.exe" -multiInst -nosession "%cd%\pack_TEMPLATE.json" "%cd%\pack.json"
+echo.
+echo ---------------------------------
+goto loop
+
+:dryRunish
+echo - - - - - - - - - - - - - - - - -
+echo.
+pack.py gen --output aegis-icons.zip --version %version%
+del aegis-icons.zip
 echo.
 echo ---------------------------------
 goto loop
