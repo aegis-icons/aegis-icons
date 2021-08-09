@@ -1733,6 +1733,13 @@
             ]
         },
         {
+            "filename": "SVG/EuroDNS.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "EuroDNS"
+            ]
+        },
+        {
             "filename": "SVG/Evernote.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2881,17 +2888,17 @@
             ]
         },
         {
+            "filename": "SVG/ProtonMail.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "ProtonMail"
+            ]
+        },
+        {
             "filename": "SVG/ProtonVPN.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "ProtonVPN"
-            ]
-        },
-        {
-            "filename": "SVG/Protonmail.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "Protonmail"
             ]
         },
         {
