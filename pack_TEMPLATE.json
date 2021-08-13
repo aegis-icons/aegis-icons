@@ -1593,6 +1593,13 @@
             ]
         },
         {
+            "filename": "SVG/DeleteMe.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "DeleteMe"
+            ]
+        },
+        {
             "filename": "SVG/Deribit.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2769,6 +2776,13 @@
             ]
         },
         {
+            "filename": "SVG/Paycor.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Paycor"
+            ]
+        },
+        { 
             "filename": "SVG/Phabricator.svg",
             "category": "1. Apps & Sites",
             "issuer": [
