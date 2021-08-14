@@ -20,7 +20,7 @@ echo.
 echo [1] Generate JSON
 echo [2] Edit JSONs on Notepad++
 echo [3] Dry run-ish (generate ^& move icon pack ZIP to trash bin)
-echo [4] Make the icon pack ZIP (JSON has to generated first)
+echo [4] Make the icon pack ZIP
 echo [5] Make pack ZIP with manually added version
 echo [6] Zip the PNG files
 echo [7] Exit
