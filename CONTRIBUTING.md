@@ -48,7 +48,7 @@ Scour the logo resources (URL, data URI etc.) to find a vector-based image (SVG,
   - Look for pages like: *Brand, Press, Media, Logos, Assets, Marketing, About* etc.
 - **Embedded logo(s) on company website**
   - Easiest way for finding / downloading SVGs from web pages is using [SVG Gobbler](https://www.svggobbler.com/) browser extension (Chrome & Firefox).
-    - Alternatives: [SVG Export](https://svgexport.io/) (Chrome & Firefox), [svg-grabber](https://chrome.google.com/webstore/detail/svg-grabber-get-all-the-s/ndakggdliegnegeclmfgodmgemdokdmg) (Chrome only).
+    - Alternatives: [SVG Export](https://svgexport.io/) (Chrome & Firefox), [Brandfetch](https://brandfetch.com/) (web app), [svg-grabber](https://chrome.google.com/webstore/detail/svg-grabber-get-all-the-s/ndakggdliegnegeclmfgodmgemdokdmg) (Chrome only).
   - **Ways without extension:**
     1. Try right-clicking logo image and selecting *Save image as...*, and see if the save dialogue appears with SVG (not JPG, PNG, GIF, WebP or [any other raster graphic format](https://en.wikipedia.org/wiki/Image_file_formats#Raster_formats)).
        - If right-clicking the image does not have an option for *Save image as...*, try using *Inspect* at the bottom of the right-click menu. This opens the developer tools which can reveal hidden URLs.
@@ -243,13 +243,14 @@ Submit your icon for review by [opening a new issue](../../issues/new/choose) (s
 - Icons which are based of now dead service, should be moved to "Outdated" directory just as it is.
 
 ## Resources
-Resources marked with star (⭐) are recommended and most used by the maintainers.
+Resources marked with star (⭐) are recommended / most used by the maintainers.
 
 ### Logos
 These are good resources for finding logos in vector format, when no official brand kit / vector logos are available.
 
 **Remember to always check if logo provided by these resources is latest one company uses!**
 
+- [Brandfetch](https://brandfetch.com/) ⭐ (search engine for company branding resources)
 - [jaywcjlove / logo](https://github.com/jaywcjlove/logo/tree/master/img) (good for finding logos of Chinese apps & sites)
 - [lexrus / fontdiao](https://github.com/lexrus/fontdiao/tree/master/svg) (good for finding logos of Chinese apps & sites)
 - [LogoSear.ch](https://logosear.ch/) ⭐
