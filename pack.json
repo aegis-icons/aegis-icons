@@ -753,6 +753,13 @@
             ]
         },
         {
+            "filename": "SVG/.Variations/Oculus bg.var.svg",
+            "category": "2. Variations & Alts",
+            "issuer": [
+                "Oculus"
+            ]
+        },
+        {
             "filename": "SVG/.Variations/Opalstack bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
@@ -2664,6 +2671,13 @@
             ]
         },
         {
+            "filename": "SVG/Oculus.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Oculus"
+            ]
+        },
+        { 
             "filename": "SVG/OffGamers.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3518,6 +3532,13 @@
             ]
         },
         {
+            "filename": "SVG/VMWare.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "VMWare"
+            ]
+        },
+        {
             "filename": "SVG/VRChat.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3585,6 +3606,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "WazirX"
+            ]
+        },
+        {
+            "filename": "SVG/WeVPN.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "WeVPN"
             ]
         },
         {
