@@ -1411,6 +1411,13 @@
             ]
         },
         {
+            "filename": "SVG/CalorieTracker.io.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "CalorieTracker.io"
+            ]
+        },
+        {
             "filename": "SVG/Carrd.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2475,6 +2482,13 @@
             ]
         },
         {
+            "filename": "SVG/Minehub.de.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Minehub.de"
+            ]
+        },
+        { 
             "filename": "SVG/MongoDB.svg",
             "category": "1. Apps & Sites",
             "issuer": [
