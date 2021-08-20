@@ -1054,6 +1054,13 @@
             ]
         },
         {
+            "filename": "SVG/Airtable.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Airtable"
+            ]
+        },
+        {
             "filename": "SVG/Algolia.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -1184,6 +1191,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Backblaze"
+            ]
+        },
+        {
+            "filename": "SVG/Balena.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Balena"
             ]
         },
         {
