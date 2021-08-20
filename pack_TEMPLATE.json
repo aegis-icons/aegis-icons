@@ -1194,13 +1194,6 @@
             ]
         },
         {
-            "filename": "SVG/balena.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "balena"
-            ]
-        },
-        {
             "filename": "SVG/Basecamp.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3816,6 +3809,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "axe"
+            ]
+        },
+        {
+            "filename": "SVG/balena.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "balena"
             ]
         },
         {
