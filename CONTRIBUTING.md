@@ -26,13 +26,12 @@ It's recommended to also have some knowledge of design in general.
   - [Directories](#directories)
   - [Filename](#filename)
     - [Version naming and organizing old files](#version-naming-and-organizing-old-files)
+  - [About PNGs](#about-pngs)
 - [**Resources**](#resources)
   - [Logos](#logos)
   - [Lists of sites supporting 2FA](#lists-of-sites-supporting-2fa)
   - [Software](#software)
 - [**Maintainer's guide**](#maintainers-guide)
-  - [Contact sheets (previews)](#contact-sheets-previews)
-    - [Snap2IMG config](#snap2img-config)
 - [**Issue guidelines**](#issue-guidelines)
 - [**Footnotes**](#footnotes)
 
@@ -175,8 +174,8 @@ Just change the logo for alternative version.
   - Remember to **remove the guide strokes!**
   - **In Inkscape,** save the SVG as "Plain SVG", not "Inkscape SVG".
   - **In Affinity Designer,** export SVG with "SVG (digital - small size)" preset.
-  - **In software that's non-above,** save as "SVG" or "Plain SVG", whichever is the safest bet.
-- **Don't make PNG files!** These are now made by maintainers to keep files & compressions consistent.
+  - **In software that's non-above,** save as "SVG" or "Plain SVG", whichever is the safest option.
+- **Don't make PNG files!** PNG files are legacy content ([with some exceptions](#about-pngs)).
 - Read info about naming at [filename](#filename) section.
 - If you're submitting pull request, read also [directories](#directories) section.
 
@@ -209,9 +208,9 @@ Submit your icon for review by [opening a new issue](../../issues/new/choose) (s
   - Company logo maximum height is 50% (512px) and maximum width is 75% (768px).
 
 ### Directories
-- Non-variation primary icons are added to root of `PNG/` and `SVG/` folder.
-- Variation (`bg.var` or `fg.var`) and alternative (`alt`) icons are added to `PNG/Variations/` and `SVG/.Variations/` folder.
-- Generic icons are added to `PNG/Generic/` and `SVG/.Generic/` folder.
+- Non-variation primary icons are added to root of `SVG/` folder.
+- Variation (`bg.var` or `fg.var`) and alternative (`alt`) icons are added to `SVG/.Variations/` folder.
+- Generic icons are added to `SVG/.Generic/` folder.
 - For outdated icons, see [version naming and organizing old files](#version-naming-and-organizing-old-files) section.
 
 ### Filename
@@ -235,13 +234,18 @@ Submit your icon for review by [opening a new issue](../../issues/new/choose) (s
 #### Version naming and organizing old files
 - New versions of icons are only made when it's major change (new logo or brand color).
 - Icon files that are outdated for the first time, `v1` is added to end of the filename.
-  - Examples: `Yahoo v1.svg`, `Dashlane v1.png`.
+  - Examples: `Codeberg v1.svg`.
 - Newer files also gets version label here from out.
-  - Examples: `Yahoo v2.svg`, `Dashlane v2.png`.
+  - Examples: `Codeberg v2.svg`.
 - Version label number increases when new versions are released (`v3`, `v4`, `v5`, `v6` etc.).
 - Label number is also added / updated on the Illustrator file's artboard (shortcut: `Shift + O`).
 - Outdated versions are moved to self titled directory (`PNG/Outdated/`, `SVG/.Outdated/`).
 - Icons which are based of now dead service, should be moved to "Outdated" directory just as it is.
+
+#### About PNGs
+As of 2021-07-25, aegis-icons doesn't actively make PNG icons anymore. Instead PNGs are only made when someone notices rendering problems with SVG on Aegis.
+
+PNGs are made by maintainers to keep files & compressions consistent. [List of SVG icons with known rendering issues are available here](https://github.com/aegis-icons/aegis-icons/blob/master/PNG/README.md).
 
 ## Resources
 Resources marked with star (⭐) are recommended / most used by the maintainers.
