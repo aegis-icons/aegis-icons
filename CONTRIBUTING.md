@@ -65,7 +65,7 @@ Scour the logo resources (URL, data URI etc.) to find a vector-based image (SVG,
   - [Vector Magic](https://vectormagic.com/) is the one of best – if not the best – image tracer, but unfortunately they don't offer any free services.
 - **Making vectorized logo from stratch** is also option, if you're skilled and patient enough.
 
-> ⚠ Watch out for SVGs that are using raster graphics ([example](https://github.com/haiwen/seafile-client/blob/7d8f06111960921ce01ef08e169d41bae13959ed/data/icons/scalable/apps/seafile.svg?short_path=d0d75d2#L54)). These are not common, but does exists.
+> ⚠ Watch out for SVGs that are using raster graphics ([example](https://github.com/haiwen/seafile-client/blob/7d8f06111960921ce01ef08e169d41bae13959ed/data/icons/scalable/apps/seafile.svg?short_path=d0d75d2#L54-L218)). These are not common, but does exists.
 
 ### Templates
 When making icons, download and use provided [templates](/_templates).
