@@ -256,8 +256,6 @@ These are good resources for finding logos in vector format, when no official br
 **Remember to always check if logo provided by these resources is latest one company uses!**
 
 - [Brandfetch](https://brandfetch.com/) ⭐ (search engine for company branding resources)
-- [jaywcjlove / logo](https://github.com/jaywcjlove/logo/tree/master/img) (good for finding logos of Chinese apps & sites)
-- [lexrus / fontdiao](https://github.com/lexrus/fontdiao/tree/master/svg) (good for finding logos of Chinese apps & sites)
 - [LogoSear.ch](https://logosear.ch/) ⭐
 - [Seeklogo](https://seeklogo.com/)
 - [Simple Icons](https://simpleicons.org/) ⭐
