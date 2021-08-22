@@ -59,12 +59,13 @@ Scour the logo resources (URL, data URI etc.) to find a vector-based image (SVG,
        - E.g. [You Need A Budget](https://www.youneedabudget.com) reveals the hidden SVG resource in HTML metadata section `https://www-assets.youneedabudget.com/wp-content/themes/dupatta/dist/images/safari-pinned-tab_[random-alphanumerical].svg` which can be copied-and-pasted into the browser to open the image, and then saved normally).
 - If everything has failed so far, then **check [logo resources](#logos) section.** Remember though, logo has to be latest one company uses.
 - As last resort, you could try **image tracing on Illustrator, Inkscape etc.** Usually results varies from bad to kind of decent. Rule of thumb with tracing is using image that's high resolution, not many colors and doesn't have any artifacts.
-  - [Vectorizer.io](https://anonym.to/?https://www.vectorizer.io) is better alternative and has free option, but also has absurd download wait times for free users.
-    - There's loophole though: open dev tools (`F12`), inspect the output image and copy the SVG code from there.
+  - [Vectorizer.io](https://anonym.to/?https://www.vectorizer.io) is better alternative but vectors aren't freely downloadable anymore, generating vectors without account / freely is still possible.
+    - There's loophole to downloads though: use [SVG Gobbler](https://www.svggobbler.com/) after vector was generated.
+      - Alternatively: open dev tools (`F12`), inspect the output image and copy the SVG code from there.
   - [Vector Magic](https://vectormagic.com/) is the one of best – if not the best – image tracer, but unfortunately they don't offer any free services.
 - **Making vectorized logo from stratch** is also option, if you're skilled and patient enough.
 
-> ⚠ Watch out for SVGs that are using raster graphics ([example](https://github.com/haiwen/seafile-client/blob/7d8f06111960921ce01ef08e169d41bae13959ed/data/icons/scalable/apps/seafile.svg?short_path=d0d75d2#L54)). These are not common, but still exists.
+> ⚠ Watch out for SVGs that are using raster graphics ([example](https://github.com/haiwen/seafile-client/blob/7d8f06111960921ce01ef08e169d41bae13959ed/data/icons/scalable/apps/seafile.svg?short_path=d0d75d2#L54)). These are not common, but does exists.
 
 ### Templates
 When making icons, download and use provided [templates](/_templates).
