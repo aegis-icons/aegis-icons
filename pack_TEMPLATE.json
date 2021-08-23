@@ -1068,6 +1068,13 @@
             ]
         },
         {
+            "filename": "SVG/All-Inkl.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "All-Inkl"
+            ]
+        },
+        {
             "filename": "SVG/AllMyLinks.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -1075,6 +1082,13 @@
             ]
         },
         {
+            "filename": "SVG/Allegro.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Allegro"
+            ]
+        },
+        { 
             "filename": "SVG/Amazon.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3525,6 +3539,13 @@
             ]
         },
         {
+            "filename": "SVG/Uphold.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Uphold"
+            ]
+        },
+        { 
             "filename": "SVG/UptimeRobot.svg",
             "category": "1. Apps & Sites",
             "issuer": [
