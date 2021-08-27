@@ -613,6 +613,13 @@
             ]
         },
         {
+            "filename": "SVG/.Variations/Filen bg.var.svg",
+            "category": "2. Variations & Alts",
+            "issuer": [
+                "Filen" 
+            ]
+        },
+        {
             "filename": "SVG/.Variations/Friendica fg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
@@ -1870,6 +1877,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Figma"
+            ]
+        },
+        {
+            "filename": "SVG/Filen.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Filen"
             ]
         },
         {
