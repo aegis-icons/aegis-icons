@@ -297,8 +297,9 @@ Looking for software to start make icons? Here's some of the well known ones.
 5. Aegis-icons can reject any icon request for any reason, but most of the requests gets filled. Usually we do provide explanation and possibly alternative option if we reject the request.
    - Possible reasons for rejections (among others) are *too complex logo to make as monochrome or viewable in small size* ([example](https://github.com/krisu5/aegis-icons/issues/92)) and *site / app not offering Aegis supported 2FA in the first place.*
    - *Hate speech site related requests* (such as Gab, Parler, Voat etc.) will be rejected without explanation, **no exceptions.**
-6. For forums we have decided to make icons based of forum software they use, because those are more universally usable for icons then specific communities. *This is judged case by case.*
+6. For forums we have decided to make icons based of forum software they use, because those are more universally usable for icons then specific communities. *This is judged case by case, really popular forums can get their own icons.*
    - Finding out the forum software, we are using tools such as [What CMS](https://whatcms.org) and [W3Techs Site Info](https://w3techs.com/sites).
+7. Be respectful to the maintainers and contributers.
 
 <b>After reading and accepting guidelines, <a href="../../issues/new/choose">you can make new issue</a>.</b>
 
