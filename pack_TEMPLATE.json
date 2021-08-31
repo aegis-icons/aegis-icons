@@ -928,6 +928,13 @@
             ]
         },
         {
+            "filename": "SVG/.Variations/WeTransfer bg.var.svg",
+            "category": "2. Variations & Alts",
+            "issuer": [
+                "WeTransfer"
+            ]
+        },
+        {
             "filename": "SVG/.Variations/Windscribe v2 bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
@@ -1376,6 +1383,13 @@
             ]
         },
         {
+            "filename": "SVG/BnkToTheFuture.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "BnkToTheFuture"
+            ]
+        },
+        { 
             "filename": "SVG/BorgBase.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -1453,6 +1467,13 @@
             ]
         },
         {
+            "filename": "SVG/Canapii.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Canapii"
+            ]
+        },
+        { 
             "filename": "SVG/Carrd.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3700,6 +3721,13 @@
             ]
         },
         {
+            "filename": "SVG/WeTransfer.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "WeTransfer"
+            ]
+        },
+        {
             "filename": "SVG/WeVPN.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3756,6 +3784,13 @@
             ]
         },
         {
+            "filename": "SVG/Wordfence.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Wordfence"
+            ]
+        },
+        { 
             "filename": "SVG/Wordpress.svg",
             "category": "1. Apps & Sites",
             "issuer": [
