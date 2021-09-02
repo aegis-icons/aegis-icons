@@ -81,8 +81,8 @@ We try to honor app / website's branding as much as possible, so that's why ther
 
 ## Can you make variation for X icon?
 
-We don't make new icon variations for icons by request.
+We don't make new icon variations by request.
 
 ## There's rendering issues with X icon.
 
-If you notice such issues with icon, please [report us](https://github.com/aegis-icons/aegis-icons/issues/new) and we fix the icon and/or make PNG counterpart for it.
+If you notice such issues with icon, please [report us](https://github.com/aegis-icons/aegis-icons/issues/new) and we fix the icon and/or make PNG counterpart for it ([list of icons with rendering issues](/PNG/README.md)).
