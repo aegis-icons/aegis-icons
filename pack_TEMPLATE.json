@@ -2657,10 +2657,24 @@
             ]
         },
         {
+            "filename": "SVG/Newgrounds.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Newgrounds"
+            ]
+        },
+        {
             "filename": "SVG/Nexo.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "Nexo"
+            ]
+        },
+        {
+            "filename": "SVG/Nexon.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Nexon"
             ]
         },
         {
