@@ -25,7 +25,7 @@ echo [5] Make pack ZIP with manually added version
 echo [6] Zip the PNG files
 echo [7] Exit
 echo.
-choice /c 1234567 /n /m "Choose (1-6): "
+choice /c 1234567 /n /m "Choose (1-7): "
 echo.
 
 if errorlevel 7 goto exitScript
