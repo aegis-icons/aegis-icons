@@ -1138,6 +1138,13 @@
             ]
         },
         {
+            "filename": "SVG/Aozora Securities.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Aozora Securities"
+            ]
+        },
+        { 
             "filename": "SVG/Apigee.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2573,6 +2580,13 @@
             ]
         },
         { 
+            "filename": "SVG/Monex, Inc.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Monex"
+            ]
+        },
+        { 
             "filename": "SVG/MongoDB.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2860,6 +2874,13 @@
             ]
         },
         {
+            "filename": "SVG/Osaka University.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Osaka University"
+            ]
+        },
+        { 
             "filename": "SVG/OwnCube v2.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3959,6 +3980,13 @@
             ]
         },
         {
+            "filename": "SVG/bitFlyer.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "bitFlyer"
+            ]
+        },
+        { 
             "filename": "SVG/diaspora.svg",
             "category": "1. Apps & Sites",
             "issuer": [
