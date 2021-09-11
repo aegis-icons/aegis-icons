@@ -1439,6 +1439,13 @@
             ]
         },
         {
+            "filename": "SVG/Bugcrowd.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Bugcrowd"
+            ]
+        },
+        {
             "filename": "SVG/Bugzilla.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2167,6 +2174,13 @@
             ]
         },
         {
+            "filename": "SVG/HackerOne.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "HackerOne"
+            ]
+        },
+        { 
             "filename": "SVG/Heroku.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2472,6 +2486,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Luno"
+            ]
+        },
+        {
+            "filename": "SVG/M1 Finance.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "M1 Finance"
             ]
         },
         {
@@ -3910,6 +3931,13 @@
             ]
         },
         {
+            "filename": "SVG/Yotta.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Yotta"
+            ]
+        },
+        { 
             "filename": "SVG/You Need A Budget.svg",
             "category": "1. Apps & Sites",
             "issuer": [
