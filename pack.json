@@ -2202,6 +2202,13 @@
             ]
         },
         {
+            "filename": "SVG/Hiven.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Hiven"
+            ]
+        },
+        {
             "filename": "SVG/Home Assistant.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3511,6 +3518,13 @@
             ]
         },
         {
+            "filename": "SVG/TheraKey.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "TheraKey"
+            ]
+        },
+        { 
             "filename": "SVG/Thycotic.svg",
             "category": "1. Apps & Sites",
             "issuer": [
