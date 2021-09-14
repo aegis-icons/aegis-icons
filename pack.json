@@ -1810,6 +1810,13 @@
             ]
         },
         {
+            "filename": "SVG/ESET.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "ESET"
+            ]
+        },
+        {
             "filename": "SVG/Electronic Arts.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2503,6 +2510,13 @@
             ]
         },
         {
+            "filename": "SVG/MC-HOST24.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "MC-HOST24"
+            ]
+        },
+        {
             "filename": "SVG/MEGA.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2783,6 +2797,13 @@
             ]
         },
         {
+            "filename": "SVG/Notejoy.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Notejoy"
+            ]
+        },
+        { 
             "filename": "SVG/Nuki.svg",
             "category": "1. Apps & Sites",
             "issuer": [
