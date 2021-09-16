@@ -1383,6 +1383,13 @@
             ]
         },
         {
+            "filename": "SVG/Blockchain.com.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Blockchain.com"
+            ]
+        },
+        {
             "filename": "SVG/Blockstream Green.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -1810,6 +1817,13 @@
             ]
         },
         {
+            "filename": "SVG/ESEA.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "ESEA"
+            ]
+        },
+        {
             "filename": "SVG/ESET.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -1877,6 +1891,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "ExpressVPN"
+            ]
+        },
+        {
+            "filename": "SVG/FACEIT.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "FACEIT"   
             ]
         },
         {
@@ -3368,6 +3389,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Snapchat"
+            ]
+        },
+        {
+            "filename": "SVG/SoFi.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "SoFi"
             ]
         },
         {
