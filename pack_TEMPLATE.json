@@ -1901,6 +1901,13 @@
             ]
         },
         {
+            "filename": "SVG/FAX.PLUS.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "FAX.PLUS"
+            ]
+        },
+        {
             "filename": "SVG/FRITZ!.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -1961,6 +1968,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Filen"
+            ]
+        },
+        {
+            "filename": "SVG/Files.com.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Files.com"
             ]
         },
         {
@@ -2136,6 +2150,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Grammarly"
+            ]
+        },
+        {
+            "filename": "SVG/Greenhost.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Greenhost"
             ]
         },
         {
@@ -3350,6 +3371,13 @@
             ]
         },
         {
+            "filename": "SVG/Server-Eye.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Server-Eye"
+            ]
+        },
+        { 
             "filename": "SVG/Shareworks.svg",
             "category": "1. Apps & Sites",
             "issuer": [
