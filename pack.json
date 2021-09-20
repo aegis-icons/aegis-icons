@@ -333,6 +333,13 @@
             ]
         },
         {
+            "filename": "SVG/.Outdated/HM Revenue & Customs.svg",
+            "category": "4. Outdated",
+            "issuer": [
+                "HM Revenue & Customs"
+            ]
+        },
+        { 
             "filename": "SVG/.Outdated/Hostwinds v1.svg",
             "category": "4. Outdated",
             "issuer": [
@@ -2062,6 +2069,13 @@
             ]
         },
         {
+            "filename": "SVG/GOV.UK.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "GOV.UK"
+            ]
+        },
+        {
             "filename": "SVG/Gaijin Entertainment.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2199,13 +2213,6 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "HEY"
-            ]
-        },
-        {
-            "filename": "SVG/HM Revenue & Customs.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "HM Revenue & Customs"
             ]
         },
         {
@@ -2643,6 +2650,13 @@
             ]
         },
         {
+            "filename": "SVG/Maxon.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Maxon"
+            ]
+        },
+        {
             "filename": "SVG/Media Temple.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2916,6 +2930,13 @@
             ]
         },
         {
+            "filename": "SVG/Okta.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Okta"
+            ]
+        },
+        {
             "filename": "SVG/OneProvider.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2972,6 +2993,13 @@
             ]
         },
         {
+            "filename": "SVG/Oracle.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Oracle"
+            ]
+        },
+        {
             "filename": "SVG/Origin.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2985,7 +3013,7 @@
                 "Osaka University"
             ]
         },
-        { 
+        {
             "filename": "SVG/OwnCube v2.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3616,6 +3644,13 @@
             ]
         },
         {
+            "filename": "SVG/Terraform.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Terraform"
+            ]
+        },
+        { 
             "filename": "SVG/Tesla.svg",
             "category": "1. Apps & Sites",
             "issuer": [
