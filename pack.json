@@ -2874,6 +2874,13 @@
             ]
         },
         {
+            "filename": "SVG/Nimbus Web.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Nimbus Web"
+            ]
+        },
+        {
             "filename": "SVG/Nintendo.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3746,6 +3753,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "TorGuard"
+            ]
+        },
+        {
+            "filename": "SVG/Toyohashi University of Technology.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Toyohashi University of Technology"
             ]
         },
         {
