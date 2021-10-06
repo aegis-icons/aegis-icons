@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   version="1.1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 1024 1024"
+   id="svg20"
+   sodipodi:docname="Hypixel.svg"
+   inkscape:version="1.1 (ce6663b3b7, 2021-05-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs24">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1010">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 343.90684,262.01827 81.808506,313.74918 85.055745,632.18715 211.42211,829.48719 336.66224,650.2258 l -16.0178,-155.38399 -11.63135,-40.60486 0.0936,-32.27973 12.02738,-5.87151 57.5274,-124.77999 z"
+         id="path1012" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1554">
+      <rect
+         style="fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:5.079;stroke-linecap:round;stroke-linejoin:round"
+         id="rect1556"
+         width="464.45004"
+         height="884.5274"
+         x="345.07138"
+         y="-63.854187"
+         ry="0" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="namedview22"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:snap-bbox="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:zoom="0.24867909"
+     inkscape:cx="80.424936"
+     inkscape:cy="782.1325"
+     inkscape:window-width="1366"
+     inkscape:window-height="704"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg20" />
+  <style
+     type="text/css"
+     id="style2">
+	.st0{fill:#ED1C24;}
+	.st1{fill:none;stroke:#1DED7E;stroke-width:2;stroke-miterlimit:10;stroke-dasharray:2;}
+	.st2{fill:none;stroke:#1DED7E;stroke-width:2;stroke-miterlimit:10;stroke-dasharray:2;}
+	.st3{fill:none;stroke:#1D8CED;stroke-width:2;stroke-miterlimit:10;stroke-dasharray:2;}
+</style>
+  <circle
+     id="Background"
+     class="st0"
+     cx="512"
+     cy="512"
+     r="512"
+     style="display:inline;fill:#f4bc22;fill-opacity:1"
+     inkscape:label="circle2" />
+  <path
+     style="display:inline;fill:#ffffff;stroke:none;stroke-width:21.1129;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 395.32447,341.9946 c 31.9014,-24.75919 71.91101,-43.67819 90.89069,-49.71828 v 161.45364 h 43.49652 V 274.96007 c 36.91516,-16.35123 77.11963,-19.40291 98.96385,-19.40291 -24.67461,33.91606 -38.36211,86.38414 -38.36211,143.96469 v 210.98612 l 9.13661,4.02043 c -9.27823,26.78117 -26.22725,48.69188 -71.25732,80.12689 v -183.6826 -0.13844 H 485.47594 V 768.44284 C 448.85267,733.74532 430.60459,703.59875 413.05908,653.15921 l 9.66172,-8.10292 V 390.9856 c 0,-15.24362 -7.21349,-33.29745 -27.39633,-48.991 z"
+     id="path1591"
+     sodipodi:nodetypes="cccccccccccccccccc"
+     inkscape:label="path4" />
+</svg>
