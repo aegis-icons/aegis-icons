@@ -1,15 +1,4 @@
-<svg version="1.1" x="0" y="0" viewBox="0 0 1024 1024" id="svg20" xmlns="http://www.w3.org/2000/svg">
-   <defs id="defs24">
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1010">
-         <path style="fill:none;stroke:#000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M343.907 262.018 81.809 313.75l3.247 318.438 126.366 197.3 125.24-179.261-16.018-155.384-11.63-40.605.093-32.28 12.027-5.871 57.527-124.78z" id="path1012"/>
-      </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1554">
-         <rect style="fill:none;fill-opacity:1;stroke:red;stroke-width:5.079;stroke-linecap:round;stroke-linejoin:round" id="rect1556" width="464.45" height="884.527" x="345.071" y="-63.854" ry="0"/>
-      </clipPath>
-   </defs>
-   <style type="text/css" id="style2">
-      .st1,.st2,.st3{fill:none;stroke:#1ded7e;stroke-width:2;stroke-miterlimit:10;stroke-dasharray:2}.st3{stroke:#1d8ced}
-   </style>
-   <circle id="Background" cx="512" cy="512" r="512" style="display:inline;fill:#f4bc22;fill-opacity:1"/>
-   <path style="display:inline;fill:#fff;stroke:none;stroke-width:21.1129;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" d="M395.324 341.995c31.902-24.76 71.911-43.679 90.891-49.719V453.73h43.497V274.96c36.915-16.351 77.12-19.403 98.964-19.403-24.675 33.916-38.363 86.384-38.363 143.965v210.986l9.137 4.02c-9.278 26.782-26.227 48.692-71.257 80.127V510.834h-42.717v257.609c-36.623-34.698-54.871-64.844-72.417-115.284l9.662-8.103v-254.07c0-15.244-7.214-33.298-27.397-48.991z" id="path1591"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+   <circle cx="512" cy="512" r="512" style="fill:#f4bc22"/>
+   <path d="M654.41 224c-26.66 0-75.73 3.73-120.79 23.68v218.2h-53.09V268.82c-23.17 7.37-72 30.46-110.94 60.68 24.64 19.16 33.41 41.19 33.41 59.8v310.1l-11.79 9.89c21.42 61.56 43.69 98.36 88.39 140.71V535.58h52.14v224.36c55-38.37 75.65-65.11 87-97.8l-11.15-4.91V399.72c-.01-70.28 16.7-134.32 46.82-175.72Z" style="fill:#fff"/>
 </svg>
