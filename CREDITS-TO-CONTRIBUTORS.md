@@ -15,7 +15,7 @@ These are people who has contributed our project with commits or sending icon su
 - **[alexbakker](https://github.com/alexbakker)** (Alexander Bakker)
   - For *pack.py* script ([#143](https://github.com/aegis-icons/aegis-icons/pull/143)) and its updates ([#238](https://github.com/aegis-icons/aegis-icons/pull/238)).
 - **[AnTheMaker](https://github.com/AnTheMaker)** (An)
-  - For *SpaceHey* icon ([#386](https://github.com/aegis-icons/aegis-icons/issues/386)).
+  - For these icons: *SpaceHey* ([#386](https://github.com/aegis-icons/aegis-icons/issues/386)), *bunny.net* ([#388](https://github.com/aegis-icons/aegis-icons/issues/388)).
 - **[devmrcl](https://github.com/devmrcl)** (Marcel Hopf)
   - For these icons: *IONOS* ([#271](https://github.com/aegis-icons/aegis-icons/issues/271)), *Bitrix24* ([#272](https://github.com/aegis-icons/aegis-icons/issues/272)).
 - **Earhacker** from Reddit
