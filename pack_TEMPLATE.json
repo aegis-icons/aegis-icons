@@ -851,6 +851,13 @@
             ]
         },
         {
+            "filename": "SVG/.Variations/Remote Utilities bg.var.svg",
+            "category": null,
+            "issuer": [
+                "Remote Utilities"
+            ]
+        },
+        { 
             "filename": "SVG/.Variations/Snapchat fg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
@@ -2286,6 +2293,13 @@
             ]
         },
         { 
+            "filename": "SVG/Hauk.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Hauk"
+            ]
+        },
+        {
             "filename": "SVG/Heroku.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3350,6 +3364,13 @@
             ]
         },
         {
+            "filename": "SVG/Remote Utilities.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Remote Utilities"
+            ]
+        },
+        {
             "filename": "SVG/Report URI.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3564,6 +3585,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "SourceForge"
+            ]
+        },
+        {
+            "filename": "SVG/SpaceHey.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "SpaceHey"
             ]
         },
         {
