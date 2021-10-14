@@ -1278,6 +1278,13 @@
             ]
         },
         {
+            "filename": "SVG/Authelia.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Authelia"
+            ]
+        },
+        {
             "filename": "SVG/Autistici.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3616,6 +3623,13 @@
             ]
         },
         {
+            "filename": "SVG/Spry Servers.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Spry Servers"
+            ]
+        },
+        { 
             "filename": "SVG/Square Enix.svg",
             "category": "1. Apps & Sites",
             "issuer": [
