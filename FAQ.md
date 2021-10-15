@@ -45,8 +45,7 @@ Even though PC is needed, you don't need to install extra software. Web browser 
    - Click somewhere outside of the canvas.
    - Change the name of the title to something else (eg. name of the app or website).
    - Click "File" and "Save image..."
-
-Download and move edited SVG(s) into your phone with your refer method (USB, email, cloud etc).
+8. Download and move edited SVG(s) into your phone with your refer method (USB, email, cloud etc).
 
 If you want alternatives, check out [Photopea](https://www.photopea.com/) or [Vectr](https://vectr.com/). Or want to use desktop software instead, [Inkscape](https://inkscape.org/) and [SVG Splash](https://www.svgsplash.com/) are best free options.
 
