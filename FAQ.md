@@ -14,18 +14,18 @@ First, you need to download and enable icon pack:
 
 Now you can add icons to your entries:
 
-1. Long-press the entry and then tap "pencil button". 🖼 [[Example]](https://user-images.githubusercontent.com/3540275/120072239-7f1cf480-c09b-11eb-9aef-d7f8fd0f7825.png)
-2. In "Edit entry", tap the circle that has one letter in it. 🖼 [[Example]](https://user-images.githubusercontent.com/3540275/120072428-8f819f00-c09c-11eb-88c5-06fc400a6ba8.png)
+1. Long-press the entry and then tap "pencil button". 🖼 [[Example]](https://raw.githubusercontent.com/aegis-icons/design-assets/master/screenshots/faq_how-to-use-icons_001.png)
+2. In "Edit entry", tap the circle that has one letter in it. 🖼 [[Example]](https://raw.githubusercontent.com/aegis-icons/design-assets/master/screenshots/faq_how-to-use-icons_002.png)
 3. Now picker should appear and you can select the icon you want from the aegis-icons pack.
 4. After the selection, tap "Save" button at top-right.
 
 ### Manually
 
 1. Download the icon (eg. from [our website](https://aegis-icons.github.io/))
-2. In **Aegis**, long-press the entry and then tap "pencil button". 🖼 [[Example]](https://user-images.githubusercontent.com/3540275/120072239-7f1cf480-c09b-11eb-9aef-d7f8fd0f7825.png)
-3. In "Edit entry", tap the circle that has one letter in it. 🖼 [[Example]](https://user-images.githubusercontent.com/3540275/120072428-8f819f00-c09c-11eb-88c5-06fc400a6ba8.png)
+2. In **Aegis**, long-press the entry and then tap "pencil button". 🖼 [[Example]](https://raw.githubusercontent.com/aegis-icons/design-assets/master/screenshots/faq_how-to-use-icons_001.png)
+3. In "Edit entry", tap the circle that has one letter in it. 🖼 [[Example]](https://raw.githubusercontent.com/aegis-icons/design-assets/master/screenshots/faq_how-to-use-icons_002.png)
 4. If you don't have any icon packs enabled, then select app for locating icon (like file manager or gallery app)
-   - If you *do* have a icon pack enabled, first press button with "Custom" label 🖼 [[Example]](https://user-images.githubusercontent.com/3540275/120072964-f86a1680-c09e-11eb-990e-a12539ac6bee.png) and *then* select the app for locating icon that you downloaded.
+   - If you *do* have a icon pack enabled, first press button with "Custom" label 🖼 [[Example]](https://raw.githubusercontent.com/aegis-icons/design-assets/master/screenshots/faq_how-to-use-icons_003.png) and *then* select the app for locating icon that you downloaded.
 5. After the selection, tap "Save" button at top-right.
 
 ## How can I make icon with different background color?
@@ -36,16 +36,19 @@ Even though PC is needed, you don't need to install extra software. Web browser 
 
 1. [Get the SVG file(s) for the icon(s) you want to edit](https://aegis-icons.github.io/).
    - SVG is [vector file format](https://simple.wikipedia.org/wiki/Vector_graphics) that can  be easily edited, specially with colors. It's also possible to edit it via text (that's the subject on the next tutorial).
-2. Go to [Vectr](https://vectr.com/new), web app for vector making / editing.
-3. Select the SVG file. 🖼 [[Example]](https://user-images.githubusercontent.com/3540275/81182238-34bf6600-8fb6-11ea-958c-05d1bf46ce7f.png)
-4. Click the circle part of the icon that has the background color. 🖼 [[Example]](https://user-images.githubusercontent.com/3540275/81182240-35f09300-8fb6-11ea-975f-48a84888714e.png)
-5. Click the "color button". 🖼 [[Example]](https://user-images.githubusercontent.com/3540275/81182244-36892980-8fb6-11ea-8b8c-8702bda5ec09.png)
-6. Select color you want.
-7. Click "Export" button. 🖼 [[Example]](https://user-images.githubusercontent.com/3540275/81184942-a947d400-8fb9-11ea-9a62-194430b7f6e4.png)
-8. Change both `640px` values to `1024px`.
-9. Download and move edited SVG(s) into your phone with your refer method (USB, email, cloud etc).
+2. Go to [Method Draw](https://editor.method.ac/), web app for vector making / editing.
+3. Click "File" and "Open SVG..." to select the icon you want to edit. 🖼 [[Example]](https://raw.githubusercontent.com/aegis-icons/design-assets/master/screenshots/faq_edit_icon_01-001.png)
+4. Click the circle part of the icon that has the background color. 🖼 [[Example]](https://raw.githubusercontent.com/aegis-icons/design-assets/master/screenshots/faq_edit_icon_01-002.png)
+5. Click the "color button". 🖼 [[Example]](https://raw.githubusercontent.com/aegis-icons/design-assets/master/screenshots/faq_edit_icon_01-003.png)
+6. Select color you want and click "OK".
+7. All these parts are in this example screenshot: 🖼 [[Example]](https://raw.githubusercontent.com/aegis-icons/design-assets/master/screenshots/faq_edit_icon_01-004.png)
+   - Click somewhere outside of the canvas.
+   - Change the name of the title to something else (eg. name of the app or website).
+   - Click "File" and "Save image..."
 
-If you want to use different web app, check [Photopea](https://www.photopea.com/). Or want to use desktop software instead, [Inkscape](https://inkscape.org/) and [SVG Splash](https://www.svgsplash.com/) are best free options. But you're on your own there.
+Download and move edited SVG(s) into your phone with your refer method (USB, email, cloud etc).
+
+If you want alternatives, check out [Photopea](https://www.photopea.com/) or [Vectr](https://vectr.com/). Or want to use desktop software instead, [Inkscape](https://inkscape.org/) and [SVG Splash](https://www.svgsplash.com/) are best free options.
 
 ### Harder Android way
 
@@ -60,15 +63,15 @@ This tutorial focuses on icon editing in Android and with [Amaze file manager](h
    - Good mobile-friendly web apps: https://color.obscuredetour.com/ & https://color.joelb.dev/
 7. Copy the HEX color value.
    - HEX color starts with hash (#) and has 6 alphanumerical characters.
-8. Find `<circle` part from the code, then look for `fill:#RANDOMHEX`. 🖼 [[Example]](https://user-images.githubusercontent.com/3540275/115146777-ac1fc580-a060-11eb-9e85-d010ca23da52.png)
+8. Find `<circle` part from the code, then look for `fill:#RANDOMHEX`. 🖼 [[Example]](https://raw.githubusercontent.com/aegis-icons/design-assets/master/screenshots/faq_edit_icon_02-001.png)
    - In this example, `#RANDOMHEX` is `#1a8cff`.
    - Black icons don't have `style` attribute, so you need to add it manually (check the example screenshot above).
    ```
    style="fill:#RANDOMHEX"
    ```
-9. Replace the HEX color code text with copied hex color. 🖼 [[Example]](https://user-images.githubusercontent.com/3540275/115147154-564c1d00-a062-11eb-8972-2729903a5530.png)
+9. Replace the HEX color code text with copied hex color. 🖼 [[Example]](https://raw.githubusercontent.com/aegis-icons/design-assets/master/screenshots/faq_edit_icon_02-002.png)
    - In this example, *replacable* HEX code is `#1a8cff` and HEX code *we want* is `#e32b3f`.
-10. Press the "save" icon. 🖼 [[Example]](https://user-images.githubusercontent.com/3540275/115147156-56e4b380-a062-11eb-9f2b-aebb6e9fc839.png)
+10. Press the "save" icon. 🖼 [[Example]](https://raw.githubusercontent.com/aegis-icons/design-assets/master/screenshots/faq_edit_icon_02-003.png)
 
 ## Why only some of the icons have `bg.var`, `fg.var`, `fg.bg.var` or `alt` version?
 
