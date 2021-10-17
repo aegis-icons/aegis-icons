@@ -851,6 +851,13 @@
             ]
         },
         {
+            "filename": "SVG/.Variations/Railway bg.var.svg",
+            "category": "2. Variations & Alts",
+            "issuer": [
+                "Railway"
+            ]
+        },
+        {
             "filename": "SVG/.Variations/Remote Utilities bg.var.svg",
             "category": null,
             "issuer": [
@@ -2223,6 +2230,13 @@
             ]
         },
         {
+            "filename": "SVG/GoodSync.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "GoodSync"
+            ]
+        },
+        {
             "filename": "SVG/Google.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2353,6 +2367,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Home Assistant"
+            ]
+        },
+        {
+            "filename": "SVG/Hostinger.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Hostinger"
             ]
         },
         {
@@ -3361,6 +3382,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Rackspace"
+            ]
+        },
+        {
+            "filename": "SVG/Railway.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Railway"
             ]
         },
         {
