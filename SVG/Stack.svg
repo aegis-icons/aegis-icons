@@ -1,0 +1,6 @@
+<svg version="1.1" x="0" y="0" viewBox="0 0 1024 1024" id="svg131" xmlns="http://www.w3.org/2000/svg">
+   <style type="text/css" id="style113">
+      .st0{fill:#ed1c24}.st1,.st2,.st3{fill:none;stroke:#1ded7e;stroke-width:2;stroke-miterlimit:10;stroke-dasharray:2}.st3{stroke:#1d8ced}
+   </style>
+   <path fill="#5348cb" d="M512 0C229.23 0 0 229.23 0 512s229.23 512 512 512 512-229.23 512-512S794.77 0 512 0Zm292.962 718.725L512 791.965l-292.962-73.24v-73.24L512 718.724l292.962-73.24zm0-170.105L512 621.861l-292.962-73.24V475.38L512 548.62l292.962-73.24zm0-170.105L512 451.755l-292.962-73.24v-73.24L512 232.034l292.962 73.24z" id="path2" style="display:inline;opacity:.99;stroke-width:1.06656"/>
+</svg>
