@@ -1565,6 +1565,13 @@
             ]
         },
         {
+            "filename": "SVG/CSAM.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "CSAM"
+            ]
+        },
+        {
             "filename": "SVG/CTemplar.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -1796,6 +1803,13 @@
             ]
         },
         {
+            "filename": "SVG/DigiConnect.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "DigiConnect"
+            ]
+        },
+        {
             "filename": "SVG/DigitalOcean.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -1817,6 +1831,13 @@
             ]
         },
         {
+            "filename": "SVG/Directus.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Directus"
+            ]
+        },
+        { 
             "filename": "SVG/Discogs.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3497,6 +3518,13 @@
             ]
         },
         {
+            "filename": "SVG/STACK.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "STACK"
+            ]
+        },
+        {
             "filename": "SVG/STRATO.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3606,6 +3634,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Slack"
+            ]
+        },
+        {
+            "filename": "SVG/Smartschool.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Smartschool"
             ]
         },
         {

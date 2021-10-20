@@ -16,6 +16,8 @@ These are people who has contributed our project with commits or sending icon su
   - For *pack.py* script ([#143](https://github.com/aegis-icons/aegis-icons/pull/143)) and its updates ([#238](https://github.com/aegis-icons/aegis-icons/pull/238)).
 - **[AnTheMaker](https://github.com/AnTheMaker)** (An)
   - For these icons: *SpaceHey* ([#386](https://github.com/aegis-icons/aegis-icons/issues/386)), *bunny.net* ([#388](https://github.com/aegis-icons/aegis-icons/issues/388)), *Mailgun* ([#389](https://github.com/aegis-icons/aegis-icons/issues/389)).
+- **[bartlibert](https://github.com/AnTheMaker)** (Bart Libert)
+  - For these icons: *STACK* ([#397](https://github.com/aegis-icons/aegis-icons/issues/397)), *CSAM* ([#398](https://github.com/aegis-icons/aegis-icons/issues/398)), *DigiConnect* ([#399](https://github.com/aegis-icons/aegis-icons/issues/399)), *Smartschool* ([#400](https://github.com/aegis-icons/aegis-icons/issues/400)), *Directus* ([#401](https://github.com/aegis-icons/aegis-icons/issues/401)).
 - **[devmrcl](https://github.com/devmrcl)** (Marcel Hopf)
   - For these icons: *IONOS* ([#271](https://github.com/aegis-icons/aegis-icons/issues/271)), *Bitrix24* ([#272](https://github.com/aegis-icons/aegis-icons/issues/272)).
 - **Earhacker** from Reddit
