@@ -291,7 +291,8 @@ Looking for software to start make icons? Here's some of the well known ones.
 
 ## Issue guidelines
 1. App / site icon related requests has to have Aegis supported 2FA support one way or another, this project does not make icons outside of Aegis usage.
-2. Check that icon you're about to request doesn't [already exist](https://aegis-icons.github.io/) or requested in the [issues](https://github.com/krisu5/aegis-icons/issues).
+2. **Check that icon you're about to request doesn't [already exist](https://aegis-icons.github.io/)** or requested in the [issues](https://github.com/krisu5/aegis-icons/issues).
+   - Icon packs are updated monthly, not every time a new icon is created ([see the pack releases](https://github.com/aegis-icons/aegis-icons/releases)). Icons created after the latest pack update are downloadable on [the website](https://aegis-icons.github.io/).
 3. Read the issue template and fill **at least** required parts.
 4. If you have question or miscellaneous suggestion, check [FAQ](FAQ.md) first.
 5. Aegis-icons can reject any icon request for any reason, but most of the requests gets filled. Usually we do provide explanation and possibly alternative option if we reject the request.
