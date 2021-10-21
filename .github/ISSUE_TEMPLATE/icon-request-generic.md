@@ -11,7 +11,7 @@ assignees: ''
 First, read our issue guidelines: https://git.io/JLu8h
 (Only takes half a minute to read!)
 
-Remember to add **type of icon** at the end of the title
+Remember to add TYPE OF ICON at the end of the title.
 
 If you can't think of name, use these sites as reference:
 - https://iconscout.com/unicons/explore/line
