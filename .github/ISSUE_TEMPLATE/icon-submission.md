@@ -10,9 +10,9 @@ assignees: ''
 <!--
 Remember to add **name of the site or app** at the end of the title. 
 
-#########################
+########################
 ## ACCEPT REQUIREMENTS ##
-#########################
+########################
 
 CONTRIBUTING doc: https://github.com/krisu5/aegis-icons/blob/master/CONTRIBUTING.md
 

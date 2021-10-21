@@ -1,7 +1,7 @@
 <!--
-#########################
+########################
 ## ACCEPT REQUIREMENTS ##
-#########################
+########################
 
 CONTRIBUTING doc: https://github.com/krisu5/aegis-icons/blob/master/CONTRIBUTING.md
 
