@@ -24,7 +24,7 @@ If you're adding IMAGE as logo resource, it has to be either:
 
 1. SVG vector from official source (or other vector file format, vectors are most preferable)
  OR
-2. High quality image from official source (at least 1000px on either sides [does not include white space around the logo], smooth edges, no artifacts etc).
+2. High quality (at least 1000 x 1000 pixels) image from official source (image size does not include white space around the logo, has to have smooth edges, no artifacts etc).
 
 Also, it has be currently used logo by the company.
 
