@@ -1495,6 +1495,13 @@
             ]
         },
         { 
+            "filename": "SVG/BookStack.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "BookStack"
+            ]
+        },
+        {
             "filename": "SVG/BorgBase.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2710,6 +2717,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "MEGA"
+            ]
+        },
+        {
+            "filename": "SVG/MXroute.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "MXroute"
             ]
         },
         {
@@ -4022,6 +4036,13 @@
             ]
         },
         {
+            "filename": "SVG/Unraid.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Unraid"
+            ]
+        },
+        {
             "filename": "SVG/UpCloud.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4036,6 +4057,13 @@
             ]
         },
         { 
+            "filename": "SVG/Uptime Kuma.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Uptime Kuma"
+            ]
+        },
+        {
             "filename": "SVG/UptimeRobot.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4341,6 +4369,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Zoom"
+            ]
+        },
+        {
+            "filename": "SVG/authentik.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "authentik"
             ]
         },
         {
