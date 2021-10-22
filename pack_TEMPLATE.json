@@ -669,6 +669,13 @@
             ]
         },
         {
+            "filename": "SVG/.Variations/Focusrite bg.var.svg",
+            "category": "2. Variations & Alts",
+            "issuer": [
+                "Focusrite"
+            ]
+        },
+        {
             "filename": "SVG/.Variations/Friendica fg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
@@ -2111,6 +2118,13 @@
             ]
         },
         {
+            "filename": "SVG/Focusrite.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Focusrite"
+            ]
+        },
+        { 
             "filename": "SVG/Forum Italia.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2829,6 +2843,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Microsoft"
+            ]
+        },
+        {
+            "filename": "SVG/Migros.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Migros"
             ]
         },
         {
