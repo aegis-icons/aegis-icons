@@ -8,7 +8,7 @@ assignees: ''
 ---
 
 <!--
-Remember to add **name of the site or app** at the end of the title. 
+Remember to add NAME OF THE SITE OR APP at the end of the issue title. 
 
 ########################
 ## ACCEPT REQUIREMENTS ##
