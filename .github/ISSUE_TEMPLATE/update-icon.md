@@ -11,7 +11,7 @@ assignees: ''
 First, READ OUR ISSUE GUIDELINES: https://git.io/JLu8h
 (Only takes half a minute to read!)
 
-Remember to add NAME OF THE SITE OR APP at the end of the issue title.
+Remember to add NAME OF THE SITE OR APP at the end of the issue title (on the top text box).
 ---- ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ -->
 
 - URL of the site or app **(required):** 
