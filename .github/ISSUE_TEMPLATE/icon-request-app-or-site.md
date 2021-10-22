@@ -11,12 +11,13 @@ assignees: ''
 First, READ OUR ISSUE GUIDELINES: https://git.io/JLu8h
 (Only takes half a minute to read!)
 
-Remember to add NAME OF THE SITE OR APP at the end of the title. -->
+Remember to add NAME OF THE SITE OR APP at the end of the issue title.
+---- ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ ˅ -->
 
 - URL of the site or app **(required):** 
 - Logo resources for the icon **(optional, but recommended):** 
 
-<!-- ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^
+<!-- ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ --
 NO PROFILE PICTURES (Twitter, Facebook, Github etc.) OF ANY KIND AS LOGO RESOURCE, these are not helpful at all.
 
 If you're adding IMAGE as logo resource, it has to be either:
