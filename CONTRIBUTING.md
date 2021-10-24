@@ -33,6 +33,7 @@ It's recommended to also have some knowledge of design in general.
   - [Software](#software)
 - [**Maintainer's guide**](#maintainers-guide)
 - [**Issue guidelines**](#issue-guidelines)
+- [**Footnotes**](#footnotes)
 
 ---
 
@@ -302,6 +303,10 @@ Looking for software to start make icons? Here's some of the well known ones.
 7. Be respectful to the maintainers and contributers.
 
 <b>After reading and accepting guidelines, <a href="../../issues/new/choose">you can make new issue</a>.</b>
+
+## Footnotes
+
+*Footnotes, footnotes...*
 
 [^1]: Article: [Logo, Logomark, Logotype - What's The Difference And What Do You Need?](https://blog.designcrowd.com/article/997/logo-logomark-logotype-whats-the-difference-and-what-do-you-need) <sup>[wayback machine](https://web.archive.org/web/20200606123728/https://blog.designcrowd.com/article/997/logo-logomark-logotype-whats-the-difference-and-what-do-you-need)</sup>
 
