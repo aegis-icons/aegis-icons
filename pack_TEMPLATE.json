@@ -207,7 +207,7 @@
             ]
         },
         {
-            "filename": "SVG/.Outdated/Bitpanda bg.var v1.svg",
+            "filename": "SVG/.Outdated/Bitpanda v1 bg.var.svg",
             "category": "4. Outdated",
             "issuer": [
                 "Bitpanda"
@@ -498,6 +498,20 @@
             "category": "4. Outdated",
             "issuer": [
                 "Twitch"
+            ]
+        },
+        {
+            "filename": "SVG/.Outdated/Unity v1 bg.var.svg",
+            "category": "4. Outdated",
+            "issuer": [
+                "Unity"
+            ]
+        },
+        {
+            "filename": "SVG/.Outdated/Unity v1.svg",
+            "category": "4. Outdated",
+            "issuer": [
+                "Unity" 
             ]
         },
         {
@@ -953,13 +967,6 @@
             "category": "2. Variations & Alts",
             "issuer": [
                 "Unitrends"
-            ]
-        },
-        {
-            "filename": "SVG/.Variations/Unity bg.var.svg",
-            "category": "2. Variations & Alts",
-            "issuer": [
-                "Unity"
             ]
         },
         {
@@ -4050,7 +4057,7 @@
             ]
         },
         {
-            "filename": "SVG/Unity.svg",
+            "filename": "SVG/Unity v2.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "Unity"
