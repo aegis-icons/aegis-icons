@@ -306,7 +306,7 @@ Looking for software to start make icons? Here's some of the well known ones.
 
 ## Footnotes
 
-*Footnotes, footnotes...*
+*Here's all the footnotes:*
 
 [^1]: Article: [Logo, Logomark, Logotype - What's The Difference And What Do You Need?](https://blog.designcrowd.com/article/997/logo-logomark-logotype-whats-the-difference-and-what-do-you-need) <sup>[wayback machine](https://web.archive.org/web/20200606123728/https://blog.designcrowd.com/article/997/logo-logomark-logotype-whats-the-difference-and-what-do-you-need)</sup>
 
