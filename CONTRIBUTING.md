@@ -33,7 +33,6 @@ It's recommended to also have some knowledge of design in general.
   - [Software](#software)
 - [**Maintainer's guide**](#maintainers-guide)
 - [**Issue guidelines**](#issue-guidelines)
-- [**Footnotes**](#footnotes)
 
 ---
 
@@ -304,7 +303,6 @@ Looking for software to start make icons? Here's some of the well known ones.
 
 <b>After reading and accepting guidelines, <a href="../../issues/new/choose">you can make new issue</a>.</b>
 
-## Footnotes
 [^1]: Article: [Logo, Logomark, Logotype - What's The Difference And What Do You Need?](https://blog.designcrowd.com/article/997/logo-logomark-logotype-whats-the-difference-and-what-do-you-need) <sup>[wayback machine](https://web.archive.org/web/20200606123728/https://blog.designcrowd.com/article/997/logo-logomark-logotype-whats-the-difference-and-what-do-you-need)</sup>
 
 [^2]: This color is taken from [Material Design 2014 color system](https://material.io/design/color/the-color-system.html#tools-for-picking-colors) <sup>[archive.is w/ linked section](https://archive.is/96QQG#77%)</sup> (Blue Grey, 500).
