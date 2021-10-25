@@ -21,10 +21,10 @@ Now you can add icons to your entries:
 
 ### Manually
 
-1. Download the icon (eg. from [our website](https://aegis-icons.github.io/))
+1. Download the icon (eg. from [our website](https://aegis-icons.github.io/)).
 2. In **Aegis**, long-press the entry and then tap "pencil button". 🖼 [[Example]](https://raw.githubusercontent.com/aegis-icons/design-assets/master/screenshots/faq_how-to-use-icons_001.png)
 3. In "Edit entry", tap the circle that has one letter in it. 🖼 [[Example]](https://raw.githubusercontent.com/aegis-icons/design-assets/master/screenshots/faq_how-to-use-icons_002.png)
-4. If you don't have any icon packs enabled, then select app for locating icon (like file manager or gallery app)
+4. If you don't have any icon packs enabled, then select app for locating icon (like file manager or gallery app).
    - If you *do* have a icon pack enabled, first press button with "Custom" label 🖼 [[Example]](https://raw.githubusercontent.com/aegis-icons/design-assets/master/screenshots/faq_how-to-use-icons_003.png) and *then* select the app for locating icon that you downloaded.
 5. After the selection, tap "Save" button at top-right.
 
