@@ -62,7 +62,7 @@ This tutorial focuses on icon editing in Android and with [Amaze file manager](h
 6. Find a color you like using color picker.
    - Good mobile-friendly web apps: https://color.obscuredetour.com/ & https://color.joelb.dev/
 7. Copy the HEX color value.
-   - HEX color starts with hash (#) and has 6 alphanumerical characters.
+   - HEX color starts with hash (#) and has 3 to 6 alphanumerical characters.
 8. Find `<circle` part from the code, then look for `fill:#RANDOMHEX`. 🖼 [[Example]](https://raw.githubusercontent.com/aegis-icons/design-assets/master/screenshots/faq_edit_icon_02-001.png)
    - In this example, `#RANDOMHEX` is `#1a8cff`.
    - Some rare occasions instead of HEX code, it could also be the name of the color (eg. `fill:gray`).
