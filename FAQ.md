@@ -65,8 +65,8 @@ This tutorial focuses on icon editing in Android and with [Amaze file manager](h
    - HEX color starts with hash (#) and has 6 alphanumerical characters.
 8. Find `<circle` part from the code, then look for `fill:#RANDOMHEX`. 🖼 [[Example]](https://raw.githubusercontent.com/aegis-icons/design-assets/master/screenshots/faq_edit_icon_02-001.png)
    - In this example, `#RANDOMHEX` is `#1a8cff`.
-   - Some rare occasions it could also be a name of the color, like `gray`.
-   - Black icons don't have `style` attribute, so you need to add it manually (check the example screenshot above).
+   - Some rare occasions instead of HEX code, it could also be the name of the color (eg. `fill:gray`).
+   - Black icons don't have `style` attribute, so you need to add it manually (check the placement in the example screenshot above).
    ```
    style="fill:#RANDOMHEX"
    ```
