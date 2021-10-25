@@ -46,6 +46,7 @@ Even though PC is needed, you don't need to install extra software. Web browser 
    - 2\. Change the name of the title to something else (eg. name of the app or website).
    - 3\. Click "File" and "Save image..."
 8. Download and move edited SVG(s) into your phone with your refer method (USB, email, cloud etc).
+9. [Import icon(s) to Aegis](#manually)
 
 If you want alternatives, check out [Photopea](https://www.photopea.com/) or [Vectr](https://vectr.com/). Or want to use desktop software instead, [Inkscape](https://inkscape.org/) and [SVG Splash](https://www.svgsplash.com/) are best free options.
 
@@ -64,6 +65,7 @@ This tutorial focuses on icon editing in Android and with [Amaze file manager](h
    - HEX color starts with hash (#) and has 6 alphanumerical characters.
 8. Find `<circle` part from the code, then look for `fill:#RANDOMHEX`. 🖼 [[Example]](https://raw.githubusercontent.com/aegis-icons/design-assets/master/screenshots/faq_edit_icon_02-001.png)
    - In this example, `#RANDOMHEX` is `#1a8cff`.
+   - Some rare occasions it could also be a name of the color, like `gray`.
    - Black icons don't have `style` attribute, so you need to add it manually (check the example screenshot above).
    ```
    style="fill:#RANDOMHEX"
@@ -71,6 +73,7 @@ This tutorial focuses on icon editing in Android and with [Amaze file manager](h
 9. Replace the HEX color code text with copied hex color. 🖼 [[Example]](https://raw.githubusercontent.com/aegis-icons/design-assets/master/screenshots/faq_edit_icon_02-002.png)
    - In this example, *replacable* HEX code is `#1a8cff` and HEX code *we want* is `#e32b3f`.
 10. Press the "save" icon. 🖼 [[Example]](https://raw.githubusercontent.com/aegis-icons/design-assets/master/screenshots/faq_edit_icon_02-003.png)
+11. [Import icon(s) to Aegis](#manually)
 
 ## Why only some of the icons have `bg.var`, `fg.var`, `fg.bg.var` or `alt` version?
 
