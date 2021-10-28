@@ -3252,6 +3252,13 @@
             ]
         },
         { 
+            "filename": "SVG/PeerBerry.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "PeerBerry"
+            ]
+        },
+        { 
             "filename": "SVG/PeerTube.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4134,6 +4141,13 @@
             ]
         },
         {
+            "filename": "SVG/Vauld.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Vauld"
+            ]
+        },
+        { 
             "filename": "SVG/Versio.svg",
             "category": "1. Apps & Sites",
             "issuer": [
