@@ -2881,6 +2881,13 @@
             ]
         },
         {
+            "filename": "SVG/Mutasibank.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Mutasibank"
+            ]
+        },
+        { 
             "filename": "SVG/MyAnimeList.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2997,6 +3004,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Nexus Mods"
+            ]
+        },
+        {
+            "filename": "SVG/Niagahoster.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Niagahoster"
             ]
         },
         {
@@ -3588,6 +3602,13 @@
             ]
         },
         {
+            "filename": "SVG/Samtrade FX.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Samtrade FX"
+            ]
+        },
+        { 
             "filename": "SVG/Satang.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3914,6 +3935,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Ting"
+            ]
+        },
+        {
+            "filename": "SVG/Tokocrypto.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Tokocrypto"
             ]
         },
         {
