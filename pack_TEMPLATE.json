@@ -2209,6 +2209,13 @@
             ]
         },
         {
+            "filename": "SVG/Gate.io.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Gate.io"
+            ]
+        },
+        {
             "filename": "SVG/Gatsby.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3091,6 +3098,13 @@
             ]
         },
         {
+            "filename": "SVG/OMG.LOL.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "OMG.LOL"
+            ]
+        },
+        { 
             "filename": "SVG/ORCID.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3935,6 +3949,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Ting"
+            ]
+        },
+        {
+            "filename": "SVG/Tixte.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Tixte"
             ]
         },
         {
