@@ -24,7 +24,7 @@ These are people who has contributed our project with commits or sending icon su
   - For *[converting jQuery code to regular JavaScript for aegis-icons's website](https://old.reddit.com/r/CodingHelp/comments/oz5cov/can_somebody_help_me_get_this_converted_from/h7y9cua/)* ([referenced code on the site repo](https://github.com/aegis-icons/aegis-icons.github.io/blob/0fd7502a865f5ea7c94f6e77ff01d9da4c085e64/index.html#L210+L232)).
 - **[gnulab-id](https://github.com/gnulab-id)**
   - For these icons: *Mutasibank* ([#415](https://github.com/aegis-icons/aegis-icons/issues/415)), *Niagahoster* ([#416](https://github.com/aegis-icons/aegis-icons/issues/416)), *Samtrade FX* ([#417](https://github.com/aegis-icons/aegis-icons/issues/417)), *Tokocrypto* ([#418](https://github.com/aegis-icons/aegis-icons/issues/418)).
-  - For updating *Samtrade FX* icon ([#425](https://github.com/aegis-icons/aegis-icons/issues/425))
+  - For updating *Samtrade FX* icon ([#425](https://github.com/aegis-icons/aegis-icons/issues/425)).
 - **[gr99t](https://github.com/gr99t)**
   - For *Packagist* icon ([#270](https://github.com/aegis-icons/aegis-icons/issues/270)).
 - **[IamRifki](https://github.com/IamRifki)** (Dania Rifki)
