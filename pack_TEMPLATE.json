@@ -466,6 +466,13 @@
             ]
         },
         {
+            "filename": "SVG/.Outdated/Samtrade FX v1.svg",
+            "category": "4. Outdated",
+            "issuer": [
+                "Samtrade FX"
+            ]
+        },
+        { 
             "filename": "SVG/.Outdated/Stripe v1.svg",
             "category": "4. Outdated",
             "issuer": [
@@ -519,6 +526,13 @@
             "category": "4. Outdated",
             "issuer": [
                 "VK"
+            ]
+        },
+        {
+            "filename": "SVG/.Outdated/VK v2.svg",
+            "category": "4. Outdated",
+            "issuer": [
+                "VK" 
             ]
         },
         {
@@ -1243,17 +1257,17 @@
             ]
         },
         {
+            "filename": "SVG/AppFolio v2.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "AppFolio"
+            ]
+        },
+        {
             "filename": "SVG/AppVeyor.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "AppVeyor"
-            ]
-        },
-        {
-            "filename": "SVG/AppFolio v2.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "Appfolio"
             ]
         },
         {
@@ -1264,6 +1278,13 @@
             ]
         },
         {
+            "filename": "SVG/Arch Linux.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Arch Linux"
+            ]
+        },
+        { 
             "filename": "SVG/Arduino.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3532,6 +3553,13 @@
             ]
         },
         {
+            "filename": "SVG/Registro.br.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Registro.br"
+            ]
+        },
+        { 
             "filename": "SVG/Remote Utilities.svg",
             "category": "1. Apps & Sites",
             "issuer": [
