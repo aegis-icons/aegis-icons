@@ -2041,6 +2041,13 @@
             ]
         },
         {
+            "filename": "SVG/Exrates.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Exrates"
+            ]
+        },
+        {
             "filename": "SVG/FACEIT.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3665,7 +3672,7 @@
             ]
         },
         {
-            "filename": "SVG/Samtrade FX.svg",
+            "filename": "SVG/Samtrade FX v2.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "Samtrade FX"
@@ -3718,6 +3725,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Sendy"
+            ]
+        },
+        { 
+            "filename": "SVG/Sentry.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Sentry"
             ]
         },
         { 
@@ -4218,7 +4232,7 @@
             ]
         },
         {
-            "filename": "SVG/VK v2.svg",
+            "filename": "SVG/VK v3.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "VK"
