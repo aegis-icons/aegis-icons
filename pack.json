@@ -424,6 +424,13 @@
             ]
         },
         {
+            "filename": "SVG/.Outdated/Origin.svg",
+            "category": "4. Outdated",
+            "issuer": [
+                "Origin"   
+            ]
+        },
+        {
             "filename": "SVG/.Outdated/OwnCube v1.svg",
             "category": "4. Outdated",
             "issuer": [
@@ -3256,13 +3263,6 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Oracle"
-            ]
-        },
-        {
-            "filename": "SVG/Origin.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "Origin"
             ]
         },
         {
