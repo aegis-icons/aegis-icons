@@ -19,7 +19,7 @@ These are people who has contributed our project with commits or sending icon su
 - **[bartlibert](https://github.com/AnTheMaker)** (Bart Libert)
   - For these icons: *STACK* ([#397](https://github.com/aegis-icons/aegis-icons/pull/397)), *CSAM* ([#398](https://github.com/aegis-icons/aegis-icons/pull/398)), *DigiConnect* ([#399](https://github.com/aegis-icons/aegis-icons/pull/399)), *Smartschool* ([#400](https://github.com/aegis-icons/aegis-icons/pull/400)), *Directus* ([#401](https://github.com/aegis-icons/aegis-icons/pull/401)).
 - **[devmrcl](https://github.com/devmrcl)** (Marcel Hopf)
-  - For these icons: *IONOS* ([#271](https://github.com/aegis-icons/aegis-icons/issues/271)), *Bitrix24* ([#272](https://github.com/aegis-icons/aegis-icons/issues/272)).
+  - For these icons: *IONOS* ([#271](https://github.com/aegis-icons/aegis-icons/issues/271)), *Bitrix24* ([#272](https://github.com/aegis-icons/aegis-icons/issues/272)), *Deutsche Bahn* ([#430](https://github.com/aegis-icons/aegis-icons/issues/430)).
 - **Earhacker** from Reddit
   - For *[converting jQuery code to regular JavaScript for aegis-icons's website](https://old.reddit.com/r/CodingHelp/comments/oz5cov/can_somebody_help_me_get_this_converted_from/h7y9cua/)* ([referenced code on the site repo](https://github.com/aegis-icons/aegis-icons.github.io/blob/0fd7502a865f5ea7c94f6e77ff01d9da4c085e64/index.html#L210+L232)).
 - **[gnulab-id](https://github.com/gnulab-id)**
