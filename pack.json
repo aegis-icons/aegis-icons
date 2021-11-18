@@ -732,6 +732,13 @@
             ]
         },
         {
+            "filename": "SVG/.Variations/HMBradley bg.var.svg",
+            "category": "2. Variations & Alts",
+            "issuer": [
+                "HMBradley"
+            ]
+        },
+        {
             "filename": "SVG/.Variations/HYGH bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
@@ -2405,6 +2412,13 @@
             ]
         },
         {
+            "filename": "SVG/HMBradley.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "HMBradley"
+            ]
+        },
+        {
             "filename": "SVG/HYGH.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3329,6 +3343,13 @@
             ]
         },
         { 
+            "filename": "SVG/PebbleHost.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "PebbleHost"
+            ]
+        },
+        {
             "filename": "SVG/PeerBerry.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3340,6 +3361,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "PeerTube"
+            ]
+        },
+        {
+            "filename": "SVG/PeeringDB.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "PeeringDB"
             ]
         },
         {
@@ -4586,6 +4614,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "ecobee"
+            ]
+        },
+        {
+            "filename": "SVG/hosting.de.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "hosting.de"
             ]
         },
         {
