@@ -1887,6 +1887,13 @@
             ]
         },
         {
+            "filename": "SVG/Digitec Galaxus.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Digitec Galaxus"
+            ]
+        },
+        { 
             "filename": "SVG/Digix.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2188,6 +2195,13 @@
             ]
         },
         { 
+            "filename": "SVG/Formspree.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Formspree"
+            ]
+        },
+        {
             "filename": "SVG/Forum Italia.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2283,6 +2297,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Gemini"
+            ]
+        },
+        {
+            "filename": "SVG/Gentoo Linux.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Gentoo Linux"
             ]
         },
         {
@@ -3634,6 +3655,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Robinhood"
+            ]
+        },
+        {
+            "filename": "SVG/Roblox.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Roblox"
             ]
         },
         {
