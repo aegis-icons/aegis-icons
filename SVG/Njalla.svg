@@ -1,36 +1,4 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
-   <style>
-      .st2{fill:#fff}
-   </style>
-   <g id="Icon">
-      <circle cx="512" cy="512" r="512" style="fill:#19d6ac"/>
-      <g id="logo" transform="translate(634 20)">
-         <g id="Group-13" transform="translate(0 .066)">
-            <g id="Group-10" transform="translate(58.46)">
-               <defs>
-                  <filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="-353.8" y="235.9" width="346.7" height="385.1">
-                     <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0"/>
-                  </filter>
-               </defs>
-               <mask maskUnits="userSpaceOnUse" x="-353.8" y="235.9" width="346.7" height="385.1" id="mask-2_2_">
-                  <g style="filter:url(#Adobe_OpacityMaskFilter)">
-                     <path id="path-1_2_" class="st2" d="M-7.1 235.9h-346.7V621H-7.1z"/>
-                  </g>
-               </mask>
-               <path id="Fill-8" style="mask:url(#mask-2_2_);fill:#fff" d="M-295.8 621h-58l176.5-385.1L-7.1 621H-66l-112.3-262.6-55.4 123.2z"/>
-            </g>
-            <defs>
-               <filter id="Adobe_OpacityMaskFilter_1_" filterUnits="userSpaceOnUse" x="-148.9" y="588.5" width="53.8" height="159.4">
-                  <feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0"/>
-               </filter>
-            </defs>
-            <mask maskUnits="userSpaceOnUse" x="-148.9" y="588.5" width="53.8" height="159.4" id="mask-4_2_">
-               <g style="filter:url(#Adobe_OpacityMaskFilter_1_)">
-                  <path id="path-3_2_" class="st2" d="M-1160.5 754.5h2540.6V235.9h-2540.6z"/>
-               </g>
-            </mask>
-            <path id="Fill-11" style="mask:url(#mask-4_2_);fill:#fff" d="M-148.9 747.9h53.8V588.5h-53.8z"/>
-         </g>
-      </g>
-   </g>
+   <circle cx="512" cy="512" r="512" style="fill:#19d6ac"/>
+   <path d="M485.09 608.6h53.82V768h-53.82Zm-26.34-106.92 55.44-123.19 112.26 262.57h58.9L515.12 256 338.65 641.06h58Z" style="fill:#fff"/>
 </svg>
