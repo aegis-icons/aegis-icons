@@ -3000,6 +3000,13 @@
             ]
         },
         {
+            "filename": "SVG/NAVER.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "NAVER"
+            ]
+        },
+        { 
             "filename": "SVG/NPM.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3277,6 +3284,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "OpenSRS"
+            ]
+        },
+        {
+            "filename": "SVG/OpenVK.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "OpenVK"
             ]
         },
         {
