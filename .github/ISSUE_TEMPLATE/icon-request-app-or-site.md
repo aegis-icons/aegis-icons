@@ -22,9 +22,9 @@ Remember to add NAME OF THE SITE OR APP at the end of the issue title (on the to
 
 If you're adding IMAGE as logo resource, it has to be either:
 
-1. SVG vector from official source (vectors are most preferable)
+1. SVG vector, preferably from official source (vectors are most preferable)
    OR
-2. High quality (at least 1000 x 1000 pixels) image from official source (image size does not include white space around the logo, has to have smooth edges, no artifacts etc).
+2. High quality (at least 1000 x 1000 pixels) image, preferably from official source (image size does not include white space around the logo, has to have smooth edges, no artifacts etc).
 
 ⚠️ Logo image(s) must be currently used by the company.
 
