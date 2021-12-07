@@ -2685,6 +2685,13 @@
             ]
         },
         {
+            "filename": "SVG/KDE.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "KDE"
+            ]
+        },
+        {
             "filename": "SVG/Kaseya.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2916,6 +2923,13 @@
             ]
         },
         {
+            "filename": "SVG/MathWorks.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "MathWorks"
+            ]
+        },
+        { 
             "filename": "SVG/Matomo.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3210,6 +3224,13 @@
             ]
         },
         { 
+            "filename": "SVG/OPNsense.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "OPNsense"
+            ]
+        },
+        {
             "filename": "SVG/ORCID.svg",
             "category": "1. Apps & Sites",
             "issuer": [
