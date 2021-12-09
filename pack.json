@@ -1999,6 +1999,14 @@
             ]
         },
         {
+            "filename": "SVG/E-Trade.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "E-Trade",
+                "E*TRADE"
+            ]
+        },
+        {
             "filename": "SVG/ESEA.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4754,6 +4762,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "sourcehut"
+            ]
+        },
+        {
+            "filename": "SVG/united-domains.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "united-domains"
             ]
         },
         {
