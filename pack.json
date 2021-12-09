@@ -200,6 +200,13 @@
             ]
         },
         {
+            "filename": "SVG/.Outdated/Betterment v1.svg",
+            "category": "4. Outdated",
+            "issuer": [
+                "Betterment"
+            ]
+        },
+        {
             "filename": "SVG/.Outdated/Bitfinex v1.svg",
             "category": "4. Outdated",
             "issuer": [
@@ -480,6 +487,13 @@
             ]
         },
         { 
+            "filename": "SVG/.Outdated/Star Wars The Old Republic v1.svg",
+            "category": "4. Outdated",
+            "issuer": [
+                "Star Wars The Old Republic"
+            ]
+        },
+        {
             "filename": "SVG/.Outdated/Stripe v1.svg",
             "category": "4. Outdated",
             "issuer": [
@@ -1404,7 +1418,7 @@
             ]
         },
         {
-            "filename": "SVG/Betterment.svg",
+            "filename": "SVG/Betterment v2.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "Betterment"
@@ -3988,7 +4002,7 @@
             ]
         },
         {
-            "filename": "SVG/Star Wars The Old Republic.svg",
+            "filename": "SVG/Star Wars The Old Republic v2.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "Star Wars: The Old Republic"
