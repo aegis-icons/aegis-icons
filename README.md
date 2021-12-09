@@ -31,7 +31,7 @@
 - [Font Awesome](https://fontawesome.com/) by Fonticons ([CC BY 4.0](https://github.com/FortAwesome/Font-Awesome/blob/master/LICENSE.txt))
 - [fontdiao](https://github.com/lexrus/fontdiao) by Lex Tang ([WTFPL](https://github.com/lexrus/fontdiao#license))
 - [Linux Deepin icon theme](https://github.com/linuxdeepin/deepin-icon-theme) by Wuhan Deepin Technology ([GPL 3.0](https://github.com/linuxdeepin/deepin-icon-theme/blob/master/LICENSE))
-- [Lucide](https://lucide.netlify.app/) ([ISC](https://github.com/lucide-icons/lucide/blob/master/LICENSE))
+- [Lucide](https://lucide.dev/) ([ISC](https://github.com/lucide-icons/lucide/blob/master/LICENSE))
 - [Simple Icons](https://simpleicons.org/) ([CC0 1.0 Universal](https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md))
 - [Unicons](https://iconscout.com/unicons) by Iconscout ([Apache 2.0](https://github.com/Iconscout/unicons/blob/master/LICENSE))
 
