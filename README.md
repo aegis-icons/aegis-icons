@@ -24,6 +24,7 @@
 </p>
 
 ## Credits
+- [2FA Directory](https://2fa.directory/) ([MIT](https://github.com/2factorauth/twofactorauth/blob/master/LICENSE.md))
 - [Cryptocurrency Icons](http://cryptoicons.co/) ([CC0 1.0 Universal](https://github.com/spothq/cryptocurrency-icons/blob/master/LICENSE.md))
 - [Feather](https://feathericons.com/) by Cole Bemis ([MIT](https://github.com/feathericons/feather/blob/master/LICENSE))
 - [Fork Awesome](https://forkaweso.me/Fork-Awesome/) ([SIL OFL 1.1](https://github.com/ForkAwesome/Fork-Awesome/blob/master/LICENSES))
