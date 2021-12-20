@@ -655,6 +655,13 @@
             ]
         },
         {
+            "filename": "SVG/.Variations/ControlD fg.var.svg",
+            "category": "2. Variations & Alts",
+            "issuer": [
+                "ControlD"
+            ]
+        },
+        {
             "filename": "SVG/.Variations/Crowdin bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
@@ -1740,6 +1747,13 @@
             ]
         },
         {
+            "filename": "SVG/Coda.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Coda"
+            ]
+        },
+        {
             "filename": "SVG/CodeShip.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -1800,6 +1814,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Contabo"
+            ]
+        },
+        {
+            "filename": "SVG/ControlD.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "ControlD"
             ]
         },
         {
