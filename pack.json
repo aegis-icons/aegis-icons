@@ -2560,6 +2560,13 @@
             ]
         },
         {
+            "filename": "SVG/Hive OS.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Hive OS"
+            ]
+        },
+        { 
             "filename": "SVG/Hiven.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2669,6 +2676,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Icedrive"
+            ]
+        },
+        {
+            "filename": "SVG/Indodax.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Indodax"
             ]
         },
         {
