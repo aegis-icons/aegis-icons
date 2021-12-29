@@ -984,6 +984,13 @@
             ]
         },
         {
+            "filename": "SVG/.Variations/TETR.IO bg.var.svg",
+            "category": "2. Variations & Alts",
+            "issuer": [
+                "TETR.IO"
+            ]
+        },
+        {
             "filename": "SVG/.Variations/TradingView v3 bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
@@ -4125,6 +4132,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "T-Mobile"
+            ]
+        },
+        {
+            "filename": "SVG/TETR.IO.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "TETR.IO"
             ]
         },
         {
