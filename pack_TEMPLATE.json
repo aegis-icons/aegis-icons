@@ -2595,6 +2595,13 @@
             ]
         },
         {
+            "filename": "SVG/Homey.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Homey"
+            ]
+        },
+        {
             "filename": "SVG/Hostinger.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3883,6 +3890,13 @@
             ]
         },
         {
+            "filename": "SVG/Saweria.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Saweria"
+            ]
+        },
+        {
             "filename": "SVG/Scaleway.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4853,6 +4867,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "pCloud"
+            ]
+        },
+        {
+            "filename": "SVG/postale.io.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "postale.io"
             ]
         },
         {
