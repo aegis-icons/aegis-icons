@@ -2917,6 +2917,13 @@
             ]
         },
         {
+            "filename": "SVG/LunaNode.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "LunaNode"
+            ]
+        },
+        {
             "filename": "SVG/Luno.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3953,6 +3960,13 @@
             ]
         },
         { 
+            "filename": "SVG/Shakepay.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Shakepay"
+            ]
+        },
+        {
             "filename": "SVG/Shareworks.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4265,6 +4279,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "TorGuard"
+            ]
+        },
+        {
+            "filename": "SVG/TorrentBD.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "TorrentBD"
             ]
         },
         {
