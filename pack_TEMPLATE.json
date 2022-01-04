@@ -1187,6 +1187,13 @@
             ]
         },
         {
+            "filename": "SVG/Acorns.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Acorns"
+            ]
+        },
+        {
             "filename": "SVG/Active24.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2805,6 +2812,13 @@
             ]
         },
         {
+            "filename": "SVG/Kerberos.io.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Kerberos.io"
+            ]
+        },
+        { 
             "filename": "SVG/Keycloak.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2903,6 +2917,13 @@
             ]
         },
         {
+            "filename": "SVG/Lnk.Bio.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Lnk.Bio"
+            ]
+        },
+        { 
             "filename": "SVG/Localbitcoins.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4111,6 +4132,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "StartMail"
+            ]
+        },
+        {
+            "filename": "SVG/Stash.svg",
+            "category": null,
+            "issuer": [
+                "Stash"
             ]
         },
         {
