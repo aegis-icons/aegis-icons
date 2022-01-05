@@ -1117,6 +1117,13 @@
             ]
         },
         {
+            "filename": "SVG/.Variations/Zipmex bg.var.svg",
+            "category": "2. Variations & Alts",
+            "issuer": [
+                "Zipmex" 
+            ]
+        },
+        {
             "filename": "SVG/.Variations/axe bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
@@ -1226,6 +1233,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Adobe"
+            ]
+        },
+        {
+            "filename": "SVG/Advcash.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Advcash"
             ]
         },
         {
@@ -1488,6 +1502,13 @@
             ]
         },
         {
+            "filename": "SVG/Bitcoin.com.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Bitcoin.com"
+            ]
+        },
+        {
             "filename": "SVG/Bitdefender.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -1499,6 +1520,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Bitfinex"
+            ]
+        },
+        {
+            "filename": "SVG/Bitkub.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Bitkub"
             ]
         },
         {
@@ -1828,6 +1856,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Coinmama"
+            ]
+        },
+        {
+            "filename": "SVG/Coins.co.th.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Coins.co.th"
             ]
         },
         {
@@ -3337,6 +3372,13 @@
             ]
         },
         {
+            "filename": "SVG/OKEx.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "OKEx"
+            ]
+        },
+        {
             "filename": "SVG/OMG.LOL.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4779,6 +4821,13 @@
             ]
         },
         {
+            "filename": "SVG/Zipmex.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Zipmex"
+            ]
+        },
+        { 
             "filename": "SVG/Zoho.svg",
             "category": "1. Apps & Sites",
             "issuer": [
