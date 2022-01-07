@@ -1509,6 +1509,20 @@
             ]
         },
         {
+            "filename": "SVG/BitMart.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "BitMart"
+            ]
+        },
+        {
+            "filename": "SVG/Bitazza.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Bitazza"
+            ]
+        },
+        {
             "filename": "SVG/Bitbucket.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -1723,6 +1737,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "CTemplar"
+            ]
+        },
+        {
+            "filename": "SVG/Caixa.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Caixa"
             ]
         },
         {
@@ -2634,6 +2655,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Hiven"
+            ]
+        },
+        {
+            "filename": "SVG/Hodlnaut.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Hodlnaut"
             ]
         },
         {
@@ -4186,7 +4214,7 @@
         },
         {
             "filename": "SVG/Stash.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Stash"
             ]
@@ -4504,6 +4532,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "UpCloud"
+            ]
+        },
+        {
+            "filename": "SVG/Upbit.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Upbit"
             ]
         },
         {
