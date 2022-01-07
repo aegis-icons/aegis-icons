@@ -172,6 +172,13 @@
             ]
         },
         {
+            "filename": "SVG/.Outdated/2Checkout.svg",
+            "category": "4. Outdated",
+            "issuer": [
+                "2Checkout"
+            ]
+        },
+        {
             "filename": "SVG/.Outdated/AppFolio v1.svg",
             "category": "4. Outdated",
             "issuer": [
@@ -312,6 +319,13 @@
             ]
         },
         {
+            "filename": "SVG/.Outdated/DueDEX.svg",
+            "category": "4. Outdated",
+            "issuer": [
+                "DueDEX"
+            ]
+        },
+        {
             "filename": "SVG/.Outdated/Enom v1.svg",
             "category": "4. Outdated",
             "issuer": [
@@ -393,6 +407,13 @@
             "category": "4. Outdated",
             "issuer": [
                 "Justworks"
+            ]
+        },
+        {
+            "filename": "SVG/.Outdated/Kryptono.svg",
+            "category": "4. Outdated",
+            "issuer": [
+                "Kryptono"
             ]
         },
         {
@@ -1170,13 +1191,6 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "1Password"
-            ]
-        },
-        {
-            "filename": "SVG/2Checkout.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "2Checkout"
             ]
         },
         {
@@ -2076,13 +2090,6 @@
             ]
         },
         {
-            "filename": "SVG/DueDEX.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "DueDEX"
-            ]
-        },
-        {
             "filename": "SVG/Dynadot.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2893,13 +2900,6 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Kryll.io"
-            ]
-        },
-        {
-            "filename": "SVG/Kryptono.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "Kryptono"
             ]
         },
         {
@@ -4121,6 +4121,14 @@
             ]
         },
         {
+            "filename": "SVG/Spring.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Spring",
+                "Teespring"
+            ]
+        },
+        {
             "filename": "SVG/Spry Servers.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4258,13 +4266,6 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "TeamViewer"
-            ]
-        },
-        {
-            "filename": "SVG/Teespring.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "Teespring"
             ]
         },
         { 
@@ -4716,10 +4717,10 @@
             ]
         },
         {
-            "filename": "SVG/XDA-Developers.svg",
+            "filename": "SVG/XDA Developers.svg",
             "category": "1. Apps & Sites",
             "issuer": [
-                "XDA-Developers"
+                "XDA Developers"
             ]
         },
         {
