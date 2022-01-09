@@ -1,0 +1,6 @@
+<svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 122.67">
+   <path d="M0 22.67h100v100H0Z" style="fill:#fff"/>
+   <path d="M100 22.67h100v100H100Z" style="fill:#2b2b2b"/>
+   <path d="M200 22.67h100v100H200Z" style="fill:#000"/>
+   <text transform="translate(1.56 6.33)" style="font-size:8px;font-family:ArialMT,Arial"><tspan style="letter-spacing:-.02em">A</tspan><tspan x="5.19" y="0">void these colors as BG, if possible. White is always banned colo</tspan><tspan x="235.08" y="0" style="letter-spacing:-.06em">r</tspan><tspan x="237.3" y="0">, no matter what.</tspan><tspan x="0" y="9.6">If brand color is clearly dark, make variation icon (check CONTRIBUTING doc).</tspan></text>
+</svg>
