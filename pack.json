@@ -277,6 +277,13 @@
             ]
         },
         {
+            "filename": "SVG/.Outdated/CoinDCX v1.svg",
+            "category": "4. Outdated",
+            "issuer": [
+                "CoinDCX"   
+            ]
+        },
+        {
             "filename": "SVG/.Outdated/Coinbase v1.svg",
             "category": "4. Outdated",
             "issuer": [
@@ -388,7 +395,7 @@
                 "HM Revenue & Customs"
             ]
         },
-        { 
+        {
             "filename": "SVG/.Outdated/Hostwinds v1.svg",
             "category": "4. Outdated",
             "issuer": [
@@ -508,17 +515,59 @@
             ]
         },
         {
+            "filename": "SVG/.Outdated/Republic Wireless v1.svg",
+            "category": "4. Outdated",
+            "issuer": [
+                "Republic Wireless"
+            ]
+        },
+        {
             "filename": "SVG/.Outdated/Samtrade FX v1.svg",
             "category": "4. Outdated",
             "issuer": [
                 "Samtrade FX"
             ]
         },
-        { 
+        {
+            "filename": "SVG/.Outdated/Stake v1 bg.var.svg",
+            "category": "4. Outdated",
+            "issuer": [
+                "Stake"
+            ]
+        },
+        {
+            "filename": "SVG/.Outdated/Stake v1.svg",
+            "category": "4. Outdated",
+            "issuer": [
+                "Stake"
+            ]
+        },
+        {
+            "filename": "SVG/.Outdated/Standard Notes v1.svg",
+            "category": "4. Outdated",
+            "issuer": [
+                "Standard Notes"
+            ]
+        },
+        {
+            "filename": "SVG/.Outdated/Star Citizen v1 bg.var.svg",
+            "category": "4. Outdated",
+            "issuer": [
+                "Star Citizen"
+            ]
+        },
+        {
+            "filename": "SVG/.Outdated/Star Citizen.svg",
+            "category": "4. Outdated",
+            "issuer": [
+                "Star Citizen"
+            ]
+        },
+        {
             "filename": "SVG/.Outdated/Star Wars The Old Republic v1.svg",
             "category": "4. Outdated",
             "issuer": [
-                "Star Wars The Old Republic"
+                "Star Wars: The Old Republic"
             ]
         },
         {
@@ -547,6 +596,13 @@
             "category": "4. Outdated",
             "issuer": [
                 "Trello"
+            ]
+        },
+        {
+            "filename": "SVG/.Outdated/Tumblr v1.svg",
+            "category": "4. Outdated",
+            "issuer": [
+                "Tumblr"
             ]
         },
         {
@@ -962,7 +1018,7 @@
                 "Remote Utilities"
             ]
         },
-        { 
+        {
             "filename": "SVG/.Variations/Snapchat fg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
@@ -984,17 +1040,10 @@
             ]
         },
         {
-            "filename": "SVG/.Variations/Stake bg.var.svg",
+            "filename": "SVG/.Variations/Stake v2 bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
                 "Stake"
-            ]
-        },
-        {
-            "filename": "SVG/.Variations/Star Citizen bg.var.svg",
-            "category": "2. Variations & Alts",
-            "issuer": [
-                "Star Citizen"
             ]
         },
         {
@@ -1298,7 +1347,7 @@
                 "Allegro"
             ]
         },
-        { 
+        {
             "filename": "SVG/Amazon.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -1333,7 +1382,7 @@
                 "Aozora Securities"
             ]
         },
-        { 
+        {
             "filename": "SVG/Apigee.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -1368,7 +1417,7 @@
                 "Arch Linux"
             ]
         },
-        { 
+        {
             "filename": "SVG/Arduino.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -1648,7 +1697,7 @@
                 "BnkToTheFuture"
             ]
         },
-        { 
+        {
             "filename": "SVG/BookStack.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -1760,7 +1809,7 @@
                 "Canapii"
             ]
         },
-        { 
+        {
             "filename": "SVG/Carrd.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -1852,7 +1901,7 @@
             ]
         },
         {
-            "filename": "SVG/CoinDCX.svg",
+            "filename": "SVG/CoinDCX v2.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "CoinDCX"
@@ -2019,7 +2068,7 @@
                 "Digitec Galaxus"
             ]
         },
-        { 
+        {
             "filename": "SVG/Digix.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2040,7 +2089,7 @@
                 "Directus"
             ]
         },
-        { 
+        {
             "filename": "SVG/Discogs.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2174,7 +2223,7 @@
                 "Equinix"
             ]
         },
-        { 
+        {
             "filename": "SVG/Etsy.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2335,7 +2384,7 @@
                 "Focusrite"
             ]
         },
-        { 
+        {
             "filename": "SVG/Formspree.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2482,7 +2531,7 @@
                 "Glimesh"
             ]
         },
-        { 
+        {
             "filename": "SVG/Global Entry.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2608,7 +2657,7 @@
                 "HackerOne"
             ]
         },
-        { 
+        {
             "filename": "SVG/Hauk.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2650,7 +2699,7 @@
                 "Hive OS"
             ]
         },
-        { 
+        {
             "filename": "SVG/Hiven.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2874,7 +2923,7 @@
                 "KeepSolid"
             ]
         },
-        { 
+        {
             "filename": "SVG/Keeper.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2888,7 +2937,7 @@
                 "Kerberos.io"
             ]
         },
-        { 
+        {
             "filename": "SVG/Keycloak.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2986,7 +3035,7 @@
                 "Lnk.Bio"
             ]
         },
-        { 
+        {
             "filename": "SVG/Localbitcoins.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3112,7 +3161,7 @@
                 "MathWorks"
             ]
         },
-        { 
+        {
             "filename": "SVG/Matomo.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3168,14 +3217,14 @@
                 "Minehub.de"
             ]
         },
-        { 
+        {
             "filename": "SVG/Monex, Inc.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "Monex"
             ]
         },
-        { 
+        {
             "filename": "SVG/MongoDB.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3189,7 +3238,7 @@
                 "Mutasibank"
             ]
         },
-        { 
+        {
             "filename": "SVG/MyAnimeList.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3210,7 +3259,7 @@
                 "NAVER"
             ]
         },
-        { 
+        {
             "filename": "SVG/NPM.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3378,7 +3427,7 @@
                 "Notejoy"
             ]
         },
-        { 
+        {
             "filename": "SVG/Nuki.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3413,7 +3462,7 @@
                 "OMG.LOL"
             ]
         },
-        { 
+        {
             "filename": "SVG/OPNsense.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3448,7 +3497,7 @@
                 "Oculus"
             ]
         },
-        { 
+        {
             "filename": "SVG/OffGamers.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3595,7 +3644,7 @@
                 "Paycor"
             ]
         },
-        { 
+        {
             "filename": "SVG/PebbleHost.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3609,7 +3658,7 @@
                 "PeerBerry"
             ]
         },
-        { 
+        {
             "filename": "SVG/PeerTube.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3861,7 +3910,7 @@
                 "Registro.br"
             ]
         },
-        { 
+        {
             "filename": "SVG/Remote Utilities.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3876,17 +3925,25 @@
             ]
         },
         {
-            "filename": "SVG/Republic Wireless.svg",
+            "filename": "SVG/Republic Wireless v2.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "Republic Wireless"
             ]
         },
-        { 
+        {
             "filename": "SVG/Ring.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "Ring"
+            ]
+        },
+        {
+            "filename": "SVG/Roberts Space Industries.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Roberts Space Industries",
+                "Star Citizen"
             ]
         },
         {
@@ -3980,7 +4037,7 @@
                 "Samtrade FX"
             ]
         },
-        { 
+        {
             "filename": "SVG/Satang.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4036,21 +4093,21 @@
                 "Sendy"
             ]
         },
-        { 
+        {
             "filename": "SVG/Sentry.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "Sentry"
             ]
         },
-        { 
+        {
             "filename": "SVG/Server-Eye.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "Server-Eye"
             ]
         },
-        { 
+        {
             "filename": "SVG/Shakepay.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4085,7 +4142,7 @@
                 "Shortcut"
             ]
         },
-        { 
+        {
             "filename": "SVG/SimpleLogin.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4163,7 +4220,7 @@
                 "Spry Servers"
             ]
         },
-        { 
+        {
             "filename": "SVG/Square Enix.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4178,24 +4235,17 @@
             ]
         },
         {
-            "filename": "SVG/Stake.svg",
+            "filename": "SVG/Stake v2.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "Stake"
             ]
         },
         {
-            "filename": "SVG/Standard Notes.svg",
+            "filename": "SVG/Standard Notes v2.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "Standard Notes"
-            ]
-        },
-        {
-            "filename": "SVG/Star Citizen.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "Star Citizen"
             ]
         },
         {
@@ -4296,7 +4346,7 @@
                 "TeamViewer"
             ]
         },
-        { 
+        {
             "filename": "SVG/Tenable.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4317,7 +4367,7 @@
                 "Terraform"
             ]
         },
-        { 
+        {
             "filename": "SVG/Tesla.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4331,7 +4381,7 @@
                 "TheraKey"
             ]
         },
-        { 
+        {
             "filename": "SVG/Thycotic.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4437,7 +4487,7 @@
             ]
         },
         {
-            "filename": "SVG/Tumblr.svg",
+            "filename": "SVG/Tumblr v2.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "Tumblr"
@@ -4548,7 +4598,7 @@
                 "Uphold"
             ]
         },
-        { 
+        {
             "filename": "SVG/Uptime Kuma.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4604,7 +4654,7 @@
                 "Vauld"
             ]
         },
-        { 
+        {
             "filename": "SVG/Versio.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4737,7 +4787,7 @@
                 "Wordfence"
             ]
         },
-        { 
+        {
             "filename": "SVG/Wordpress.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4814,7 +4864,7 @@
                 "Yotta"
             ]
         },
-        { 
+        {
             "filename": "SVG/You Need A Budget.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4863,7 +4913,7 @@
                 "Zipmex"
             ]
         },
-        { 
+        {
             "filename": "SVG/Zoho.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4905,7 +4955,7 @@
                 "bitFlyer"
             ]
         },
-        { 
+        {
             "filename": "SVG/bunny.net.svg",
             "category": "1. Apps & Sites",
             "issuer": [
