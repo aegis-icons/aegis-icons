@@ -1796,6 +1796,13 @@
             ]
         },
         {
+            "filename": "SVG/Cake DeFi.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Cake DeFi"
+            ]
+        },
+        { 
             "filename": "SVG/CalorieTracker.io.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2949,6 +2956,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Kickstarter"
+            ]
+        },
+        {
+            "filename": "SVG/Kiva.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Kiva"
             ]
         },
         {
