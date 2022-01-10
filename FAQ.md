@@ -52,7 +52,7 @@ If you want alternatives, check out [Photopea](https://www.photopea.com/) or [Ve
 
 ### Harder Android way
 
-This tutorial focuses on icon editing in Android and with [Amaze file manager](https://github.com/TeamAmaze/AmazeFileManager#readme). This is slightly more technical method, so it's only recommended for more advanced users. You apply this method on PC too using Notepad or other plain text editor.
+This tutorial focuses on icon editing in Android and with [Amaze file manager](https://github.com/TeamAmaze/AmazeFileManager#readme). This is slightly more technical method, so it's only recommended for more advanced users. You can apply this method on PC too using Notepad or other plain text editor.
 
 1. [Get the SVG file(s) for the icon(s) you want to edit](https://aegis-icons.github.io/).
 2. Open **Amaze** and go to "Downloads" folder (or whatever folder you downloaded icons into).
