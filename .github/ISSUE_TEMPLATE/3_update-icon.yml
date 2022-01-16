@@ -1,0 +1,51 @@
+name: Update icon
+description: Request update for icon, if logo or main brand color is outdated.
+title: "Update icon: "
+labels: ["Update"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ⚠ Remember to **add name of the site or app** at the end of *"Update icon:"* part on top, **do not change the formatting of the title!**
+        
+        [Read our issue guidelines first](https://github.com/aegis-icons/aegis-icons/blob/master/CONTRIBUTING.md#issue-guidelines) if you haven't already (only takes half a minute to read!)
+  - type: input
+    id: site_app-url
+    attributes:
+      label: URL of the site or app
+      placeholder: Eg. https://example.com
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        ⮤ Remember to add *https://* (or *http://*) to start of the URL.
+  - type: dropdown
+    id: update-reason
+    attributes:
+      label: Reason for update
+      description: Select what kind of icon you're submitting.
+      options:
+        - New logo
+        - Changed background color
+        - Other (write more info to "Anything else?" section)
+    validations:
+      required: true
+  - type: input
+    id: logo-url
+    attributes:
+      label: Logo resources for the icon
+      placeholder: Eg. https://example.com/logo.svg OR https://example.com/press-kit
+  - type: markdown
+    attributes:
+      value: |
+        ⮤ **Optional** option to add URL for *logo SVG vector* or *press kit*, **no JPG / PNG / GIF files!** ([Tips for finding these](https://github.com/aegis-icons/aegis-icons/blob/master/CONTRIBUTING.md#finding-source-images))
+  - type: textarea
+    id: anything-else
+    attributes:
+      label: Anything else?
+      description: Add other info, kudos etc.
+  - type: markdown
+    attributes:
+      value: |
+        ⮤ **Required** if you selected `Other` as "reason for update".

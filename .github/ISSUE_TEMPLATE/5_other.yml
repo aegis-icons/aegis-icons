@@ -1,0 +1,15 @@
+name: Other
+description: For anything else, DO NOT USE THIS FOR ICON REQUESTS!
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ⮤ Add short and understandable title to the top text field.
+        
+        **DO NOT USE THIS FORM FOR ICON REQUESTING**, any icon requests using this form are rejected.
+  - type: textarea
+    id: issue
+    attributes:
+      label: Issue
+    validations:
+      required: true
