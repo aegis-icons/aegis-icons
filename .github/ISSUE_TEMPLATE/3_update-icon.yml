@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ? Remember to **add name of the site or app** at the end of *"Update icon:"* part on top, **do not change the formatting of the title!**
+        ⚠ Remember to **add name of the site or app** at the end of *"Update icon:"* part on top, **do not change the formatting of the title!**
         
         [Read our issue guidelines first](https://github.com/aegis-icons/aegis-icons/blob/master/CONTRIBUTING.md#issue-guidelines) if you haven't already (only takes half a minute to read!)
   - type: input
