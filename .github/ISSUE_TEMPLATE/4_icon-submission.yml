@@ -1,0 +1,80 @@
+name: Icon submission
+description: Submit your icon creation! Remember to read CONTRIBUTING.md first, if you haven't already.
+title: "Icon submission: "
+labels: ["Submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        - ⚠ Remember to add *name of the site or app* at the end of *"Icon submission:"* part.
+          - Please use proper capitalization for the name (check the capitalization from their app / website).
+        - If it's generic icon, add *short name for the icon* and `(generic)` at the end of *"Icon submission:"* part.
+          - Eg. `Education (generic)`
+        - **Do not change the formatting of the title!**
+        
+        [Read **carefully** our CONTRIBUTING document](https://github.com/aegis-icons/aegis-icons/blob/master/CONTRIBUTING.md) before submitting icon!
+  - type: dropdown
+    id: icon-type
+    attributes:
+      label: Icon type
+      description: Select what kind of icon you're submitting.
+      options:
+        - New icon
+        - Updated icon
+        - Generic icon
+    validations:
+      required: true
+  - type: input
+    id: site_app-url
+    attributes:
+      label: URL of the site or app
+      placeholder: Eg. https://example.com
+  - type: markdown
+    attributes:
+      value: |
+        ⮤ **Required**, unless it's generic icon.
+  - type: input
+    id: logo-url
+    attributes:
+      label: Logo / icon info
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |        
+        ⮤ Add **either:**
+        - Direct URL of the logo / press kit / logo resource page
+        - Short info how did you get the logo
+          - Eg. `Extracted logo with SVG Gobbler from https://example.com/exact-page`
+        - *If it's generic icon:*
+          - `[Icon name] from Unicons / Feather / Lucide / Cryptocurrency Icons`
+        
+        **It cannot be duplication of** "URL of the site or app" **field text.**
+  - type: textarea
+    id: bg-color
+    attributes:
+      label: Background color info
+  - type: markdown
+    attributes:
+      value: |        
+        ⮤ **Required**, unless it's generic icon.
+        
+        Fill this form based of this information:
+        - *Is the color taken somewhere from the logo?*
+          - If **yes**, add this text: `Background color is from the logo.`
+        - *Is color taken from the mentioned app / site?*
+          - If **yes**, do either/all of these things:
+            - [Upload](https://docs.github.com/en/github/writing-on-github/working-with-advanced-formatting/attaching-files) screenshot of the area where you got the color **and** give URL of the page (unless it's from app)
+            - Give the HTML element name (eg. `#footer`) **and** URL of the page.
+  - type: textarea
+    id: anything-else
+    attributes:
+      label: Anything else?
+      description: Optional text field to add other info, kudos etc.
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Confirmation
+      options:
+        - label: I have read and followed [CONTRIBUTING document](https://github.com/aegis-icons/aegis-icons/blob/master/CONTRIBUTING.md)
+          required: true
