@@ -4,7 +4,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ⮤ Add short and understandable title to the top text field.
+        Add short and understandable title to the top text field.
         
         **DO NOT USE THIS FORM FOR ICON REQUESTING**, any icon requests using this form are rejected.
   - type: textarea
