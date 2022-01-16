@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ⚠ Remember to **add name of the site or app** at the end of *"Update icon:"* part on top, **do not change the formatting of the title!**
+        ? Remember to **add name of the site or app** at the end of *"Update icon:"* part on top, **do not change the formatting of the title!**
         
         [Read our issue guidelines first](https://github.com/aegis-icons/aegis-icons/blob/master/CONTRIBUTING.md#issue-guidelines) if you haven't already (only takes half a minute to read!)
   - type: input
@@ -19,7 +19,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ⮤ Remember to add *https://* (or *http://*) to start of the URL.
+        Remember to add *https://* (or *http://*) to start of the URL.
   - type: dropdown
     id: update-reason
     attributes:
@@ -39,7 +39,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ⮤ **Optional** option to add URL for *logo SVG vector* or *press kit*, **no JPG / PNG / GIF files!** ([Tips for finding these](https://github.com/aegis-icons/aegis-icons/blob/master/CONTRIBUTING.md#finding-source-images))
+        **Optional** option to add URL for *logo SVG vector* or *press kit*, **no JPG / PNG / GIF files!** ([Tips for finding these](https://github.com/aegis-icons/aegis-icons/blob/master/CONTRIBUTING.md#finding-source-images))
   - type: textarea
     id: anything-else
     attributes:
