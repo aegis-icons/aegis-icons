@@ -1026,6 +1026,13 @@
             ]
         },
         {
+            "filename": "SVG/.Variations/Sony bg.var.svg",
+            "category": "2. Variations & Alts",
+            "issuer": [
+                "Sony"
+            ]
+        },
+        {
             "filename": "SVG/.Variations/Sophos alt.svg",
             "category": "2. Variations & Alts",
             "issuer": [
@@ -4010,6 +4017,13 @@
             ]
         },
         {
+            "filename": "SVG/Russian Post.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Russian Post"
+            ]
+        },
+        {
             "filename": "SVG/SAP.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4136,6 +4150,13 @@
             ]
         },
         {
+            "filename": "SVG/Shopee.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Shopee"
+            ]
+        },
+        {
             "filename": "SVG/Shopify.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4192,6 +4213,13 @@
             ]
         },
         {
+            "filename": "SVG/Sony.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Sony"
+            ]
+        },
+        { 
             "filename": "SVG/Sophos.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4337,6 +4365,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "TETR.IO"
+            ]
+        },
+        {
+            "filename": "SVG/TP-Link.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "TP-Link"
             ]
         },
         {
