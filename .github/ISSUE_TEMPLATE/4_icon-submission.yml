@@ -42,10 +42,11 @@ body:
   - type: markdown
     attributes:
       value: |        
-        Add **either:**
+        For example:
         - Direct URL of the logo / press kit / logo resource page
         - Short info how did you get the logo
-          - Eg. `Extracted logo with SVG Gobbler from https://example.com/exact-page`
+          - For site embedded vectors, eg: `Extracted logo with SVG Gobbler from https://example.com/exact-page`
+          - For image tracing, eg: `Image traced of https://example.com/logo.jpg with Vectorizer.io`
         - *If it's generic icon:*
           - `[Icon name] from Unicons / Feather / Lucide / Cryptocurrency Icons`
         
