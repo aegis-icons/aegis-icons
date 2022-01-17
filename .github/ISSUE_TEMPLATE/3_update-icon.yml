@@ -39,7 +39,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        **Optional** option to add URL for *logo SVG vector* or *press kit* ([tips for finding these](https://github.com/aegis-icons/aegis-icons/blob/master/CONTRIBUTING.md#finding-source-images))
+        **Optional** option to add URL for *logo SVG vector* or *press kit*,  preferably from official source ([tips for finding these](https://github.com/aegis-icons/aegis-icons/blob/master/CONTRIBUTING.md#finding-source-images)).
         **Rejected files:** JPG, PNG, GIF, WebP or [any other raster image](https://en.wikipedia.org/wiki/Image_file_format#Raster_formats).
   - type: textarea
     id: anything-else
