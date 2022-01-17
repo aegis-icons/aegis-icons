@@ -62,7 +62,7 @@ body:
         Fill this form based of this information:
         - *Is the color taken somewhere from the logo?*
           - If **yes**, add this text: `Background color is from the logo.`
-        - *Is color taken from the mentioned app / site?*
+        - *Is color taken from the mentioned app / site?* (And not from logo)
           - If **yes**, do either/all of these things:
             - [Upload](https://docs.github.com/en/github/writing-on-github/working-with-advanced-formatting/attaching-files) screenshot of the area where you got the color **and** give URL of the page (unless it's from app)
             - Give the HTML element name (eg. `#footer`) **and** URL of the page.
