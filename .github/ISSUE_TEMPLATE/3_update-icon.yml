@@ -49,4 +49,4 @@ body:
   - type: markdown
     attributes:
       value: |
-        ⮤ **Required** if you selected `Other` as "reason for update".
+        **Required** if you selected `Other` as "reason for update".
