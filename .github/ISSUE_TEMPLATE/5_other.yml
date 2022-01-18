@@ -1,5 +1,5 @@
 name: Other
-description: For anything else, DO NOT USE THIS FOR ICON REQUESTS!
+description: For anything else, DO NOT USE THIS FOR ICON REQUESTS OR SUBMISSIONS!
 labels: ["Other"]
 body:
   - type: markdown
@@ -7,7 +7,7 @@ body:
       value: |
         Add short and understandable title to the top text field.
         
-        **DO NOT USE THIS FORM FOR ICON REQUESTING**, any icon requests using this form are rejected.
+        **DO NOT USE THIS FORM FOR ICON REQUESTING OR SUBMISSIONS**, any icon requests / submissions using this form are rejected.
   - type: textarea
     id: issue
     attributes:
