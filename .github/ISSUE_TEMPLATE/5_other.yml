@@ -1,5 +1,6 @@
 name: Other
 description: For anything else, DO NOT USE THIS FOR ICON REQUESTS!
+labels: ["Other"]
 body:
   - type: markdown
     attributes:
