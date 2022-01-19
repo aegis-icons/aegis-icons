@@ -49,8 +49,8 @@ Fill this part based of this information:
 <!-- ▲▲▲ ADD ILLUSTRATOR FILES HERE ABOVE THIS LINE!
 Zip the .ai files (Github doesn't accept .ai files as is there). -->
 
-[ ] I have read and followed CONTRIBUTING document.
-[ ] I only added SVG(s) to the pull request.
+- [ ] I have read and followed CONTRIBUTING document.
+- [ ] I only added SVG(s) to the pull request.
 
 <!-- ▲▲▲ REQUIRED!
 Confirm that you have done these things.
