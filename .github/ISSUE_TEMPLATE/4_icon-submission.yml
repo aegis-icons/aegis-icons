@@ -68,6 +68,15 @@ body:
             - [Upload](https://docs.github.com/en/github/writing-on-github/working-with-advanced-formatting/attaching-files) screenshot of the area where you got the color **and** give URL of the page (unless it's from app)
             - Give the HTML element name (eg. `#footer`) **and** URL of the page.
   - type: textarea
+    id: icon-upload
+    attributes:
+      label: Upload icon(s)
+      required: true
+  - type: markdown
+    attributes:
+      value: |        
+        First, click the text field above and then [upload](https://docs.github.com/en/github/writing-on-github/working-with-advanced-formatting/attaching-files) **SVGs / AIs inside of ZIP file** (Github doesn't accept these files as is).
+  - type: textarea
     id: anything-else
     attributes:
       label: Anything else?
