@@ -71,6 +71,7 @@ body:
     id: icon-upload
     attributes:
       label: Upload icon(s)
+    validations:
       required: true
   - type: markdown
     attributes:
