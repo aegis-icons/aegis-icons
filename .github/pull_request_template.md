@@ -1,19 +1,19 @@
 <!--
-🔔 If your pull request DOESN'T relate to icon submissions, you can ignore all of this and make PR from scratch.
-ℹ️ But if YOU'RE SUBMITTING ICON, read this PR template carefully and follow the instructions!
+🔔 If you're SUBMITTING ICON, read this PR template carefully and follow the instructions!
+     - But If your pull request DOESN'T relate to icon submissions, you can ignore all of this and make PR from scratch.
 
-=== PR TITLE RECOMMENTATIONS ===
+======= PR TITLE RECOMMENTATIONS =======
 > If icon with logo ➜
    ❝  New icon: icon_name_here  ❞
 > If generic icon ➜
    ❝  New icon: icon_name_here (generic)  ❞
 > If icon update  ➜
    ❝  Update icon: icon_name_here  ❞
-========================= -->
+-->
 
 **URL of the site:**
 
-<!-- ▲▲▲ REQUIRED, unless it's generic icon. -->
+<!-- ▲▲▲ REQUIRED, UNLESS it's generic icon. -->
 
 **Logo / icon info:**
 
@@ -33,7 +33,7 @@ For example:
 
 **Background color info:**
 
-<!-- ▲▲▲ REQUIRED, unless it's generic icon.
+<!-- ▲▲▲ REQUIRED, UNLESS it's generic icon.
 
 Fill this part based of this information:
 - Is the color taken somewhere from the logo?
