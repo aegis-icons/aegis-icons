@@ -21,7 +21,7 @@
 
 For example:
 - Direct URL of the logo file / press kit page / logo resource page.
-- Short info how did you get the logo.
+- Short info of how did you get the logo.
   > For site embedded vectors, eg. ➜
       ❝  Extracted logo with SVG Gobbler from https://example.com/exact-page  ❞
   > For image tracing, eg. ➜
