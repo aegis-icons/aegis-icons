@@ -2210,6 +2210,13 @@
             ]
         },
         {
+            "filename": "SVG/Eneba.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Eneba"
+            ]
+        },
+        {
             "filename": "SVG/Enom v2.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -5037,6 +5044,14 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "dmarcian"
+            ]
+        },
+        {
+            "filename": "SVG/ecloud.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "ecloud",
+                "/e/ cloud"
             ]
         },
         {
