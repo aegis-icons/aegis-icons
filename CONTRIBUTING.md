@@ -20,7 +20,7 @@ It's recommended to also have some knowledge of design in general.
   - [Alternative icons](#alternative-icons)
   - [Generic icons](#generic-icons)
   - [Save and export](#save-and-export)
-  - [SVG compression](#svg-compression)
+  - [SVG compression & cleanup](#svg-compression--cleanup)
   - [Submit to repository](#submit-to-repository)
 - [**Technical**](#technical)
   - [Directories](#directories)
@@ -172,14 +172,15 @@ Just change the logo for alternative version.
   - If you're using CC version, **export SVG with "Export for Screens"** (`File -> Export -> Export for Screens...`)
 - For other softwares:
   - Remember to **remove the guide strokes!**
-  - **In Inkscape,** save the SVG as "Plain SVG", not "Inkscape SVG".
+  - **In Inkscape,** save the SVG as "Optimized SVG" (very important step).
+    - [In the prompt window, use these settings!](https://raw.githubusercontent.com/aegis-icons/design-assets/master/screenshots/contributing_002.png)
   - **In Affinity Designer,** export SVG with "SVG (digital - small size)" preset.
   - **In software that's non-above,** save as "SVG" or "Plain SVG", whichever is the safest option.
 - **Don't make PNG files!** PNG files are legacy content ([with some exceptions](#about-pngs)).
 - Read info about naming at [filename](#filename) section.
 - If you're submitting pull request, read also [directories](#directories) section.
 
-### SVG compression
+### SVG compression & cleanup
 *If you comfortable with command line tools:*
 - Install [Node.js](https://nodejs.org/en/download/) and [SVGO](https://github.com/svg/svgo#installation)
 - Use this command: `svgo --multipass --pretty --indent 3 -f "input_folder/path_here" -o "output_folder/path_here"`
@@ -187,12 +188,22 @@ Just change the logo for alternative version.
 
 *If you don't know how to use command line:*
 - Use [SVGOMG](https://jakearchibald.github.io/svgomg/)
-  - Just tick "[Prettify markup](https://user-images.githubusercontent.com/3540275/119977202-c97d7300-bfc0-11eb-8a67-00ec5b578134.png)" before downloading the compressed SVG.
+  - Just tick "[Prettify markup](https://raw.githubusercontent.com/aegis-icons/design-assets/master/screenshots/contributing_001.png)" before downloading the compressed SVG.
   - **Don't make other changes to settings.**
 
-📝 *Those who made the vector with Affinity Designer:*
+After this, check with text editor that SVG is correctly formatted for submission:
 
-- After the compression, open SVG to plain text editor and from the top, remove everything *from that line* after `xmlns="http://www.w3.org/2000/svg"` **EXCEPT** `>` character ([example](https://github.com/aegis-icons/aegis-icons/blob/a7dd1cdd3c051ef1b7c2e274539185294060df6a/SVG/1984%20Hosting.svg?short_path=db53e9b#L1)).
+<details>
+<summary><i>Desired SVG code</i></summary>
+```
+<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+   <circle cx="512" cy="512" r="512" style="fill:#BG-HEX-CODE"/>
+   <path d="PRETTY-LONG-LOGO-PATH" style="fill:#LOGO-HEX-CODE"/>
+</svg>
+```
+
+[More extensive example as diff](https://github.com/aegis-icons/misc/commit/21f7f625d3976a4281e69a4651213ec8b2016975?diff=split) (example icon made in Inkscape, saved as "optimized SVG", compressed with SVGO)
+</details>
 
 ### Submit to repository
 Submit your icon for review by [opening a new issue](../../issues/new/choose) (select "Icon submission") and attaching your file(s) and source(s). Alternately, you are encouraged to refer to [this GitHub guide](https://guides.github.com/activities/contributing-to-open-source) to fork the aegis-icons project, add the changed files to your fork, then create a pull request with your submissions. (Don't add AI files in the pull requests. Instead, zip it and upload it in the PR comment section.)
