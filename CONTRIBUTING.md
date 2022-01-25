@@ -173,7 +173,7 @@ Just change the logo for alternative version.
 - For other softwares:
   - Remember to **remove the guide strokes!**
   - **In Inkscape,** save the SVG as "Optimized SVG" (very important step).
-    - [In the prompt window, use these settings!](https://raw.githubusercontent.com/aegis-icons/design-assets/master/screenshots/contributing_002.png)
+    - [In the prompt window, use these settings!](https://raw.githubusercontent.com/aegis-icons/design-assets/master/screenshots/contributing_002.jpg)
   - **In Affinity Designer,** export SVG with "SVG (digital - small size)" preset.
   - **In software that's non-above,** save as "SVG" or "Plain SVG", whichever is the safest option.
 - **Don't make PNG files!** PNG files are legacy content ([with some exceptions](#about-pngs)).
