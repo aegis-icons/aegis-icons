@@ -200,7 +200,7 @@ Just change the logo for alternative version.
 </svg>
 ```
 
-[More extensive example as diff](https://github.com/aegis-icons/misc/commit/21f7f625d3976a4281e69a4651213ec8b2016975?diff=split) (example icon made in Inkscape, saved as "optimized SVG", compressed with SVGO)
+[Diff example of _manual cleanup_](https://github.com/aegis-icons/misc/commit/21f7f625d3976a4281e69a4651213ec8b2016975?diff=split)
 
 ### Submit to repository
 Submit your icon for review by [opening a new issue](../../issues/new/choose) (select "Icon submission") and attaching your file(s) and source(s). Alternately, you are encouraged to refer to [this GitHub guide](https://guides.github.com/activities/contributing-to-open-source) to fork the aegis-icons project, add the changed files to your fork, then create a pull request with your submissions. (Don't add AI files in the pull requests. Instead, zip it and upload it in the PR comment section.)
