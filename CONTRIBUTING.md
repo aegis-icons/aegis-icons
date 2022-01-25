@@ -151,7 +151,7 @@ When making icons, download and use provided [templates](/_templates).
   - Use black (`#000000`) as foreground color.  
   
 - `fg.bg.var` is combination of both variations, for edge cases when `bg.var` color makes white logo is too bright and hard to see.
-  - **Only make these if absolutely necessary!** Find better BG color for `bg.var` to avoid making these.
+  - **Only make these if absolutely necessary!** Find better BG color for `bg.var` if possible to avoid making these.
   - Examples: [Lichess `bg.var` icon](https://user-images.githubusercontent.com/3540275/151071976-7aefbc6b-3917-4c98-ba6a-021e4a78739c.svg), [Lichess `fg.bg.var` icon](https://user-images.githubusercontent.com/3540275/151071980-bc4698e1-3150-4bde-8e4c-0480d778cef0.svg)
   - Use black (`#000000`) as foreground color for `bg.var` version.
   
