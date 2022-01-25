@@ -150,7 +150,8 @@ When making icons, download and use provided [templates](/_templates).
   - Examples: [primary Snapchat icon](https://user-images.githubusercontent.com/3540275/83945146-6162d980-a811-11ea-8910-9e93ff65e804.png), [Snapchat `fg.var` icon](https://user-images.githubusercontent.com/3540275/83945157-6fb0f580-a811-11ea-8fc4-494dcfff53ae.png). 
   - Use black (`#000000`) as foreground color.  
   
-- `fg.bg.var` is combination of both variations, for edge cases when `bg.var` color makes white logo is too bright and hard to see. **Only make these if there's absolutely no other options!**
+- `fg.bg.var` is combination of both variations, for edge cases when `bg.var` color makes white logo is too bright and hard to see.
+  - **Only make these if absolutely necessary!** Find better BG color for `bg.var` to avoid making these.
   - Examples: [Lichess `bg.var` icon](https://user-images.githubusercontent.com/3540275/151071976-7aefbc6b-3917-4c98-ba6a-021e4a78739c.svg), [Lichess `fg.bg.var` icon](https://user-images.githubusercontent.com/3540275/151071980-bc4698e1-3150-4bde-8e4c-0480d778cef0.svg)
   - Use black (`#000000`) as foreground color for `bg.var` version.
   
