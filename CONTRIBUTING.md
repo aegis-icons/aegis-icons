@@ -195,6 +195,7 @@ After this, check with text editor that SVG is correctly formatted for submissio
 
 <details>
 <summary><i>Desired SVG code</i></summary>
+
 ```
 <svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
    <circle cx="512" cy="512" r="512" style="fill:#BG-HEX-CODE"/>
