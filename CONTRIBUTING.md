@@ -191,7 +191,7 @@ Just change the logo for alternative version.
   - Just tick "[Prettify markup](https://raw.githubusercontent.com/aegis-icons/design-assets/master/screenshots/contributing_001.png)" before downloading the compressed SVG.
   - **Don't make other changes to settings.**
 
-⚠ After this, check with text editor that SVG is correctly formatted for submission:
+⚠ After this, check with text editor that **SVG is correctly formatted for submission:**
 
 ```
 <svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
@@ -200,7 +200,7 @@ Just change the logo for alternative version.
 </svg>
 ```
 
-[Diff example of _manual cleanup_](https://github.com/aegis-icons/misc/commit/21f7f625d3976a4281e69a4651213ec8b2016975?diff=split)
+[Example icon diff of _manual cleanup_](https://github.com/aegis-icons/misc/commit/21f7f625d3976a4281e69a4651213ec8b2016975?diff=split)
 
 ### Submit to repository
 Submit your icon for review by [opening a new issue](../../issues/new/choose) (select "Icon submission") and attaching your file(s) and source(s). Alternately, you are encouraged to refer to [this GitHub guide](https://guides.github.com/activities/contributing-to-open-source) to fork the aegis-icons project, add the changed files to your fork, then create a pull request with your submissions. (Don't add AI files in the pull requests. Instead, zip it and upload it in the PR comment section.)
