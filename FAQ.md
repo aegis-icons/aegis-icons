@@ -77,9 +77,9 @@ This tutorial focuses on icon editing in Android and with [Amaze file manager](h
 
 ## Why only some of the icons have `bg.var`, `fg.var`, `fg.bg.var` or `alt` version?
 
-- `Bg.var` (background variation) icons are made when original icon has dark background color. Dark background blends in on Dark and AMOLED themes. 
+- `Bg.var` (background variation) icons are made when original icon has dark background color. Dark background blends in on Dark and AMOLED themes.
 - `Fg.var` (foreground variation) icons has logo color changed to black when background color is brightly colored (eg. Snapchat).
-- `Fg.bg.var` is combination of both variations. Made when even background variation color is too bright / dark. We try to avoid making these as much as possible.
+- `Fg.bg.var` is combination of both variations. Made when even background variation color is too bright. We try to avoid making these as much as possible.
 - `Alt` icons have alternative logo, if app / site has one.
 
 We try to honor app / website's branding as much as possible, so that's why there's variations as well for these situations.
