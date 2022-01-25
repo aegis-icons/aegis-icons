@@ -191,7 +191,7 @@ Just change the logo for alternative version.
   - Just tick "[Prettify markup](https://raw.githubusercontent.com/aegis-icons/design-assets/master/screenshots/contributing_001.png)" before downloading the compressed SVG.
   - **Don't make other changes to settings.**
 
-After this, check with text editor that SVG is correctly formatted for submission:
+⚠ After this, check with text editor that SVG is correctly formatted for submission:
 
 <details>
 <summary><i>Desired SVG code</i></summary>
