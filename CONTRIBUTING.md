@@ -16,7 +16,7 @@ It's recommended to also have some knowledge of design in general.
   - [Layout](#layout)
   - [Vectors](#vectors)
   - [Colors](#colors)
-  - [bg.var & fg.var icons](#bgvar--fgvar-icons)
+  - [bg.var, fg.var & fg.bar.var icons](#bgvar-fgvar--fgbgvar-icons)
   - [Alternative icons](#alternative-icons)
   - [Generic icons](#generic-icons)
   - [Save and export](#save-and-export)
@@ -41,7 +41,9 @@ It's recommended to also have some knowledge of design in general.
 First of all before doing anything, icon you're making for app / website **must have Aegis supported 2FA support**, one way or another. We don't accept icons based of services that don't have this requirement. And we also don't accept icons from known hate speech sites ([more info at issue guidelines](#issue-guidelines)).
 
 ### Finding source images
-Scour the logo resources (URL, data URI etc.) to find a vector-based image (SVG, AI, EPS, PDF). Here are things you can check:
+Search through the logo resources to find a vector-based image (SVG, AI, EPS, PDF), **never use JPG / PNG / GIF / WebP or other raster images as is!**
+
+*Here are things you can check:*
 - **Press kit on the company website**
   - e.g. [Zenkit press kit](https://zenkit.com/en/press-kit/) contains `Zenkit_Logo1_Flat.eps`.
   - Look for pages like: *Brand, Press, Media, Logos, Assets, Marketing, About* etc.
@@ -53,15 +55,17 @@ Scour the logo resources (URL, data URI etc.) to find a vector-based image (SVG,
        - If right-clicking the image does not have an option for *Save image as...*, try using *Inspect* at the bottom of the right-click menu. This opens the developer tools which can reveal hidden URLs.
           - E.g. at [Codeberg](https://codeberg.org/), inspecting the logo in the left side of the navigation or logo at center reveals the location of SVG. Right-click and "open in new tab" to see the SVG file.
        - Sometimes SVG is embedded as inline. Means that instead of linking to external file, whole SVG file code is added to the HTML (see [SVG code example](https://gist.github.com/krisu5/677a8a3478331498929a11b900741aa2)). In that case, copy the SVG code completely from HTML (website embedded SVG starts with `<svg` & so forth and ends with `</svg>`), open your refer text editor and save copypasted text as `filename.svg`. You can test if the file works by opening in it into web browser.
-         - If SVG doesn't seem to work, it probably is missing some markup. Try web tools like [Vecta.io's Nano](https://vecta.io/nano) or [SVGminify.com](https://www.svgminify.com/), these minimize the size and modify SVG to correct markup.
-    2. Right-click the website and select *View page source*, then press `Ctrl + F` to open the search tool and type `SVG` to look for possible SVG vector files. Web inspector is also useful and better tool for some (press `F12`).
-       - E.g. [You Need A Budget](https://www.youneedabudget.com) reveals the hidden SVG resource in HTML metadata section `https://www-assets.youneedabudget.com/wp-content/themes/dupatta/dist/images/safari-pinned-tab_[random-alphanumerical].svg` which can be copied-and-pasted into the browser to open the image, and then saved normally).
-- If everything has failed so far, then **check [logo resources](#logos) section.** Remember though, logo has to be latest one company uses.
-- As last resort, you could try **image tracing on Illustrator, Inkscape etc.** Usually results varies from bad to kind of decent. Rule of thumb with tracing is using image that's high resolution, not many colors and doesn't have any artifacts.
+    2. Right-click the website and select *View page source*, then press `Ctrl [⌘ Cmd] + F` to open the search tool and type `SVG` to look for possible SVG vector files. Web inspector is also useful and better tool for some (press `F12`).
+       - E.g. [You Need A Budget](https://www.youneedabudget.com) reveals the hidden SVG resource in HTML metadata section `https://www-assets.youneedabudget.com/wp-content/themes/dupatta/dist/images/safari-pinned-tab_[alphanumerical-string].svg` which can be copy-paste into the browser and save (`CTRL [⌘ Cmd] + S`).
+- If everything has failed so far, then **check [logo resources](#logos) section.**
+  - Remember though, logo has to be latest one that company uses.
+- As last resort, you can **try image tracing.** Rule of thumb with image tracing is using image that's high resolution, not many colors and doesn't have any [artifacts](https://simple.wikipedia.org/wiki/Compression_artifact).
+  - Illustrator & Inkscape has image tracing tool, but usually results varies from bad to somewhat decent.
   - [Vectorizer.io](https://anonym.to/?https://www.vectorizer.io) is better alternative but vectors aren't freely downloadable anymore, generating vectors without account / freely is still possible.
     - There's loophole to downloads though: use [SVG Gobbler](https://www.svggobbler.com/) after vector was generated.
       - Alternatively: open dev tools (`F12`), inspect the output image and copy the SVG code from there.
-  - [Vector Magic](https://vectormagic.com/) is the one of best – if not the best – image tracer, but unfortunately they don't offer any free services.
+  - [Vector Magic](https://vectormagic.com/) is the one of best – if not the best – image tracer.
+    - Also commercial, but does offer free trials for [desktop application](https://vectormagic.com/desktop).
 - **Making vectorized logo from stratch** is also option, if you're skilled and patient enough.
 
 > ⚠ Watch out for SVGs that are using raster graphics ([example](https://github.com/haiwen/seafile-client/blob/7d8f06111960921ce01ef08e169d41bae13959ed/data/icons/scalable/apps/seafile.svg?short_path=d0d75d2#L54-L218)). These are not common, but does exists.
@@ -76,54 +80,51 @@ When making icons, download and use provided [templates](/_templates).
 ### Layout
 - Always use logomark [^1] if brand is using one.
 - If logo only has text, use that instead.
-  - **Only if absolutely necessary:** if you think that text is too long, small and hard to read on smaller size, use first letter of text.
+  - **Only if absolutely necessary:** if you think that text is too long and hard to read on smaller size, use first letter of text.
 - Stay inside of the guides as much as possible.
 - Square like shaped logos shouldn't step outside of the guides (size wise).
 - For wider logos, furthest left & right side guides are max size limit.
-- Technically center doesn't always look center in your eyes. You can manually visual center the logo, if necessary.
-- **Compare your creation to other icons, try to keep logo size consistent to other icons.**
+- Technically center doesn't always look center in your eyes. You can manually visually center the logo, if necessary.
+- **Compare your creation to other icons, try to keep logo size visually consistent to other icons.**
 
 ### Vectors
 - Logo must be in **single** path / compound path / object:
 
 <details>
-<summary>In <i>Adobe Illustrator</i></summary>
-
-**If you're using Mac:** in shortcuts, `CTRL` instead means `⌘ Cmd`.
+<summary>In <i>Adobe Illustrator</i> (click to reveal)</summary>
 
 1. Ungroup all the groups related to the logo completely.
-   - Select layers in "Layers" window (`F7`) and press `CTRL + Shift + G` multiple times until everything is ungrouped.
-     - After this, check if there's layers called "\<title\>" and delete those. ⚠ **Really important,** because exporting SVG with "\<title\>" layer inside of compound path can make some Illustrator versions to crash and makes SVG not function properly.
-2. Usually, it's simple as selecting all the logo parts (temporary lock "Background" layer if needed) and make compound path (`Object -> Compound Path -> Make` or `CTRL + 8`).
-   - If compound pathing doesn't work, open "Pathfinder" window (`CTRL + Shift + F9`) and press "Unite" (top-left icon in the window under "Shape modes" text).
+   - Select layers in "Layers" window (`F7`) and press `CTRL [⌘ Cmd] + Shift + G` multiple times until everything is ungrouped.
+2. Usually, it's simple as selecting all the logo parts *(temporary lock "Background" layer if needed)* and make compound path (`Object -> Compound Path -> Make` menu or `CTRL [⌘ Cmd] + 8`).
+   - If compound pathing doesn't work, open "Pathfinder" window (`CTRL [⌘ Cmd] + Shift + F9`) and press "Unite" (top-left icon in the window under "Shape modes" text).
 </details>
 
 <details>
-<summary>In <i>Affinity Designer</i></summary>
+<summary>In <i>Affinity Designer</i> (click to reveal)</summary>
 
 1. Open "Layers" window, if it's not already open (`View -> Studio -> Layers`).
 2. In canvas, use "Move" tool (`V`) and select logo layers by click & drag across the logo (avoid selecting circle).
-3. Ungroup multiple times until everything in the logo is ungrouped (Windows: `CTRL + Shift + G` or Mac: `⌘ Cmd + Shift + G`).
+3. Ungroup multiple times until everything in the logo is ungrouped (`CTRL [⌘ Cmd] + Shift + G`).
 4. Unselect everything (click outside of canvas with "Move" tool).
 5. Repeat step 2.
-   - **Before moving to step 6,** read and do "Affinity Designer designers" part at bottom.
+   - **Before moving to step 6,** read and do "Note for Affinity Designer users" part downwards.
 6. Combine logo with `Layer -> Geometry -> Add`.
 </details>
 
 <details>
-<summary>In <i>Inkscape</i></summary>
+<summary>In <i>Inkscape</i> (click to reveal)</summary>
 
 1. Open "Objects" window (`Object -> Objects`).
 2. Select all the objects related to logo (`Shift + Click` in the "Objects" window).
-3. Ungroup the object multiple times until everything is ungrouped (`Object -> Ungroup` or `CTRL + Shift + G`).
+3. Ungroup the object multiple times until everything is ungrouped (`Object -> Ungroup` menu or `CTRL [⌘ Cmd] + Shift + G`).
 4. "Union" the objects to together (`Path -> Union`).
 </details>
 
-- 📝 **Affinity Designer designers:** change "fill mode" of the logo vector and its parts from *Winding (Non-Zero)* **into** *Alternative (Even-Odd)* (`Layer -> Fill Mode`). Why? Because it creates CSS rules we don't want for our SVGs and want everything to contain by the path.
+- 📝 **Note for Affinity Designer users:** change "fill mode" of the logo vector and its parts from *Winding (Non-Zero)* **into** *Alternative (Even-Odd)* (`Layer -> Fill Mode`). Why? Because it creates CSS rules we don't want for our SVGs and want everything to contain by the path.
 
 ### Colors
-- Never use white as background color, white is always preserved for logo / fg.
-- Don't pick a random colors, unless there's absolutely no other options.
+- **Never use white as background color** (a.k.a. bg), white is always preserved for logo / fg.
+- Don't pick random colors, unless there's absolutely no other options.
 - Don't use gradients, use solid colors.
 - Keep everything at 100% opacity, no blending etc.
 - Logo (a.k.a. foreground, fg) should use white (`#FFFFFF`).
@@ -133,23 +134,30 @@ When making icons, download and use provided [templates](/_templates).
     - **Tip:** In Illustrator, if logo is using gradient, use [this method](http://miraimages.com/illustrator-gradient-colors-to-swatches/) <sup>[wayback machine](https://web.archive.org/web/20200606124113/http://miraimages.com/illustrator-gradient-colors-to-swatches/)</sup> to extract all the colors in the gradient to the swatches.
 - If icon you're making is using dark background, you **have to make** `bg.var` icon version as well.
   - Or opposite, if background is too bright for white logo, then make `fg.var` icon version.
-- For generic icons, use background color `#607D8B` [^2] and white foreground.
-  - Templates `ai_template_generic.ait` & `svg_template_generic.svg` has correct background color set.
+  - Check with ["colors to avoid" SVG](https://github.com/aegis-icons/aegis-icons/blob/master/_templates/z_bg-colors_to_avoid.svg) if needed.
+- For generic icons, use background color `#607D8B` and white foreground.
+  - Templates `ai_template_generic.ait` & `svg_template_generic.svg` has already correct background color set.
   
-### bg.var & fg.var icons
+### bg.var, fg.var & fg.bg.var icons
+`var` means variation.
+
 - `bg.var` icons are for dark / AMOLED themes. These are made when primary icon has dark background that blends in when using the darker theme.
   - Examples: [primary Steam icon](https://user-images.githubusercontent.com/3540275/85153557-042e4580-b25f-11ea-85ff-7cb883f977d4.png), [Steam `bg.var` icon](https://user-images.githubusercontent.com/3540275/85153530-fbd60a80-b25e-11ea-9197-d7400eeec74f.png).
   - Use brighter alternative background.
   - If there's no guidelines for alternative colors, check the website or app to see what other colors there might be.
 
-- `fg.var` icons are made when brand color is bright and hard to see for white foreground.
+- `fg.var` icons are made when brand color is bright and hard to see for white logo.
   - Examples: [primary Snapchat icon](https://user-images.githubusercontent.com/3540275/83945146-6162d980-a811-11ea-8910-9e93ff65e804.png), [Snapchat `fg.var` icon](https://user-images.githubusercontent.com/3540275/83945157-6fb0f580-a811-11ea-8fc4-494dcfff53ae.png). 
-  - Use black (`#000000`) as foreground color.
+  - Use black (`#000000`) as foreground color.  
+  
+- `fg.bg.var` is combination of both variations, for edge cases when `bg.var` color makes white logo is too bright and hard to see. **Only make these if there's absolutely no other options!**
+  - Examples: [Lichess `bg.var` icon](https://user-images.githubusercontent.com/3540275/151071976-7aefbc6b-3917-4c98-ba6a-021e4a78739c.svg), [Lichess `fg.bg.var` icon](https://user-images.githubusercontent.com/3540275/151071980-bc4698e1-3150-4bde-8e4c-0480d778cef0.svg)
+  - Use black (`#000000`) as foreground color for `bg.var` version.
   
 ### Alternative icons
 "Alternative" – in this case – means icons for brands that provide alternative logos of their brands.
 
-> Examples: [primary IVPN icon](https://user-images.githubusercontent.com/3540275/85149274-c549c100-b259-11ea-8477-6164b679c673.png), [IVPN `alt` icon](https://user-images.githubusercontent.com/3540275/85149294-ca0e7500-b259-11ea-9655-b867c21ba1b6.png).
+> *Examples:* [primary IVPN icon](https://user-images.githubusercontent.com/3540275/85149274-c549c100-b259-11ea-8477-6164b679c673.png), [IVPN `alt` icon](https://user-images.githubusercontent.com/3540275/85149294-ca0e7500-b259-11ea-9655-b867c21ba1b6.png).
 
 Just change the logo for alternative version.
 
@@ -157,7 +165,7 @@ Just change the logo for alternative version.
 "Generic" – in this case – means icons that doesn't represent any brand and are using symbol-like vectors.
 
 - Use `ai_template_generic.ait` or `svg_template_generic.svg` template, depending on the software.
-- Don't change the background color of the template (`#607D8B`).
+- Don't change the background color of the template (`#607D8B`[^2]).
 - Foreground color is always white (`#FFFFFF`).
 - Use either of these icon library, depending on availability or visual looks:
   - [Unicons](https://iconscout.com/unicons/explore/line) (primary)
@@ -169,21 +177,23 @@ Just change the logo for alternative version.
 - If you're using Adobe Illustrator, save the file as AI **and** SVG.
   - Remember to **rename the artboard** (shortcut: `Shift + O`) before saving.
     - Name artboard based of [filenaming system](#filename) (without extension).
-  - If you're using CC version, **export SVG with "Export for Screens"** (`File -> Export -> Export for Screens...`)
+  - If you're using CC version, **export SVG with "Export for Screens"** (`File -> Export -> Export for Screens...` menu or `CTRL [⌘ Cmd] + Alt + E`)
 - For other softwares:
-  - Remember to **remove the guide strokes!**
-  - **In Inkscape,** save the SVG as "Optimized SVG" (very important step).
-    - [In the prompt window, use these settings!](https://raw.githubusercontent.com/aegis-icons/design-assets/master/screenshots/contributing_002.png)
+  - Before saving final version, remember to **remove the guide strokes!**
+  - **In Inkscape,** save the SVG as "Optimized SVG" (⚠ important!).
+    - [In the prompt window, use these settings!](https://raw.githubusercontent.com/aegis-icons/design-assets/master/screenshots/contributing_002.png) (⚠ equally important!)
   - **In Affinity Designer,** export SVG with "SVG (digital - small size)" preset.
   - **In software that's non-above,** save as "SVG" or "Plain SVG", whichever is the safest option.
-- **Don't make PNG files!** PNG files are legacy content ([with some exceptions](#about-pngs)).
+- ❌ Don't make PNG files! PNG files are legacy content ([with some exceptions](#about-pngs)).
 - Read info about naming at [filename](#filename) section.
 - If you're submitting pull request, read also [directories](#directories) section.
+
+Next, do SVG compression & cleanup.
 
 ### SVG compression & cleanup
 *If you comfortable with command line tools:*
 - Install [Node.js](https://nodejs.org/en/download/) and [SVGO](https://github.com/svg/svgo#installation)
-- Use this command: `svgo --multipass --pretty --indent 3 -f "input_folder/path_here" -o "output_folder/path_here"`
+- Use this command: `svgo --multipass --pretty --indent 3 -f "input/folder/path/here" -o "output/folder/path/here"`
   - Or if you're in Windows, we have [batch file](https://github.com/aegis-icons/aegis-icons/blob/master/_compress/.1_svgo_prettify-svg.bat) for this.
 
 *If you don't know how to use command line:*
@@ -200,20 +210,23 @@ Just change the logo for alternative version.
 </svg>
 ```
 
-[Example icon diff of _manual cleanup_](https://github.com/aegis-icons/misc/commit/c0128f61f0d2b88d5953881699955a4a17477e47?diff=split)
+[Example icon diff of _manual cleanup_](https://github.com/aegis-icons/misc/commit/c0128f61f0d2b88d5953881699955a4a17477e47?diff=split).
 
 ### Submit to repository
-Submit your icon for review by [opening a new issue](../../issues/new/choose) (select "Icon submission") and attaching your file(s) and source(s). Alternately, you are encouraged to refer to [this GitHub guide](https://guides.github.com/activities/contributing-to-open-source) to fork the aegis-icons project, add the changed files to your fork, then create a pull request with your submissions. (Don't add AI files in the pull requests. Instead, zip it and upload it in the PR comment section.)
+- Submit your icon for review by [opening a new issue](../../issues/new/choose) (select "Icon submission") and add your file(s) / info.
+- Alternately, you can fork this project (see [this GitHub guide](https://guides.github.com/activities/contributing-to-open-source)).
 
 ## Technical
-- Master source file is vector-based AI or SVG format. Raster images (PNG, JPEG, GIF etc.) are unacceptable, including raster images embedded within the vector file.
-- SVG and PNG size are 1024 x 1024 px without any scale.
+<details>
+<summary><i>Techical details about SVG / AI files, non-important info</i> (click to reveal)</summary>
+
+- Master source file is AI or SVG format.
 - AI template's color mode is RGB color.
-- The icon has:
-  - Image/page canvas of 1024 x 1024 px.
-  - Alpha channel.
-  - Solid background circle with company brand color, spanning 100% of image canvas (1024px).
-  - Company logo maximum height is 50% (512px) and maximum width is 75% (768px).
+- Image canvas: `1024 x 1024 px`.
+- Uses alpha channel.
+- Has circle background, spanning 100% of image canvas (`1024 x 1024 px`).
+- Guide space: maximum height is `512 px` and maximum width is `768 px`.
+</details>
 
 ### Directories
 - Non-variation primary icons are added to root of `SVG/` folder.
@@ -253,7 +266,7 @@ Submit your icon for review by [opening a new issue](../../issues/new/choose) (s
 #### About PNGs
 As of 2021-07-25, aegis-icons doesn't actively make PNG icons anymore. Instead PNGs are only made when someone notices rendering problems with SVG on Aegis.
 
-PNGs are made by maintainers to keep files & compressions consistent. [List of SVG icons with known rendering issues are available here](https://github.com/aegis-icons/aegis-icons/blob/master/PNG/README.md).
+PNGs are only made by maintainers to keep files & compressions consistent. [List of SVG icons with known rendering issues are available here](https://github.com/aegis-icons/aegis-icons/blob/master/PNG/README.md).
 
 ## Resources
 Resources marked with star (⭐) are recommended / most used by the maintainers.
@@ -264,14 +277,14 @@ These are good resources for finding logos in vector format, when no official br
 **Remember to always check if logo provided by these resources is latest one company uses!**
 
 - [Brandfetch](https://brandfetch.com/) ⭐ (search engine for company branding resources)
-- [LogoSear.ch](https://logosear.ch/) ⭐
+- [LogoSearch](https://logosear.ch/) ⭐
 - [Seeklogo](https://seeklogo.com/)
 - [Simple Icons](https://simpleicons.org/) ⭐
 - [Worldvectorlogo](https://worldvectorlogo.com/)
 - [Wikimedia Commons](https://commons.wikimedia.org/wiki/Main_Page)
-- Wikipedia pages of the brand
+- Wikipedia pages of the brand ⭐
 
-More resources at [LogoSear.ch's "Alternative Logo Sources"](https://logosear.ch/alternatives/) list.
+More resources at [LogoSearch's "Alternative Logo Sources"](https://logosear.ch/alternatives/) list.
 
 *Google searching tips:* 
 - `site:www.officalsiteforappslashsite.com filetype:pdf` (you can rip vectors from PDF, really often logos in these PDFs are vector).
@@ -280,16 +293,14 @@ More resources at [LogoSear.ch's "Alternative Logo Sources"](https://logosear.ch
 ### Lists of sites supporting 2FA
 Need ideas for icons? These list apps / websites that support 2FA (and what kind of format too).
 
-- [andOTP's thumbnail directory](https://github.com/andOTP/andOTP/tree/master/app/src/main/res/drawable) ⭐ (look for the filenames starting with `thumb_`)
 - [Authy - Guides](https://authy.com/guides/) ⭐
-- [Two-factor authentication list](https://evanhahn.com/2fa/)
-- [Two Factor Auth List](https://2fa.directory/) ⭐
+- [Two Factor Auth List](https://2fa.directory/) ([Github commits](https://github.com/2factorauth/twofactorauth/commits/master)) ⭐
 
 ### Software
 Looking for software to start make icons? Here's some of the well known ones.
 
 - [Adobe Illustrator](https://www.adobe.com/products/illustrator.html) ⭐ (industry standard, most used software in this repository)
-- [Affinity Designer](https://affinity.serif.com/designer/) (way cheaper but powerful alternative to Illustrator)
+- [Affinity Designer](https://affinity.serif.com/designer/) ⭐ (way cheaper but powerful alternative to Illustrator)
 - [Inkscape](https://inkscape.org/) (popular open source option)
 
 ## Maintainer's Guide
