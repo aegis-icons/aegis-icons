@@ -192,7 +192,7 @@ Just change the logo for alternative version.
 Next, do SVG compression & cleanup.
 
 ### SVG compression & cleanup
-*If you comfortable with command line tools:*
+*If you're comfortable with command line tools:*
 - Install [Node.js](https://nodejs.org/en/download/) and [SVGO](https://github.com/svg/svgo#installation)
 - Use this command: `svgo --multipass --pretty --indent 3 -f "input/folder/path/here" -o "output/folder/path/here"`
   - Or if you're in Windows, we have [batch file](https://github.com/aegis-icons/aegis-icons/blob/master/_compress/.1_svgo_prettify-svg.bat) for this.
