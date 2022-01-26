@@ -1,9 +1,9 @@
 # Contributing
-Thank you for taking the time to contribute! Ask for help, report a bug or request a feature, read [issue guidelines](#issue-guidelines) first!
+Thank you for taking the time to read and contribute to our project!
 
-If you would like to contribute icons or code, please fork the project and keep reading! (Documentation is long, because we strive for high quality.)
+*This documentation is long and comprehensive, because we strive for high quality for our icons and want to minimize extra work as much possible.*
 
-**For contributing, you have to know basics of making and editing vectors with vector graphics editor.**
+**For contributing, you must know basics of making / editing vectors with vector graphics editor.**
 
 It's recommended to also have some knowledge of design in general.
 
@@ -206,8 +206,8 @@ Next, do SVG compression & cleanup.
 
 ```
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
-   <circle cx="512" cy="512" r="512" style="fill:#BG-HEX-CODE"/>
-   <path d="PRETTY-LONG-LOGO-PATH" style="fill:#LOGO-HEX-CODE"/>
+   <circle cx="512" cy="512" r="512" style="fill:#BG-HEX-COLOR"/>
+   <path d="PRETTY-LONG-LOGO-PATH" style="fill:#LOGO-HEX-COLOR"/>
 </svg>
 ```
 
@@ -215,17 +215,17 @@ Next, do SVG compression & cleanup.
 
 ### Submit to repository
 - Submit your icon for review by [opening a new issue](../../issues/new/choose) (select "Icon submission") and add your file(s) / info.
-- Alternately, you can fork this project (see [this GitHub guide](https://guides.github.com/activities/contributing-to-open-source)).
+- Alternately, you can fork this project (see [this GitHub guide](https://docs.github.com/en/get-started/quickstart/contributing-to-projects)).
 
 ## Technical
 <details>
-<summary><i>Techical details about SVG / AI files, non-important info</i> (click to reveal)</summary>
+<summary><i>Technical details about SVG / AI files, non-important info</i> (click to reveal)</summary>
 
 - Master source file is AI or SVG format.
 - AI template's color mode is RGB color.
-- Image canvas: `1024 x 1024 px`.
 - Uses alpha channel.
-- Has circle background, spanning 100% of image canvas (`1024 x 1024 px`).
+- Image canvas: `1024 x 1024 px`.
+- Has circle background, spanning 100% of image canvas.
 - Guide space: maximum height is `512 px` and maximum width is `768 px`.
 </details>
 
