@@ -45,8 +45,8 @@ Search through the logo resources to find a vector-based image (SVG, AI, EPS, PD
 
 *Here are things you can check:*
 - **Press kit on the company website**
-  - e.g. [Zenkit press kit](https://zenkit.com/en/press-kit/) contains `Zenkit_Logo1_Flat.eps`.
-  - Look for pages like: *Brand, Press, Media, Logos, Assets, Marketing, About* etc.
+  - E.g. Zenkit has ["Press Kit" page](https://zenkit.com/en/press-kit/), that has ZIPs containing vector-based logos.
+  - Look for pages like: *Brand(ing), Press, Media, Logos, Assets, Marketing, About* etc.
 - **Embedded logo(s) on company website**
   - Easiest way for finding / downloading SVGs from web pages is using [SVG Gobbler](https://www.svggobbler.com/) browser extension (Chrome & Firefox).
     - Alternatives: [SVG Export](https://svgexport.io/) (Chrome & Firefox), [Brandfetch](https://brandfetch.com/) (web app), [svg-grabber](https://chrome.google.com/webstore/detail/svg-grabber-get-all-the-s/ndakggdliegnegeclmfgodmgemdokdmg) (Chrome only).
@@ -56,7 +56,7 @@ Search through the logo resources to find a vector-based image (SVG, AI, EPS, PD
           - E.g. at [Codeberg](https://codeberg.org/), inspecting the logo in the left side of the navigation or logo at center reveals the location of SVG. Right-click and "open in new tab" to see the SVG file.
        - Sometimes SVG is embedded as inline. Means that instead of linking to external file, whole SVG file code is added to the HTML (see [SVG code example](https://gist.github.com/krisu5/677a8a3478331498929a11b900741aa2)). In that case, copy the SVG code completely from HTML (website embedded SVG starts with `<svg` & so forth and ends with `</svg>`), open your refer text editor and save copypasted text as `filename.svg`. You can test if the file works by opening in it into web browser.
     2. Right-click the website and select *View page source*, then press `Ctrl [⌘ Cmd] + F` to open the search tool and type `SVG` to look for possible SVG vector files. Web inspector is also useful and better tool for some (press `F12`).
-       - E.g. [You Need A Budget](https://www.youneedabudget.com) reveals the hidden SVG resource in HTML metadata section `https://www-assets.youneedabudget.com/wp-content/themes/dupatta/dist/images/safari-pinned-tab_[alphanumerical-string].svg` which can be copy-paste into the browser and save (`CTRL [⌘ Cmd] + S`).
+       - E.g. [You Need A Budget](https://www.youneedabudget.com) reveals the hidden SVG resource in HTML metadata section `https://www-assets.youneedabudget.com/wp-content/themes/dupatta/dist/images/safari-pinned-tab_[alphanumerical-string].svg` which can be copy-paste into the browser and save (`Ctrl [⌘ Cmd] + S`).
 - If everything has failed so far, then **check [logo resources](#logos) section.**
   - Remember though, logo has to be latest one that company uses.
 - As last resort, you can **try image tracing.** Rule of thumb with image tracing is using image that's high resolution, not many colors and doesn't have any [artifacts](https://simple.wikipedia.org/wiki/Compression_artifact).
@@ -94,9 +94,9 @@ When making icons, download and use provided [templates](/_templates).
 <summary>In <i>Adobe Illustrator</i> (click to reveal)</summary>
 
 1. Ungroup all the groups related to the logo completely.
-   - Select layers in "Layers" window (`F7`) and press `CTRL [⌘ Cmd] + Shift + G` multiple times until everything is ungrouped.
-2. Usually, it's simple as selecting all the logo parts *(temporary lock "Background" layer if needed)* and make compound path (`Object -> Compound Path -> Make` menu or `CTRL [⌘ Cmd] + 8`).
-   - If compound pathing doesn't work, open "Pathfinder" window (`CTRL [⌘ Cmd] + Shift + F9`) and press "Unite" (top-left icon in the window under "Shape modes" text).
+   - Select layers in "Layers" window (`F7`) and press `Ctrl [⌘ Cmd] + Shift + G` multiple times until everything is ungrouped.
+2. Usually, it's simple as selecting all the logo parts *(temporary lock "Background" layer if needed)* and make compound path (`Object -> Compound Path -> Make` menu or `Ctrl [⌘ Cmd] + 8`).
+   - If compound pathing doesn't work, open "Pathfinder" window (`Ctrl [⌘ Cmd] + Shift + F9`) and press "Unite" (top-left icon in the window under "Shape modes" text).
 </details>
 
 <details>
@@ -104,7 +104,7 @@ When making icons, download and use provided [templates](/_templates).
 
 1. Open "Layers" window, if it's not already open (`View -> Studio -> Layers`).
 2. In canvas, use "Move" tool (`V`) and select logo layers by click & drag across the logo (avoid selecting circle).
-3. Ungroup multiple times until everything in the logo is ungrouped (`CTRL [⌘ Cmd] + Shift + G`).
+3. Ungroup multiple times until everything in the logo is ungrouped (`Ctrl [⌘ Cmd] + Shift + G`).
 4. Unselect everything (click outside of canvas with "Move" tool).
 5. Repeat step 2.
    - **Before moving to step 6,** read and do "Note for Affinity Designer users" part downwards.
@@ -116,14 +116,14 @@ When making icons, download and use provided [templates](/_templates).
 
 1. Open "Objects" window (`Object -> Objects`).
 2. Select all the objects related to logo (`Shift + Click` in the "Objects" window).
-3. Ungroup the object multiple times until everything is ungrouped (`Object -> Ungroup` menu or `CTRL [⌘ Cmd] + Shift + G`).
+3. Ungroup the object multiple times until everything is ungrouped (`Object -> Ungroup` menu or `Ctrl [⌘ Cmd] + Shift + G`).
 4. "Union" the objects to together (`Path -> Union`).
 </details>
 
 - 📝 **Note for Affinity Designer users:** change "fill mode" of the logo vector and its parts from *Winding (Non-Zero)* **into** *Alternative (Even-Odd)* (`Layer -> Fill Mode`). Why? Because it creates CSS rules we don't want for our SVGs and want everything to contain by the path.
 
 ### Colors
-- **Never use white as background color** (a.k.a. bg), white is always preserved for logo / fg.
+- **Never use white as background color (a.k.a. bg)**, white is always preserved for logo / fg (exceptions: `fg.var` & `fg.bg.var` icons).
 - Don't pick random colors, unless there's absolutely no other options.
 - Don't use gradients, use solid colors.
 - Keep everything at 100% opacity, no blending etc.
@@ -144,13 +144,13 @@ When making icons, download and use provided [templates](/_templates).
 - `bg.var` icons are for dark / AMOLED themes. These are made when primary icon has dark background that blends in when using the darker theme.
   - Examples: [primary Steam icon](https://user-images.githubusercontent.com/3540275/85153557-042e4580-b25f-11ea-85ff-7cb883f977d4.png), [Steam `bg.var` icon](https://user-images.githubusercontent.com/3540275/85153530-fbd60a80-b25e-11ea-9197-d7400eeec74f.png).
   - Use brighter alternative background.
-  - If there's no guidelines for alternative colors, check the website or app to see what other colors there might be.
+  - If there's no brand guidelines for alternative colors, check the website or app to see what other colors there might be.
 
 - `fg.var` icons are made when brand color is bright and hard to see for white logo.
-  - Examples: [primary Snapchat icon](https://user-images.githubusercontent.com/3540275/83945146-6162d980-a811-11ea-8910-9e93ff65e804.png), [Snapchat `fg.var` icon](https://user-images.githubusercontent.com/3540275/83945157-6fb0f580-a811-11ea-8fc4-494dcfff53ae.png). 
+  - Examples: [primary Snapchat icon](https://user-images.githubusercontent.com/3540275/83945146-6162d980-a811-11ea-8910-9e93ff65e804.png), [Snapchat `fg.var` icon](https://user-images.githubusercontent.com/3540275/151216951-ed34ea5e-d443-4e72-864e-56595e9a32c5.png). 
   - Use black (`#000000`) as foreground color.  
   
-- `fg.bg.var` is combination of both variations, for edge cases when `bg.var` color makes white logo is too bright and hard to see.
+- `fg.bg.var` is combination of both variations, for edge cases when `bg.var` background color is too bright and makes white logo hard to see.
   - **Only make these if absolutely necessary!** Find better BG color for `bg.var` if possible to avoid making these.
   - Examples: [Lichess `bg.var` icon](https://user-images.githubusercontent.com/3540275/151090580-9b4a3bf2-7221-493c-b71c-597f52a0666b.png), [Lichess `fg.bg.var` icon](https://user-images.githubusercontent.com/3540275/151090581-0898b5e6-7df7-47e7-978e-3466a21a52b0.png)
   - Use black (`#000000`) as foreground color for `bg.var` version.
@@ -178,12 +178,12 @@ Just change the logo for alternative version.
 - If you're using Adobe Illustrator, save the file as AI **and** SVG.
   - Remember to **rename the artboard** (shortcut: `Shift + O`) before saving.
     - Name artboard based of [filenaming system](#filename) (without extension).
-  - If you're using CC version, **export SVG with "Export for Screens"** (`File -> Export -> Export for Screens...` menu or `CTRL [⌘ Cmd] + Alt + E`)
+  - If you're using CC version, **export SVG with "Export for Screens"** (`Ctrl [⌘ Cmd] + Alt [⌥ Option] + E`  or `File -> Export -> Export for Screens...` menu)
 - For other softwares:
   - Before saving final version, remember to **remove the guide strokes!**
-  - **In Inkscape,** save the SVG as "Optimized SVG" (⚠ important!).
-    - [In the prompt window, use these settings!](https://raw.githubusercontent.com/aegis-icons/design-assets/master/screenshots/contributing_002.png) (⚠ equally important!)
-  - **In Affinity Designer,** export SVG with "SVG (digital - small size)" preset.
+  - **In Inkscape,** save the file as "Optimized SVG" (⚠ Important!).
+    - [In the prompt window, use these settings!](https://raw.githubusercontent.com/aegis-icons/design-assets/master/screenshots/contributing_002.png) (⚠ Equally important!)
+  - **In Affinity Designer,** export file with "SVG (digital - small size)" preset.
   - **In software that's non-above,** save as "SVG" or "Plain SVG", whichever is the safest option.
 - ❌ Don't make PNG files! PNG files are legacy content ([with some exceptions](#about-pngs)).
 - Read info about naming at [filename](#filename) section.
@@ -225,8 +225,8 @@ Next, do SVG compression & cleanup.
 - AI template's color mode is RGB color.
 - Uses alpha channel.
 - Image canvas: `1024 x 1024 px`.
-- Has circle background, spanning 100% of image canvas.
-- Guide space: maximum height is `512 px` and maximum width is `768 px`.
+- Has circle element, spanning 100% of image canvas.
+- Guide space: maximum width is `768 px` and maximum height is `512 px`.
 </details>
 
 ### Directories
@@ -236,6 +236,8 @@ Next, do SVG compression & cleanup.
 - For outdated icons, see [version naming and organizing old files](#version-naming-and-organizing-old-files) section.
 
 ### Filename
+⚠ When naming brand based icon(s), check how brand capitalised and spell the name from their app / website.
+
   - Primary icon: `[Company or Product Name].[extension]`
     - *Examples:* `itch.io.svg`
   - Icon variations with alternate logo: `[Primary icon name] alt.[extension]`
@@ -246,9 +248,10 @@ Next, do SVG compression & cleanup.
     - *Examples:* `Snapchat fg.var.svg`, `Squarespace bg.var.svg`
   - Icon variations with black foreground **and** different background color: `[Primary icon name] fg.bg.var.[extension]`
     - *Example:* `Lichess fg.bg.var.svg`
-  - Alt. icons with black foreground or different background color:
+  - Alt. icons with black foreground **or/and** different background color:
     - `[Primary icon name] alt bg.var.[extension]`
     - `[Primary icon name] alt fg.var.[extension]`
+    - `[Primary icon name] alt fg.bg.var.[extension]`
     - *Example:* `Discourse alt bg.var.svg`
   - Generic icon: name as what the icon symbolizes with big capital letter.
     - *Example:* `Cloud.svg`
@@ -325,7 +328,6 @@ Looking for software to start make icons? Here's some of the well known ones.
 <b>After reading and accepting guidelines, <a href="../../issues/new/choose">you can make new issue</a>.</b>
 
 ## Footnotes
-
 *Here's all the footnotes:*
 
 [^1]: Article: [Logo, Logomark, Logotype - What's The Difference And What Do You Need?](https://blog.designcrowd.com/article/997/logo-logomark-logotype-whats-the-difference-and-what-do-you-need) <sup>[wayback machine](https://web.archive.org/web/20200606123728/https://blog.designcrowd.com/article/997/logo-logomark-logotype-whats-the-difference-and-what-do-you-need)</sup>
