@@ -3498,6 +3498,13 @@
             ]
         },
         {
+            "filename": "SVG/OMGSERV.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "OMGSERV"
+            ]
+        },
+        {
             "filename": "SVG/OPNsense.svg",
             "category": "1. Apps & Sites",
             "issuer": [
