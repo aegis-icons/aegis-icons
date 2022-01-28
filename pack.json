@@ -1852,6 +1852,13 @@
             ]
         },
         {
+            "filename": "SVG/Cheaper Domains.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Cheaper Domains"
+            ]
+        },
+        {
             "filename": "SVG/Cisco.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2809,6 +2816,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "IBM"
+            ]
+        },
+        {
+            "filename": "SVG/ID.me.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "ID.me"
             ]
         },
         {
@@ -4876,6 +4890,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "XDA Developers"
+            ]
+        },
+        {
+            "filename": "SVG/XSplit.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "XSplit"
             ]
         },
         {
