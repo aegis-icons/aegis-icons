@@ -59,7 +59,7 @@ Before making or requesting an icon for app / site, please check if it fits our 
   - We have decided to make icons based of forum software they use, because those are more universally usable for users then specific communities.
     - Detected with tools like [What CMS](https://whatcms.org) and [W3Techs Site Info](https://w3techs.com/sites).
   - *Exception:* **Really** popular forums can get their own icons.
-- Platform that's icon requester / submitter is the creator of the platform itself.
+- Platform that's icon requester / submitter is the creator or owner of the platform itself.
   - We don't do free work or want self-advertising here.
   - *Exception:* if platform is actually popular and has potential users for Aegis.
 - Self-hosted services.
