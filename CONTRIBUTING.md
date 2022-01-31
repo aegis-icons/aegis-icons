@@ -10,6 +10,10 @@ It's recommended to also have some knowledge of design in general.
 ---
 
 #### Table of contents
+- [**Icon acceptability criteria**](#icon-acceptability-criteria)
+  - [Approved](#approved)
+  - [Case to case basis](#case-to-case-basis)
+  - [Not approved](#rejected)
 - [**Icon creation walkthrough**](#icon-creation-walkthrough)
   - [Finding source images](#finding-source-images)
   - [Templates](#templates)
@@ -37,8 +41,44 @@ It's recommended to also have some knowledge of design in general.
 
 ---
 
+## Icon acceptability criteria
+Before making or requesting an icon for app / site, please check if it fits our "acceptability criteria".
+
+### Approved
+✔ *Almost* always accepted to request or submission.
+
+- Apps / sites that are popular and has Aegis supported 2FA support **(specially wanted).**
+  - *Examples (not limited to):* social media, productivity tools, cloud services, development tools, gaming related etc.
+- Almost any app / site / service, **that doesn't have the exceptions from below.**
+  - Still in spite of this, aegis-icons has right to reject requests or submissions if needed or necessary.
+
+### Case to case basis
+❔ Needs some examining before accepting or rejecting. Request or submit and we will tell if it's accepted or not.
+
+- Forums, message groups.
+  - We have decided to make icons based of forum software they use, because those are more universally usable for users then specific communities.
+    - Detected with tools like [What CMS](https://whatcms.org) and [W3Techs Site Info](https://w3techs.com/sites).
+  - *Exception:* **Really** popular forums can get their own icons.
+- Platform that's icon requester / submitter is the creator of the platform itself.
+  - We don't do free work or want self-advertising here.
+  - *Exception:* if platform is actually popular and has potential users for Aegis.
+- Self-hosted services.
+  - Same points as previous section.
+  - Service should have over 100 Github / Gitlab stars or other non-maintainer activity to back it up.
+- Adult content platforms / services, piracy related apps / sites
+  - Mostly okay here, **but** it cannot break **any** of the "not approved" bullet points.
+
+### Not approved
+❌ These are never accepted to aegis-icons, **no exceptions!**
+
+- App / site **not** having Aegis supported 2FA support.
+- Platform having massive hate speech group following and poor moderation.
+  - *Examples (not limited to):* [most of the platforms listed here](https://en.wikipedia.org/wiki/Alt-tech#Platforms).
+- Scams or other suspiciously shady apps / sites.
+- App / site focusing on **highly** immoral and illegal activity / material.
+  - *Examples (not limited to):* black hat hacking, money laundering, illegal sexual material / services etc.
+
 ## Icon creation walkthrough
-First of all before doing anything, icon you're making for app / website **must have Aegis supported 2FA support**, one way or another. We don't accept icons based of services that don't have this requirement. And we also don't accept icons from known hate speech sites ([more info at issue guidelines](#issue-guidelines)).
 
 ### Finding source images
 Search through the logo resources to find a vector-based image (SVG, AI, EPS, PDF), **never use JPG / PNG / GIF / WebP or other raster images as is!**
@@ -314,13 +354,13 @@ Looking for software to start make icons? Here's some of the well known ones.
 
 ## Issue guidelines
 1. App / site icon related requests has to have Aegis supported 2FA support one way or another, this project does not make icons outside of Aegis usage.
-2. **Check that icon you're about to request doesn't [already exist](https://aegis-icons.github.io/)** or requested in the [issues](https://github.com/aegis-icons/aegis-icons/issues).
+2. **Check that icon you're about to request doesn't [already exist](https://aegis-icons.github.io/)** or opened / closed in the [issues](https://github.com/aegis-icons/aegis-icons/issues).
    - Icon packs are updated monthly, not every time a new icon is created ([see the pack releases](https://github.com/aegis-icons/aegis-icons/releases)). Icons created after the latest pack update are downloadable on [the website](https://aegis-icons.github.io/).
 3. Read the issue template and fill **at least** required parts.
 4. If you have question or miscellaneous suggestion, check [FAQ](FAQ.md) first.
 5. Aegis-icons can reject any icon request for any reason, but most of the requests gets filled. Usually we do provide explanation and possibly alternative option if we reject the request.
-   - Possible reasons for rejections (among others) are *too complex logo to make as monochrome or viewable in small size* ([example](https://github.com/aegis-icons/aegis-icons/issues/92)) and *site / app not offering Aegis supported 2FA in the first place.*
-   - *Hate speech site related requests* (such as Gab, Parler, Voat etc.) will be rejected, **no exceptions.**
+   - **Possible reasons for rejections (among others):** *too complex logo to make as monochrome or viewable in small size* and *site / app not offering Aegis supported 2FA in the first place.*
+   - **[Info about approved and not approved types of apps / sites](#icon-acceptability-criteria)**.
 6. For forums we have decided to make icons based of forum software they use, because those are more universally usable for icons then specific communities. *This is judged case by case*, really popular forums can get their own icons.
    - Finding out the forum software, we are using tools such as [What CMS](https://whatcms.org) and [W3Techs Site Info](https://w3techs.com/sites).
 7. Be respectful to the maintainers and contributers.
