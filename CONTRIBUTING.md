@@ -13,7 +13,7 @@ It's recommended to also have some knowledge of design in general.
 - [**Icon acceptability criteria**](#icon-acceptability-criteria)
   - [Approved](#approved)
   - [Case to case basis](#case-to-case-basis)
-  - [Not approved](#rejected)
+  - [Not approved](#not-approved)
 - [**Icon creation walkthrough**](#icon-creation-walkthrough)
   - [Finding source images](#finding-source-images)
   - [Templates](#templates)
