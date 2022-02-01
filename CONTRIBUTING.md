@@ -58,25 +58,25 @@ Before making or requesting an icon for app / site, please check if it fits our 
 - Forums, message groups.
   - We have decided to make icons based of forum software they use, because those are more universally usable for users then specific communities.
     - Detected with tools like [What CMS](https://whatcms.org) and [W3Techs Site Info](https://w3techs.com/sites).
-  - *Exception:* **Really** popular forums can get their own icons.
-- Platform that's icon requester / submitter is the creator or owner of the platform itself.
+  - *Exception:* **really** popular forums can get their own icons.
+- Platforms that icon requester / submitter is the creator or owner of the platform itself.
   - We don't do free work or want self-advertising here.
   - *Exception:* if platform is actually popular and has potential users for Aegis.
-- Self-hosted services or other FOSS / commercial tools.
-  - Same points as previous section.
-  - Service should have over 100 Github / Gitlab stars or other non-maintainer activity to back it up.
-- Adult content platforms / services, piracy related apps / sites
+- Self-hosted or similar FOSS / commercial software.
+  - Suggested to have ≥ 100 Github / Gitlab stars or other non-maintainer activity to back it up.
+  - If things previously mentioned aren't available, then we measure popularity based of search results.
+- Adult content platforms / services, piracy related apps / sites.
   - Mostly okay here, **but** it cannot break **any** of the "not approved" bullet points.
 
 ### Not approved
 ❌ These are never accepted to aegis-icons, **no exceptions!**
 
-- App / site **not** having Aegis supported 2FA support.
-- Platform having massive hate speech group following and poor moderation.
+- Apps / sites **not** having Aegis supported 2FA support.
+- Platforms having massive hate speech group following and poor moderation.
   - *Examples (not limited to):* [most of the platforms listed here](https://en.wikipedia.org/wiki/Alt-tech#Platforms).
 - Scams or other suspiciously shady apps / sites.
-- App / site focusing on **highly** immoral and illegal activity / material.
-  - *Examples (not limited to):* black hat hacking, money laundering, illegal sexual material / services etc.
+- Apps / sites focusing on **highly** immoral and illegal activity / material.
+  - *Examples (not limited to):* black hat hacking, money laundering, illegal sexual material / services, harassment / cyberbullying etc.
 
 ## Icon creation walkthrough
 
@@ -163,11 +163,12 @@ When making icons, download and use provided [templates](/_templates).
 - 📝 **Note for Affinity Designer users:** change "fill mode" of the logo vector and its parts from *Winding (Non-Zero)* **into** *Alternative (Even-Odd)* (`Layer -> Fill Mode`). Why? Because it creates CSS rules we don't want for our SVGs and want everything to contain by the path.
 
 ### Colors
-- **Never use white as background color (a.k.a. bg)**, white is always preserved for logo / fg (exceptions: `fg.var` & `fg.bg.var` icons).
+- **Never use white as background color (a.k.a. bg)**, white is always preserved for logo / fg.
 - Don't pick random colors, unless there's absolutely no other options.
 - Don't use gradients, use solid colors.
 - Keep everything at 100% opacity, no blending etc.
 - Logo (a.k.a. foreground, fg) should use white (`#FFFFFF`).
+  - *Exceptions:* `fg.var` & `fg.bg.var` icons.
 - If you find brand guideline that has documented brand colors ([example](https://brave.com/brave-branding-assets/) <sup>[wayback machine](https://web.archive.org/web/20200606124434/https://brave.com/brave-branding-assets/)</sup>), then go with that. For background color, use primary brand color that has specifically said on the guideline or based on what color is used most.
 - If there's no guidelines and logo only has one color, use logo color as icon background.
   - For multi-color logos, pick the best looking or most used color. 
