@@ -20,7 +20,7 @@ It's recommended to also have some knowledge of design in general.
   - [Layout](#layout)
   - [Vectors](#vectors)
   - [Colors](#colors)
-  - [bg.var, fg.var & fg.bar.var icons](#bgvar-fgvar--fgbgvar-icons)
+  - [bg.var, fg.var & fg.bg.var icons](#bgvar-fgvar--fgbgvar-icons)
   - [Alternative icons](#alternative-icons)
   - [Generic icons](#generic-icons)
   - [Save and export](#save-and-export)
