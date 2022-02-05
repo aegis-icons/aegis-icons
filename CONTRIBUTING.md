@@ -12,7 +12,7 @@ It's recommended to also have some knowledge of design in general.
 #### Table of contents
 - [**Icon acceptability criteria**](#icon-acceptability-criteria)
   - [Approved](#approved)
-  - [Case to case basis](#case-by-case-basis)
+  - [Case-by-case basis](#case-by-case-basis)
   - [Not approved](#not-approved)
 - [**Icon creation walkthrough**](#icon-creation-walkthrough)
   - [Finding source images](#finding-source-images)
