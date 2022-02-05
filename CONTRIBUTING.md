@@ -12,7 +12,7 @@ It's recommended to also have some knowledge of design in general.
 #### Table of contents
 - [**Icon acceptability criteria**](#icon-acceptability-criteria)
   - [Approved](#approved)
-  - [Case to case basis](#case-to-case-basis)
+  - [Case to case basis](#case-by-case-basis)
   - [Not approved](#not-approved)
 - [**Icon creation walkthrough**](#icon-creation-walkthrough)
   - [Finding source images](#finding-source-images)
@@ -52,7 +52,7 @@ Before making or requesting an icon for app / site, please check if it fits our 
 - Almost any app / site / service, **that doesn't have the exceptions from below.**
   - Still in spite of this, aegis-icons has right to reject requests or submissions if needed or necessary.
 
-### Case to case basis
+### Case-by-case basis
 ❔ Needs some examining before accepting or rejecting. Request or submit and we will tell if it's accepted or not.
 
 - Forums, message groups.
