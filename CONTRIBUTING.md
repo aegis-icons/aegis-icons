@@ -67,6 +67,9 @@ Before making or requesting an icon for app / site, please check if it fits our 
   - If things previously mentioned aren't available, then we measure popularity based of search results.
 - Adult content platforms / services, piracy related apps / sites.
   - Mostly okay here, **but** it cannot break **any** of the "not approved" bullet points.
+- App / site being too vague.
+  - *Examples (not limited to):* site only has login page and nothing else, search results don't answer what that app / site is either.
+  - It's not enough that you tell what the app / site does, we need at least *some* evidence from the web.
 
 ### Not approved
 ❌ These are never accepted to aegis-icons, **no exceptions!**
