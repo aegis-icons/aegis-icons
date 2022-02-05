@@ -9,7 +9,7 @@ It's recommended to also have some knowledge of design in general.
 
 ---
 
-#### Table of contents
+**Table of contents**
 - [**Icon acceptability criteria**](#icon-acceptability-criteria)
   - [Approved](#approved)
   - [Case-by-case basis](#case-by-case-basis)
