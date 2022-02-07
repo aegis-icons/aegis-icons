@@ -1936,6 +1936,13 @@
             ]
         },
         {
+            "filename": "SVG/CoinStats.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "CoinStats"
+            ]
+        },
+        { 
             "filename": "SVG/CoinTracking.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3243,6 +3250,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "MercadoLibre"
+            ]
+        },
+        {
+            "filename": "SVG/Micron21.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Micron21"
             ]
         },
         {
@@ -5101,6 +5115,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "itch.io"
+            ]
+        },
+        {
+            "filename": "SVG/lexoffice.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "lexoffice"
             ]
         },
         {
