@@ -125,7 +125,7 @@ When making icons, download and use provided [templates](/_templates).
 ### Layout
 - Always use logomark [^1] if brand is using one.
 - If logo only has text, use that instead.
-  - **Only if absolutely necessary:** if you think that text is too long and hard to read on smaller size, use first letter of text.
+  - **Only if absolutely necessary:** if you think that text is too long and hard to read on smaller size, make it similar to [favicon](https://en.wikipedia.org/wiki/Favicon) / app icon or use first letter of text.
 - Stay inside of the guides as much as possible.
 - Square like shaped logos shouldn't step outside of the guides (size wise).
 - For wider logos, furthest left & right side guides are max size limit.
