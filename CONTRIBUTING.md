@@ -248,16 +248,18 @@ Next, do SVG compression & cleanup.
   - Just tick "[Prettify markup](https://raw.githubusercontent.com/aegis-icons/design-assets/master/screenshots/contributing_001.png)" before downloading the compressed SVG.
   - **Don't make other changes to settings.**
 
-⚠ After this, check / manually edit with text editor that **SVG is correctly formatted for submission:**
+⚠ After this, check / **manually edit** with text editor (Notepad, TextEdit, Vim etc.) that **SVG is correctly formatted for submission:**
 
-```
+```xml
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
    <circle cx="512" cy="512" r="512" style="fill:#BG-HEX-COLOR"/>
    <path d="PRETTY-LONG-LOGO-PATH" style="fill:#LOGO-HEX-COLOR"/>
 </svg>
 ```
 
-[Example icon diff of _manual cleanup_](https://github.com/aegis-icons/misc/commit/c0128f61f0d2b88d5953881699955a4a17477e47?diff=split).
+🧹 *[Example SVG diff of manual cleanup](https://github.com/aegis-icons/misc/commit/c0128f61f0d2b88d5953881699955a4a17477e47?diff=split).*
+
+⚠ **Test the SVG on web browser** that it still works after edits! (`Ctrl [⌘ Cmd] + O` or drag and drop SVG to tab bar.)
 
 ### Submit to repository
 - Submit your icon for review by [opening a new issue](../../issues/new/choose) (select "Icon submission") and add your file(s) / info.
