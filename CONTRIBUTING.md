@@ -111,7 +111,7 @@ Search through the logo resources to find a vector-based image (SVG, AI, EPS, PD
     - Also commercial, but does offer free trials for [desktop application](https://vectormagic.com/desktop).
 - **Making vectorized logo from stratch** is also option, if you're skilled and patient enough.
 
-> ℹ SVG full of errors? Try fixing it with [SVGminify.com](https://www.svgminify.com/).
+> ℹ SVG doesn't work? Try fixing it with [SVGminify.com](https://www.svgminify.com/).
 
 > ⚠ Watch out for SVGs that are using raster graphics ([example](https://github.com/haiwen/seafile-client/blob/7d8f06111960921ce01ef08e169d41bae13959ed/data/icons/scalable/apps/seafile.svg?short_path=d0d75d2#L54-L218)). These are not common, but does exists.
 
