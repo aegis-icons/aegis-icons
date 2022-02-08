@@ -248,7 +248,7 @@ Next, do SVG compression & cleanup.
   - Just tick "[Prettify markup](https://raw.githubusercontent.com/aegis-icons/design-assets/master/screenshots/contributing_001.png)" before downloading the compressed SVG.
   - **Don't make other changes to settings.**
 
-⚠ After this, check with text editor that **SVG is correctly formatted for submission:**
+⚠ After this, check / manually edit with text editor that **SVG is correctly formatted for submission:**
 
 ```
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
