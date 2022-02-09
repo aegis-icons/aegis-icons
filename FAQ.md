@@ -98,4 +98,4 @@ We don't make new icon variations by request.
 
 ## There's rendering issues with X icon.
 
-If you notice such issues with icon, please [report us](https://github.com/aegis-icons/aegis-icons/issues/new) and we fix the icon and/or make PNG counterpart for it ([list of icons with rendering issues](/PNG/README.md)).
+If you notice such issues with icon, please [report us](https://github.com/aegis-icons/aegis-icons/issues/new/choose) (choose "Other") and we fix the icon and/or make PNG counterpart for it ([list of icons with rendering issues](/PNG/README.md)).
