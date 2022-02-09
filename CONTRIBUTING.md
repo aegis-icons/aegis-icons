@@ -229,7 +229,7 @@ Just change the logo for alternative version.
   - Before saving final version, remember to **remove the guide strokes!**
   - **In Affinity Designer,** export file with "SVG (digital - small size)" preset.
   - **In Inkscape,** save the file as "Optimized SVG" (⚠ Important!).
-    - [In the prompt window, use these settings!](https://raw.githubusercontent.com/aegis-icons/misc/master/screenshots/contributing_002.png) (⚠ Equally important!)
+    - [In the prompt window, use these settings!](https://raw.githubusercontent.com/aegis-icons/misc/main/screenshots/contributing_002.png) (⚠ Equally important!)
   - **In software that's non-above,** save as "SVG" or "Plain SVG", whichever is the safest available option.
 - ❌ Don't make PNG files! PNG files are legacy content ([with some exceptions](#about-pngs)).
 - Read info about naming at [filename](#filename) section.
@@ -245,7 +245,7 @@ Next, do SVG compression & cleanup.
 
 *If you don't know how to use command line:*
 - Use [SVGOMG](https://jakearchibald.github.io/svgomg/)
-  - Just tick "[Prettify markup](https://raw.githubusercontent.com/aegis-icons/misc/master/screenshots/contributing_001.png)" before downloading the compressed SVG.
+  - Just tick "[Prettify markup](https://raw.githubusercontent.com/aegis-icons/misc/main/screenshots/contributing_001.png)" before downloading the compressed SVG.
   - **Don't make other changes to settings.**
 
 ⚠ After this, check / **manually edit** with text editor (Notepad, TextEdit, Vim etc.) that **SVG is correctly formatted for submission:**
