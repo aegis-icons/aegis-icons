@@ -40,6 +40,6 @@
 ## Disclaimer
 This project includes material that may be protected as a trademark in some jurisdictions. Trademarks seen here in "aegis-icons" project does not indicate endorsement to the brands. If you want to use icon(s) publicly, you have to ensure that you have the legal right to do so and that you do not infringe any trademark rights. Please do not use brand based icons for any purpose except to represent the company, product, or service to which they refer. The CC0 license applies only to templates, texts, codes and some of the icons. Everything else is either licensed (see the credits) or property of trademark owners. If you're owner of certain trademark(s) and want icon taken down for whatever reason, please [contact us](messageme.md).
 
-We don't make icons for general purpose, we only focus on userbase of Aegis, the Android app. Check out [Simple Icons](https://simpleicons.org/) instead!.
+We don't make icons for general purpose, we only focus on userbase of Aegis, the Android app. Check out [Simple Icons](https://simpleicons.org/) instead!
 
 As of 2021-07-25, [aegis-icons doesn't actively make PNG files](https://github.com/aegis-icons/aegis-icons/tree/master/PNG/README.md).
