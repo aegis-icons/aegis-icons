@@ -648,6 +648,13 @@
             ]
         },
         {
+            "filename": "SVG/.Outdated/omg.lol v1.svg",
+            "category": "4. Outdated",
+            "issuer": [
+                "omg.lol"
+            ]
+        },
+        {
             "filename": "SVG/.Variations/1984 Hosting bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
@@ -3526,13 +3533,6 @@
             ]
         },
         {
-            "filename": "SVG/OMG.LOL.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "OMG.LOL"
-            ]
-        },
-        {
             "filename": "SVG/OMGSERV.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -5171,6 +5171,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "niconico"
+            ]
+        },
+        {
+            "filename": "SVG/omg.lol v2.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "omg.lol"
             ]
         },
         {
