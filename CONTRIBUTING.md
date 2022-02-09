@@ -223,14 +223,14 @@ Just change the logo for alternative version.
 ### Save and export
 - If you're using Adobe Illustrator, save the file as AI **and** SVG.
   - Remember to **rename the artboard** (shortcut: `Shift + O`) before saving.
-    - Name artboard based of [filenaming system](#filename) (without extension).
+    - Name artboard based of [filenaming system](#filename) (without filename extension).
   - If you're using CC version, **export SVG with "Export for Screens"** (`Ctrl [⌘ Cmd] + Alt [⌥ Option] + E`  or `File -> Export -> Export for Screens...` menu)
 - For other softwares:
   - Before saving final version, remember to **remove the guide strokes!**
-  - **In Inkscape,** save the file as "Optimized SVG" (⚠ Important!).
-    - [In the prompt window, use these settings!](https://raw.githubusercontent.com/aegis-icons/design-assets/master/screenshots/contributing_002.png) (⚠ Equally important!)
   - **In Affinity Designer,** export file with "SVG (digital - small size)" preset.
-  - **In software that's non-above,** save as "SVG" or "Plain SVG", whichever is the safest option.
+  - **In Inkscape,** save the file as "Optimized SVG" (⚠ Important!).
+    - [In the prompt window, use these settings!](https://raw.githubusercontent.com/aegis-icons/misc/master/screenshots/contributing_002.png) (⚠ Equally important!)
+  - **In software that's non-above,** save as "SVG" or "Plain SVG", whichever is the safest available option.
 - ❌ Don't make PNG files! PNG files are legacy content ([with some exceptions](#about-pngs)).
 - Read info about naming at [filename](#filename) section.
 - If you're submitting pull request, read also [directories](#directories) section.
@@ -245,7 +245,7 @@ Next, do SVG compression & cleanup.
 
 *If you don't know how to use command line:*
 - Use [SVGOMG](https://jakearchibald.github.io/svgomg/)
-  - Just tick "[Prettify markup](https://raw.githubusercontent.com/aegis-icons/design-assets/master/screenshots/contributing_001.png)" before downloading the compressed SVG.
+  - Just tick "[Prettify markup](https://raw.githubusercontent.com/aegis-icons/misc/master/screenshots/contributing_001.png)" before downloading the compressed SVG.
   - **Don't make other changes to settings.**
 
 ⚠ After this, check / **manually edit** with text editor (Notepad, TextEdit, Vim etc.) that **SVG is correctly formatted for submission:**
@@ -256,10 +256,11 @@ Next, do SVG compression & cleanup.
    <path d="PRETTY-LONG-LOGO-PATH" style="fill:#LOGO-HEX-COLOR"/>
 </svg>
 ```
+<sup>🡱&nbsp;&nbsp;&nbsp; **Indentation:** 3 spaces (important if you used SVGOMG). **Note the order of the line 1's properties** (*xmlns* & *viewBox*).</sup>
 
-🧹 *[Example SVG diff of manual cleanup](https://github.com/aegis-icons/misc/commit/c0128f61f0d2b88d5953881699955a4a17477e47?diff=split).*
+🧹 [Example SVG diff of manual cleanup](https://github.com/aegis-icons/misc/commit/c0128f61f0d2b88d5953881699955a4a17477e47?diff=split).
 
-⚠ **Test the SVG on web browser** that it still works after edits! (`Ctrl [⌘ Cmd] + O` or drag and drop SVG to tab bar.)
+🔍 **Test the SVG on web browser** that it still works after edits! (`Ctrl [⌘ Cmd] + O` or drag and drop SVG to tab bar.)
 
 ### Submit to repository
 - Submit your icon for review by [opening a new issue](../../issues/new/choose) (select "Icon submission") and add your file(s) / info.
@@ -286,20 +287,23 @@ Next, do SVG compression & cleanup.
 ### Filename
 ⚠ When naming brand based icon(s), check how brand capitalised and spell the name from their app / website.
 
-  - Primary icon: `[Company or Product Name].[extension]`
-    - *Examples:* `itch.io.svg`
-  - Icon variations with alternate logo: `[Primary icon name] alt.[extension]`
+  - Primary icon:
+    - `[Company or Product Name].<ext>`
+    - *Examples:* `Adobe.svg`, `Best Buy.svg`, `FACEIT.svg`, `itch.io.svg`
+  - Icon variations with alternate logo:
+    - `[Primary icon name] alt.<ext>`
     - *Examples:* `AppFolio alt.svg`
   - Icon variations with black foreground or different background color:
-    - `[Primary icon name] bg.var.[extension]`
-    - `[Primary icon name] fg.var.[extension]`
+    - `[Primary icon name] bg.var.<ext>`
+    - `[Primary icon name] fg.var.<ext>`
     - *Examples:* `Snapchat fg.var.svg`, `Squarespace bg.var.svg`
-  - Icon variations with black foreground **and** different background color: `[Primary icon name] fg.bg.var.[extension]`
+  - Icon variations with black foreground **and** different background color:
+    - `[Primary icon name] fg.bg.var.<ext>`
     - *Example:* `Lichess fg.bg.var.svg`
   - Alt. icons with black foreground **or/and** different background color:
-    - `[Primary icon name] alt bg.var.[extension]`
-    - `[Primary icon name] alt fg.var.[extension]`
-    - `[Primary icon name] alt fg.bg.var.[extension]`
+    - `[Primary icon name] alt bg.var.<ext>`
+    - `[Primary icon name] alt fg.var.<ext>`
+    - `[Primary icon name] alt fg.bg.var.<ext>`
     - *Example:* `Discourse alt bg.var.svg`
   - Generic icon: name as what the icon symbolizes with big capital letter.
     - *Example:* `Cloud.svg`
