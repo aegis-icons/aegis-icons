@@ -28,6 +28,14 @@ Now you can add icons to your entries:
    - If you *do* have a icon pack enabled, first press button with "Custom" label 🖼 [[Example]](https://raw.githubusercontent.com/aegis-icons/misc/master/screenshots/faq_how-to-use-icons_003.png) and *then* select the app for locating icon that you downloaded.
 5. After the selection, tap "Save" button at top-right.
 
+## How to update the icon pack?
+
+It's the same steps as [adding the icon pack first time](#with-icon-pack), you don't need to delete icon pack before updating.
+
+When encountering the error dialog while updating pack, just tap **yes**. 🖼 [[Example]](https://raw.githubusercontent.com/aegis-icons/misc/master/screenshots/faq_how-to-update-icon-pack.png)
+
+None of the icons in entries will be changed after icon pack update (you'll need to manually change the entry icons, if you so desire).
+
 ## How can I make icon with different background color?
 
 ### Easy "PC only" way
