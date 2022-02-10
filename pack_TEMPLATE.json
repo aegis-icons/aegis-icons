@@ -424,6 +424,13 @@
             ]
         },
         {
+            "filename": "SVG/.Outdated/LogMeIn.svg",
+            "category": "4. Outdated",
+            "issuer": [
+                "LogMeIn"
+            ]
+        },
+        {
             "filename": "SVG/.Outdated/MangaDex v1.svg",
             "category": "4. Outdated",
             "issuer": [
@@ -841,6 +848,14 @@
             "category": "2. Variations & Alts",
             "issuer": [
                 "Github"
+            ]
+        },
+        {
+            "filename": "SVG/.Variations/GoTo fg.var.svg",
+            "category": "2. Variations & Alts",
+            "issuer": [
+                "GoTo",
+                "LogMeIn"
             ]
         },
         {
@@ -1519,7 +1534,8 @@
             "filename": "SVG/Battle.net.svg",
             "category": "1. Apps & Sites",
             "issuer": [
-                "Battle.net"
+                "Battle.net",
+                "Blizzard"
             ]
         },
         {
@@ -2588,6 +2604,14 @@
             ]
         },
         {
+            "filename": "SVG/GoTo.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "GoTo",
+                "LogMeIn"
+            ]
+        },
+        {
             "filename": "SVG/GoatCounter.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3103,13 +3127,6 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Localbitcoins"
-            ]
-        },
-        {
-            "filename": "SVG/LogMeIn.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "LogMeIn"
             ]
         },
         {
@@ -4230,7 +4247,8 @@
             "filename": "SVG/Shortcut.svg",
             "category": "1. Apps & Sites",
             "issuer": [
-                "Shortcut"
+                "Shortcut",
+                "Clubhouse"
             ]
         },
         {
