@@ -1461,6 +1461,13 @@
             ]
         },
         {
+            "filename": "SVG/Asana.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Asana"
+            ]
+        },
+        {
             "filename": "SVG/Asustor.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3704,6 +3711,13 @@
             ]
         },
         {
+            "filename": "SVG/Paddle.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Paddle"
+            ]
+        },
+        {
             "filename": "SVG/Palo Alto Networks.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3960,6 +3974,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Qwintry"
+            ]
+        },
+        {
+            "filename": "SVG/RAIDBOXES.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "RAIDBOXES"
             ]
         },
         {
@@ -4708,6 +4729,13 @@
             ]
         },
         {
+            "filename": "SVG/Unstoppable Domains.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Unstoppable Domains"
+            ]
+        },
+        {
             "filename": "SVG/UpCloud.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4824,6 +4852,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "WP Engine"
+            ]
+        },
+        {
+            "filename": "SVG/WPMU DEV.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "WPMU DEV"
             ]
         },
         {
