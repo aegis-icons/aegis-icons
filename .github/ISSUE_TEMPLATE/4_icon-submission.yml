@@ -19,9 +19,9 @@ body:
       label: Icon type
       description: Select what kind of icon you're submitting.
       options:
-        - New icon
-        - Updated icon
-        - Generic icon
+        - Logo based
+        - Update
+        - Generic
     validations:
       required: true
   - type: input
