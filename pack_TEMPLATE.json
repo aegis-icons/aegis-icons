@@ -585,6 +585,13 @@
             ]
         },
         {
+            "filename": "SVG/.Outdated/Thycotic.svg",
+            "category": "4. Outdated",
+            "issuer": [
+                "Thycotic"
+            ]
+        },
+        {
             "filename": "SVG/.Outdated/TradingView v1.svg",
             "category": "4. Outdated",
             "issuer": [
@@ -2085,6 +2092,13 @@
             ]
         },
         {
+            "filename": "SVG/Delinea.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Delinea"
+            ]
+        },
+        {
             "filename": "SVG/Deribit.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3228,6 +3242,13 @@
             ]
         },
         {
+            "filename": "SVG/Manjaro.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Manjaro"
+            ]
+        },
+        {
             "filename": "SVG/Mapbox.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3977,13 +3998,6 @@
             ]
         },
         {
-            "filename": "SVG/RAIDBOXES.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "RAIDBOXES"
-            ]
-        },
-        {
             "filename": "SVG/Rackspace.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4530,13 +4544,6 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "TheraKey"
-            ]
-        },
-        {
-            "filename": "SVG/Thycotic.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "Thycotic"
             ]
         },
         {
@@ -5252,6 +5259,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "postale.io"
+            ]
+        },
+        {
+            "filename": "SVG/raidboxes.svg",
+            "category": null,
+            "issuer": [
+                "raidboxes"
             ]
         },
         {
