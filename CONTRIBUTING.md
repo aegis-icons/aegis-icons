@@ -63,7 +63,7 @@ Before making or requesting an icon for app / site, please check if it fits our 
   - We don't do free work or want self-advertising here.
   - *Exception:* if platform is actually popular and has potential users for Aegis.
 - Self-hosted or similar software.
-  - Suggested to have ≥ 100 Github / Gitlab stars or other non-maintainer activity to back it up.
+  - Suggested to have ≥ 500 Github / Gitlab stars or other non-maintainer activity to back it up.
   - If things previously mentioned aren't available, then we measure popularity based of search results.
 - Adult content platforms / services, piracy related apps / sites.
   - Mostly okay here, **but** it cannot break **any** of the "not approved" bullet points.
