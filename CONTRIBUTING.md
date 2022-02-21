@@ -62,7 +62,7 @@ Before making or requesting an icon for app / site, please check if it fits our 
 - Platforms that icon requester / submitter is the creator or owner of the platform itself.
   - We don't do free work or want self-advertising here.
   - *Exception:* if platform is actually popular and has potential users for Aegis.
-- Self-hosted or similar FOSS / commercial software.
+- Self-hosted or similar software.
   - Suggested to have ≥ 100 Github / Gitlab stars or other non-maintainer activity to back it up.
   - If things previously mentioned aren't available, then we measure popularity based of search results.
 - Adult content platforms / services, piracy related apps / sites.
