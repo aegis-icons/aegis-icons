@@ -8,7 +8,7 @@ body:
       value: |
         [Read our issue guidelines first](https://github.com/aegis-icons/aegis-icons/blob/master/CONTRIBUTING.md#issue-guidelines) if you haven't already (only takes half a minute to read!)
         
-        ⚠ Remember to **add symbol name** (eg. `education`) at the end of *"Generic icon request:"* part on top, **do not change the formatting of the title!**
+        :warning: Remember to **add symbol name** (eg. `education`) at the end of *"Generic icon request:"* part on top, **do not change the formatting of the title!**
         
         If you can't think of **symbol name**, use these sites as reference:
         - https://iconscout.com/unicons/explore/line

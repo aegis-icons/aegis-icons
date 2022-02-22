@@ -45,7 +45,7 @@ It's recommended to also have some knowledge of design in general.
 Before making or requesting an icon for app / site, please check if it fits our "acceptability criteria".
 
 ### Approved
-✔ *Almost* always accepted to request or submission.
+:heavy_check_mark: *Almost* always accepted to request or submission.
 
 - Apps / sites that are popular and has Aegis supported 2FA support **(specially wanted).**
   - *Examples (not limited to):* social media, productivity tools, cloud services, development tools, gaming related etc.
@@ -53,7 +53,7 @@ Before making or requesting an icon for app / site, please check if it fits our 
   - Still in spite of this, aegis-icons has right to reject requests or submissions if needed or necessary.
 
 ### Case-by-case basis
-❔ Needs some examining before accepting or rejecting. Request or submit and we will tell if it's accepted or not.
+:grey_question: Needs some examining before accepting or rejecting. Request or submit and we will tell if it's accepted or not.
 
 - Forums, message groups.
   - We have decided to make icons based of forum software they use, because those are more universally usable for users then specific communities.
@@ -72,7 +72,7 @@ Before making or requesting an icon for app / site, please check if it fits our 
   - It's not enough that you tell what the app / site does, we need at least **some** evidence from the web. Otherwise it counts as *"suspiciously shady"*.
 
 ### Not approved
-❌ These are never accepted to aegis-icons, **no exceptions!**
+:x: These are never accepted to aegis-icons, **no exceptions!**
 
 - Apps / sites **not** having Aegis supported 2FA support.
 - Platforms having massive hate speech group following and poor moderation.
@@ -91,14 +91,14 @@ Search through the logo resources to find a vector-based image (SVG, AI, EPS, PD
   - E.g. Zenkit has ["Press Kit" page](https://zenkit.com/en/press-kit/), that has ZIPs containing vector-based logos.
   - Look for pages like: *Brand(ing), Press, Media, Logos, Assets, Marketing, About* etc.
 - **Embedded logo(s) on company website**
-  - Easiest way for finding / downloading SVGs from web pages is using [SVG Gobbler](https://www.svggobbler.com/) browser extension (Chrome & Firefox).
-    - Alternatives: [SVG Export](https://svgexport.io/) (Chrome & Firefox), [svg-grabber](https://chrome.google.com/webstore/detail/svg-grabber-get-all-the-s/ndakggdliegnegeclmfgodmgemdokdmg) (Chrome only).
+  - Easiest way for finding / downloading SVGs from web pages is using [SVG Gobbler](https://www.svggobbler.com/) browser extension (Chrome & Firefox, [open source](https://github.com/rossmoody/svg-gobbler)).
+    - Alternatives: [SVG Export](https://svgexport.io/) (Chrome & Firefox), [svg-grabber](https://chrome.google.com/webstore/detail/svg-grabber-get-all-the-s/ndakggdliegnegeclmfgodmgemdokdmg) (Chrome only, abandonware).
   - **Ways without extension:**
     1. Try right-clicking logo image and selecting *Save image as...*, and see if the save dialogue appears with SVG (not JPG, PNG, GIF, WebP or [any other raster graphic format](https://en.wikipedia.org/wiki/Image_file_formats#Raster_formats)).
        - If right-clicking the image does not have an option for *Save image as...*, try using *Inspect* at the bottom of the right-click menu. This opens the developer tools which can reveal hidden URLs.
           - E.g. at [Codeberg](https://codeberg.org/), inspecting the logo in the left side of the navigation or logo at center reveals the location of SVG. Right-click and "open in new tab" to see the SVG file.
        - Sometimes SVG is embedded as inline. Means that instead of linking to external file, whole SVG file code is added to the HTML (see [SVG code example](https://gist.github.com/krisu5/677a8a3478331498929a11b900741aa2)). In that case, copy the SVG code completely from HTML (website embedded SVG starts with `<svg` & so forth and ends with `</svg>`), open your refer text editor and save copypasted text as `filename.svg`. You can test if the file works by opening in it into web browser.
-    2. Right-click the website and select *View page source*, then press `Ctrl [⌘ Cmd] + F` to open the search tool and type `SVG` to look for possible SVG vector files. Web inspector is also useful and better tool for some (press `F12`).
+    2. Right-click the website and select *View page source*, then press `Ctrl [⌘ Cmd] + F` to open the search tool and type `SVG` to look for possible SVG vector files. Web inspector is also useful and better tool for some (press `F12` on the website).
        - E.g. [You Need A Budget](https://www.youneedabudget.com) reveals the hidden SVG resource in HTML metadata section `https://www-assets.youneedabudget.com/wp-content/themes/dupatta/dist/images/safari-pinned-tab_[alphanumerical-string].svg` which can be copy-paste into the browser and save (`Ctrl [⌘ Cmd] + S`).
 - If everything has failed so far, then **check [logo resources](#logos) section.**
   - Remember though, logo has to be latest one that company uses.
@@ -111,9 +111,9 @@ Search through the logo resources to find a vector-based image (SVG, AI, EPS, PD
     - Also commercial, but does offer free trials for [desktop application](https://vectormagic.com/desktop).
 - **Making vectorized logo from stratch** is also option, if you're skilled and patient enough.
 
-> ℹ SVG doesn't work? Try fixing it with [SVGminify.com](https://www.svgminify.com/).
+> :information_source: SVG doesn't work? Try fixing it with [SVGminify.com](https://www.svgminify.com/).
 
-> ⚠ Watch out for SVGs that are using raster graphics ([example](https://github.com/haiwen/seafile-client/blob/7d8f06111960921ce01ef08e169d41bae13959ed/data/icons/scalable/apps/seafile.svg?short_path=d0d75d2#L54-L218)). These are not common, but does exist.
+> :warning: Watch out for SVGs that are using raster graphics ([example](https://github.com/haiwen/seafile-client/blob/7d8f06111960921ce01ef08e169d41bae13959ed/data/icons/scalable/apps/seafile.svg?short_path=d0d75d2#L54-L218)). These are not common, but does exist.
 
 ### Templates
 When making icons, download and use provided [templates](/_templates).
@@ -165,7 +165,7 @@ When making icons, download and use provided [templates](/_templates).
 4. "Union" the objects to together (`Path -> Union`).
 </details>
 
-- 📝 **Note for Affinity Designer users:** change "fill mode" of the logo vector and its parts from *Winding (Non-Zero)* **into** *Alternative (Even-Odd)* (`Layer -> Fill Mode`). Why? Because it creates CSS rules we don't want for our SVGs and want everything to contain by the path.
+- :memo: **Note for Affinity Designer users:** change "fill mode" of the logo vector and its parts from *Winding (Non-Zero)* **into** *Alternative (Even-Odd)* (`Layer -> Fill Mode`). Why? Because it creates CSS rules we don't want for our SVGs and want everything to contain by the path.
 
 ### Colors
 - **Never use white as background color (a.k.a. bg)**, white is always preserved for logo / fg.
@@ -228,10 +228,10 @@ Just change the logo for alternative version.
 - For other softwares:
   - Before saving final version, remember to **remove the guide strokes!**
   - **In Affinity Designer,** export file with "SVG (digital - small size)" preset.
-  - **In Inkscape,** save the file as "Optimized SVG" (⚠ Important!).
-    - [In the prompt window, use these settings!](https://raw.githubusercontent.com/aegis-icons/misc/main/screenshots/contributing_002.png) (⚠ Equally important!)
+  - **In Inkscape,** save the file as "Optimized SVG" (:warning: Important!).
+    - [In the prompt window, use these settings!](https://raw.githubusercontent.com/aegis-icons/misc/main/screenshots/contributing_002.png) (:warning: Equally important!)
   - **In software that's non-above,** save as "SVG" or "Plain SVG", whichever is the safest available option.
-- ❌ Don't make PNG files! PNG files are legacy content ([with some exceptions](#about-pngs)).
+- :x: Don't make PNG files! PNG files are legacy content ([with some exceptions](#about-pngs)).
 - Read info about naming at [filename](#filename) section.
 - If you're submitting pull request, read also [directories](#directories) section.
 
@@ -248,7 +248,7 @@ Next, do SVG compression & cleanup.
   - Just tick "[Prettify markup](https://raw.githubusercontent.com/aegis-icons/misc/main/screenshots/contributing_001.png)" before downloading the compressed SVG.
   - **Don't make other changes to settings.**
 
-⚠ After this, check / **manually edit** with text editor (Notepad, TextEdit, Vim etc.) that **SVG is correctly formatted for submission:**
+:warning: After this, check / **manually edit** with text editor (Notepad, TextEdit, Vim etc.) that **SVG is correctly formatted for submission:**
 
 ```xml
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
@@ -258,9 +258,9 @@ Next, do SVG compression & cleanup.
 ```
 <sup>🡱&nbsp;&nbsp;&nbsp; **Indentation:** 3 spaces (important if you used SVGOMG). **Note the order of the line 1's properties** (*xmlns* & *viewBox*).</sup>
 
-🧹 [Example SVG diff of manual cleanup](https://github.com/aegis-icons/misc/commit/c0128f61f0d2b88d5953881699955a4a17477e47?diff=split).
+:broom: [Example SVG diff of manual cleanup](https://github.com/aegis-icons/misc/commit/c0128f61f0d2b88d5953881699955a4a17477e47?diff=split).
 
-🔍 **Test the SVG on web browser** that it still works after edits! (`Ctrl [⌘ Cmd] + O` or drag and drop SVG to tab bar.)
+:mag: **Test the SVG on web browser** that it still works after edits! (`Ctrl [⌘ Cmd] + O` or drag and drop SVG to tab bar.)
 
 ### Submit to repository
 - Submit your icon for review by [opening a new issue](../../issues/new/choose) (select "Icon submission") and add your file(s) / info.
@@ -285,7 +285,7 @@ Next, do SVG compression & cleanup.
 - For outdated icons, see [version naming and organizing old files](#version-naming-and-organizing-old-files) section.
 
 ### Filename
-⚠ When naming brand based icon(s), check how brand capitalised and spell the name from their app / website.
+:warning: When naming brand based icon(s), check how brand capitalised and spell the name from their app / website.
 
   - Primary icon:
     - `[Company or Product Name].<ext>`
@@ -325,7 +325,7 @@ As of 2021-07-25, aegis-icons doesn't actively make PNG icons anymore. Instead P
 PNGs are only made by maintainers to keep files & compressions consistent. [List of SVG icons with known rendering issues are available here](https://github.com/aegis-icons/aegis-icons/blob/master/PNG/README.md).
 
 ## Resources
-Resources marked with star (⭐) are recommended / most used by the maintainers.
+Resources marked with star (:star:) are recommended / most used by the maintainers.
 
 ### Logos
 These are good resources for finding logos in vector format, when no official brand kit / vector logos are available.
@@ -333,12 +333,12 @@ These are good resources for finding logos in vector format, when no official br
 **Remember to always check if logo provided by these resources is latest one company uses!**
 
 - [Brandfetch](https://brandfetch.com/) (not always accurate results)
-- [LogoSearch](https://logosear.ch/) ⭐
+- [LogoSearch](https://logosear.ch/) :star:
 - [Seeklogo](https://seeklogo.com/)
-- [Simple Icons](https://simpleicons.org/) ⭐
+- [Simple Icons](https://simpleicons.org/) :star:
 - [Worldvectorlogo](https://worldvectorlogo.com/)
 - [Wikimedia Commons](https://commons.wikimedia.org/wiki/Main_Page)
-- Wikipedia pages of the brand ⭐
+- Wikipedia pages of the brand :star:
 
 More resources at [LogoSearch's "Alternative Logo Sources"](https://logosear.ch/alternatives/) list.
 
@@ -349,14 +349,14 @@ More resources at [LogoSearch's "Alternative Logo Sources"](https://logosear.ch/
 ### Lists of sites supporting 2FA
 Need ideas for icons? These list apps / websites that support 2FA (and what kind of format too).
 
-- [Authy - Guides](https://authy.com/guides/) ⭐
-- [Two Factor Auth List](https://2fa.directory/) ([Github commits](https://github.com/2factorauth/twofactorauth/commits/master)) ⭐
+- [Authy - Guides](https://authy.com/guides/) :star:
+- [Two Factor Auth List](https://2fa.directory/) ([Github commits](https://github.com/2factorauth/twofactorauth/commits/master)) :star:
 
 ### Software
 Looking for software to start make icons? Here's some of the well known ones.
 
-- [Adobe Illustrator](https://www.adobe.com/products/illustrator.html) ⭐ (industry standard, most used software in this repository)
-- [Affinity Designer](https://affinity.serif.com/designer/) ⭐ (way cheaper but powerful alternative to Illustrator)
+- [Adobe Illustrator](https://www.adobe.com/products/illustrator.html) :star: (industry standard, most used software in this repository)
+- [Affinity Designer](https://affinity.serif.com/designer/) :star: (way cheaper but powerful alternative to Illustrator)
 - [Inkscape](https://inkscape.org/) (popular open source option)
 
 ## Maintainer's Guide
