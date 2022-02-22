@@ -92,7 +92,7 @@ Search through the logo resources to find a vector-based image (SVG, AI, EPS, PD
   - Look for pages like: *Brand(ing), Press, Media, Logos, Assets, Marketing, About* etc.
 - **Embedded logo(s) on company website**
   - Easiest way for finding / downloading SVGs from web pages is using [SVG Gobbler](https://www.svggobbler.com/) browser extension (Chrome & Firefox).
-    - Alternatives: [SVG Export](https://svgexport.io/) (Chrome & Firefox), [Brandfetch](https://brandfetch.com/) (web app), [svg-grabber](https://chrome.google.com/webstore/detail/svg-grabber-get-all-the-s/ndakggdliegnegeclmfgodmgemdokdmg) (Chrome only).
+    - Alternatives: [SVG Export](https://svgexport.io/) (Chrome & Firefox), [svg-grabber](https://chrome.google.com/webstore/detail/svg-grabber-get-all-the-s/ndakggdliegnegeclmfgodmgemdokdmg) (Chrome only).
   - **Ways without extension:**
     1. Try right-clicking logo image and selecting *Save image as...*, and see if the save dialogue appears with SVG (not JPG, PNG, GIF, WebP or [any other raster graphic format](https://en.wikipedia.org/wiki/Image_file_formats#Raster_formats)).
        - If right-clicking the image does not have an option for *Save image as...*, try using *Inspect* at the bottom of the right-click menu. This opens the developer tools which can reveal hidden URLs.
@@ -332,7 +332,7 @@ These are good resources for finding logos in vector format, when no official br
 
 **Remember to always check if logo provided by these resources is latest one company uses!**
 
-- [Brandfetch](https://brandfetch.com/) ⭐ (search engine for company branding resources)
+- [Brandfetch](https://brandfetch.com/) (not always accurate results)
 - [LogoSearch](https://logosear.ch/) ⭐
 - [Seeklogo](https://seeklogo.com/)
 - [Simple Icons](https://simpleicons.org/) ⭐
