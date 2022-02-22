@@ -35,7 +35,7 @@ These are people who has contributed our project with commits or sending icon su
   - For these icons: *RubyGems.org* ([#298](https://github.com/aegis-icons/aegis-icons/pull/298)), *Carta* ([#307](https://github.com/aegis-icons/aegis-icons/pull/307)).
 - **[jaden](https://github.com/jaden)** (Dan Hersam)
   - For reducing size of PNG files for the first time ([#12](https://github.com/aegis-icons/aegis-icons/pull/12)).
-    - Our first contributor! ✨
+    - Our first contributor! :sparkles:
 - **[jessiehildebrandt](https://github.com/jessiehildebrandt)** (Jessie Hildebrandt)
   - For updating *Toontown Rewritten* icon with logo fix ([#482](https://github.com/aegis-icons/aegis-icons/issues/482)).
 - **[Jimver](https://github.com/Jimver)** (Jim)
