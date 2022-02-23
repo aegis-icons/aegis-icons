@@ -94,19 +94,19 @@ Search through the logo resources to find a vector-based image (SVG, AI, EPS, PD
   - Easiest way for finding / downloading SVGs from web pages is using [SVG Gobbler](https://www.svggobbler.com/) browser extension (Chrome & Firefox, [open source](https://github.com/rossmoody/svg-gobbler)).
     - Alternatives: [SVG Export](https://svgexport.io/) (Chrome & Firefox), [svg-grabber](https://chrome.google.com/webstore/detail/svg-grabber-get-all-the-s/ndakggdliegnegeclmfgodmgemdokdmg) (Chrome only, abandonware).
   - **Ways without extension:**
-    1. Try right-clicking logo image and selecting *Save image as...*, and see if the save dialogue appears with SVG (not JPG, PNG, GIF, WebP or [any other raster graphic format](https://en.wikipedia.org/wiki/Image_file_formats#Raster_formats)).
-       - If right-clicking the image does not have an option for *Save image as...*, try using *Inspect* at the bottom of the right-click menu. This opens the developer tools which can reveal hidden URLs.
+    1. Try right-clicking logo image and selecting <kbd><i>Save image as...</i></kbd>, and see if the save dialogue appears with SVG (not JPG, PNG, GIF, WebP or [any other raster graphic format](https://en.wikipedia.org/wiki/Image_file_formats#Raster_formats)).
+       - If right-clicking the image does not have an option for <kbd><i>Save image as...</i></kbd>, try using <kbd><i>Inspect</i></kbd> at the bottom of the right-click menu. This opens the developer tools which can reveal hidden URLs.
           - E.g. at [Codeberg](https://codeberg.org/), inspecting the logo in the left side of the navigation or logo at center reveals the location of SVG. Right-click and "open in new tab" to see the SVG file.
        - Sometimes SVG is embedded as inline. Means that instead of linking to external file, whole SVG file code is added to the HTML (see [SVG code example](https://gist.github.com/krisu5/677a8a3478331498929a11b900741aa2)). In that case, copy the SVG code completely from HTML (website embedded SVG starts with `<svg` & so forth and ends with `</svg>`), open your refer text editor and save copypasted text as `filename.svg`. You can test if the file works by opening in it into web browser.
-    2. Right-click the website and select *View page source*, then press `Ctrl [⌘ Cmd] + F` to open the search tool and type `SVG` to look for possible SVG vector files. Web inspector is also useful and better tool for some (press `F12` on the website).
-       - E.g. [You Need A Budget](https://www.youneedabudget.com) reveals the hidden SVG resource in HTML metadata section `https://www-assets.youneedabudget.com/wp-content/themes/dupatta/dist/images/safari-pinned-tab_[alphanumerical-string].svg` which can be copy-paste into the browser and save (`Ctrl [⌘ Cmd] + S`).
+    2. Right-click the website and select *View page source*, then press <kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>F</kbd> to open the search tool and type `SVG` to look for possible SVG vector files. Web inspector is also useful and better tool for some (press <kbd>F12</kbd> on the website).
+       - E.g. [You Need A Budget](https://www.youneedabudget.com) reveals the hidden SVG resource in HTML metadata section `https://www-assets.youneedabudget.com/wp-content/themes/dupatta/dist/images/safari-pinned-tab_[alphanumerical-string].svg` which can be copy-paste into the browser and save (<kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>S</kbd>).
 - If everything has failed so far, then **check [logo resources](#logos) section.**
   - Remember though, logo has to be latest one that company uses.
 - As last resort, you can **try image tracing.** Rule of thumb with image tracing is using image that's high resolution, not many colors and doesn't have any [artifacts](https://simple.wikipedia.org/wiki/Compression_artifact).
   - Illustrator & Inkscape has image tracing tool, but usually results varies from bad to somewhat decent.
   - [Vectorizer.io](https://anonym.to/?https://www.vectorizer.io) is better alternative but vectors aren't freely downloadable anymore, generating vectors without account / freely is still possible.
     - There's loophole to downloads though: use [SVG Gobbler](https://www.svggobbler.com/) after vector was generated.
-      - Alternatively: open dev tools (`F12`), inspect the output image and copy the SVG code from there.
+      - Alternatively: open dev tools (<kbd>F12</kbd>), inspect the output image and copy the SVG code from there.
   - [Vector Magic](https://vectormagic.com/) is the one of best – if not the best – image tracer.
     - Also commercial, but does offer free trials for [desktop application](https://vectormagic.com/desktop).
 - **Making vectorized logo from stratch** is also option, if you're skilled and patient enough.
@@ -139,33 +139,33 @@ When making icons, download and use provided [templates](/_templates).
 <summary>In <i>Adobe Illustrator</i> (click to reveal)</summary>
 
 1. Ungroup all the groups related to the logo completely.
-   - Select layers in "Layers" window (`F7`) and press `Ctrl [⌘ Cmd] + Shift + G` multiple times until everything is ungrouped.
-2. Usually, it's simple as selecting all the logo parts *(temporary lock "Background" layer if needed)* and make compound path (`Object -> Compound Path -> Make` menu or `Ctrl [⌘ Cmd] + 8`).
-   - If compound pathing doesn't work, open "Pathfinder" window (`Ctrl [⌘ Cmd] + Shift + F9`) and press "Unite" (top-left icon in the window under "Shape modes" text).
+   - Select layers in "Layers" window (<kbd>F7</kbd>) and press <kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>Shift</kbd>+<kbd>G</kbd> multiple times until everything is ungrouped.
+2. Usually, it's simple as selecting all the logo parts *(temporary lock "Background" layer if needed)* and make compound path (*menu:* <kbd><i>Object</i> ➜ <i>Compound Path</i> ➜ <i>Make</i></kbd> or *shortcut:* <kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>8</kbd>).
+   - If compound pathing doesn't work, open "Pathfinder" window (<kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>Shift</kbd>+<kbd>F9</kbd>) and press "Unite" (top-left icon in the window under "Shape modes" text).
 </details>
 
 <details>
 <summary>In <i>Affinity Designer</i> (click to reveal)</summary>
 
-1. Open "Layers" window, if it's not already open (`View -> Studio -> Layers`).
-2. In canvas, use "Move" tool (`V`) and select logo layers by click & drag across the logo (avoid selecting circle).
-3. Ungroup multiple times until everything in the logo is ungrouped (`Ctrl [⌘ Cmd] + Shift + G`).
+1. Open "Layers" window, if it's not already open (*menu:* <kbd><i>View</i> ➜ <i>Studio</i> ➜ <i>Layers</i></kbd>).
+2. In canvas, use "Move" tool (<kbd>V</kbd>) and select logo layers by click & drag across the logo (avoid selecting circle).
+3. Ungroup multiple times until everything in the logo is ungrouped (<kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>Shift</kbd>+<kbd>G</kbd>).
 4. Unselect everything (click outside of canvas with "Move" tool).
 5. Repeat step 2.
    - **Before moving to step 6,** read and do "Note for Affinity Designer users" part downwards.
-6. Combine logo with `Layer -> Geometry -> Add`.
+6. Combine logo (*menu:* <kbd><i>Layer</i> ➜ <i>Geometry</i> ➜ <i>Add</i></kbd>).
 </details>
 
 <details>
 <summary>In <i>Inkscape</i> (click to reveal)</summary>
 
-1. Open "Objects" window (`Object -> Objects`).
-2. Select all the objects related to logo (`Shift + Click` in the "Objects" window).
-3. Ungroup the object multiple times until everything is ungrouped (`Object -> Ungroup` menu or `Ctrl [⌘ Cmd] + Shift + G`).
-4. "Union" the objects to together (`Path -> Union`).
+1. Open "Objects" window (*menu:* <kbd><i>Object</i> ➜ <i>Objects</i></kbd>).
+2. Select all the objects related to logo (<kbd>Shift</kbd>+<kbd>Click</kbd> in the "Objects" window).
+3. Ungroup the object multiple times until everything is ungrouped (*menu:* <kbd><i>Object</i> ➜ <i>Ungroup</i></kbd> or *shortcut:* <kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>Shift</kbd>+<kbd>G</kbd>).
+4. "Union" the objects to together (*menu:* <kbd><i>Path</i> ➜ <i>Union</i></kbd>).
 </details>
 
-- :memo: **Note for Affinity Designer users:** change "fill mode" of the logo vector and its parts from *Winding (Non-Zero)* **into** *Alternative (Even-Odd)* (`Layer -> Fill Mode`). Why? Because it creates CSS rules we don't want for our SVGs and want everything to contain by the path.
+- :memo: **Note for Affinity Designer users:** change "fill mode" of the logo vector and its parts from *"Winding (Non-Zero)"* **into** *"Alternative (Even-Odd)"* (*menu:* <kbd><i>Layer</i> ➜ <i>Fill Mode</i></kbd>). Why? Because it creates CSS rules we don't want for our SVGs and want everything to contain by the path.
 
 ### Colors
 - **Never use white as background color (a.k.a. bg)**, white is always preserved for logo / fg.
@@ -222,9 +222,9 @@ Just change the logo for alternative version.
 
 ### Save and export
 - If you're using Adobe Illustrator, save the file as AI **and** SVG.
-  - Remember to **rename the artboard** (shortcut: `Shift + O`) before saving.
+  - Remember to **rename the artboard** (*shortcut:* <kbd>Shift</kbd>+<kbd>O</kbd>) before saving.
     - Name artboard based of [filenaming system](#filename) (without filename extension).
-  - If you're using CC version, **export SVG with "Export for Screens"** (`Ctrl [⌘ Cmd] + Alt [⌥ Option] + E`  or `File -> Export -> Export for Screens...` menu)
+  - If you're using CC version, **export SVG with "Export for Screens"** (*shortcut:* <kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>Alt [⌥ Option]</kbd>+<kbd>E</kbd> or *menu:* <kbd><i>File</i> ➜ <i>Export</i> ➜ <i>Export for Screens...</i></kbd>)
 - For other softwares:
   - Before saving final version, remember to **remove the guide strokes!**
   - **In Affinity Designer,** export file with "SVG (digital - small size)" preset.
@@ -240,8 +240,11 @@ Next, do SVG compression & cleanup.
 ### SVG compression & cleanup
 *If you're comfortable with command line tools:*
 - Install [Node.js](https://nodejs.org/en/download/) and [SVGO](https://github.com/svg/svgo#installation)
-- Use this command: `svgo --multipass --pretty --indent 3 -f "input/folder/path/here" -o "output/folder/path/here"`
-  - Or if you're in Windows, we have [batch file](https://github.com/aegis-icons/aegis-icons/blob/master/_compress/.1_svgo_prettify-svg.bat) for this.
+- Use this command:
+  ```console
+  svgo --multipass --pretty --indent 3 -f "input/folder/path/here" -o "output/folder/path/here"
+  ```
+  (Or if you're in Windows, we have [batch file](https://github.com/aegis-icons/aegis-icons/blob/master/_compress/.1_svgo_prettify-svg.bat) for this).
 
 *If you don't know how to use command line:*
 - Use [SVGOMG](https://jakearchibald.github.io/svgomg/)
@@ -260,7 +263,7 @@ Next, do SVG compression & cleanup.
 
 :broom: [Example SVG diff of manual cleanup](https://github.com/aegis-icons/misc/commit/c0128f61f0d2b88d5953881699955a4a17477e47?diff=split).
 
-:mag: **Test the SVG on web browser** that it still works after edits! (`Ctrl [⌘ Cmd] + O` or drag and drop SVG to tab bar.)
+:mag: **Test the SVG on web browser** that it still works after edits! (drag-and-drop SVG to tab bar or *shortcut:* <kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>O</kbd>)
 
 ### Submit to repository
 - Submit your icon for review by [opening a new issue](../../issues/new/choose) (select "Icon submission") and add your file(s) / info.
@@ -288,7 +291,7 @@ Next, do SVG compression & cleanup.
 :warning: When naming brand based icon(s), check how brand capitalised and spell the name from their app / website.
 
   - Primary icon:
-    - `[Company or Product Name].<ext>`
+    - `[Company / product / app / site name].<ext>`
     - *Examples:* `Adobe.svg`, `Best Buy.svg`, `FACEIT.svg`, `itch.io.svg`
   - Icon variations with alternate logo:
     - `[Primary icon name] alt.<ext>`
@@ -315,7 +318,7 @@ Next, do SVG compression & cleanup.
 - Newer files also gets version label here from out.
   - Examples: `Codeberg v2.svg`.
 - Version label number increases when new versions are released (`v3`, `v4`, `v5`, `v6` etc.).
-- Label number is also added / updated on the Illustrator file's artboard (shortcut: `Shift + O`).
+- Label number is also added / updated on the Illustrator file's artboard (*shortcut:* `Shift + O`).
 - Outdated versions are moved to self titled directory (`PNG/Outdated/`, `SVG/.Outdated/`).
 - Icons which are based of now dead service, should be moved to "Outdated" directory just as it is.
 
