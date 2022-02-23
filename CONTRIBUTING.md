@@ -180,7 +180,7 @@ When making icons, download and use provided [templates](/_templates).
     - **Tip:** In Illustrator, if logo is using gradient, use [this method](http://miraimages.com/illustrator-gradient-colors-to-swatches/) <sup>[wayback machine](https://web.archive.org/web/20200606124113/http://miraimages.com/illustrator-gradient-colors-to-swatches/)</sup> to extract all the colors in the gradient to the swatches.
 - If icon you're making is using dark background, you **have to make** `bg.var` icon version as well.
   - Or opposite, if background is too bright for white logo, then make `fg.var` icon version.
-  - Check with ["colors to avoid" SVG](https://github.com/aegis-icons/aegis-icons/blob/master/_templates/z_bg-colors_to_avoid.svg) if needed.
+  - Check with ["BG colors to avoid" SVG](https://github.com/aegis-icons/aegis-icons/blob/master/_templates/z_bg-colors_to_avoid.svg) if needed.
 - For generic icons, use background color `#607D8B` and white foreground.
   - Templates `ai_template_generic.ait` & `svg_template_generic.svg` has already correct background color set.
   
