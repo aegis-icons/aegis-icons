@@ -6,7 +6,7 @@ These are people who has contributed our project with commits or sending icon su
 
 *Names are in alphanumerical order based of the username.*
 
-*If you want name changed or deleted, [please make a new issue](https://github.com/aegis-icons/aegis-icons/issues/new) or comment on your PR / issue.*
+*If you want name changed or deleted, [please make a new issue](https://github.com/aegis-icons/aegis-icons/issues/new/choose) (choose "Other") or comment on your PR / issue.*
 
 ---
 
@@ -20,6 +20,8 @@ These are people who has contributed our project with commits or sending icon su
   - For these icons: *STACK* ([#397](https://github.com/aegis-icons/aegis-icons/pull/397)), *CSAM* ([#398](https://github.com/aegis-icons/aegis-icons/pull/398)), *DigiConnect* ([#399](https://github.com/aegis-icons/aegis-icons/pull/399)), *Smartschool* ([#400](https://github.com/aegis-icons/aegis-icons/pull/400)), *Directus* ([#401](https://github.com/aegis-icons/aegis-icons/pull/401)).
 - **[Centenoe](https://github.com/Centenoe)** (Centeno)
   - For *Neeva* icon ([#502](https://github.com/aegis-icons/aegis-icons/pull/502)).
+- **[cfanoulis](https://github.com/cfanoulis)** (Charalampos Fanoulis)
+  - For *Hyper Expert* icon ([#514](https://github.com/aegis-icons/aegis-icons/issues/514)).
 - **[devmrcl](https://github.com/devmrcl)** (Marcel Hopf)
   - For these icons: *IONOS* ([#271](https://github.com/aegis-icons/aegis-icons/issues/271)), *Bitrix24* ([#272](https://github.com/aegis-icons/aegis-icons/issues/272)), *Deutsche Bahn* ([#430](https://github.com/aegis-icons/aegis-icons/issues/430)).
 - **Earhacker** from Reddit
