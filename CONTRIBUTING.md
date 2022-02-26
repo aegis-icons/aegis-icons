@@ -5,7 +5,7 @@ Thank you for taking the time to read and contribute to our project!
 
 **For contributing, you must know basics of making / editing vectors with vector graphics editor.**
 
-It's recommended to also have some knowledge of design in general.
+It's **highly recommended** to also have some knowledge of graphic design and design in general.
 
 ---
 
@@ -123,14 +123,16 @@ When making icons, download and use provided [templates](/_templates).
 - Other softwares, use `svg_template.svg` (for primary icons) or `svg_template_generic.svg` (for generic icons).
 
 ### Layout
-- Always use logomark [^1] if brand is using one.
-- If logo only has text, use that instead.
-  - **Only if absolutely necessary:** if you think that text is too long and hard to read on smaller size, make it similar to [favicon](https://en.wikipedia.org/wiki/Favicon) / app icon or use first letter of text.
+- Always use logomark[^1] if brand is using one.
+- If logo only has text (known as logotype[^1]), use that instead.
+  - **Only if absolutely necessary:** if you think that logotype is too long and hard to see on smaller size, make it similar to [favicon](https://en.wikipedia.org/wiki/Favicon) / app icon or use first letter of logotype.
 - Stay inside of the guides as much as possible.
 - Square like shaped logos shouldn't step outside of the guides (size wise).
 - For wider logos, furthest left & right side guides are max size limit.
+- Guides don't necessarily mean that logo's size should be exactly like from *guide a* to *guide b*, it's often more of a safe area for logo or suggestion for logo's size.
+  - Examples: [one](https://raw.githubusercontent.com/aegis-icons/misc/main/screenshots/contributing_003.png), [two](https://raw.githubusercontent.com/aegis-icons/misc/main/screenshots/contributing_004.png), [three](https://raw.githubusercontent.com/aegis-icons/misc/main/screenshots/contributing_005.png), [four](https://raw.githubusercontent.com/aegis-icons/misc/main/screenshots/contributing_006.png).
 - Technically center doesn't always look center in your eyes. You can manually visually center the logo, if necessary.
-- **Compare your creation to other icons, try to keep logo size visually consistent to other icons.**
+- **Compare your creation to other icons**, try to keep logo size visually consistent to other icons.
 
 ### Vectors
 - Logo must be in **single** path / compound path / object:
