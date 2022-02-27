@@ -6,9 +6,9 @@ body:
   - type: markdown
     attributes:
       value: |
-        :warning: Remember to **add name of the site or app** at the end of *"Update icon:"* part on top, **do not change the formatting of the title!**
-        
-        [Read our issue guidelines first](https://github.com/aegis-icons/aegis-icons/blob/master/CONTRIBUTING.md#issue-guidelines) if you haven't already (only takes half a minute to read!)
+        - :warning: Remember to **add name of the icon you want updated** at the end of *"Update icon:"* part on top, **do not change the formatting of the title!**
+        - Don't request multiple updates in single issue, make issue for every singular update request.
+        - [Read our issue guidelines first](https://github.com/aegis-icons/aegis-icons/blob/master/CONTRIBUTING.md#issue-guidelines) if you haven't already (only takes half a minute to read!)
   - type: input
     id: site_app-url
     attributes:
@@ -38,7 +38,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        **Optional** option to add URL for *press kit* or *logo SVG vector*,  preferably from official source ([tips for finding these](https://github.com/aegis-icons/aegis-icons/blob/master/CONTRIBUTING.md#finding-source-images)).
+        **Optional** option to add URL for *press kit* or *logo SVG vector*, preferably from official source ([tips for finding these](https://github.com/aegis-icons/aegis-icons/blob/master/CONTRIBUTING.md#finding-source-images)).
         
         - :x: **Unaccepted resources:** JPG, PNG, GIF, WebP or [any other raster image](https://en.wikipedia.org/wiki/Image_file_format#Raster_formats).
         - :x: No [data URIs](https://en.wikipedia.org/wiki/Data_URI_scheme), please!
