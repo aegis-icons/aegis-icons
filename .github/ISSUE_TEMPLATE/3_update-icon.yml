@@ -26,7 +26,7 @@ body:
       label: Reason for update
       options:
         - New logo
-        - Changed background color
+        - Updated brand color
         - Other (write more info to "Anything else?" section)
     validations:
       required: true
