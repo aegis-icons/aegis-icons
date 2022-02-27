@@ -2064,6 +2064,13 @@
             ]
         },
         {
+            "filename": "SVG/CrossBox.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "CrossBox"
+            ]
+        },
+        {
             "filename": "SVG/CrowdStrike.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2728,6 +2735,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "HMBradley"
+            ]
+        },
+        {
+            "filename": "SVG/HP.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "HP"
             ]
         },
         {
@@ -4603,6 +4617,13 @@
             ]
         },
         {
+            "filename": "SVG/Tiny Tiny RSS.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Tiny Tiny RSS"
+            ]
+        },
+        {
             "filename": "SVG/Tixte.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4761,6 +4782,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Ubisoft"
+            ]
+        },
+        {
+            "filename": "SVG/Ubuntu.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Ubuntu"
             ]
         },
         {
