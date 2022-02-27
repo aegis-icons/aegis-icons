@@ -2064,6 +2064,13 @@
             ]
         },
         {
+            "filename": "SVG/CrowdStrike.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "CrowdStrike"
+            ]
+        },
+        {
             "filename": "SVG/Crowdin.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2075,6 +2082,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Crypto.com"
+            ]
+        },
+        {
+            "filename": "SVG/CybelAngel.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "CybelAngel"
             ]
         },
         {
