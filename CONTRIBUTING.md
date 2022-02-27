@@ -84,29 +84,33 @@ Before making or requesting an icon for app / site, please check if it fits our 
 ## Icon creation walkthrough
 
 ### Finding source images
-Search through the logo resources to find a vector-based image (SVG, AI, EPS, PDF), **never use JPG / PNG / GIF / WebP or other raster images as is!**
+Search through the logo resources to find a vector-based image (SVG, AI, EPS, PDF).
 
-*Here are things you can check:*
+:warning: Never use JPG / PNG / GIF / WebP or other raster images **(as is)!**
+
+*Here are things you can check, go these options one by one:*
+
 - **Press kit on the company website**
-  - E.g. Zenkit has ["Press Kit" page](https://zenkit.com/en/press-kit/), that has ZIPs containing vector-based logos.
+  - Eg. Zenkit has ["Press Kit" page](https://zenkit.com/en/press-kit/), that has ZIPs containing vector-based logos.
   - Look for pages like: *Brand(ing), Press, Media, Logos, Assets, Marketing, About* etc.
+    - Trying googling too: `logo site:offical-site-for-app-or-site.com`
 - **Embedded logo(s) on company website**
   - Easiest way for finding / downloading SVGs from web pages is using [SVG Gobbler](https://www.svggobbler.com/) browser extension (Chrome & Firefox, [open source](https://github.com/rossmoody/svg-gobbler)).
     - Alternatives: [SVG Export](https://svgexport.io/) (Chrome & Firefox), [svg-grabber](https://chrome.google.com/webstore/detail/svg-grabber-get-all-the-s/ndakggdliegnegeclmfgodmgemdokdmg) (Chrome only, abandonware).
   - **Ways without extension:**
-    1. Try right-clicking logo image and selecting <kbd><i>Save image as...</i></kbd>, and see if the save dialogue appears with SVG (not JPG, PNG, GIF, WebP or [any other raster graphic format](https://en.wikipedia.org/wiki/Image_file_formats#Raster_formats)).
+    1. Try right-clicking logo image and selecting <kbd><i>Save image as...</i></kbd>, and see if the save dialogue appears with SVG (not as JPG, PNG, GIF, WebP or [any other raster graphic format](https://en.wikipedia.org/wiki/Image_file_formats#Raster_formats)).
        - If right-clicking the image does not have an option for <kbd><i>Save image as...</i></kbd>, try using <kbd><i>Inspect</i></kbd> at the bottom of the right-click menu. This opens the developer tools which can reveal hidden URLs.
-          - E.g. at [Codeberg](https://codeberg.org/), inspecting the logo in the left side of the navigation or logo at center reveals the location of SVG. Right-click and "open in new tab" to see the SVG file.
-       - Sometimes SVG is embedded as inline. Means that instead of linking to external file, whole SVG file code is added to the HTML (see [SVG code example](https://gist.github.com/krisu5/677a8a3478331498929a11b900741aa2)). In that case, copy the SVG code completely from HTML (website embedded SVG starts with `<svg` & so forth and ends with `</svg>`), open your refer text editor and save copypasted text as `filename.svg`. You can test if the file works by opening in it into web browser.
-    2. Right-click the website and select *View page source*, then press <kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>F</kbd> to open the search tool and type `SVG` to look for possible SVG vector files. Web inspector is also useful and better tool for some (press <kbd>F12</kbd> on the website).
-       - E.g. [You Need A Budget](https://www.youneedabudget.com) reveals the hidden SVG resource in HTML metadata section `https://www-assets.youneedabudget.com/wp-content/themes/dupatta/dist/images/safari-pinned-tab_[alphanumerical-string].svg` which can be copy-paste into the browser and save (<kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>S</kbd>).
+          - Eg. at [Codeberg](https://codeberg.org/), inspecting the logo in the left side of the navigation or logo at center reveals the location of SVG. Right-click and "open in new tab" to see the SVG file.
+          - Sometimes SVG is embedded as inline. Means that instead of linking to external file, whole SVG file code is added to the HTML site code (see [SVG code example](https://gist.github.com/krisu5/677a8a3478331498929a11b900741aa2)). In that case, copy the SVG code completely from HTML (website embedded SVG starts with `<svg` & so forth and ends with `</svg>`), open your refer text editor and save copypasted text as `filename.svg`. You can test if the file works by opening in it into web browser (drag-and-drop SVG to tab bar or *shortcut:* <kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>O</kbd>).
+    2. Right-click the website and select *View page source*, then press <kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>F</kbd> to open the search tool and type `SVG` to look for possible SVG vector files. Web inspector is also useful and better tool for some users or cases (press <kbd>F12</kbd> on the website, go to "Inspector" / "Elements" tab, press <kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>F</kbd> to search).
+       - Eg. [You Need A Budget](https://www.youneedabudget.com) reveals the hidden SVG resource in HTML metadata section `https://www-assets.youneedabudget.com/wp-content/themes/dupatta/dist/images/safari-pinned-tab_[alphanumerical-string].svg` which can be copy-paste into the browser and save (<kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>S</kbd>).
 - If everything has failed so far, then **check [logo resources](#logos) section.**
   - Remember though, logo has to be latest one that company uses.
 - As last resort, you can **try image tracing.** Rule of thumb with image tracing is using image that's high resolution, not many colors and doesn't have any [artifacts](https://simple.wikipedia.org/wiki/Compression_artifact).
   - Illustrator & Inkscape has image tracing tool, but usually results varies from bad to somewhat decent.
   - [Vectorizer.io](https://anonym.to/?https://www.vectorizer.io) is better alternative but vectors aren't freely downloadable anymore, generating vectors without account / freely is still possible.
     - There's loophole to downloads though: use [SVG Gobbler](https://www.svggobbler.com/) after vector was generated.
-      - Alternatively: open dev tools (<kbd>F12</kbd>), inspect the output image and copy the SVG code from there.
+      - Alternatively: Inspect the output image (<kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>Shift</kbd>+<kbd>C</kbd>) and copy the SVG code from dev tools.
   - [Vector Magic](https://vectormagic.com/) is the one of best – if not the best – image tracer.
     - Also commercial, but does offer free trials for [desktop application](https://vectormagic.com/desktop).
 - **Making vectorized logo from stratch** is also option, if you're skilled and patient enough.
@@ -129,8 +133,8 @@ When making icons, download and use provided [templates](/_templates).
 - Stay inside of the guides as much as possible.
 - Square like shaped logos shouldn't step outside of the guides (size wise).
 - For wider logos, furthest left & right side guides are max size limit.
-- Guides don't necessarily mean that logo's size should be exactly like from *guide a* to *guide b*, it's often more of a safe area for logo or suggestion for logo's size.
-  - Examples: [one](https://raw.githubusercontent.com/aegis-icons/misc/main/screenshots/contributing_003.png), [two](https://raw.githubusercontent.com/aegis-icons/misc/main/screenshots/contributing_004.png), [three](https://raw.githubusercontent.com/aegis-icons/misc/main/screenshots/contributing_005.png), [four](https://raw.githubusercontent.com/aegis-icons/misc/main/screenshots/contributing_006.png).
+- Guides don't necessarily mean that logo's size should be exactly like from *guide a* to *guide b*, it's more often a safe area for logo or suggestion for logo's size.
+  - *Examples:* [one](https://raw.githubusercontent.com/aegis-icons/misc/main/screenshots/contributing_003.png), [two](https://raw.githubusercontent.com/aegis-icons/misc/main/screenshots/contributing_004.png), [three](https://raw.githubusercontent.com/aegis-icons/misc/main/screenshots/contributing_005.png), [four](https://raw.githubusercontent.com/aegis-icons/misc/main/screenshots/contributing_006.png).
 - Technically center doesn't always look center in your eyes. You can manually visually center the logo, if necessary.
 - **Compare your creation to other icons**, try to keep logo size visually consistent to other icons.
 
@@ -140,29 +144,31 @@ When making icons, download and use provided [templates](/_templates).
 <details>
 <summary>In <i>Adobe Illustrator</i> (click to reveal)</summary>
 
-1. Ungroup all the groups related to the logo completely.
-   - Select layers in "Layers" window (<kbd>F7</kbd>) and press <kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>Shift</kbd>+<kbd>G</kbd> multiple times until everything is ungrouped.
-2. Usually, it's simple as selecting all the logo parts *(temporary lock "Background" layer if needed)* and make compound path (*menu:* <kbd><i>Object</i> ➜ <i>Compound Path</i> ➜ <i>Make</i></kbd> or *shortcut:* <kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>8</kbd>).
-   - If compound pathing doesn't work, open "Pathfinder" window (<kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>Shift</kbd>+<kbd>F9</kbd>) and press "Unite" (top-left icon in the window under "Shape modes" text).
+1. Open **Layers** window, if it's not already open (*shortcut:* <kbd>F7</kbd> or *menu:* <kbd><i>Window</i> ➜ <i>Layers</i></kbd>)
+2. Ungroup all the layer groups related to the logo completely.
+   - "Target select" the layer group in **Layers** window by clicking "circle" (○) on the right (<kbd>Shift</kbd>+<kbd>Click</kbd> to select multiple groups).
+   - Press <kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>Shift</kbd>+<kbd>G</kbd> multiple times until everything is ungrouped.
+3. Keep all the logo parts "target selected" and make compound path (*menu:* <kbd><i>Object</i> ➜ <i>Compound Path</i> ➜ <i>Make</i></kbd> or *shortcut:* <kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>8</kbd>).
+   - If compound pathing doesn't work, open **Pathfinder** window (*menu:* <kbd><i>Window</i> ➜ <i>Pathfinder</i></kbd> or *shortcut:* <kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>Shift</kbd>+<kbd>F9</kbd>) and press "Unite" (top-left icon in the window under "Shape modes" text).
 </details>
 
 <details>
 <summary>In <i>Affinity Designer</i> (click to reveal)</summary>
 
-1. Open "Layers" window, if it's not already open (*menu:* <kbd><i>View</i> ➜ <i>Studio</i> ➜ <i>Layers</i></kbd>).
+1. Open **Layers** window, if it's not already open (*menu:* <kbd><i>View</i> ➜ <i>Studio</i> ➜ <i>Layers</i></kbd>).
 2. In canvas, use "Move" tool (<kbd>V</kbd>) and select logo layers by click & drag across the logo (avoid selecting circle).
 3. Ungroup multiple times until everything in the logo is ungrouped (<kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>Shift</kbd>+<kbd>G</kbd>).
 4. Unselect everything (click outside of canvas with "Move" tool).
 5. Repeat step 2.
-   - **Before moving to step 6,** read and do "Note for Affinity Designer users" part downwards.
+   - :information_source: **Before moving to step 6,** read and do "Note for Affinity Designer users" part downwards.
 6. Combine logo (*menu:* <kbd><i>Layer</i> ➜ <i>Geometry</i> ➜ <i>Add</i></kbd>).
 </details>
 
 <details>
 <summary>In <i>Inkscape</i> (click to reveal)</summary>
 
-1. Open "Objects" window (*menu:* <kbd><i>Object</i> ➜ <i>Objects</i></kbd>).
-2. Select all the objects related to logo (<kbd>Shift</kbd>+<kbd>Click</kbd> in the "Objects" window).
+1. Open **Objects** window (*menu:* <kbd><i>Object</i> ➜ <i>Objects</i></kbd>).
+2. Select all the objects related to logo (<kbd>Shift</kbd>+<kbd>Click</kbd> in the **Objects** window).
 3. Ungroup the object multiple times until everything is ungrouped (*menu:* <kbd><i>Object</i> ➜ <i>Ungroup</i></kbd> or *shortcut:* <kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>Shift</kbd>+<kbd>G</kbd>).
 4. "Union" the objects to together (*menu:* <kbd><i>Path</i> ➜ <i>Union</i></kbd>).
 </details>
@@ -310,7 +316,8 @@ Next, do SVG compression & cleanup.
     - `[Primary icon name] alt fg.var.<ext>`
     - `[Primary icon name] alt fg.bg.var.<ext>`
     - *Example:* `Discourse alt bg.var.svg`
-  - Generic icon: name as what the icon symbolizes with big capital letter.
+  - Generic icon: 
+    - *Name as what the icon symbolizes with big capital letter.*
     - *Example:* `Cloud.svg`
     
 #### Version naming and organizing old files
@@ -320,7 +327,7 @@ Next, do SVG compression & cleanup.
 - Newer files also gets version label here from out.
   - Examples: `Codeberg v2.svg`.
 - Version label number increases when new versions are released (`v3`, `v4`, `v5`, `v6` etc.).
-- Label number is also added / updated on the Illustrator file's artboard (*shortcut:* `Shift + O`).
+- Label number is also added / updated on the Illustrator file's artboard (*shortcut:* <kbd>Shift</kbd>+<kbd>O</kbd>).
 - Outdated versions are moved to self titled directory (`PNG/Outdated/`, `SVG/.Outdated/`).
 - Icons which are based of now dead service, should be moved to "Outdated" directory just as it is.
 
@@ -335,7 +342,7 @@ Resources marked with star (:star:) are recommended / most used by the maintaine
 ### Logos
 These are good resources for finding logos in vector format, when no official brand kit / vector logos are available.
 
-**Remember to always check if logo provided by these resources is latest one company uses!**
+**Remember to always double check if logo provided by these resources is the latest one company uses!**
 
 - [Brandfetch](https://brandfetch.com/) (not always accurate results)
 - [LogoSearch](https://logosear.ch/) :star:
@@ -348,8 +355,8 @@ These are good resources for finding logos in vector format, when no official br
 More resources at [LogoSearch's "Alternative Logo Sources"](https://logosear.ch/alternatives/) list.
 
 *Google searching tips:* 
-- `site:www.officalsiteforappslashsite.com filetype:pdf` (you can rip vectors from PDF, really often logos in these PDFs are vector).
-- `[app / site name] svg`.
+- `site:offical-site-for-app-or-site.com filetype:pdf` (you can rip vectors from PDF, really often logos in these PDFs are vector).
+- `[app / site name] svg` or `[app / site name] vector`.
 
 ### Lists of sites supporting 2FA
 Need ideas for icons? These list apps / websites that support 2FA (and what kind of format too).
