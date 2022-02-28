@@ -32,18 +32,19 @@ Now you can add icons to your entries:
 
 It's the same steps as [adding the icon pack first time](#with-icon-pack), you don't need to delete icon pack before updating.
 
-When encountering the error dialog while updating pack, just tap **yes**. :framed_picture: [[Example]](https://raw.githubusercontent.com/aegis-icons/misc/main/screenshots/faq_how-to-update-icon-pack.png)
+When encountering the error dialog while updating pack, just tap "Yes". :framed_picture: [[Example]](https://raw.githubusercontent.com/aegis-icons/misc/main/screenshots/faq_how-to-update-icon-pack.png)
 
 None of the icons in entries will be changed after icon pack update (you'll need to manually change the entry icons, if you so desire).
 
 ## How can I make icon with different background color?
+
+Because icons are in SVG format, it's possible to edit colors of the icons.
 
 ### Easy "PC only" way
 
 Even though PC is needed, you don't need to install extra software. Web browser is all you need.
 
 1. [Get the SVG file(s) for the icon(s) you want to edit](https://aegis-icons.github.io/).
-   - SVG is [vector file format](https://simple.wikipedia.org/wiki/Vector_graphics) that can  be easily edited, specially with colors. It's also possible to edit it via text (that's the subject on the next tutorial).
 2. Go to [Method Draw](https://editor.method.ac/), web app for vector making / editing.
 3. Click "File" and "Open SVG..." to select the icon you want to edit. :framed_picture: [[Example]](https://raw.githubusercontent.com/aegis-icons/misc/main/screenshots/faq_edit_icon_01-001.png)
 4. Click the circle part of the icon that has the background color. :framed_picture: [[Example]](https://raw.githubusercontent.com/aegis-icons/misc/main/screenshots/faq_edit_icon_01-002.png)
@@ -56,7 +57,7 @@ Even though PC is needed, you don't need to install extra software. Web browser 
 8. Download and move edited SVG(s) into your phone with your refer method (USB, email, cloud etc).
 9. [Import icon(s) to Aegis](#manually).
 
-If you want alternatives, check out [Photopea](https://www.photopea.com/) or [Vectr](https://vectr.com/). Or want to use desktop software instead, [Inkscape](https://inkscape.org/) and [SVG Splash](https://www.svgsplash.com/) are best free options.
+If you want alternatives, check out [Photopea](https://www.photopea.com/) or [Vectr](https://vectr.com/). Or want to use desktop software instead, [Inkscape](https://inkscape.org/) is the best free option.
 
 ### Harder Android way
 
