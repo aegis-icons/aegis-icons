@@ -894,6 +894,13 @@
             ]
         },
         {
+            "filename": "SVG/.Variations/Internxt bg.var.svg",
+            "category": "2. Variations & Alts",
+            "issuer": [
+                "Internxt"
+            ]
+        },
+        {
             "filename": "SVG/.Variations/JetBrains bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
@@ -2983,6 +2990,13 @@
             ]
         },
         {
+            "filename": "SVG/Internxt.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Internxt"
+            ]
+        },
+        { 
             "filename": "SVG/Intuit.svg",
             "category": "1. Apps & Sites",
             "issuer": [
