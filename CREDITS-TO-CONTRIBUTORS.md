@@ -11,7 +11,7 @@ These are people who has contributed our project with commits or sending icon su
 ---
 
 - **[Ailothaen](https://github.com/Ailothaen)**
-  - For these icons: *CybelAngel* ([#523](https://github.com/aegis-icons/aegis-icons/pull/523)), *CrowdStrike* ([#525](https://github.com/aegis-icons/aegis-icons/pull/525)).
+  - For these icons: *CybelAngel* ([#523](https://github.com/aegis-icons/aegis-icons/pull/523)), *BitSight* ([#524](https://github.com/aegis-icons/aegis-icons/pull/524)), *CrowdStrike* ([#525](https://github.com/aegis-icons/aegis-icons/pull/525)).
 - **[alalloush](https://github.com/alalloush)**
   - For *Xiaomi* icon ([#247](https://github.com/aegis-icons/aegis-icons/pull/247)).
 - **[alexbakker](https://github.com/alexbakker)** (Alexander Bakker)
