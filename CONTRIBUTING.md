@@ -3,7 +3,7 @@ Thank you for taking the time to read and contribute to our project!
 
 *This documentation is long and comprehensive, because we strive for high quality for our icons and want to minimize extra work as much possible.*
 
-**For contributing, you must know basics of making / editing vectors with vector graphics editor.**
+:warning: **For contributing, you must know basics of making / editing vectors with vector graphics editor** (there's instrutions for some steps, but not for absolute basics).
 
 It's **highly recommended** to also have some knowledge of graphic design and design in general.
 
@@ -45,7 +45,7 @@ It's **highly recommended** to also have some knowledge of graphic design and de
 Before making or requesting an icon for app / site, please check if it fits our "acceptability criteria".
 
 ### Approved
-:heavy_check_mark: *Almost* always accepted to request or submission.
+:heavy_check_mark: *Almost* always accepted to request or submit.
 
 - Apps / sites that are popular and has Aegis supported 2FA support **(specially wanted).**
   - *Examples (not limited to):* social media, productivity tools, cloud services, development tools, gaming related etc.
@@ -77,7 +77,7 @@ Before making or requesting an icon for app / site, please check if it fits our 
 - Apps / sites **not** having Aegis supported 2FA support.
 - Platforms having massive hate speech group following and poor moderation.
   - *Examples (not limited to):* [most of the platforms listed here](https://en.wikipedia.org/wiki/Alt-tech#Platforms).
-- Scams or other suspiciously shady apps / sites.
+- Obvious scams or other suspiciously shady apps / sites.
 - Apps / sites focusing on **highly** immoral and illegal activity / material.
   - *Examples (not limited to):* black hat hacking, money laundering, illegal sexual material / services, harassment / cyberbullying etc.
 
@@ -88,7 +88,7 @@ Search through the logo resources to find a vector-based image (SVG, AI, EPS, PD
 
 :warning: Never use JPG / PNG / GIF / WebP or other raster images **(as is)!**
 
-*Here are things you can check, go these options one by one:*
+*Here are things you can check, go these options in order:*
 
 - **Press kit on the company website**
   - Eg. Zenkit has ["Press Kit" page](https://zenkit.com/en/press-kit/), that has ZIPs containing vector-based logos.
@@ -106,7 +106,7 @@ Search through the logo resources to find a vector-based image (SVG, AI, EPS, PD
        - Eg. [You Need A Budget](https://www.youneedabudget.com) reveals the hidden SVG resource in HTML metadata section `https://www-assets.youneedabudget.com/wp-content/themes/dupatta/dist/images/safari-pinned-tab_[alphanumerical-string].svg` which can be copy-paste into the browser and save (<kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>S</kbd>).
 - If everything has failed so far, then **check [logo resources](#logos) section.**
   - Remember though, logo has to be latest one that company uses.
-- As last resort, you can **try image tracing.** Rule of thumb with image tracing is using image that's high resolution, not many colors and doesn't have any [artifacts](https://simple.wikipedia.org/wiki/Compression_artifact).
+- As last resort, you can **try image tracing** with raster images (JPG, PNG etc). Rule of thumb with image tracing is using image that's high resolution, not many colors and doesn't have any [artifacts](https://simple.wikipedia.org/wiki/Compression_artifact).
   - Illustrator & Inkscape has image tracing tool, but usually results varies from bad to somewhat decent.
   - [Vectorizer.io](https://anonym.to/?https://www.vectorizer.io) is better alternative but vectors aren't freely downloadable anymore, generating vectors without account / freely is still possible.
     - There's loophole to downloads though: use [SVG Gobbler](https://www.svggobbler.com/) after vector was generated.
@@ -236,7 +236,7 @@ Just change the logo for alternative version.
 - For other softwares:
   - Before saving final version, remember to **remove the guide strokes!**
   - **In Affinity Designer,** export file with "SVG (digital - small size)" preset.
-  - **In Inkscape,** save the file as "Optimized SVG" (:warning: Important!).
+  - **In Inkscape,** save the file as "Optimized SVG". (:warning: Hugely important!)
     - [In the prompt window, use these settings!](https://raw.githubusercontent.com/aegis-icons/misc/main/screenshots/contributing_002.png) (:warning: Equally important!)
   - **In software that's non-above,** save as "SVG" or "Plain SVG", whichever is the safest available option.
 - :x: Don't make PNG files! PNG files are legacy content ([with some exceptions](#about-pngs)).
@@ -259,7 +259,7 @@ Next, do SVG compression & cleanup.
   - Just tick "[Prettify markup](https://raw.githubusercontent.com/aegis-icons/misc/main/screenshots/contributing_001.png)" before downloading the compressed SVG.
   - **Don't make other changes to settings.**
 
-:warning: After this, check / **manually edit** with text editor (Notepad, TextEdit, Vim etc.) that **SVG is correctly formatted for submission:**
+:warning: After SVGO or SVGOMG step, check / **manually edit** with text editor (Notepad, TextEdit, Vim etc.) that **SVG is correctly formatted for submission:**
 
 ```xml
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
@@ -267,11 +267,13 @@ Next, do SVG compression & cleanup.
    <path d="PRETTY-LONG-LOGO-PATH" style="fill:#LOGO-HEX-COLOR"/>
 </svg>
 ```
-<sup>🡱&nbsp;&nbsp;&nbsp; **Indentation:** 3 spaces (important if you used SVGOMG). **Note the order of the line 1's properties** (*xmlns* & *viewBox*).</sup>
+<sup>🡱&nbsp;&nbsp;&nbsp; **Indentation:** 3 spaces (important if you used SVGOMG).</sup>
 
-:broom: [Example SVG diff of manual cleanup](https://github.com/aegis-icons/misc/commit/c0128f61f0d2b88d5953881699955a4a17477e47?diff=split).
+- :warning: Check that the order of the line 1's properties is correct (`xmlns` part first, **then** `viewBox`)
+  - Check also that possible `fill="` prefixes are changed to `style="fill:`
+- :mag: **Test the SVG on web browser** that it still works after edits! (drag-and-drop SVG to tab bar or *shortcut:* <kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>O</kbd>).
 
-:mag: **Test the SVG on web browser** that it still works after edits! (drag-and-drop SVG to tab bar or *shortcut:* <kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>O</kbd>)
+:broom: [Example SVG diff of manual cleanup with notes](https://github.com/aegis-icons/misc/commit/c0128f61f0d2b88d5953881699955a4a17477e47?diff=split).
 
 ### Submit to repository
 - Submit your icon for review by [opening a new issue](../../issues/new/choose) (select "Icon submission") and add your file(s) / info.
