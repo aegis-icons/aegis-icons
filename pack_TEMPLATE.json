@@ -4,6 +4,14 @@
     "version": 0,
     "icons": [
         {
+            "filename": "SVG/(ISC)2.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "(ISC)²",
+                "International Information System Security Certification Consortium"
+            ]
+        },
+        {
             "filename": "SVG/.Generic/Bitcoin.svg",
             "category": "3. Generic",
             "issuer": [
