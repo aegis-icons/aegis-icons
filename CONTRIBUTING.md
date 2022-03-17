@@ -267,13 +267,17 @@ Next, do SVG compression & cleanup.
    <path d="PRETTY-LONG-LOGO-PATH" style="fill:#LOGO-HEX-COLOR"/>
 </svg>
 ```
-<sup>🡱&nbsp;&nbsp;&nbsp; **Indentation:** 3 spaces (important if you used SVGOMG).</sup>
+<sup>🡱&nbsp;&nbsp;&nbsp; SVG code formatting example</sup>
 
-- :warning: Check that the order of the line 1's properties is correct (`xmlns` part first, **then** `viewBox`)
-  - Check also that possible `fill="` prefixes are changed to `style="fill:`
-- :mag: **Test the SVG on web browser** that it still works after edits! (drag-and-drop SVG to tab bar or *shortcut:* <kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>O</kbd>).
+- :warning: Checklist for SVG formatting:
+  - Check that the **indentation is 3 spaces** (important if you used SVGOMG).
+  - Check that the **order of the all the properties is exactly same** as the *SVG code formatting example*.
+  - Check that possible `fill="` **prefixes are changed to** `style="fill:`
+  - **Remove all the properties** that aren't featured in the *SVG code formatting example*.
 
-:broom: [Example SVG diff of manual cleanup with notes](https://github.com/aegis-icons/misc/commit/c0128f61f0d2b88d5953881699955a4a17477e47?diff=split).
+:mag: **Test the SVG on web browser** that it still works after edits! (drag-and-drop SVG to tab bar or *shortcut:* <kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>O</kbd>).
+
+> :broom: *[Example SVG diff of manual cleanup with notes](https://github.com/aegis-icons/misc/commit/c0128f61f0d2b88d5953881699955a4a17477e47?diff=split).*
 
 ### Submit to repository
 - Submit your icon for review by [opening a new issue](../../issues/new/choose) (select "Icon submission") and add your file(s) / info.
