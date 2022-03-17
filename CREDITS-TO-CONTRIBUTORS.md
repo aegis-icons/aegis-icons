@@ -21,7 +21,7 @@ These are people who has contributed our project with commits or sending icon su
 - **[bartlibert](https://github.com/AnTheMaker)** (Bart Libert)
   - For these icons: *STACK* ([#397](https://github.com/aegis-icons/aegis-icons/pull/397)), *CSAM* ([#398](https://github.com/aegis-icons/aegis-icons/pull/398)), *DigiConnect* ([#399](https://github.com/aegis-icons/aegis-icons/pull/399)), *Smartschool* ([#400](https://github.com/aegis-icons/aegis-icons/pull/400)), *Directus* ([#401](https://github.com/aegis-icons/aegis-icons/pull/401)).
 - **[CampinCarl](https://github.com/CampinCarl)** (Michael Alden)
-  - For *(ISC)²* icon ([#537](https://github.com/aegis-icons/aegis-icons/issues/537)).
+  - For these icons: *(ISC)²* ([#537](https://github.com/aegis-icons/aegis-icons/issues/537)), *Cloudinary* ([#538](https://github.com/aegis-icons/aegis-icons/issues/538)).
 - **[Centenoe](https://github.com/Centenoe)** (Centeno)
   - For *Neeva* icon ([#502](https://github.com/aegis-icons/aegis-icons/pull/502)).
 - **[cfanoulis](https://github.com/cfanoulis)** (Charalampos Fanoulis)
