@@ -1988,6 +1988,13 @@
             ]
         },
         {
+            "filename": "SVG/CoinFLEX.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "CoinFLEX"
+            ]
+        },
+        {
             "filename": "SVG/CoinStats.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3971,6 +3978,13 @@
             ]
         },
         {
+            "filename": "SVG/Presearch.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Presearch"
+            ]
+        },
+        {
             "filename": "SVG/Prey.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4891,6 +4905,13 @@
             ]
         },
         {
+            "filename": "SVG/VFUN.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "VFUN"
+            ]
+        },
+        {
             "filename": "SVG/VK v3.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4940,6 +4961,14 @@
             ]
         },
         {
+            "filename": "SVG/WAX.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "WAX",
+                "Worldwide Asset eXchange"
+            ]
+        },
+        { 
             "filename": "SVG/WEB.DE.svg",
             "category": "1. Apps & Sites",
             "issuer": [
