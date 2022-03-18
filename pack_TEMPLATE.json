@@ -334,13 +334,6 @@
             ]
         },
         {
-            "filename": "SVG/.Outdated/DueDEX.svg",
-            "category": "4. Outdated",
-            "issuer": [
-                "DueDEX"
-            ]
-        },
-        {
             "filename": "SVG/.Outdated/Enom v1.svg",
             "category": "4. Outdated",
             "issuer": [
@@ -425,13 +418,6 @@
             ]
         },
         {
-            "filename": "SVG/.Outdated/Kryptono.svg",
-            "category": "4. Outdated",
-            "issuer": [
-                "Kryptono"
-            ]
-        },
-        {
             "filename": "SVG/.Outdated/LogMeIn.svg",
             "category": "4. Outdated",
             "issuer": [
@@ -443,13 +429,6 @@
             "category": "4. Outdated",
             "issuer": [
                 "MangaDex"
-            ]
-        },
-        {
-            "filename": "SVG/.Outdated/Mixer.svg",
-            "category": "4. Outdated",
-            "issuer": [
-                "Mixer"
             ]
         },
         {
@@ -565,7 +544,7 @@
             ]
         },
         {
-            "filename": "SVG/.Outdated/Star Citizen v1 bg.var.svg",
+            "filename": "SVG/.Outdated/Star Citizen bg.var.svg",
             "category": "4. Outdated",
             "issuer": [
                 "Star Citizen"
