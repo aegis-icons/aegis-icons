@@ -271,9 +271,9 @@ Next, do SVG compression & cleanup.
 
 - :warning: Checklist for SVG formatting:
   - Check that the **indentation is 3 spaces** (important if you used SVGOMG).
-  - Check that the **order of the all the properties is exactly same** as the *SVG code formatting example*.
+  - Check that the **order of the all the [elements](https://developer.mozilla.org/en-US/docs/Web/SVG/Element) and [attributes](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute) is EXACTLY same** as the *SVG code formatting example*.
   - Check that possible `fill="` **prefixes are changed to** `style="fill:`
-  - **Remove all the properties** that aren't featured in the *SVG code formatting example*.
+  - **Remove all the [attributes](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute)** that aren't featured in the *SVG code formatting example*.
 
 :mag: **Test the SVG on web browser** that it still works after edits! (drag-and-drop SVG to tab bar or *shortcut:* <kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>O</kbd>).
 
