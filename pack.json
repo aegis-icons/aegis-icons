@@ -1869,6 +1869,13 @@
             ]
         },
         {
+            "filename": "SVG/Capital.com.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Capital.com"
+            ]
+        },
+        {
             "filename": "SVG/Carrd.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4041,6 +4048,13 @@
             ]
         },
         {
+            "filename": "SVG/Pterodactyl.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Pterodactyl"
+            ]
+        },
+        {
             "filename": "SVG/Pushover.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -5179,6 +5193,13 @@
             ]
         },
         {
+            "filename": "SVG/Young Platform.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Young Platform"
+            ]
+        },
+        { 
             "filename": "SVG/Zapier.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -5267,6 +5288,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "bunny.net"
+            ]
+        },
+        {
+            "filename": "SVG/cPanel.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "cPanel"
             ]
         },
         {
