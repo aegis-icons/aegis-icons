@@ -107,12 +107,12 @@ Search through the logo resources to find a vector-based image (SVG, AI, EPS, PD
 - If everything has failed so far, then **check [logo resources](#logos) section.**
   - Remember though, logo has to be latest one that company uses.
 - As last resort, you can **try image tracing** with raster images (JPG, PNG etc). Rule of thumb with image tracing is using image that's high resolution, not many colors and doesn't have any [artifacts](https://simple.wikipedia.org/wiki/Compression_artifact).
-  - Illustrator & Inkscape has image tracing tool, but usually results varies from bad to somewhat decent.
   - [Vectorizer.io](https://anonym.to/?https://www.vectorizer.io) is better alternative but vectors aren't freely downloadable anymore, generating vectors without account / freely is still possible.
     - There's loophole to downloads though: use [SVG Gobbler](https://www.svggobbler.com/) after vector was generated.
       - Alternatively: Inspect the output image (<kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>Shift</kbd>+<kbd>C</kbd>) and copy the SVG code from dev tools.
   - [Vector Magic](https://vectormagic.com/) is the one of best – if not the best – image tracer.
     - Also commercial, but does offer free trials for [desktop application](https://vectormagic.com/desktop).
+  - Illustrator & Inkscape has image tracing tool, but usually results varies from bad to somewhat decent.
 - **Making vectorized logo from stratch** is also option, if you're skilled and patient enough.
 
 > :information_source: SVG doesn't work? Try fixing it with [SVGminify.com](https://www.svgminify.com/).
