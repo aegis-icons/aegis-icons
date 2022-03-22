@@ -56,6 +56,8 @@ These are people who has contributed our project with commits or sending icon su
   - For *Forum Italia* icon ([#283](https://github.com/aegis-icons/aegis-icons/issues/283)).
 - **[maxlysenko](https://github.com/maxlysenko)**
   - For these icons: *Avast* ([#223](https://github.com/aegis-icons/aegis-icons/issues/223)), *Keenetic* ([#226](https://github.com/aegis-icons/aegis-icons/issues/226)), *RealVNC* ([#224](https://github.com/aegis-icons/aegis-icons/issues/224)), *SAP* ([#225](https://github.com/aegis-icons/aegis-icons/issues/225)).
+- **[mormegil-cz](https://github.com/mormegil-cz)** (Petr Kadlec)
+  - For *Datové schránky* icon ([#551](https://github.com/aegis-icons/aegis-icons/pull/551)).
 - **[Neluji](https://github.com/Neluji)**
   - For these icons: *Hypixel* ([#384](https://github.com/aegis-icons/aegis-icons/pull/384)), *OMGSERV*  ([#492](https://github.com/aegis-icons/aegis-icons/pull/492)).
 - **[Selovert](https://github.com/Selovert)** (Tassilo Selover-Stephan)
