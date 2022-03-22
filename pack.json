@@ -888,6 +888,13 @@
             ]
         },
         {
+            "filename": "SVG/.Variations/Invoice Ninja bg.var.svg",
+            "category": "2. Variations & Alts",
+            "issuer": [
+                "Invoice Ninja"
+            ]
+        },
+        { 
             "filename": "SVG/.Variations/JetBrains bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
@@ -3026,6 +3033,13 @@
             ]
         },
         {
+            "filename": "SVG/Invoice Ninja.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Invoice Ninja"
+            ]
+        },
+        {
             "filename": "SVG/Jagex.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4263,6 +4277,14 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "SOGo"
+            ]
+        },
+        {
+            "filename": "SVG/SPID.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "SPID",
+                "Sistema Pubblico di Identità Digitale"
             ]
         },
         {
