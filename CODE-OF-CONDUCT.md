@@ -31,7 +31,7 @@ Examples of unacceptable behaviour by participants include:
 
 Violations of the Code of Conduct may be reported by:
 
-1. Commenting to the issue or PR (add user handler `@krisu5` to the comment)
+1. Commenting to the issue or pull request (add user handler `@krisu5` to the comment)
 2. [Creating new issue for the report](https://github.com/aegis-icons/aegis-icons/issues/new/choose) (choose "Other")
 3. [Sending email to aegis-icons maintainer, @krisu5](messageme.md).
 
