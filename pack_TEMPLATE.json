@@ -3943,6 +3943,13 @@
             ]
         },
         {
+            "filename": "SVG/PipeFlare.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "PipeFlare"  
+            ]
+        },
+        {
             "filename": "SVG/Pixelfed.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4115,6 +4122,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Qloud"
+            ]
+        },
+        {
+            "filename": "SVG/Qualys.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Qualys"
             ]
         },
         {
@@ -5236,6 +5250,13 @@
             ]
         },
         { 
+            "filename": "SVG/ZEBEDEE.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "ZEBEDEE"
+            ]
+        },
+        {
             "filename": "SVG/Zapier.svg",
             "category": "1. Apps & Sites",
             "issuer": [
