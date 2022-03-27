@@ -1112,6 +1112,13 @@
             ]
         },
         {
+            "filename": "SVG/.Variations/TheHive fg.var.svg",
+            "category": "2. Variations & Alts",
+            "issuer": [
+                "TheHive"  
+            ]
+        },
+        {
             "filename": "SVG/.Variations/TradingView v3 bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
@@ -4703,10 +4710,24 @@
             ]
         },
         {
+            "filename": "SVG/TheHive.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "TheHive"
+            ]
+        },
+        { 
             "filename": "SVG/TheraKey.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "TheraKey"
+            ]
+        },
+        {
+            "filename": "SVG/ThreatQuotient.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "ThreatQuotient"
             ]
         },
         {
