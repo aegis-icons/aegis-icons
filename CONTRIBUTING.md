@@ -328,7 +328,7 @@ Next, do SVG compression & cleanup.
     
 #### Version naming and organizing old files
 - New versions of icons are only made when it's major change (new logo or brand color).
-  - Logos with only **barely noticable** brand related changes with same brand color ([example](https://user-images.githubusercontent.com/3540275/160298574-c28cfe2a-3393-44b0-9fd1-63a4e6ade214.png)), doesn't need new icon version.
+  - Logos with only **barely noticable** brand related changes with same brand color ([example by T-Mobile](https://user-images.githubusercontent.com/3540275/160298574-c28cfe2a-3393-44b0-9fd1-63a4e6ade214.png)), doesn't need new icon version.
 - Icon files that are outdated for the first time, `v1` is added to end of the filename.
   - Examples: `Codeberg v1.svg`.
 - Newer files also gets version label here from out.
