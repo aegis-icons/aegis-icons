@@ -712,6 +712,13 @@
             ]
         },
         {
+            "filename": "SVG/.Variations/Betfair bg.var.svg",
+            "category": "2. Variations & Alts",
+            "issuer": [
+                "Betfair"
+            ]
+        },
+        { 
             "filename": "SVG/.Variations/Bethesda bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
@@ -807,6 +814,13 @@
             "category": "2. Variations & Alts",
             "issuer": [
                 "Epic Games"
+            ]
+        },
+        {
+            "filename": "SVG/.Variations/Expo bg.var.svg",
+            "category": "2. Variations & Alts",
+            "issuer": [
+                "Expo"
             ]
         },
         {
@@ -1572,6 +1586,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Best Buy"
+            ]
+        },
+        {
+            "filename": "SVG/Betfair.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Betfair"
             ]
         },
         {
@@ -2402,6 +2423,13 @@
             ]
         },
         {
+            "filename": "SVG/Expo.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Expo"
+            ]
+        },
+        {
             "filename": "SVG/ExpressVPN v2.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2504,6 +2532,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Files.com"
+            ]
+        },
+        {
+            "filename": "SVG/Finary.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Finary"
             ]
         },
         {
@@ -3201,6 +3236,13 @@
             ]
         },
         {
+            "filename": "SVG/Let'sBit.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Let'sBit"
+            ]
+        },
+        { 
             "filename": "SVG/Libero.svg",
             "category": "1. Apps & Sites",
             "issuer": [
