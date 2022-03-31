@@ -62,6 +62,8 @@ These are people who has contributed our project with commits or sending icon su
   - For *Datové schránky* icon ([#551](https://github.com/aegis-icons/aegis-icons/pull/551)).
 - **[Neluji](https://github.com/Neluji)**
   - For these icons: *Hypixel* ([#384](https://github.com/aegis-icons/aegis-icons/pull/384)), *OMGSERV*  ([#492](https://github.com/aegis-icons/aegis-icons/pull/492)).
+- **[sebastianserrani](https://github.com/sebastianserrani)** (Sebastián Serrani)
+  - For *Let'sBit* icon (#562).
 - **[Selovert](https://github.com/Selovert)** (Tassilo Selover-Stephan)
   - For these icons: *BlockFi* ([#175](https://github.com/aegis-icons/aegis-icons/issues/175)), *Fundrise* ([#176](https://github.com/aegis-icons/aegis-icons/issues/176)), *Obsidian Entertainment* ([#177](https://github.com/aegis-icons/aegis-icons/issues/177)), *SendCutSend* ([#178](https://github.com/aegis-icons/aegis-icons/issues/178)), *Shareworks* ([#179](https://github.com/aegis-icons/aegis-icons/issues/179)), *TaxSlayer* ([#180](https://github.com/aegis-icons/aegis-icons/issues/180)).
 - **[skozharinov](https://github.com/skozharinov)** (Sergey Kozharinov)
@@ -70,3 +72,5 @@ These are people who has contributed our project with commits or sending icon su
   - For these icons: *OffGamers* ([#141](https://github.com/aegis-icons/aegis-icons/pull/141)), *OneSignal* ([#144](https://github.com/aegis-icons/aegis-icons/pull/144)), *Nvidia* ([#163](https://github.com/aegis-icons/aegis-icons/pull/163)), *Zerodha* ([#310](https://github.com/aegis-icons/aegis-icons/issues/310)).
 - **[ukanuk](https://github.com/ukanuk)** (Micah Lindstrom)
   - For the first draft of *CONTRIBUTING.md* document ([#65](https://github.com/aegis-icons/aegis-icons/pull/65)).
+- **[yfunk](https://github.com/yfunk)**
+  - For *Expo* icon (#563).
