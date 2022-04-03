@@ -14,7 +14,9 @@ body:
           - Eg. `Education (generic)`
         - **Do not change the formatting of the title!**
         
-        [Read **carefully** our CONTRIBUTING document](https://github.com/aegis-icons/aegis-icons/blob/master/CONTRIBUTING.md) before submitting icon!
+        ### Read and follow carefully our [CONTRIBUTING document](https://github.com/aegis-icons/aegis-icons/blob/master/CONTRIBUTING.md) before submitting icon!
+        
+        If you don't follow the CONTRIBUTING doc, we could reject your icon submission.
   - type: dropdown
     id: icon-type
     attributes:
