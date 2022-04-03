@@ -54,8 +54,8 @@ body:
             - `https://official-domain-of-the-app-or-site.com/logo.svg`
             - `https://unofficial-vector-logo-resource.com/exact-page-with-logo-resource`
         - Short info of how did you get the logo
-          - For [site embedded vectors](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Adding_vector_graphics_to_the_Web#how_to_include_svg_code_inside_your_html), eg: `Extracted logo with SVG Gobbler from https://official-domain-of-the-app-or-site.com/exact-page`
-          - For [image traced vectors](https://en.wikipedia.org/wiki/Image_tracing), eg: `Image traced of https://example.com/logo.jpg with Vectorizer.io`
+          - For site embedded vectors, eg: `Extracted logo with SVG Gobbler from https://official-domain-of-the-app-or-site.com/exact-page`
+          - For [raster image traced vectors](https://en.wikipedia.org/wiki/Image_tracing), eg: `Image traced of https://example.com/logo.jpg with Vectorizer.io`
         - *If it's generic icon:*
           - `[Icon name] from Unicons / Feather / Lucide / Cryptocurrency Icons`
         
