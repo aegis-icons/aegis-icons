@@ -91,5 +91,5 @@ body:
     attributes:
       label: Confirmation
       options:
-        - label: I have read and **carefully** followed [CONTRIBUTING document](https://github.com/aegis-icons/aegis-icons/blob/master/CONTRIBUTING.md)
+        - label: I have read and **carefully** followed [CONTRIBUTING document](https://github.com/aegis-icons/aegis-icons/blob/master/CONTRIBUTING.md) during the creation of the icon.
           required: true
