@@ -47,8 +47,8 @@ body:
     attributes:
       value: |        
         For example:
-        - Direct URL of the logo file / press kit page / logo resource page
-        - Short info of how did you get the logo
+        - Direct URL of the logo file / press kit page / logo resource page **OR**
+        - Short info of how did you get the logo **OR**
           - For site embedded vectors, eg: `Extracted logo with SVG Gobbler from https://example.com/exact-page`
           - For image tracing, eg: `Image traced of https://example.com/logo.jpg with Vectorizer.io`
         - *If it's generic icon:*
