@@ -63,7 +63,7 @@ These are people who has contributed our project with commits or sending icon su
 - **[Neluji](https://github.com/Neluji)**
   - For these icons: *Hypixel* (#384), *OMGSERV*  (#492).
 - **[sebastianserrani](https://github.com/sebastianserrani)** (Sebastián Serrani)
-  - For *Let'sBit* icon (#562).
+  - For these icons: *Let'sBit* icon (#562), *SatoshiTango* icon (#566).
 - **[Selovert](https://github.com/Selovert)** (Tassilo Selover-Stephan)
   - For these icons: *BlockFi* (#175), *Fundrise* (#176), *Obsidian Entertainment* (#177), *SendCutSend* (#178), *Shareworks* (#179), *TaxSlayer* (#180).
 - **[skozharinov](https://github.com/skozharinov)** (Sergey Kozharinov)
