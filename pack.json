@@ -852,10 +852,10 @@
             ]
         },
         {
-            "filename": "SVG/.Variations/Github bg.var.svg",
+            "filename": "SVG/.Variations/GitHub bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
-                "Github"
+                "GitHub"
             ]
         },
         {
@@ -1820,6 +1820,13 @@
             ]
         },
         {
+            "filename": "SVG/Buenbit.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Buenbit"
+            ]
+        },
+        {
             "filename": "SVG/Buffer.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2689,10 +2696,10 @@
             ]
         },
         {
-            "filename": "SVG/Github.svg",
+            "filename": "SVG/GitHub.svg",
             "category": "1. Apps & Sites",
             "issuer": [
-                "Github"
+                "GitHub"
             ]
         },
         {
@@ -4272,6 +4279,13 @@
             ]
         },
         {
+            "filename": "SVG/Ripio.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Ripio"
+            ]
+        },
+        { 
             "filename": "SVG/Roberts Space Industries.svg",
             "category": "1. Apps & Sites",
             "issuer": [

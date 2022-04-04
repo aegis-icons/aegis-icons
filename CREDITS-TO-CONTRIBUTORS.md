@@ -47,9 +47,9 @@ These are people who has contributed our project with commits or sending icon su
 - **[jessiehildebrandt](https://github.com/jessiehildebrandt)** (Jessie Hildebrandt)
   - For updating *Toontown Rewritten* icon with logo fix (#482).
 - **[Jimver](https://github.com/Jimver)** (Jim)
-  - For *Hestia Control Panel* icon ([#383](https://github.com/aegis-icons/aegis-icons/issues/383)).
+  - For *Hestia Control Panel* icon (#383).
 - **[joshcancode](https://github.com/joshcancode)**
-  - For updating *Toontown Rewritten* icon ([#288](https://github.com/aegis-icons/aegis-icons/pull/288))
+  - For updating *Toontown Rewritten* icon (#288).
 - **[justsomemate](https://github.com/justsomemate)**
   - For these icons: *Clover* (#167), *Kaseya* (#168), *Unitrends* (#169), *Twilio* (#170), *Palo Alto Networks* (#171), *1040.com* (#255), *Critical Start* (#259), *Asana* (#508).
 - **[krisu5](https://github.com/krisu5)** (Kristian Salonen)
@@ -57,13 +57,13 @@ These are people who has contributed our project with commits or sending icon su
 - **[matteoballabio](https://github.com/matteoballabio)** (Matteo Ballabio)
   - For *Forum Italia* icon (#283).
 - **[maxlysenko](https://github.com/maxlysenko)**
-  - For these icons: *Avast* (#223), *Keenetic* (#226), *RealVNC* (#224), *SAP* (#225).
+  - For these icons: *Avast* (#223), *RealVNC* (#224), *SAP* (#225), *Keenetic* (#226).
 - **[mormegil-cz](https://github.com/mormegil-cz)** (Petr Kadlec)
   - For *Datové schránky* icon (#551).
 - **[Neluji](https://github.com/Neluji)**
-  - For these icons: *Hypixel* (#384), *OMGSERV*  (#492).
+  - For these icons: *Hypixel* (#384), *OMGSERV* (#492).
 - **[sebastianserrani](https://github.com/sebastianserrani)** (Sebastián Serrani)
-  - For these icons: *Let'sBit* (#562), *SatoshiTango* (#566).
+  - For these icons: *Let'sBit* (#562), *Buenbit* (#564), *Ripio* (#565), *SatoshiTango* (#566).
 - **[Selovert](https://github.com/Selovert)** (Tassilo Selover-Stephan)
   - For these icons: *BlockFi* (#175), *Fundrise* (#176), *Obsidian Entertainment* (#177), *SendCutSend* (#178), *Shareworks* (#179), *TaxSlayer* (#180).
 - **[skozharinov](https://github.com/skozharinov)** (Sergey Kozharinov)
