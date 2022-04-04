@@ -32,8 +32,10 @@ body:
         **Optional** option to add URL for *press kit* or *logo SVG vector*, preferably from official source ([tips for finding these](https://github.com/aegis-icons/aegis-icons/blob/master/CONTRIBUTING.md#finding-source-images)).
         
         - :x: **Unaccepted resources:** JPG, PNG, GIF, WebP or [any other raster image](https://en.wikipedia.org/wiki/Image_file_format#Raster_formats).
-        - :x: No [data URIs](https://en.wikipedia.org/wiki/Data_URI_scheme), please!
-          - Starts with, for example: `data:image/svg+xml;base64,` and so on. Forbidden because of long character length.
+        - :x: **NO [data URIs](https://en.wikipedia.org/wiki/Data_URI_scheme), SVG code** or anything **that's NOT web URL,** please!
+          - *Forbidden because of long character length.*
+          - Data uri starts with: `data:image/svg+xml;base64,` (and so on)
+          - SVG code starts with: `<svg` (and so on)
         
         *Adding a optional resource doesn't guarantee that aegis-icons will use it for the icon.*
   - type: textarea
