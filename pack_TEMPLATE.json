@@ -923,13 +923,6 @@
             ]
         },
         {
-            "filename": "SVG/.Variations/Lemmy bg.var.svg",
-            "category": "2. Variations & Alts",
-            "issuer": [
-                "Lemmy"
-            ]
-        },
-        {
             "filename": "SVG/.Variations/Lichess bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
@@ -3240,13 +3233,6 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "LastPass"
-            ]
-        },
-        {
-            "filename": "SVG/Lemmy.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "Lemmy"
             ]
         },
         {
