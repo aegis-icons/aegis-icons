@@ -1070,6 +1070,13 @@
             ]
         },
         {
+            "filename": "SVG/.Variations/Skiff bg.var.svg",
+            "category": "2. Variations & Alts",
+            "issuer": [
+                "Skiff"
+            ]
+        },
+        {
             "filename": "SVG/.Variations/Snapchat fg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
@@ -1922,6 +1929,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Carta"
+            ]
+        },
+        {
+            "filename": "SVG/Cash App.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Cash App"
             ]
         },
         {
@@ -4153,6 +4167,13 @@
             ]
         },
         {
+            "filename": "SVG/PythonAnywhere.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "PythonAnywhere"
+            ]
+        },
+        { 
             "filename": "SVG/QNAP.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4510,6 +4531,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "SimpleLogin"
+            ]
+        },
+        {
+            "filename": "SVG/Skiff.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Skiff"
             ]
         },
         {
