@@ -22,14 +22,12 @@ echo [2] Edit JSONs on Notepad++
 echo [3] Dry run-ish (generate ^& move icon pack ZIP to trash bin)
 echo [4] Make the icon pack ZIP
 echo [5] Make pack ZIP with manually added version
-echo [6] Zip the PNG files
-echo [7] Exit
+echo [6] Exit
 echo.
 choice /c 1234567 /n /m "Choose (1-7): "
 echo.
 
-if errorlevel 7 goto exitScript
-if errorlevel 6 goto zipPNGs
+if errorlevel 6 goto exitScript
 if errorlevel 5 goto makeSVGzipDiffVer
 if errorlevel 4 goto makeSVGzip
 if errorlevel 3 goto dryRunish
@@ -78,17 +76,6 @@ goto loop
 echo - - - - - - - - - - - - - - - - -
 echo.
 pack.py gen --output aegis-icons.zip --version %version%
-echo.
-echo ---------------------------------
-goto loop
-
-:zipPNGs
-echo - - - - - - - - - - - - - - - - -
-:: line-break by 7-Zip CMD
-7za a -tzip "%cd%\aegis-icons_PNGs_legacy.zip" "%cd%\PNG\*"
-:: Files that has to be in the folder that's added to the PATH:
-::   7za.dll, 7za.exe, 7zxa.dll
-:: These files can be downloaded from 7-Zip Extra <https://www.7-zip.org/download.html>
 echo.
 echo ---------------------------------
 goto loop
