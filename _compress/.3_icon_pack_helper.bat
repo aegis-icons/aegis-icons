@@ -66,7 +66,7 @@ set _minute=%_minute:~-2%
 set _second=%time:~-5,2%
 set dryFileName=aegis-icons_-_dryrun_[%_yyyy%-%_mm%-%_dd%_%_hour%.%_minute%.%_second%].zip
 pack.py gen --output %dryFileName% --version %version%
-:: NirCmd has be in the folder that's added to the PATH <https://www.nirsoft.net/utils/nircmd.html>
+:: NirCmd has to be in the folder that's added to the PATH <https://www.nirsoft.net/utils/nircmd.html>
 nircmd moverecyclebin %dryFileName%
 echo.
 echo ---------------------------------
