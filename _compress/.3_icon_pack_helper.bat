@@ -24,7 +24,7 @@ echo [4] Make the icon pack ZIP
 echo [5] Make pack ZIP with manually added version
 echo [6] Exit
 echo.
-choice /c 1234567 /n /m "Choose (1-7): "
+choice /c 123456 /n /m "Choose (1-6): "
 echo.
 
 if errorlevel 6 goto exitScript
