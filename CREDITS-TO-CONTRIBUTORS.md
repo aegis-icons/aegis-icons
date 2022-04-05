@@ -73,4 +73,4 @@ These are people who has contributed our project with commits or sending icon su
 - **[ukanuk](https://github.com/ukanuk)** (Micah Lindstrom)
   - For the first draft of *CONTRIBUTING.md* document (#65).
 - **[yfunk](https://github.com/yfunk)**
-  - For *Expo* icon (#563).
+  - For these icons:  *Expo* (#563), *Netim* (#576).
