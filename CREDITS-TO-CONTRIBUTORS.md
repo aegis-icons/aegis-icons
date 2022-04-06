@@ -73,4 +73,4 @@ These are people who has contributed our project with commits or sending icon su
 - **[ukanuk](https://github.com/ukanuk)** (Micah Lindstrom)
   - For the first draft of *CONTRIBUTING.md* document ([#65](https://github.com/aegis-icons/aegis-icons/pull/65)).
 - **[yfunk](https://github.com/yfunk)**
-  - For these icons: *Expo* ([#563](https://github.com/aegis-icons/aegis-icons/pull/563)), *Netim* ([#577](https://github.com/aegis-icons/aegis-icons/pull/576)), *Exaroton* ([#577](https://github.com/aegis-icons/aegis-icons/pull/576)).
+  - For these icons: *Expo* ([#563](https://github.com/aegis-icons/aegis-icons/pull/563)), *Netim* ([#576](https://github.com/aegis-icons/aegis-icons/pull/576)), *Exaroton* ([#577](https://github.com/aegis-icons/aegis-icons/pull/577)).
