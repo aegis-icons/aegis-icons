@@ -1624,6 +1624,13 @@
             ]
         },
         {
+            "filename": "SVG/BitForex.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "BitForex"
+            ]
+        },
+        {
             "filename": "SVG/BitGo.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -1656,6 +1663,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Bitazza"
+            ]
+        },
+        {
+            "filename": "SVG/Bitbns.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Bitbns"
             ]
         },
         {
@@ -2953,6 +2967,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Hostwinds"
+            ]
+        },
+        {
+            "filename": "SVG/Hotbit.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Hotbit"
             ]
         },
         {
@@ -5067,6 +5088,13 @@
             ]
         },
         {
+            "filename": "SVG/UseMyCards.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "UseMyCards"
+            ]
+        },
+        {
             "filename": "SVG/V2EX.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -5177,6 +5205,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Wargaming.net"
+            ]
+        },
+        {
+            "filename": "SVG/Wasabi.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Wasabi"
             ]
         },
         {
