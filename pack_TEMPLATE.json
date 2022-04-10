@@ -718,7 +718,7 @@
                 "Betfair"
             ]
         },
-        { 
+        {
             "filename": "SVG/.Variations/Bethesda bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
@@ -908,7 +908,7 @@
                 "Invoice Ninja"
             ]
         },
-        { 
+        {
             "filename": "SVG/.Variations/JetBrains bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
@@ -1910,7 +1910,7 @@
                 "Cake DeFi"
             ]
         },
-        { 
+        {
             "filename": "SVG/CalorieTracker.io.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2008,7 +2008,7 @@
                 "Cloudinary"
             ]
         },
-        { 
+        {
             "filename": "SVG/Clover.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2071,7 +2071,14 @@
                 "CoinStats"
             ]
         },
-        { 
+        {
+            "filename": "SVG/CoinTracker.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "CoinTracker"
+            ]
+        },
+        {
             "filename": "SVG/CoinTracking.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3102,7 +3109,7 @@
                 "Internxt"
             ]
         },
-        { 
+        {
             "filename": "SVG/Intuit.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3179,7 +3186,7 @@
                 "Kaspersky"
             ]
         },
-        { 
+        {
             "filename": "SVG/Keenetic.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3277,14 +3284,14 @@
                 "Let'sBit"
             ]
         },
-        { 
+        {
             "filename": "SVG/Libero.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "Libero"
             ]
         },
-        { 
+        {
             "filename": "SVG/Lichess.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3515,7 +3522,7 @@
                 "Mollie"
             ]
         },
-        { 
+        {
             "filename": "SVG/Monex, Inc.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3620,7 +3627,7 @@
                 "Netim"
             ]
         },
-        { 
+        {
             "filename": "SVG/Netlify.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4194,7 +4201,7 @@
                 "PythonAnywhere"
             ]
         },
-        { 
+        {
             "filename": "SVG/QNAP.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4292,7 +4299,7 @@
                 "Render"
             ]
         },
-        { 
+        {
             "filename": "SVG/Report URI.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4320,7 +4327,7 @@
                 "Ripio"
             ]
         },
-        { 
+        {
             "filename": "SVG/Roberts Space Industries.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4603,7 +4610,7 @@
                 "Sony"
             ]
         },
-        { 
+        {
             "filename": "SVG/Sophos.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4821,7 +4828,7 @@
                 "TheHive"
             ]
         },
-        { 
+        {
             "filename": "SVG/TheraKey.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -5165,7 +5172,7 @@
                 "Worldwide Asset eXchange"
             ]
         },
-        { 
+        {
             "filename": "SVG/WEB.DE.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -5389,7 +5396,7 @@
                 "Young Platform"
             ]
         },
-        { 
+        {
             "filename": "SVG/ZEBEDEE.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -5537,7 +5544,7 @@
                 "fileee"
             ]
         },
-        { 
+        {
             "filename": "SVG/hosting.de.svg",
             "category": "1. Apps & Sites",
             "issuer": [
