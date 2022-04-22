@@ -979,6 +979,13 @@
             ]
         },
         {
+            "filename": "SVG/.Variations/Nitrado fg.var.svg",
+            "category": "2. Variations & Alts",
+            "issuer": [
+                "Nitrado"
+            ]
+        },
+        { 
             "filename": "SVG/.Variations/NotABug.org bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
@@ -3376,6 +3383,13 @@
             ]
         },
         {
+            "filename": "SVG/MC-Market.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "MC-Market"
+            ]
+        },
+        {
             "filename": "SVG/MEGA.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3723,6 +3737,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Nintendo"
+            ]
+        },
+        {
+            "filename": "SVG/Nitrado.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Nitrado"
             ]
         },
         {
