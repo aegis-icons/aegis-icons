@@ -56,7 +56,7 @@ Before making or requesting an icon for app / site, please check if it fits our 
 :grey_question: Needs some examining before accepting or rejecting. Request or submit and we will tell if it's accepted or not.
 
 - Forums, message groups.
-  - We have decided to make icons based of forum software they use, because those are more universally usable for users then specific communities.
+  - We rather make icons based of the forum softwares, because those are more universally usable for users then specific communities.
     - Detected with tools like [What CMS](https://whatcms.org) and [W3Techs Site Info](https://w3techs.com/sites).
   - *Exception:* **really** popular forums can get their own icons (at least over 250,000 total members and high posting activity).
 - Platforms that icon requester / submitter is the creator or owner of the platform itself.
