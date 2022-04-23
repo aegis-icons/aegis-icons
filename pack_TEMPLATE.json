@@ -257,6 +257,21 @@
             ]
         },
         {
+            "filename": "SVG/.Outdated/Black Desert Online bg.var.svg",
+            "category": "4. Outdated",
+            "issuer": [
+                "Black Desert Online"
+            ]
+        },
+        {
+            "filename": "SVG/.Outdated/Black Desert Online.svg",
+            "category": "4. Outdated",
+            "issuer": [
+                "Black Desert Online",
+                "Black Desert"
+            ]
+        },
+        {
             "filename": "SVG/.Outdated/Blizzard.svg",
             "category": "4. Outdated",
             "issuer": [
@@ -407,7 +422,7 @@
             "filename": "SVG/.Outdated/IFTTT v1.svg",
             "category": "4. Outdated",
             "issuer": [
-                "IFTTT "
+                "IFTTT"
             ]
         },
         {
@@ -471,6 +486,13 @@
             "category": "4. Outdated",
             "issuer": [
                 "OwnCube"
+            ]
+        },
+        {
+            "filename": "SVG/.Outdated/Paddle v1.svg",
+            "category": "4. Outdated",
+            "issuer": [
+                "Paddle"
             ]
         },
         {
@@ -589,7 +611,7 @@
             "filename": "SVG/.Outdated/TradingView v2.svg",
             "category": "4. Outdated",
             "issuer": [
-                "TradingView"   
+                "TradingView"
             ]
         },
         {
@@ -624,7 +646,7 @@
             "filename": "SVG/.Outdated/Unity v1.svg",
             "category": "4. Outdated",
             "issuer": [
-                "Unity" 
+                "Unity"
             ]
         },
         {
@@ -698,7 +720,7 @@
             ]
         },
         {
-            "filename": "SVG/.Variations/Autodesk v2 bg.var.svg",
+            "filename": "SVG/.Variations/Autodesk bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
                 "Autodesk"
@@ -726,17 +748,10 @@
             ]
         },
         {
-            "filename": "SVG/.Variations/Bitpanda v2 bg.var.svg",
+            "filename": "SVG/.Variations/Bitpanda bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
                 "Bitpanda"
-            ]
-        },
-        {
-            "filename": "SVG/.Variations/Black Desert Online bg.var.svg",
-            "category": "2. Variations & Alts",
-            "issuer": [
-                "Black Desert Online"
             ]
         },
         {
@@ -881,7 +896,7 @@
             ]
         },
         {
-            "filename": "SVG/.Variations/IFTTT v2 bg.var.svg",
+            "filename": "SVG/.Variations/IFTTT bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
                 "IFTTT"
@@ -1049,7 +1064,7 @@
             ]
         },
         {
-            "filename": "SVG/.Variations/Privacy v2 bg.var.svg",
+            "filename": "SVG/.Variations/Privacy bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
                 "Privacy"
@@ -1112,7 +1127,7 @@
             ]
         },
         {
-            "filename": "SVG/.Variations/Stake v2 bg.var.svg",
+            "filename": "SVG/.Variations/Stake bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
                 "Stake"
@@ -1147,7 +1162,7 @@
             ]
         },
         {
-            "filename": "SVG/.Variations/TradingView v3 bg.var.svg",
+            "filename": "SVG/.Variations/TradingView bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
                 "TradingView"
@@ -1238,7 +1253,7 @@
             ]
         },
         {
-            "filename": "SVG/.Variations/Windscribe v2 bg.var.svg",
+            "filename": "SVG/.Variations/Windscribe bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
                 "Windscribe"
@@ -1469,7 +1484,7 @@
             ]
         },
         {
-            "filename": "SVG/AppFolio v2.svg",
+            "filename": "SVG/AppFolio.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "AppFolio"
@@ -1553,21 +1568,21 @@
             ]
         },
         {
-            "filename": "SVG/Autodesk v2.svg",
+            "filename": "SVG/Autodesk.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "Autodesk"
             ]
         },
         {
-            "filename": "SVG/Avast v2.svg",
+            "filename": "SVG/Avast.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "Avast"
             ]
         },
         {
-            "filename": "SVG/Azure v2.svg",
+            "filename": "SVG/Azure.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "Azure"
@@ -1617,7 +1632,7 @@
             ]
         },
         {
-            "filename": "SVG/Betterment v2.svg",
+            "filename": "SVG/Betterment.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "Betterment"
@@ -1708,7 +1723,7 @@
             ]
         },
         {
-            "filename": "SVG/Bitfinex v2.svg",
+            "filename": "SVG/Bitfinex.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "Bitfinex"
@@ -1722,7 +1737,7 @@
             ]
         },
         {
-            "filename": "SVG/Bitpanda v2.svg",
+            "filename": "SVG/Bitpanda.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "Bitpanda"
@@ -1757,17 +1772,10 @@
             ]
         },
         {
-            "filename": "SVG/Bitwarden v2.svg",
+            "filename": "SVG/Bitwarden.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "Bitwarden"
-            ]
-        },
-        {
-            "filename": "SVG/Black Desert Online.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "Black Desert Online"
             ]
         },
         {
@@ -1967,7 +1975,7 @@
             ]
         },
         {
-            "filename": "SVG/Celsius v2.svg",
+            "filename": "SVG/Celsius.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "Celsius"
@@ -2051,14 +2059,14 @@
             ]
         },
         {
-            "filename": "SVG/Codeberg v2.svg",
+            "filename": "SVG/Codeberg.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "Codeberg"
             ]
         },
         {
-            "filename": "SVG/CoinDCX v2.svg",
+            "filename": "SVG/CoinDCX.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "CoinDCX"
@@ -2100,7 +2108,7 @@
             ]
         },
         {
-            "filename": "SVG/Coinbase v2.svg",
+            "filename": "SVG/Coinbase.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "Coinbase"
@@ -2128,7 +2136,7 @@
             ]
         },
         {
-            "filename": "SVG/Contabo v2.svg",
+            "filename": "SVG/Contabo.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "Contabo"
@@ -2212,7 +2220,7 @@
             ]
         },
         {
-            "filename": "SVG/Dashlane v2.svg",
+            "filename": "SVG/Dashlane.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "Dashlane"
@@ -2222,6 +2230,7 @@
             "filename": "SVG/Datove schranky.svg",
             "category": "1. Apps & Sites",
             "issuer": [
+                "Datove schranky",
                 "Datové schránky"
             ]
         },
@@ -2310,7 +2319,7 @@
             ]
         },
         {
-            "filename": "SVG/Discord v2.svg",
+            "filename": "SVG/Discord.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "Discord"
@@ -2324,7 +2333,7 @@
             ]
         },
         {
-            "filename": "SVG/Disroot v2.svg",
+            "filename": "SVG/Disroot.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "Disroot"
@@ -2366,7 +2375,7 @@
             ]
         },
         {
-            "filename": "SVG/Drupal v2.svg",
+            "filename": "SVG/Drupal.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "Drupal"
@@ -2416,7 +2425,7 @@
             ]
         },
         {
-            "filename": "SVG/Enom v2.svg",
+            "filename": "SVG/Enom.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "Enom"
@@ -2486,7 +2495,7 @@
             ]
         },
         {
-            "filename": "SVG/ExpressVPN v2.svg",
+            "filename": "SVG/ExpressVPN.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "ExpressVPN"
@@ -2528,7 +2537,7 @@
             ]
         },
         {
-            "filename": "SVG/Facebook v2.svg",
+            "filename": "SVG/Facebook.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "Facebook"
@@ -2605,7 +2614,7 @@
             ]
         },
         {
-            "filename": "SVG/Firefox v2.svg",
+            "filename": "SVG/Firefox.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "Firefox"
@@ -2696,7 +2705,7 @@
             ]
         },
         {
-            "filename": "SVG/Gandi v2.svg",
+            "filename": "SVG/Gandi.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "Gandi"
@@ -2731,13 +2740,6 @@
             ]
         },
         {
-            "filename": "SVG/Gitea.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "Gitea"
-            ]
-        },
-        {
             "filename": "SVG/GitHub.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2749,6 +2751,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "GitLab"
+            ]
+        },
+        {
+            "filename": "SVG/Gitea.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Gitea"
             ]
         },
         {
@@ -2773,7 +2782,7 @@
             ]
         },
         {
-            "filename": "SVG/GoDaddy v2.svg",
+            "filename": "SVG/GoDaddy.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "GoDaddy"
@@ -2844,7 +2853,7 @@
             ]
         },
         {
-            "filename": "SVG/H&R Block v2.svg",
+            "filename": "SVG/H&R Block.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "H&R Block"
@@ -2984,7 +2993,7 @@
             ]
         },
         {
-            "filename": "SVG/Hostwinds v2.svg",
+            "filename": "SVG/Hostwinds.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "Hostwinds"
@@ -3061,7 +3070,7 @@
             ]
         },
         {
-            "filename": "SVG/IFTTT v2.svg",
+            "filename": "SVG/IFTTT.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "IFTTT"
@@ -3173,7 +3182,7 @@
             ]
         },
         {
-            "filename": "SVG/Justworks v2.svg",
+            "filename": "SVG/Justworks.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "Justworks"
@@ -3439,7 +3448,7 @@
             ]
         },
         {
-            "filename": "SVG/MangaDex v2.svg",
+            "filename": "SVG/MangaDex.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "MangaDex"
@@ -3607,7 +3616,7 @@
             ]
         },
         {
-            "filename": "SVG/NameSilo v2.svg",
+            "filename": "SVG/NameSilo.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "NameSilo"
@@ -3684,7 +3693,7 @@
             ]
         },
         {
-            "filename": "SVG/NextDNS v2.svg",
+            "filename": "SVG/NextDNS.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "NextDNS"
@@ -3838,7 +3847,7 @@
             ]
         },
         {
-            "filename": "SVG/OVH v2.svg",
+            "filename": "SVG/OVH.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "OVH"
@@ -3887,7 +3896,7 @@
             ]
         },
         {
-            "filename": "SVG/OnlyFans v2.svg",
+            "filename": "SVG/OnlyFans.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "OnlyFans"
@@ -3950,7 +3959,7 @@
             ]
         },
         {
-            "filename": "SVG/OwnCube v2.svg",
+            "filename": "SVG/OwnCube.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "OwnCube"
@@ -3971,13 +3980,6 @@
             ]
         },
         {
-            "filename": "SVG/Paddle.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "Paddle"
-            ]
-        },
-        {
             "filename": "SVG/Palo Alto Networks.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3992,14 +3994,14 @@
             ]
         },
         {
-            "filename": "SVG/Patreon v2.svg",
+            "filename": "SVG/Patreon.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "Patreon"
             ]
         },
         {
-            "filename": "SVG/PayPal v2.svg",
+            "filename": "SVG/PayPal.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "PayPal"
@@ -4055,7 +4057,7 @@
             ]
         },
         {
-            "filename": "SVG/Pinterest v2.svg",
+            "filename": "SVG/Pinterest.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "Pinterest"
@@ -4065,7 +4067,7 @@
             "filename": "SVG/PipeFlare.svg",
             "category": "1. Apps & Sites",
             "issuer": [
-                "PipeFlare"  
+                "PipeFlare"
             ]
         },
         {
@@ -4160,14 +4162,14 @@
             ]
         },
         {
-            "filename": "SVG/Privacy v2.svg",
+            "filename": "SVG/Privacy.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "Privacy"
             ]
         },
         {
-            "filename": "SVG/Private Internet Access v2.svg",
+            "filename": "SVG/Private Internet Access.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "Private Internet Access"
@@ -4335,7 +4337,7 @@
             ]
         },
         {
-            "filename": "SVG/Republic Wireless v2.svg",
+            "filename": "SVG/Republic Wireless.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "Republic Wireless"
@@ -4470,7 +4472,7 @@
             ]
         },
         {
-            "filename": "SVG/Samtrade FX v2.svg",
+            "filename": "SVG/Samtrade FX.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "Samtrade FX"
@@ -4710,21 +4712,21 @@
             ]
         },
         {
-            "filename": "SVG/Stake v2.svg",
+            "filename": "SVG/Stake.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "Stake"
             ]
         },
         {
-            "filename": "SVG/Standard Notes v2.svg",
+            "filename": "SVG/Standard Notes.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "Standard Notes"
             ]
         },
         {
-            "filename": "SVG/Star Wars The Old Republic v2.svg",
+            "filename": "SVG/Star Wars The Old Republic.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "Star Wars: The Old Republic"
@@ -4752,7 +4754,7 @@
             ]
         },
         {
-            "filename": "SVG/Stripe v2.svg",
+            "filename": "SVG/Stripe.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "Stripe"
@@ -4955,7 +4957,7 @@
             ]
         },
         {
-            "filename": "SVG/TradingView v3.svg",
+            "filename": "SVG/TradingView.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "TradingView"
@@ -4969,7 +4971,7 @@
             ]
         },
         {
-            "filename": "SVG/Trello v2.svg",
+            "filename": "SVG/Trello.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "Trello"
@@ -4990,7 +4992,7 @@
             ]
         },
         {
-            "filename": "SVG/Tumblr v2.svg",
+            "filename": "SVG/Tumblr.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "Tumblr"
@@ -5018,7 +5020,7 @@
             ]
         },
         {
-            "filename": "SVG/Twitch v2.svg",
+            "filename": "SVG/Twitch.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "Twitch"
@@ -5081,7 +5083,7 @@
             ]
         },
         {
-            "filename": "SVG/Unity v2.svg",
+            "filename": "SVG/Unity.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "Unity"
@@ -5165,7 +5167,7 @@
             ]
         },
         {
-            "filename": "SVG/VK v3.svg",
+            "filename": "SVG/VK.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "VK"
@@ -5327,7 +5329,7 @@
             ]
         },
         {
-            "filename": "SVG/Windscribe v2.svg",
+            "filename": "SVG/Windscribe.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "Windscribe"
@@ -5657,7 +5659,7 @@
             ]
         },
         {
-            "filename": "SVG/omg.lol v2.svg",
+            "filename": "SVG/omg.lol.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "omg.lol"
