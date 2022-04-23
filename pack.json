@@ -1790,7 +1790,8 @@
             "filename": "SVG/Black Desert.svg",
             "category": "1. Apps & Sites",
             "issuer": [
-                "Black Desert"
+                "Black Desert",
+                "Black Desert Online"
             ]
         },
         {
@@ -5214,6 +5215,14 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Vauld"
+            ]
+        },
+        {
+            "filename": "SVG/Verifone.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Verifone",
+                "2Checkout"
             ]
         },
         {
