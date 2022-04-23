@@ -331,12 +331,11 @@ Next, do SVG compression & cleanup.
   - Logos with only **barely noticable** brand related changes with same brand color ([example by T-Mobile](https://user-images.githubusercontent.com/3540275/160298574-c28cfe2a-3393-44b0-9fd1-63a4e6ade214.png)), doesn't need new icon version.
 - Icon files that are outdated for the first time, `v1` is added to end of the filename.
   - Examples: `Codeberg v1.svg`.
-- Newer files also gets version label here from out.
-  - Examples: `Codeberg v2.svg`.
-- Version label number increases when new versions are released (`v3`, `v4`, `v5`, `v6` etc.).
+- Version label number increases for outdated icons when new versions of the primary icon are released (`v3`, `v4`, `v5`, `v6` etc.).
 - Label number is also added / updated on the Illustrator file's artboard (*shortcut:* <kbd>Shift</kbd>+<kbd>O</kbd>).
 - Outdated versions are moved to self titled directory (`PNG/Outdated/`, `SVG/.Outdated/`).
-- Icons which are based of now dead service, should be moved to "Outdated" directory just as it is.
+- Icons of now dead service should be moved to  [aegis-icons / misc "removed_icons"](https://github.com/aegis-icons/misc/tree/main/removed_icons) directory just as it is.
+  - Also add info to the directory's README on why icon was removed.
 
 #### About PNGs
 As of 2021-07-25, aegis-icons doesn't actively make PNG icons anymore. Instead PNGs are only made when someone notices rendering problems with SVG on Aegis.
