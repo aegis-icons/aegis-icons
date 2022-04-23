@@ -260,7 +260,8 @@
             "filename": "SVG/.Outdated/Black Desert Online bg.var.svg",
             "category": "4. Outdated",
             "issuer": [
-                "Black Desert Online"
+                "Black Desert Online",
+                "Black Desert"
             ]
         },
         {
@@ -1050,6 +1051,13 @@
             ]
         },
         {
+            "filename": "SVG/.Variations/Paddle bg.var.svg",
+            "category": "2. Variations & Alts",
+            "issuer": [
+                "Paddle"
+            ]
+        },
+        {
             "filename": "SVG/.Variations/Philips alt.svg",
             "category": "2. Variations & Alts",
             "issuer": [
@@ -1776,6 +1784,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Bitwarden"
+            ]
+        },
+        {
+            "filename": "SVG/Black Desert.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Black Desert"
             ]
         },
         {
@@ -3977,6 +3992,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Packagist"
+            ]
+        },
+        {
+            "filename": "SVG/Paddle.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Paddle"
             ]
         },
         {
