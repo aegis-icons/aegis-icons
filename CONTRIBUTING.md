@@ -334,7 +334,7 @@ Next, do SVG compression & cleanup.
 - Version label number increases for outdated icons when new versions of the primary icon are released (`v3`, `v4`, `v5`, `v6` etc.).
 - Label number is also added / updated on the Illustrator file's artboard (*shortcut:* <kbd>Shift</kbd>+<kbd>O</kbd>).
 - Outdated versions are moved to self titled directory (`PNG/Outdated/`, `SVG/.Outdated/`).
-- Icons of now dead service should be moved to  [aegis-icons / misc "removed_icons"](https://github.com/aegis-icons/misc/tree/main/removed_icons) directory just as it is.
+- Icons of now dead service (or didn't have 2FA etc.) should be moved to [*aegis-icons / misc* "removed_icons"](https://github.com/aegis-icons/misc/tree/main/removed_icons) directory just as it is.
   - Also add info to the directory's README on why icon was removed.
 
 #### About PNGs
