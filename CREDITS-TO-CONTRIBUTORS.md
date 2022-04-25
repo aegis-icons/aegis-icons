@@ -20,6 +20,7 @@ These are people who has contributed our project with commits or sending icon su
   - For these icons: *SpaceHey* ([#386](https://github.com/aegis-icons/aegis-icons/issues/386)), *bunny.net* ([#388](https://github.com/aegis-icons/aegis-icons/issues/388)), *Mailgun* ([#389](https://github.com/aegis-icons/aegis-icons/issues/389)).
 - **[antun3s](https://github.com/antun3s)** (Bruno Antunes)
   - For *No-IP* icon ([#550](https://github.com/aegis-icons/aegis-icons/pull/550)).
+  - For updating *T-Mobile* icon ([#558](https://github.com/aegis-icons/aegis-icons/pull/558)).
 - **[bartlibert](https://github.com/AnTheMaker)** (Bart Libert)
   - For these icons: *STACK* ([#397](https://github.com/aegis-icons/aegis-icons/pull/397)), *CSAM* ([#398](https://github.com/aegis-icons/aegis-icons/pull/398)), *DigiConnect* ([#399](https://github.com/aegis-icons/aegis-icons/pull/399)), *Smartschool* ([#400](https://github.com/aegis-icons/aegis-icons/pull/400)), *Directus* ([#401](https://github.com/aegis-icons/aegis-icons/pull/401)).
 - **[CampinCarl](https://github.com/CampinCarl)** (Michael Alden)
