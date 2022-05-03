@@ -21,7 +21,7 @@ body:
       value: |
         Remember to add *https://* (or *http://*) to start of the URL.
 
-        - :heavy_exclamation_mark: **Don't add Play Store link or other app store links**, unless requested brand doesn't have website.
+        - :warning: **Don't add Play Store link or other app store links**, unless requested brand doesn't have website.
   - type: dropdown
     id: update-reason
     attributes:
