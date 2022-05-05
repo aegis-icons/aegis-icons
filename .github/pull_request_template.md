@@ -1,6 +1,6 @@
 <!--
 🔔 If you're SUBMITTING ICON, read this PR template carefully and follow the instructions!
-     - But If your pull request DOESN'T relate to icon submissions, you can ignore all of this and make PR from scratch.
+     - But if your pull request DOESN'T relate to icon submissions, you can ignore all of this and make PR from scratch.
 
 ===== PR TITLE RECOMMENDATIONS =====
 > If icon with logo ➜
@@ -42,14 +42,8 @@ Fill this part based of this information:
 - Is color taken from the mentioned app / site? (And not from logo)
    - If YES, do either/all of these things:
       - Upload screenshot of the area where you got the color AND give URL of the page (unless it's from app)
+         - How to upload screenshot: https://is.gd/github_attach_files
       - Give the HTML element name (eg. #footer) AND also URL of the page. -->
-      
-**Illustrator files** _(if you have any):_
-
-<!-- ▲▲▲ OPTIONAL, attach .ai files made with Illustrator above this line!
-ℹ️ How to attach: https://is.gd/github_attach_files
-🗜 Zip the .ai files (Github doesn't accept .ai files as is there).
-❌ NO INKSCAPE OR OTHER SOFTWARE FILES. -->
 
 - [ ] I have carefully read and followed CONTRIBUTING document.
 

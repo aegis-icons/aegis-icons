@@ -33,6 +33,7 @@ It's **highly recommended** to also have some knowledge of graphic design and de
   - [About PNGs](#about-pngs)
 - [**Resources**](#resources)
   - [Logos](#logos)
+    - [Google searching tips](#google-searching-tips)
   - [Lists of sites supporting 2FA](#lists-of-sites-supporting-2fa)
   - [Software](#software)
 - [**Maintainer's guide**](#maintainers-guide)
@@ -75,6 +76,7 @@ Before making or requesting an icon for app / site, please check if it fits our 
 :x: These are never accepted to aegis-icons, **no exceptions!**
 
 - Apps / sites **not** having Aegis supported 2FA support.
+  - Also applied when service has discontinued 3rd party 2FA support (only supporting legacy users).
 - Platforms having massive hate speech group following and poor moderation.
   - *Examples (not limited to):* [most of the platforms listed here](https://en.wikipedia.org/wiki/Alt-tech#Platforms).
 - Obvious scams or other suspiciously shady apps / sites.
@@ -135,7 +137,12 @@ When making icons, download and use provided [templates](/_templates).
 - For wider logos, furthest left & right side guides are max size limit.
 - Guides don't necessarily mean that logo's size should be exactly like from *guide a* to *guide b*, it's more often a safe area for logo or suggestion for logo's size.
   - *Examples:* [one](https://raw.githubusercontent.com/aegis-icons/misc/main/screenshots/contributing_003.png), [two](https://raw.githubusercontent.com/aegis-icons/misc/main/screenshots/contributing_004.png), [three](https://raw.githubusercontent.com/aegis-icons/misc/main/screenshots/contributing_005.png), [four](https://raw.githubusercontent.com/aegis-icons/misc/main/screenshots/contributing_006.png).
-- Technically center doesn't always look center in your eyes. You can manually visually center the logo, if necessary.
+- **Technically center doesn't always look center in your eyes.** You can visually center the logo, if necessary.
+  - This can be a hard concept to understand, so here's few articles / resources:
+    - ["The PLAY button is not optical alignment" by Xue Gu](https://medium.com/@erqiudao/the-play-button-is-not-optical-alignment-4cea11bda175) <sup>[[wayback machine](https://web.archive.org/web/20220505201053/https://medium.com/@erqiudao/the-play-button-is-not-optical-alignment-4cea11bda175)]</sup>
+    - ["‘Eyeballing’ or Optical Alignment in Design" by Sergey Vlastiuk](https://medium.com/ringcentral-ux/eyeballing-or-optical-alignment-in-design-4ef5ab2d326f) <sup>[[archive.is](https://archive.ph/6JHdU)]</sup>
+    - ["Optical Adjustment – Logic vs. Designers" by Luke Jones](https://marvelapp.com/blog/optical-adjustment-logic-vs-designers/) <sup>[[archive.is](https://archive.ph/9gd7h)]</sup>
+    - [Visual Center](https://javier.xyz/visual-center/) tool (not always accurate results to human eye).
 - **Compare your creation to other icons**, try to keep logo size visually consistent to other icons.
 
 ### Vectors
@@ -229,19 +236,18 @@ Just change the logo for alternative version.
   - [Cryptocurrency Icons](http://cryptoicons.co/) ([link to SVG directory](https://github.com/spothq/cryptocurrency-icons/tree/master/svg/black), when neither of the icon libraries has icon for cryptocurrency).
 
 ### Save and export
-- If you're using Adobe Illustrator, save the file as AI **and** SVG.
-  - Remember to **rename the artboard** (*shortcut:* <kbd>Shift</kbd>+<kbd>O</kbd>) before saving.
-    - Name artboard based of [filenaming system](#filename) (without filename extension).
-  - If you're using CC version, **export SVG with "Export for Screens"** (*shortcut:* <kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>Alt [⌥ Option]</kbd>+<kbd>E</kbd> or *menu:* <kbd><i>File</i> ➜ <i>Export</i> ➜ <i>Export for Screens...</i></kbd>)
+- If you're using **Adobe Illustrator CC 2017 or newer**, save the file as SVG with *export SVG with "Export for Screens"* option (*shortcut:* <kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>Alt [⌥ Option]</kbd>+<kbd>E</kbd> or *menu:* <kbd><i>File</i> ➜ <i>Export</i> ➜ <i>Export for Screens...</i></kbd>) with [these settings](https://raw.githubusercontent.com/aegis-icons/misc/main/screenshots/contributing_007.png).
+  - **For older Illustrator versions,** [check the other methods mentioned here](https://css-tricks.com/illustrator-to-svg/) <sup>[[wayback machine](https://web.archive.org/web/20220425015517/https://css-tricks.com/illustrator-to-svg/)]</sup>
+  - We also recommend saving it (temporarily) as AI for making possible fix / edit requests faster and easier to do.
 - For other softwares:
   - Before saving final version, remember to **remove the guide strokes!**
-  - **In Affinity Designer,** export file with "SVG (digital - small size)" preset.
-  - **In Inkscape,** save the file as "Optimized SVG". (:warning: Hugely important!)
+  - **In Affinity Designer,** export file with *"SVG (digital - small size)"* preset.
+  - **In Inkscape,** save the file as *"Optimized SVG".* (:warning: Hugely important!)
     - [In the prompt window, use these settings!](https://raw.githubusercontent.com/aegis-icons/misc/main/screenshots/contributing_002.png) (:warning: Equally important!)
-  - **In software that's non-above,** save as "SVG" or "Plain SVG", whichever is the safest available option.
+  - **In software that's non-above,** save as *"SVG"* or *"Plain SVG",* whichever is the safest available option.
 - :x: Don't make PNG files! PNG files are legacy content ([with some exceptions](#about-pngs)).
-- Read info about naming at [filename](#filename) section.
-- If you're submitting pull request, read also [directories](#directories) section.
+- Read info about naming at the [filename](#filename) section.
+- If you're submitting pull request, read also the [directories](#directories) section.
 
 Next, do SVG compression & cleanup.
 
@@ -259,7 +265,7 @@ Next, do SVG compression & cleanup.
   - Just tick "[Prettify markup](https://raw.githubusercontent.com/aegis-icons/misc/main/screenshots/contributing_001.png)" before downloading the compressed SVG.
   - **Don't make other changes to settings.**
 
-:warning: After SVGO or SVGOMG step, check / **manually edit** with text editor (Notepad, TextEdit, Vim etc.) that **SVG is correctly formatted for submission:**
+:warning: After SVGO or SVGOMG step, check / **manually edit** with text / code editor (Notepad, TextEdit, Vim etc.) that **SVG is correctly formatted for submission:**
 
 ```xml
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
@@ -277,23 +283,13 @@ Next, do SVG compression & cleanup.
 
 :mag: **Test the SVG on web browser** that it still works after edits! (drag-and-drop SVG to tab bar or *shortcut:* <kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>O</kbd>).
 
-> :broom: *[Example SVG diff of manual cleanup with notes](https://github.com/aegis-icons/misc/commit/c0128f61f0d2b88d5953881699955a4a17477e47?diff=split).*
+> :broom: *[Example SVG diff of manual cleanup with notes](https://github.com/aegis-icons/misc/commit/c0128f61f0d2b88d5953881699955a4a17477e47?diff=split#diff-d73847e258325105edc35b589c2931065be27f7e03227f24345e50f61a58e6da).*
 
 ### Submit to repository
 - Submit your icon for review by [opening a new issue](../../issues/new/choose) (select "Icon submission") and add your file(s) / info.
 - Alternately, you can fork this project (only recommended for those who know how to use git).
 
 ## Technical
-<details>
-<summary><i>Technical details about SVG / AI files, non-important info</i> (click to reveal)</summary>
-
-- Master source file is AI or SVG format.
-- AI template's color mode is RGB color.
-- Uses alpha channel.
-- Image canvas: `1024 x 1024 px`.
-- Has circle element, spanning 100% of image canvas.
-- Guide space: maximum width is `768 px` and maximum height is `512 px`.
-</details>
 
 ### Directories
 - Non-variation primary icons are added to root of `SVG/` folder.
@@ -337,7 +333,7 @@ Next, do SVG compression & cleanup.
 - Icons of now dead service (or didn't have 2FA etc.) should be moved to [*aegis-icons / misc* "removed_icons"](https://github.com/aegis-icons/misc/tree/main/removed_icons) directory just as it is.
   - Also add info to the directory's README on why icon was removed.
 
-#### About PNGs
+### About PNGs
 As of 2021-07-25, aegis-icons doesn't actively make PNG icons anymore. Instead PNGs are only made when someone notices rendering problems with SVG on Aegis.
 
 PNGs are only made by maintainers to keep files & compressions consistent. [List of SVG icons with known rendering issues are available here](https://github.com/aegis-icons/aegis-icons/blob/master/PNG/README.md).
@@ -360,7 +356,8 @@ These are good resources for finding logos in vector format, when no official br
 
 More resources at [LogoSearch's "Alternative Logo Sources"](https://logosear.ch/alternatives/) list.
 
-*Google searching tips:* 
+#### Google searching tips
+- `logo site:offical-site-for-app-or-site.com`
 - `site:offical-site-for-app-or-site.com filetype:pdf` (you can rip vectors from PDF, really often logos in these PDFs are vector).
 - `[app / site name] svg` or `[app / site name] vector`.
 
