@@ -55,7 +55,7 @@ body:
             - `https://unofficial-vector-logo-resource.com/exact-page-with-logo-resource`
         - Short info of how did you get the logo
           - For site embedded vectors, eg: `Extracted logo with SVG Gobbler from https://official-domain-of-the-app-or-site.com/exact-page`
-          - For [raster image traced vectors](https://en.wikipedia.org/wiki/Image_tracing), eg: `Image traced of https://example.com/logo.jpg with Vectorizer.io`
+          - For [image traced vectors](https://en.wikipedia.org/wiki/Image_tracing), eg: `Image traced of https://example.com/logo.jpg with Vectorizer.io`
         - *If it's generic icon:*
           - `[Icon name] from Unicons / Feather / Lucide / Cryptocurrency Icons`
         
@@ -85,7 +85,7 @@ body:
   - type: markdown
     attributes:
       value: |        
-        First, click the text field above and then [upload](https://docs.github.com/en/github/writing-on-github/working-with-advanced-formatting/attaching-files) **SVGs / AIs inside of ZIP file** (Github doesn't accept AI files as is and even though SVG to Markdown upload is possible, [there's still some issues](https://github.com/github/feedback/discussions/11053)).
+        First, click the text field above and then [upload](https://docs.github.com/en/github/writing-on-github/working-with-advanced-formatting/attaching-files) **SVGs inside of ZIP file** (even though SVG to Markdown upload is now possible, [there's still some issues with it](https://github.com/github/feedback/discussions/11053)).
   - type: textarea
     id: anything-else
     attributes:
