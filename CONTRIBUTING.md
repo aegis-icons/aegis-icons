@@ -238,10 +238,11 @@ Just change the logo for alternative version.
 ### Save and export
 - If you're using **Adobe Illustrator CC 2017 or newer**, save the file as SVG with *"Export for Screens"* option (*shortcut:* <kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>Alt [⌥ Option]</kbd>+<kbd>E</kbd> or *menu:* <kbd><i>File</i> ➜ <i>Export</i> ➜ <i>Export for Screens...</i></kbd>) with [these settings](https://raw.githubusercontent.com/aegis-icons/misc/main/screenshots/contributing_007.png).
   - **For older Illustrator versions,** [check the other methods mentioned here](https://css-tricks.com/illustrator-to-svg/) <sup>[[wayback machine](https://web.archive.org/web/20220425015517/https://css-tricks.com/illustrator-to-svg/)]</sup>
-  - We also recommend saving it (temporarily) as AI for making possible fix / edit requests faster and easier to do.
+  - We also recommend saving it (temporarily) to `ai` file format for making edit requests faster and easier to do.
 - For other softwares:
   - Before saving final version, remember to **remove the guide strokes!**
   - **In Affinity Designer,** export file with *"SVG (digital - small size)"* preset.
+    - We also recommend saving it (temporarily) to `afdesign` file format for making edit requests faster and easier to do.
   - **In Inkscape,** save the file as *"Optimized SVG".* (:warning: Hugely important!)
     - [In the prompt window, use these settings!](https://raw.githubusercontent.com/aegis-icons/misc/main/screenshots/contributing_002.png) (:warning: Equally important!)
   - **In software that's non-above,** save as *"SVG"* or *"Plain SVG",* whichever is the safest available option.
