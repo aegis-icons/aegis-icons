@@ -76,7 +76,7 @@ Before making or requesting an icon for app / site, please check if it fits our 
 :x: These are never accepted to aegis-icons, **no exceptions!**
 
 - Apps / sites **not** having Aegis supported 2FA support.
-  - Also applied when service has discontinued 3rd party 2FA support (only supporting legacy users).
+  - Also when service has discontinued 3rd party 2FA support (only supporting legacy users).
 - Platforms having massive hate speech group following and poor moderation.
   - *Examples (not limited to):* [most of the platforms listed here](https://en.wikipedia.org/wiki/Alt-tech#Platforms).
 - Obvious scams or other suspiciously shady apps / sites.
@@ -104,7 +104,7 @@ Search through the logo resources to find a vector-based image (SVG, AI, EPS, PD
        - If right-clicking the image does not have an option for <kbd><i>Save image as...</i></kbd>, try using <kbd><i>Inspect</i></kbd> at the bottom of the right-click menu. This opens the developer tools which can reveal hidden URLs.
           - Eg. at [Codeberg](https://codeberg.org/), inspecting the logo in the left side of the navigation or logo at center reveals the location of SVG. Right-click and "open in new tab" to see the SVG file.
           - Sometimes SVG is embedded as inline. Means that instead of linking to external file, whole SVG file code is added to the HTML site code (see [SVG code example](https://gist.github.com/krisu5/677a8a3478331498929a11b900741aa2)). In that case, copy the SVG code completely from HTML (website embedded SVG starts with `<svg` & so forth and ends with `</svg>`), open your refer text editor and save copypasted text as `filename.svg`. You can test if the file works by opening in it into web browser (drag-and-drop SVG to tab bar or *shortcut:* <kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>O</kbd>).
-    2. Right-click the website and select *View page source*, then press <kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>F</kbd> to open the search tool and type `SVG` to look for possible SVG vector files. Web inspector is also useful and better tool for some users or cases (press <kbd>F12</kbd> on the website, go to "Inspector" / "Elements" tab, press <kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>F</kbd> to search).
+    2. Right-click the website and select <kbd><i>View page source</i></kbd>, then press <kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>F</kbd> to open the search tool and type `SVG` to look for possible SVG vector files. Web inspector is also useful and better tool for some users or cases (press <kbd>F12</kbd> on the website, go to "Inspector" / "Elements" tab, press <kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>F</kbd> to search).
        - Eg. [You Need A Budget](https://www.youneedabudget.com) reveals the hidden SVG resource in HTML metadata section `https://www-assets.youneedabudget.com/wp-content/themes/dupatta/dist/images/safari-pinned-tab_[alphanumerical-string].svg` which can be copy-paste into the browser and save (<kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>S</kbd>).
 - If everything has failed so far, then **check [logo resources](#logos) section.**
   - Remember though, logo has to be latest one that company uses.
