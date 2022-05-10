@@ -35,6 +35,7 @@ It's **highly recommended** to also have some knowledge of graphic design and de
   - [Logos](#logos)
     - [Google searching tips](#google-searching-tips)
   - [Lists of sites supporting 2FA](#lists-of-sites-supporting-2fa)
+    - [Google search query for double-checking 2FA support](#google-search-query-for-double-checking-2fa-support)
   - [Software](#software)
 - [**Maintainer's guide**](#maintainers-guide)
 - [**Issue guidelines**](#issue-guidelines)
@@ -183,43 +184,45 @@ When making icons, download and use provided [templates](/_templates).
 - :memo: **Note for Affinity Designer users:** change "fill mode" of the logo vector and its parts from *"Winding (Non-Zero)"* **into** *"Alternative (Even-Odd)"* (*menu:* <kbd><i>Layer</i> ➜ <i>Fill Mode</i></kbd>). Why? Because it creates CSS rules we don't want for our SVGs and want everything to contain by the path.
 
 ### Colors
-- **Never use white as background color (a.k.a. bg)**, white is always preserved for logo / fg.
+- **Never use white as background** (abbreviation: *BG*), white is always preserved for logo (a.k.a. *foreground*, short for *FG*).
 - Don't pick random colors, unless there's absolutely no other options.
 - Don't use gradients, use solid colors.
 - Keep everything at 100% opacity, no blending etc.
-- Logo (a.k.a. foreground, fg) should use white (`#FFFFFF`).
+- **Logo / FG should always use white** (`#FFFFFF`).
   - *Exceptions:* `fg.var` & `fg.bg.var` icons.
 - If you find brand guideline that has documented brand colors ([example](https://brave.com/brave-branding-assets/) <sup>[[wayback machine](https://web.archive.org/web/20200606124434/https://brave.com/brave-branding-assets/)]</sup>), then go with that. For background color, use primary brand color that has specifically said on the guideline or based on what color is used most.
 - If there's no guidelines and logo only has one color, use logo color as icon background.
   - For multi-color logos, pick the best looking or most used color. 
     - **Tip:** In Illustrator, if logo is using gradient, use [this method](http://miraimages.com/illustrator-gradient-colors-to-swatches/) <sup>[[wayback machine](https://web.archive.org/web/20200606124113/http://miraimages.com/illustrator-gradient-colors-to-swatches/)]</sup> to extract all the colors in the gradient to the swatches.
-- If icon you're making is using dark background, you **have to make** `bg.var` icon version as well.
-  - Or opposite, if background is too bright for white logo, then make `fg.var` icon version.
-  - Check with ["BG colors to avoid" SVG](https://github.com/aegis-icons/aegis-icons/blob/master/_templates/z_bg-colors_to_avoid.svg) if needed.
+- **If icon you're making is using dark background, you have to make** `bg.var` **icon version as well.**
+  - Or opposite, **if background is too bright for white logo, then make** `fg.var` **icon version.**
+  - Check with ["BG colors to avoid" SVG](https://github.com/aegis-icons/aegis-icons/blob/master/_templates/z_bg-colors_to_avoid.svg) if `bg.var` version is needed.
 - For generic icons, use background color `#607D8B` and white foreground.
-  - Templates `ai_template_generic.ait` & `svg_template_generic.svg` has already correct background color set.
+  - Templates `ai_template_generic.ait` & `svg_template_generic.svg` already has correct background color set.
   
 ### bg.var, fg.var & fg.bg.var icons
-`var` means variation.
+> `var` is abbreviation of *variation*.
 
-- `bg.var` icons are for dark / AMOLED themes. These are made when primary icon has dark background that blends in when using the darker theme.
-  - Examples: [primary Steam icon](https://user-images.githubusercontent.com/3540275/85153557-042e4580-b25f-11ea-85ff-7cb883f977d4.png), [Steam `bg.var` icon](https://user-images.githubusercontent.com/3540275/85153530-fbd60a80-b25e-11ea-9197-d7400eeec74f.png).
-  - Use brighter alternative background.
+- `bg.var` icons are for dark / AMOLED themes. These are made when **primary icon has dark background that blends in when using the darker theme.**
+  - **Examples:** [primary Steam icon](https://user-images.githubusercontent.com/3540275/85153557-042e4580-b25f-11ea-85ff-7cb883f977d4.png), [Steam `bg.var` icon](https://user-images.githubusercontent.com/3540275/85153530-fbd60a80-b25e-11ea-9197-d7400eeec74f.png).
+  - *Use brighter alternative background.*
   - If there's no brand guidelines for alternative colors, check the website or app to see what other colors there might be.
+  - Check with ["BG colors to avoid" SVG](https://github.com/aegis-icons/aegis-icons/blob/master/_templates/z_bg-colors_to_avoid.svg) if `bg.var` version is needed.
 
-- `fg.var` icons are made when brand color is bright and hard to see for white logo.
-  - Examples: [primary Snapchat icon](https://user-images.githubusercontent.com/3540275/83945146-6162d980-a811-11ea-8910-9e93ff65e804.png), [Snapchat `fg.var` icon](https://user-images.githubusercontent.com/3540275/151216951-ed34ea5e-d443-4e72-864e-56595e9a32c5.png). 
-  - Use black (`#000000`) as foreground color.  
+- `fg.var` icons are made when **primary icon's BG color is too bright and hard to see with white logo.**
+  - **Examples:** [primary Snapchat icon](https://user-images.githubusercontent.com/3540275/83945146-6162d980-a811-11ea-8910-9e93ff65e804.png), [Snapchat `fg.var` icon](https://user-images.githubusercontent.com/3540275/151216951-ed34ea5e-d443-4e72-864e-56595e9a32c5.png). 
+  - *Use black* (`#000000`) *as foreground color.* 
   
-- `fg.bg.var` is combination of both variations, for edge cases when `bg.var` background color is too bright and makes white logo hard to see.
-  - **Only make these if absolutely necessary!** Find better BG color for `bg.var` if possible to avoid making these.
-  - Examples: [Lichess `bg.var` icon](https://user-images.githubusercontent.com/3540275/151090580-9b4a3bf2-7221-493c-b71c-597f52a0666b.png), [Lichess `fg.bg.var` icon](https://user-images.githubusercontent.com/3540275/151090581-0898b5e6-7df7-47e7-978e-3466a21a52b0.png)
-  - Use black (`#000000`) as foreground color for `bg.var` version.
+- `fg.bg.var` is combination of both variations, for edge cases **when** `bg.var` **BG color is too bright and makes white logo hard to see.**
+  - :warning: **Only make these if absolutely necessary!** Find better BG color for `bg.var` if possible to avoid making these.
+    - Check with ["BG colors to avoid" SVG](https://github.com/aegis-icons/aegis-icons/blob/master/_templates/z_bg-colors_to_avoid.svg) if `fg.bg.var` version is needed.
+  - **Examples:** [Lichess `bg.var` icon](https://user-images.githubusercontent.com/3540275/151090580-9b4a3bf2-7221-493c-b71c-597f52a0666b.png), [Lichess `fg.bg.var` icon](https://user-images.githubusercontent.com/3540275/151090581-0898b5e6-7df7-47e7-978e-3466a21a52b0.png)
+  - *Use black* (`#000000`) *as foreground color for* `bg.var` *version.*
   
 ### Alternative icons
 "Alternative" – in this case – means icons for brands that provide alternative logos of their brands.
 
-> *Examples:* [primary IVPN icon](https://user-images.githubusercontent.com/3540275/85149274-c549c100-b259-11ea-8477-6164b679c673.png), [IVPN `alt` icon](https://user-images.githubusercontent.com/3540275/85149294-ca0e7500-b259-11ea-9655-b867c21ba1b6.png).
+- **Examples:** [primary IVPN icon](https://user-images.githubusercontent.com/3540275/85149274-c549c100-b259-11ea-8477-6164b679c673.png), [IVPN `alt` icon](https://user-images.githubusercontent.com/3540275/85149294-ca0e7500-b259-11ea-9655-b867c21ba1b6.png).
 
 Just change the logo for alternative version.
 
@@ -284,7 +287,7 @@ Next, do SVG compression & cleanup.
 
 :mag: **Test the SVG on web browser** that it still works after edits! (drag-and-drop SVG to tab bar or *shortcut:* <kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>O</kbd>).
 
-> :broom: *[Example SVG diff of manual cleanup with notes](https://github.com/aegis-icons/misc/commit/c0128f61f0d2b88d5953881699955a4a17477e47?diff=split#diff-d73847e258325105edc35b589c2931065be27f7e03227f24345e50f61a58e6da).*
+> :broom: *[Example SVG diff of manual cleanup with notes](https://github.com/aegis-icons/misc/commit/c0128f61f0d2b88d5953881699955a4a17477e47?diff=split).*
 
 ### Submit to repository
 - Submit your icon for review by [opening a new issue](../../issues/new/choose) (select "Icon submission") and add your file(s) / info.
@@ -306,11 +309,11 @@ Next, do SVG compression & cleanup.
     - *Examples:* `Adobe.svg`, `Best Buy.svg`, `FACEIT.svg`, `itch.io.svg`
   - Icon variations with alternate logo:
     - `[Primary icon name] alt.<ext>`
-    - *Examples:* `AppFolio alt.svg`
+    - *Example:* `IVPN alt.svg`
   - Icon variations with black foreground or different background color:
     - `[Primary icon name] bg.var.<ext>`
     - `[Primary icon name] fg.var.<ext>`
-    - *Examples:* `Snapchat fg.var.svg`, `Squarespace bg.var.svg`
+    - *Examples:* `Squarespace bg.var.svg`, `Snapchat fg.var.svg`
   - Icon variations with black foreground **and** different background color:
     - `[Primary icon name] fg.bg.var.<ext>`
     - *Example:* `Lichess fg.bg.var.svg`
@@ -328,8 +331,7 @@ Next, do SVG compression & cleanup.
   - Logos with only **barely noticable** brand related changes with same brand color ([example by T-Mobile](https://user-images.githubusercontent.com/3540275/160298574-c28cfe2a-3393-44b0-9fd1-63a4e6ade214.png)), doesn't need new icon version.
 - Icon files that are outdated for the first time, `v1` is added to end of the filename.
   - Examples: `Codeberg v1.svg`.
-- Version label number increases for outdated icons when new versions of the primary icon are released (`v3`, `v4`, `v5`, `v6` etc.).
-- Label number is also added / updated on the Illustrator file's artboard (*shortcut:* <kbd>Shift</kbd>+<kbd>O</kbd>).
+- Version label number increases for outdated icons when new versions of the primary icon are released (`v2`, `v3`, `v4`, `v5` etc.).
 - Outdated versions are moved to self titled directory (`PNG/Outdated/`, `SVG/.Outdated/`).
 - Icons of now dead service (or didn't have 2FA etc.) should be moved to [*aegis-icons / misc* "removed_icons"](https://github.com/aegis-icons/misc/tree/main/removed_icons) directory just as it is.
   - Also add info to the directory's README on why icon was removed.
@@ -343,7 +345,7 @@ PNGs are only made by maintainers to keep files & compressions consistent. [List
 Resources marked with star (:star:) are recommended / most used by the maintainers.
 
 ### Logos
-These are good resources for finding logos in vector format, when no official brand kit / vector logos are available.
+Resources for finding logos in vector format, when no official brand kit / vector logos are available.
 
 **Remember to always double check if logo provided by these resources is the latest one company uses!**
 
@@ -357,16 +359,21 @@ These are good resources for finding logos in vector format, when no official br
 
 More resources at [LogoSearch's "Alternative Logo Sources"](https://logosear.ch/alternatives/) list.
 
-#### Google searching tips
+#### *Google searching tips*
 - `logo site:offical-site-for-app-or-site.com`
-- `site:offical-site-for-app-or-site.com filetype:pdf` (you can rip vectors from PDF, really often logos in these PDFs are vector).
-- `[app / site name] svg` or `[app / site name] vector`.
+- `filetype:pdf site:offical-site-for-app-or-site.com` (you can rip vectors from PDF, really often logos in these PDFs are vector).
+- `"app-or-site-name-here" svg` or `"app-or-site-name-here" vector`.
 
 ### Lists of sites supporting 2FA
 Need ideas for icons? These list apps / websites that support 2FA (and what kind of format too).
 
+- [2FA Directory](https://2fa.directory/) (*[Github commits](https://github.com/2factorauth/twofactorauth/commits/master)*) :star:
 - [Authy - Guides](https://authy.com/guides/) :star:
-- [Two Factor Auth List](https://2fa.directory/) ([Github commits](https://github.com/2factorauth/twofactorauth/commits/master)) :star:
+
+#### *Google search query for double-checking 2FA support*
+```
+"app-or-site-name-here" AND 2fa OR mfa OR factor authentication OR step verification
+```
 
 ### Software
 Looking for software to start make icons? Here's some of the well known ones.

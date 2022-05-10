@@ -1201,7 +1201,8 @@
             "filename": "SVG/.Variations/Ubisoft bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
-                "Ubisoft"
+                "Ubisoft",
+                "Uplay"
             ]
         },
         {
@@ -5095,7 +5096,8 @@
             "filename": "SVG/Ubisoft.svg",
             "category": "1. Apps & Sites",
             "issuer": [
-                "Ubisoft"
+                "Ubisoft",
+                "Uplay"
             ]
         },
         {
