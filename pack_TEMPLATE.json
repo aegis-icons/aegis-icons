@@ -1430,6 +1430,14 @@
             ]
         },
         {
+            "filename": "SVG/Alibaba Cloud.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Alibaba Cloud",
+                "Aliyun"
+            ]
+        },
+        {
             "filename": "SVG/All-Inkl.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3815,6 +3823,13 @@
             ]
         },
         {
+            "filename": "SVG/Notesnook.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Notesnook"
+            ]
+        },
+        {
             "filename": "SVG/Nuki.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3832,7 +3847,8 @@
             "filename": "SVG/Nutstore.svg",
             "category": "1. Apps & Sites",
             "issuer": [
-                "Nutstore"
+                "Nutstore",
+                "Jianguoyun"
             ]
         },
         {
@@ -4144,6 +4160,13 @@
             ]
         },
         {
+            "filename": "SVG/Plutus.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Plutus"
+            ]
+        },
+        { 
             "filename": "SVG/Poloniex.svg",
             "category": "1. Apps & Sites",
             "issuer": [
