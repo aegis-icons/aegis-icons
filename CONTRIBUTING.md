@@ -239,6 +239,7 @@ Just change the logo for alternative version.
   - [Cryptocurrency Icons](http://cryptoicons.co/) ([link to SVG directory](https://github.com/spothq/cryptocurrency-icons/tree/master/svg/black), when neither of the icon libraries has icon for cryptocurrency).
 
 ### Save and export
+- :information_source: Read the info about naming at the [filename](#filename) section.
 - If you're using **Adobe Illustrator CC 2017 or newer**, save the file as SVG with *"Export for Screens"* option (*shortcut:* <kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>Alt [⌥ Option]</kbd>+<kbd>E</kbd> or *menu:* <kbd><i>File</i> ➜ <i>Export</i> ➜ <i>Export for Screens...</i></kbd>) with [these settings](https://raw.githubusercontent.com/aegis-icons/misc/main/screenshots/contributing_007.png).
   - **For older Illustrator versions,** [check the other methods mentioned here](https://css-tricks.com/illustrator-to-svg/) <sup>[[wayback machine](https://web.archive.org/web/20220425015517/https://css-tricks.com/illustrator-to-svg/)]</sup>
   - We also recommend saving it (temporarily) to `ai` file format for making edit requests faster and easier to do.
@@ -250,7 +251,6 @@ Just change the logo for alternative version.
     - [In the prompt window, use these settings!](https://raw.githubusercontent.com/aegis-icons/misc/main/screenshots/contributing_002.png) (:warning: Equally important!)
   - **In software that's non-above,** save as *"SVG"* or *"Plain SVG",* whichever is the safest available option.
 - :x: Don't make PNG files! PNG files are legacy content ([with some exceptions](#about-pngs)).
-- Read info about naming at the [filename](#filename) section.
 - If you're submitting pull request, read also the [directories](#directories) section.
 
 Next, do SVG compression & cleanup.
@@ -304,6 +304,8 @@ Next, do SVG compression & cleanup.
 ### Filename
 :warning: When naming brand based icon(s), check how brand capitalised and spell the name from their app / website.
 
+:information_source: **Filename character limitations:** only use [ISO basic Latin alphabet letters](https://en.wikipedia.org/wiki/ISO_basic_Latin_alphabet), numbers and safe ASCII characters ([list of illegal characters](https://stackoverflow.com/a/31976060)). Properly spelled names are added to the JSON files.
+
   - Primary icon:
     - `[Company / product / app / site name].<ext>`
     - *Examples:* `Adobe.svg`, `Best Buy.svg`, `FACEIT.svg`, `itch.io.svg`
@@ -326,14 +328,14 @@ Next, do SVG compression & cleanup.
     - *Name as what the icon symbolizes with big capital letter.*
     - *Example:* `Cloud.svg`
     
-#### Version naming and organizing old files
+#### _Version naming and organizing old files_
 - New versions of icons are only made when it's major change (new logo or brand color).
   - Logos with only **barely noticable** brand related changes with same brand color ([example by T-Mobile](https://user-images.githubusercontent.com/3540275/160298574-c28cfe2a-3393-44b0-9fd1-63a4e6ade214.png)), doesn't need new icon version.
 - Icon files that are outdated for the first time, `v1` is added to end of the filename.
   - Examples: `Codeberg v1.svg`.
 - Version label number increases for outdated icons when new versions of the primary icon are released (`v2`, `v3`, `v4`, `v5` etc.).
-- Outdated versions are moved to self titled directory (`PNG/Outdated/`, `SVG/.Outdated/`).
-- Icons of now dead service (or didn't have 2FA etc.) should be moved to [*aegis-icons / misc* "removed_icons"](https://github.com/aegis-icons/misc/tree/main/removed_icons) directory just as it is.
+- Outdated versions are moved to self titled directory (`SVG/.Outdated/`).
+- Icons of now dead service (or didn't have 2FA etc.) should be moved to [*aegis-icons / misc*'s "removed_icons"](https://github.com/aegis-icons/misc/tree/main/removed_icons) directory just as it is.
   - Also add info to the directory's README on why icon was removed.
 
 ### About PNGs
@@ -359,7 +361,7 @@ Resources for finding logos in vector format, when no official brand kit / vecto
 
 More resources at [LogoSearch's "Alternative Logo Sources"](https://logosear.ch/alternatives/) list.
 
-#### *Google searching tips*
+#### _Google searching tips_
 - `logo site:offical-site-for-app-or-site.com`
 - `filetype:pdf site:offical-site-for-app-or-site.com` (you can rip vectors from PDF, really often logos in these PDFs are vector).
 - `"app-or-site-name-here" svg` or `"app-or-site-name-here" vector`.
@@ -370,7 +372,7 @@ Need ideas for icons? These list apps / websites that support 2FA (and what kind
 - [2FA Directory](https://2fa.directory/) (*[Github commits](https://github.com/2factorauth/twofactorauth/commits/master)*) :star:
 - [Authy - Guides](https://authy.com/guides/) :star:
 
-#### *Google search query for double-checking 2FA support*
+#### _Google search query for double-checking 2FA support_
 ```
 "app-or-site-name-here" AND 2fa OR mfa OR factor authentication OR step verification
 ```
