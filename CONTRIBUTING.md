@@ -304,7 +304,7 @@ Next, do SVG compression & cleanup.
 ### Filename
 :warning: When naming brand based icon(s), check how brand capitalised and spell the name from their app / website.
 
-:information_source: **Filename character limitations:** only use [ISO basic Latin alphabet letters](https://en.wikipedia.org/wiki/ISO_basic_Latin_alphabet), numbers and safe ASCII characters ([list of illegal characters](https://stackoverflow.com/a/31976060)). Properly spelled names are added to the JSON files.
+:information_source: **Filename character limitations:** only use [ISO basic Latin alphabet letters](https://en.wikipedia.org/wiki/ISO_basic_Latin_alphabet), numbers, spaces and safe ASCII characters ([list of illegal characters](https://stackoverflow.com/a/31976060)). Properly spelled names are added to the JSON files.
 
   - Primary icon:
     - `[Company / product / app / site name].<ext>`
