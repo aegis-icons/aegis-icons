@@ -105,11 +105,11 @@ Search through the logo resources to find a vector-based image (SVG, AI, EPS, PD
        - If right-clicking the image does not have an option for <kbd><i>Save image as...</i></kbd>, try using <kbd><i>Inspect</i></kbd> at the bottom of the right-click menu. This opens the developer tools which can reveal hidden URLs.
           - Eg. at [Codeberg](https://codeberg.org/), inspecting the logo in the left side of the navigation or logo at center reveals the location of SVG. Right-click and "open in new tab" to see the SVG file.
           - Sometimes SVG is embedded as inline. Means that instead of linking to external file, whole SVG file code is added to the HTML site code (see [SVG code example](https://gist.github.com/krisu5/677a8a3478331498929a11b900741aa2)). In that case, copy the SVG code completely from HTML (website embedded SVG starts with `<svg` & so forth and ends with `</svg>`), open your refer text editor and save copypasted text as `filename.svg`. You can test if the file works by opening in it into web browser (drag-and-drop SVG to tab bar or *shortcut:* <kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>O</kbd>).
-    2. Right-click the website and select <kbd><i>View page source</i></kbd>, then press <kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>F</kbd> to open the search tool and type `SVG` to look for possible SVG vector files. Web inspector is also useful and better tool for some users or cases (press <kbd>F12</kbd> on the website, go to "Inspector" / "Elements" tab, press <kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>F</kbd> to search).
-       - Eg. [You Need A Budget](https://www.youneedabudget.com) reveals the hidden SVG resource in HTML metadata section `https://www-assets.youneedabudget.com/wp-content/themes/dupatta/dist/images/safari-pinned-tab_[alphanumerical-string].svg` which can be copy-paste into the browser and save (<kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>S</kbd>).
+    2. Right-click the website and select <kbd><i>View page source</i></kbd>, then press <kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>F</kbd> to open the search tool and type `SVG` to look for possible SVG vector files. Web inspector is also useful and better tool for some users / use cases (press <kbd>F12</kbd> on the website, go to "Inspector" / "Elements" tab, then press <kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>F</kbd> to search).
+       - Eg. [You Need A Budget](https://www.youneedabudget.com) reveals the hidden SVG resource in HTML metadata section (`https://www-assets.youneedabudget.com/wp-content/themes/dupatta/dist/images/safari-pinned-tab_[alphanumerical-string].svg`) which can be copy-paste into the browser and save (<kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>S</kbd>).
 - If everything has failed so far, then **check [logo resources](#logos) section.**
   - Remember though, logo has to be latest one that company uses.
-- As last resort, you can **try [image tracing](https://en.wikipedia.org/wiki/Image_tracing)** with raster images (JPG, PNG etc). Rule of thumb with image tracing is using image that's high resolution, not many colors and doesn't have any [artifacts](https://simple.wikipedia.org/wiki/Compression_artifact) (if image does have artifacts, you can try [Pix Fix](https://pixfix.com/) tool to remove them).
+- As last resort, you can **try [image tracing](https://en.wikipedia.org/wiki/Image_tracing) with raster images** (JPG, PNG etc). Rule of thumb with image tracing is using image that's high resolution, not many colors and doesn't have any [artifacts](https://simple.wikipedia.org/wiki/Compression_artifact) (if image does have artifacts, you can try [Pix Fix](https://pixfix.com/) tool to remove them).
   - [Vectorizer.io](https://anonym.to/?https://www.vectorizer.io) is great image tracer, but vectors aren't freely downloadable anymore. Generating vectors without account / freely is still possible.
     - There's loophole to downloads though: use [SVG Gobbler](https://www.svggobbler.com/) after vector was generated.
       - Alternatively: Inspect the output image (<kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>Shift</kbd>+<kbd>C</kbd>) and copy the SVG code from dev tools.
@@ -141,8 +141,8 @@ When making icons, download and use provided [templates](/_templates).
 - **Technically center doesn't always look center in your eyes.** You can visually center the logo, if necessary.
   - This can be a hard concept to understand, so here's few articles / resources:
     - ["The PLAY button is not optical alignment" by Xue Gu](https://medium.com/@erqiudao/the-play-button-is-not-optical-alignment-4cea11bda175) <sup>[[wayback machine](https://web.archive.org/web/20220505201053/https://medium.com/@erqiudao/the-play-button-is-not-optical-alignment-4cea11bda175)]</sup>
-    - ["‘Eyeballing’ or Optical Alignment in Design" by Sergey Vlastiuk](https://medium.com/ringcentral-ux/eyeballing-or-optical-alignment-in-design-4ef5ab2d326f) <sup>[[archive.is](https://archive.ph/6JHdU)]</sup>
-    - ["Optical Adjustment – Logic vs. Designers" by Luke Jones](https://marvelapp.com/blog/optical-adjustment-logic-vs-designers/) <sup>[[archive.is](https://archive.ph/9gd7h)]</sup>
+    - ["‘Eyeballing’ or Optical Alignment in Design" by Sergey Vlastiuk](https://medium.com/ringcentral-ux/eyeballing-or-optical-alignment-in-design-4ef5ab2d326f) <sup>[[archive.today](https://archive.ph/6JHdU)]</sup>
+    - ["Optical Adjustment – Logic vs. Designers" by Luke Jones](https://marvelapp.com/blog/optical-adjustment-logic-vs-designers/) <sup>[[archive.today](https://archive.ph/9gd7h)]</sup>
     - [Visual Center](https://javier.xyz/visual-center/) tool (not always accurate results to human eye).
 - **Compare your creation to other icons**, try to keep logo size visually consistent to other icons.
 
@@ -396,17 +396,17 @@ Looking for software to start make icons? Here's some of the well known ones.
 3. Read the issue template and fill **at least** required parts.
 4. If you have question or miscellaneous suggestion, check [FAQ](FAQ.md) first.
 5. Aegis-icons can reject any icon request for any reason, but most of the requests gets filled. Usually we do provide explanation and possibly alternative option if we reject the request.
-   - **Possible reasons for rejections (among others):** *too complex logo to make as monochrome or viewable in small size* and *site / app not offering Aegis supported 2FA in the first place.*
-   - **[Info about approved and not approved types of apps / sites](#icon-acceptability-criteria)**.
-6. For forums we have decided to make icons based of forum software they use, because those are more universally usable for icons then specific communities. *This is judged case by case*, really popular forums can get their own icons.
-   - Finding out the forum software, we are using tools such as [What CMS](https://whatcms.org) and [W3Techs Site Info](https://w3techs.com/sites).
-7. Be respectful to the maintainers and contributers.
-
-<b>After reading and accepting guidelines, <a href="../../issues/new/choose">you can make new issue</a>.</b>
+   - **Possible reasons for rejections (among others):**
+     - App / site not offering Aegis supported 2FA in the first place.
+     - Forum not popular enough (forum software related icon is the alternative).
+     - No high quality logo resources available.
+     - Too complex logo to make as monochrome or viewable in small size.
+   - **[More info about approved & unapproved types of apps / sites](#icon-acceptability-criteria)**.
+6. Be respectful to the maintainers and contributers.
 
 ## Footnotes
 *Here's all the footnotes:*
 
 [^1]: Article: [Logo, Logomark, Logotype - What's The Difference And What Do You Need?](https://blog.designcrowd.com/article/997/logo-logomark-logotype-whats-the-difference-and-what-do-you-need) <sup>[[wayback machine](https://web.archive.org/web/20200606123728/https://blog.designcrowd.com/article/997/logo-logomark-logotype-whats-the-difference-and-what-do-you-need)]</sup>
 
-[^2]: This color is taken from [Material Design 2014 color system](https://material.io/design/color/the-color-system.html#tools-for-picking-colors) <sup>[[archive.is w/ linked section](https://archive.is/96QQG#77%)]</sup> (Blue Grey, 500).
+[^2]: This color is taken from [Material Design 2014 color system](https://material.io/design/color/the-color-system.html#tools-for-picking-colors) <sup>[[archive.today w/ linked section](https://archive.today/96QQG#77%)]</sup> (Blue Grey, 500).

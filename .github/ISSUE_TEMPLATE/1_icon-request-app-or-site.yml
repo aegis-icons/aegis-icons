@@ -13,7 +13,7 @@ body:
   - type: input
     id: site_app-url
     attributes:
-      label: Homepage URL for the brand / app
+      label: URL for the brand / site / app
       placeholder: Eg. https://example.com
     validations:
       required: true
@@ -22,7 +22,7 @@ body:
       value: |
         Remember to add *https://* (or *http://*) to start of the URL.
 
-        - :warning: **Don't add Play Store link or other app store links**, unless requested brand doesn't have website.
+        - :warning: **Don't add Play Store link or other app store links**, unless requested entity doesn't have any other website.
   - type: input
     id: logo-url
     attributes:
@@ -34,9 +34,8 @@ body:
         **Optional** option to add URL for *press kit* or *logo SVG vector*, preferably from official source ([tips for finding these](https://github.com/aegis-icons/aegis-icons/blob/master/CONTRIBUTING.md#finding-source-images)).
         
         - :x: **Unaccepted resources:** JPG, PNG, GIF, WebP or [any other raster image](https://en.wikipedia.org/wiki/Image_file_format#Raster_formats).
-        - :x: **NO [data URIs](https://en.wikipedia.org/wiki/Data_URI_scheme), SVG code** or anything **that's NOT web URL,** please!
-          - *Forbidden because of long character length.*
-          - Data uri starts with: `data:image/svg+xml;base64,` (and so on)
+        - :x: **NO [data URIs](https://en.wikipedia.org/wiki/Data_URI_scheme), SVG code** or anything **that's NOT web URL!** *(Forbidden because of long character lengths.)*
+          - Data uri starts with: `data:image/svg+xml;` (and so on)
           - SVG code starts with: `<svg` (and so on)
         
         *Adding a optional resource doesn't guarantee that aegis-icons will use it for the icon.*
