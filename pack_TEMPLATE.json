@@ -385,6 +385,13 @@
             ]
         },
         {
+            "filename": "SVG/.Outdated/GitLab v1.svg",
+            "category": "4. Outdated",
+            "issuer": [
+                "GitLab"
+            ]
+        },
+        {
             "filename": "SVG/.Outdated/GoDaddy v1 bg.var.svg",
             "category": "4. Outdated",
             "issuer": [
@@ -515,6 +522,20 @@
             "category": "4. Outdated",
             "issuer": [
                 "Pinterest"
+            ]
+        },
+        {
+            "filename": "SVG/.Outdated/Plex v1 bg.var.svg",
+            "category": "4. Outdated",
+            "issuer": [
+                "Plex"
+            ]
+        },
+        {
+            "filename": "SVG/.Outdated/Plex v1.svg",
+            "category": "4. Outdated",
+            "issuer": [
+                "Plex"
             ]
         },
         {
