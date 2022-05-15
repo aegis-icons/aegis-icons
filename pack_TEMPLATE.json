@@ -777,6 +777,13 @@
             ]
         },
         {
+            "filename": "SVG/.Variations/Bitso bg.var.svg",
+            "category": "2. Variations & Alts",
+            "issuer": [
+                "Bitso"
+            ]
+        },
+        {
             "filename": "SVG/.Variations/Buffer bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
@@ -1086,10 +1093,10 @@
             ]
         },
         {
-            "filename": "SVG/.Variations/Plex bg.var.svg",
+            "filename": "SVG/.Variations/Postmark fg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
-                "Plex"
+                "Postmark"
             ]
         },
         {
@@ -1343,6 +1350,13 @@
             "category": "2. Variations & Alts",
             "issuer": [
                 "niconico"
+            ]
+        },
+        {
+            "filename": "SVG/.Variations/sipgate bg.var.svg",
+            "category": "2. Variations & Alts",
+            "issuer": [
+                "sipgate" 
             ]
         },
         {
@@ -1796,6 +1810,13 @@
             ]
         },
         {
+            "filename": "SVG/Bitso.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Bitso"
+            ]
+        },
+        {
             "filename": "SVG/Bitstamp.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -1874,6 +1895,13 @@
             ]
         },
         {
+            "filename": "SVG/Boomi.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Boomi"
+            ]
+        },
+        { 
             "filename": "SVG/BorgBase.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4216,6 +4244,13 @@
             ]
         },
         {
+            "filename": "SVG/Postmark.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Postmark"
+            ]
+        },
+        {
             "filename": "SVG/Presearch.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -5778,6 +5813,13 @@
             ]
         },
         {
+            "filename": "SVG/sipgate.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "sipgate"
+            ]
+        },
+        {
             "filename": "SVG/sourcehut.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -5796,6 +5838,14 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "viagogo"
+            ]
+        },
+        {
+            "filename": "SVG/woelkli.svg",
+            "category": null,
+            "issuer": [
+                "woelkli",
+                "wölkli"
             ]
         }
     ]
