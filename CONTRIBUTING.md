@@ -74,7 +74,7 @@ Before making or requesting an icon for app / site, please check if it fits our 
   - It's not enough that you tell what the app / site does, we need at least **some** evidence from the web. Otherwise it counts as *"suspiciously shady"*.
 - Ad networks
   - Most of them belongs to *"suspiciously shady"* category, because often these services violate privacy on other users expense (among other things).
-  - *Exception:* ad networks with ethical standpoints (**no** user tracking / data collecting, dark patterns, high malware monitoring etc.)
+  - *Exception:* ad networks with ethical standpoints (limited or no user tracking / data collecting, no dark patterns, high malware monitoring etc.)
 
 # Not approved
 :x: These are never accepted to aegis-icons, **no exceptions!**
