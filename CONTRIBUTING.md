@@ -82,7 +82,7 @@ Before making or requesting an icon for app / site, please check if it fits our 
   - *Examples (not limited to):* [most of the platforms listed here](https://en.wikipedia.org/wiki/Alt-tech#Platforms).
 - Obvious scams or other suspiciously shady apps / sites.
 - Apps / sites focusing on **highly** immoral and illegal activity / material.
-  - *Examples (not limited to):* black hat hacking, money laundering, illegal sexual material / services, harassment / cyberbullying etc.
+  - *Examples (not limited to):* black hat hacking, money laundering, malware, malvertising (includes popup ad networks), illegal sexual material / services, harassment / cyberbullying etc.
 
 ## Icon creation walkthrough
 
