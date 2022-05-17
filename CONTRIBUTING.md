@@ -76,7 +76,7 @@ Before making or requesting an icon for app / site, please check if it fits our 
   - Most of them belongs to *"suspiciously shady"* category, because often these services violate privacy on other users expense and trick users for unwanted things.
   - *Exception:* ad networks with ethical standpoints (minimal or no user tracking / data collecting, no dark patterns, high advertiser monitoring etc).
 
-# Not approved
+### Not approved
 :x: These are never accepted to aegis-icons, **no exceptions!**
 
 - Apps / sites **not** having Aegis supported 2FA support.
