@@ -72,8 +72,11 @@ Before making or requesting an icon for app / site, please check if it fits our 
 - App / site being too vague.
   - *Examples (not limited to):* site only has login page and nothing else, search results don't answer what that app / site is either.
   - It's not enough that you tell what the app / site does, we need at least **some** evidence from the web. Otherwise it counts as *"suspiciously shady"*.
+- Ad networks
+  - Most of them belongs to *"suspiciously shady"*, because of often these services violate privacy on other users expense.
+  - *Exception:* ad networks with ethical standpoints (**no** user tracking / data collecting, dark patterns, high malware monitoring etc.)
 
-### Not approved
+# Not approved
 :x: These are never accepted to aegis-icons, **no exceptions!**
 
 - Apps / sites **not** having Aegis supported 2FA support.
@@ -82,7 +85,7 @@ Before making or requesting an icon for app / site, please check if it fits our 
   - *Examples (not limited to):* [most of the platforms listed here](https://en.wikipedia.org/wiki/Alt-tech#Platforms).
 - Obvious scams or other suspiciously shady apps / sites.
 - Apps / sites focusing on **highly** immoral and illegal activity / material.
-  - *Examples (not limited to):* black hat hacking, money laundering, malware, malvertising (includes popup ad networks), illegal sexual material / services, harassment / cyberbullying etc.
+  - *Examples (not limited to):* black hat hacking, money laundering, malware, malvertising, illegal sexual material / services, harassment / cyberbullying etc.
 
 ## Icon creation walkthrough
 
