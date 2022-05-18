@@ -1029,7 +1029,7 @@
                 "Nitrado"
             ]
         },
-        { 
+        {
             "filename": "SVG/.Variations/NotABug.org bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
@@ -1901,7 +1901,7 @@
                 "Boomi"
             ]
         },
-        { 
+        {
             "filename": "SVG/BorgBase.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2482,6 +2482,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "ESET"
+            ]
+        },
+        {
+            "filename": "SVG/Elastic.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Elastic"
             ]
         },
         {
@@ -4215,7 +4222,7 @@
                 "Plutus"
             ]
         },
-        { 
+        {
             "filename": "SVG/Poloniex.svg",
             "category": "1. Apps & Sites",
             "issuer": [
