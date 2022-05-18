@@ -6,7 +6,7 @@ These are people who has contributed our project with commits or sending icon su
 
 *Names are in alphanumerical order based of the username.*
 
-*If you want name changed or deleted, [please make a new issue](https://github.com/aegis-icons/aegis-icons/issues/new/choose) (choose "Other") or comment on your PR / issue.*
+*If you want name changed or deleted, [please make a new issue](https://github.com/aegis-icons/aegis-icons/issues/new/choose) (choose "Other") or comment on your PR / issue (add* `@krisu5` *to the comment to notify the maintainer).*
 
 ---
 
@@ -46,11 +46,12 @@ These are people who has contributed our project with commits or sending icon su
   - For reducing size of PNG files for the first time ([#12](https://github.com/aegis-icons/aegis-icons/pull/12)).
     - Our first contributor! :sparkles:
 - **[jessiehildebrandt](https://github.com/jessiehildebrandt)** (Jessie Hildebrandt)
+  - For *Elastic* icon ([#596](https://github.com/aegis-icons/aegis-icons/issues/596)).
   - For updating *Toontown Rewritten* icon with logo fix ([#482](https://github.com/aegis-icons/aegis-icons/issues/482)).
 - **[Jimver](https://github.com/Jimver)** (Jim)
   - For *Hestia Control Panel* icon ([#383](https://github.com/aegis-icons/aegis-icons/issues/383)).
 - **[joshcancode](https://github.com/joshcancode)**
-  - For updating *Toontown Rewritten* icon ([#288](https://github.com/aegis-icons/aegis-icons/pull/288))
+  - For updating *Toontown Rewritten* icon with bg fix ([#288](https://github.com/aegis-icons/aegis-icons/pull/288))
 - **[justsomemate](https://github.com/justsomemate)**
   - For these icons: *Clover* ([#167](https://github.com/aegis-icons/aegis-icons/issues/167)), *Kaseya* ([#168](https://github.com/aegis-icons/aegis-icons/issues/168)), *Unitrends* ([#169](https://github.com/aegis-icons/aegis-icons/issues/169)), *Twilio* ([#170](https://github.com/aegis-icons/aegis-icons/issues/170)), *Palo Alto Networks* ([#171](https://github.com/aegis-icons/aegis-icons/issues/171)), *1040.com* ([#255](https://github.com/aegis-icons/aegis-icons/issues/255)), *Critical Start* ([#259](https://github.com/aegis-icons/aegis-icons/issues/259)), *Asana* ([#508](https://github.com/aegis-icons/aegis-icons/issues/508)).
 - **[krisu5](https://github.com/krisu5)** (Kristian Salonen)
