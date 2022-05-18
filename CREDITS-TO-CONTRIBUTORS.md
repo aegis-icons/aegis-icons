@@ -6,7 +6,7 @@ These are people who has contributed our project with commits or sending icon su
 
 *Names are in alphanumerical order based of the username.*
 
-*If you want name changed or deleted, [please make a new issue](https://github.com/aegis-icons/aegis-icons/issues/new/choose) (choose "Other") or comment on your PR / issue (add* `@krisu5` *to the comment to notify the maintainer).*
+If you want name changed or deleted, [please make a new issue](https://github.com/aegis-icons/aegis-icons/issues/new/choose) (choose "Other") or comment on your PR / issue (add `@krisu5` to the comment to notify the maintainer).
 
 ---
 
