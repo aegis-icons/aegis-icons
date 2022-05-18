@@ -925,6 +925,13 @@
             ]
         },
         {
+            "filename": "SVG/.Variations/Handshake bg.var.svg",
+            "category": "2. Variations & Alts",
+            "issuer": [
+                "Handshake"
+            ]
+        },
+        {
             "filename": "SVG/.Variations/IFTTT bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
@@ -2660,6 +2667,13 @@
             ]
         },
         {
+            "filename": "SVG/FetLife.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "FetLife"
+            ]
+        },
+        {
             "filename": "SVG/Figma.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2994,6 +3008,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "HackerOne"
+            ]
+        },
+        {
+            "filename": "SVG/Handshake.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Handshake"
             ]
         },
         {
@@ -4882,6 +4903,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "SumoLogic"
+            ]
+        },
+        {
+            "filename": "SVG/SuperHosting.BG.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "SuperHosting.BG"
             ]
         },
         {
