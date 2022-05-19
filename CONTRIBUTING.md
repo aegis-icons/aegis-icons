@@ -119,7 +119,7 @@ Search through the logo resources to find a vector-based image (SVG, AI, EPS, PD
   - [Vector Magic](https://vectormagic.com/) is the one of best – if not the best – image tracer.
     - Also commercial, but does offer free trials for [desktop application](https://vectormagic.com/desktop).
   - Illustrator & Inkscape has image tracing tools, but we really don't recommend them. Usually results varies from really bad to somewhat decent.
-- **Making vectorized logo from stratch** is also option, if you're skilled and patient enough.
+- **Making vectorized logo from scratch** is also option, if you're skilled and patient enough.
 
 > :information_source: SVG doesn't work? Try fixing it with [SVGminify.com](https://www.svgminify.com/).
 
