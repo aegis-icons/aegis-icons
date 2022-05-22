@@ -15,6 +15,7 @@ It's **highly recommended** to also have some knowledge of graphic design and de
   - [Case-by-case basis](#case-by-case-basis)
   - [Not approved](#not-approved)
 - [**Icon creation walkthrough**](#icon-creation-walkthrough)
+  - [Repository submitting options](#repository-submitting-options)
   - [Finding source images](#finding-source-images)
   - [Templates](#templates)
   - [Layout](#layout)
@@ -25,11 +26,10 @@ It's **highly recommended** to also have some knowledge of graphic design and de
   - [Generic icons](#generic-icons)
   - [Save and export](#save-and-export)
   - [SVG compression & cleanup](#svg-compression--cleanup)
-  - [Submit to repository](#submit-to-repository)
 - [**Technical**](#technical)
   - [Directories](#directories)
   - [Filename](#filename)
-    - [Version naming and organizing old files](#version-naming-and-organizing-old-files)
+    - [New versions, version naming and organizing old files](#new-versions-version-naming-and-organizing-old-files)
   - [About PNGs](#about-pngs)
 - [**Resources**](#resources)
   - [Logos](#logos)
@@ -60,19 +60,19 @@ Before making or requesting an icon for app / site, please check if it fits our 
 - Forums, message groups.
   - We rather make icons based of the forum softwares, because those are more universally usable for users then specific communities.
     - Detected with tools like [What CMS](https://whatcms.org) and [W3Techs Site Info](https://w3techs.com/sites).
-  - *Exception:* **really** popular forums can get their own icons (at least over 250,000 total members and high posting activity).
+  - *Exception:* really popular forums can get their own icons (at least **over 250,000 total members** and high posting activity).
 - Platforms that icon requester / submitter is the creator or owner of the platform itself.
   - We don't do free work or want self-advertising here.
   - *Exception:* if platform is actually popular and has potential users for Aegis.
 - Self-hosted or similar software.
-  - Suggested to have ≥ 500 Github / Gitlab stars or other non-maintainer activity to back it up.
+  - Suggested to have ≥ 500 GitHub / Gitlab stars or other non-maintainer activity to back it up.
   - If things previously mentioned aren't available, then we measure popularity based of search results.
 - Adult content platforms / services, piracy related apps / sites.
   - Mostly okay here, **but** it cannot break **any** of the "not approved" bullet points.
 - App / site being too vague.
   - *Examples (not limited to):* site only has login page and nothing else, search results don't answer what that app / site is either.
   - It's not enough that you tell what the app / site does, we need at least **some** evidence from the web. Otherwise it counts as *"suspiciously shady"*.
-- Ad networks
+- Ad networks.
   - Most of them belongs to *"suspiciously shady"* category, because often these services violate privacy on other users expense and trick users for unwanted things.
   - *Exception:* ad networks with ethical standpoints (minimal or no user tracking / data collecting, no dark patterns, high advertiser monitoring etc).
 
@@ -80,14 +80,29 @@ Before making or requesting an icon for app / site, please check if it fits our 
 :x: These are never accepted to aegis-icons, **no exceptions!**
 
 - Apps / sites **not** having Aegis supported 2FA support.
-  - Also when service has discontinued 3rd party 2FA support (only supporting legacy users).
-- Platforms having massive hate speech group following and poor moderation.
+  - Also when service has officially discontinued 3rd party 2FA support (only supporting legacy users) and no known workaround for new users.
+- Platforms having massive hate speech group following and poor moderation (a.k.a. "Alt-tech").
   - *Examples (not limited to):* [most of the platforms listed here](https://en.wikipedia.org/wiki/Alt-tech#Platforms).
 - Obvious scams or other suspiciously shady apps / sites.
 - Apps / sites focusing on **highly** immoral and illegal activity / material.
-  - *Examples (not limited to):* black hat hacking, money laundering, malware, malvertising, illegal sexual material / services, harassment / cyberbullying etc.
+  - *Examples (not limited to):* black hat hacking, malware, malvertising, money laundering, illegal sexual material / services, harassment / cyberbullying etc.
 
 ## Icon creation walkthrough
+
+### Repository submitting options
+Before creating icons, you have decide which way you want to submit your icon creations:
+
+- **Option 1:** Fork this project and submit it via pull request *a.k.a. PR* **(recommended)**.
+  - We recommend [GitHub Desktop](https://desktop.github.com/) GUI software for this.
+  - [How to fork the project in GitHub Desktop](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories/cloning-and-forking-repositories-from-github-desktop#forking-a-repository).
+  - Creating changes in **new branch(es)** instead of using `master` branch is **highly recommended**.
+    - This way, you can submit multiple PRs with ease and aegis-icons's own `master` branch changes aren't in your way.
+    - [Creating and managing branches in GitHub Desktop](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/making-changes-in-a-branch/managing-branches).
+  - And when you're ready, [create a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request).
+
+- **Option 2:** Submit your icon for review by [opening a new issue](../../issues/new/choose) (select "Icon submission") and add your file(s) / info.
+  - This is easiest option, but can become more complicated route later on if new changes are needed.
+  - Submitting via new issue is also more inconvenient to the maintainers.
 
 ### Finding source images
 Search through the logo resources to find a vector-based image (SVG, AI, EPS, PDF).
@@ -292,9 +307,7 @@ Next, do SVG compression & cleanup.
 
 > :broom: *[Example SVG diff of manual cleanup with notes](https://github.com/aegis-icons/misc/commit/c0128f61f0d2b88d5953881699955a4a17477e47?diff=split).*
 
-### Submit to repository
-- Submit your icon for review by [opening a new issue](../../issues/new/choose) (select "Icon submission") and add your file(s) / info.
-- Alternately, you can fork this project (only recommended for those who know how to use git).
+When everything is done and ready to go, [submit icons with either as pull request or issue](#repository-submitting-options).
 
 ## Technical
 
@@ -331,7 +344,7 @@ Next, do SVG compression & cleanup.
     - *Name as what the icon symbolizes with big capital letter.*
     - *Example:* `Cloud.svg`
     
-#### _Version naming and organizing old files_
+#### _New versions, version naming and organizing old files_
 - New versions of icons are only made when it's major change (new logo or brand color).
   - Logos with only **barely noticable** brand related changes with same brand color ([example by T-Mobile](https://user-images.githubusercontent.com/3540275/160298574-c28cfe2a-3393-44b0-9fd1-63a4e6ade214.png)), doesn't need new icon version.
 - Icon files that are outdated for the first time, `v1` is added to end of the filename.
@@ -373,7 +386,7 @@ More resources at [LogoSearch's "Alternative Logo Sources"](https://logosear.ch/
 ### Lists of sites supporting 2FA
 Need ideas for icons? These list apps / websites that support 2FA (and what kind of format too).
 
-- [2FA Directory](https://2fa.directory/) (*[Github commits](https://github.com/2factorauth/twofactorauth/commits/master)*) :star:
+- [2FA Directory](https://2fa.directory/) (*[GitHub commits](https://github.com/2factorauth/twofactorauth/commits/master)*) :star:
 - [Authy - Guides](https://authy.com/guides/) :star:
 
 #### _Google search query for double-checking 2FA support_
