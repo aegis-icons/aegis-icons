@@ -352,12 +352,13 @@ Resources marked with star (:star:) are recommended / most used by the maintaine
 ### Logos
 Resources for finding logos in vector format, when no official brand kit / vector logos are available.
 
-**Remember to always double check if logo provided by these resources is the latest one company uses!**
+:warning: **Remember to always double check if logo provided by these resources is the latest one company uses!**
 
 - [Brandfetch](https://brandfetch.com/) (not always accurate results)
 - [LogoSearch](https://logosear.ch/) :star:
 - [Seeklogo](https://seeklogo.com/)
 - [Simple Icons](https://simpleicons.org/) :star:
+- [VectorWiki](https://vectorwiki.com/)
 - [Worldvectorlogo](https://worldvectorlogo.com/)
 - [Wikimedia Commons](https://commons.wikimedia.org/wiki/Main_Page)
 - Wikipedia pages of the brand :star:
