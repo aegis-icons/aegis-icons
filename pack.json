@@ -974,6 +974,13 @@
             ]
         },
         {
+            "filename": "SVG/.Variations/Kwansei Gakuin University fg.var.svg",
+            "category": "2. Variations & Alts",
+            "issuer": [
+                "Kwansei Gakuin University"
+            ]
+        },
+        {
             "filename": "SVG/.Variations/Lichess bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
@@ -3361,6 +3368,13 @@
             ]
         },
         {
+            "filename": "SVG/Kindai University.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Kindai University"
+            ]
+        },
+        {
             "filename": "SVG/Kiva.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3400,6 +3414,34 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "KuCoin"
+            ]
+        },
+        {
+            "filename": "SVG/Kwansei Gakuin University.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Kwansei Gakuin University"
+            ]
+        },
+        {
+            "filename": "SVG/Kyoto Sangyo University.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Kyoto Sangyo University"
+            ]
+        },
+        {
+            "filename": "SVG/Kyoto University.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Kyoto University"
+            ]
+        },
+        {
+            "filename": "SVG/LabyMod.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "LabyMod"
             ]
         },
         {
