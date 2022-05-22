@@ -316,7 +316,7 @@ When everything is done and ready to go, [submit icons with either as pull reque
 - Non-variation primary icons are added to root of `SVG/` folder.
 - Variation (`bg.var` or `fg.var`) and alternative (`alt`) icons are added to `SVG/.Variations/` folder.
 - Generic icons are added to `SVG/.Generic/` folder.
-- For outdated icons, see [version naming and organizing old files](#version-naming-and-organizing-old-files) section.
+- For outdated icons, see [new versions, version naming and organizing old files](#new-versions-version-naming-and-organizing-old-files) section.
 
 ### Filename
 :warning: When naming brand based icon(s), check how brand capitalised and spell the name from their app / website.
