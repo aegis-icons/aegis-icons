@@ -1,1 +1,5 @@
 blank_issues_enabled: false
+contact_links:
+  - name: Requests closed temporarily
+    url: https://github.com/aegis-icons/aegis-icons/issues/611
+    about: More info at the link
