@@ -4454,6 +4454,13 @@
             ]
         },
         {
+            "filename": "SVG/RMIT University.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "RMIT University"
+            ]
+        },
+        {
             "filename": "SVG/Rackspace.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -5402,6 +5409,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Versio"
+            ]
+        },
+        {
+            "filename": "SVG/VicRoads.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "VicRoads"
             ]
         },
         {
