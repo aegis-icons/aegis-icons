@@ -57,6 +57,8 @@ If you want name changed or deleted, [please make a new issue](https://github.co
   - For these icons: *Clover* ([#167](https://github.com/aegis-icons/aegis-icons/issues/167)), *Kaseya* ([#168](https://github.com/aegis-icons/aegis-icons/issues/168)), *Unitrends* ([#169](https://github.com/aegis-icons/aegis-icons/issues/169)), *Twilio* ([#170](https://github.com/aegis-icons/aegis-icons/issues/170)), *Palo Alto Networks* ([#171](https://github.com/aegis-icons/aegis-icons/issues/171)), *1040.com* ([#255](https://github.com/aegis-icons/aegis-icons/issues/255)), *Critical Start* ([#259](https://github.com/aegis-icons/aegis-icons/issues/259)), *Asana* ([#508](https://github.com/aegis-icons/aegis-icons/issues/508)).
 - **[krisu5](https://github.com/krisu5)** (Kristian Salonen)
   - Head maintainer of the project.
+- **[krmax44](https://github.com/krmax44)** (Max)
+  - For *TU Berlin* icon ([#612](https://github.com/aegis-icons/aegis-icons/pull/612)).
 - **[matteoballabio](https://github.com/matteoballabio)** (Matteo Ballabio)
   - For *Forum Italia* icon ([#283](https://github.com/aegis-icons/aegis-icons/issues/283)).
 - **[maxlysenko](https://github.com/maxlysenko)**
