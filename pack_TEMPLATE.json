@@ -553,6 +553,20 @@
             ]
         },
         {
+            "filename": "SVG/.Outdated/ProtonMail.svg",
+            "category": "4. Outdated",
+            "issuer": [
+                "ProtonMail"
+            ]
+        },
+        {
+            "filename": "SVG/.Outdated/ProtonVPN.svg",
+            "category": "4. Outdated",
+            "issuer": [
+                "ProtonVPN"
+            ]
+        },
+        {
             "filename": "SVG/.Outdated/Republic Wireless v1.svg",
             "category": "4. Outdated",
             "issuer": [
@@ -4370,16 +4384,11 @@
             ]
         },
         {
-            "filename": "SVG/ProtonMail.svg",
+            "filename": "SVG/Proton.svg",
             "category": "1. Apps & Sites",
             "issuer": [
-                "ProtonMail"
-            ]
-        },
-        {
-            "filename": "SVG/ProtonVPN.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
+                "Proton",
+                "ProtonMail",
                 "ProtonVPN"
             ]
         },
