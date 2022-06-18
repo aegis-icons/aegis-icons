@@ -69,6 +69,8 @@ If you want name changed or deleted, [please make a new issue](https://github.co
   - For *Datové schránky* icon ([#551](https://github.com/aegis-icons/aegis-icons/pull/551)).
 - **[Neluji](https://github.com/Neluji)**
   - For these icons: *Hypixel* ([#384](https://github.com/aegis-icons/aegis-icons/pull/384)), *OMGSERV*  ([#492](https://github.com/aegis-icons/aegis-icons/pull/492)).
+- **[OmegaMartFan](https://github.com/OmegaMartFan)** (Omega Mart Fan)
+  - For minor CONTRIBUTING updates ([#614](https://github.com/aegis-icons/aegis-icons/pull/614)).
 - **[sebastianserrani](https://github.com/sebastianserrani)** (Sebastián Serrani)
   - For these icons: *Let'sBit* ([#562](https://github.com/aegis-icons/aegis-icons/issues/562)), *Buenbit* ([#564](https://github.com/aegis-icons/aegis-icons/issues/564)), *Ripio* ([#565](https://github.com/aegis-icons/aegis-icons/issues/565)), *SatoshiTango* ([#566](https://github.com/aegis-icons/aegis-icons/issues/566)).
 - **[Selovert](https://github.com/Selovert)** (Tassilo Selover-Stephan)
