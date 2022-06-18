@@ -4,4 +4,4 @@ If you are still using Aegis v1.4.2 or older, please **upgrade to Aegis v2.0.1 o
 
 ### SVGs known to have rendering issues:
 
-- Proton Mail ([SVG](https://github.com/aegis-icons/aegis-icons/blob/master/SVG/ProtonMail.svg), [PNG](https://github.com/aegis-icons/aegis-icons/blob/master/PNG/ProtonMail.png))
+- *[Outdated]* ProtonMail ([SVG](https://github.com/aegis-icons/aegis-icons/blob/master/SVG/.Outdated/ProtonMail.svg), [PNG](https://github.com/aegis-icons/aegis-icons/blob/master/PNG/ProtonMail.png))
