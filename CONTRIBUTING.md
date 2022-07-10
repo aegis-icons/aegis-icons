@@ -408,7 +408,7 @@ Looking for software to start make icons? Here's some of the well known ones.
 [This section needs update]
 
 ## Issue guidelines
-1. App / site icon related requests has to have Aegis supported 2FA support one way or another, this project does not make icons outside of Aegis usage.
+1. App / site related requests has to have Aegis supported 2FA support one way or another, this project does not make icons outside of Aegis usage.
 2. **Check that icon you're about to request doesn't [already exist](https://aegis-icons.github.io/)** or opened / closed in the [issues](https://github.com/aegis-icons/aegis-icons/issues).
    - Icon packs are updated monthly, not every time a new icon is created ([see the pack releases](https://github.com/aegis-icons/aegis-icons/releases)). Icons created after the latest pack update are downloadable on [the website](https://aegis-icons.github.io/).
 3. Read the issue template and fill **at least** required parts.
@@ -419,7 +419,7 @@ Looking for software to start make icons? Here's some of the well known ones.
      - Forum not popular enough (forum software related icon is the alternative).
      - No high quality logo resources available.
      - Too complex logo to make as monochrome or viewable in small size.
-   - **[More info about approved & unapproved types of apps / sites](#icon-acceptability-criteria)**.
+   - **[More info](#icon-acceptability-criteria)** about **approved & unapproved types of apps / sites.**
 6. Be respectful to the maintainers and contributers.
 
 ## Footnotes
