@@ -51,7 +51,7 @@ If you want name changed or deleted, [please make a new issue](https://github.co
 - **[Jimver](https://github.com/Jimver)** (Jim)
   - For *Hestia Control Panel* icon ([#383](https://github.com/aegis-icons/aegis-icons/issues/383)).
 - **[joshcancode](https://github.com/joshcancode)**
-  - For these icons: *CSGOFloat* ([#602](https://github.com/aegis-icons/aegis-icons/pull/602)), *3Commas* ([#617](https://github.com/aegis-icons/aegis-icons/pull/617)).
+  - For these icons: *CSGOFloat* ([#602](https://github.com/aegis-icons/aegis-icons/pull/602)), *3Commas* ([#617](https://github.com/aegis-icons/aegis-icons/pull/617)), *Del-One Federal Credit Union* ([#618](https://github.com/aegis-icons/aegis-icons/pull/618)).
   - For updating *Toontown Rewritten* icon with bg fix ([#288](https://github.com/aegis-icons/aegis-icons/pull/288)).
 - **[justsomemate](https://github.com/justsomemate)**
   - For these icons: *Clover* ([#167](https://github.com/aegis-icons/aegis-icons/issues/167)), *Kaseya* ([#168](https://github.com/aegis-icons/aegis-icons/issues/168)), *Unitrends* ([#169](https://github.com/aegis-icons/aegis-icons/issues/169)), *Twilio* ([#170](https://github.com/aegis-icons/aegis-icons/issues/170)), *Palo Alto Networks* ([#171](https://github.com/aegis-icons/aegis-icons/issues/171)), *1040.com* ([#255](https://github.com/aegis-icons/aegis-icons/issues/255)), *Critical Start* ([#259](https://github.com/aegis-icons/aegis-icons/issues/259)), *Asana* ([#508](https://github.com/aegis-icons/aegis-icons/issues/508)).
