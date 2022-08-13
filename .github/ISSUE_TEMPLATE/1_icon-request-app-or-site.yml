@@ -6,10 +6,15 @@ body:
   - type: markdown
     attributes:
       value: |
-        - :warning: Remember to **add name of the brand / site / app** at the end of *"Icon request:"* part on top, **do not change the formatting of the title!**
-          - Please use proper capitalization for the name (check the capitalization from their app / website).
-        - Don't request multiple icons in single issue, make issue for every singular icon request.
-        - [Read our issue guidelines first](https://github.com/aegis-icons/aegis-icons/blob/master/CONTRIBUTING.md#issue-guidelines) if you haven't already (only takes half a minute to read!)
+        ### :loudspeaker: [Read our issue guidelines first](https://github.com/aegis-icons/aegis-icons/blob/master/CONTRIBUTING.md#issue-guidelines) if haven't already!
+        If you **don't read / follow the issue guidelines**, your issue(s) might get rejected and, *in the worse case*, get you banned.
+        
+        *And do not request multiple icons in single issue, make multiple issues instead.*
+        
+        ### :triangular_flag_on_post: Issue title formatting:
+        - Remember to **add name of the brand / site / app** at the end of *"Icon request:"*.
+        - Do not change the formatting of the title!
+        - Please use proper capitalization and spelling for the name (check the capitalization & spelling from their app / website).
   - type: input
     id: site_app-url
     attributes:
@@ -44,3 +49,10 @@ body:
     attributes:
       label: Anything else?
       description: Optional text field to add other info, kudos etc.
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Confirmation
+      options:
+        - label: I have read and followed the [issue guidelines](https://github.com/aegis-icons/aegis-icons/blob/master/CONTRIBUTING.md#issue-guidelines).
+          required: true
