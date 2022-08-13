@@ -6,9 +6,13 @@ body:
   - type: markdown
     attributes:
       value: |
-        [Read our issue guidelines first](https://github.com/aegis-icons/aegis-icons/blob/master/CONTRIBUTING.md#issue-guidelines) if you haven't already (only takes half a minute to read!)
+        ### :loudspeaker: [Read our issue guidelines first](https://github.com/aegis-icons/aegis-icons/blob/master/CONTRIBUTING.md#issue-guidelines) if you haven't already!
+        :angry: **If you don't read / follow the issue guidelines**, your issue(s) might **get rejected** and, *in the worse case*, **get you banned.**
         
-        :warning: Remember to **add symbol name** (eg. `education`) at the end of *"Generic icon request:"* part on top, **do not change the formatting of the title!**
+        ### :triangular_flag_on_post: Issue title formatting <sup>(top text field)</sup>
+        - Remember to **add symbol name** at the end of *"Generic icon request:"* text.
+          - Eg. `Generic icon request: Education`
+        - Do not change the formatting of the title!
         
         If you can't think of **symbol name**, use these sites as reference:
         - https://iconscout.com/unicons/explore/line
@@ -19,3 +23,10 @@ body:
     attributes:
       label: Anything else?
       description: Optional text field to add other info, kudos etc.
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Confirmation
+      options:
+        - label: I have read and followed the [issue guidelines](https://github.com/aegis-icons/aegis-icons/blob/master/CONTRIBUTING.md#issue-guidelines).
+          required: true
