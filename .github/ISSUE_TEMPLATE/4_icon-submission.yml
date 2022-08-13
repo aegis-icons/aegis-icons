@@ -7,7 +7,7 @@ body:
     attributes:
       value: |
         ### :loudspeaker: Read and carefully follow our [CONTRIBUTING document](https://github.com/aegis-icons/aegis-icons/blob/master/CONTRIBUTING.md) during the creation (and before submitting)!
-        :angry: **If you don't follow the CONTRIBUTING doc, we might reject your icon submission(s).
+        :angry: **If you don't follow the CONTRIBUTING doc,** we might reject your icon submission(s).
         
         *And do not send multiple icons in single issue, make multiple issues instead.*
         
