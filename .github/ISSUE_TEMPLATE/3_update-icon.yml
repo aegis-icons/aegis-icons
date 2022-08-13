@@ -11,7 +11,7 @@ body:
         
         *And do not request multiple icons in single issue, make multiple issues instead.*
         
-        ### :triangular_flag_on_post: Issue title formatting <sup>(top text field)</sup>
+        ### :triangular_flag_on_post: Issue title formatting *(top text field)*
         - Remember to **add name of the brand / site / app** at the end of *"Update icon:"* text.
           - Eg. `Update icon: GitHub`
         - Do not change the formatting of the title!
