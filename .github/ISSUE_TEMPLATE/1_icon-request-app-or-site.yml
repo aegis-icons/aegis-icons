@@ -6,15 +6,16 @@ body:
   - type: markdown
     attributes:
       value: |
-        ### :loudspeaker: [Read our issue guidelines first](https://github.com/aegis-icons/aegis-icons/blob/master/CONTRIBUTING.md#issue-guidelines) if haven't already!
+        ### :loudspeaker: [Read our issue guidelines first](https://github.com/aegis-icons/aegis-icons/blob/master/CONTRIBUTING.md#issue-guidelines) if you haven't already!
         :angry: **If you don't read / follow the issue guidelines**, your issue(s) might **get rejected** and, *in the worse case*, **get you banned.**
         
         *And do not request multiple icons in single issue, make multiple issues instead.*
         
-        ### :triangular_flag_on_post: Issue title formatting:
-        - Remember to **add name of the brand / site / app** at the end of *"Icon request:"*.
-        - Do not change the formatting of the title!
+        ### :triangular_flag_on_post: Issue title formatting <sup>(top text field)</sup>
+        - Remember to **add name of the brand / site / app** at the end of *"Icon request:"* text.
+          - Eg. `Icon request: GitHub`
         - Please use proper capitalization and spelling for the name (check the capitalization & spelling from their app / website).
+        - Do not change the formatting of the title!
   - type: input
     id: site_app-url
     attributes:
