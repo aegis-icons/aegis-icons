@@ -19,15 +19,6 @@ body:
           - Eg. `Icon submission: Discord (update)`
         - If it's generic icon submission, add *short name for the icon* and `(generic)` at the end of *"Icon submission:"* text.
           - Eg. `Icon submission: Education (generic)`
-  - type: dropdown
-    id: icon-type
-    attributes:
-      label: Icon type
-      description: Select what kind of icon you're submitting.
-      options:
-        - Logo based
-        - Update
-        - Generic
     validations:
       required: true
   - type: input
