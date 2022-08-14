@@ -17,10 +17,10 @@
 
 CONTRIBUTING document: https://is.gd/aegisicons_contributing
 
-IF YOU DON'T READ / FOLLOW THE CONTRIBUTING DOCUMENT,
-YOUR PR(s) MIGHT GET REJECTED AND, IN THE WORSE CASE, GET YOU BANNED.
+❌ IF YOU DON'T READ / FOLLOW THE CONTRIBUTING DOCUMENT,
+❌ YOUR PR(s) MIGHT GET REJECTED AND, IN THE WORSE CASE, GET YOU BANNED.
 
-Removing that line = instant rejection.
+❌ Removing that line = instant rejection.
 
 If you actually read the document, then:
 Replace space with x inside of the brackets: [ ] ➜ [x]
