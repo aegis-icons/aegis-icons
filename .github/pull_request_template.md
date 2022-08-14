@@ -11,6 +11,21 @@
    ❝  Update icon: icon_name_here  ❞
 -->
 
+- [ ] I have carefully read and followed [CONTRIBUTING](https://github.com/aegis-icons/aegis-icons/blob/master/CONTRIBUTING.md) document.
+
+<!-- ▲▲▲ REQUIRED!
+
+CONTRIBUTING document: https://is.gd/aegisicons_contributing
+
+IF YOU DON'T READ / FOLLOW THE CONTRIBUTING DOCUMENT,
+YOUR PR(s) MIGHT GET REJECTED AND, IN THE WORSE CASE, GET YOU BANNED.
+
+Removing that line = instant rejection.
+
+If you actually read the document, then:
+Replace space with x inside of the brackets: [ ] ➜ [x]
+-->
+
 **URL of the site:**
 
 <!-- ▲▲▲ REQUIRED, UNLESS it's generic icon. -->
@@ -43,13 +58,6 @@ Fill this part based of this information:
    - If YES, do either/all of these things:
       - Upload screenshot of the area where you got the color AND give URL of the page (unless it's from app)
          - How to upload screenshot: https://is.gd/github_attach_files
-      - Give the HTML element name (eg. #footer) AND also URL of the page. -->
-
-- [ ] I have carefully read and followed CONTRIBUTING document.
-
-<!-- ▲▲▲ REQUIRED!
-Confirm that you have done these things.
-Replace space with x inside of the brackets: [ ] ➜ [x]
-
+      - Give the HTML element name (eg. #footer) AND also URL of the page.
+      
 After this line, you can now comment freely. Thank you for contributing and following the instructions :) -->
-
