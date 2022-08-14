@@ -86,6 +86,7 @@ Before making or requesting an icon for app / site, please check if it fits our 
 - Obvious scams or other suspiciously shady apps / sites.
 - Apps / sites focusing on **highly** immoral and illegal activity / material.
   - *Examples (not limited to):* black hat hacking, malware, malvertising, money laundering, illegal sexual material / services, harassment / cyberbullying etc.
+- *Only for icon submissions:* unmodified SVGs. You cannot dump any random SVG to aegis-icons, you **need to make the icon yourself.**
 
 ## Icon creation walkthrough
 
