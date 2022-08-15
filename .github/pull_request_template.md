@@ -2,7 +2,7 @@
 🔔 If you're SUBMITTING ICON, read this PR template carefully and follow the instructions!
      - But if your pull request DOESN'T relate to icon submissions, you can ignore all of this and make PR from scratch.
 
-===== PR TITLE RECOMMENDATIONS =====
+===== PULL REQUEST TITLE FORMAT (top text field) =====
 > If icon with logo ➜
    ❝  New icon: icon_name_here  ❞
 > If generic icon ➜
