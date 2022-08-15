@@ -86,7 +86,7 @@ Before making or requesting an icon for app / site, please check if it fits our 
 - Obvious scams or other suspiciously shady apps / sites.
 - Apps / sites focusing on **highly** immoral and illegal activity / material.
   - *Examples (not limited to):* black hat hacking, malware, malvertising, money laundering, illegal sexual material / services, harassment / cyberbullying etc.
-- :information_source: **Only for icon submissions:** random unmodified SVGs / [raster images](https://simple.wikipedia.org/wiki/Raster_graphics). **You need to make the icon yourself!**
+- :information_source: **Only for icon submissions:** submitting unmodified SVGs / [raster images](https://simple.wikipedia.org/wiki/Raster_graphics) from the web. **You need to make the icon yourself!**
 
 ## Icon creation walkthrough
 
