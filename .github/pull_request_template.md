@@ -1,14 +1,18 @@
 <!--
-🔔 If you're SUBMITTING ICON, read this PR template carefully and follow the instructions!
+🔔 If you're SUBMITTING ICON, read this PR template CAREFULLY and follow the instructions!
      - But if your pull request DOESN'T relate to icon submissions, you can ignore all of this and make PR from scratch.
 
-===== PULL REQUEST TITLE FORMAT (top text field) =====
+========== PULL REQUEST TITLE FORMAT ==========
+Copy-paste one of these formats (the text inside of quotes)
+to THE TOP TEXT FIELD and replace "icon_name_here" with
+the name of the site / brand / company / app / generic symbol.
+
 > If icon with logo ➜
    ❝  New icon: icon_name_here  ❞
+> If icon update ➜
+   ❝  Update icon: icon_name_here  ❞
 > If generic icon ➜
    ❝  New icon: icon_name_here (generic)  ❞
-> If icon update  ➜
-   ❝  Update icon: icon_name_here  ❞
 -->
 
 - [ ] I have carefully read and followed [CONTRIBUTING](https://github.com/aegis-icons/aegis-icons/blob/master/CONTRIBUTING.md) document.
@@ -52,12 +56,12 @@ For example:
 
 Fill this part based of this information:
 - Is the color taken somewhere from the logo?
-   - If YES, add this text ➜
+   - If YES, then add this text ➜
       ❝  Background color is from the logo.  ❞
 - Is color taken from the mentioned app / site? (And not from logo)
-   - If YES, do either/all of these things:
+   - If YES, then do either/all of these things:
       - Upload screenshot of the area where you got the color AND give URL of the page (unless it's from app)
          - How to upload screenshot: https://is.gd/github_attach_files
       - Give the HTML element name (eg. #footer) AND also URL of the page.
       
-After this line, you can now comment freely. Thank you for contributing and following the instructions :) -->
+After this line, you can now comment freely. Thank you for following the instructions. -->
