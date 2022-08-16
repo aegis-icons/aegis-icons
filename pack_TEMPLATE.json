@@ -672,6 +672,13 @@
             ]
         },
         {
+            "filename": "SVG/.Outdated/Ubuntu v1.svg",
+            "category": "4. Outdated",
+            "issuer": [
+                "Ubuntu"
+            ]
+        },
+        {
             "filename": "SVG/.Outdated/Unity v1 bg.var.svg",
             "category": "4. Outdated",
             "issuer": [
@@ -2709,6 +2716,13 @@
             ]
         },
         {
+            "filename": "SVG/Fedora.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Fedora"
+            ]
+        },
+        {
             "filename": "SVG/FetLife.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3831,6 +3845,13 @@
             ]
         },
         {
+            "filename": "SVG/Neos.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Neos"
+            ]
+        },
+        {
             "filename": "SVG/Neowin.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4569,6 +4590,13 @@
             ]
         },
         {
+            "filename": "SVG/Revolt.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Revolt"
+            ]
+        },
+        {
             "filename": "SVG/Ring.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4743,6 +4771,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Segment"
+            ]
+        },
+        {
+            "filename": "SVG/Selfwealth.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Selfwealth"
             ]
         },
         {
