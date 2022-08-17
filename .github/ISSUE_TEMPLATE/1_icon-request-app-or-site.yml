@@ -50,7 +50,7 @@ body:
     id: anything-else
     attributes:
       label: Anything else?
-      description: Optional text field to add other info: proof that 2FA exists in the site / app, extra info about branding, kudos etc.
+      description: Optional text field to add other info: proof that 2FA exists in the site or app, extra info about branding, kudos etc.
   - type: checkboxes
     id: terms
     attributes:
