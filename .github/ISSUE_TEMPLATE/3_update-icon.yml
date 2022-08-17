@@ -8,7 +8,7 @@ body:
       value: |
         ### :loudspeaker: [Read our issue guidelines first](https://github.com/aegis-icons/aegis-icons/blob/master/CONTRIBUTING.md#issue-guidelines) if you haven't already!
         :angry: **If you don't read / follow the issue guidelines**, your issue(s) might **get rejected** and, *in the worse case*, **get you banned.**
-        *(Issue guidelines was last updated on: 2022-08-17).*
+          *(Issue guidelines was last updated on: **2022-08-17**).*
         
         *And do not request multiple icons in single issue, make multiple issues instead.*
         
@@ -60,7 +60,7 @@ body:
     id: anything-else
     attributes:
       label: Anything else?
-      description: Add other info, kudos etc.
+      description: "Optional text field to add other info: proof that 2FA exists in the site / app, extra info about branding, kudos etc."
   - type: markdown
     attributes:
       value: |
