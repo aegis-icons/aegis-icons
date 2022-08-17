@@ -413,7 +413,7 @@ NOTE: remember to link this section in the TOC when ready.
 -->
 
 ## Issue guidelines
-*(Issue guidelines was last updated in: 2022-08-17)*
+*(Issue guidelines was last updated on: 2022-08-17)*
 
 1. App / site related requests has to have Aegis-compatible 2FA support one way or another, this project does not make icons outside of Aegis usage.
    - **Don't lie**, we always double-check if requested service has 2FA support. You can add proof for the existence of Aegis-compatible 2FA to the issue form's "Anything else?" section.
