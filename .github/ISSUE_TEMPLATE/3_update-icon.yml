@@ -7,15 +7,16 @@ body:
     attributes:
       value: |
         ### :loudspeaker: [Read our issue guidelines first](https://github.com/aegis-icons/aegis-icons/blob/master/CONTRIBUTING.md#issue-guidelines) if you haven't already!
-        :angry: **If you don't read / follow the issue guidelines**, your issue(s) might **get rejected** and, *in the worse case*, **get you banned.**
+        :angry: **If you don't read / follow the issue guidelines**, your issue(s) might **get rejected** and, *in the worse case*, **get you banned.**<br>
+        *(Issue guidelines was last updated on: 2022-08-17).*
         
         *And do not request multiple icons in single issue, make multiple issues instead.*
         
         ### :triangular_flag_on_post: Issue title formatting *(top text field)*
         - Remember to **add name of the brand / site / app** at the end of *"Update icon:"* text.
           - Eg. `Update icon: GitHub`
-        - Do not change the formatting of the title!
         - Please use proper capitalization and spelling for the name (check the capitalization & spelling from their app / website).
+        - Do not change the formatting of the title!
   - type: input
     id: site_app-url
     attributes:
