@@ -35,7 +35,7 @@ It's **highly recommended** to also have some knowledge of graphic design and de
   - [Logos](#logos)
     - [Google searching tips](#google-searching-tips)
   - [Lists of sites supporting 2FA](#lists-of-sites-supporting-2fa)
-    - [Google search query for double-checking 2FA support](#google-search-query-for-double-checking-2fa-support)
+    - [Google search queries for double-checking 2FA support](#google-search-queries-for-double-checking-2fa-support)
   - [Software](#software)
 - [**Issue guidelines**](#issue-guidelines)
 - [**Footnotes**](#footnotes)
@@ -386,14 +386,20 @@ More resources at [LogoSearch's "Alternative Logo Sources"](https://logosear.ch/
 - `"app-or-site-name-here" svg` or `"app-or-site-name-here" vector`.
 
 ### Lists of sites supporting 2FA
-Need ideas for icons? These list apps / websites that support 2FA (and what kind of format too).
+Need to check if service has 2FA? These list apps / websites that support 2FA and in what kind of format.
 
-- [2FA Directory](https://2fa.directory/) (*[GitHub commits](https://github.com/2factorauth/twofactorauth/commits/master)*) :star:
-- [Authy - Guides](https://authy.com/guides/) :star:
+- [2FA Directory](https://2fa.directory/int/) (*[GitHub commits](https://github.com/2factorauth/twofactorauth/commits/master)*) :star:
+- [Authy - Guides](https://authy.com/guides/)
 
-#### _Google search query for double-checking 2FA support_
+#### _Google search queries for double-checking 2FA support_
 ```
-"app-or-site-name-here" AND 2fa OR mfa OR factor authentication OR step verification
+"app-or-site-name-here" AND 2fa OR mfa OR otp OR totp OR factor authentication OR step verification OR "time-based one-time"
+```
+
+or
+
+```
+site:https://official-domain-of-the-app-or-site.com/ 2fa OR mfa OR otp OR totp OR factor authentication OR step verification OR "time-based one-time"
 ```
 
 ### Software
