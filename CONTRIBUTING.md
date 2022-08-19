@@ -33,7 +33,7 @@ It's **highly recommended** to also have some knowledge of graphic design and de
   - [About PNGs](#about-pngs)
 - [**Resources**](#resources)
   - [Logos](#logos)
-    - [Google searching tips](#google-searching-tips)
+    - [Google tips for searching logos](#google-tips-for-searching-logos)
   - [Lists of sites supporting 2FA](#lists-of-sites-supporting-2fa)
     - [Google search queries for double-checking 2FA support](#google-search-queries-for-double-checking-2fa-support)
   - [Software](#software)
@@ -380,7 +380,7 @@ Resources for finding logos in vector format, when no official brand kit / vecto
 
 More resources at [LogoSearch's "Alternative Logo Sources"](https://logosear.ch/alternatives/) list.
 
-#### _Google searching tips_
+#### _Google tips for searching logos_
 - `logo site:offical-site-for-app-or-site.com`
 - `filetype:pdf site:offical-site-for-app-or-site.com` (you can rip vectors from PDF, really often logos in these PDFs are vector).
 - `"app-or-site-name-here" svg` or `"app-or-site-name-here" vector`.
