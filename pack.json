@@ -2154,6 +2154,13 @@
             ]
         },
         {
+            "filename": "SVG/Cloudron.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Cloudron"
+            ]
+        },
+        {
             "filename": "SVG/Clover.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2622,6 +2629,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Exaroton"
+            ]
+        },
+        {
+            "filename": "SVG/Exoscale.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Exoscale"
             ]
         },
         {
@@ -3228,6 +3242,13 @@
             ]
         },
         {
+            "filename": "SVG/IDrive.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "IDrive"
+            ]
+        },
+        {
             "filename": "SVG/IFTTT.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3771,6 +3792,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Mutasibank"
+            ]
+        },
+        {
+            "filename": "SVG/MxToolbox.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "MxToolbox"
             ]
         },
         {
@@ -5171,6 +5199,13 @@
             ]
         },
         {
+            "filename": "SVG/Time4VPS.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Time4VPS"
+            ]
+        },
+        { 
             "filename": "SVG/Ting.svg",
             "category": "1. Apps & Sites",
             "issuer": [
