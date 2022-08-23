@@ -4050,19 +4050,19 @@
         {
             "filename": "SVG/Nutstore.svg",
             "category": "1. Apps & Sites",
+                       
+                          
+             
+          
+         
+                                         
+                             
             "issuer": [
                 "Nutstore",
                 "Jianguoyun"
             ]
         },
         {
-                                         
-                             
-                       
-                        
-             
-          
-         
             "filename": "SVG/OKEx.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -5301,6 +5301,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Tresorit"
+            ]
+        },
+        {
+            "filename": "SVG/TruckersMP.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "TruckersMP"
             ]
         },
         {
