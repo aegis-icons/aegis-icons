@@ -38,6 +38,11 @@
 
 **And [special thanks to these contributors!](CREDITS-TO-CONTRIBUTORS.md)**
 
+## Alternative icon packs
+
+- [aegis-simple-icons](https://github.com/alexbakker/aegis-simple-icons) – Automatically generated icons based on [Simple Icons](https://simpleicons.org/).
+  - **Note:** *not all of the services with icons in this pack has Aegis-compatible 2FA support.*
+
 ## Disclaimer
 This project includes material that may be protected as a trademark in some jurisdictions. Trademarks seen here in "aegis-icons" project does not indicate endorsement to the brands. If you want to use icon(s) publicly, you have to ensure that you have the legal right to do so and that you do not infringe any trademark rights. Please do not use brand based icons for any purpose except to represent the company, product, or service to which they refer. The CC0 license applies only to templates, texts, codes and some of the icons. Everything else is either licensed (see the credits) or property of trademark owners. If you're owner of certain trademark(s) and want icon taken down for whatever reason, please [contact us](messageme.md).
 
