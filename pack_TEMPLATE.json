@@ -1416,6 +1416,13 @@
             ]
         },
         {
+            "filename": "SVG/23andMe.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "23andMe"
+            ]
+        },
+        {
             "filename": "SVG/3Commas.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2723,6 +2730,13 @@
             ]
         },
         {
+            "filename": "SVG/Fauna.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Fauna"
+            ]
+        },
+        {
             "filename": "SVG/Fedora.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3277,6 +3291,13 @@
             ]
         },
         {
+            "filename": "SVG/ImprovMX.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "ImprovMX"
+            ]
+        },
+        {
             "filename": "SVG/Indodax.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3561,6 +3582,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Localbitcoins"
+            ]
+        },
+        {
+            "filename": "SVG/Loket.nl.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Loket.nl"
             ]
         },
         {
