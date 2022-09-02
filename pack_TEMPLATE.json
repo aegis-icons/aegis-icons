@@ -1058,6 +1058,13 @@
             ]
         },
         {
+            "filename": "SVG/.Variations/Norton fg.var.svg",
+            "category": "2. Variations & Alts",
+            "issuer": [
+                "Norton"
+            ]
+        },
+        {
             "filename": "SVG/.Variations/NotABug.org bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
@@ -1118,6 +1125,13 @@
             "category": "2. Variations & Alts",
             "issuer": [
                 "Philips"
+            ]
+        },
+        {
+            "filename": "SVG/.Variations/PlanetScale bg.var.svg",
+            "category": "2. Variations & Alts",
+            "issuer": [
+                "PlanetScale"   
             ]
         },
         {
@@ -2709,6 +2723,13 @@
             ]
         },
         {
+            "filename": "SVG/Farmad.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Farmad"
+            ]
+        },
+        { 
             "filename": "SVG/Fastly.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4034,6 +4055,13 @@
             ]
         },
         {
+            "filename": "SVG/Norton.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Norton"
+            ]
+        },
+        {
             "filename": "SVG/NotABug.org.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4354,6 +4382,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Pixelfed"
+            ]
+        },
+        {
+            "filename": "SVG/PlanetScale.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "PlanetScale"
             ]
         },
         {
@@ -6019,6 +6054,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "omg.lol"
+            ]
+        },
+        {
+            "filename": "SVG/one.com.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "one.com"
             ]
         },
         {
