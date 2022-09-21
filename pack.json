@@ -1895,6 +1895,13 @@
             ]
         },
         {
+            "filename": "SVG/Blesta.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Blesta"
+            ]
+        },
+        {
             "filename": "SVG/BlockFi.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3809,6 +3816,13 @@
             ]
         },
         {
+            "filename": "SVG/Misskey.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Misskey"
+            ]
+        },
+        {
             "filename": "SVG/Mollie.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4413,6 +4427,13 @@
             ]
         },
         {
+            "filename": "SVG/Pleroma.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Pleroma"
+            ]
+        },
+        { 
             "filename": "SVG/Plex.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4601,6 +4622,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Rackspace"
+            ]
+        },
+        {
+            "filename": "SVG/RaiDrive.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "RaiDrive"
             ]
         },
         {
@@ -4876,6 +4904,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "SendGrid"
+            ]
+        },
+        {
+            "filename": "SVG/Sendinblue.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Sendinblue"
             ]
         },
         {
@@ -5301,6 +5336,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "TorrentBD"
+            ]
+        },
+        {
+            "filename": "SVG/Torum.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Torum"
             ]
         },
         {
