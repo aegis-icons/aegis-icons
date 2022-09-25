@@ -4,7 +4,7 @@ Thank you for taking the time to read and contribute to our project!
 *This documentation is long and comprehensive, because we strive for high quality for our icons and want to minimize extra work as much possible.*
 
 > **Warning** \
-> **For contributing, you must know basics of making / editing vectors with vector graphics editor** (there's instrutions for some steps, but not for absolute basics).
+> **For contributing, you must know basics of making / editing vectors with vector graphics editor** (there's instructions for some steps, but not for absolute basics).
 
 > **Note** \
 > It's **highly recommended** to also have some knowledge of graphic design and design in general.
@@ -243,7 +243,7 @@ When making icons, download and use provided [templates](/_templates).
 
 > **Note** \
 > **For Affinity Designer users:** \
-> Change "fill mode" of the logo vector and its parts from *"Winding (Non-Zero)"* **into** *"Alternative (Even-Odd)"* (*menu:* <kbd><i>Layer</i> ➜ <i>Fill Mode</i></kbd>). Why? Because it creates CSS rules we don't want for our SVGs and want everything to contain by the vector path.
+> Change "fill mode" of the logo vector and its parts from *"Winding (Non-Zero)"* **into** *"Alternative (Even-Odd)"* (*menu:* <kbd><i>Layer</i> ➜ <i>Fill Mode</i></kbd>). Otherwise it creates CSS rules we don't want for our SVGs and we want everything to contain by the vector path.
 
 ### Colors
 - **Never use white as background** (abbreviation: *BG*), white is always preserved for logo (a.k.a. *foreground*, short for *FG*).
