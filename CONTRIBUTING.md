@@ -107,7 +107,7 @@ Lists of softwares that are suitable for making vectors (and opposite).
 
 If your software isn't listed here, **check your software's website.**
 
-**If it mentions** being *"vector graphics editor"* (and **not** *"photo / image editor"*), then it most like is okay as long as it can save vectors as SVG.
+**If it mentions** being *"vector graphics editor"* (and **not** *"photo / image editor"*), then it most likely is okay as long as it can save vectors as SVG.
 
 #### _Prohibited_
 :x: *Some* of the softwares we don't approve, **change to one of the allowed softwares or cancel the making of the icon.**
