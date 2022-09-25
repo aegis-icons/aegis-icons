@@ -1402,6 +1402,20 @@
             ]
         },
         {
+            "filename": "SVG/.Variations/XGo bg.var.svg",
+            "category": "2. Variations & Alts",
+            "issuer": [
+                "XGo"
+            ]
+        },
+        {
+            "filename": "SVG/.Variations/XGo fg.bg.var.svg",
+            "category": "2. Variations & Alts",
+            "issuer": [
+                "XGo"
+            ]
+        },
+        { 
             "filename": "SVG/.Variations/You Need A Budget alt.svg",
             "category": "2. Variations & Alts",
             "issuer": [
@@ -3718,6 +3732,13 @@
             ]
         },
         {
+            "filename": "SVG/MEXC.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "MEXC"
+            ]
+        },
+        {
             "filename": "SVG/MXroute.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -5864,6 +5885,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "XDA Developers"
+            ]
+        },
+        {
+            "filename": "SVG/XGo.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "XGo"
             ]
         },
         {
