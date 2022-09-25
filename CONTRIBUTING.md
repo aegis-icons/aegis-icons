@@ -3,9 +3,11 @@ Thank you for taking the time to read and contribute to our project!
 
 *This documentation is long and comprehensive, because we strive for high quality for our icons and want to minimize extra work as much possible.*
 
-:warning: **For contributing, you must know basics of making / editing vectors with vector graphics editor** (there's instrutions for some steps, but not for absolute basics).
+> **Warning** \
+> **For contributing, you must know basics of making / editing vectors with vector graphics editor** (there's instrutions for some steps, but not for absolute basics).
 
-It's **highly recommended** to also have some knowledge of graphic design and design in general.
+> **Note** \
+> It's **highly recommended** to also have some knowledge of graphic design and design in general.
 
 ---
 
@@ -104,9 +106,9 @@ Lists of softwares that are suitable for making vectors (and opposite).
 - [Figma](https://www.figma.com/) (more known as interface design tool, but has good enough vector functions for making icons as well)
 - [Inkscape](https://inkscape.org/) (popular open source option)
 
-> :information_source: *This list isn't comprehensive.*
+:information_source: *This list isn't comprehensive.*
 
-If your software isn't listed here, **check your software's website.**
+If your software isn't listed in here or prohibited section, **check your software's website.**
 
 **If it mentions** being *"vector graphics editor"* (and **not** *"photo / image editor"*), then it most likely is okay as long as it can save vectors as SVG.
 
@@ -120,6 +122,10 @@ If your software isn't listed here, **check your software's website.**
 - Krita
 - Paint.NET
 - [(And more...)](https://en.wikipedia.org/wiki/Comparison_of_raster_graphics_editors#List)
+
+These softwares are mostly for photo / image editing and aren't designed for vector creating.
+
+Some of the softwares might have some basic vector editing capabilities, but aren't good enough for eg. combining logos into one path or creating SVGs without lot of bloat code.
 
 ### Repository submitting options
 Before creating icons, you have decide which way you want to submit your icon creations:
@@ -140,7 +146,8 @@ Before creating icons, you have decide which way you want to submit your icon cr
 ### Finding source images
 Search through the logo resources to find a vector-based image (SVG, AI, EPS, PDF).
 
-:warning: Never use JPG / PNG / GIF / WebP or other raster images **(as is)!**
+> **Warning** \
+> Never use JPG / PNG / GIF / WebP or other raster images **(as is)!**
 
 *Here are things you can check, go these options in order:*
 
@@ -169,9 +176,11 @@ Search through the logo resources to find a vector-based image (SVG, AI, EPS, PD
   - Illustrator & Inkscape has image tracing tools, but we really don't recommend them. Usually results varies from really bad to somewhat decent.
 - **Making vectorized logo from scratch** is also option, if you're skilled and patient enough.
 
-> :information_source: Is the SVG file broken? [SVG compression with SVGO or SVGOMG](#svg-compression--cleanup) just might fix it.
+> **Note** \
+> Is the SVG file broken? [SVG compression with SVGO or SVGOMG](#svg-compression--cleanup) just might fix it.
 
-> :warning: Watch out for SVGs that are using raster graphics ([example](https://github.com/haiwen/seafile-client/blob/7d8f06111960921ce01ef08e169d41bae13959ed/data/icons/scalable/apps/seafile.svg?short_path=d0d75d2#L54-L218)). These are not common, but does exist.
+> **Warning** \
+> Watch out for SVGs that are using raster graphics ([example](https://github.com/haiwen/seafile-client/blob/7d8f06111960921ce01ef08e169d41bae13959ed/data/icons/scalable/apps/seafile.svg?short_path=d0d75d2#L54-L218)). These are not common, but does exist.
 
 ### Templates
 When making icons, download and use provided [templates](/_templates).
@@ -232,7 +241,9 @@ When making icons, download and use provided [templates](/_templates).
 4. "Union" the objects to together (*menu:* <kbd><i>Path</i> ➜ <i>Union</i></kbd>).
 </details>
 
-- :memo: **Note for Affinity Designer users:** change "fill mode" of the logo vector and its parts from *"Winding (Non-Zero)"* **into** *"Alternative (Even-Odd)"* (*menu:* <kbd><i>Layer</i> ➜ <i>Fill Mode</i></kbd>). Why? Because it creates CSS rules we don't want for our SVGs and want everything to contain by the path.
+> **Note** \
+> **For Affinity Designer users:** \
+> Change "fill mode" of the logo vector and its parts from *"Winding (Non-Zero)"* **into** *"Alternative (Even-Odd)"* (*menu:* <kbd><i>Layer</i> ➜ <i>Fill Mode</i></kbd>). Why? Because it creates CSS rules we don't want for our SVGs and want everything to contain by the vector path.
 
 ### Colors
 - **Never use white as background** (abbreviation: *BG*), white is always preserved for logo (a.k.a. *foreground*, short for *FG*).
@@ -252,6 +263,7 @@ When making icons, download and use provided [templates](/_templates).
   - Templates `ai_template_generic.ait` & `svg_template_generic.svg` already has correct background color set.
   
 ### bg.var, fg.var & fg.bg.var icons
+> **Note** \
 > `var` is abbreviation of *variation*.
 
 - `bg.var` icons are for dark / AMOLED themes. These are made when **primary icon has dark background that blends in when using the darker theme.**
@@ -330,15 +342,15 @@ Next, do SVG compression & cleanup.
 ```
 <sup>🡱&nbsp;&nbsp;&nbsp; SVG code formatting example</sup>
 
-- :warning: Checklist for SVG formatting:
+- :spiral_notepad: Checklist for SVG formatting:
   - Check that the **indentation is 3 spaces** (important if you used SVGOMG).
   - Check that the **order of the all the [elements](https://developer.mozilla.org/en-US/docs/Web/SVG/Element) and [attributes](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute) is EXACTLY same** as the *SVG code formatting example*.
   - Check that possible `fill="` **prefixes are changed to** `style="fill:`
   - **Remove all the [elements](https://developer.mozilla.org/en-US/docs/Web/SVG/Element) and [attributes](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute) that aren't featured** in the *SVG code formatting example*.
+  - *See the [example SVG code after manual cleanup](https://github.com/aegis-icons/misc/commit/c0128f61f0d2b88d5953881699955a4a17477e47?diff=split) for aimed optimal result.*
 
-:mag: **Test the SVG on web browser** that it still works after edits! (drag-and-drop SVG to tab bar or *shortcut:* <kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>O</kbd>).
-
-> :broom: *[Example SVG diff of manual cleanup with notes](https://github.com/aegis-icons/misc/commit/c0128f61f0d2b88d5953881699955a4a17477e47?diff=split).*
+> **Note** \
+> **Test the SVG on the web browser** that it still works after edits! (drag-and-drop SVG to tab bar or *shortcut:* <kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>O</kbd>).
 
 When everything is done and ready to go, [submit icons with either as pull request or issue](#repository-submitting-options).
 
@@ -351,9 +363,12 @@ When everything is done and ready to go, [submit icons with either as pull reque
 - For outdated icons, see [new versions, version naming and organizing old files](#new-versions-version-naming-and-organizing-old-files) section.
 
 ### Filename
-:warning: When naming brand based icon(s), check how brand capitalised and spell the name from their app / website.
+> **Warning** \
+> When naming brand based icon(s), check how brand capitalised and spell the name from their app / website.
 
-:information_source: **Filename character limitations:** only use [ISO basic Latin alphabet letters](https://en.wikipedia.org/wiki/ISO_basic_Latin_alphabet), numbers, spaces and safe ASCII characters ([list of forbidden characters](https://stackoverflow.com/a/31976060)).
+> **Note** \
+> **Filename character limitations:** \
+> Only use [ISO basic Latin alphabet letters](https://simple.wikipedia.org/wiki/ISO_basic_Latin_alphabet), numbers, spaces, dashes and other safe ASCII characters ([list of forbidden characters](https://stackoverflow.com/questions/1976007/what-characters-are-forbidden-in-windows-and-linux-directory-names/31976060#31976060)).
 
   - Primary icon:
     - `[Company / product / app / site name].<ext>`
@@ -398,7 +413,8 @@ Resources marked with star (:star:) are recommended / most used by the maintaine
 ### Logos
 Resources for finding logos in vector format, when no official brand kit / vector logos are available.
 
-:warning: **Remember to always double check if logo provided by these resources is the latest one company uses!**
+> **Warning** \
+> Remember to always double check if logo provided by these resources is the latest one company uses!
 
 - [Brandfetch](https://brandfetch.com/) (not always accurate results)
 - [LogoSearch](https://logosear.ch/) :star:
@@ -424,13 +440,13 @@ Need to check if service has 2FA? These list apps / websites that support 2FA an
 
 #### _Google search queries for double-checking 2FA support_
 ```
-"app-or-site-name-here" AND 2fa OR mfa OR otp OR totp OR factor authentication OR step verification OR "time-based one-time"
+"app-or-site-name-here" AND 2fa OR mfa OR otp OR totp OR factor authentication OR step verification OR "time-based one-time" OR two-factor
 ```
 
 or
 
 ```
-site:https://official-domain-of-the-app-or-site.com/ 2fa OR mfa OR otp OR totp OR factor authentication OR step verification OR "time-based one-time"
+site:https://official-domain-of-the-app-or-site.com/ 2fa OR mfa OR otp OR totp OR factor authentication OR step verification OR "time-based one-time" OR two-factor
 ```
 
 <!--
