@@ -101,6 +101,7 @@ Lists of softwares that are suitable for making vectors (and opposite).
 
 - [Adobe Illustrator](https://www.adobe.com/products/illustrator.html) (industry standard, most used software in this repository)
 - [Affinity Designer](https://affinity.serif.com/designer/) (way cheaper but powerful and better alternatives to Illustrator)
+- [Figma](https://www.figma.com/) (more known as interface design tool, but has good enough vector functions for making icons as well)
 - [Inkscape](https://inkscape.org/) (popular open source option)
 
 > :information_source: *This list isn't comprehensive.*
