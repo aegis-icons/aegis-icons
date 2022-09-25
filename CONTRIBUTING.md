@@ -15,6 +15,9 @@ It's **highly recommended** to also have some knowledge of graphic design and de
   - [Case-by-case basis](#case-by-case-basis)
   - [Not approved](#not-approved)
 - [**Icon creation walkthrough**](#icon-creation-walkthrough)
+  - [Software](#software)
+    - [Allowed](#allowed)
+    - [Prohibited](#prohibited)
   - [Repository submitting options](#repository-submitting-options)
   - [Finding source images](#finding-source-images)
   - [Templates](#templates)
@@ -89,6 +92,33 @@ Before making or requesting an icon for app / site, please check if it fits our 
   - You need to design the icon yourself for submissions!
 
 ## Icon creation walkthrough
+
+### Software
+Lists of softwares that are suitable for making vectors (and opposite).
+
+#### _Allowed_
+:heavy_check_mark: Most used and approved software.
+
+- [Adobe Illustrator](https://www.adobe.com/products/illustrator.html) (industry standard, most used software in this repository)
+- [Affinity Designer](https://affinity.serif.com/designer/) (way cheaper but powerful and better alternatives to Illustrator)
+- [Inkscape](https://inkscape.org/) (popular open source option)
+
+> :information_source: *This list isn't comprehensive.*
+
+If your software isn't listed here, **check your software's website.**
+
+**If it mentions** being *"vector graphics editor"* (and **not** *"photo / image editor"*), then it most like is okay as long as it can save vectors as SVG.
+
+#### _Prohibited_
+:x: *Some* of the softwares we don't approve, **change to one of the allowed softwares or cancel the making of the icon.**
+
+- Adobe Photoshop
+- Affinity Photo
+- Clip Studio Paint
+- GIMP
+- Krita
+- Paint.NET
+- [(And more...)](https://en.wikipedia.org/wiki/Comparison_of_raster_graphics_editors#List)
 
 ### Repository submitting options
 Before creating icons, you have decide which way you want to submit your icon creations:
@@ -401,13 +431,6 @@ or
 ```
 site:https://official-domain-of-the-app-or-site.com/ 2fa OR mfa OR otp OR totp OR factor authentication OR step verification OR "time-based one-time"
 ```
-
-### Software
-Looking for software to start make icons? Here's some of the well known ones.
-
-- [Adobe Illustrator](https://www.adobe.com/products/illustrator.html) :star: (industry standard, most used software in this repository)
-- [Affinity Designer](https://affinity.serif.com/designer/) :star: (way cheaper but powerful alternative to Illustrator)
-- [Inkscape](https://inkscape.org/) (popular open source option)
 
 <!--
 ## Maintainer's Guide
