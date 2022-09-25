@@ -39,7 +39,7 @@ If you want name changed or deleted, [please make a new issue](https://github.co
 - **[gr99t](https://github.com/gr99t)**
   - For *Packagist* icon ([#270](https://github.com/aegis-icons/aegis-icons/issues/270)).
 - **[HodlerTurker](https://github.com/HodlerTurker)** (Turker)
-  - For these icons: *MEXC* ([#683](https://github.com/aegis-icons/aegis-icons/issues/683)), *XGo* ([#682](https://github.com/aegis-icons/aegis-icons/issues/682)).
+  - For these icons: *XGo* ([#682](https://github.com/aegis-icons/aegis-icons/issues/682)), *MEXC* ([#683](https://github.com/aegis-icons/aegis-icons/issues/683)).
 - **[IamRifki](https://github.com/IamRifki)** (Dania Rifki)
   - For *Tokopedia* icon ([#84](https://github.com/aegis-icons/aegis-icons/pull/84)).
 - **[ixti](https://github.com/ixti)** (Alexey Zapparov)
