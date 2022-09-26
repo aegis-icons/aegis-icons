@@ -71,7 +71,7 @@ Before making or requesting an icon for app / site, please check if it fits our 
 - Self-hosted or similar software.
   - Suggested to have ≥ 500 GitHub / Gitlab stars or other non-maintainer activity to back it up.
   - If things previously mentioned aren't available, then we measure popularity based of search results.
-- Adult content platforms / services, piracy related apps / sites.
+- Adult content, piracy & gambling related sites / apps / services.
   - Mostly okay here, **but** it cannot break **any** of the "not approved" bullet points.
 - App / site being too vague.
   - *Examples (not limited to):* site only has login page and nothing else, search results don't answer what that app / site is either.
