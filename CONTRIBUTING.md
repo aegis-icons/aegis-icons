@@ -77,7 +77,7 @@ Before making or requesting an icon for app / site, please check if it fits our 
   - *Examples (not limited to):* site only has login page and nothing else, search results don't answer what that app / site is either.
   - It's not enough that you tell what the app / site does, we need at least **some** evidence from the web. Otherwise it counts as *"suspiciously shady"*.
 - Ad networks.
-  - Most of them belongs to *"suspiciously shady"* category, because often these services violate privacy on other users expense and trick users for unwanted things.
+  - Most of them belongs to *shady apps / sites* category, because often these services violate privacy on other users expense and trick users for unwanted things.
   - *Exception:* ad networks with ethical standpoints (minimal or no user tracking / data collecting, no dark patterns, high advertiser monitoring etc).
 
 ### Not approved
@@ -87,7 +87,7 @@ Before making or requesting an icon for app / site, please check if it fits our 
   - Also when service has officially discontinued 3rd party 2FA support (only supporting legacy users) and no known workaround for new users.
 - Platforms having massive hate speech group following and poor moderation (a.k.a. "Alt-tech").
   - *Examples (not limited to):* [most of the platforms listed here](https://en.wikipedia.org/wiki/Alt-tech#Platforms).
-- Obvious scams or other suspiciously shady apps / sites.
+- Obvious scams or other shady apps / sites.
 - Apps / sites focusing on **highly** immoral and illegal activity / material.
   - *Examples (not limited to):* black hat hacking, malware, malvertising, money laundering, illegal sexual material / services, harassment / cyberbullying etc.
 - :information_source: **Only for icon submissions:** submitting unmodified SVGs / [raster images](https://simple.wikipedia.org/wiki/Raster_graphics) from the web.
