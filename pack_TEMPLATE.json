@@ -2919,6 +2919,13 @@
             ]
         },
         {
+            "filename": "SVG/Flourish.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Flourish"
+            ]
+        },
+        {
             "filename": "SVG/Focusrite.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -5242,6 +5249,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Stripe"
+            ]
+        },
+        {
+            "filename": "SVG/Substack.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Substack"
             ]
         },
         {
