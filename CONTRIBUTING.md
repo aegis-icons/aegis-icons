@@ -4,10 +4,11 @@ Thank you for taking the time to read and contribute to our project!
 *This documentation is long and comprehensive, because we strive for high quality for our icons and want to minimize extra work as much possible.*
 
 > **Warning** \
-> **For contributing, you must know basics of making / editing vectors with vector graphics editor** (there's instructions for some steps, but not for absolute basics).
+> For contributing, you **must know basics of making / editing vectors with vector graphics editor** (see the [software](#software) section).\
+> There's instructions for some steps, but not for everything.
 
 > **Note** \
-> It's **highly recommended** to also have some knowledge of graphic design and design in general.
+> It's **highly recommended** to also have some **knowledge of graphic design** and design in general.
 
 ---
 
@@ -90,8 +91,8 @@ Before making or requesting an icon for app / site, please check if it fits our 
 - Obvious scams or other shady apps / sites.
 - Apps / sites focusing on **highly** immoral and illegal activity / material.
   - *Examples (not limited to):* black hat hacking, malware, malvertising, money laundering, illegal sexual material / services, harassment / cyberbullying etc.
-- :information_source: **Only for icon submissions:** submitting unmodified SVGs / [raster images](https://simple.wikipedia.org/wiki/Raster_graphics) from the web.
-  - You need to design the icon yourself for submissions!
+- :warning: **Only for icon submissions:** submitting unmodified SVGs / [raster images](https://simple.wikipedia.org/wiki/Raster_graphics) from the web.
+  - You'll need to design the icon **yourself** for submissions!
 
 ## Icon creation walkthrough
 
@@ -128,22 +129,23 @@ If your software isn't listed in here or prohibited section, **check your softwa
 
 These softwares are mostly for photo / image editing and aren't designed for vector creating.
 
-Some of the softwares might have some basic vector editing capabilities, but aren't good enough for eg. combining logos into one path or creating SVGs without lot of bloat code.
+Some of the softwares might have some basic vector editing capabilities, but aren't good enough for e.g. combining logos into one path or creating SVGs without lot of bloat code.
 
 ### Repository submitting options
 Before creating icons, you have decide which way you want to submit your icon creations:
 
 - **Option 1:** Fork this project and submit it via pull request *a.k.a. PR* **(recommended)**.
-  - We recommend [GitHub Desktop](https://desktop.github.com/) GUI software for this.
-  - [How to fork the project in GitHub Desktop](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories/cloning-and-forking-repositories-from-github-desktop#forking-a-repository).
-  - Creating changes in **new branch(es)** instead of using `master` branch is **highly recommended**.
-    - This way, you can submit multiple PRs with ease and aegis-icons's own `master` branch changes aren't in your way.
-    - [Creating and managing branches in GitHub Desktop](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/making-changes-in-a-branch/managing-branches).
-  - [Creating new commits in GitHub Desktop](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/making-changes-in-a-branch/committing-and-reviewing-changes-to-your-project#write-a-commit-message-and-push-your-changes).
-  - And when you're ready, [create a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request).
+  - :information_source: We recommend [GitHub Desktop](https://desktop.github.com/) GUI software, if you're new to this.
+  - First, **fork the project** ([how to fork the project in GitHub Desktop](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories/cloning-and-forking-repositories-from-github-desktop#forking-a-repository)).
+  - Sidenote: **creating changes in new branch(es)** instead of using `master` branch is **highly recommended**.
+    - This way, for example, you can submit multiple PRs with ease and aegis-icons's own `master` branch updates aren't in your way.
+    - [Creating branches in GitHub Desktop](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/making-changes-in-a-branch/managing-branches#creating-a-branch) (remember to also [publish that branch](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/making-changes-in-a-branch/managing-branches#publishing-a-branch) after creating one).
+  - When icon is finished, fixed, tweaked or have any new changes, **create new commit** ([creating new commits in GitHub Desktop](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/making-changes-in-a-branch/committing-and-reviewing-changes-to-your-project#write-a-commit-message-and-push-your-changes)).
+  - And when you're finally ready to submit for aegis-icons, **[create a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request).**
+    - [Quick link for aegis-icons's PR submission page](https://github.com/aegis-icons/aegis-icons/compare).
 
 - **Option 2:** Submit your icon for review by [opening a new issue](../../issues/new/choose) (select "Icon submission") and add your file(s) / info.
-  - This is easiest option, but can become more complicated route later on if new changes are needed.
+  - This is the easiest option, but can become more complicated route later on if new changes are needed.
   - Submitting via new issue is also more inconvenient to the maintainers.
 
 ### Finding source images
@@ -180,7 +182,8 @@ Search through the logo resources to find a vector-based image (SVG, AI, EPS, PD
 - **Making vectorized logo from scratch** is also option, if you're skilled and patient enough.
 
 > **Note** \
-> Is the SVG file broken? [SVG compression with SVGO or SVGOMG](#svg-compression--cleanup) just might fix it.
+> Is the SVG file broken? [SVG compression with SVGO or SVGOMG](#svg-compression--cleanup) just might fix it. \
+> If that doesn't work, try [SVG2SVG](https://svgworkaroundbot.toolforge.org/) tool instead (check the first two checkboxes).
 
 > **Warning** \
 > Watch out for SVGs that are using raster graphics ([example](https://github.com/haiwen/seafile-client/blob/7d8f06111960921ce01ef08e169d41bae13959ed/data/icons/scalable/apps/seafile.svg?short_path=d0d75d2#L54-L218)). These are not common, but does exist.
@@ -305,7 +308,9 @@ Just change the logo for alternative version.
   - [Cryptocurrency Icons](http://cryptoicons.co/) ([link to SVG directory](https://github.com/spothq/cryptocurrency-icons/tree/master/svg/black), when neither of the icon libraries has icon for cryptocurrency).
 
 ### Save and export
-- :information_source: Read the info about naming at the [filename](#filename) section.
+> **Note** \
+> Please read the info about naming at the [filename](#filename) section.
+
 - If you're using **Adobe Illustrator CC 2017 or newer**, save the file as SVG with *"Export for Screens"* option (*shortcut:* <kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>Alt [⌥ Option]</kbd>+<kbd>E</kbd> or *menu:* <kbd><i>File</i> ➜ <i>Export</i> ➜ <i>Export for Screens...</i></kbd>) with [these settings](https://raw.githubusercontent.com/aegis-icons/misc/main/screenshots/contributing_007.png).
   - **For older Illustrator versions,** [check the other methods mentioned here](https://css-tricks.com/illustrator-to-svg/) <sup>[[wayback machine](https://web.archive.org/web/20220425015517/https://css-tricks.com/illustrator-to-svg/)]</sup>
   - We also recommend saving it (temporarily) to `ai` file format for making edit requests faster and easier to do.
@@ -343,7 +348,7 @@ Next, do SVG compression & cleanup.
    <path d="PRETTY-LONG-LOGO-PATH" style="fill:#LOGO-HEX-COLOR"/>
 </svg>
 ```
-<sup>🡱&nbsp;&nbsp;&nbsp; SVG code formatting example</sup>
+<sup>▲&nbsp;&nbsp;&nbsp; *SVG code formatting example*</sup>
 
 - :spiral_notepad: Checklist for SVG formatting:
   - Check that the **indentation is 3 spaces** (important if you used SVGOMG).
@@ -371,29 +376,29 @@ When everything is done and ready to go, [submit icons with either as pull reque
 
 > **Note** \
 > **Filename character limitations:** \
-> Only use [ISO basic Latin alphabet letters](https://simple.wikipedia.org/wiki/ISO_basic_Latin_alphabet), numbers, spaces, dashes and other safe ASCII characters ([list of forbidden characters](https://stackoverflow.com/questions/1976007/what-characters-are-forbidden-in-windows-and-linux-directory-names/31976060#31976060)).
+> Only use [ISO basic Latin alphabet letters](https://simple.wikipedia.org/wiki/ISO_basic_Latin_alphabet), numbers, spaces, dashes and other safe ASCII characters ([list of forbidden ASCII](https://stackoverflow.com/questions/1976007/what-characters-are-forbidden-in-windows-and-linux-directory-names/31976060#31976060)).
 
-  - Primary icon:
-    - `[Company / product / app / site name].<ext>`
-    - *Examples:* `Adobe.svg`, `Best Buy.svg`, `FACEIT.svg`, `itch.io.svg`
-  - Icon variations with alternate logo:
-    - `[Primary icon name] alt.<ext>`
-    - *Example:* `IVPN alt.svg`
-  - Icon variations with black foreground or different background color:
-    - `[Primary icon name] bg.var.<ext>`
-    - `[Primary icon name] fg.var.<ext>`
-    - *Examples:* `Squarespace bg.var.svg`, `Snapchat fg.var.svg`
-  - Icon variations with black foreground **and** different background color:
-    - `[Primary icon name] fg.bg.var.<ext>`
-    - *Example:* `Lichess fg.bg.var.svg`
-  - Alt. icons with black foreground **or/and** different background color:
-    - `[Primary icon name] alt bg.var.<ext>`
-    - `[Primary icon name] alt fg.var.<ext>`
-    - `[Primary icon name] alt fg.bg.var.<ext>`
-    - *Example:* `Discourse alt bg.var.svg`
-  - Generic icon: 
-    - *Name as what the icon symbolizes with big capital letter.*
-    - *Example:* `Cloud.svg`
+- Primary icon:
+  - `[Company / product / app / site name].<ext>`
+  - *Examples:* `Adobe.svg`, `Best Buy.svg`, `FACEIT.svg`, `itch.io.svg`
+- Icon variations with alternate logo:
+  - `[Primary icon name] alt.<ext>`
+  - *Example:* `IVPN alt.svg`
+- Icon variations with black foreground or different background color:
+  - `[Primary icon name] bg.var.<ext>`
+  - `[Primary icon name] fg.var.<ext>`
+  - *Examples:* `Squarespace bg.var.svg`, `Snapchat fg.var.svg`
+- Icon variations with black foreground **and** different background color:
+  - `[Primary icon name] fg.bg.var.<ext>`
+  - *Example:* `Lichess fg.bg.var.svg`
+- Alt. icons with black foreground **or/and** different background color:
+  - `[Primary icon name] alt bg.var.<ext>`
+  - `[Primary icon name] alt fg.var.<ext>`
+  - `[Primary icon name] alt fg.bg.var.<ext>`
+  - *Example:* `Discourse alt bg.var.svg`
+- Generic icon: 
+  - *Name as what the icon symbolizes with big capital letter.*
+  - *Example:* `Cloud.svg`
     
 #### _New versions, version naming and organizing old files_
 - New versions of icons are only made when it's major change (new logo or brand color).
