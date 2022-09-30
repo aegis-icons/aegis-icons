@@ -182,8 +182,7 @@ Search through the logo resources to find a vector-based image (SVG, AI, EPS, PD
 - **Making vectorized logo from scratch** is also option, if you're skilled and patient enough.
 
 > **Note** \
-> Is the SVG file broken? [SVG compression with SVGO or SVGOMG](#svg-compression--cleanup) just might fix it. \
-> If that doesn't work, try [SVG2SVG](https://svgworkaroundbot.toolforge.org/) tool instead (check the first two checkboxes).
+> Is the SVG file broken? [SVG compression with SVGO or SVGOMG](#svg-compression--cleanup) might just fix it.
 
 > **Warning** \
 > Watch out for SVGs that are using raster graphics ([example](https://github.com/haiwen/seafile-client/blob/7d8f06111960921ce01ef08e169d41bae13959ed/data/icons/scalable/apps/seafile.svg?short_path=d0d75d2#L54-L218)). These are not common, but does exist.
