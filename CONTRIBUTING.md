@@ -22,6 +22,7 @@ Thank you for taking the time to read and contribute to our project!
     - [Allowed](#allowed)
     - [Prohibited](#prohibited)
   - [Repository submitting options](#repository-submitting-options)
+    - [Filling requests](#filling-requests)
   - [Finding source images](#finding-source-images)
   - [Templates](#templates)
   - [Layout](#layout)
@@ -148,6 +149,10 @@ Before creating icons, you have decide which way you want to submit your icon cr
   - This is the easiest option, but can become more complicated route later on if new changes are needed.
   - Submitting via new issue is also more inconvenient to the maintainers.
 
+#### _Filling requests_
+
+To ensure that icons have been made correctly based of the CONTRIBUTING guidelines, **we require all the contributers to create submission issue or pull request for filling requests** (excludes organization members).
+
 ### Finding source images
 Search through the logo resources to find a vector-based image (SVG, AI, EPS, PDF).
 
@@ -212,7 +217,7 @@ When making icons, download and use provided [templates](/_templates).
 - **Compare your creation to other icons**, try to keep logo size visually consistent to other icons.
 
 ### Vectors
-- Logo must be in **single** path / compound path / object:
+- :warning: Logo must be in **single** path / compound path / object:
 
 <details>
 <summary>In <i>Adobe Illustrator</i> (click to reveal)</summary>
@@ -246,8 +251,7 @@ When making icons, download and use provided [templates](/_templates).
 4. "Union" the objects to together (*menu:* <kbd><i>Path</i> ➜ <i>Union</i></kbd>).
 </details>
 
-> **Note** \
-> **For Affinity Designer users:** \
+> **Note** – **For Affinity Designer users:** \
 > Change "fill mode" of the logo vector and its parts from *"Winding (Non-Zero)"* **into** *"Alternative (Even-Odd)"* (*menu:* <kbd><i>Layer</i> ➜ <i>Fill Mode</i></kbd>). Otherwise it creates CSS rules we don't want for our SVGs and we want everything to contain by the vector path.
 
 ### Colors
@@ -373,8 +377,7 @@ When everything is done and ready to go, [submit icons with either as pull reque
 > **Warning** \
 > When naming brand based icon(s), check how brand capitalised and spell the name from their app / website.
 
-> **Note** \
-> **Filename character limitations:** \
+> **Note** – **Filename character limitations:** \
 > Only use [ISO basic Latin alphabet letters](https://simple.wikipedia.org/wiki/ISO_basic_Latin_alphabet), numbers, spaces, dashes and other safe ASCII characters ([list of forbidden ASCII](https://stackoverflow.com/questions/1976007/what-characters-are-forbidden-in-windows-and-linux-directory-names/31976060#31976060)).
 
 - Primary icon:
