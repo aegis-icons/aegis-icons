@@ -3495,6 +3495,13 @@
             ]
         },
         {
+            "filename": "SVG/Johns Hopkins.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Johns Hopkins"
+            ]
+        },
+        { 
             "filename": "SVG/Joker.com.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4063,6 +4070,13 @@
             ]
         },
         {
+            "filename": "SVG/NearlyFreeSpeech.NET.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "NearlyFreeSpeech.NET"
+            ]
+        },
+        { 
             "filename": "SVG/Neeva.svg",
             "category": "1. Apps & Sites",
             "issuer": [
