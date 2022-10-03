@@ -39,7 +39,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        > **Note** – Only text input allowed for this text area, **don't [attact files](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/attaching-files)**. Thanks!
+        > **Note** – Only text input allowed for this text area, **don't [attach files](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/attaching-files)**. Thanks!
         
         **For example:**
         
