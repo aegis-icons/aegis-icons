@@ -30,7 +30,7 @@ body:
     attributes:
       value: |
         :warning: **Required**, unless it's generic icon.
-  - type: input
+  - type: textarea
     id: logo-url
     attributes:
       label: Logo / icon info
@@ -38,7 +38,9 @@ body:
       required: true
   - type: markdown
     attributes:
-      value: |        
+      value: |
+        > **Note** – Only text input allowed for this text area, thanks!
+        
         **For example:**
         
         - Direct URL of the press kit / branding page *(most prefered)*, logo vector file or [logo resource page](https://github.com/aegis-icons/aegis-icons/blob/master/CONTRIBUTING.md#logos)
@@ -59,8 +61,10 @@ body:
       label: Background color info
   - type: markdown
     attributes:
-      value: |        
+      value: |
         :warning: **Required**, unless it's generic icon.
+        
+        > **Note** – Only text input allowed for this text area, thanks!
         
         Fill this form based of this information:
         - *Is the color taken somewhere from the logo?*
