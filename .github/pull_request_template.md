@@ -1,6 +1,6 @@
 <!--
 🔔 If you're SUBMITTING ICON, read this PR template CAREFULLY and follow the instructions!
-     - But if your pull request DOESN'T relate to icon submissions, you can ignore all of this and make PR from scratch.
+     - But if your pull request DOESN'T relate to icon submissions, you can ignore all of this (even the CONTRIBUTING check) and make PR from scratch.
 
 ========== PULL REQUEST TITLE FORMAT ==========
 Copy-paste one of these formats (the text inside of quotes)
@@ -48,7 +48,7 @@ For example:
 - If it's generic icon ➜
     ❝  [Icon name] from Unicons / Feather / Lucide / Cryptocurrency Icons  ❞
 
-❌ IT CANNOT BE COPY-PASTE OF THE "URL of the site or app" PART. -->
+❌ IT CANNOT BE JUST COPY-PASTE OF THE "URL of the site or app" PART. -->
 
 **Background color info:**
 
@@ -56,12 +56,12 @@ For example:
 
 Fill this part based of this information:
 - Is the color taken somewhere from the logo?
-   - If YES, then add this text ➜
-      ❝  Background color is from the logo.  ❞
+   - If YES, then add & edit this text for eg ➜
+      ❝  Background color is from the logo (`#add-hex-color-code-here`).  ❞
 - Is color taken from the mentioned app / site? (And not from logo)
    - If YES, then do either/all of these things:
       - Upload screenshot of the area where you got the color AND give URL of the page (unless it's from app)
          - How to upload screenshot: https://is.gd/github_attach_files
       - Give the HTML element name (eg. #footer) AND also URL of the page.
-      
+
 After this line, you can now comment freely. Thank you for following the instructions. -->

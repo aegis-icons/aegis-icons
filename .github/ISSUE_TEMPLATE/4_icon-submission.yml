@@ -52,7 +52,7 @@ body:
         - *If it's generic icon:*
           - `[Icon name] from Unicons / Feather / Lucide / Cryptocurrency Icons`
         
-        **It cannot be duplication of** "URL of the site or app" **field text.**
+        **It cannot be just duplication of** "URL of the site or app" **field text.**
   - type: textarea
     id: bg-color
     attributes:
@@ -64,7 +64,7 @@ body:
         
         Fill this form based of this information:
         - *Is the color taken somewhere from the logo?*
-          - If **yes**, add this text: `Background color is from the logo.`
+          - If **yes**, add & edit this text for eg: `Background color is from the logo (`#add-hex-color-code-here`).`
         - *Is color taken from the mentioned app / site?* (And not from logo)
           - If **yes**, do either/all of these things:
             - [Upload](https://docs.github.com/en/github/writing-on-github/working-with-advanced-formatting/attaching-files) screenshot of the area where you got the color **and** give URL of the page
