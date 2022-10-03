@@ -450,13 +450,13 @@ Need to check if service has 2FA? These list apps / websites that support 2FA an
 
 #### _Google search queries for double-checking 2FA support_
 ```
-"app-or-site-name-here" AND 2fa OR mfa OR otp OR totp OR factor authentication OR step verification OR "time-based one-time" OR two-factor
+"app-or-site-name-here" AND 2fa OR mfa OR otp OR totp OR factor authentication OR step verification OR time-based one-time
 ```
 
 or
 
 ```
-site:https://official-domain-of-the-app-or-site.com/ 2fa OR mfa OR otp OR totp OR factor authentication OR step verification OR "time-based one-time" OR two-factor
+site:https://official-domain-of-the-app-or-site.com/ 2fa OR mfa OR otp OR totp OR factor authentication OR step verification OR time-based one-time
 ```
 
 <!--
