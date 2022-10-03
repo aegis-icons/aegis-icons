@@ -64,8 +64,6 @@ body:
       value: |
         :warning: **Required**, unless it's generic icon.
         
-        > **Note** – Only text input allowed for this text area, thanks!
-        
         Fill this form based of this information:
         - *Is the color taken somewhere from the logo?*
           - If **yes**, add & edit this text for eg: ``Background color is from the logo (`#add-hex-color-code-here`).``
