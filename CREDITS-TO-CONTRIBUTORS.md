@@ -21,6 +21,8 @@ If you want name changed or deleted, [please make a new issue](https://github.co
 - **[antun3s](https://github.com/antun3s)** (Bruno Antunes)
   - For *No-IP* icon ([#550](https://github.com/aegis-icons/aegis-icons/pull/550)).
   - For updating *T-Mobile* icon ([#558](https://github.com/aegis-icons/aegis-icons/pull/558)).
+- **[asciiphil](https://github.com/asciiphil)** (Phil! Gold)
+  - For these icons: *Johns Hopkins* ([#699](https://github.com/aegis-icons/aegis-icons/pull/699)), *NearlyFreeSpeech.NET* ([#700](https://github.com/aegis-icons/aegis-icons/pull/700)).
 - **[bartlibert](https://github.com/AnTheMaker)** (Bart Libert)
   - For these icons: *STACK* ([#397](https://github.com/aegis-icons/aegis-icons/pull/397)), *CSAM* ([#398](https://github.com/aegis-icons/aegis-icons/pull/398)), *DigiConnect* ([#399](https://github.com/aegis-icons/aegis-icons/pull/399)), *Smartschool* ([#400](https://github.com/aegis-icons/aegis-icons/pull/400)), *Directus* ([#401](https://github.com/aegis-icons/aegis-icons/pull/401)).
 - **[CampinCarl](https://github.com/CampinCarl)** (Michael Alden)
