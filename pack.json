@@ -3593,6 +3593,13 @@
             ]
         },
         {
+            "filename": "SVG/KnowBe4.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "KnowBe4"
+            ]
+        },
+        {
             "filename": "SVG/Koofr.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3674,6 +3681,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Libero"
+            ]
+        },
+        {
+            "filename": "SVG/LibreNMS.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "LibreNMS"
             ]
         },
         {
