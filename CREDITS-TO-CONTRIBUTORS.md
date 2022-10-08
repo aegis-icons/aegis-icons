@@ -25,6 +25,8 @@ If you want name changed or deleted, [please make a new issue](https://github.co
   - For these icons: *Johns Hopkins* ([#699](https://github.com/aegis-icons/aegis-icons/pull/699)), *NearlyFreeSpeech.NET* ([#700](https://github.com/aegis-icons/aegis-icons/pull/700)).
 - **[bartlibert](https://github.com/AnTheMaker)** (Bart Libert)
   - For these icons: *STACK* ([#397](https://github.com/aegis-icons/aegis-icons/pull/397)), *CSAM* ([#398](https://github.com/aegis-icons/aegis-icons/pull/398)), *DigiConnect* ([#399](https://github.com/aegis-icons/aegis-icons/pull/399)), *Smartschool* ([#400](https://github.com/aegis-icons/aegis-icons/pull/400)), *Directus* ([#401](https://github.com/aegis-icons/aegis-icons/pull/401)).
+- **[cammarin](https://github.com/cammarin)** (Carlos Marin)
+  - For *Onshape* icon ([#703](https://github.com/aegis-icons/aegis-icons/issues/703)).
 - **[CampinCarl](https://github.com/CampinCarl)** (Michael Alden)
   - For these icons: *(ISC)²* ([#537](https://github.com/aegis-icons/aegis-icons/issues/537)), *Cloudinary* ([#538](https://github.com/aegis-icons/aegis-icons/issues/538)), *Qualys* ([#552](https://github.com/aegis-icons/aegis-icons/issues/552)), *ZEBEDEE* ([#554](https://github.com/aegis-icons/aegis-icons/issues/554)), *Pipeflare* ([#555](https://github.com/aegis-icons/aegis-icons/issues/555)), *CoinTracker* ([#578](https://github.com/aegis-icons/aegis-icons/issues/578)), *Ripe NCC* ([#580](https://github.com/aegis-icons/aegis-icons/issues/580)), *Square* ([#581](https://github.com/aegis-icons/aegis-icons/issues/581)), *USAA* ([#582](https://github.com/aegis-icons/aegis-icons/issues/582)).
 - **[Centenoe](https://github.com/Centenoe)** (Centeno)
