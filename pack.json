@@ -1887,6 +1887,13 @@
             ]
         },
         {
+            "filename": "SVG/Bitcoin.de.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Bitcoin.de"
+            ]
+        },
+        {
             "filename": "SVG/Bitdefender.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2646,6 +2653,13 @@
             ]
         },
         {
+            "filename": "SVG/EXMO.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "EXMO"
+            ]
+        },
+        { 
             "filename": "SVG/Elastic.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4773,6 +4787,13 @@
             ]
         },
         {
+            "filename": "SVG/Questrade.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Questrade"
+            ]
+        },
+        {
             "filename": "SVG/Qwintry.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -5151,6 +5172,13 @@
             "issuer": [
                 "Shortcut",
                 "Clubhouse"
+            ]
+        },
+        {
+            "filename": "SVG/SideShift.ai.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "SideShift.ai"
             ]
         },
         {
