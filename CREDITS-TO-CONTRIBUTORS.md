@@ -74,7 +74,7 @@ If you want name changed or deleted, [please make a new issue](https://github.co
 - **[mormegil-cz](https://github.com/mormegil-cz)** (Petr Kadlec)
   - For *Datové schránky* icon ([#551](https://github.com/aegis-icons/aegis-icons/pull/551)).
 - **[Neluji](https://github.com/Neluji)**
-  - For these icons: *Hypixel* ([#384](https://github.com/aegis-icons/aegis-icons/pull/384)), *OMGSERV* ([#492](https://github.com/aegis-icons/aegis-icons/pull/492)), *Fly.io* ([#689](https://github.com/aegis-icons/aegis-icons/pull/689)).
+  - For these icons: *Hypixel* ([#384](https://github.com/aegis-icons/aegis-icons/pull/384)), *OMGSERV* ([#492](https://github.com/aegis-icons/aegis-icons/pull/492)), *Fly.io* ([#689](https://github.com/aegis-icons/aegis-icons/pull/689)), *Framasoft* ((#690)[https://github.com/aegis-icons/aegis-icons/pull/690]).
 - **[OmegaMartFan](https://github.com/OmegaMartFan)** (Omega Mart Fan)
   - For minor *CONTRIBUTING.md* updates ([#614](https://github.com/aegis-icons/aegis-icons/pull/614)).
 - **[sebastianserrani](https://github.com/sebastianserrani)** (Sebastián Serrani)
