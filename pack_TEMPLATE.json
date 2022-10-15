@@ -3033,6 +3033,13 @@
             ]
         },
         {
+            "filename": "SVG/Gamebanana.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Gamebanana"
+            ]
+        },
+        { 
             "filename": "SVG/Gandi.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4035,6 +4042,13 @@
             ]
         },
         {
+            "filename": "SVG/My Digital Life Forums.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "My Digital Life Forums"
+            ]
+        },
+        {
             "filename": "SVG/MyAnimeList.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4785,6 +4799,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Qloud"
+            ]
+        },
+        {
+            "filename": "SVG/Qt.svg",
+            "category": null,
+            "issuer": [
+                "Qt"
             ]
         },
         {
