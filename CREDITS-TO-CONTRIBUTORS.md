@@ -33,6 +33,8 @@ If you want name changed or deleted, [please make a new issue](https://github.co
   - For *Neeva* icon ([#502](https://github.com/aegis-icons/aegis-icons/pull/502)).
 - **[cfanoulis](https://github.com/cfanoulis)** (Charalampos Fanoulis)
   - For *Hyper Expert* icon ([#514](https://github.com/aegis-icons/aegis-icons/issues/514)).
+- **[columndeeply](https://github.com/columndeeply)**
+  - For *RainLoop Webmail* icons ([#710](https://github.com/aegis-icons/aegis-icons/pull/710)).
 - **[devmrcl](https://github.com/devmrcl)** (Marcel Hopf)
   - For these icons: *IONOS* ([#271](https://github.com/aegis-icons/aegis-icons/issues/271)), *Bitrix24* ([#272](https://github.com/aegis-icons/aegis-icons/issues/272)), *Deutsche Bahn* ([#430](https://github.com/aegis-icons/aegis-icons/issues/430)).
 - **Earhacker** from Reddit
