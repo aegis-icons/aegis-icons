@@ -805,6 +805,13 @@
             ]
         },
         {
+            "filename": "SVG/.Variations/Back4App bg.var.svg",
+            "category": "2. Variations & Alts",
+            "issuer": [
+                "Back4App"
+            ]
+        },
+        {
             "filename": "SVG/.Variations/Basecamp fg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
@@ -1767,6 +1774,13 @@
             ]
         },
         {
+            "filename": "SVG/Back4App.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Back4App"
+            ]
+        },
+        {
             "filename": "SVG/Backblaze.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2424,6 +2438,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "CrossBox"
+            ]
+        },
+        {
+            "filename": "SVG/CrowdSec.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "CrowdSec"
             ]
         },
         {
@@ -3419,6 +3440,13 @@
             ]
         },
         {
+            "filename": "SVG/IDCloudHost.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "IDCloudHost"
+            ]
+        },
+        {
             "filename": "SVG/IDrive.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4120,6 +4148,13 @@
             ]
         },
         {
+            "filename": "SVG/Nash.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Nash"
+            ]
+        },
+        {
             "filename": "SVG/NearlyFreeSpeech.NET.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4810,7 +4845,7 @@
         },
         {
             "filename": "SVG/Qt.svg",
-            "category": null,
+            "category": "1. Apps & Sites",
             "issuer": [
                 "Qt"
             ]
@@ -5579,6 +5614,13 @@
             ]
         },
         {
+            "filename": "SVG/Tom's Hardware.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Tom's Hardware"
+            ]
+        },
+        {
             "filename": "SVG/Toontown Rewritten.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -5632,6 +5674,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "TransIP"
+            ]
+        },
+        {
+            "filename": "SVG/Travala.com.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Travala.com"
             ]
         },
         {
