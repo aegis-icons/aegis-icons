@@ -8,7 +8,7 @@ to THE TOP TEXT FIELD and replace "icon_name_here" with
 the name of the site / brand / company / app / generic symbol.
 
 Please use proper capitalization and spelling for the site / brand / company / app
-(check the capitalization from body text or browser tab title of their website, NOT FROM THE LOGO!).
+(check the capitalization / spelling from browser tab title or body text of their website, NOT FROM THE LOGO!).
 
 > If icon with logo ➜
    ❝  New icon: icon_name_here  ❞
