@@ -7,15 +7,12 @@ Copy-paste one of these formats (the text inside of quotes)
 to THE TOP TEXT FIELD and replace "icon_name_here" with
 the name of the site / brand / company / app / generic symbol.
 
-Please use proper capitalization and spelling for the site / brand / company / app
-(check the capitalization / spelling from browser tab title or body text of their website, NOT FROM THE LOGO!).
-
 > If icon with logo ➜
-   ❝  New icon: icon_name_here  ❞
+   ❝  New icon: icon_name_here
 > If icon update ➜
-   ❝  Update icon: icon_name_here  ❞
+   ❝  Update icon: icon_name_here
 > If generic icon ➜
-   ❝  New icon: icon_name_here (generic)  ❞
+   ❝  New icon: icon_name_here (generic)
 -->
 
 - [ ] I have carefully read and followed [CONTRIBUTING](https://github.com/aegis-icons/aegis-icons/blob/master/CONTRIBUTING.md) document.
