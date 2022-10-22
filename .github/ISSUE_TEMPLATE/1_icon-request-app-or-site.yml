@@ -15,7 +15,7 @@ body:
         ### :triangular_flag_on_post: Issue title formatting *(top text field)*
         - Remember to **add name of the brand / site / app** at the end of *"Icon request:"* text.
           - Eg. `Icon request: GitHub`
-        - Please use proper capitalization and spelling for the name (check the capitalization from body text or browser tab title of their website, **not from the logo!**).
+        - Please use proper capitalization / spelling for the name (check the capitalization / spelling from browser tab title or body text of their website, **not from the logo!**).
         - **Do not change the formatting of the title!**
   - type: input
     id: site_app-url
