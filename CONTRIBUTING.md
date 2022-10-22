@@ -299,6 +299,10 @@ When making icons, download and use provided [templates](/_templates).
 Just change the logo for alternative version.
 
 ### Generic icons
+
+> **Warning** \
+> We don't want any generic icon submissions until the [redesigning of generic icons](https://github.com/aegis-icons/aegis-icons/issues/722) is done. Thank you for understanding.
+
 "Generic" – in this case – means icons that doesn't represent any brand and are using symbol-like vectors.
 
 - Use `ai_template_generic.ait` or `svg_template_generic.svg` template, depending on the software.
@@ -375,7 +379,7 @@ When everything is done and ready to go, [submit icons with either as pull reque
 
 ### Filename
 > **Warning** \
-> When naming brand based icon(s), check how brand capitalised and spell the name from their app / website.
+> When naming brand based icon(s), check how brand capitalised and spell the name from their app / website (check the capitalization / spelling from browser tab title or body text of their website, **not from the logo!**).
 
 > **Note** – **Filename character limitations:** \
 > Only use [ISO basic Latin alphabet letters](https://simple.wikipedia.org/wiki/ISO_basic_Latin_alphabet), numbers, spaces, dashes and other safe ASCII characters ([list of forbidden ASCII](https://stackoverflow.com/questions/1976007/what-characters-are-forbidden-in-windows-and-linux-directory-names/31976060#31976060)).
