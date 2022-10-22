@@ -15,8 +15,8 @@ body:
         ### :triangular_flag_on_post: Issue title formatting *(top text field)*
         - Remember to **add name of the brand / site / app** at the end of *"Icon request:"* text.
           - Eg. `Icon request: GitHub`
-        - Please use proper capitalization and spelling for the name (check the capitalization & spelling from their app / website).
-        - Do not change the formatting of the title!
+        - Please use proper capitalization and spelling for the name (check the capitalization from body text or browser tab title of their website, **not from the logo!**).
+        - **Do not change the formatting of the title!**
   - type: input
     id: site_app-url
     attributes:
@@ -28,7 +28,8 @@ body:
     attributes:
       value: |
         Remember to add *https://* (or *http://*) to start of the URL.
-
+        
+        - :underage: If this entity is explicitly ["not safe for work"](https://en.wikipedia.org/wiki/Not_safe_for_work), please add ` (NSFW)` after the URL.
         - :warning: **Don't add Play Store link or other app store links**, unless requested entity doesn't have any other website.
   - type: input
     id: logo-url
@@ -38,7 +39,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        **Optional** option to add URL for *press kit* or *logo SVG vector*, preferably from official source ([tips for finding these](https://github.com/aegis-icons/aegis-icons/blob/master/CONTRIBUTING.md#finding-source-images)).
+        **Optional** option to add URL for *press kit* or *logo SVG / EPS / AI vector resource*, preferably from official source ([tips for finding these](https://github.com/aegis-icons/aegis-icons/blob/master/CONTRIBUTING.md#finding-source-images)).
         
         - :x: **Unaccepted resources:** JPG, PNG, GIF, WebP or [any other raster image](https://en.wikipedia.org/wiki/Image_file_format#Raster_formats).
         - :x: **NO [data URIs](https://en.wikipedia.org/wiki/Data_URI_scheme), SVG code** or anything **that's NOT web URL!** *(Forbidden because of long character lengths.)*

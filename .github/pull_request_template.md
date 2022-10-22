@@ -7,6 +7,9 @@ Copy-paste one of these formats (the text inside of quotes)
 to THE TOP TEXT FIELD and replace "icon_name_here" with
 the name of the site / brand / company / app / generic symbol.
 
+Please use proper capitalization and spelling for the site / brand / company / app
+(check the capitalization from body text or browser tab title of their website, NOT FROM THE LOGO!).
+
 > If icon with logo ➜
    ❝  New icon: icon_name_here  ❞
 > If icon update ➜
@@ -32,7 +35,9 @@ Replace space with x inside of the brackets: [ ] ➜ [x]
 
 **URL of the site:**
 
-<!-- ▲▲▲ REQUIRED, UNLESS it's generic icon. -->
+<!-- ▲▲▲ REQUIRED, UNLESS it's generic icon.
+
+🔞 If this entity is explicitly "not safe for work", please mention it in this section. -->
 
 **Logo / icon info:**
 
