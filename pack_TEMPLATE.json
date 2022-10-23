@@ -1521,6 +1521,13 @@
             ]
         },
         {
+            "filename": "SVG/2Captcha.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "2Captcha"
+            ]
+        },
+        {
             "filename": "SVG/3Commas.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -1532,6 +1539,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "500px"
+            ]
+        },
+        {
+            "filename": "SVG/AVG.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "AVG"
             ]
         },
         {
@@ -5415,6 +5429,13 @@
             ]
         },
         {
+            "filename": "SVG/Stripchat.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Stripchat"
+            ]
+        },
+        {
             "filename": "SVG/Stripe.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -5751,6 +5772,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Twitter"
+            ]
+        },
+        {
+            "filename": "SVG/URIports.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "URIports"
             ]
         },
         {
