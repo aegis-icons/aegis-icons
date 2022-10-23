@@ -1107,6 +1107,13 @@
             ]
         },
         {
+            "filename": "SVG/.Variations/Neopets bg.var.svg",
+            "category": "2. Variations & Alts",
+            "issuer": [
+                "Neopets"
+            ]
+        },
+        {
             "filename": "SVG/.Variations/Nitrado fg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
@@ -4180,6 +4187,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Neeva"
+            ]
+        },
+        {
+            "filename": "SVG/Neopets.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Neopets"
             ]
         },
         {
