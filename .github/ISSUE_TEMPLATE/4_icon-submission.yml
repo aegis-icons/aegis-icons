@@ -63,7 +63,7 @@ body:
         - *If it's generic icon:*
           - `[Icon name] from Unicons / Feather / Lucide / Cryptocurrency Icons`
         
-        **It cannot be just duplication of** "URL of the site or app" **field text.**
+        :warning: **It cannot be just duplication of** "URL of the site or app" **field text.**
   - type: textarea
     id: bg-color
     attributes:
