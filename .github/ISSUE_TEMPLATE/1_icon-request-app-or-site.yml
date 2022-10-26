@@ -41,7 +41,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        **Optional** option to add URL for *press kit* or *logo SVG / EPS / AI vector resource*, preferably from official source ([tips for finding these](https://github.com/aegis-icons/aegis-icons/blob/master/CONTRIBUTING.md#finding-source-images)).
+        Optional option to add URL for *press kit* or *logo SVG / EPS / AI vector resource*, preferably from official source ([tips for finding these](https://github.com/aegis-icons/aegis-icons/blob/master/CONTRIBUTING.md#finding-source-images)).
         
         - :x: **Unaccepted resources:** JPG, PNG, GIF, WebP or [any other raster image](https://en.wikipedia.org/wiki/Image_file_format#Raster_formats_(2D)).
         - :x: **NO [data URIs](https://en.wikipedia.org/wiki/Data_URI_scheme), SVG code** or anything **that's NOT web URL!** *(Forbidden because of long character lengths.)*
@@ -60,7 +60,7 @@ body:
         - Link to documentation page related to 2FA **(prefered option)**
         - Screenshot proof of the TOTP / Google Authenticator 2FA settings page *(censor sensitive info if needed)*.
         
-        This is **optional**, but **if we cannot find info about 2FA from Google nor [2FA Directory](https://2fa.directory/int/)**, then we reject the request (we give you possibility for reopening though by sending the proof via comment).
+        This is optional, but **if we cannot find info about 2FA from the website, Google nor [2FA Directory](https://2fa.directory/int/)**, then we **reject the request** (we give you possibility for reopening though by sending the proof via comment).
   - type: textarea
     id: anything-else
     attributes:
