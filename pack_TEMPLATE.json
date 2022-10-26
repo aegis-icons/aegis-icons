@@ -2133,6 +2133,14 @@
             ]
         },
         {
+            "filename": "SVG/BuiltByBit.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "BuiltByBit",
+                "MC-Market"
+            ]
+        },
+        {
             "filename": "SVG/Bybit.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3864,13 +3872,6 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "MC-HOST24"
-            ]
-        },
-        {
-            "filename": "SVG/MC-Market.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "MC-Market"
             ]
         },
         {
