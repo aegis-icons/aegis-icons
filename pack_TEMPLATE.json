@@ -4840,7 +4840,8 @@
             "filename": "SVG/Python Package Index.svg",
             "category": "1. Apps & Sites",
             "issuer": [
-                "Python Package Index"
+                "Python Package Index",
+                "PyPI"
             ]
         },
         {
