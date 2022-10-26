@@ -38,6 +38,7 @@ Thank you for taking the time to read and contribute to our project!
   - [Filename](#filename)
     - [New versions, version naming and organizing old files](#new-versions-version-naming-and-organizing-old-files)
   - [About PNGs](#about-pngs)
+  - [About JSONs](#about-jsons)
 - [**Resources**](#resources)
   - [Logos](#logos)
     - [Google tips for searching logos](#google-tips-for-searching-logos)
@@ -420,6 +421,13 @@ When everything is done and ready to go, [submit icons with either as pull reque
 As of 2021-07-25, aegis-icons doesn't actively make PNG icons anymore. Instead PNGs are only made when someone notices rendering problems with SVG on Aegis.
 
 PNGs are only made by maintainers to keep files & compressions consistent. [List of SVG icons with known rendering issues are available here](https://github.com/aegis-icons/aegis-icons/blob/master/PNG/README.md).
+
+### About JSONs
+:warning: **Please do not submit PRs that make changes to JSON files!**
+
+Because of the JSON update process, currently only the maintainer ([@krisu5](https://github.com/krisu5)) is allowed to make changes to JSONs.
+
+If you want to suggest a change related to JSONs, [make a issue instead](https://github.com/aegis-icons/aegis-icons/issues/new/choose) (choose "Other").
 
 ## Resources
 Resources marked with star (:star:) are recommended / most used by the maintainers.
