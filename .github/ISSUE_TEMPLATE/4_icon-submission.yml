@@ -38,7 +38,7 @@ body:
         - :underage: If this entity is explicitly ["not safe for work"](https://en.wikipedia.org/wiki/Not_safe_for_work), please add ` (NSFW)` after the URL.
         - :warning: **Don't add Play Store link or other app store links**, unless requested entity doesn't have any other website.
         
-        :raising_hand: *If icon submission is generic icon, add this text instead of URL:* `*Skipped, generic icon*`
+        :raising_hand: *If icon submission is generic icon, add this text instead of URL:* `Skipped, generic icon`
   - type: textarea
     id: logo-url
     attributes:
@@ -81,7 +81,7 @@ body:
             - [Upload](https://docs.github.com/en/github/writing-on-github/working-with-advanced-formatting/attaching-files) screenshot of the area where you got the color **and** give URL of the page
             - Give the HTML element name (eg. `#footer`) **and** URL of the page.
             
-        :raising_hand: *If icon submission is generic icon, add this text instead of URL:* `*Skipped, generic icon*`
+        :raising_hand: *If icon submission is generic icon, add this text instead of URL:* `Skipped, generic icon`
   - type: textarea
     id: icon-upload
     attributes:
