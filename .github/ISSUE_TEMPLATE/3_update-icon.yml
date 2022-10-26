@@ -73,5 +73,5 @@ body:
     attributes:
       label: Confirmation
       options:
-        - label: I have read and followed the [issue guidelines](https://github.com/aegis-icons/aegis-icons/blob/master/CONTRIBUTING.md#issue-guidelines).
+        - label: I have read and followed the [issue guidelines](https://github.com/aegis-icons/aegis-icons/blob/master/CONTRIBUTING.md#issue-guidelines) & issue form.
           required: true
