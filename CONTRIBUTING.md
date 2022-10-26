@@ -482,10 +482,10 @@ NOTE: remember to link this section in the TOC when ready.
 -->
 
 ## Issue guidelines
-*(Issue guidelines was last updated on: 2022-08-18)*
+*(Issue guidelines was last updated on: 2022-10-26)*
 
 1. App / site related requests has to **have Aegis-compatible 2FA support** one way or another, this project does not make icons outside of Aegis usage.
-   - Don't lie, we always double-check if requested service has 2FA support. You can add proof for the existence of Aegis-compatible 2FA to the issue form's "Anything else?" section.
+   - Don't lie, we always double-check if requested service has 2FA support. You can add proof for the existence of Aegis-compatible 2FA to the issue form's "Proof of the Aegis-compatible 2FA" section.
      - For the similar icons for general purpose, check out [Simple Icons](https://simpleicons.org/) instead.
 2. **Check that icon you're about to request doesn't [already exist](https://aegis-icons.github.io/)** or opened / closed in the [issues](https://github.com/aegis-icons/aegis-icons/issues).
    - Icon packs are updated monthly, not every time a new icon is created ([see the pack releases](https://github.com/aegis-icons/aegis-icons/releases)). Icons created after the latest pack update are downloadable on [the website](https://aegis-icons.github.io/).

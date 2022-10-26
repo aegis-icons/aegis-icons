@@ -8,7 +8,7 @@ body:
       value: |
         ### :loudspeaker: [Read our issue guidelines first](https://github.com/aegis-icons/aegis-icons/blob/master/CONTRIBUTING.md#issue-guidelines) if you haven't already!
         :angry: **If you don't read / follow the issue guidelines**, your issue(s) might **get rejected** and, *in the worse case*, **get you banned.**
-        *(Issue guidelines was last updated on: **2022-08-18**).*
+        *(Issue guidelines was last updated on: **2022-10-26**).*
         
         *And do not request multiple icons in single issue, make multiple issues instead.*
         
@@ -28,7 +28,9 @@ body:
     attributes:
       value: |
         Remember to add *https://* (or *http://*) to start of the URL.
+        Link should be the homepage of the site (not login page or any other miscellaneous page).
         
+        - :globe_with_meridians: Please link to english version of the site, if site has that option!
         - :underage: If this entity is explicitly ["not safe for work"](https://en.wikipedia.org/wiki/Not_safe_for_work), please add ` (NSFW)` after the URL.
         - :warning: **Don't add Play Store link or other app store links**, unless requested entity doesn't have any other website.
   - type: dropdown
@@ -51,9 +53,9 @@ body:
       value: |
         **Optional** option to add URL for *press kit* or *logo SVG / EPS / AI vector resource*, preferably from official source ([tips for finding these](https://github.com/aegis-icons/aegis-icons/blob/master/CONTRIBUTING.md#finding-source-images)).
         
-        - :x: **Unaccepted resources:** JPG, PNG, GIF, WebP or [any other raster image](https://en.wikipedia.org/wiki/Image_file_format#Raster_formats).
+        - :x: **Unaccepted resources:** JPG, PNG, GIF, WebP or [any other raster image](https://en.wikipedia.org/wiki/Image_file_format#Raster_formats_(2D)).
         - :x: **NO [data URIs](https://en.wikipedia.org/wiki/Data_URI_scheme), SVG code** or anything **that's NOT web URL!** *(Forbidden because of long character lengths.)*
-          - Data uri starts with: `data:image/svg+xml;,` (and so on)
+          - Data uri starts with: `data:image/` (and so on)
           - SVG code starts with: `<svg` (and so on)
         
         *Adding a optional resource doesn't guarantee that aegis-icons will use it for the icon.*
