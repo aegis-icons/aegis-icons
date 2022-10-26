@@ -423,7 +423,8 @@ As of 2021-07-25, aegis-icons doesn't actively make PNG icons anymore. Instead P
 PNGs are only made by maintainers to keep files & compressions consistent. [List of SVG icons with known rendering issues are available here](https://github.com/aegis-icons/aegis-icons/blob/master/PNG/README.md).
 
 ### About JSONs
-:warning: **Please do not submit PRs that make changes to JSON files!**
+> **Warning** \
+> Please do not submit PRs that make changes to JSON files!
 
 Because of the JSON update process, currently only the maintainer ([@krisu5](https://github.com/krisu5)) is allowed to make changes to JSONs.
 
