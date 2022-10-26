@@ -26,17 +26,19 @@ body:
     attributes:
       label: URL of the site or app
       placeholder: Eg. https://example.com
+    validations:
+      required: true
   - type: markdown
     attributes:
       value: |
-        :warning: **Required**, unless it's generic icon.
-        
         Remember to add *https://* (or *http://*) to start of the URL.
         Link should be the homepage of the site (not login page or any other miscellaneous page).
         
         - :globe_with_meridians: Please link to english version of the site, if site has that option!
         - :underage: If this entity is explicitly ["not safe for work"](https://en.wikipedia.org/wiki/Not_safe_for_work), please add ` (NSFW)` after the URL.
         - :warning: **Don't add Play Store link or other app store links**, unless requested entity doesn't have any other website.
+        
+        :raising_hand: *If icon submission is generic icon, add this text instead of URL:* `*Skipped, generic icon*`
   - type: textarea
     id: logo-url
     attributes:
@@ -66,11 +68,11 @@ body:
     id: bg-color
     attributes:
       label: Background color info
+    validations:
+      required: true
   - type: markdown
     attributes:
       value: |
-        :warning: **Required**, unless it's generic icon.
-        
         Fill this form based of this information:
         - *Is the color taken somewhere from the logo?*
           - If **yes**, add & edit this text for eg: ``Background color is from the logo (`#add-hex-color-code-here`).``
@@ -78,6 +80,8 @@ body:
           - If **yes**, do either/all of these things:
             - [Upload](https://docs.github.com/en/github/writing-on-github/working-with-advanced-formatting/attaching-files) screenshot of the area where you got the color **and** give URL of the page
             - Give the HTML element name (eg. `#footer`) **and** URL of the page.
+            
+        :raising_hand: *If icon submission is generic icon, add this text instead of URL:* `*Skipped, generic icon*`
   - type: textarea
     id: icon-upload
     attributes:
