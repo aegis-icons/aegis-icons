@@ -56,7 +56,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Add either:
+        *Add either:*
         - Link to documentation page related to 2FA **(prefered option)**
         - Screenshot proof of the TOTP / Google Authenticator 2FA settings page *(censor sensitive info if needed)*.
         
