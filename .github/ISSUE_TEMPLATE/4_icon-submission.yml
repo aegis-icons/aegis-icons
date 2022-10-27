@@ -40,6 +40,18 @@ body:
         
         :raising_hand: *If icon submission is generic icon, add this text instead of URL:* `Skipped, generic icon`
   - type: textarea
+    id: 2fa-proof
+    attributes:
+      label: Proof of the Aegis-compatible 2FA
+  - type: markdown
+    attributes:
+      value: |
+        *Add either:*
+        - Link to documentation page related to 2FA **(prefered option)**
+        - Screenshot proof of the TOTP / Google Authenticator 2FA settings page *(censor sensitive info if needed)*.
+        
+        This is optional, but **if we cannot find info about 2FA from the website, Google nor [2FA Directory](https://2fa.directory/int/)**, we have to ask you proof for it.
+  - type: textarea
     id: logo-url
     attributes:
       label: Logo / icon info
