@@ -1,6 +1,7 @@
 <!--
 🔔 If you're SUBMITTING ICON, read this PR template CAREFULLY and follow the instructions!
      - But if your pull request DOESN'T relate to icon submissions, you can ignore all of this (even the CONTRIBUTING check) and make PR from scratch.
+       - For non icon related PRs, WE STILL RECOMMEND AT LEAST GLANCE THE CONTRIBUTING FILE for possible prohibited actions (eg. editing JSONs)
 
 ========== PULL REQUEST TITLE FORMAT ==========
 Copy-paste one of these formats (the text inside of quotes)
@@ -35,6 +36,17 @@ Replace space with x inside of the brackets: [ ] ➜ [x]
 <!-- ▲▲▲ REQUIRED, UNLESS it's generic icon.
 
 🔞 If this entity is explicitly "not safe for work", please mention it in this section. -->
+
+**Proof of the Aegis-compatible 2FA:**
+
+<!-- ▲▲▲ OPTIONAL
+
+Add either:
+- Link to documentation page related to 2FA (PREFERED OPTION)
+- Screenshot proof of the TOTP / Google Authenticator 2FA settings page (CENSOR SENSITIVE INFO IF NEEDED).
+
+🔔 This is optional, but if we cannot find info about 2FA from the website, Google nor 2FA Directory,
+we have to ask you proof for it. -->
 
 **Logo / icon info:**
 
