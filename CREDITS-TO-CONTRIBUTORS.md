@@ -35,6 +35,8 @@ If you want name changed or deleted, [please make a new issue](https://github.co
   - For *Hyper Expert* icon ([#514](https://github.com/aegis-icons/aegis-icons/issues/514)).
 - **[columndeeply](https://github.com/columndeeply)**
   - For *RainLoop Webmail* icons ([#710](https://github.com/aegis-icons/aegis-icons/pull/710)).
+- **[cuu508](https://github.com/cuu508)** (Pēteris Caune)
+  - For *Healthchecks* icon ([#734](https://github.com/aegis-icons/aegis-icons/pull/734)).
 - **[devmrcl](https://github.com/devmrcl)** (Marcel Hopf)
   - For these icons: *IONOS* ([#271](https://github.com/aegis-icons/aegis-icons/issues/271)), *Bitrix24* ([#272](https://github.com/aegis-icons/aegis-icons/issues/272)), *Deutsche Bahn* ([#430](https://github.com/aegis-icons/aegis-icons/issues/430)).
 - **Earhacker** from Reddit

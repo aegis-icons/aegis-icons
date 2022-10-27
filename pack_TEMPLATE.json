@@ -3364,6 +3364,13 @@
             ]
         },
         {
+            "filename": "SVG/Healthchecks.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Healthchecks"
+            ]
+        },
+        {
             "filename": "SVG/HelpSpot.svg",
             "category": "1. Apps & Sites",
             "issuer": [
