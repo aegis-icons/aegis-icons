@@ -1002,6 +1002,13 @@
             ]
         },
         {
+            "filename": "SVG/.Variations/HelpSpot bg.var.svg",
+            "category": "2. Variations & Alts",
+            "issuer": [
+                "HelpSpot"
+            ]
+        },
+        {
             "filename": "SVG/.Variations/IFTTT bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
@@ -1104,6 +1111,13 @@
             "category": "2. Variations & Alts",
             "issuer": [
                 "Mollie"
+            ]
+        },
+        {
+            "filename": "SVG/.Variations/NETdepot bg.var.svg",
+            "category": "2. Variations & Alts",
+            "issuer": [
+                "NETdepot"
             ]
         },
         {
@@ -2505,6 +2519,13 @@
             ]
         },
         {
+            "filename": "SVG/CyberPanel.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "CyberPanel"
+            ]
+        },
+        {
             "filename": "SVG/DEGIRO.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2524,6 +2545,13 @@
             "issuer": [
                 "Datove schranky",
                 "Datové schránky"
+            ]
+        },
+        {
+            "filename": "SVG/DedicatedMC.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "DedicatedMC"
             ]
         },
         {
@@ -3083,6 +3111,13 @@
             ]
         },
         {
+            "filename": "SVG/Gaia Online.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Gaia Online"
+            ]
+        },
+        { 
             "filename": "SVG/Gaijin Entertainment.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3231,6 +3266,13 @@
             ]
         },
         {
+            "filename": "SVG/Grist.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Grist"
+            ]
+        },
+        {
             "filename": "SVG/Groups.io.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3319,6 +3361,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Hauk"
+            ]
+        },
+        {
+            "filename": "SVG/HelpSpot.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "HelpSpot"
             ]
         },
         {
@@ -4008,6 +4057,16 @@
             ]
         },
         {
+            "filename": "SVG/Meister.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Meister",
+                "MindMeister",
+                "MeisterTask",
+                "MeisterNote"
+            ]
+        },
+        {
             "filename": "SVG/Mercado Libre.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4127,18 +4186,17 @@
             ]
         },
         {
+            "filename": "SVG/NETdepot.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "NETdepot"
+            ]
+        },
+        {
             "filename": "SVG/NPM.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "NPM"
-            ]
-        },
-        {
-            "filename": "SVG/Nvidia.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "Nvidia",
-                "GeForce NOW"
             ]
         },
         {
@@ -4385,6 +4443,13 @@
             "issuer": [
                 "Nutstore",
                 "Jianguoyun"
+            ]
+        },
+        {
+            "filename": "SVG/Nvidia.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Nvidia" 
             ]
         },
         {
@@ -4784,6 +4849,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "PrimeXBT"
+            ]
+        },
+        {
+            "filename": "SVG/Primobox.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Primobox"
             ]
         },
         {
@@ -5634,6 +5706,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Tixte"
+            ]
+        },
+        {
+            "filename": "SVG/Todoist.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Todoist"
             ]
         },
         {
