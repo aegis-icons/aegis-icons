@@ -420,7 +420,7 @@ When everything is done and ready to go, [submit icons with either as pull reque
 ### About PNGs
 As of 2021-07-25, aegis-icons doesn't actively make PNG icons anymore. Instead PNGs are only made when someone notices rendering problems with SVG on Aegis.
 
-PNGs are only made by maintainers to keep files & compressions consistent. [List of SVG icons with known rendering issues are available here](https://github.com/aegis-icons/aegis-icons/blob/master/PNG/README.md).
+PNGs are only made by maintainers to keep files & compressions consistent. [List of SVG icons with known rendering issues are available here](https://github.com/aegis-icons/png-files/blob/main/.github/NOTICE.md).
 
 ### About JSONs
 > **Warning** \
