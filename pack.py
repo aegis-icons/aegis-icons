@@ -14,7 +14,7 @@ def _do_gen_def(args):
         "icons": []
     }
 
-    root = os.path.join(args.root, "SVG")
+    root = os.path.join(args.root, "icons")
     for root, _, files in os.walk(root):
         for f in files:
             filename = os.path.join(root, f)
