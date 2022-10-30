@@ -13,7 +13,7 @@ def _do_gen_def(args):
         "version": 0,
         "icons": []
     }
-
+    # Change the "icons" from line 17 to set a different dir
     root = os.path.join(args.root, "icons")
     for root, _, files in os.walk(root):
         for f in files:
