@@ -360,7 +360,7 @@ Next, do SVG compression & cleanup.
 
 - :spiral_notepad: Checklist for SVG formatting:
   - Check that the **indentation is 3 spaces** (important if you used SVGOMG).
-  - Check that the **order of the all the [elements](https://developer.mozilla.org/en-US/docs/Web/SVG/Element) and [attributes](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute) is EXACTLY same** as the *SVG code formatting example*.
+  - Check that the **order of all the [elements](https://developer.mozilla.org/en-US/docs/Web/SVG/Element) and [attributes](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute) is EXACTLY same** as the *SVG code formatting example*.
   - Check that possible `fill="` **prefixes are changed to** `style="fill:`
   - **Remove all the [elements](https://developer.mozilla.org/en-US/docs/Web/SVG/Element) and [attributes](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute) that aren't featured** in the *SVG code formatting example*.
   - *See the [example SVG code after manual cleanup](https://github.com/aegis-icons/misc/commit/c0128f61f0d2b88d5953881699955a4a17477e47?diff=split) for aimed optimal result.*
@@ -373,10 +373,14 @@ When everything is done and ready to go, [submit icons with either as pull reque
 ## Technical
 
 ### Directories
-- Non-variation primary icons are added to root of `SVG/` folder.
-- Variation (`bg.var` or `fg.var`) and alternative (`alt`) icons are added to `SVG/.Variations/` folder.
-- Generic icons are added to `SVG/.Generic/` folder.
-- For outdated icons, see [new versions, version naming and organizing old files](#new-versions-version-naming-and-organizing-old-files) section.
+- Primary icons ➜
+  - `/icons/1_Primary/` folder.
+  - *Means all the logo based icons that aren't variations / alternatives.*
+- Variation and alternative icons ➜
+  - `/icons/2_Variations/` folder.
+- Generic icons ➜
+  - `/icons/3_Generic/` folder.
+- For the outdated icons, see the [new versions, version naming and organizing old files](#new-versions-version-naming-and-organizing-old-files) section.
 
 ### Filename
 > **Warning** \
@@ -413,14 +417,16 @@ When everything is done and ready to go, [submit icons with either as pull reque
 - Icon files that are outdated for the first time, `v1` is added to end of the filename.
   - Examples: `Codeberg v1.svg`.
 - Version label number increases for outdated icons when new versions of the primary icon are released (`v2`, `v3`, `v4`, `v5` etc.).
-- Outdated versions are moved to self titled directory (`SVG/.Outdated/`).
-- Icons of now dead service (or didn't have 2FA etc.) should be moved to [*aegis-icons / misc*'s "removed_icons"](https://github.com/aegis-icons/misc/tree/main/removed_icons) directory just as it is.
+- Outdated versions are moved to self titled directory (`/icons/4_Outdated/`).
+- :warning: **Only for maintainers:** Icons of now dead service (or didn't have 2FA etc.) should be moved to [*aegis-icons / misc*'s `removed_icons`](https://github.com/aegis-icons/misc/tree/main/removed_icons) directory just as is.
   - Also add info to the directory's README on why icon was removed.
 
 ### About PNGs
-As of 2021-07-25, aegis-icons doesn't actively make PNG icons anymore. Instead PNGs are only made when someone notices rendering problems with SVG on Aegis.
+As of 2021-07-25, aegis-icons doesn't actively make PNG icons anymore.
 
-PNGs are only made by maintainers to keep files & compressions consistent. [List of SVG icons with known rendering issues are available here](https://github.com/aegis-icons/aegis-icons/blob/master/PNG/README.md).
+Instead, PNGs are only made when noticing problems with SVG on Aegis and are added to *[aegis-icons / png-files](https://github.com/aegis-icons/png-files)* repo. PNGs are only made by maintainers to keep files & compressions consistent.
+
+[List of SVG icons with known rendering issues and PNG counterparts are available here](https://github.com/aegis-icons/png-files/blob/main/.github/NOTICE.md).
 
 ### About JSONs
 > **Warning** \
@@ -469,7 +475,7 @@ Need to check if service has 2FA? These list apps / websites that support 2FA an
 or
 
 ```
-site:https://official-domain-of-the-app-or-site.com/ 2fa OR mfa OR otp OR totp OR factor authentication OR step verification OR time-based one-time
+site:official-domain-of-the-app-or-site.com 2fa OR mfa OR otp OR totp OR factor authentication OR step verification OR time-based one-time
 ```
 
 <!--

@@ -48,4 +48,4 @@ This project includes material that may be protected as a trademark in some juri
 
 We don't make icons for general purpose, we only focus on userbase of Aegis, the Android app. Check out [Simple Icons](https://simpleicons.org/) instead!
 
-As of 2021-07-25, [aegis-icons doesn't actively make PNG files](https://github.com/aegis-icons/aegis-icons/tree/master/PNG/README.md).
+As of 2021-07-25, [aegis-icons doesn't actively make PNG files](https://github.com/aegis-icons/png-files/blob/main/.github/NOTICE.md).
