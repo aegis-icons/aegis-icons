@@ -15,7 +15,7 @@ If you want name changed or deleted, [please make a new issue](https://github.co
 - **[alalloush](https://github.com/alalloush)**
   - For *Xiaomi* icon ([#247](https://github.com/aegis-icons/aegis-icons/pull/247)).
 - **[alexbakker](https://github.com/alexbakker)** (Alexander Bakker)
-  - For *pack.py* script ([#143](https://github.com/aegis-icons/aegis-icons/pull/143)) and its updates ([#238](https://github.com/aegis-icons/aegis-icons/pull/238)).
+  - For *make-pack.py* script ([#143](https://github.com/aegis-icons/aegis-icons/pull/143)) and its updates ([#238](https://github.com/aegis-icons/aegis-icons/pull/238)).
 - **[AnTheMaker](https://github.com/AnTheMaker)** (An)
   - For these icons: *SpaceHey* ([#386](https://github.com/aegis-icons/aegis-icons/issues/386)), *bunny.net* ([#388](https://github.com/aegis-icons/aegis-icons/issues/388)), *Mailgun* ([#389](https://github.com/aegis-icons/aegis-icons/issues/389)).
 - **[antun3s](https://github.com/antun3s)** (Bruno Antunes)

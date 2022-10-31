@@ -65,7 +65,7 @@ set _hour=%_hour:~-2%
 set _minute=%_minute:~-2%
 set _second=%time:~-5,2%
 set dryFileName=aegis-icons_-_dryrun_[%_yyyy%-%_mm%-%_dd%_%_hour%.%_minute%.%_second%].zip
-pack.py gen --output %dryFileName% --version %version%
+make-pack.py gen --output %dryFileName% --version %version%
 :: NirCmd has to be in the folder that's added to the PATH <https://www.nirsoft.net/utils/nircmd.html>
 nircmd moverecyclebin %dryFileName%
 echo.
@@ -75,7 +75,7 @@ goto loop
 :makeSVGzip
 echo - - - - - - - - - - - - - - - - -
 echo.
-pack.py gen --output aegis-icons.zip --version %version%
+make-pack.py gen --output aegis-icons.zip --version %version%
 echo.
 echo ---------------------------------
 goto loop
@@ -86,7 +86,7 @@ echo.
 echo Add version number
 set /p customver="(format: YYYYMMDD): "
 echo.
-pack.py gen --output aegis-icons_v%customver%.zip --version %customver%
+make-pack.py gen --output aegis-icons_v%customver%.zip --version %customver%
 echo.
 echo ---------------------------------
 goto loop
