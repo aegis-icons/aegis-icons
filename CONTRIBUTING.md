@@ -417,7 +417,7 @@ When everything is done and ready to go, [submit icons with either as pull reque
 - Icon files that are outdated for the first time, `v1` is added to end of the filename.
   - Examples: `Codeberg v1.svg`.
 - Version label number increases for outdated icons when new versions of the primary icon are released (`v2`, `v3`, `v4`, `v5` etc.).
-- Outdated versions are moved to self titled directory (`/icons/4_Outdated/`).
+- Outdated versions are moved to directory: `/icons/4_Outdated/`.
 - :warning: **Only for maintainers:** Icons of now dead service (or didn't have 2FA etc.) should be moved to [*aegis-icons / misc*'s `removed_icons`](https://github.com/aegis-icons/misc/tree/main/removed_icons) directory just as is.
   - Also add info to the directory's README on why icon was removed.
 
