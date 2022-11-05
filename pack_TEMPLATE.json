@@ -1968,6 +1968,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/Huawei.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Huawei"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/Hubspot.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2539,6 +2546,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Matomo"
+            ]
+        },
+        {
+            "filename": "icons/1_Primary/Mattermost.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Mattermost"
             ]
         },
         {
@@ -4165,6 +4179,14 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/The University of Chicago.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "The University of Chicago",
+                "UChicago"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/TheHive.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4270,6 +4292,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/TotalEnergies.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "TotalEnergies"
+            ]
+        },
+        {  
             "filename": "icons/1_Primary/Toyohashi University of Technology.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4798,6 +4827,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/Yandex.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Yandex"
+            ]
+        },
+        {  
             "filename": "icons/1_Primary/YoBit.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -5824,6 +5860,13 @@
             ]
         },
         {
+            "filename": "icons/2_Variations/Yandex alt.svg",
+            "category": "2. Variations & Alts",
+            "issuer": [
+                "Yandex"
+            ]
+        },
+        { 
             "filename": "icons/2_Variations/You Need A Budget alt.svg",
             "category": "2. Variations & Alts",
             "issuer": [
