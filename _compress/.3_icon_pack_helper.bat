@@ -37,7 +37,7 @@ if errorlevel 1 goto generateJson
 :generateJson
 echo - - - - - - - - - - - - - - - - -
 echo.
-pack.py gen-def
+make-pack.py gen-def
 echo.
 echo ---------------------------------
 goto loop
