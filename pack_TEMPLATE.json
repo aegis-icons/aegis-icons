@@ -358,6 +358,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/Better Uptime.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Better Uptime"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/Betterment.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -1177,6 +1184,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "DocuSign"
+            ]
+        },
+        {
+            "filename": "icons/1_Primary/DomaiNesia.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "DomaiNesia"
             ]
         },
         {
@@ -2724,6 +2738,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Name.com"
+            ]
+        },
+        {
+            "filename": "icons/1_Primary/NamePros.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "NamePros"
             ]
         },
         {
@@ -4635,6 +4656,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "WEDOS"
+            ]
+        },
+        {
+            "filename": "icons/1_Primary/WHMCS.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "WHMCS"
             ]
         },
         {
