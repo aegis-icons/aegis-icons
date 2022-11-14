@@ -69,13 +69,6 @@
             ]
         },
         {
-            "filename": "icons/1_Primary/AWS.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "AWS"
-            ]
-        },
-        {
             "filename": "icons/1_Primary/Active24.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -158,6 +151,14 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Allegro"
+            ]
+        },
+        {
+            "filename": "icons/1_Primary/Amazon Web Services.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Amazon Web Services",
+                "AWS"
             ]
         },
         {
@@ -5200,13 +5201,6 @@
             ]
         },
         {
-            "filename": "icons/2_Variations/AWS bg.var.svg",
-            "category": "2. Variations & Alts",
-            "issuer": [
-                "AWS"
-            ]
-        },
-        {
             "filename": "icons/2_Variations/Activision bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
@@ -5218,6 +5212,14 @@
             "category": "2. Variations & Alts",
             "issuer": [
                 "Adafruit"
+            ]
+        },
+        {
+            "filename": "icons/2_Variations/Amazon Web Services bg.var.svg",
+            "category": "2. Variations & Alts",
+            "issuer": [
+                "Amazon Web Services",
+                "AWS"
             ]
         },
         {
