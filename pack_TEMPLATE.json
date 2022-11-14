@@ -3226,6 +3226,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/PeerTube.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "PeerTube"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/PeeringDB.svg",
             "category": "1. Apps & Sites",
             "issuer": [
