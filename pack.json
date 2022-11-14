@@ -935,6 +935,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/ComputerBase.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "ComputerBase"
+            ]
+        },
+        { 
             "filename": "icons/1_Primary/Contabo.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2679,6 +2686,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/Moodle.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Moodle"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/Mutasibank.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3373,6 +3387,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/Postman.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Postman"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/Postmark.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3583,6 +3604,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Reddit"
+            ]
+        },
+        {
+            "filename": "icons/1_Primary/Register.ly.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Register.ly"
             ]
         },
         {
