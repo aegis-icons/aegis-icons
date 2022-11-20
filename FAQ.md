@@ -131,11 +131,11 @@ In the icon pack file, it's the same format minus the dashes.
 First, clone / fork the git repo or [download the repo as ZIP](https://github.com/aegis-icons/aegis-icons/archive/refs/heads/master.zip) (unzip the ZIP file, if you download it as ZIP).
 
 In **Windows**: 
-- Go to `\aegis-icons\_compress\` directory
+- Go to `/aegis-icons/_compress/` directory
 - Open `.3_icon_pack_helper.bat` and press the corresponding number option in front of *"Make the icon pack ZIP"* text.
-- After it's done, go back to `\aegis-icons\` directory, there should icon pack build as `aegis-icons.zip`.
+- After it's done, go back to `/aegis-icons/` directory, there should icon pack build as `aegis-icons.zip`.
 
-In **other systems**, open terminal in the `\aegis-icons\` directory and execute this command:
+In **other systems**, open terminal in the `/aegis-icons/` directory and execute this command:
 
 ```
 make-pack.py gen --output aegis-icons.zip --version YYYYMMDD
