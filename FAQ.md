@@ -117,9 +117,9 @@ Time to time, we clean up the icon pack by removing icons from the pack for vari
 
 The version number is the date that it was builded.
 
-In the [website](https://aegis-icons.github.io/) or [GitHub release pages](https://github.com/aegis-icons/aegis-icons/releases/latest), it's in the [`YYYY-MM-DD` format](https://acronyms.thefreedictionary.com/YYYYMMDD).
+In the [website](https://aegis-icons.github.io/) or [GitHub release pages](https://github.com/aegis-icons/aegis-icons/releases/latest), it's in the `YYYY-MM-DD` format (4-Digit Year, 2-Digit Month, 2-Digit Day).
 
-In the icon pack file, it's the same version format minus the dashes (because of Aegis's technical limitations).
+In the icon pack file, it's the same format minus the dashes.
 
 ## How can I make a icon pack build?
 
