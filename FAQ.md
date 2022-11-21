@@ -121,7 +121,7 @@ In the [website](https://aegis-icons.github.io/) or [GitHub release pages](https
 
 In the icon pack file, it's the same format minus the dashes.
 
-## How can I make a icon pack build?
+## How can I make icon pack build?
 
 > **Note** \
 > This section is only for more technical users that know how to use command line.
