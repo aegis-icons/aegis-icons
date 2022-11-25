@@ -133,7 +133,7 @@ First, clone / fork the git repo or [download the repo as ZIP](https://github.co
 In **Windows**: 
 - Go to `/aegis-icons/_compress/` directory
 - Open `.3_icon_pack_helper.bat` and press the corresponding number option in front of *"Make the icon pack ZIP"* text.
-- After it's done, go back to `/aegis-icons/` directory, there should icon pack build as `aegis-icons.zip`.
+- After it's done, go back to `/aegis-icons/` directory, there should be icon pack build as `aegis-icons.zip`.
 
 In **other systems**, open terminal in the `/aegis-icons/` directory and execute this command:
 
@@ -142,4 +142,4 @@ make-pack.py gen --output aegis-icons.zip --version YYYYMMDD
 ```
 <sup><i>Replace the</i> <code>YYYYMMDD</code> <i>with version number you want.</i></sup>
 
-After executing command, there should icon pack build as `aegis-icons.zip`.
+After executing command, there should be icon pack build as `aegis-icons.zip`.
