@@ -6,7 +6,7 @@
         {
             "filename": "icons/1_Primary/(ISC)2.svg",
             "category": "1. Apps & Sites",
-            "issuer": [
+            "issuer": [wu
                 "(ISC)²",
                 "(ISC)2",
                 "International Information System Security Certification Consortium"
@@ -2291,6 +2291,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/Ko-fi.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Ko-fi"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/Koofr.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4008,6 +4015,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/Sorare.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Sorare"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/SourceForge.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4205,6 +4219,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "TeamViewer"
+            ]
+        },
+        {
+            "filename": "icons/1_Primary/Teleport.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Teleport"
             ]
         },
         {
@@ -4737,6 +4758,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/Warner Bros. Games.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Warner Bros. Games"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/Wasabi.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4832,6 +4860,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Wordpress"
+            ]
+        },
+        {
+            "filename": "icons/1_Primary/Wuxiaworld.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Wuxiaworld"
             ]
         },
         {
@@ -5756,6 +5791,13 @@
             ]
         },
         {
+            "filename": "icons/2_Variations/Sorare bg.var.svg",
+            "category": "2. Variations & Alts",
+            "issuer": [
+                "Sorare"
+            ]
+        },
+        {
             "filename": "icons/2_Variations/Square bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
@@ -5915,6 +5957,13 @@
             "category": "2. Variations & Alts",
             "issuer": [
                 "Wordpress"
+            ]
+        },
+        {
+            "filename": "icons/2_Variations/Wuxiaworld bg.var.svg",
+            "category": "2. Variations & Alts",
+            "issuer": [
+                "Wuxiaworld"
             ]
         },
         {
