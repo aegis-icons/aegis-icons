@@ -661,6 +661,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/Buhl.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Buhl"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/BuiltByBit.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -1030,6 +1037,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Crypto.com"
+            ]
+        },
+        {
+            "filename": "icons/1_Primary/CurseForge.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "CurseForge"
             ]
         },
         {
@@ -1927,6 +1941,14 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/Hewlett Packard Enterprise.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Hewlett Packard Enterprise",
+                "HPE"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/HitBTC.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2106,6 +2128,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Icedrive"
+            ]
+        },
+        {
+            "filename": "icons/1_Primary/ImmoScout24.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "ImmoScout24"
             ]
         },
         {
@@ -4630,6 +4659,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/VIPTel.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "VIPTel"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/VK.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -5529,6 +5565,13 @@
             "category": "2. Variations & Alts",
             "issuer": [
                 "IVPN"
+            ]
+        },
+        {
+            "filename": "icons/2_Variations/ImmoScout24 fg.var.svg",
+            "category": "2. Variations & Alts",
+            "issuer": [
+                "ImmoScout24"
             ]
         },
         {
