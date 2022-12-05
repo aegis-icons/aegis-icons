@@ -1223,6 +1223,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/DonDominio.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "DonDominio"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/DreamFactory.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -1643,6 +1650,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "GMX"
+            ]
+        },
+        {
+            "filename": "icons/1_Primary/GNS3.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "GNS3"
             ]
         },
         {
