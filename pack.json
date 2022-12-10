@@ -274,6 +274,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/Auth0.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Auth0"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/Authelia.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -750,6 +757,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Capital.com"
+            ]
+        },
+        {
+            "filename": "icons/1_Primary/Cardmarket.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Cardmarket"
             ]
         },
         {
@@ -4406,6 +4420,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/Topicbox.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Topicbox"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/TorGuard.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -5361,6 +5382,13 @@
             "category": "2. Variations & Alts",
             "issuer": [
                 "AngelList"
+            ]
+        },
+        {
+            "filename": "icons/2_Variations/Auth0 bg.var.svg",
+            "category": "2. Variations & Alts",
+            "issuer": [
+                "Auth0"
             ]
         },
         {
