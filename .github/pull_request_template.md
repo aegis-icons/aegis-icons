@@ -9,11 +9,11 @@ to THE TOP TEXT FIELD and replace "icon_name_here" with
 the name of the site / brand / company / app / generic symbol.
 
 > If icon with logo ➜
-   ❝  New icon: icon_name_here
+   ❝  New icon: icon_name_here  ❞
 > If icon update ➜
-   ❝  Update icon: icon_name_here
+   ❝  Update icon: icon_name_here  ❞
 > If generic icon ➜
-   ❝  New icon: icon_name_here (generic)
+   ❝  New icon: icon_name_here (generic)  ❞
 -->
 
 - [ ] I have carefully read and followed [CONTRIBUTING](https://github.com/aegis-icons/aegis-icons/blob/master/CONTRIBUTING.md) document.
