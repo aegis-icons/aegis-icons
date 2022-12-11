@@ -307,7 +307,7 @@ Just change the logo for alternative version.
 - Don't change the background color of the template (`#6750a4`[^2]).
 - Foreground color is always white (`#FFFFFF`).
 - Use these icon libraries:
-  - [Phosphor Icons](https://phosphoricons.com/) (primary, **use light weight**)
+  - [Phosphor Icons](https://phosphoricons.com/?weight=light) (primary, **use light weight**)
   - [Cryptocurrency Icons](http://cryptoicons.co/) (when *Phosphor Icons* doesn't have an icon for cryptocurrency)
     - [Link to SVG directory](https://github.com/spothq/cryptocurrency-icons/tree/master/svg/black).
 
