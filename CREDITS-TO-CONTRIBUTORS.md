@@ -25,6 +25,8 @@ If you want name changed or deleted, [please make a new issue](https://github.co
   - For these icons: *Johns Hopkins* ([#699](https://github.com/aegis-icons/aegis-icons/pull/699)), *NearlyFreeSpeech.NET* ([#700](https://github.com/aegis-icons/aegis-icons/pull/700)), *Salesforce* ([#702](https://github.com/aegis-icons/aegis-icons/pull/702)).
 - **[bartlibert](https://github.com/AnTheMaker)** (Bart Libert)
   - For these icons: *STACK* ([#397](https://github.com/aegis-icons/aegis-icons/pull/397)), *CSAM* ([#398](https://github.com/aegis-icons/aegis-icons/pull/398)), *DigiConnect* ([#399](https://github.com/aegis-icons/aegis-icons/pull/399)), *Smartschool* ([#400](https://github.com/aegis-icons/aegis-icons/pull/400)), *Directus* ([#401](https://github.com/aegis-icons/aegis-icons/pull/401)).
+- **[Bassadin](https://github.com/Bassadin)** (Bastian Hodapp)
+  - For *Scryfall* icon ([#778](https://github.com/aegis-icons/aegis-icons/pull/778)).
 - **[cammarin](https://github.com/cammarin)** (Carlos Marin)
   - For *Onshape* icon ([#703](https://github.com/aegis-icons/aegis-icons/issues/703)).
 - **[CampinCarl](https://github.com/CampinCarl)** (Michael Alden)
@@ -61,7 +63,7 @@ If you want name changed or deleted, [please make a new issue](https://github.co
 - **[Jimver](https://github.com/Jimver)** (Jim)
   - For *Hestia Control Panel* icon ([#383](https://github.com/aegis-icons/aegis-icons/issues/383)).
 - **[joshcancode](https://github.com/joshcancode)**
-  - For these icons: *CSGOFloat* ([#602](https://github.com/aegis-icons/aegis-icons/pull/602)), *3Commas* ([#617](https://github.com/aegis-icons/aegis-icons/pull/617)), *Del-One Federal Credit Union* ([#618](https://github.com/aegis-icons/aegis-icons/pull/618)), *Pionex* ([#619](https://github.com/aegis-icons/aegis-icons/pull/619)).
+  - For these icons: *CSGOFloat* ([#602](https://github.com/aegis-icons/aegis-icons/pull/602)), *3Commas* ([#617](https://github.com/aegis-icons/aegis-icons/pull/617)), *Del-One Federal Credit Union* ([#618](https://github.com/aegis-icons/aegis-icons/pull/618)), *Pionex* ([#619](https://github.com/aegis-icons/aegis-icons/pull/619)), *DMarket* ([#775](https://github.com/aegis-icons/aegis-icons/pull/775)).
   - For updating *Toontown Rewritten* icon with bg fix ([#288](https://github.com/aegis-icons/aegis-icons/pull/288)).
 - **[justsomemate](https://github.com/justsomemate)**
   - For these icons: *Clover* ([#167](https://github.com/aegis-icons/aegis-icons/issues/167)), *Kaseya* ([#168](https://github.com/aegis-icons/aegis-icons/issues/168)), *Unitrends* ([#169](https://github.com/aegis-icons/aegis-icons/issues/169)), *Twilio* ([#170](https://github.com/aegis-icons/aegis-icons/issues/170)), *Palo Alto Networks* ([#171](https://github.com/aegis-icons/aegis-icons/issues/171)), *1040.com* ([#255](https://github.com/aegis-icons/aegis-icons/issues/255)), *Critical Start* ([#259](https://github.com/aegis-icons/aegis-icons/issues/259)), *Asana* ([#508](https://github.com/aegis-icons/aegis-icons/issues/508)), *KnowBe4* ([#695](https://github.com/aegis-icons/aegis-icons/issues/695)), *LibreNMS* ([#696](https://github.com/aegis-icons/aegis-icons/issues/696)), *Mint Mobile* ([#701](https://github.com/aegis-icons/aegis-icons/issues/701)).
@@ -81,6 +83,8 @@ If you want name changed or deleted, [please make a new issue](https://github.co
   - For these icons: *Hypixel* ([#384](https://github.com/aegis-icons/aegis-icons/pull/384)), *OMGSERV* ([#492](https://github.com/aegis-icons/aegis-icons/pull/492)), *Fly.io* ([#689](https://github.com/aegis-icons/aegis-icons/pull/689)), *Framasoft* ([#690](https://github.com/aegis-icons/aegis-icons/pull/690)).
 - **[OmegaMartFan](https://github.com/OmegaMartFan)** (Omega Mart Fan)
   - For minor *CONTRIBUTING.md* updates ([#614](https://github.com/aegis-icons/aegis-icons/pull/614)).
+- **[philipkbh](https://github.com/philipkbh)** (Philip)
+  - For these icons: *Purelymail* ([#773](https://github.com/aegis-icons/aegis-icons/pull/773)), *PostgreSQL* ([#774](https://github.com/aegis-icons/aegis-icons/pull/774)).
 - **[sebastianserrani](https://github.com/sebastianserrani)** (Sebastián Serrani)
   - For these icons: *Let'sBit* ([#562](https://github.com/aegis-icons/aegis-icons/issues/562)), *Buenbit* ([#564](https://github.com/aegis-icons/aegis-icons/issues/564)), *Ripio* ([#565](https://github.com/aegis-icons/aegis-icons/issues/565)), *SatoshiTango* ([#566](https://github.com/aegis-icons/aegis-icons/issues/566)).
 - **[Selovert](https://github.com/Selovert)** (Tassilo Selover-Stephan)

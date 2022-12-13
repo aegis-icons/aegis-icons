@@ -1082,6 +1082,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/DMarket.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "DMarket"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/Dashlane.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3465,6 +3472,14 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/PostgreSQL.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "PostgreSQL",
+                "pgAdmin"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/Postman.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3548,6 +3563,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Pterodactyl"
+            ]
+        },
+        {
+            "filename": "icons/1_Primary/Purelymail.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Purelymail"
             ]
         },
         {
@@ -3900,6 +3922,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Scaleway"
+            ]
+        },
+        {
+            "filename": "icons/1_Primary/Scryfall.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Scryfall"
             ]
         },
         {
