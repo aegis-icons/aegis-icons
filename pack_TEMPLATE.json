@@ -330,6 +330,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/Barmenia.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Barmenia"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/Basecamp.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3559,10 +3566,26 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/Prusa.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Prusa",
+                "Printables.com"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/Pterodactyl.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "Pterodactyl"
+            ]
+        },
+        {
+            "filename": "icons/1_Primary/Public Transport Victoria.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Public Transport Victoria",
+                "PTV"
             ]
         },
         {
@@ -5853,6 +5876,14 @@
             "category": "2. Variations & Alts",
             "issuer": [
                 "Privacy"
+            ]
+        },
+        {
+            "filename": "icons/2_Variations/Prusa bg.var.svg",
+            "category": "2. Variations & Alts",
+            "issuer": [
+                "Prusa",
+                "Printables.com"
             ]
         },
         {
