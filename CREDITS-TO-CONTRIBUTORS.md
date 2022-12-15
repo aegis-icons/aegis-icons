@@ -83,6 +83,8 @@ If you want name changed or deleted, [please make a new issue](https://github.co
   - For these icons: *Hypixel* ([#384](https://github.com/aegis-icons/aegis-icons/pull/384)), *OMGSERV* ([#492](https://github.com/aegis-icons/aegis-icons/pull/492)), *Fly.io* ([#689](https://github.com/aegis-icons/aegis-icons/pull/689)), *Framasoft* ([#690](https://github.com/aegis-icons/aegis-icons/pull/690)).
 - **[OmegaMartFan](https://github.com/OmegaMartFan)** (Omega Mart Fan)
   - For minor *CONTRIBUTING.md* updates ([#614](https://github.com/aegis-icons/aegis-icons/pull/614)).
+- **[Paragoumba](https://github.com/Paragoumba)**
+  - For *PulseHeberg* icon ([#771](https://github.com/aegis-icons/aegis-icons/pull/771)).
 - **[philipkbh](https://github.com/philipkbh)** (Philip)
   - For these icons: *Purelymail* ([#773](https://github.com/aegis-icons/aegis-icons/pull/773)), *PostgreSQL* ([#774](https://github.com/aegis-icons/aegis-icons/pull/774)).
 - **[sebastianserrani](https://github.com/sebastianserrani)** (Sebastián Serrani)
