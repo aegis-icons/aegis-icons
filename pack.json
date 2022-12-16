@@ -4293,6 +4293,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/Systemli.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Systemli"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/T-Mobile.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4532,6 +4539,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "TradingView"
+            ]
+        },
+        {
+            "filename": "icons/1_Primary/Trality.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Trality"
             ]
         },
         {
