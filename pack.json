@@ -1089,6 +1089,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/DNSimple.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "DNSimple"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/Dashlane.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2138,6 +2145,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/IGN.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "IGN"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/INWX.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2520,6 +2534,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Luno"
+            ]
+        },
+        {
+            "filename": "icons/1_Primary/Luogu.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Luogu"
             ]
         },
         {
@@ -4399,6 +4420,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "ThreatQuotient"
+            ]
+        },
+        {
+            "filename": "icons/1_Primary/Thunderpick.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Thunderpick"
             ]
         },
         {
