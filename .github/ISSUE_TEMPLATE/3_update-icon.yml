@@ -73,7 +73,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        :warning: **Required** if you selected `Other` as "reason for update".
+        :point_up: **Required** if you selected `Other` as "reason for update".
   - type: checkboxes
     id: terms
     attributes:
