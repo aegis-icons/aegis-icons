@@ -21,11 +21,17 @@ body:
         - https://iconscout.com/unicons/explore/line
         - https://feathericons.com/
         - https://lucide.dev/
+        
+        ---
   - type: textarea
     id: anything-else
     attributes:
       label: Anything else?
       description: Optional text field to add other info, kudos etc.
+  - type: markdown
+    attributes:
+      value: |
+        ---
   - type: checkboxes
     id: terms
     attributes:

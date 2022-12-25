@@ -35,6 +35,8 @@ body:
         - :globe_with_meridians: Please link to english version of the site, if site has that option!
         - :underage: If this entity is explicitly ["not safe for work"](https://en.wikipedia.org/wiki/Not_safe_for_work), please add ` (NSFW)` after the URL.
         - :warning: **Don't add Play Store link or other app store links**, unless requested entity doesn't have any other website.
+        
+        ---
   - type: input
     id: logo-url
     attributes:
@@ -51,6 +53,8 @@ body:
           - SVG code starts with: `<svg` (and so on)
         
         *Adding a optional resource doesn't guarantee that aegis-icons will use it for the icon.*
+        
+        ---
   - type: textarea
     id: 2fa-proof
     attributes:
@@ -63,11 +67,17 @@ body:
         - Screenshot proof of the TOTP / Google Authenticator 2FA settings page *(censor sensitive info if needed)*.
         
         This is optional, but **if we cannot find info about 2FA from the website, Google nor [2FA Directory](https://2fa.directory/int/)**, then we **reject the request** (we give you possibility for reopening though by sending the proof via comment).
+        
+        ---
   - type: textarea
     id: anything-else
     attributes:
       label: Anything else?
       description: "Optional text field to add other info: extra info about branding, kudos etc."
+  - type: markdown
+    attributes:
+      value: |
+        ---
   - type: checkboxes
     id: terms
     attributes:
