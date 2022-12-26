@@ -26,6 +26,7 @@ Thank you for taking the time to read and contribute to our project!
   - [Finding source images](#finding-source-images)
   - [Templates](#templates)
   - [Layout](#layout)
+    - [Icon grid](#icon-grid)
   - [Vectors](#vectors)
   - [Colors](#colors)
   - [bg.var, fg.var & fg.bg.var icons](#bgvar-fgvar--fgbgvar-icons)
@@ -216,6 +217,10 @@ When making icons, download and use provided [templates](/_templates).
     - ["Optical Adjustment – Logic vs. Designers" by Luke Jones](https://marvelapp.com/blog/optical-adjustment-logic-vs-designers/) <sup>[[archive.today](https://archive.ph/9gd7h)]</sup>
     - [Visual Center](https://javier.xyz/visual-center/) tool (not always accurate results to human eye).
 - **Compare your creation to other icons**, try to keep logo size visually consistent to other icons.
+
+#### _Icon grid_
+
+*Documentation coming soon...*
 
 ### Vectors
 - :warning: Logo must be in **single** path / compound path / object:
