@@ -6714,6 +6714,13 @@
             ]
         },
         {
+            "filename": "icons/4_Outdated/Okta v2.svg",
+            "category": "4. Outdated",
+            "issuer": [
+                "Okta"
+            ]
+        },
+        {
             "filename": "icons/4_Outdated/OnlyFans v1.svg",
             "category": "4. Outdated",
             "issuer": [
@@ -6750,6 +6757,13 @@
         },
         {
             "filename": "icons/4_Outdated/PayPal v1.svg",
+            "category": "4. Outdated",
+            "issuer": [
+                "PayPal"
+            ]
+        },
+        {
+            "filename": "icons/4_Outdated/PayPal v2.svg",
             "category": "4. Outdated",
             "issuer": [
                 "PayPal"
