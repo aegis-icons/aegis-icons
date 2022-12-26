@@ -6234,168 +6234,310 @@
             "filename": "icons/3_Generic/Bitcoin.svg",
             "category": "3. Generic",
             "issuer": [
-                "Bitcoin"
+                "Bitcoin",
+                "BTC",
+                "Crypto",
+                "Cryptocurrency"
+            ]
+        },
+        {
+            "filename": "icons/3_Generic/Books.svg",
+            "category": "3. Generic",
+            "issuer": [
+                "Books",
+                "Reader",
+                "Reading",
+                "Library"
+            ]
+        },
+        {
+            "filename": "icons/3_Generic/Chat.svg",
+            "category": "3. Generic",
+            "issuer": [
+                "Chat",
+                "Talk",
+                "Forum",
+                "Message",
+                "Message board",
+                "Social",
+                "Social network"
             ]
         },
         {
             "filename": "icons/3_Generic/Cloud.svg",
             "category": "3. Generic",
             "issuer": [
-                "Cloud"
+                "Cloud",
+                "Server"
+            ]
+        },
+        {
+            "filename": "icons/3_Generic/Computer.svg",
+            "category": "3. Generic",
+            "issuer": [
+                "Computer",
+                "PC",
+                "Desktop"
             ]
         },
         {
             "filename": "icons/3_Generic/Dollar.svg",
             "category": "3. Generic",
             "issuer": [
-                "Dollar"
+                "Dollar",
+                "USD",
+                "Currency",
+                "Money"
+            ]
+        },
+        {
+            "filename": "icons/3_Generic/Domain.svg",
+            "category": "3. Generic",
+            "issuer": [
+                "Domain",
+                "Internet",
+                "DNS",
+                "Network"
             ]
         },
         {
             "filename": "icons/3_Generic/Education.svg",
             "category": "3. Generic",
             "issuer": [
-                "Education"
+                "Education",
+                "Student",
+                "Learning",
+                "School",
+                "College",
+                "University"
+            ]
+        },
+        {
+            "filename": "icons/3_Generic/Ethereum.svg",
+            "category": "3. Generic",
+            "issuer": [
+                "Ethereum",
+                "ETH",
+                "Crypto",
+                "Cryptocurrency"
             ]
         },
         {
             "filename": "icons/3_Generic/Euro.svg",
             "category": "3. Generic",
             "issuer": [
-                "Euro"
+                "Euro",
+                "EUR",
+                "Currency",
+                "Money"
+            ]
+        },
+        {
+            "filename": "icons/3_Generic/Finance.svg",
+            "category": "3. Generic",
+            "issuer": [
+                "Finance",
+                "Bank",
+                "Money"
             ]
         },
         {
             "filename": "icons/3_Generic/Gallery.svg",
             "category": "3. Generic",
             "issuer": [
-                "Gallery"
+                "Gallery",
+                "Photography",
+                "Photos",
+                "Pictures",
+                "Camera"
             ]
         },
         {
             "filename": "icons/3_Generic/Gaming.svg",
             "category": "3. Generic",
             "issuer": [
-                "Gaming"
+                "Gaming",
+                "Game",
+                "Video games"
             ]
         },
         {
-            "filename": "icons/3_Generic/Internet Globe.svg",
+            "filename": "icons/3_Generic/Health.svg",
             "category": "3. Generic",
             "issuer": [
-                "Internet Globe"
+                "Health",
+                "Medical"
             ]
         },
         {
             "filename": "icons/3_Generic/Key.svg",
             "category": "3. Generic",
             "issuer": [
-                "Key"
+                "Key",
+                "Security",
+                "Login",
+                "Password",
+                "Encryption"
+            ]
+        },
+        {
+            "filename": "icons/3_Generic/Linux.svg",
+            "category": "3. Generic",
+            "issuer": [
+                "Linux",
+                "Computer"
             ]
         },
         {
             "filename": "icons/3_Generic/Mail.svg",
             "category": "3. Generic",
             "issuer": [
-                "Mail"
+                "Mail",
+                "Email",
+                "Message",
+                "Post"
             ]
         },
         {
             "filename": "icons/3_Generic/Monero.svg",
             "category": "3. Generic",
             "issuer": [
-                "Monero"
+                "Monero",
+                "XMR",
+                "Crypto",
+                "Cryptocurrency"
             ]
         },
         {
             "filename": "icons/3_Generic/Money.svg",
             "category": "3. Generic",
             "issuer": [
-                "Money"
+                "Money",
+                "Cash",
+                "Finance",
+                "Commerce",
+                "Payment"
             ]
         },
         {
             "filename": "icons/3_Generic/Music.svg",
             "category": "3. Generic",
             "issuer": [
-                "Music"
+                "Music",
+                "Audio",
+                "Streaming",
+                "Media"
             ]
         },
         {
-            "filename": "icons/3_Generic/Note.svg",
+            "filename": "icons/3_Generic/Notes.svg",
             "category": "3. Generic",
             "issuer": [
-                "Note"
+                "Notes",
+                "Journal",
+                "Todo"
+            ]
+        },
+        {
+            "filename": "icons/3_Generic/P2P.svg",
+            "category": "3. Generic",
+            "issuer": [
+                "P2P",
+                "Peer-to-peer",
+                "Bittorrent",
+                "Torrent",
+                "Tracker"
             ]
         },
         {
             "filename": "icons/3_Generic/Plane.svg",
             "category": "3. Generic",
             "issuer": [
-                "Plane"
+                "Plane",
+                "Airplane",
+                "Air travel"
             ]
         },
         {
             "filename": "icons/3_Generic/Pound.svg",
             "category": "3. Generic",
             "issuer": [
-                "Pound"
+                "Pound",
+                "GBP",
+                "Currency",
+                "Money"
             ]
         },
         {
             "filename": "icons/3_Generic/Privacy.svg",
             "category": "3. Generic",
             "issuer": [
-                "Privacy"
+                "Privacy",
+                "Private",
+                "Security",
+                "Encryption",
+                "Login",
+                "Authentication"
             ]
         },
         {
             "filename": "icons/3_Generic/RSS.svg",
             "category": "3. Generic",
             "issuer": [
-                "RSS"
+                "RSS",
+                "Feed",
+                "Aggregator"
             ]
         },
         {
             "filename": "icons/3_Generic/Security.svg",
             "category": "3. Generic",
             "issuer": [
-                "Security"
+                "Security",
+                "Encryption",
+                "Login",
+                "Authentication",
+                "Privacy",
+                "Private"
             ]
         },
         {
             "filename": "icons/3_Generic/Server.svg",
             "category": "3. Generic",
             "issuer": [
-                "Server"
+                "Server",
+                "Cloud",
+                "Database"
             ]
         },
         {
             "filename": "icons/3_Generic/Shopping.svg",
             "category": "3. Generic",
             "issuer": [
-                "Shopping"
-            ]
-        },
-        {
-            "filename": "icons/3_Generic/Talk.svg",
-            "category": "3. Generic",
-            "issuer": [
-                "Talk"
+                "Shopping",
+                "Commerce",
+                "Store"
             ]
         },
         {
             "filename": "icons/3_Generic/User.svg",
             "category": "3. Generic",
             "issuer": [
-                "User"
+                "User",
+                "Profile",
+                "Personal",
+                "Login",
+                "Account"
             ]
         },
         {
             "filename": "icons/3_Generic/Video.svg",
             "category": "3. Generic",
             "issuer": [
-                "Video"
+                "Video",
+                "Media",
+                "Film",
+                "Streaming"
             ]
         },
         {
