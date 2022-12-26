@@ -34,7 +34,7 @@
 - [logos](https://github.com/shgysk8zer0/logos) by Chris Zuber ([Unlicense](https://github.com/shgysk8zer0/logos/blob/master/LICENSE))
 - [Lucide](https://lucide.dev/) ([ISC](https://github.com/lucide-icons/lucide/blob/master/LICENSE))
 - [Simple Icons](https://simpleicons.org/) ([CC0 1.0 Universal](https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md))
-- [Unicons](https://iconscout.com/unicons) by Iconscout ([Apache 2.0](https://github.com/Iconscout/unicons/blob/master/LICENSE))
+- [Unicons](https://iconscout.com/unicons) by Iconscout ([IconScout Simple License](https://github.com/Iconscout/unicons/blob/master/LICENSE))
 
 **And [special thanks to these contributors!](CREDITS-TO-CONTRIBUTORS.md)**
 
