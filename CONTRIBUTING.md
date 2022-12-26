@@ -26,6 +26,7 @@ Thank you for taking the time to read and contribute to our project!
   - [Finding source images](#finding-source-images)
   - [Templates](#templates)
   - [Layout](#layout)
+    - [Icon grid](#icon-grid)
   - [Vectors](#vectors)
   - [Colors](#colors)
   - [bg.var, fg.var & fg.bg.var icons](#bgvar-fgvar--fgbgvar-icons)
@@ -217,6 +218,10 @@ When making icons, download and use provided [templates](/_templates).
     - [Visual Center](https://javier.xyz/visual-center/) tool (not always accurate results to human eye).
 - **Compare your creation to other icons**, try to keep logo size visually consistent to other icons.
 
+#### _Icon grid_
+
+*Documentation coming soon...*
+
 ### Vectors
 - :warning: Logo must be in **single** path / compound path / object:
 
@@ -269,8 +274,8 @@ When making icons, download and use provided [templates](/_templates).
 - **If icon you're making is using dark background, you have to make** `bg.var` **icon version as well.**
   - Or opposite, **if background is too bright for white logo, then make** `fg.var` **icon version.**
   - Check with ["BG colors to avoid" SVG](https://github.com/aegis-icons/aegis-icons/blob/master/_templates/z_bg-colors_to_avoid.svg) if `bg.var` version is needed.
-- For generic icons, use background color `#607D8B` and white foreground.
-  - Templates `ai_template_generic.ait` & `svg_template_generic.svg` already has correct background color set.
+- For *generic icons*, use templates (`ai_template_generic.ait` or `svg_template_generic.svg`) and **don't change the BG colors!**
+  - [More info at the "generic icons" section](#generic-icons).
   
 ### bg.var, fg.var & fg.bg.var icons
 > **Note** \
@@ -301,19 +306,15 @@ Just change the logo for alternative version.
 
 ### Generic icons
 
-> **Warning** \
-> We don't want any generic icon submissions until the [redesigning of generic icons](https://github.com/aegis-icons/aegis-icons/issues/722) is done. Thank you for understanding.
-
 "Generic" – in this case – means icons that doesn't represent any brand and are using symbol-like vectors.
 
 - Use `ai_template_generic.ait` or `svg_template_generic.svg` template, depending on the software.
-- Don't change the background color of the template (`#607D8B`[^2]).
+- Don't change the background color of the template (`#6750a4`[^2]).
 - Foreground color is always white (`#FFFFFF`).
-- Use either of these icon library, depending on availability or visual looks:
-  - [Unicons](https://iconscout.com/unicons/explore/line) (primary)
-  - [Feather](https://feathericons.com/) (secondary)
-    - [Lucide](https://lucide.dev/) (community fork of Feather)
-  - [Cryptocurrency Icons](http://cryptoicons.co/) ([link to SVG directory](https://github.com/spothq/cryptocurrency-icons/tree/master/svg/black), when neither of the icon libraries has icon for cryptocurrency).
+- Use these icon libraries:
+  - [Phosphor Icons](https://phosphoricons.com/?weight=light) (primary, **use light weight**)
+  - [Cryptocurrency Icons](http://cryptoicons.co/) (when *Phosphor Icons* doesn't have an icon for cryptocurrency)
+    - [Link to SVG directory](https://github.com/spothq/cryptocurrency-icons/tree/master/svg/black).
 
 ### Save and export
 > **Note** \
@@ -366,7 +367,7 @@ Next, do SVG compression & cleanup.
   - *See the [example SVG code after manual cleanup](https://github.com/aegis-icons/misc/commit/c0128f61f0d2b88d5953881699955a4a17477e47?diff=split) for aimed optimal result.*
 
 > **Note** \
-> **Test the SVG on the web browser** that it still works after edits! (drag-and-drop SVG to tab bar or *shortcut:* <kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>O</kbd>).
+> **Test the SVG on the web browser** that it still works after edits! (drag-and-drop SVG to tab bar or *"Open File..." shortcut:* <kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>O</kbd>).
 
 When everything is done and ready to go, [submit icons with either as pull request or issue](#repository-submitting-options).
 
@@ -387,7 +388,7 @@ When everything is done and ready to go, [submit icons with either as pull reque
 > When naming brand based icon(s), check how brand capitalised and spell the name from their app / website (check the capitalization / spelling from browser tab title or body text of their website, **not from the logo!**).
 
 > **Note** – **Filename character limitations:** \
-> Only use [ISO basic Latin alphabet letters](https://simple.wikipedia.org/wiki/ISO_basic_Latin_alphabet), numbers, spaces, dashes and other safe ASCII characters ([list of forbidden ASCII](https://stackoverflow.com/questions/1976007/what-characters-are-forbidden-in-windows-and-linux-directory-names/31976060#31976060)).
+> Only use [ISO basic Latin alphabet letters](https://en.wikipedia.org/wiki/ISO_basic_Latin_alphabet), numbers, spaces, dashes and other safe ASCII characters ([list of forbidden ASCII](https://stackoverflow.com/questions/1976007/what-characters-are-forbidden-in-windows-and-linux-directory-names/31976060#31976060)).
 
 - Primary icon:
   - `[Company / product / app / site name].<ext>`
@@ -512,4 +513,4 @@ NOTE: remember to link this section in the TOC when ready.
 
 [^1]: Article: [Logo, Logomark, Logotype - What's The Difference And What Do You Need?](https://blog.designcrowd.com/article/997/logo-logomark-logotype-whats-the-difference-and-what-do-you-need) <sup>[[wayback machine](https://web.archive.org/web/20200606123728/https://blog.designcrowd.com/article/997/logo-logomark-logotype-whats-the-difference-and-what-do-you-need)]</sup>
 
-[^2]: This color is taken from [Material Design 2014 color system](https://material.io/design/color/the-color-system.html#tools-for-picking-colors) <sup>[[archive.today w/ linked section](https://archive.today/96QQG#77%)]</sup> (Blue Grey, 500).
+[^2]: This color is taken from [Material Design 3's color system](https://m3.material.io/styles/color/the-color-system/tokens#0d90da19-3d89-4964-9a97-5a024fc6d77b) (token: `Primary40`, hex: `#6750a4`).

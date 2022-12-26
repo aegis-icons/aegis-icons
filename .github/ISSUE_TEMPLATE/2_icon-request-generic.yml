@@ -17,10 +17,7 @@ body:
           - Eg. `Generic icon request: Education`
         - Do not change the formatting of the title!
         
-        If you can't think of **symbol name**, use these sites as reference:
-        - https://iconscout.com/unicons/explore/line
-        - https://feathericons.com/
-        - https://lucide.dev/
+        If you can't think of **symbol name**, use this site as reference: https://phosphoricons.com/
         
         ---
   - type: textarea

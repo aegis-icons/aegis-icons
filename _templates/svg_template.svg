@@ -1,23 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1024 1024">
-<style type="text/css">
-	.st0{fill:#ED1C24;}
-	.st1{fill:none;stroke:#1DED7E;stroke-width:2;stroke-miterlimit:10;stroke-dasharray:2;}
-	.st2{fill:none;stroke:#1DED7E;stroke-width:2;stroke-miterlimit:10;stroke-dasharray:2;}
-	.st3{fill:none;stroke:#1D8CED;stroke-width:2;stroke-miterlimit:10;stroke-dasharray:2;}
-</style>
-<g id="Icon">
-	<circle id="Background" class="st0" cx="512" cy="512" r="512"/>
-</g>
-<g id="Min_Guides_-_REMOVE_WHEN_FINISHED">
-	<line class="st1" x1="256" y1="0.5" x2="256" y2="1024"/>
-	<line class="st1" x1="768" y1="0" x2="768" y2="1024"/>
-	<line class="st2" x1="1024" y1="256" x2="0" y2="256"/>
-	<line class="st2" x1="1024" y1="768" x2="0" y2="768"/>
-</g>
-<g id="Max_Guides_-_REMOVE_WHEN_FINISHED">
-	<line class="st3" x1="128" y1="0.5" x2="128" y2="1024"/>
-	<line class="st3" x1="896" y1="1023.5" x2="896" y2="0"/>
-</g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+   <circle cx="512" cy="512" r="512" style="fill:#ed1c24"/>
+   <path d="M256 .5V1024M768 0v1024m256-768H0m1024 512H0" style="fill:none;stroke:#1ded7e;stroke-width:2;stroke-miterlimit:10;stroke-dasharray:2"/>
+   <path d="M128 .5V1024m768-.5V0" style="stroke:#1ded7e;fill:none;stroke-width:2;stroke-miterlimit:10;stroke-dasharray:2"/>
 </svg>
