@@ -18,6 +18,8 @@ body:
         - Do not change the formatting of the title!
         
         If you can't think of **symbol name**, use this site as reference: https://phosphoricons.com/
+        
+        ---
   - type: textarea
     id: anything-else
     attributes:

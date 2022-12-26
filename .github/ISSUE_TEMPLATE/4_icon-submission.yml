@@ -19,6 +19,8 @@ body:
         - If it's generic icon submission, add *short name for the icon* and `(generic)` at the end of *"Icon submission:"* text.
           - Eg. `Icon submission: Education (generic)`
         - **Do not change the formatting of the title!**
+        
+        ---
     validations:
       required: true
   - type: input
@@ -39,6 +41,8 @@ body:
         - :warning: **Don't add Play Store link or other app store links**, unless requested entity doesn't have any other website.
         
         :raising_hand: *If icon submission is generic icon, add this text instead of URL:* `Skipped, generic icon`
+        
+        ---
   - type: textarea
     id: 2fa-proof
     attributes:
@@ -51,6 +55,8 @@ body:
         - Screenshot proof of the TOTP / Google Authenticator 2FA settings page *(censor sensitive info if needed)*.
         
         This is optional, but **if we cannot find info about 2FA from the website, Google nor [2FA Directory](https://2fa.directory/int/)**, we have to ask you proof for it.
+        
+        ---
   - type: textarea
     id: logo-url
     attributes:
@@ -76,6 +82,8 @@ body:
           - `[Icon name] from Unicons / Feather / Lucide / Cryptocurrency Icons`
         
         :warning: **It cannot be just duplication of** "URL of the site or app" **field text.**
+        
+        ---
   - type: textarea
     id: bg-color
     attributes:
@@ -94,6 +102,8 @@ body:
             - Give the HTML element name (eg. `#footer`) **and** URL of the page.
             
         :raising_hand: *If icon submission is generic icon, add this text instead of URLs / info:* `Skipped, generic icon`
+        
+        ---
   - type: textarea
     id: icon-upload
     attributes:
@@ -104,6 +114,8 @@ body:
     attributes:
       value: |        
         First, click the text field above and then [upload](https://docs.github.com/en/github/writing-on-github/working-with-advanced-formatting/attaching-files) **SVGs inside of ZIP file** (even though SVG to Markdown upload is now possible, [there's still some issues with it](https://github.com/github/feedback/discussions/11053)).
+        
+        ---
   - type: textarea
     id: anything-else
     attributes:

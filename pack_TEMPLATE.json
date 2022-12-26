@@ -330,6 +330,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/Barmenia.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Barmenia"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/Basecamp.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -546,13 +553,6 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Blesta"
-            ]
-        },
-        {
-            "filename": "icons/1_Primary/BlockFi.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "BlockFi"
             ]
         },
         {
@@ -1082,6 +1082,20 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/DMarket.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "DMarket"
+            ]
+        },
+        {
+            "filename": "icons/1_Primary/DNSimple.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "DNSimple"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/Dashlane.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -1445,13 +1459,6 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "FRITZ!"
-            ]
-        },
-        {
-            "filename": "icons/1_Primary/FTX.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "FTX"
             ]
         },
         {
@@ -2138,6 +2145,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/IGN.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "IGN"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/INWX.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2520,6 +2534,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Luno"
+            ]
+        },
+        {
+            "filename": "icons/1_Primary/Luogu.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Luogu"
             ]
         },
         {
@@ -3065,13 +3086,6 @@
             ]
         },
         {
-            "filename": "icons/1_Primary/Nuri.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "Nuri"
-            ]
-        },
-        {
             "filename": "icons/1_Primary/Nutstore.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3465,6 +3479,14 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/PostgreSQL.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "PostgreSQL",
+                "pgAdmin"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/Postman.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3544,10 +3566,40 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/Prusa.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Prusa",
+                "Printables.com"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/Pterodactyl.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "Pterodactyl"
+            ]
+        },
+        {
+            "filename": "icons/1_Primary/Public Transport Victoria.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Public Transport Victoria",
+                "PTV"
+            ]
+        },
+        {
+            "filename": "icons/1_Primary/PulseHeberg.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "PulseHeberg"
+            ]
+        },
+        {
+            "filename": "icons/1_Primary/Purelymail.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Purelymail"
             ]
         },
         {
@@ -3661,6 +3713,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Razer"
+            ]
+        },
+        {
+            "filename": "icons/1_Primary/Real-Debrid.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Real-Debrid"
             ]
         },
         {
@@ -3903,6 +3962,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/Scryfall.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Scryfall"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/Seafile.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4027,6 +4093,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Skiff"
+            ]
+        },
+        {
+            "filename": "icons/1_Primary/Skrill.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Skrill"
             ]
         },
         {
@@ -4234,6 +4307,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/Systemli.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Systemli"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/T-Mobile.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4357,6 +4437,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/Thunderpick.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Thunderpick"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/Time4VPS.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4473,6 +4560,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "TradingView"
+            ]
+        },
+        {
+            "filename": "icons/1_Primary/Trality.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Trality"
             ]
         },
         {
@@ -5764,13 +5858,6 @@
             ]
         },
         {
-            "filename": "icons/2_Variations/Nuri bg.var.svg",
-            "category": "2. Variations & Alts",
-            "issuer": [
-                "Nuri"
-            ]
-        },
-        {
             "filename": "icons/2_Variations/Obsidian Entertainment bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
@@ -5824,6 +5911,14 @@
             "category": "2. Variations & Alts",
             "issuer": [
                 "Privacy"
+            ]
+        },
+        {
+            "filename": "icons/2_Variations/Prusa bg.var.svg",
+            "category": "2. Variations & Alts",
+            "issuer": [
+                "Prusa",
+                "Printables.com"
             ]
         },
         {
@@ -6374,13 +6469,6 @@
             ]
         },
         {
-            "filename": "icons/4_Outdated/Bitwala.svg",
-            "category": "4. Outdated",
-            "issuer": [
-                "Bitwala"
-            ]
-        },
-        {
             "filename": "icons/4_Outdated/Bitwarden v1.svg",
             "category": "4. Outdated",
             "issuer": [
@@ -6626,6 +6714,13 @@
             ]
         },
         {
+            "filename": "icons/4_Outdated/Okta v2.svg",
+            "category": "4. Outdated",
+            "issuer": [
+                "Okta"
+            ]
+        },
+        {
             "filename": "icons/4_Outdated/OnlyFans v1.svg",
             "category": "4. Outdated",
             "issuer": [
@@ -6662,6 +6757,13 @@
         },
         {
             "filename": "icons/4_Outdated/PayPal v1.svg",
+            "category": "4. Outdated",
+            "issuer": [
+                "PayPal"
+            ]
+        },
+        {
+            "filename": "icons/4_Outdated/PayPal v2.svg",
             "category": "4. Outdated",
             "issuer": [
                 "PayPal"

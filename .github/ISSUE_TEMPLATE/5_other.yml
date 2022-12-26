@@ -10,6 +10,8 @@ body:
         :loudspeaker: Follow the [issue guidelines](https://github.com/aegis-icons/aegis-icons/blob/master/CONTRIBUTING.md#issue-guidelines) *(when needed)* and [Code of Conduct](https://github.com/aegis-icons/aegis-icons/blob/master/CODE-OF-CONDUCT.md).
         
         :warning: **Do not use this form for icon requesting or submissions!** Any icon requests / submissions using this form are rejected.
+        
+        ---
   - type: textarea
     id: issue
     attributes:
