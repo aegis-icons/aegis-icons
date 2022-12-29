@@ -1,18 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 300 126.42">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 126.42">
    <defs>
-      <style>
-         .cls-5,.cls-6{fill:#fff;font-size:11px;font-family:ArialMT,Arial}.cls-6{font-size:6px}.cls-8{letter-spacing:-.04em}.cls-9{letter-spacing:-.06em}.cls-10{letter-spacing:0}
+      <style>.cls-1,.cls-2{font-size:11px;fill:#fff;font-family:ArialMT,Arial}.cls-2{font-size:6px}.cls-3,.cls-4{font-size:7px;font-family:Arial-BoldMT,Arial;font-weight:700}.cls-3{fill:none;stroke:#fff;stroke-linejoin:round;stroke-width:2px}
       </style>
    </defs>
-   <path d="M0 26.42h100v100H0Z" style="fill:#fff"/>
-   <path d="M100 26.42h100v100H100Z" style="fill:#2b2b2b"/>
-   <path d="M200 26.42h100v100H200Z"/>
-   <text style="font-family:ArialMT,Arial;font-size:11px" transform="translate(21.26 119.75)">Light theme</text>
-   <text style="font-size:6px;font-family:ArialMT,Arial" transform="translate(2.58 34.59)">#FFFFFF</text>
-   <text class="cls-5" transform="translate(121.57 119.75)">Dark theme</text>
-   <text class="cls-5" transform="translate(209.97 119.75)">AMOLED theme</text>
-   <text class="cls-6" transform="translate(103 34.59)">#2b2b2b</text>
-   <text class="cls-6" transform="translate(203 34.59)">#000000</text>
-   <text style="fill:none;stroke:#fff;stroke-linejoin:round;stroke-width:3px;font-size:7px;font-family:Arial-BoldMT,Arial;font-weight:700" transform="translate(10.1 10.69)"><tspan class="cls-8">A</tspan><tspan x="4.8" y="0">void these colors as BG, if possible. White is always banned colo</tspan><tspan x="221.85" y="0" class="cls-9">r</tspan><tspan x="224.19" y="0" class="cls-10">, no matter what.</tspan><tspan x="0" y="8.4">If brand color is clearly dark, make variation icon (check CONTRIBUTING doc).</tspan></text>
-   <text style="font-size:7px;font-family:Arial-BoldMT,Arial;font-weight:700" transform="translate(10.1 10.69)"><tspan class="cls-8">A</tspan><tspan x="4.8" y="0">void these colors as BG, if possible. White is always banned colo</tspan><tspan x="221.85" y="0" class="cls-9">r</tspan><tspan x="224.19" y="0" class="cls-10">, no matter what.</tspan><tspan x="0" y="8.4">If brand color is clearly dark, make variation icon (check CONTRIBUTING doc).</tspan></text>
+   <g id="BG Colors to avoid">
+      <g id="Black">
+         <path d="M200 26.42h100v100H200Z"/>
+         <text class="cls-1" transform="translate(209.97 119.75)">AMOLED theme</text>
+         <text class="cls-2" transform="translate(203 34.59)">#000000</text>
+      </g>
+      <g id="Dark">
+         <path d="M100 26.42h100v100H100Z" style="fill:#2b2b2b"/>
+         <text class="cls-1" transform="translate(121.57 119.75)">Dark theme</text>
+         <text class="cls-2" transform="translate(103 34.59)">#2b2b2b</text>
+      </g>
+      <g id="Light">
+         <path d="M0 26.42h100v100H0Z" style="fill:#fff"/>
+         <text class="cls-1" transform="translate(21.26 119.75)" style="fill:#000">Light theme</text>
+         <text class="cls-2" transform="translate(2.58 34.59)" style="fill:#000">#FFFFFF</text>
+      </g>
+      <g id="Top text">
+         <text class="cls-3" transform="translate(19.49 19.1)">If brand color is clearly dark, make variation icon (check CONTRIBUTING doc).</text>
+         <text class="cls-4" transform="translate(19.49 19.1)">If brand color is clearly dark, make variation icon (check CONTRIBUTING doc).</text>
+         <text class="cls-3" transform="translate(10.1 10.69)">Avoid these colors as BG, if possible. White is always banned colors, no matter what.</text>
+         <text class="cls-4" transform="translate(10.1 10.69)">Avoid these colors as BG, if possible. White is always banned colors, no matter what.</text>
+      </g>
+   </g>
 </svg>
