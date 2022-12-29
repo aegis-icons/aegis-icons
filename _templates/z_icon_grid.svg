@@ -1,8 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
    <defs>
-      <style>
-         .cls-2,.cls-3,.cls-5,.cls-6{fill:none;stroke-miterlimit:10}.cls-2{stroke:#262525}.cls-3{stroke:#64ff00}.cls-5,.cls-6{stroke:#000}.cls-6{stroke-dasharray:11.87 11.87}.cls-11{fill:#fff}
-      </style>
+      <style>.cls-2,.cls-3,.cls-5,.cls-6{fill:none;stroke-miterlimit:10}.cls-2{stroke:#262525}.cls-3{stroke:#64ff00}.cls-5,.cls-6{stroke:#000}.cls-6{stroke-dasharray:11.87 11.87}.cls-11{fill:#fff}</style>
    </defs>
    <g id="Icon grid">
       <g id="Other shape guides" style="opacity:.75">
