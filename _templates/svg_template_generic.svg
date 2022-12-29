@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
-   <circle cx="512" cy="512" r="512" style="fill:#6750a4"/>
-   <path d="M256 .5V1024M768 0v1024m256-768H0m1024 512H0" style="fill:none;stroke:#1ded7e;stroke-width:2;stroke-miterlimit:10;stroke-dasharray:2"/>
-   <path d="M128 .5V1024m768-.5V0" style="stroke:#1ded7e;fill:none;stroke-width:2;stroke-miterlimit:10;stroke-dasharray:2"/>
+   <circle id="Background (DO NOT CHANGE)" cx="512" cy="512" r="512" style="fill:#6750a4"/>
+   <path id="Min Guides (REMOVE WHEN FINISHED)" d="M256 .5V1024M768 0v1024m256-768H0m1024 512H0" style="fill:none;stroke:#1ded7e;stroke-width:2;stroke-miterlimit:10;stroke-dasharray:2"/>
+   <path id="Max Guides (REMOVE WHEN FINISHED)" d="M128 .5V1024m768-.5V0" style="stroke:#1ded7e;fill:none;stroke-width:2;stroke-miterlimit:10;stroke-dasharray:2"/>
 </svg>
