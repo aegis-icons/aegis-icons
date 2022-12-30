@@ -690,6 +690,14 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/CAPCOM ID.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "CAPCOM ID",
+                "Capcom"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/CEX.IO.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -1871,6 +1879,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/Guru.com.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Guru.com"
+            ]
+        },
+        {   
             "filename": "icons/1_Primary/H&R Block.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4233,7 +4248,7 @@
             "filename": "icons/1_Primary/Star Wars The Old Republic.svg",
             "category": "1. Apps & Sites",
             "issuer": [
-                "Star Wars The Old Republic"
+                "Star Wars: The Old Republic"
             ]
         },
         {
@@ -5383,6 +5398,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "pCloud"
+            ]
+        },
+        {
+            "filename": "icons/1_Primary/paste.gg.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "paste.gg"
             ]
         },
         {
