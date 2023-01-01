@@ -2737,6 +2737,14 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/Meta.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Meta",
+                "Oculus"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/Micron21.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3169,13 +3177,6 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Obsidian Entertainment"
-            ]
-        },
-        {
-            "filename": "icons/1_Primary/Oculus.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "Oculus"
             ]
         },
         {
@@ -5894,13 +5895,6 @@
             ]
         },
         {
-            "filename": "icons/2_Variations/Oculus bg.var.svg",
-            "category": "2. Variations & Alts",
-            "issuer": [
-                "Oculus"
-            ]
-        },
-        {
             "filename": "icons/2_Variations/Opalstack bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
@@ -6882,6 +6876,20 @@
             "category": "4. Outdated",
             "issuer": [
                 "OVH"
+            ]
+        },
+        {
+            "filename": "icons/4_Outdated/Oculus bg.var.svg",
+            "category": "4. Outdated",
+            "issuer": [
+                "Oculus"
+            ]
+        },
+        {
+            "filename": "icons/4_Outdated/Oculus.svg",
+            "category": "4. Outdated",
+            "issuer": [
+                "Oculus"
             ]
         },
         {
