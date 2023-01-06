@@ -79,7 +79,7 @@ body:
           - For site embedded vectors, eg: `Extracted logo with SVG Gobbler from https://official-domain-of-the-app-or-site.com/exact-page`
           - For [image traced vectors](https://en.wikipedia.org/wiki/Image_tracing), eg: `Image traced of https://example.com/logo.jpg with Vectorizer.io`
         - *If it's generic icon:*
-          - `[Icon name] from Unicons / Feather / Lucide / Cryptocurrency Icons`
+          - `[Icon name] from Phosphor Icons / Cryptocurrency Icons`
         
         :warning: **It cannot be just duplication of** "URL of the site or app" **field text.**
         

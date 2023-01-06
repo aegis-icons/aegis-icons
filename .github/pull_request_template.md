@@ -60,7 +60,7 @@ For example:
   - For image tracing, eg. ➜
       ❝  Image traced of https://example.com/logo.jpg with Vectorizer.io  ❞
 - If it's generic icon ➜
-    ❝  [Icon name] from Unicons / Feather / Lucide / Cryptocurrency Icons  ❞
+    ❝  [Icon name] from Phosphor Icons / Cryptocurrency Icons  ❞
 
 ❌ IT CANNOT BE JUST COPY-PASTE OF THE "URL of the site or app" PART. -->
 
