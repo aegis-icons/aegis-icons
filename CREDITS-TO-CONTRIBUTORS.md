@@ -87,6 +87,8 @@ If you want name changed or deleted, [please make a new issue](https://github.co
   - For *PulseHeberg* icon ([#771](https://github.com/aegis-icons/aegis-icons/pull/771)).
 - **[philipkbh](https://github.com/philipkbh)** (Philip)
   - For these icons: *Purelymail* ([#773](https://github.com/aegis-icons/aegis-icons/pull/773)), *PostgreSQL* ([#774](https://github.com/aegis-icons/aegis-icons/pull/774)).
+- **[pvstyps](https://github.com/pvstyps)**
+  - For *Optery* icon ([#795])(https://github.com/aegis-icons/aegis-icons/issues/795)).
 - **[sebastianserrani](https://github.com/sebastianserrani)** (Sebastián Serrani)
   - For these icons: *Let'sBit* ([#562](https://github.com/aegis-icons/aegis-icons/issues/562)), *Buenbit* ([#564](https://github.com/aegis-icons/aegis-icons/issues/564)), *Ripio* ([#565](https://github.com/aegis-icons/aegis-icons/issues/565)), *SatoshiTango* ([#566](https://github.com/aegis-icons/aegis-icons/issues/566)).
 - **[Selovert](https://github.com/Selovert)** (Tassilo Selover-Stephan)
