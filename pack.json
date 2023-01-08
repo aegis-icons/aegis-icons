@@ -2265,6 +2265,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/JFrog.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "JFrog"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/Jagex.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3816,6 +3823,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/Restream.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Restream"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/Revolt.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4393,6 +4407,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "TeamViewer"
+            ]
+        },
+        {
+            "filename": "icons/1_Primary/Teamup Calendar.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Teamup Calendar"
             ]
         },
         {
