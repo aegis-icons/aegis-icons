@@ -1,6 +1,7 @@
 *.lnk
 *.zip
 *.URL
+*.log
 _compress/*.png
 _compress/*.svg
 _compress/*.webp
