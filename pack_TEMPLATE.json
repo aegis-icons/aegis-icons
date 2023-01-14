@@ -2384,6 +2384,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/Kinguin.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Kinguin"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/Kiva.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -5191,6 +5198,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/YouHodler.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "YouHodler"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/Young Platform.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -5350,6 +5364,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "fileee"
+            ]
+        },
+        {
+            "filename": "icons/1_Primary/hi.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "hi"
             ]
         },
         {
@@ -6261,6 +6282,13 @@
             ]
         },
         {
+            "filename": "icons/2_Variations/hi bg.var.svg",
+            "category": "2. Variations & Alts",
+            "issuer": [
+                "hi"
+            ]
+        },
+        {
             "filename": "icons/2_Variations/niconico bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
@@ -7135,6 +7163,13 @@
             "category": "4. Outdated",
             "issuer": [
                 "Twitch"
+            ]
+        },
+        {
+            "filename": "icons/4_Outdated/Ubiquiti v1.svg",
+            "category": "4. Outdated",
+            "issuer": [
+                "Ubiquiti"
             ]
         },
         {
