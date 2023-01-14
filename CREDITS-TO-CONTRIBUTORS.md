@@ -59,7 +59,7 @@ If you want name changed or deleted, [please make a new issue](https://github.co
     - Our first contributor! :sparkles:
 - **[jessiehildebrandt](https://github.com/jessiehildebrandt)** (Jessie Hildebrandt)
   - For *Elastic* icon ([#596](https://github.com/aegis-icons/aegis-icons/issues/596)).
-  - For updating *Toontown Rewritten* icon with logo fix ([#482](https://github.com/aegis-icons/aegis-icons/issues/482)).
+  - For updating *Toontown Rewritten* icon ([#482](https://github.com/aegis-icons/aegis-icons/issues/482)).
 - **[Jimver](https://github.com/Jimver)** (Jim)
   - For *Hestia Control Panel* icon ([#383](https://github.com/aegis-icons/aegis-icons/issues/383)).
 - **[joshcancode](https://github.com/joshcancode)**
@@ -67,6 +67,7 @@ If you want name changed or deleted, [please make a new issue](https://github.co
   - For updating *Toontown Rewritten* icon with bg fix ([#288](https://github.com/aegis-icons/aegis-icons/pull/288)).
 - **[justsomemate](https://github.com/justsomemate)**
   - For these icons: *Clover* ([#167](https://github.com/aegis-icons/aegis-icons/issues/167)), *Kaseya* ([#168](https://github.com/aegis-icons/aegis-icons/issues/168)), *Unitrends* ([#169](https://github.com/aegis-icons/aegis-icons/issues/169)), *Twilio* ([#170](https://github.com/aegis-icons/aegis-icons/issues/170)), *Palo Alto Networks* ([#171](https://github.com/aegis-icons/aegis-icons/issues/171)), *1040.com* ([#255](https://github.com/aegis-icons/aegis-icons/issues/255)), *Critical Start* ([#259](https://github.com/aegis-icons/aegis-icons/issues/259)), *Asana* ([#508](https://github.com/aegis-icons/aegis-icons/issues/508)), *KnowBe4* ([#695](https://github.com/aegis-icons/aegis-icons/issues/695)), *LibreNMS* ([#696](https://github.com/aegis-icons/aegis-icons/issues/696)), *Mint Mobile* ([#701](https://github.com/aegis-icons/aegis-icons/issues/701)).
+  - For updating *Ubiquiti* icon ([#802](https://github.com/aegis-icons/aegis-icons/issues/802)).
 - **[krisu5](https://github.com/krisu5)** (Kristian Salonen)
   - Head maintainer of the project.
 - **[krmax44](https://github.com/krmax44)** (Max)
