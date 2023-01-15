@@ -185,7 +185,8 @@ Search through the logo resources to find a vector-based image (SVG, AI, EPS, PD
       - Alternatively: Inspect the output image (<kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>Shift</kbd>+<kbd>C</kbd>) and copy the SVG code from dev tools.
   - [Vector Magic](https://vectormagic.com/) is the one of best – if not the best – image tracer.
     - Also commercial, but does offer free trials for [desktop application](https://vectormagic.com/desktop).
-  - Illustrator & Inkscape has image tracing tools, but we really don't recommend them. Usually results varies from really bad to somewhat decent.
+  - :warning: Don't use any other "image tracing" tools outside of these recommended services! Maintainer has tested many of the image tracing tools and these are only good ones so far.
+    - Illustrator & Inkscape has image tracing tools, but we really don't recommend them. Usually results varies from really bad to somewhat decent.
 - **Making vectorized logo from scratch** is also option, if you're skilled and patient enough.
 
 > **Note** \
@@ -202,6 +203,8 @@ When making icons, download and use provided [templates](/_templates).
 - Other softwares, use `svg_template.svg` (for primary icons) or `svg_template_generic.svg` (for generic icons).
 
 ### Layout
+*Go these instructions in order:*
+
 - Always use logomark[^1] if brand is using one.
 - If logo only has text (known as logotype[^1]), use that instead.
   - **Only if absolutely necessary:** if you think that logotype is too long and hard to see on smaller size, make it similar to [favicon](https://en.wikipedia.org/wiki/Favicon) / app icon or use first letter of logotype.
@@ -261,6 +264,8 @@ When making icons, download and use provided [templates](/_templates).
 > Change "fill mode" of the logo vector and its parts from *"Winding (Non-Zero)"* **into** *"Alternative (Even-Odd)"* (*menu:* <kbd><i>Layer</i> ➜ <i>Fill Mode</i></kbd>). Otherwise it creates CSS rules we don't want for our SVGs and we want everything to contain by the vector path.
 
 ### Colors
+*Go these instructions in order:*
+
 - **Never use white as background** (abbreviation: *BG*), white is always preserved for logo (a.k.a. *foreground*, short for *FG*).
 - Don't pick random colors, unless there's absolutely no other options.
 - Don't use gradients, use solid colors.
@@ -305,7 +310,6 @@ When making icons, download and use provided [templates](/_templates).
 Just change the logo for alternative version.
 
 ### Generic icons
-
 "Generic" – in this case – means icons that doesn't represent any brand and are using symbol-like vectors.
 
 - Use `ai_template_generic.ait` or `svg_template_generic.svg` template, depending on the software.
