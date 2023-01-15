@@ -185,7 +185,7 @@ Search through the logo resources to find a vector-based image (SVG, AI, EPS, PD
       - Alternatively: Inspect the output image (<kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>Shift</kbd>+<kbd>C</kbd>) and copy the SVG code from dev tools.
   - [Vector Magic](https://vectormagic.com/) is the one of best – if not the best – image tracer.
     - Also commercial, but does offer free trials for [desktop application](https://vectormagic.com/desktop).
-  - :warning: Don't use any other "image tracing" tools outside of these recommended services! Maintainer has tested many of the image tracing tools and these are only good ones so far.
+  - :warning: **Don't use any other "image tracing" tools outside of these recommended services!** Maintainer has tested many of the image tracing tools and these are only good ones so far.
     - Illustrator & Inkscape has image tracing tools, but we really don't recommend them. Usually results varies from really bad to somewhat decent.
 - **Making vectorized logo from scratch** is also option, if you're skilled and patient enough.
 
@@ -267,15 +267,16 @@ When making icons, download and use provided [templates](/_templates).
 *Go these instructions in order:*
 
 - **Never use white as background** (abbreviation: *BG*), white is always preserved for logo (a.k.a. *foreground*, short for *FG*).
-- Don't pick random colors, unless there's absolutely no other options.
+- Don't use random color.
 - Don't use gradients, use solid colors.
 - Keep everything at 100% opacity, no blending etc.
 - **Logo / FG should always use white** (`#FFFFFF`).
   - *Exceptions:* `fg.var` & `fg.bg.var` icons.
-- If you find brand guideline that has documented brand colors ([example](https://brave.com/brave-branding-assets/) <sup>[[wayback machine](https://web.archive.org/web/20200606124434/https://brave.com/brave-branding-assets/)]</sup>), then go with that. For background color, use primary brand color that has specifically said on the guideline or based on what color is used most.
+- If you find brand guideline that has documented brand colors ([example](https://brave.com/brave-branding-assets/) <sup>[[wayback machine](https://web.archive.org/web/20200606124434/https://brave.com/brave-branding-assets/)]</sup>), then go with that. Use primary brand color that has specifically said on the guideline or based on what color is used most.
 - If there's no guidelines and logo only has one color, use logo color as icon background.
   - For multi-color logos, pick the best looking or most used color. 
     - **Tip:** In Illustrator, if logo is using gradient, use [this method](http://miraimages.com/illustrator-gradient-colors-to-swatches/) <sup>[[wayback machine](https://web.archive.org/web/20200606124113/http://miraimages.com/illustrator-gradient-colors-to-swatches/)]</sup> to extract all the colors in the gradient to the swatches.
+- :warning: **Only when absolutely necessary:** if there's no brand guidelines and **only found white versions** of the logo, pick some color from website (preferably from header or site's most used color).
 - **If icon you're making is using dark background, you have to make** `bg.var` **icon version as well.**
   - Or opposite, **if background is too bright for white logo, then make** `fg.var` **icon version.**
   - Check with ["BG colors to avoid" SVG](https://github.com/aegis-icons/aegis-icons/blob/master/_templates/z_bg-colors_to_avoid.svg) if `bg.var` version is needed.
