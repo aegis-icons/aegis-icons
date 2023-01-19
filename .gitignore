@@ -9,3 +9,4 @@ _compress/(svg_input)/*.*
 _resources/
 _screenshots/
 __pycache__/
+*.ini
