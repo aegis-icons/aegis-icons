@@ -169,13 +169,6 @@
             ]
         },
         {
-            "filename": "icons/1_Primary/AngelList.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "AngelList"
-            ]
-        },
-        {
             "filename": "icons/1_Primary/AnonAddy.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -828,6 +821,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Cisco"
+            ]
+        },
+        {
+            "filename": "icons/1_Primary/ClearScore.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "ClearScore"
             ]
         },
         {
@@ -4302,6 +4302,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/Storj.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Storj"
+            ]
+        },
+        { 
             "filename": "icons/1_Primary/Stripchat.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4548,6 +4555,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Tokopedia"
+            ]
+        },
+        {
+            "filename": "icons/1_Primary/Tolgee.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Tolgee"
             ]
         },
         {
@@ -5051,6 +5065,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/Wellfound.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Wellfound"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/Wikipedia.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -5465,6 +5486,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/phpMyAdmin.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "phpMyAdmin"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/postale.io.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -5551,13 +5579,6 @@
             ]
         },
         {
-            "filename": "icons/2_Variations/AngelList bg.var.svg",
-            "category": "2. Variations & Alts",
-            "issuer": [
-                "AngelList"
-            ]
-        },
-        {
             "filename": "icons/2_Variations/Auth0 bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
@@ -5632,6 +5653,13 @@
             "category": "2. Variations & Alts",
             "issuer": [
                 "Carta"
+            ]
+        },
+        {
+            "filename": "icons/2_Variations/ClearScore bg.var.svg",
+            "category": "2. Variations & Alts",
+            "issuer": [
+                "ClearScore"
             ]
         },
         {
@@ -6631,6 +6659,20 @@
             "category": "4. Outdated",
             "issuer": [
                 "Algolia"
+            ]
+        },
+        {
+            "filename": "icons/4_Outdated/AngelList bg.var.svg",
+            "category": "4. Outdated",
+            "issuer": [
+                "AngelList"
+            ]
+        },
+        {
+            "filename": "icons/4_Outdated/AngelList.svg",
+            "category": "4. Outdated",
+            "issuer": [
+                "AngelList"
             ]
         },
         {
