@@ -58,6 +58,7 @@ body:
         Optional option to add URL for *press kit* or *logo SVG / EPS / AI vector resource*, preferably from official source ([tips for finding these](https://github.com/aegis-icons/aegis-icons/blob/master/CONTRIBUTING.md#finding-source-images)).
         
         - :x: **Unaccepted resources:** JPG, PNG, GIF, WebP, ICO or [any other raster image](https://en.wikipedia.org/wiki/Image_file_format#Raster_formats_(2D)).
+          - *[Why vector images instead of raster (a.k.a. bitmap) images](https://www.lifewire.com/vector-and-bitmap-images-1701238#toc-ease-of-use-vectors-are-more-robust)*.
         - :x: **NO [data URIs](https://en.wikipedia.org/wiki/Data_URI_scheme), SVG code** or anything **that's NOT web URL!** *(Forbidden because of long character lengths.)*
           - Data uri starts with: `data:image/` (and so on)
           - SVG code starts with: `<svg` (and so on)
