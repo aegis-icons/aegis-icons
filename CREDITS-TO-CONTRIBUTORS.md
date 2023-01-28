@@ -94,6 +94,8 @@ If you want name changed or deleted, [please make a new issue](https://github.co
   - For these icons: *Let'sBit* ([#562](https://github.com/aegis-icons/aegis-icons/issues/562)), *Buenbit* ([#564](https://github.com/aegis-icons/aegis-icons/issues/564)), *Ripio* ([#565](https://github.com/aegis-icons/aegis-icons/issues/565)), *SatoshiTango* ([#566](https://github.com/aegis-icons/aegis-icons/issues/566)).
 - **[Selovert](https://github.com/Selovert)** (Tassilo Selover-Stephan)
   - For these icons: *BlockFi* ([#175](https://github.com/aegis-icons/aegis-icons/issues/175)), *Fundrise* ([#176](https://github.com/aegis-icons/aegis-icons/issues/176)), *Obsidian Entertainment* ([#177](https://github.com/aegis-icons/aegis-icons/issues/177)), *SendCutSend* ([#178](https://github.com/aegis-icons/aegis-icons/issues/178)), *Shareworks* ([#179](https://github.com/aegis-icons/aegis-icons/issues/179)), *TaxSlayer* ([#180](https://github.com/aegis-icons/aegis-icons/issues/180)).
+- **[SiebeSysmans](https://github.com/SiebeSysmans)** (Siebe Sysmans)
+  - For *Bitrise* icon ([#819](https://github.com/aegis-icons/aegis-icons/pull/819)).
 - **[skozharinov](https://github.com/skozharinov)** (Sergey Kozharinov)
   - For these icons: *OnlyFans* ([#248](https://github.com/aegis-icons/aegis-icons/issues/248)), *Qwintry* ([#249](https://github.com/aegis-icons/aegis-icons/issues/249)), *Upwork* ([#250](https://github.com/aegis-icons/aegis-icons/issues/250)).
 - **[sreeragag7](https://github.com/sreeragag7)** (Sreerag)
