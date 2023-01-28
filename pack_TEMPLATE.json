@@ -62,6 +62,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/AOL.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "AOL"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/AVG.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2692,6 +2699,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/Masterworks.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Masterworks"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/Mastodon.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4034,6 +4048,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/Second Life.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Second Life"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/Segment.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4974,6 +4995,14 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/WHM.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "WHM",
+                "Web Host Manager"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/WHMCS.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -5564,6 +5593,13 @@
             ]
         },
         {
+            "filename": "icons/2_Variations/AOL bg.var.svg",
+            "category": "2. Variations & Alts",
+            "issuer": [
+                "AOL"
+            ]
+        },
+        {
             "filename": "icons/2_Variations/Activision bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
@@ -5899,6 +5935,13 @@
             "category": "2. Variations & Alts",
             "issuer": [
                 "Mapbox"
+            ]
+        },
+        {
+            "filename": "icons/2_Variations/Masterworks bg.var.svg",
+            "category": "2. Variations & Alts",
+            "issuer": [
+                "Masterworks"
             ]
         },
         {
