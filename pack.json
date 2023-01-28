@@ -401,6 +401,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/Birdie.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Birdie"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/BitForex.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -454,6 +461,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Bitbucket"
+            ]
+        },
+        {
+            "filename": "icons/1_Primary/Bitbuy.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Bitbuy"
             ]
         },
         {
@@ -2479,6 +2493,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Kyoto University"
+            ]
+        },
+        {
+            "filename": "icons/1_Primary/LOBSTR.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "LOBSTR"
             ]
         },
         {
@@ -5456,6 +5477,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "login.gov"
+            ]
+        },
+        {
+            "filename": "icons/1_Primary/mail.com.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "mail.com"
             ]
         },
         {
