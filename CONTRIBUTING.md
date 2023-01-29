@@ -180,9 +180,8 @@ Search through the logo resources to find a vector-based image (SVG, AI, EPS, PD
        - Eg. [You Need A Budget](https://www.youneedabudget.com) reveals the hidden SVG resource in HTML metadata section (`https://www-assets.youneedabudget.com/wp-content/themes/dupatta/dist/images/safari-pinned-tab_[alphanumerical-string].svg`) which can be copy-paste into the browser and save (<kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>S</kbd>).
 - If everything has failed so far, then **check [logo resources](#logos) section.**
   - Remember though, logo has to be latest one that company uses.
-- As last resort, you can **try [image tracing](https://en.wikipedia.org/wiki/Image_tracing) with raster images** (JPG, PNG etc). Rule of thumb with image tracing is using image that's high resolution, not many colors and doesn't have any [artifacts](https://simple.wikipedia.org/wiki/Compression_artifact).
-  - :warning: *Only use tools recommended in the ["image tracing tools" section](#image-tracing-tools)*.
-    - Using tool outside of "image tracing tools" list is not acceptable.
+- As last resort, you can **try [image tracing](#image-tracing-tools) with raster images**.
+  - :warning: Only use tools recommended in the "image tracing tools" section. *Using tool outside of the list is not acceptable.*
 - **Making vectorized logo from scratch** is also option, if you're skilled and patient enough.
 
 > **Note** \
@@ -467,6 +466,8 @@ More resources at [LogoSearch's "Alternative Logo Sources"](https://logosear.ch/
 
 > **Note** \
 > Only use image tracing tool if there's no other option, **always use ready-made vectors if available.**
+
+In a nutshell, image tracing means converting raster image (PNG, JPG etc.) to vector file (SVG, EPS, AI etc.) with vector paths, [more info at Wikipedia](https://en.wikipedia.org/wiki/Image_tracing).
 
 :balance_scale: **Rule of thumb with image tracing:**
 1. Use high resolution image if possible.
