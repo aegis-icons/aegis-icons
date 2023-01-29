@@ -43,6 +43,7 @@ Thank you for taking the time to read and contribute to our project!
 - [**Resources**](#resources)
   - [Logos](#logos)
     - [Google tips for searching logos](#google-tips-for-searching-logos)
+  - [Image tracing tools](#image-tracing-tools)
   - [Lists of sites supporting 2FA](#lists-of-sites-supporting-2fa)
     - [Google search queries for double-checking 2FA support](#google-search-queries-for-double-checking-2fa-support)
   - [Software](#software)
@@ -168,7 +169,7 @@ Search through the logo resources to find a vector-based image (SVG, AI, EPS, PD
   - Look for pages like: *Brand(ing), Press, Media, Logos, Assets, Marketing, About* etc.
     - Trying googling too: `logo site:offical-site-for-app-or-site.com`
 - **Embedded logo(s) on company website**
-  - Easiest way for finding / downloading SVGs from web pages is using [SVG Gobbler](https://www.svggobbler.com/) browser extension (Chrome & Firefox, [open source](https://github.com/rossmoody/svg-gobbler)).
+  - **Easiest way** for finding / downloading SVGs from web pages is using [SVG Gobbler](https://www.svggobbler.com/) browser extension (Chrome & Firefox, [open source](https://github.com/rossmoody/svg-gobbler)).
     - Alternatives: [SVG Export](https://svgexport.io/) (Chrome & Firefox), [svg-grabber](https://chrome.google.com/webstore/detail/svg-grabber-get-all-the-s/ndakggdliegnegeclmfgodmgemdokdmg) (Chrome only, abandonware).
   - **Ways without extension:**
     1. Try right-clicking logo image and selecting <kbd><i>Save image as...</i></kbd>, and see if the save dialogue appears with SVG (not as JPG, PNG, GIF, WebP or [any other raster graphic format](https://en.wikipedia.org/wiki/Image_file_formats#Raster_formats)).
@@ -179,14 +180,9 @@ Search through the logo resources to find a vector-based image (SVG, AI, EPS, PD
        - Eg. [You Need A Budget](https://www.youneedabudget.com) reveals the hidden SVG resource in HTML metadata section (`https://www-assets.youneedabudget.com/wp-content/themes/dupatta/dist/images/safari-pinned-tab_[alphanumerical-string].svg`) which can be copy-paste into the browser and save (<kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>S</kbd>).
 - If everything has failed so far, then **check [logo resources](#logos) section.**
   - Remember though, logo has to be latest one that company uses.
-- As last resort, you can **try [image tracing](https://en.wikipedia.org/wiki/Image_tracing) with raster images** (JPG, PNG etc). Rule of thumb with image tracing is using image that's high resolution, not many colors and doesn't have any [artifacts](https://simple.wikipedia.org/wiki/Compression_artifact) (if image does have artifacts, you can try [Pix Fix](https://pixfix.com/) tool to remove them).
-  - [Vectorizer.io](https://anonym.to/?https://www.vectorizer.io) is great image tracer, but vectors aren't freely downloadable anymore. Generating vectors without account / freely is still possible.
-    - There's a loophole to download the SVG: use [SVG Gobbler](https://www.svggobbler.com/) after vector is generated.
-      - Alternatively: Inspect the output image (<kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>Shift</kbd>+<kbd>C</kbd>) and copy the SVG code from dev tools.
-  - [Vector Magic](https://vectormagic.com/) is the one of best – if not the best – image tracer.
-    - Also commercial, but does offer free trials for [desktop application](https://vectormagic.com/desktop).
-  - :warning: **Don't use any other "image tracing" tools outside of these recommended services!** Maintainer has tested many of the image tracing tools and these are only good ones so far.
-    - Illustrator & Inkscape has image tracing tools, but we really don't recommend them. Usually results varies from really bad to somewhat decent.
+- As last resort, you can **try [image tracing](https://en.wikipedia.org/wiki/Image_tracing) with raster images** (JPG, PNG etc). Rule of thumb with image tracing is using image that's high resolution, not many colors and doesn't have any [artifacts](https://simple.wikipedia.org/wiki/Compression_artifact).
+  - :warning: *Only use tools recommended in the ["image tracing tools" section](#image-tracing-tools)*.
+    - Using tool outside of "image tracing tools" list is not acceptable.
 - **Making vectorized logo from scratch** is also option, if you're skilled and patient enough.
 
 > **Note** \
@@ -466,6 +462,32 @@ More resources at [LogoSearch's "Alternative Logo Sources"](https://logosear.ch/
 - `logo site:offical-site-for-app-or-site.com`
 - `filetype:pdf site:offical-site-for-app-or-site.com` (you can rip vectors from PDF, really often logos in these PDFs are vector).
 - `"app-or-site-name-here" svg` or `"app-or-site-name-here" vector`.
+
+### Image tracing tools
+
+> **Note** \
+> Only use image tracing tool if there's no other option, **always use ready-made vectors if available.**
+
+:balance_scale: **Rule of thumb with image tracing:**
+1. Use high resolution image if possible.
+2. Preferably with image that doesn't have many colors.
+3. Doesn't have any [compression artifacts](https://simple.wikipedia.org/wiki/Compression_artifact).
+   - If image does have artifacts, try [Pix Fix](https://pixfix.com/) tool to remove them.
+
+> **Warning** \
+> Using tool **outside of these recommendations below** can do mediocre job and **is not acceptable.** \
+> Maintainer has tested many image tracing tools and these are only actually good ones so far (yes, even Illustrator is mediocre).
+
+- [Vector Magic](https://vectormagic.com/) :star:
+  - The one of best – if not the best – image tracer, often used by the maintainer. Unfortunately it's **commercial** software.
+- [Vectorizer.AI](https://vectorizer.ai/) :star:
+  - From makers of Vector Magic. **Free to use while in beta**, no account needed, almost as good results as Vector Magic.
+- [Vectorizer.io](https://href.li/?https://www.vectorizer.io) :star: <!-- href.li (referrer hider) is added on purpose, preventing devs finding the loophole -->
+  - Great image tracer, used to be completely free to use. **Generating vectors without account / freely is still possible.**
+    - **There's a loophole to download the SVG:** use [SVG Gobbler](https://www.svggobbler.com/) after vector is generated.
+      - *Alternatively:* Inspect the output image (<kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>Shift</kbd>+<kbd>C</kbd>), copy the SVG code from dev tools and use plain text editor to create & save as SVG file.
+- [Vectorizer(.com)](https://vectorizer.com/)
+  - Out of the these four options, this one is least good one. Best part is that it's completely **free to use** and it's still better then most other tools out there.
 
 ### Lists of sites supporting 2FA
 Need to check if service has 2FA? These list apps / websites that support 2FA and in what kind of format.
