@@ -85,7 +85,7 @@ If you want name changed or deleted, [please make a new issue](https://github.co
 - **[OmegaMartFan](https://github.com/OmegaMartFan)** (Omega Mart Fan)
   - For minor *CONTRIBUTING.md* updates ([#614](https://github.com/aegis-icons/aegis-icons/pull/614)).
 - **[Paragoumba](https://github.com/Paragoumba)**
-  - For *PulseHeberg* icon ([#771](https://github.com/aegis-icons/aegis-icons/pull/771)).
+  - For these icons: *PulseHeberg* ([#771](https://github.com/aegis-icons/aegis-icons/pull/771)), *La Poste* ([#824](https://github.com/aegis-icons/aegis-icons/pull/824)).
 - **[philipkbh](https://github.com/philipkbh)** (Philip)
   - For these icons: *Purelymail* ([#773](https://github.com/aegis-icons/aegis-icons/pull/773)), *PostgreSQL* ([#774](https://github.com/aegis-icons/aegis-icons/pull/774)).
 - **[pvstyps](https://github.com/pvstyps)**
