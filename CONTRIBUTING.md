@@ -488,7 +488,7 @@ In a nutshell, image tracing means converting raster image (PNG, JPG etc.) to ve
     - **There's a loophole to download the SVG:** use [SVG Gobbler](https://www.svggobbler.com/) after vector is generated.
       - *Alternatively:* Inspect the output image (<kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>Shift</kbd>+<kbd>C</kbd>), copy the SVG code from dev tools and use plain text editor to create & save as SVG file.
 - [Vectorizer(.com)](https://vectorizer.com/)
-  - Out of the these four options, this one is least good one. Best part is that it's completely **free to use** and it's still better then most other tools out there.
+  - Out of these four options, this one is worst one of the bunch. But best part is that it's **completely free to use** and it's still better then most other tools out there.
 
 ### Lists of sites supporting 2FA
 Need to check if service has 2FA? These list apps / websites that support 2FA and in what kind of format.
