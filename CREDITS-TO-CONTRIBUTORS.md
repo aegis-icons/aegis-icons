@@ -40,7 +40,7 @@ If you want name changed or deleted, [please make a new issue](https://github.co
 - **[cuu508](https://github.com/cuu508)** (Pēteris Caune)
   - For *Healthchecks* icon ([#734](https://github.com/aegis-icons/aegis-icons/pull/734)).
 - **[Dampypena](https://github.com/Dampypena)**
-  - For *Rakuten* icon ([#805](https://github.com/aegis-icons/aegis-icons/pull/805)).
+  - For these icons: *Rakuten* ([#805](https://github.com/aegis-icons/aegis-icons/pull/805)), *Passmulticadeaux* ([#806](https://github.com/aegis-icons/aegis-icons/pull/806)).
 - **[devmrcl](https://github.com/devmrcl)** (Marcel Hopf)
   - For these icons: *IONOS* ([#271](https://github.com/aegis-icons/aegis-icons/issues/271)), *Bitrix24* ([#272](https://github.com/aegis-icons/aegis-icons/issues/272)), *Deutsche Bahn* ([#430](https://github.com/aegis-icons/aegis-icons/issues/430)).
 - **Earhacker** from Reddit
