@@ -978,6 +978,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/Coinhako.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Coinhako"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/Coinigy.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4087,6 +4094,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Seafile"
+            ]
+        },
+        {
+            "filename": "icons/1_Primary/SeatGeek.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "SeatGeek"
             ]
         },
         {
