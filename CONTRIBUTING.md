@@ -480,11 +480,11 @@ In a nutshell, image tracing means converting raster image (PNG, JPG etc.) to ve
 > Maintainer has tested many image tracing tools and these are only actually good ones so far (yes, even Illustrator is mediocre).
 
 - [Vector Magic](https://vectormagic.com/) :star:
-  - The one of best – if not the best – image tracer, often used by the maintainer. Unfortunately it's **commercial** software.
+  - The one of best – if not the best – image tracer, often used by the maintainer. Unfortunately **commercial software**, trial only allows previews.
 - [Vectorizer.AI](https://vectorizer.ai/) :star:
   - From makers of Vector Magic. **Free to use while in beta**, no account needed, almost as good results as Vector Magic.
 - [Vectorizer.io](https://href.li/?https://www.vectorizer.io) :star: <!-- href.li (referrer hider) is added on purpose, preventing devs finding the loophole -->
-  - Great image tracer, used to be completely free to use. **Generating vectors without account / freely is still possible.**
+  - Not as good as previous two but still great image tracer, used to be completely free to use. **Generating vectors without account / freely is still possible.**
     - **There's a loophole to download the SVG:** use [SVG Gobbler](https://www.svggobbler.com/) after vector is generated.
       - *Alternatively:* Inspect the output image (<kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>Shift</kbd>+<kbd>C</kbd>), copy the SVG code from dev tools and use plain text editor to create & save as SVG file.
 - [Vectorizer(.com)](https://vectorizer.com/)
