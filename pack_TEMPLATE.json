@@ -62,6 +62,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/AList.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "AList"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/AOL.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3513,6 +3520,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "PlanetScale"
+            ]
+        },
+        {
+            "filename": "icons/1_Primary/Planning Center.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Planning Center"
             ]
         },
         {
