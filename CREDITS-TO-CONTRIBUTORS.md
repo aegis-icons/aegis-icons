@@ -51,7 +51,7 @@ If you want name changed or deleted, [please make a new issue](https://github.co
 - **[gr99t](https://github.com/gr99t)**
   - For *Packagist* icon ([#270](https://github.com/aegis-icons/aegis-icons/issues/270)).
 - **[hispanasian](https://github.com/hispanasian)** (Carlos Vasquez)
-  - For *Planning Center* icon ([#829](https://github.com/aegis-icons/aegis-icons/pull/829)).
+  - For these icons: *Planning Center* ([#829](https://github.com/aegis-icons/aegis-icons/pull/829)), *Line 6* ([#830](https://github.com/aegis-icons/aegis-icons/pull/830)).
 - **[HodlerTurker](https://github.com/HodlerTurker)** (Turker)
   - For these icons: *XGo* ([#682](https://github.com/aegis-icons/aegis-icons/issues/682)), *MEXC* ([#683](https://github.com/aegis-icons/aegis-icons/issues/683)).
 - **[IamRifki](https://github.com/IamRifki)** (Dania Rifki)

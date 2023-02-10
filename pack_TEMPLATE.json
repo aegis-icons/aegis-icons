@@ -2573,6 +2573,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/Line 6.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Line 6"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/LinkAce.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -5998,6 +6005,13 @@
             "category": "2. Variations & Alts",
             "issuer": [
                 "Lichess"
+            ]
+        },
+        {
+            "filename": "icons/2_Variations/Line 6 bg.var.svg",
+            "category": "2. Variations & Alts",
+            "issuer": [
+                "Line 6"
             ]
         },
         {
