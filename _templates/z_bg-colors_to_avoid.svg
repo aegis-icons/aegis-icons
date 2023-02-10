@@ -21,8 +21,8 @@
       <g id="Top text">
          <text class="cls-3" transform="translate(19.49 19.1)">If brand color is clearly dark, make variation icon (check CONTRIBUTING doc).</text>
          <text class="cls-4" transform="translate(19.49 19.1)">If brand color is clearly dark, make variation icon (check CONTRIBUTING doc).</text>
-         <text class="cls-3" transform="translate(10.1 10.69)">Avoid these colors as BG, if possible. White is always banned colors, no matter what.</text>
-         <text class="cls-4" transform="translate(10.1 10.69)">Avoid these colors as BG, if possible. White is always banned colors, no matter what.</text>
+         <text class="cls-3" transform="translate(10.1 10.69)">Avoid these colors as BG, if possible. White is always banned color, no matter what.</text>
+         <text class="cls-4" transform="translate(10.1 10.69)">Avoid these colors as BG, if possible. White is always banned color, no matter what.</text>
       </g>
    </g>
 </svg>
