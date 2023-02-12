@@ -2237,6 +2237,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/IServ.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "IServ"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/IVPN.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2262,6 +2269,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "ImprovMX"
+            ]
+        },
+        {
+            "filename": "icons/1_Primary/Incogniton.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Incogniton"
             ]
         },
         {
@@ -2910,6 +2924,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Moodle"
+            ]
+        },
+        {
+            "filename": "icons/1_Primary/Mos.ru.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Mos.ru"
             ]
         },
         {
@@ -3816,6 +3837,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/RU-CENTER.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "RU-CENTER"
+            ]
+        },
+        { 
             "filename": "icons/1_Primary/Rackspace.svg",
             "category": "1. Apps & Sites",
             "issuer": [
