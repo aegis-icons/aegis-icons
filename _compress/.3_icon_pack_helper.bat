@@ -68,6 +68,10 @@ set dryFileName=aegis-icons_-_dryrun_[%_yyyy%-%_mm%-%_dd%_%_hour%.%_minute%.%_se
 make-pack.py gen --output %dryFileName% --version %version%
 :: NirCmd has to be in the folder that's added to the PATH <https://www.nirsoft.net/utils/nircmd.html>
 nircmd moverecyclebin %dryFileName%
+set icons_dir="%cd%\icons"
+for /f %%a in ('2^>nul dir "%icons_dir%" /a-d/b/-o/-p/s^|find /v /c ""') do set icons_dir_amount=%%a
+echo.
+echo In "icons" folder:  %icons_dir_amount% icons
 echo.
 echo ---------------------------------
 goto loop
