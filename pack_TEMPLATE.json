@@ -450,6 +450,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/BitSkins.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "BitSkins"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/Bitazza.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -877,6 +884,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Cloudamo"
+            ]
+        },
+        {
+            "filename": "icons/1_Primary/Cloudfanatic.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Cloudfanatic"
             ]
         },
         {
@@ -2290,6 +2304,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Infomaniak"
+            ]
+        },
+        {
+            "filename": "icons/1_Primary/Infura.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Infura"
             ]
         },
         {
