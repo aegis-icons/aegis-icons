@@ -69,6 +69,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/ANY.RUN.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "ANY.RUN"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/AOL.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3481,6 +3488,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/Patronite.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Patronite"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/PayPal.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4044,6 +4058,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "RoboForm"
+            ]
+        },
+        {
+            "filename": "icons/1_Primary/Rocket.Chat.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Rocket.Chat"
             ]
         },
         {
@@ -4852,6 +4873,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/TryHackMe.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "TryHackMe"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/Tumblr.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -5028,6 +5056,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/VDSina.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "VDSina"
+            ]
+        },
+        { 
             "filename": "icons/1_Primary/VFUN.svg",
             "category": "1. Apps & Sites",
             "issuer": [
