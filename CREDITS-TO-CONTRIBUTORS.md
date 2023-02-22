@@ -34,7 +34,7 @@ If you want name changed or deleted, [please make a new issue](https://github.co
 - **[Centenoe](https://github.com/Centenoe)** (Centeno)
   - For *Neeva* icon ([#502](https://github.com/aegis-icons/aegis-icons/pull/502)).
 - **[ConzzTV](https://github.com/ConzzTV)** (Conzz)
-  - For *LimeSurvey* icon ([#848](https://github.com/aegis-icons/aegis-icons/issues/848)).
+  - For these icons: *LimeSurvey* ([#848](https://github.com/aegis-icons/aegis-icons/issues/848)), *Rocket.Chat* ([#849](https://github.com/aegis-icons/aegis-icons/issues/849)).
 - **[cfanoulis](https://github.com/cfanoulis)** (Charalampos Fanoulis)
   - For *Hyper Expert* icon ([#514](https://github.com/aegis-icons/aegis-icons/issues/514)).
 - **[columndeeply](https://github.com/columndeeply)**
