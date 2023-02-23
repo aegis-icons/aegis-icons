@@ -34,6 +34,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/1login od WP.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "1login od WP"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/23andMe.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2297,6 +2304,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Incogniton"
+            ]
+        },
+        {
+            "filename": "icons/1_Primary/Indeed.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Indeed"
             ]
         },
         {
@@ -5304,6 +5318,14 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/Wise.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Wise",
+                "TransferWise"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/Wix.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -5332,6 +5354,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/Wykop.pl.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Wykop.pl"
+            ]
+        },
+        { 
             "filename": "icons/1_Primary/Wyze.svg",
             "category": "1. Apps & Sites",
             "issuer": [
