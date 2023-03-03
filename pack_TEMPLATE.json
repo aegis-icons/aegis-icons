@@ -2657,13 +2657,6 @@
             ]
         },
         {
-            "filename": "icons/1_Primary/Linode.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "Linode"
-            ]
-        },
-        {
             "filename": "icons/1_Primary/Linus Tech Tips.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -6508,6 +6501,14 @@
             ]
         },
         {
+            "filename": "icons/2_Variations/Wise fg.var.svg",
+            "category": "2. Variations & Alts",
+            "issuer": [
+                "Wise",
+                "TransferWise"
+            ]
+        },
+        {
             "filename": "icons/2_Variations/Wix bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
@@ -7091,6 +7092,13 @@
             ]
         },
         {
+            "filename": "icons/4_Outdated/Directus v1.svg",
+            "category": "4. Outdated",
+            "issuer": [
+                "Directus"
+            ]
+        },
+        {
             "filename": "icons/4_Outdated/Discord v1.svg",
             "category": "4. Outdated",
             "issuer": [
@@ -7123,6 +7131,13 @@
             "category": "4. Outdated",
             "issuer": [
                 "ExpressVPN"
+            ]
+        },
+        {
+            "filename": "icons/4_Outdated/F-Secure v1.svg",
+            "category": "4. Outdated",
+            "issuer": [
+                "F-Secure"
             ]
         },
         {
