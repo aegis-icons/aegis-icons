@@ -252,7 +252,7 @@ When making icons, download and use provided [templates](/_templates).
 1. Open **Objects** window (*menu:* <kbd><i>Object</i> ➜ <i>Objects</i></kbd>).
 2. Select all the objects related to logo (<kbd>Shift</kbd>+<kbd>Click</kbd> in the **Objects** window).
 3. Ungroup the object multiple times until everything is ungrouped (*menu:* <kbd><i>Object</i> ➜ <i>Ungroup</i></kbd> or *shortcut:* <kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>Shift</kbd>+<kbd>G</kbd>).
-4. "Union" the objects to together (*menu:* <kbd><i>Path</i> ➜ <i>Union</i></kbd>).
+4. Combine the objects to together (*menu:* <kbd><i>Path</i> ➜ <i>Combine</i></kbd>).
 </details>
 
 > **Note** – **For Affinity Designer users:** \
