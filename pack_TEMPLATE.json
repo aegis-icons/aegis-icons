@@ -548,6 +548,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/Bitrefill.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Bitrefill"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/Bitrise.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -1129,6 +1136,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Crypto.com"
+            ]
+        },
+        {
+            "filename": "icons/1_Primary/Cults.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Cults"
             ]
         },
         {
@@ -1745,6 +1759,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/GBAtemp.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "GBAtemp"
+            ]
+        },
+        { 
             "filename": "icons/1_Primary/GMX.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2815,6 +2836,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Mapbox"
+            ]
+        },
+        {
+            "filename": "icons/1_Primary/Marketplace.tf.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Marketplace.tf"
             ]
         },
         {
