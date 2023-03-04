@@ -27,6 +27,8 @@ If you want name changed or deleted, [please make a new issue](https://github.co
   - For these icons: *STACK* ([#397](https://github.com/aegis-icons/aegis-icons/pull/397)), *CSAM* ([#398](https://github.com/aegis-icons/aegis-icons/pull/398)), *DigiConnect* ([#399](https://github.com/aegis-icons/aegis-icons/pull/399)), *Smartschool* ([#400](https://github.com/aegis-icons/aegis-icons/pull/400)), *Directus* ([#401](https://github.com/aegis-icons/aegis-icons/pull/401)).
 - **[Bassadin](https://github.com/Bassadin)** (Bastian Hodapp)
   - For *Scryfall* icon ([#778](https://github.com/aegis-icons/aegis-icons/pull/778)).
+- **[blakegearin](https://github.com/blakegearin)** (Blake Gearin)
+  - For *Guideline* icon ([#856](https://github.com/aegis-icons/aegis-icons/pull/856)).
 - **[cammarin](https://github.com/cammarin)** (Carlos Marin)
   - For *Onshape* icon ([#703](https://github.com/aegis-icons/aegis-icons/issues/703)).
 - **[CampinCarl](https://github.com/CampinCarl)** (Michael Alden)
