@@ -66,18 +66,19 @@ Before making or requesting an icon for app / site, please check if it fits our 
 ### Case-by-case basis
 :grey_question: Needs some examining before accepting or rejecting. Request or submit and we will tell if it's accepted or not.
 
-- Forums, message groups.
-  - We rather make icons based of the forum softwares, because those are more universally usable for users then specific communities.
+- Forums, message groups and similar sites / communities with using pre-existing hosted software.
+  - We rather make icons based of the softwares, because those are more universally usable for users then specific communities.
     - Detected with tools like [What CMS](https://whatcms.org) and [W3Techs Site Info](https://w3techs.com/sites).
-  - *Exception:* really popular forums can get their own icons (at least **over 250,000 total members** and high posting activity).
+  - *Exception:* really popular sites can get their own icons (at least **over 250,000 total members** and high posting activity).
 - Platforms that icon requester / submitter is the creator or owner of the platform itself.
   - We don't do free work or want self-advertising here.
   - *Exception:* if platform is actually popular and has potential users for Aegis.
 - Self-hosted or similar software.
   - Suggested to have ≥ 500 GitHub / Gitlab stars or other non-maintainer activity to back it up.
   - If things previously mentioned aren't available, then we measure popularity based of search results.
-- Adult content, piracy & gambling related sites / apps / services.
+- Adult content, piracy, (crypto) investing, gambling related sites / apps / services.
   - Mostly okay here, **but** it cannot break **any** of the "not approved" bullet points.
+  - These services are **always** researched from any "not approved" points before accepting.
 - App / site being too vague.
   - *Examples (not limited to):* site only has login page and nothing else, search results don't answer what that app / site is either.
   - It's not enough that you tell what the app / site does, we need at least **some** evidence from the web. Otherwise it counts to *shady apps / sites* category.
@@ -90,11 +91,11 @@ Before making or requesting an icon for app / site, please check if it fits our 
 
 - Apps / sites **not** having Aegis supported 2FA support.
   - Also when service has officially discontinued 3rd party 2FA support (only supporting legacy users) and no known workaround for new users.
+- Apps / sites **focusing** on **highly** immoral and illegal activity / material.
+  - *Examples (not limited to):* black hat hacking, malware, malvertising, money laundering, illegal or highly controversal sexual material / services, harassment / cyberbullying etc.
+- Scams or other shady apps / sites.
 - Platforms having massive hate speech group following and poor moderation (a.k.a. "Alt-tech").
   - *Examples (not limited to):* [most of the platforms listed here](https://en.wikipedia.org/wiki/Alt-tech#Platforms).
-- Obvious scams or other shady apps / sites.
-- Apps / sites focusing on **highly** immoral and illegal activity / material.
-  - *Examples (not limited to):* black hat hacking, malware, malvertising, money laundering, illegal sexual material / services, harassment / cyberbullying etc.
 - :warning: **Only for icon submissions:** submitting unmodified SVGs / [raster images](https://simple.wikipedia.org/wiki/Raster_graphics) from the web.
   - You'll need to design the icon **yourself** for submissions!
 
