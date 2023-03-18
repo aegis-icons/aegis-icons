@@ -14,7 +14,7 @@
 					 <circle cx="512" cy="512" r="272" class="st2"/>
 					 <circle cx="512" cy="512" r="272" class="st3"/>
 				</g>
-				<g id="Rectangle">
+				<g id="Square">
 					 <path d="M752 752H272V272h480v480z" class="st2"/>
 					 <path d="M272 278.1V272h6.1" class="st4"/>
 					 <path d="M290.1 272H740" class="st3"/>
