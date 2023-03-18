@@ -768,6 +768,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/CS.MONEY.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "CS.MONEY"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/CSAM.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -1132,6 +1139,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/Cryptohopper.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Cryptohopper"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/Cults.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -1143,6 +1157,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "CurseForge"
+            ]
+        },
+        {
+            "filename": "icons/1_Primary/Cuttly.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Cuttly"
             ]
         },
         {
@@ -2437,6 +2458,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Justworks"
+            ]
+        },
+        {
+            "filename": "icons/1_Primary/KACE.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "KACE"
             ]
         },
         {
@@ -5562,6 +5590,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Zoho"
+            ]
+        },
+        {
+            "filename": "icons/1_Primary/Zone.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Zone"
             ]
         },
         {
