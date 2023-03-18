@@ -66,7 +66,7 @@ Before making or requesting an icon for app / site, please check if it fits our 
 ### Case-by-case basis
 :grey_question: Needs some examining before accepting or rejecting. Request or submit and we will tell if it's accepted or not.
 
-- Forums, message groups and similar sites / communities with using pre-existing hosted software.
+- Forums, message groups and similar sites / communities using pre-existing hosted software.
   - We rather make icons based of the softwares, because those are more universally usable for users then specific communities.
     - Detected with tools like [What CMS](https://whatcms.org) and [W3Techs Site Info](https://w3techs.com/sites).
   - *Exception:* really popular sites can get their own icons (at least **over 250,000 total members** and high posting activity).
