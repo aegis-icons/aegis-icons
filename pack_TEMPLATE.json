@@ -3102,13 +3102,6 @@
             ]
         },
         {
-            "filename": "icons/1_Primary/NVIDIA.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "NVIDIA"
-            ]
-        },
-        {
             "filename": "icons/1_Primary/Name.com.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3352,6 +3345,13 @@
             "issuer": [
                 "Nutstore",
                 "Jianguoyun"
+            ]
+        },
+        {
+            "filename": "icons/1_Primary/Nvidia.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Nvidia"
             ]
         },
         {
