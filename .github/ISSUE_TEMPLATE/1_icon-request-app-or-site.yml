@@ -66,7 +66,7 @@ body:
         *Add either:*
         - Link to documentation page / announcement post related to TOTP / Google Authenticator 2FA (**prefered option #1**)
         - Link to 2FA Directory's GitHub pull request page for the service ([search them here](https://github.com/2factorauth/twofactorauth/pulls?q=is%3Apr+is%3Aopen+is%3Aclosed), **prefered option #2**)
-        - Screenshot proof of the TOTP / Google Authenticator 2FA settings page or login prompt *(only if either prefered option wasn't available)*
+        - Screenshot proof of the TOTP / Google Authenticator 2FA settings page or login prompt **(if either prefered option wasn't available)**
           - :x: **NO screenshots from Aegis app, period!** Only from the service you have the account on.
           - *Censor sensitive info if needed (QR codes, 2FA seed codes, personal information etc.)*
           

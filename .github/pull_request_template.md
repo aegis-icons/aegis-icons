@@ -45,7 +45,7 @@ Add either:
 - Link to documentation page / announcement post related to TOTP / Google Authenticator 2FA (PREFERED OPTION #1)
 - Link to 2FA Directory's GitHub pull request page for the service (PREFERED OPTION #2)
   - Search them here: https://is.gd/2fa_dir_prs
-- Screenshot proof of the TOTP / Google Authenticator 2FA settings page or login prompt (ONLY IF EITHER PREFERED OPTION WASN'T AVAILABLE)
+- Screenshot proof of the TOTP / Google Authenticator 2FA settings page or login prompt (IF EITHER PREFERED OPTION WASN'T AVAILABLE)
   - ❌ NO SCREENSHOTS FROM AEGIS APP, PERIOD! Only from the service you have the account on.
   - Censor sensitive info if needed (QR codes, 2FA seed codes, personal information etc.)
   
