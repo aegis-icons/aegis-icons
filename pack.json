@@ -1195,6 +1195,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/DNS.services.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "DNS.services"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/DNSimple.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2174,6 +2181,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/Hostingpalvelu.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Hostingpalvelu"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/Hostwinds.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3085,6 +3099,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "NPM"
+            ]
+        },
+        {
+            "filename": "icons/1_Primary/NVIDIA.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "NVIDIA"
             ]
         },
         {
@@ -4477,6 +4498,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/SpeedyPage.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "SpeedyPage"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/Splashtop.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -5040,6 +5068,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Ubuntu"
+            ]
+        },
+        {
+            "filename": "icons/1_Primary/Ultimaker.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Ultimaker"
             ]
         },
         {
@@ -6122,6 +6157,13 @@
             ]
         },
         {
+            "filename": "icons/2_Variations/Hostingpalvelu bg.var.svg",
+            "category": "2. Variations & Alts",
+            "issuer": [
+                "Hostingpalvelu"
+            ]
+        },
+        {
             "filename": "icons/2_Variations/IFTTT bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
@@ -6499,6 +6541,13 @@
             "issuer": [
                 "Ubisoft",
                 "Uplay"
+            ]
+        },
+        {
+            "filename": "icons/2_Variations/Ultimaker bg.var.svg",
+            "category": "2. Variations & Alts",
+            "issuer": [
+                "Ultimaker"
             ]
         },
         {
