@@ -51,10 +51,15 @@ body:
     attributes:
       value: |
         *Add either:*
-        - Link to documentation page related to 2FA **(prefered option)**
-        - Screenshot proof of the TOTP / Google Authenticator 2FA settings page *(censor sensitive info if needed)*.
+        - Link to documentation page / announcement post related to TOTP / Google Authenticator 2FA (**prefered option #1**)
+        - Link to 2FA Directory's GitHub pull request page for the service ([search them here](https://github.com/2factorauth/twofactorauth/pulls?q=is%3Apr+is%3Aopen+is%3Aclosed), **prefered option #2**)
+        - Screenshot proof of the TOTP / Google Authenticator 2FA settings page or login prompt *(only if either prefered option wasn't available)*
+          - :x: **NO screenshots from Aegis app, period!** Only from the service you have the account on.
+          - *Censor sensitive info if needed (QR codes, 2FA seed codes, personal information etc.)*
+          
+        > **Note** – Documentation link or screenshot should clearly mention that 2FA is "TOTP" / "OTP" or any TOTP 2FA app (eg. Google Authenticator, Microsoft Authenticator etc.) or show *(censored)* TOTP 2FA QR code image. Otherwise we cannot be sure if 2FA actually is compatible for Aegis.
         
-        This is optional, but **if we cannot find info about 2FA from the website, Google nor [2FA Directory](https://2fa.directory/int/)**, we have to ask you proof for it.
+        *This is optional, but **if we cannot find info about 2FA from the website, Google nor [2FA Directory](https://2fa.directory/int/)**, we have to ask you proof for it.*
         
         ---
   - type: textarea
@@ -95,7 +100,7 @@ body:
       value: |
         Fill this form based of this information:
         - *Is the color taken somewhere from the logo?*
-          - If **yes**, add & edit this text for eg: ``Background color is from the logo (`#add-hex-color-code-here`).``
+          - If **yes**, add & edit this text for eg: ``It's from the logo (`#add-hex-color-code-here`).``
         - *Is color taken from the mentioned app / site?* (And not from logo)
           - If **yes**, do either/all of these things:
             - [Upload](https://docs.github.com/en/github/writing-on-github/working-with-advanced-formatting/attaching-files) screenshot of the area where you got the color **and** give URL of the page
