@@ -49,7 +49,7 @@ Add either:
   - ❌ NO SCREENSHOTS FROM AEGIS APP, PERIOD! Only from the service you have the account on.
   - Censor sensitive info if needed (QR codes, 2FA seed codes, personal information etc.)
   
-🔔 NOTE: Documentation link or screenshot should clearly mention that 2FA is "TOTP" / "OTP" or any TOTP 2FA app (eg. Google Authenticator, Microsoft Authenticator etc.) or show (censored) TOTP 2FA QR code image from the 2FA setup page. Otherwise we cannot be sure if 2FA actually is compatible for Aegis.
+🔔 NOTE: Documentation link or screenshot should clearly mention that 2FA is "TOTP" / "OTP" or any TOTP 2FA app (eg. Google Authenticator, Microsoft Authenticator etc.) or show section of the 2FA setup page with (censored) TOTP 2FA QR code image. Otherwise we cannot be sure if 2FA actually is compatible for Aegis.
 
 🔔 This is optional, but if we cannot find info about 2FA from the website, Google nor 2FA Directory, we have to ask you proof for it. -->
 
