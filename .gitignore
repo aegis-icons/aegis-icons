@@ -1,12 +1,12 @@
+*.ini
 *.lnk
-*.zip
-*.URL
 *.log
+*.URL
+*.zip
+_compress/(svg_input)/*.*
 _compress/*.png
 _compress/*.svg
 _compress/*.webp
-_compress/(svg_input)/*.*
 _resources/
-_screenshots/
+_templates/ai_template_empty.ait
 __pycache__/
-*.ini
