@@ -33,13 +33,13 @@ Replace space with x inside of the brackets: [ ] ➜ [x]
 
 **URL of the site:**
 
-<!-- ▲▲▲ REQUIRED, UNLESS it's generic icon.
+<!-- ▲▲▲ REQUIRED (unless it's generic icon)
 
 🔞 If this entity is explicitly "not safe for work", please mention it in this section. -->
 
 **Proof of the Aegis-compatible 2FA:**
 
-<!-- ▲▲▲ OPTIONAL
+<!-- ▲▲▲ OPTIONAL (not needed for icon updates or request fills)
 
 Add either:
 - Link to documentation page / announcement post related to TOTP / Google Authenticator 2FA (PREFERED OPTION #1)
@@ -49,7 +49,7 @@ Add either:
   - ❌ NO SCREENSHOTS FROM AEGIS APP, PERIOD! Only from the service you have the account on.
   - Censor sensitive info if needed (QR codes, 2FA seed codes, personal information etc.)
   
-🔔 NOTE: Documentation link or screenshot should clearly mention that 2FA is "TOTP" / "OTP" or any TOTP 2FA app (eg. Google Authenticator, Microsoft Authenticator etc.) or show section of the 2FA setup page with (censored) TOTP 2FA QR code image. Otherwise we cannot be sure if 2FA actually is compatible for Aegis.
+🔔 NOTE: Documentation link or screenshot should clearly mention that 2FA is (T)OTP / HOTP or any mobile 2FA app (eg. Google Authenticator, Microsoft Authenticator, LastPass Authenticator etc.) or show section of the 2FA setup page with (censored) OTP 2FA QR code image. Otherwise we cannot be sure if 2FA actually is compatible for Aegis.
 
 🔔 This is optional, but if we cannot find info about 2FA from the website, Google nor 2FA Directory, we have to ask you proof for it. -->
 
@@ -71,11 +71,11 @@ For example:
 
 **Background color info:**
 
-<!-- ▲▲▲ REQUIRED, UNLESS it's generic icon.
+<!-- ▲▲▲ REQUIRED (unless it's generic icon)
 
 Fill this part based of this information:
 - Is the color taken somewhere from the logo?
-   - If YES, then add & edit this text for eg ➜
+   - If YES, then add & edit this text for eg. ➜
       ❝  It's from the logo (`#add-hex-color-code-here`).  ❞
 - Is color taken from the mentioned app / site? (And not from the logo)
    - If YES, then do either/all of these things:
