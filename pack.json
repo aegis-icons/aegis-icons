@@ -373,6 +373,14 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/Battlestate Games.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Battlestate Games",
+                "Escape from Tarkov"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/Best Buy.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -419,6 +427,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Binance"
+            ]
+        },
+        {
+            "filename": "icons/1_Primary/BingX.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "BingX"
             ]
         },
         {
@@ -672,6 +687,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "BorgBase"
+            ]
+        },
+        {
+            "filename": "icons/1_Primary/Borlabs.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Borlabs"
             ]
         },
         {
@@ -1263,6 +1285,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Deribit"
+            ]
+        },
+        {
+            "filename": "icons/1_Primary/Derpibooru.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Derpibooru"
             ]
         },
         {
