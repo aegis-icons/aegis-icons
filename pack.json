@@ -1104,6 +1104,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/Cronometer.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Cronometer"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/CrossBox.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -1596,6 +1603,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/Fandom.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Fandom"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/Fansly.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -1839,7 +1853,8 @@
             "filename": "icons/1_Primary/Gate.io.svg",
             "category": "1. Apps & Sites",
             "issuer": [
-                "Gate.io"
+                "Gate.io",
+                "Gate.us"
             ]
         },
         {
@@ -7265,6 +7280,14 @@
             "category": "4. Outdated",
             "issuer": [
                 "Gandi"
+            ]
+        },
+        {
+            "filename": "icons/4_Outdated/Gate.io v1.svg",
+            "category": "4. Outdated",
+            "issuer": [
+                "Gate.io",
+                "Gate.us"
             ]
         },
         {
