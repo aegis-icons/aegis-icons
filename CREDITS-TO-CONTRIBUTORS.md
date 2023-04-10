@@ -10,6 +10,8 @@ If you want name changed or deleted, [please make a new issue](https://github.co
 
 ---
 
+- **[5HT2](https://github.com/5HT2)**
+  - For *Regery* icon ([#893](https://github.com/aegis-icons/aegis-icons/pull/893)).
 - **[Ailothaen](https://github.com/Ailothaen)**
   - For these icons: *CybelAngel* ([#523](https://github.com/aegis-icons/aegis-icons/issues/523)), *BitSight* ([#524](https://github.com/aegis-icons/aegis-icons/issues/524)), *CrowdStrike* ([#525](https://github.com/aegis-icons/aegis-icons/issues/525)), *TheHive* ([#556](https://github.com/aegis-icons/aegis-icons/issues/556)), *ThreatQuotient* ([#557](https://github.com/aegis-icons/aegis-icons/issues/557)).
 - **[alalloush](https://github.com/alalloush)**
