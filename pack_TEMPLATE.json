@@ -4415,6 +4415,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/SentinelOne.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "SentinelOne"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/Sentry.svg",
             "category": "1. Apps & Sites",
             "issuer": [

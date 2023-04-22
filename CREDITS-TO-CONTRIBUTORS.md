@@ -61,7 +61,7 @@ If you want name changed or deleted, [please make a new issue](https://github.co
 - **[HodlerTurker](https://github.com/HodlerTurker)** (Turker)
   - For these icons: *XGo* ([#682](https://github.com/aegis-icons/aegis-icons/issues/682)), *MEXC* ([#683](https://github.com/aegis-icons/aegis-icons/issues/683)).
 - **[IgorAngelini](https://github.com/IgorAngelini)**
-  - For *KACE* icon ([#866](https://github.com/aegis-icons/aegis-icons/pull/866)).
+  - For these icons: *KACE* ([#866](https://github.com/aegis-icons/aegis-icons/pull/866)), *SentinelOne* ([#899](https://github.com/aegis-icons/aegis-icons/pull/899)).
 - **[IamRifki](https://github.com/IamRifki)** (Dania Rifki)
   - For *Tokopedia* icon ([#84](https://github.com/aegis-icons/aegis-icons/pull/84)).
 - **[ixti](https://github.com/ixti)** (Alexey Zapparov)
