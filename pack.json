@@ -2512,6 +2512,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/Jottacloud.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Jottacloud"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/Justworks.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3300,6 +3307,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/Nifty Gateway.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Nifty Gateway"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/Nimbus Note.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3346,6 +3360,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "NordVPN"
+            ]
+        },
+        {
+            "filename": "icons/1_Primary/Northflank.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Northflank"
             ]
         },
         {
@@ -3956,6 +3977,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Qantas"
+            ]
+        },
+        {
+            "filename": "icons/1_Primary/Qiita.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Qiita"
             ]
         },
         {
@@ -5897,6 +5925,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/redirect.pizza.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "redirect.pizza"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/sipgate.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -6345,6 +6380,13 @@
             "category": "2. Variations & Alts",
             "issuer": [
                 "Neopets"
+            ]
+        },
+        {
+            "filename": "icons/2_Variations/Nifty Gateway bg.var.svg",
+            "category": "2. Variations & Alts",
+            "issuer": [
+                "Nifty Gateway"
             ]
         },
         {
