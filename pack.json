@@ -146,6 +146,14 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/Akamai Connected Cloud.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Akamai Connected Cloud",
+                "Linode"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/Algolia.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -715,6 +723,14 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Brave"
+            ]
+        },
+        {
+            "filename": "icons/1_Primary/British Computer Society.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "British Computer Society",
+                "BCS"
             ]
         },
         {
@@ -1844,6 +1860,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/GOV.BR.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "GOV.BR"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/GOV.UK.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2000,6 +2023,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/Grav.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Grav"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/Greenhost.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2123,6 +2153,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Handshake"
+            ]
+        },
+        {
+            "filename": "icons/1_Primary/HashiCorp.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "HashiCorp"
             ]
         },
         {
@@ -2708,10 +2745,24 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/Lark.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Lark"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/LastPass.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "LastPass"
+            ]
+        },
+        {
+            "filename": "icons/1_Primary/Leantime.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Leantime"
             ]
         },
         {
@@ -2789,6 +2840,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Localbitcoins"
+            ]
+        },
+        {
+            "filename": "icons/1_Primary/Logitech.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Logitech"
             ]
         },
         {
@@ -4064,6 +4122,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/Raindrop.io.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Raindrop.io"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/Rakuten.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -5041,6 +5106,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "TruckersMP"
+            ]
+        },
+        {
+            "filename": "icons/1_Primary/True Wealth.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "True Wealth"
             ]
         },
         {
@@ -6233,6 +6305,13 @@
             "category": "2. Variations & Alts",
             "issuer": [
                 "Handshake"
+            ]
+        },
+        {
+            "filename": "icons/2_Variations/HashiCorp bg.var.svg",
+            "category": "2. Variations & Alts",
+            "issuer": [
+                "HashiCorp"
             ]
         },
         {
@@ -7436,6 +7515,14 @@
             "category": "4. Outdated",
             "issuer": [
                 "Justworks"
+            ]
+        },
+        {
+            "filename": "icons/4_Outdated/Linode.svg",
+            "category": "4. Outdated",
+            "issuer": [
+                "Akamai Connected Cloud", 
+                "Linode"
             ]
         },
         {
