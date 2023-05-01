@@ -5906,6 +5906,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/ente.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "ente"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/fileee.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -6924,6 +6931,13 @@
             "category": "2. Variations & Alts",
             "issuer": [
                 "diaspora"
+            ]
+        },
+        {
+            "filename": "icons/2_Variations/ente bg.var.svg",
+            "category": "2. Variations & Alts",
+            "issuer": [
+                "ente"
             ]
         },
         {
