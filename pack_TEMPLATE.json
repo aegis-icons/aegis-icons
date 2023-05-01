@@ -726,6 +726,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/Braze.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Braze"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/British Computer Society.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -1634,6 +1641,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/Fakturoid.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Fakturoid"
+            ]
+        },
+        { 
             "filename": "icons/1_Primary/FanDuel.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3456,6 +3470,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/Notion.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Notion"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/Nuki.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4329,6 +4350,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "SAP"
+            ]
+        },
+        {
+            "filename": "icons/1_Primary/SAPO.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "SAPO"
             ]
         },
         {
@@ -5533,6 +5561,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/Well.ca.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Well.ca"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/Wellfound.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -6039,6 +6074,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/vorsorgestiftung vsao.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "vorsorgestiftung vsao"
+            ]
+        },
+        { 
             "filename": "icons/1_Primary/woelkli.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -6143,6 +6185,13 @@
             "category": "2. Variations & Alts",
             "issuer": [
                 "Bitso"
+            ]
+        },
+        {
+            "filename": "icons/2_Variations/Braze bg.var.svg",
+            "category": "2. Variations & Alts",
+            "issuer": [
+                "Braze"
             ]
         },
         {
@@ -6494,6 +6543,13 @@
             "category": "2. Variations & Alts",
             "issuer": [
                 "NotABug.org"
+            ]
+        },
+        {
+            "filename": "icons/2_Variations/Notion bg.var.svg",
+            "category": "2. Variations & Alts",
+            "issuer": [
+                "Notion"
             ]
         },
         {
