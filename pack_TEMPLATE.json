@@ -733,6 +733,14 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/Brevo.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Brevo",
+                "Sendinblue"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/British Computer Society.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4501,13 +4509,6 @@
             ]
         },
         {
-            "filename": "icons/1_Primary/Sendinblue.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "Sendinblue"
-            ]
-        },
-        {
             "filename": "icons/1_Primary/Sendy.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -7779,9 +7780,17 @@
         },
         {
             "filename": "icons/4_Outdated/Samtrade FX v1.svg",
-            "category": "4. Outdated",
+            "category": null,
             "issuer": [
                 "Samtrade FX"
+            ]
+        },
+        {
+            "filename": "icons/4_Outdated/Sendinblue.svg",
+            "category": "4. Outdated",
+            "issuer": [
+                "Brevo",
+                "Sendinblue"
             ]
         },
         {
