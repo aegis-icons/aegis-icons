@@ -3619,6 +3619,14 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/OpenAI.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "OpenAI",
+                "ChatGPT"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/OpenSRS.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4977,6 +4985,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/TikTok.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "TikTok"
+            ]
+        },
+        { 
             "filename": "icons/1_Primary/Time4VPS.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -5580,6 +5595,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Wellfound"
+            ]
+        },
+        {
+            "filename": "icons/1_Primary/WhiteBIT.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "WhiteBIT"
             ]
         },
         {
@@ -6596,6 +6618,14 @@
             ]
         },
         {
+            "filename": "icons/2_Variations/OpenAI bg.var.svg",
+            "category": "2. Variations & Alts",
+            "issuer": [
+                "OpenAI",
+                "ChatGPT"
+            ]
+        },
+        {
             "filename": "icons/2_Variations/Paddle fg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
@@ -6748,6 +6778,13 @@
             "category": "2. Variations & Alts",
             "issuer": [
                 "TheHive"
+            ]
+        },
+        {
+            "filename": "icons/2_Variations/TikTok bg.var.svg",
+            "category": "2. Variations & Alts",
+            "issuer": [
+                "TikTok"
             ]
         },
         {
@@ -7780,7 +7817,7 @@
         },
         {
             "filename": "icons/4_Outdated/Samtrade FX v1.svg",
-            "category": null,
+            "category": "4. Outdated",
             "issuer": [
                 "Samtrade FX"
             ]
