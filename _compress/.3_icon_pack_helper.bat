@@ -75,11 +75,7 @@ echo In "icons" folder:  %icons_dir_amount% icons
 >nul find ": null," pack.json && (
   echo.
   echo [!] WARNING: null strings found from pack.json!
-  goto null-check-completed
-) || (
-  goto null-check-completed
 )
-:null-check-completed
 echo.
 echo ---------------------------------
 goto loop
