@@ -7352,6 +7352,13 @@
             ]
         },
         {
+            "filename": "icons/4_Outdated/1Password v1.svg",
+            "category": "4. Outdated",
+            "issuer": [
+                "1Password" 
+            ]
+        },
+        {
             "filename": "icons/4_Outdated/2Checkout.svg",
             "category": "4. Outdated",
             "issuer": [
