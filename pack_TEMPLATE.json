@@ -5456,6 +5456,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/Vivaldi.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Vivaldi"
+            ]
+        },
+        { 
             "filename": "icons/1_Primary/Vultr.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -5904,6 +5911,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "cPanel"
+            ]
+        },
+        {
+            "filename": "icons/1_Primary/deSEC.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "deSEC"
             ]
         },
         {
@@ -6976,6 +6990,13 @@
             "category": "2. Variations & Alts",
             "issuer": [
                 "axe"
+            ]
+        },
+        {
+            "filename": "icons/2_Variations/deSEC bg.var.svg",
+            "category": "2. Variations & Alts",
+            "issuer": [
+                "deSEC"
             ]
         },
         {
