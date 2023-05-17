@@ -96,7 +96,7 @@ Before making or requesting an icon for app / site, please check if it fits our 
   - Why this striction?
     1. So many of these platforms are scams or operate company illegally in other ways.
     2. Too many requests for these platforms and high maintainance for it.
-    2. Checking regulation is only way to somewhat certainly say if company is possibly legal or not.
+    3. Checking regulation is only way to somewhat certainly say if company is possibly legal or not.
 - Apps / sites **focusing** on **highly** immoral and illegal activity / material.
   - *Examples (not limited to):* black hat hacking, malware, malvertising, money laundering, illegal or highly controversal sexual material / services, harassment / cyberbullying etc.
 - Scams or other shady apps / sites.
