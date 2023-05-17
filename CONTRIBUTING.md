@@ -76,7 +76,7 @@ Before making or requesting an icon for app / site, please check if it fits our 
 - Self-hosted or similar software.
   - Suggested to have ≥ 500 GitHub / Gitlab stars or other non-maintainer activity to back it up.
   - If things previously mentioned aren't available, then we measure popularity based of search results.
-- Adult content, piracy, (crypto) investing, gambling related sites / apps / services.
+- Adult content, piracy & gambling related sites / apps / services.
   - Mostly okay here, **but** it cannot break **any** of the "not approved" bullet points.
   - These services are **always** researched from any "not approved" points before accepting.
 - App / site being too vague.
@@ -91,7 +91,7 @@ Before making or requesting an icon for app / site, please check if it fits our 
 
 - Apps / sites **not** having Aegis supported 2FA support.
   - Also when service has officially discontinued 3rd party 2FA support (only supporting legacy users) and no known workaround for new users.
-- **Unregulated** (crypto) currency trading platforms.
+- **Unregulated** (crypto) currency trading / investing platforms.
   - Checked with [WikiFX](https://www.wikifx.com/en/) and/or [WikiBit](https://www.wikibit.com).
   - Why this restriction?
     1. So many of these platforms are scams or operate company illegally in other ways.
