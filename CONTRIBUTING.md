@@ -93,7 +93,7 @@ Before making or requesting an icon for app / site, please check if it fits our 
   - Also when service has officially discontinued 3rd party 2FA support (only supporting legacy users) and no known workaround for new users.
 - **Unregulated** (crypto) currency trading / investing platforms.
   - Checked with [WikiBit](https://www.wikibit.com), [WikiFX](https://www.wikifx.com/en/) and/or Google.
-  - If no regulation information is found, request is also rejected.
+  - If no regulation information is found, request / submission is also rejected.
   - Why this restriction?
     1. So many of these platforms are scams or operate company illegally in other ways.
     2. Too many requests for these platforms and high maintenance for it.
