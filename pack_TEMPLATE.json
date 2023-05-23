@@ -1185,6 +1185,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/CrowdNode.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "CrowdNode"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/CrowdSec.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4697,6 +4704,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "SpaceHey"
+            ]
+        },
+        {
+            "filename": "icons/1_Primary/Spaceship.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Spaceship"
             ]
         },
         {
