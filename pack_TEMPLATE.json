@@ -1115,6 +1115,13 @@
             ]
         },
         { 
+            "filename": "icons/1_Primary/ConnectWise.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "ConnectWise"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/Contabo.svg",
             "category": "1. Apps & Sites",
             "issuer": [
