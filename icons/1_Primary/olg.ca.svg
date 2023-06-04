@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1024 1024">
+  <defs>
+    <path id="a" d="M8 15.9A7.95 7.95 0 0 1 .01 7.96 7.95 7.95 0 0 1 8 .02c4.4 0 7.97 3.56 7.97 7.94A7.95 7.95 0 0 1 8 15.9Z"/>
+    <path id="b" d="M4.78 39.99H0L.06.02l39.79 39.92z"/>
+    <path id="g" d="M4.47.08C6.91.08 8.9 2.3 8.9 5.02S6.91 9.95 4.47 9.95.05 7.75.05 5.02 2.03.08 4.47.08zm-.02 8.4c1.46 0 2.65-1.54 2.65-3.43S5.91 1.62 4.45 1.62 1.8 3.16 1.8 5.05c0 1.9 1.19 3.43 2.65 3.43z"/>
+    <path id="f" d="m.12.07 1.86.05.04 7.77 3.11-.04.3 1.7-5.32-.01z"/>
+    <path id="e" d="m4.18 4.3.03.02 3.7-.02v4.53c-2.55 1.54-4.63.82-4.63.82a4 4 0 0 1-3-3.13c-.6-2.53.37-4.21.37-4.21C1.59.45 3.19.19 3.19.19c2.2-.64 4.26.54 4.26.54l-.27 1.7C4.58.69 3 2.07 3 2.07c-1.26.91-1.1 3.06-1.1 3.06.1 1.88 1.06 2.6 1.06 2.6 1.44 1.04 3.36.18 3.36.18L6.3 5.8H4.43l-.25-1.5Z"/>
+    <use xlink:href="#a" id="d"/>
+    <use xlink:href="#a" id="c"/>
+  </defs>
+  <circle cx="512" cy="512" r="512" style="fill:#003c71"/>
+  <use xlink:href="#b" style="fill:#fffcfd" transform="translate(268.05 226.78) scale(13.875)"/>
+  <use xlink:href="#c" style="fill:#003c71;paint-order:stroke markers fill;stroke-width:.6476;stroke:#fff" transform="translate(595.94 448.8) scale(13.875)"/>
+  <use xlink:href="#d" style="fill:#003c71;paint-order:stroke fill markers;stroke-width:.6476;stroke:#fff" transform="translate(370.04 448.8) scale(13.875)"/>
+  <use xlink:href="#a" style="fill:#003c71;paint-order:stroke fill markers;stroke-width:.6476;stroke:#fff" transform="translate(144.01 448.8) scale(13.875)"/>
+  <use xlink:href="#e" style="fill:#fffcfd" transform="translate(646.86 490.01) scale(13.875)"/>
+  <use xlink:href="#f" style="fill:#fffcfd" transform="translate(446.36 493.2) scale(13.875)"/>
+  <use xlink:href="#g" style="fill:#fffcfd" transform="translate(191.74 490.01) scale(13.875)"/>
+</svg>
