@@ -90,6 +90,8 @@ If you want name changed or deleted, [please make a new issue](https://github.co
   - For these icons: *Avast* ([#223](https://github.com/aegis-icons/aegis-icons/issues/223)), *Keenetic* ([#226](https://github.com/aegis-icons/aegis-icons/issues/226)), *RealVNC* ([#224](https://github.com/aegis-icons/aegis-icons/issues/224)), *SAP* ([#225](https://github.com/aegis-icons/aegis-icons/issues/225)).
 - **[mishnea](https://github.com/mishnea)** (Mihnea)
   - For *Proton* icon ([#613](https://github.com/aegis-icons/aegis-icons/pull/613)).
+- **[momentti](https://github.com/momentti)**
+  - For these icons: *Trimble* ([#933](https://github.com/aegis-icons/aegis-icons/pull/933)), *Finnair* ([#934](https://github.com/aegis-icons/aegis-icons/pull/934)).
 - **[mormegil-cz](https://github.com/mormegil-cz)** (Petr Kadlec)
   - For *Datové schránky* icon ([#551](https://github.com/aegis-icons/aegis-icons/pull/551)).
 - **[Neluji](https://github.com/Neluji)**
