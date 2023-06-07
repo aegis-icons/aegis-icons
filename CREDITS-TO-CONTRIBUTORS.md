@@ -84,6 +84,8 @@ If you want name changed or deleted, [please make a new issue](https://github.co
   - Chief maintainer of the project.
 - **[krmax44](https://github.com/krmax44)** (Max)
   - For *TU Berlin* icon ([#612](https://github.com/aegis-icons/aegis-icons/pull/612)).
+- **[m-p-3](https://github.com/m-p-3)**
+  - For *Tildes* icon ([#935](https://github.com/aegis-icons/aegis-icons/pull/935)).
 - **[matteoballabio](https://github.com/matteoballabio)** (Matteo Ballabio)
   - For *Forum Italia* icon ([#283](https://github.com/aegis-icons/aegis-icons/issues/283)).
 - **[maxlysenko](https://github.com/maxlysenko)**
