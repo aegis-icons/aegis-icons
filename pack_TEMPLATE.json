@@ -1789,6 +1789,13 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/Finnair.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Finnair"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/Firefly III.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -5185,6 +5192,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Tresorit"
+            ]
+        },
+        {
+            "filename": "icons/1_Primary/Trimble.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Trimble"
             ]
         },
         {
