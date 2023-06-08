@@ -93,7 +93,7 @@ If you want name changed or deleted, [please make a new issue](https://github.co
 - **[mishnea](https://github.com/mishnea)** (Mihnea)
   - For *Proton* icon ([#613](https://github.com/aegis-icons/aegis-icons/pull/613)).
 - **[momentti](https://github.com/momentti)**
-  - For these icons: *Trimble* ([#933](https://github.com/aegis-icons/aegis-icons/pull/933)), *Finnair* ([#934](https://github.com/aegis-icons/aegis-icons/pull/934)).
+  - For these icons: *Trimble* ([#933](https://github.com/aegis-icons/aegis-icons/pull/933)), *Finnair* ([#934](https://github.com/aegis-icons/aegis-icons/pull/934)), *Schibsted* ([#936](https://github.com/aegis-icons/aegis-icons/pull/936)).
 - **[mormegil-cz](https://github.com/mormegil-cz)** (Petr Kadlec)
   - For *Datové schránky* icon ([#551](https://github.com/aegis-icons/aegis-icons/pull/551)).
 - **[Neluji](https://github.com/Neluji)**
@@ -118,6 +118,8 @@ If you want name changed or deleted, [please make a new issue](https://github.co
   - For these icons: *OnlyFans* ([#248](https://github.com/aegis-icons/aegis-icons/issues/248)), *Qwintry* ([#249](https://github.com/aegis-icons/aegis-icons/issues/249)), *Upwork* ([#250](https://github.com/aegis-icons/aegis-icons/issues/250)).
 - **[sreeragag7](https://github.com/sreeragag7)** (Sreerag)
   - For these icons: *OffGamers* ([#141](https://github.com/aegis-icons/aegis-icons/pull/141)), *OneSignal* ([#144](https://github.com/aegis-icons/aegis-icons/pull/144)), *Nvidia* ([#163](https://github.com/aegis-icons/aegis-icons/pull/163)), *Zerodha* ([#310](https://github.com/aegis-icons/aegis-icons/issues/310)).
+- **[thomassth](https://github.com/thomassth)** (Thomas Kam)
+  - For *OLG* icon ([#932](https://github.com/aegis-icons/aegis-icons/pull/932)).
 - **[ukanuk](https://github.com/ukanuk)** (Micah Lindstrom)
   - For the first draft of *CONTRIBUTING.md* document ([#65](https://github.com/aegis-icons/aegis-icons/pull/65)).
 - **[Xinayder](https://github.com/Xinayder)** (Alexandre Oliveira)

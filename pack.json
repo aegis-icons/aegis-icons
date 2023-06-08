@@ -3556,6 +3556,14 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/OLG.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "OLG",
+                "Ontario Lottery and Gaming Corporation"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/OMGSERV.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4493,6 +4501,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Scaleway"
+            ]
+        },
+        {
+            "filename": "icons/1_Primary/Schibsted.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Schibsted"
             ]
         },
         {
