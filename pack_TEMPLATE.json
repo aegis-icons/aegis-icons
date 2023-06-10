@@ -7166,16 +7166,6 @@
             ]
         },
         {
-            "filename": "icons/3_Generic/Domain.svg",
-            "category": "3. Generic",
-            "issuer": [
-                "Domain",
-                "Internet",
-                "DNS",
-                "Network"
-            ]
-        },
-        {
             "filename": "icons/3_Generic/Education.svg",
             "category": "3. Generic",
             "issuer": [
@@ -7241,7 +7231,9 @@
             "category": "3. Generic",
             "issuer": [
                 "Health",
-                "Medical"
+                "Medical",
+                "Doctor",
+                "Hospital"
             ]
         },
         {
@@ -7260,7 +7252,8 @@
             "category": "3. Generic",
             "issuer": [
                 "Linux",
-                "Computer"
+                "GNU",
+                "Distribution"
             ]
         },
         {
@@ -7330,7 +7323,7 @@
             "issuer": [
                 "Plane",
                 "Airplane",
-                "Air travel"
+                "Travel"
             ]
         },
         {
@@ -7413,6 +7406,18 @@
                 "Media",
                 "Film",
                 "Streaming"
+            ]
+        },
+        {
+            "filename": "icons/3_Generic/Web.svg",
+            "category": "3. Generic",
+            "issuer": [
+                "Web",
+                "Hosting",
+                "Domain",
+                "Internet",
+                "DNS",
+                "Network"
             ]
         },
         {
