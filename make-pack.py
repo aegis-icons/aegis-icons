@@ -20,6 +20,7 @@ def _do_gen_def(args):
             filename = os.path.join(root, f)
             if os.path.isfile(filename):
                 pack["icons"].append({
+                    "name": os.path.splitext(os.path.basename(filename))[0],
                     "filename": pathlib.Path(filename).as_posix(),
                     "category": None,
                     "issuer": [os.path.splitext(os.path.basename(filename))[0]]
