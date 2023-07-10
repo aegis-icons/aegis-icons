@@ -3,12 +3,19 @@ Thank you for taking the time to read and contribute to our project!
 
 *This documentation is long and comprehensive, because we strive for high quality for our icons and want to minimize extra work as much possible.*
 
+:mega: **ALWAYS double-check from this page before asking a question about submissions**.
+
 > **Warning** \
-> For contributing, you **must know basics of making / editing vectors with vector graphics editor** (see the [software](#software) section).\
-> There's instructions for some steps, but not for everything.
+> For contributing, you must know **basics of making / editing vectors** with **vector graphics editor** (see the [software](#software) section).<br><br>
+> ***Please get familiar with the editor before creating ANY icons:*** \
+> Google [`[vector editor name] basics`](https://www.google.com/search?q=%5Bvector%20editor%20name%5D%20basics) *(recommended to use vector editor's official guides)*.
 
 > **Note** \
-> It's **highly recommended** to also have some **knowledge of graphic design** and design in general.
+> It's **highly recommended** to also have **some knowledge of graphic design** and design in general, if possible.<br><br>
+> ***Specially in these subjects:*** white space[^1], creating monochrome logos[^2].<br><br>
+
+Icons may look simple, but logos / symbols in them are actually carefully crafted, positioned and scaled. \
+**We except same kind of quality from every submission.** 
 
 ---
 
@@ -92,8 +99,8 @@ Before making or requesting an icon for app / site, please check if it fits our 
 - Apps / sites **not** having Aegis supported 2FA support.
   - Also when service has officially discontinued 3rd party 2FA support (only supporting legacy users) and no known workaround for new users.
 - **Unregulated** (crypto) currency trading / investing platforms.
-  - Checked with [WikiBit](https://www.wikibit.com), [WikiFX](https://www.wikifx.com/en/) and/or Google.
-  - If no regulation information is found, request / submission is also rejected.
+  - Checked with [WikiBit](https://www.wikibit.com), [WikiFX](https://www.wikifx.com/en/), [P2PMarketData](https://p2pmarketdata.com/) and/or Google.
+    - If regulation information isn't found from those sites or googling, request / submission is also rejected.
   - Why this restriction?
     1. So many of these platforms are scams or operate company illegally in other ways.
     2. Too many requests for these platforms and high maintenance for it.
@@ -118,7 +125,7 @@ We recommend these because the maintainer can give advice / help for these softw
 
 - [Adobe Illustrator](https://www.adobe.com/products/illustrator.html) (industry standard, most used software in this repository)
 - [Affinity Designer](https://affinity.serif.com/designer/) (way cheaper but powerful and better alternatives to Illustrator)
-- [Figma](https://www.figma.com/) (more known as interface design tool, but has good enough vector functions for making icons as well)
+- [Figma](https://www.figma.com/) (more known as interface design tool, but has good vector functions for making icons as well)
 - [Inkscape](https://inkscape.org/) (popular open source option)
 
 If your software isn't listed in here or prohibited section, **check your software's website.**
@@ -208,8 +215,8 @@ When making icons, download and use provided [templates](/_templates).
 ### Layout
 *Go these instructions in order:*
 
-- Always use logomark[^1] if brand is using one.
-- If logo only has text (known as logotype[^1]), use that instead.
+- Always use logomark[^3] if brand is using one.
+- If logo only has text (known as logotype[^3]), use that instead.
   - **Only if absolutely necessary:** if you think that logotype is too long and hard to see on smaller size, make it similar to [favicon](https://en.wikipedia.org/wiki/Favicon) / app icon or use first letter of logotype.
 - Stay inside of the guides as much as possible.
 - Square like shaped logos shouldn't step outside of the guides (size wise).
@@ -317,7 +324,7 @@ Just change the logo for alternative version.
 "Generic" – in this case – means icons that doesn't represent any brand and are using symbol-like vectors.
 
 - Use `ai_template_generic.ait` or `svg_template_generic.svg` template, depending on the software.
-- Don't change the background color of the template (`#6750a4`[^2]).
+- Don't change the background color of the template (`#6750a4`[^4]).
 - Foreground color is always white (`#FFFFFF`).
 - Use these icon libraries:
   - [Phosphor Icons](https://phosphoricons.com/?weight=light) (primary, **use light weight**)
@@ -547,6 +554,10 @@ NOTE: remember to link this section in the TOC when ready.
 ## Footnotes
 *Here's all the footnotes:*
 
-[^1]: Article: [Logo, Logomark, Logotype - What's The Difference And What Do You Need?](https://blog.designcrowd.com/article/997/logo-logomark-logotype-whats-the-difference-and-what-do-you-need) <sup>[[wayback machine](https://web.archive.org/web/20200606123728/https://blog.designcrowd.com/article/997/logo-logomark-logotype-whats-the-difference-and-what-do-you-need)]</sup>
+[^1]: Article: [How to correctly design the monochrome version of a logo](https://www.creativosonline.org/en/how-to-correctly-design-the-monochrome-version-of-a-logo.html) <sup>[[archive.is](https://archive.is/OfYrY)]</sup>
 
-[^2]: This color is taken from [Material Design 3's color system](https://m3.material.io/styles/color/the-color-system/tokens#0d90da19-3d89-4964-9a97-5a024fc6d77b) (token: `Primary40`, hex: `#6750a4`).
+[^2]: Article: [White space in graphic design: What is white space in design?](https://fabrikbrands.com/white-space-in-graphic-design-white-space-principle-of-design/) <sup>[[archive.is](https://archive.is/ryCkS)]</sup>
+
+[^3]: Article: [Logo, Logomark, Logotype - What's The Difference And What Do You Need?](https://blog.designcrowd.com/article/997/logo-logomark-logotype-whats-the-difference-and-what-do-you-need) <sup>[[wayback machine](https://web.archive.org/web/20200606123728/https://blog.designcrowd.com/article/997/logo-logomark-logotype-whats-the-difference-and-what-do-you-need)]</sup>
+
+[^4]: This color is taken from [Material Design 3's color system](https://m3.material.io/styles/color/the-color-system/tokens#0d90da19-3d89-4964-9a97-5a024fc6d77b) (token: `Primary40`, hex: `#6750a4`).
