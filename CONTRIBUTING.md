@@ -67,7 +67,7 @@ Before making or requesting an icon for app / site, please check if it fits our 
 
 - Apps / sites that are popular and has Aegis supported 2FA support **(specially wanted).**
   - *Examples (not limited to):* social media, productivity tools, cloud services, development tools, gaming related etc.
-- Almost any app / site / service, **that doesn't have the exceptions from below.**
+- Almost any app / site / service, **that's trustworthy and doesn't have the exceptions from below.**
   - Still in spite of this, aegis-icons has right to reject requests or submissions if needed or necessary.
 
 ### Case-by-case basis
