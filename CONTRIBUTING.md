@@ -103,7 +103,7 @@ Before making or requesting an icon for app / site, please check if it fits our 
     - If regulation information isn't found from those sites or googling, request / submission is also rejected.
   - Why this restriction?
     1. Too many requests for these platforms and high maintenance for it.
-    2. So many of these platforms are scams / frauds or operate company illegally in other ways
+    2. So many of these platforms are scams / frauds or do money laundering
        - See: [FTX](https://en.wikipedia.org/wiki/FTX#Legal_process), [Celsius](https://www.forbes.com/sites/mitchellmartin/2023/01/05/celsius-founder-mashinsky-hit-with-fraud-suit-by-new-york-state/), [Samtrade FX](https://www.straitstimes.com/singapore/courts-crime/online-trading-platform-samtrade-fx-under-probe-by-police-mas-3-arrested), [Vauld](https://techcrunch.com/2022/08/12/india-seizes-46-million-from-crypto-exchange-vauld-in-money-laundering-probe/) etc.
     3. Checking regulation is the only way to *somewhat* certainly say of the legality of the company.
 - Apps / sites **focusing** on **highly** immoral and illegal activity / material.
