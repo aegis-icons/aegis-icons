@@ -55,13 +55,6 @@
             ]
         },
         {
-            "filename": "icons/1_Primary/3Commas.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "3Commas"
-            ]
-        },
-        {
             "filename": "icons/1_Primary/500px.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -122,13 +115,6 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Adafruit"
-            ]
-        },
-        {
-            "filename": "icons/1_Primary/Advcash.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "Advcash"
             ]
         },
         {
@@ -216,13 +202,6 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "AnyDesk"
-            ]
-        },
-        {
-            "filename": "icons/1_Primary/Aozora Securities.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "Aozora Securities"
             ]
         },
         {
@@ -452,31 +431,10 @@
             ]
         },
         {
-            "filename": "icons/1_Primary/BitForex.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "BitForex"
-            ]
-        },
-        {
             "filename": "icons/1_Primary/BitGo.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "BitGo"
-            ]
-        },
-        {
-            "filename": "icons/1_Primary/BitMEX.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "BitMEX"
-            ]
-        },
-        {
-            "filename": "icons/1_Primary/BitMart.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "BitMart"
             ]
         },
         {
@@ -501,13 +459,6 @@
             ]
         },
         {
-            "filename": "icons/1_Primary/Bitbns.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "Bitbns"
-            ]
-        },
-        {
             "filename": "icons/1_Primary/Bitbucket.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -515,38 +466,10 @@
             ]
         },
         {
-            "filename": "icons/1_Primary/Bitbuy.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "Bitbuy"
-            ]
-        },
-        {
-            "filename": "icons/1_Primary/Bitcoin.com.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "Bitcoin.com"
-            ]
-        },
-        {
-            "filename": "icons/1_Primary/Bitcoin.de.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "Bitcoin.de"
-            ]
-        },
-        {
             "filename": "icons/1_Primary/Bitdefender.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "Bitdefender"
-            ]
-        },
-        {
-            "filename": "icons/1_Primary/Bitfinex.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "Bitfinex"
             ]
         },
         {
@@ -568,13 +491,6 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Bitpay"
-            ]
-        },
-        {
-            "filename": "icons/1_Primary/Bitrefill.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "Bitrefill"
             ]
         },
         {
@@ -606,13 +522,6 @@
             ]
         },
         {
-            "filename": "icons/1_Primary/Bittrex.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "Bittrex"
-            ]
-        },
-        {
             "filename": "icons/1_Primary/Bitwage.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -639,13 +548,6 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Blesta"
-            ]
-        },
-        {
-            "filename": "icons/1_Primary/Blockchain.com.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "Blockchain.com"
             ]
         },
         {
@@ -756,13 +658,6 @@
             ]
         },
         {
-            "filename": "icons/1_Primary/Buenbit.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "Buenbit"
-            ]
-        },
-        {
             "filename": "icons/1_Primary/Buffer.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -799,25 +694,11 @@
             ]
         },
         {
-            "filename": "icons/1_Primary/Bybit.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "Bybit"
-            ]
-        },
-        {
             "filename": "icons/1_Primary/CAPCOM ID.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "CAPCOM ID",
                 "Capcom"
-            ]
-        },
-        {
-            "filename": "icons/1_Primary/CEX.IO.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "CEX.IO"
             ]
         },
         {
@@ -849,24 +730,10 @@
             ]
         },
         {
-            "filename": "icons/1_Primary/CTemplar.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "CTemplar"
-            ]
-        },
-        {
             "filename": "icons/1_Primary/Caixa.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "Caixa"
-            ]
-        },
-        {
-            "filename": "icons/1_Primary/Cake DeFi.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "Cake DeFi"
             ]
         },
         {
@@ -916,13 +783,6 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Cash App"
-            ]
-        },
-        {
-            "filename": "icons/1_Primary/Changelly.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "Changelly"
             ]
         },
         {
@@ -1038,34 +898,6 @@
             ]
         },
         {
-            "filename": "icons/1_Primary/CoinDCX.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "CoinDCX"
-            ]
-        },
-        {
-            "filename": "icons/1_Primary/CoinEx.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "CoinEx"
-            ]
-        },
-        {
-            "filename": "icons/1_Primary/CoinFLEX.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "CoinFLEX"
-            ]
-        },
-        {
-            "filename": "icons/1_Primary/CoinStats.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "CoinStats"
-            ]
-        },
-        {
             "filename": "icons/1_Primary/CoinTracker.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -1084,34 +916,6 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Coinbase"
-            ]
-        },
-        {
-            "filename": "icons/1_Primary/Coinhako.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "Coinhako"
-            ]
-        },
-        {
-            "filename": "icons/1_Primary/Coinigy.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "Coinigy"
-            ]
-        },
-        {
-            "filename": "icons/1_Primary/Coinmama.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "Coinmama"
-            ]
-        },
-        {
-            "filename": "icons/1_Primary/Coins.co.th.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "Coins.co.th"
             ]
         },
         {
@@ -1217,20 +1021,6 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Crowdin"
-            ]
-        },
-        {
-            "filename": "icons/1_Primary/Crypto.com.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "Crypto.com"
-            ]
-        },
-        {
-            "filename": "icons/1_Primary/Cryptohopper.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "Cryptohopper"
             ]
         },
         {
@@ -1340,13 +1130,6 @@
             ]
         },
         {
-            "filename": "icons/1_Primary/Deribit.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "Deribit"
-            ]
-        },
-        {
             "filename": "icons/1_Primary/Derpibooru.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -1358,13 +1141,6 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Deutsche Bahn"
-            ]
-        },
-        {
-            "filename": "icons/1_Primary/Deversifi.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "Deversifi"
             ]
         },
         {
@@ -1386,13 +1162,6 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Digitec Galaxus"
-            ]
-        },
-        {
-            "filename": "icons/1_Primary/Digix.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "Digix"
             ]
         },
         {
@@ -1501,14 +1270,6 @@
             ]
         },
         {
-            "filename": "icons/1_Primary/E-Trade.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "E-Trade",
-                "E*TRADE"
-            ]
-        },
-        {
             "filename": "icons/1_Primary/ESEA.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -1520,13 +1281,6 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "ESET"
-            ]
-        },
-        {
-            "filename": "icons/1_Primary/EXMO.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "EXMO"
             ]
         },
         {
@@ -1632,13 +1386,6 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "ExpressVPN"
-            ]
-        },
-        {
-            "filename": "icons/1_Primary/Exrates.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "Exrates"
             ]
         },
         {
@@ -1882,13 +1629,6 @@
             ]
         },
         {
-            "filename": "icons/1_Primary/Fusang.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "Fusang"
-            ]
-        },
-        {
             "filename": "icons/1_Primary/G2A.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -1956,14 +1696,6 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Gandi"
-            ]
-        },
-        {
-            "filename": "icons/1_Primary/Gate.io.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "Gate.io",
-                "Gate.us"
             ]
         },
         {
@@ -2270,13 +2002,6 @@
             ]
         },
         {
-            "filename": "icons/1_Primary/HitBTC.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "HitBTC"
-            ]
-        },
-        {
             "filename": "icons/1_Primary/Hive OS.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2288,13 +2013,6 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Hiven"
-            ]
-        },
-        {
-            "filename": "icons/1_Primary/Hodlnaut.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "Hodlnaut"
             ]
         },
         {
@@ -2330,13 +2048,6 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Hostwinds"
-            ]
-        },
-        {
-            "filename": "icons/1_Primary/Hotbit.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "Hotbit"
             ]
         },
         {
@@ -2754,27 +2465,6 @@
             ]
         },
         {
-            "filename": "icons/1_Primary/Kriptomat.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "Kriptomat"
-            ]
-        },
-        {
-            "filename": "icons/1_Primary/Kryll.io.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "Kryll.io"
-            ]
-        },
-        {
-            "filename": "icons/1_Primary/KuCoin.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "KuCoin"
-            ]
-        },
-        {
             "filename": "icons/1_Primary/Kwansei Gakuin University.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2793,13 +2483,6 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Kyoto University"
-            ]
-        },
-        {
-            "filename": "icons/1_Primary/LOBSTR.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "LOBSTR"
             ]
         },
         {
@@ -2838,10 +2521,10 @@
             ]
         },
         {
-            "filename": "icons/1_Primary/Let'sBit.svg",
+            "filename": "icons/1_Primary/Lemmy.svg",
             "category": "1. Apps & Sites",
             "issuer": [
-                "Let'sBit"
+                "Lemmy"
             ]
         },
         {
@@ -2905,13 +2588,6 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Lnk.Bio"
-            ]
-        },
-        {
-            "filename": "icons/1_Primary/Localbitcoins.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "Localbitcoins"
             ]
         },
         {
@@ -3062,13 +2738,6 @@
             ]
         },
         {
-            "filename": "icons/1_Primary/Masterworks.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "Masterworks"
-            ]
-        },
-        {
             "filename": "icons/1_Primary/Mastodon.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3101,13 +2770,6 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Maxon"
-            ]
-        },
-        {
-            "filename": "icons/1_Primary/Media Temple.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "Media Temple"
             ]
         },
         {
@@ -3427,20 +3089,6 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Niagahoster"
-            ]
-        },
-        {
-            "filename": "icons/1_Primary/NiceHash.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "NiceHash"
-            ]
-        },
-        {
-            "filename": "icons/1_Primary/Nifty Gateway.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "Nifty Gateway"
             ]
         },
         {
@@ -3812,13 +3460,6 @@
             ]
         },
         {
-            "filename": "icons/1_Primary/PeerBerry.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "PeerBerry"
-            ]
-        },
-        {
             "filename": "icons/1_Primary/PeerTube.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3833,20 +3474,6 @@
             ]
         },
         {
-            "filename": "icons/1_Primary/Phabricator.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "Phabricator"
-            ]
-        },
-        {
-            "filename": "icons/1_Primary/Phemex.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "Phemex"
-            ]
-        },
-        {
             "filename": "icons/1_Primary/Philips.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3858,20 +3485,6 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Pinterest"
-            ]
-        },
-        {
-            "filename": "icons/1_Primary/Pionex.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "Pionex"
-            ]
-        },
-        {
-            "filename": "icons/1_Primary/PipeFlare.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "PipeFlare"
             ]
         },
         {
@@ -3910,13 +3523,6 @@
             ]
         },
         {
-            "filename": "icons/1_Primary/Player.me.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "Player.me"
-            ]
-        },
-        {
             "filename": "icons/1_Primary/Pleroma.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -3935,20 +3541,6 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Pluralsight"
-            ]
-        },
-        {
-            "filename": "icons/1_Primary/Plutus.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "Plutus"
-            ]
-        },
-        {
-            "filename": "icons/1_Primary/Poloniex.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "Poloniex"
             ]
         },
         {
@@ -3995,24 +3587,10 @@
             ]
         },
         {
-            "filename": "icons/1_Primary/Presearch.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "Presearch"
-            ]
-        },
-        {
             "filename": "icons/1_Primary/Prey.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "Prey"
-            ]
-        },
-        {
-            "filename": "icons/1_Primary/PrimeXBT.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "PrimeXBT"
             ]
         },
         {
@@ -4034,13 +3612,6 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Private Internet Access"
-            ]
-        },
-        {
-            "filename": "icons/1_Primary/Probit.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "Probit"
             ]
         },
         {
@@ -4343,13 +3914,6 @@
             ]
         },
         {
-            "filename": "icons/1_Primary/Ripio.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "Ripio"
-            ]
-        },
-        {
             "filename": "icons/1_Primary/Roberts Space Industries.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4477,24 +4041,10 @@
             ]
         },
         {
-            "filename": "icons/1_Primary/Samtrade FX.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "Samtrade FX"
-            ]
-        },
-        {
             "filename": "icons/1_Primary/Satang.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "Satang"
-            ]
-        },
-        {
-            "filename": "icons/1_Primary/SatoshiTango.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "SatoshiTango"
             ]
         },
         {
@@ -4551,13 +4101,6 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Segment"
-            ]
-        },
-        {
-            "filename": "icons/1_Primary/Selfwealth.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "Selfwealth"
             ]
         },
         {
@@ -4646,13 +4189,6 @@
             ]
         },
         {
-            "filename": "icons/1_Primary/SideShift.ai.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "SideShift.ai"
-            ]
-        },
-        {
             "filename": "icons/1_Primary/SimpleLogin.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -4720,13 +4256,6 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Sophos"
-            ]
-        },
-        {
-            "filename": "icons/1_Primary/Sorare.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "Sorare"
             ]
         },
         {
@@ -5183,20 +4712,6 @@
             ]
         },
         {
-            "filename": "icons/1_Primary/TradingView.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "TradingView"
-            ]
-        },
-        {
-            "filename": "icons/1_Primary/Trality.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "Trality"
-            ]
-        },
-        {
             "filename": "icons/1_Primary/TransIP.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -5429,13 +4944,6 @@
             ]
         },
         {
-            "filename": "icons/1_Primary/UseMyCards.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "UseMyCards"
-            ]
-        },
-        {
             "filename": "icons/1_Primary/V2EX.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -5482,13 +4990,6 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "VRChat"
-            ]
-        },
-        {
-            "filename": "icons/1_Primary/Vauld.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "Vauld"
             ]
         },
         {
@@ -5539,14 +5040,6 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Vultr"
-            ]
-        },
-        {
-            "filename": "icons/1_Primary/WAX.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "WAX",
-                "Worldwide Asset eXchange"
             ]
         },
         {
@@ -5621,13 +5114,6 @@
             ]
         },
         {
-            "filename": "icons/1_Primary/WazirX.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "WazirX"
-            ]
-        },
-        {
             "filename": "icons/1_Primary/WeTransfer.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -5646,13 +5132,6 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Wealthfront"
-            ]
-        },
-        {
-            "filename": "icons/1_Primary/Wealthsimple.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "Wealthsimple"
             ]
         },
         {
@@ -5769,13 +5248,6 @@
             ]
         },
         {
-            "filename": "icons/1_Primary/XGo.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "XGo"
-            ]
-        },
-        {
             "filename": "icons/1_Primary/XSplit.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -5824,13 +5296,6 @@
                 "Yandex"
             ]
         },
-        {  
-            "filename": "icons/1_Primary/YoBit.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "YoBit"
-            ]
-        },
         {
             "filename": "icons/1_Primary/YoYo Games.svg",
             "category": "1. Apps & Sites",
@@ -5850,27 +5315,6 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "You Need A Budget"
-            ]
-        },
-        {
-            "filename": "icons/1_Primary/YouHodler.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "YouHodler"
-            ]
-        },
-        {
-            "filename": "icons/1_Primary/Young Platform.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "Young Platform"
-            ]
-        },
-        {
-            "filename": "icons/1_Primary/ZEBEDEE.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "ZEBEDEE"
             ]
         },
         {
@@ -6564,6 +6008,13 @@
             ]
         },
         {
+            "filename": "icons/2_Variations/Lemmy bg.var.svg",
+            "category": "2. Variations & Alts",
+            "issuer": [
+                "Lemmy"
+            ]
+        },
+        {
             "filename": "icons/2_Variations/Lichess bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
@@ -6606,20 +6057,6 @@
             ]
         },
         {
-            "filename": "icons/2_Variations/Masterworks bg.var.svg",
-            "category": "2. Variations & Alts",
-            "issuer": [
-                "Masterworks"
-            ]
-        },
-        {
-            "filename": "icons/2_Variations/Media Temple bg.var.svg",
-            "category": "2. Variations & Alts",
-            "issuer": [
-                "Media Temple"
-            ]
-        },
-        {
             "filename": "icons/2_Variations/Mercado Libre fg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
@@ -6645,13 +6082,6 @@
             "category": "2. Variations & Alts",
             "issuer": [
                 "Neopets"
-            ]
-        },
-        {
-            "filename": "icons/2_Variations/Nifty Gateway bg.var.svg",
-            "category": "2. Variations & Alts",
-            "issuer": [
-                "Nifty Gateway"
             ]
         },
         {
@@ -6818,13 +6248,6 @@
             ]
         },
         {
-            "filename": "icons/2_Variations/Sorare bg.var.svg",
-            "category": "2. Variations & Alts",
-            "issuer": [
-                "Sorare"
-            ]
-        },
-        {
             "filename": "icons/2_Variations/Square bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
@@ -6878,13 +6301,6 @@
             "category": "2. Variations & Alts",
             "issuer": [
                 "TikTok"
-            ]
-        },
-        {
-            "filename": "icons/2_Variations/TradingView bg.var.svg",
-            "category": "2. Variations & Alts",
-            "issuer": [
-                "TradingView"
             ]
         },
         {
@@ -7013,20 +6429,6 @@
             "category": "2. Variations & Alts",
             "issuer": [
                 "Wuxiaworld"
-            ]
-        },
-        {
-            "filename": "icons/2_Variations/XGo bg.var.svg",
-            "category": "2. Variations & Alts",
-            "issuer": [
-                "XGo"
-            ]
-        },
-        {
-            "filename": "icons/2_Variations/XGo fg.bg.var.svg",
-            "category": "2. Variations & Alts",
-            "issuer": [
-                "XGo"
             ]
         },
         {
@@ -7499,13 +6901,6 @@
             ]
         },
         {
-            "filename": "icons/4_Outdated/Bitfinex v1.svg",
-            "category": "4. Outdated",
-            "issuer": [
-                "Bitfinex"
-            ]
-        },
-        {
             "filename": "icons/4_Outdated/Bitpanda v1 bg.var.svg",
             "category": "4. Outdated",
             "issuer": [
@@ -7566,13 +6961,6 @@
             "category": "4. Outdated",
             "issuer": [
                 "Codeberg"
-            ]
-        },
-        {
-            "filename": "icons/4_Outdated/CoinDCX v1.svg",
-            "category": "4. Outdated",
-            "issuer": [
-                "CoinDCX"
             ]
         },
         {
@@ -7664,14 +7052,6 @@
             "category": "4. Outdated",
             "issuer": [
                 "Gandi"
-            ]
-        },
-        {
-            "filename": "icons/4_Outdated/Gate.io v1.svg",
-            "category": "4. Outdated",
-            "issuer": [
-                "Gate.io",
-                "Gate.us"
             ]
         },
         {
@@ -7921,13 +7301,6 @@
             ]
         },
         {
-            "filename": "icons/4_Outdated/Samtrade FX v1.svg",
-            "category": "4. Outdated",
-            "issuer": [
-                "Samtrade FX"
-            ]
-        },
-        {
             "filename": "icons/4_Outdated/Sendinblue.svg",
             "category": "4. Outdated",
             "issuer": [
@@ -7989,20 +7362,6 @@
             "category": "4. Outdated",
             "issuer": [
                 "Thycotic"
-            ]
-        },
-        {
-            "filename": "icons/4_Outdated/TradingView v1.svg",
-            "category": "4. Outdated",
-            "issuer": [
-                "TradingView"
-            ]
-        },
-        {
-            "filename": "icons/4_Outdated/TradingView v2.svg",
-            "category": "4. Outdated",
-            "issuer": [
-                "TradingView"
             ]
         },
         {
