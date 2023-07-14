@@ -48,4 +48,4 @@ The CC0 license applies only to templates, texts, codes and some of the icons. E
 
 We don't make icons for general purpose, we only focus on userbase of Aegis, the Android app. Check out [Simple Icons](https://simpleicons.org/) instead!
 
-As of 2021-07-25, [aegis-icons doesn't actively make PNG files](https://github.com/aegis-icons/png-files/blob/main/.github/NOTICE.md).
+We aren't associated with [Beem Development](https://github.com/beemdevelopment), the creators of Aegis Authenticator.
