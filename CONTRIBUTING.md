@@ -429,8 +429,9 @@ When everything is done and ready to go, [submit icons with either as pull reque
   - *Example:* `Cloud.svg`
     
 #### _New versions, version naming and organizing old files_
-- New versions of icons are only made when it's major change (new logo or brand color).
-  - Logos with only **barely noticable** brand related changes with same brand color ([example by T-Mobile](https://user-images.githubusercontent.com/3540275/160298574-c28cfe2a-3393-44b0-9fd1-63a4e6ade214.png)), doesn't need new icon version.
+- New versions of icons are only made when it's major branding change (new logo).
+  - Logos with only **barely noticable** brand related changes ([example by T-Mobile](https://user-images.githubusercontent.com/3540275/160298574-c28cfe2a-3393-44b0-9fd1-63a4e6ade214.png)) doesn't need new icon version.
+  - New versions aren't made, if BG color just changes.
 - Icon files that are outdated for the first time, `v1` is added to end of the filename.
   - Examples: `Codeberg v1.svg`.
 - Version label number increases for outdated icons when new versions of the primary icon are released (`v2`, `v3`, `v4`, `v5` etc.).

@@ -565,13 +565,6 @@
             ]
         },
         {
-            "filename": "icons/1_Primary/Blur.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "Blur"
-            ]
-        },
-        {
             "filename": "icons/1_Primary/BnkToTheFuture.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -940,7 +933,7 @@
             ]
         },
         {
-            "filename": "icons/1_Primary/ControlD.svg",
+            "filename": "icons/1_Primary/Control D.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "ControlD"
@@ -1127,6 +1120,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Delinea"
+            ]
+        },
+        {
+            "filename": "icons/1_Primary/Deque Systems.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Deque Systems"
             ]
         },
         {
@@ -2283,6 +2283,14 @@
             ]
         },
         {
+            "filename": "icons/1_Primary/IronVest.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "IronVest",
+                "Blur"
+            ]
+        },
+        {
             "filename": "icons/1_Primary/JFrog.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2991,13 +2999,6 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "NearlyFreeSpeech.NET"
-            ]
-        },
-        {
-            "filename": "icons/1_Primary/Neeva.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "Neeva"
             ]
         },
         {
@@ -5395,13 +5396,6 @@
             ]
         },
         {
-            "filename": "icons/1_Primary/axe.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "axe"
-            ]
-        },
-        {
             "filename": "icons/1_Primary/balena.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -5748,6 +5742,13 @@
             ]
         },
         {
+            "filename": "icons/2_Variations/Bitazza fg.var.svg",
+            "category": "2. Variations & Alts",
+            "issuer": [
+                "Bitazza"
+            ]
+        },
+        {
             "filename": "icons/2_Variations/Bitpanda bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
@@ -5797,17 +5798,17 @@
             ]
         },
         {
-            "filename": "icons/2_Variations/ControlD fg.var.svg",
-            "category": "2. Variations & Alts",
-            "issuer": [
-                "ControlD"
-            ]
-        },
-        {
             "filename": "icons/2_Variations/Crowdin bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
                 "Crowdin"
+            ]
+        },
+        {
+            "filename": "icons/2_Variations/Digitec Galaxus bg.var.svg",
+            "category": "2. Variations & Alts",
+            "issuer": [
+                "Digitec Galaxus"
             ]
         },
         {
@@ -6460,13 +6461,6 @@
             ]
         },
         {
-            "filename": "icons/2_Variations/axe bg.var.svg",
-            "category": "2. Variations & Alts",
-            "issuer": [
-                "axe"
-            ]
-        },
-        {
             "filename": "icons/2_Variations/deSEC bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
@@ -6834,7 +6828,7 @@
             "filename": "icons/4_Outdated/1Password v1.svg",
             "category": "4. Outdated",
             "issuer": [
-                "1Password" 
+                "1Password"
             ]
         },
         {
@@ -6894,10 +6888,10 @@
             ]
         },
         {
-            "filename": "icons/4_Outdated/Betterment v1.svg",
+            "filename": "icons/4_Outdated/BitSight v1.svg",
             "category": "4. Outdated",
             "issuer": [
-                "Betterment"
+                "BitSight"
             ]
         },
         {
@@ -6915,10 +6909,10 @@
             ]
         },
         {
-            "filename": "icons/4_Outdated/Bitwarden v1.svg",
+            "filename": "icons/4_Outdated/Bitstamp v1.svg",
             "category": "4. Outdated",
             "issuer": [
-                "Bitwarden"
+                "Bitstamp"
             ]
         },
         {
@@ -6940,6 +6934,20 @@
             "category": "4. Outdated",
             "issuer": [
                 "Blizzard"
+            ]
+        },
+        {
+            "filename": "icons/4_Outdated/Blur.svg",
+            "category": "4. Outdated",
+            "issuer": [
+                "Blur"
+            ]
+        },
+        {
+            "filename": "icons/4_Outdated/Bugzilla v1.svg",
+            "category": "4. Outdated",
+            "issuer": [
+                "Bugzilla"
             ]
         },
         {
@@ -6978,17 +6986,24 @@
             ]
         },
         {
+            "filename": "icons/4_Outdated/Cozy Cloud v1.svg",
+            "category": "4. Outdated",
+            "issuer": [
+                "Cozy Cloud"
+            ]
+        },
+        {
+            "filename": "icons/4_Outdated/CurseForge v1.svg",
+            "category": "4. Outdated",
+            "issuer": [
+                "CurseForge"
+            ]
+        },
+        {
             "filename": "icons/4_Outdated/Dashlane v1.svg",
             "category": "4. Outdated",
             "issuer": [
                 "Dashlane"
-            ]
-        },
-        {
-            "filename": "icons/4_Outdated/Directus v1.svg",
-            "category": "4. Outdated",
-            "issuer": [
-                "Directus"
             ]
         },
         {
@@ -7010,13 +7025,6 @@
             "category": "4. Outdated",
             "issuer": [
                 "Drupal"
-            ]
-        },
-        {
-            "filename": "icons/4_Outdated/Enom v1.svg",
-            "category": "4. Outdated",
-            "issuer": [
-                "Enom"
             ]
         },
         {
@@ -7048,13 +7056,6 @@
             ]
         },
         {
-            "filename": "icons/4_Outdated/Gandi v1.svg",
-            "category": "4. Outdated",
-            "issuer": [
-                "Gandi"
-            ]
-        },
-        {
             "filename": "icons/4_Outdated/GitLab v1.svg",
             "category": "4. Outdated",
             "issuer": [
@@ -7076,13 +7077,6 @@
             ]
         },
         {
-            "filename": "icons/4_Outdated/H&R Block v1.svg",
-            "category": "4. Outdated",
-            "issuer": [
-                "H&R Block"
-            ]
-        },
-        {
             "filename": "icons/4_Outdated/HM Revenue & Customs.svg",
             "category": "4. Outdated",
             "issuer": [
@@ -7094,20 +7088,6 @@
             "category": "4. Outdated",
             "issuer": [
                 "Hostwinds"
-            ]
-        },
-        {
-            "filename": "icons/4_Outdated/IFTTT v1.svg",
-            "category": "4. Outdated",
-            "issuer": [
-                "IFTTT"
-            ]
-        },
-        {
-            "filename": "icons/4_Outdated/Instagram v1.svg",
-            "category": "4. Outdated",
-            "issuer": [
-                "Instagram"
             ]
         },
         {
@@ -7133,20 +7113,6 @@
             ]
         },
         {
-            "filename": "icons/4_Outdated/MangaDex v1.svg",
-            "category": "4. Outdated",
-            "issuer": [
-                "MangaDex"
-            ]
-        },
-        {
-            "filename": "icons/4_Outdated/Mastodon v1.svg",
-            "category": "4. Outdated",
-            "issuer": [
-                "Mastodon"
-            ]
-        },
-        {
             "filename": "icons/4_Outdated/NameSilo v1.svg",
             "category": "4. Outdated",
             "issuer": [
@@ -7158,13 +7124,6 @@
             "category": "4. Outdated",
             "issuer": [
                 "NextDNS"
-            ]
-        },
-        {
-            "filename": "icons/4_Outdated/OVH v1.svg",
-            "category": "4. Outdated",
-            "issuer": [
-                "OVH"
             ]
         },
         {
@@ -7203,24 +7162,10 @@
             ]
         },
         {
-            "filename": "icons/4_Outdated/OwnCube v1.svg",
-            "category": "4. Outdated",
-            "issuer": [
-                "OwnCube"
-            ]
-        },
-        {
             "filename": "icons/4_Outdated/Paddle v1.svg",
             "category": "4. Outdated",
             "issuer": [
                 "Paddle"
-            ]
-        },
-        {
-            "filename": "icons/4_Outdated/Patreon v1.svg",
-            "category": "4. Outdated",
-            "issuer": [
-                "Patreon"
             ]
         },
         {
@@ -7235,13 +7180,6 @@
             "category": "4. Outdated",
             "issuer": [
                 "PayPal"
-            ]
-        },
-        {
-            "filename": "icons/4_Outdated/Pinterest v1.svg",
-            "category": "4. Outdated",
-            "issuer": [
-                "Pinterest"
             ]
         },
         {
@@ -7351,13 +7289,6 @@
             ]
         },
         {
-            "filename": "icons/4_Outdated/Stripe v1.svg",
-            "category": "4. Outdated",
-            "issuer": [
-                "Stripe"
-            ]
-        },
-        {
             "filename": "icons/4_Outdated/Thycotic.svg",
             "category": "4. Outdated",
             "issuer": [
@@ -7414,20 +7345,6 @@
             ]
         },
         {
-            "filename": "icons/4_Outdated/VK v1.svg",
-            "category": "4. Outdated",
-            "issuer": [
-                "VK"
-            ]
-        },
-        {
-            "filename": "icons/4_Outdated/VK v2.svg",
-            "category": "4. Outdated",
-            "issuer": [
-                "VK"
-            ]
-        },
-        {
             "filename": "icons/4_Outdated/Windscribe v1.svg",
             "category": "4. Outdated",
             "issuer": [
@@ -7439,6 +7356,27 @@
             "category": "4. Outdated",
             "issuer": [
                 "Zapier"
+            ]
+        },
+        {
+            "filename": "icons/4_Outdated/axe bg.var.svg",
+            "category": "4. Outdated",
+            "issuer": [
+                "axe"
+            ]
+        },
+        {
+            "filename": "icons/4_Outdated/axe.svg",
+            "category": "4. Outdated",
+            "issuer": [
+                "axe"
+            ]
+        },
+        {
+            "filename": "icons/4_Outdated/bitFlyer v1.svg",
+            "category": "4. Outdated",
+            "issuer": [
+                "bitFlyer"
             ]
         },
         {
