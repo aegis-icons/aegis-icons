@@ -2628,9 +2628,10 @@
             ]
         },
         {
-            "filename": "icons/1_Primary/M1 Finance.svg",
+            "filename": "icons/1_Primary/M1.svg",
             "category": "1. Apps & Sites",
             "issuer": [
+                "M1",
                 "M1 Finance"
             ]
         },
@@ -6060,13 +6061,6 @@
             ]
         },
         {
-            "filename": "icons/2_Variations/Mercado Libre fg.var.svg",
-            "category": "2. Variations & Alts",
-            "issuer": [
-                "Mercado Libre"
-            ]
-        },
-        {
             "filename": "icons/2_Variations/Mollie bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
@@ -7142,6 +7136,13 @@
             ]
         },
         {
+            "filename": "icons/4_Outdated/Koofr v1.svg",
+            "category": "4. Outdated",
+            "issuer": [
+                "Koofr"
+            ]
+        },
+        {
             "filename": "icons/4_Outdated/Linode.svg",
             "category": "4. Outdated",
             "issuer": [
@@ -7154,6 +7155,13 @@
             "category": "4. Outdated",
             "issuer": [
                 "LogMeIn"
+            ]
+        },
+        {
+            "filename": "icons/4_Outdated/MEXC v1.svg",
+            "category": "4. Outdated",
+            "issuer": [
+                "MEXC"
             ]
         },
         {
