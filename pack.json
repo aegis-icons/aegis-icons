@@ -1361,13 +1361,6 @@
             ]
         },
         {
-            "filename": "icons/1_Primary/Exaroton.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "Exaroton"
-            ]
-        },
-        {
             "filename": "icons/1_Primary/Exoscale.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -2002,17 +1995,18 @@
             ]
         },
         {
-            "filename": "icons/1_Primary/Hive OS.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "Hive OS"
-            ]
-        },
-        {
             "filename": "icons/1_Primary/Hiven.svg",
             "category": "1. Apps & Sites",
             "issuer": [
                 "Hiven"
+            ]
+        },
+        {
+            "filename": "icons/1_Primary/Hiveon.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Hiveon",
+                "Hive OS"
             ]
         },
         {
@@ -2894,6 +2888,15 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Mos.ru"
+            ]
+        },
+        {
+            "filename": "icons/1_Primary/Murena.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "Murena",
+                "ecloud",
+                "/e/ cloud"
             ]
         },
         {
@@ -5452,14 +5455,6 @@
             ]
         },
         {
-            "filename": "icons/1_Primary/ecloud.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "ecloud",
-                "/e/ cloud"
-            ]
-        },
-        {
             "filename": "icons/1_Primary/ecobee.svg",
             "category": "1. Apps & Sites",
             "issuer": [
@@ -5471,6 +5466,13 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "ente"
+            ]
+        },
+        {
+            "filename": "icons/1_Primary/exaroton.svg",
+            "category": "1. Apps & Sites",
+            "issuer": [
+                "exaroton"
             ]
         },
         {
@@ -7000,6 +7002,13 @@
             ]
         },
         {
+            "filename": "icons/4_Outdated/DMarket v1.svg",
+            "category": "4. Outdated",
+            "issuer": [
+                "DMarket"
+            ]
+        },
+        {
             "filename": "icons/4_Outdated/Dashlane v1.svg",
             "category": "4. Outdated",
             "issuer": [
@@ -7028,6 +7037,13 @@
             ]
         },
         {
+            "filename": "icons/4_Outdated/Enom v1.svg",
+            "category": "4. Outdated",
+            "issuer": [
+                "Enom"
+            ]
+        },
+        {
             "filename": "icons/4_Outdated/ExpressVPN v1.svg",
             "category": "4. Outdated",
             "issuer": [
@@ -7049,6 +7065,13 @@
             ]
         },
         {
+            "filename": "icons/4_Outdated/Fathom Analytics v1.svg",
+            "category": "4. Outdated",
+            "issuer": [
+                "Fathom Analytics"
+            ]
+        },
+        {
             "filename": "icons/4_Outdated/Firefox v1.svg",
             "category": "4. Outdated",
             "issuer": [
@@ -7060,6 +7083,13 @@
             "category": "4. Outdated",
             "issuer": [
                 "GitLab"
+            ]
+        },
+        {
+            "filename": "icons/4_Outdated/Glassdoor v1.svg",
+            "category": "4. Outdated",
+            "issuer": [
+                "Glassdoor"
             ]
         },
         {
@@ -7084,10 +7114,24 @@
             ]
         },
         {
-            "filename": "icons/4_Outdated/Hostwinds v1.svg",
+            "filename": "icons/4_Outdated/HackNotice v1.svg",
             "category": "4. Outdated",
             "issuer": [
+                "HackNotice"
+            ]
+        },
+        {
+            "filename": "icons/4_Outdated/Hostwinds v1.svg",
+            "category": "4. Outdated", 
+            "issuer": [
                 "Hostwinds"
+            ]
+        },
+        {
+            "filename": "icons/4_Outdated/Intuit v1.svg",
+            "category": "4. Outdated",
+            "issuer": [
+                "Intuit"
             ]
         },
         {
@@ -7377,6 +7421,15 @@
             "category": "4. Outdated",
             "issuer": [
                 "bitFlyer"
+            ]
+        },
+        {
+            "filename": "icons/4_Outdated/ecloud.svg",
+            "category": "4. Outdated",
+            "issuer": [
+                "Murena",
+                "ecloud",
+                "/e/ cloud"
             ]
         },
         {
