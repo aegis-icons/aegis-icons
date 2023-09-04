@@ -430,7 +430,7 @@ When everything is done and ready to go, [submit icons with either as pull reque
  
 #### _New versions, version naming and organizing old files_
 - New versions of icons are only made when it's major branding change (new logo).
-  - Logos with only **barely noticable** brand related changes ([example by T-Mobile](https://user-images.githubusercontent.com/3540275/160298574-c28cfe2a-3393-44b0-9fd1-63a4e6ade214.png)) doesn't need new icon version.
+  - Logos with only **barely noticeable** brand related changes ([example by T-Mobile](https://user-images.githubusercontent.com/3540275/160298574-c28cfe2a-3393-44b0-9fd1-63a4e6ade214.png)) doesn't need new icon version.
   - New versions aren't made, if **only just BG color changes.**
 - Icon files that are outdated for the first time, `v1` is added to end of the filename.
   - Examples: `Codeberg v1.svg`.
