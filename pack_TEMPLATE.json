@@ -3097,9 +3097,10 @@
             ]
         },
         {
-            "filename": "icons/1_Primary/Nimbus Note.svg",
+            "filename": "icons/1_Primary/Nimbus Platform.svg",
             "category": "1. Apps & Sites",
             "issuer": [
+                "Nimbus Platform",
                 "Nimbus Note"
             ]
         },
@@ -3115,13 +3116,6 @@
             "category": "1. Apps & Sites",
             "issuer": [
                 "Nitrado"
-            ]
-        },
-        {
-            "filename": "icons/1_Primary/Nitrogen Sports.svg",
-            "category": "1. Apps & Sites",
-            "issuer": [
-                "Nitrogen Sports"
             ]
         },
         {
@@ -3210,9 +3204,10 @@
             ]
         },
         {
-            "filename": "icons/1_Primary/OKEx.svg",
+            "filename": "icons/1_Primary/OKX.svg",
             "category": "1. Apps & Sites",
             "issuer": [
+                "OKX",
                 "OKEx"
             ]
         },
@@ -3260,9 +3255,10 @@
             ]
         },
         {
-            "filename": "icons/1_Primary/Obsidian Entertainment.svg",
+            "filename": "icons/1_Primary/Obsidian.svg",
             "category": "1. Apps & Sites",
             "issuer": [
+                "Obsidian",
                 "Obsidian Entertainment"
             ]
         },
@@ -3765,9 +3761,10 @@
             ]
         },
         { 
-            "filename": "icons/1_Primary/Rackspace.svg",
+            "filename": "icons/1_Primary/Rackspace Technology.svg",
             "category": "1. Apps & Sites",
             "issuer": [
+                "Rackspace Technology",
                 "Rackspace"
             ]
         },
@@ -6110,17 +6107,10 @@
             ]
         },
         {
-            "filename": "icons/2_Variations/Nuki bg.var.svg",
+            "filename": "icons/2_Variations/OKX bg.var.svg",
             "category": "2. Variations & Alts",
             "issuer": [
-                "Nuki"
-            ]
-        },
-        {
-            "filename": "icons/2_Variations/Nuki fg.bg.var.svg",
-            "category": "2. Variations & Alts",
-            "issuer": [
-                "Nuki"
+                "OKX"
             ]
         },
         {
@@ -7165,6 +7155,13 @@
             ]
         },
         {
+            "filename": "icons/4_Outdated/MXroute v1.svg",
+            "category": "4. Outdated",
+            "issuer": [
+                "MXroute"
+            ]
+        },
+        {
             "filename": "icons/4_Outdated/NameSilo v1.svg",
             "category": "4. Outdated",
             "issuer": [
@@ -7172,10 +7169,25 @@
             ]
         },
         {
+            "filename": "icons/4_Outdated/Netlify v1.svg",
+            "category": "4. Outdated",
+            "issuer": [
+                "Netlify"
+            ]
+        },
+        {
             "filename": "icons/4_Outdated/NextDNS v1.svg",
             "category": "4. Outdated",
             "issuer": [
                 "NextDNS"
+            ]
+        },
+        {
+            "filename": "icons/4_Outdated/OKEx.svg",
+            "category": "4. Outdated",
+            "issuer": [
+                "OKEx",
+                "OKX"
             ]
         },
         {
@@ -7200,6 +7212,13 @@
             ]
         },
         {
+            "filename": "icons/4_Outdated/OneSignal v1.svg",
+            "category": "4. Outdated",
+            "issuer": [
+                "OneSignal"
+            ]
+        },
+        {
             "filename": "icons/4_Outdated/OnlyFans v1.svg",
             "category": "4. Outdated",
             "issuer": [
@@ -7207,10 +7226,24 @@
             ]
         },
         {
+            "filename": "icons/4_Outdated/OpenSRS v1.svg",
+            "category": "4. Outdated",
+            "issuer": [
+                "OpenSRS"
+            ]
+        },
+        {
             "filename": "icons/4_Outdated/Origin.svg",
             "category": "4. Outdated",
             "issuer": [
                 "Origin"
+            ]
+        },
+        {
+            "filename": "icons/4_Outdated/OwnCube v1.svg",
+            "category": "4. Outdated",
+            "issuer": [
+                "OwnCube"
             ]
         },
         {
