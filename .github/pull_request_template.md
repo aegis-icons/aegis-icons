@@ -1,18 +1,3 @@
-DO NOT OPEN NEW PRs
-DO NOT OPEN NEW PRs
-DO NOT OPEN NEW PRs
-DO NOT OPEN NEW PRs
-DO NOT OPEN NEW PRs
-DO NOT OPEN NEW PRs
-DO NOT OPEN NEW PRs
-DO NOT OPEN NEW PRs
-DO NOT OPEN NEW PRs
-DO NOT OPEN NEW PRs
-DO NOT OPEN NEW PRs
-DO NOT OPEN NEW PRs
-
-Read: https://github.com/aegis-icons/aegis-icons/issues/931#issuecomment-1594773671
-
 <!--
 🔔 If you're SUBMITTING ICON, read this PR template CAREFULLY and follow the instructions!
      - But if your pull request DOESN'T relate to icon submissions, you can ignore all of this (even the CONTRIBUTING check) and make PR from scratch.

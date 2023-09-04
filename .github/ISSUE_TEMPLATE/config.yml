@@ -1,5 +1,1 @@
 blank_issues_enabled: false
-contact_links:
-  - name: Issues closed temporarily
-    url: https://github.com/aegis-icons/aegis-icons/issues/931
-    about: More info at the link, bypassing this and creating issue anyway = instant delete & ban.
