@@ -1,10 +1,10 @@
 # Frequently Asked Questions
 
-## How I use these icons?
+## How do I use these icons?
 
 ### With icon pack
 
-First, you need to download and enable icon pack:
+First, you need to download and enable icon packs:
 
 1. [Download icon pack](https://github.com/aegis-icons/aegis-icons/releases/latest).
 2. In **Aegis**, tap "more menu" (three dots) and select "Settings".
@@ -25,7 +25,7 @@ Now you can add icons to your entries:
 2. In **Aegis**, long-press the entry and then tap "pencil button". [[Example]](https://raw.githubusercontent.com/aegis-icons/misc/main/screenshots/faq_how-to-use-icons_001.png)
 3. In "Edit entry", tap the circle that has one letter in it. [[Example]](https://raw.githubusercontent.com/aegis-icons/misc/main/screenshots/faq_how-to-use-icons_002.png)
 4. If you don't have any icon packs enabled, then select app for locating icon (like file manager or gallery app).
-   - If you *do* have a icon pack enabled, first press button with "Custom" label [[Example]](https://raw.githubusercontent.com/aegis-icons/misc/main/screenshots/faq_how-to-use-icons_003.png) and *then* select the app for locating icon that you downloaded.
+   - If you *do* have an icon pack enabled, first press button with "Custom" label [[Example]](https://raw.githubusercontent.com/aegis-icons/misc/main/screenshots/faq_how-to-use-icons_003.png) and *then* select the app for locating icon that you downloaded.
 5. After the selection, tap "Save" button at top-right.
 
 ## How to update the icon pack?
@@ -36,13 +36,13 @@ When encountering the error dialog while updating pack, just tap "Yes". [[Exampl
 
 None of the icons in entries will be changed after icon pack update (you'll need to manually change the entry icons, if you so desire).
 
-## How can I make icon with different background color?
+## How can I make an icon with a different background color?
 
 Because icons are in SVG format, it's possible to edit colors of the icons.
 
 ### Easy "PC only" way
 
-Even though PC is needed, you don't need to install extra software. Web browser is all you need.
+Even though PC is needed, you don't need to install extra software. A web browser is all you need.
 
 1. [Get the SVG file(s) for the icon(s) you want to edit](https://aegis-icons.github.io/).
 2. Go to [Method Draw](https://editor.method.ac/), web app for vector making / editing.
@@ -54,7 +54,7 @@ Even though PC is needed, you don't need to install extra software. Web browser 
    - 1\. Click somewhere outside of the canvas.
    - 2\. Change the name of the title to something else (eg. name of the app or website).
    - 3\. Click "File" and "Save image..."
-8. Download and move edited SVG(s) into your phone with your refer method (USB, email, cloud etc).
+8. Download and move edited SVG(s) into your phone with your preferred method (USB, email, cloud etc).
 9. [Import icon(s) to Aegis](#manually).
 
 If you want alternatives, check out [Photopea](https://www.photopea.com/) or [Vectr](https://vectr.com/). Or want to use desktop software instead, [Inkscape](https://inkscape.org/) is the best free option.
@@ -84,7 +84,7 @@ This tutorial focuses on icon editing in Android and with [Amaze file manager](h
 10. Press the "save" icon. [[Example]](https://raw.githubusercontent.com/aegis-icons/misc/main/screenshots/faq_edit_icon_02-003.png)
 11. [Import icon(s) to Aegis](#manually).
 
-## Why only some of the icons have `bg.var`, `fg.var`, `fg.bg.var` or `alt` version?
+## Why do only some of the icons have `bg.var`, `fg.var`, `fg.bg.var` or `alt` version?
 
 - `Bg.var` (background variation) icons are made when original icon has dark background color. Dark background blends in on Dark and AMOLED themes.
 - `Fg.var` (foreground variation) icons has logo color changed to black when background color is brightly colored (eg. Snapchat).
@@ -93,7 +93,7 @@ This tutorial focuses on icon editing in Android and with [Amaze file manager](h
 
 We try to honor app / website's branding as much as possible, so that's why there's variations as well for these situations.
 
-## Can you make variation for X icon?
+## Can you make a variation for X icon?
 
 We don't make new icon variations by request.
 
@@ -107,21 +107,21 @@ If you notice such issues with icon, please [report us](https://github.com/aegis
 
 [List of icons with rendering issues](https://github.com/aegis-icons/png-files/blob/main/.github/NOTICE.md#svgs-known-to-have-rendering-issues).
 
-## What happend to X icon?
+## What happened to X icon?
 
 Time to time, we clean up the icon pack by removing icons from the pack for various reasons.
 
 [List of removed icons and reasons for deletion](https://github.com/aegis-icons/misc/tree/main/removed_icons#readme).
 
-## How to do know if installed icon pack is latest one?
+## How to know if installed icon pack is latest one?
 
-The version number is the date that it was builded.
+The version number is the date that it was built.
 
 In the [website](https://aegis-icons.github.io/) or [GitHub release pages](https://github.com/aegis-icons/aegis-icons/releases/latest), it's in the `YYYY-MM-DD` format (4-Digit Year, 2-Digit Month, 2-Digit Day).
 
 In the icon pack file, it's the same format minus the dashes.
 
-## How can I make icon pack build?
+## How can I make an icon pack build?
 
 > **Note** \
 > This section is only for more technical users that know how to use command line.
