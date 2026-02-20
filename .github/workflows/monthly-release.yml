@@ -25,7 +25,7 @@ jobs:
         id: detect
         run: |
           echo "Debug: Running updated workflow logic"
-          git config core.quotePath false
+          git config --global core.quotePath false
           if [ -z "${{ steps.get_tag.outputs.tag }}" ]; then
             CHANGED=$(git ls-files icons/)
             NEW="$CHANGED"
@@ -33,9 +33,9 @@ jobs:
             MISC=""
           else
             CHANGED=$(git diff --name-status ${{ steps.get_tag.outputs.tag }} -- icons/)
-            NEW=$(echo "$CHANGED" | grep '^A' | cut -f2)
-            UPDATED=$(echo "$CHANGED" | grep '^M' | cut -f2)
-            MISC=$(echo "$CHANGED" | grep '^D' | cut -f2)
+            NEW=$(echo "$CHANGED" | grep '^A' | cut -f2 || true)
+            UPDATED=$(echo "$CHANGED" | grep '^M' | cut -f2 || true)
+            MISC=$(echo "$CHANGED" | grep '^D' | cut -f2 || true)
           fi
 
           if [ -z "$CHANGED" ]; then
