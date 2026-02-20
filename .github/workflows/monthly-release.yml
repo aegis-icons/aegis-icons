@@ -134,6 +134,10 @@ jobs:
       - name: Build release body
         if: steps.detect.outputs.changed == 'true'
         id: body
+        env:
+          UPDATED_LIST: ${{ steps.authors.outputs.updated_list }}
+          NEW_LIST: ${{ steps.authors.outputs.new_list }}
+          MISC_LIST: ${{ steps.authors.outputs.misc_list }}
         run: |
           TODAY=$(date +%Y-%m-%d)
 
@@ -148,23 +152,23 @@ jobs:
 "
 
           BODY+="## Updated icons\n"
-          if [ -n "${{ steps.authors.outputs.updated_list }}" ]; then
-            BODY+="${{ steps.authors.outputs.updated_list }}\n"
+          if [ -n "$UPDATED_LIST" ]; then
+            BODY+="$UPDATED_LIST\n"
           else
             BODY+="*(none)*\n"
           fi
 
           BODY+="\n## New icons\n"
-          if [ -n "${{ steps.authors.outputs.new_list }}" ]; then
-            BODY+="${{ steps.authors.outputs.new_list }}\n"
+          if [ -n "$NEW_LIST" ]; then
+            BODY+="$NEW_LIST\n"
           else
             BODY+="*(none)*\n"
           fi
 
           BODY+="\n## Misc\n"
-          if [ -n "${{ steps.authors.outputs.misc_list }}" ]; then
+          if [ -n "$MISC_LIST" ]; then
             BODY+="**Icons moved to outdated:**\n"
-            BODY+="${{ steps.authors.outputs.misc_list }}\n"
+            BODY+="$MISC_LIST\n"
           else
             BODY+="*(none)*\n"
           fi

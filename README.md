@@ -48,6 +48,4 @@ This project includes material that may be protected as a trademark in some juri
 
 The CC0 license applies only to templates, texts, codes and some of the icons. Everything else is either licensed (see the credits) or property of trademark owners. If you're owner of certain trademark(s) and want icon taken down for whatever reason, please [contact us](messageme.md).
 
-We don't make icons for general purpose, we only focus on userbase of Aegis, the Android app. Check out [Simple Icons](https://simpleicons.org/) instead!
-
-We aren't associated with [Beem Development](https://github.com/beemdevelopment), the creators of Aegis Authenticator.
+This project is not associated with [Beem Development](https://github.com/beemdevelopment), the creators of Aegis Authenticator.
