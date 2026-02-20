@@ -147,7 +147,7 @@ jobs:
 
 ---
 
-
+"
           BODY+="## Updated icons\n"
           if [ -n "$UPDATED_LIST" ]; then
             BODY+="$UPDATED_LIST\n"
@@ -191,3 +191,4 @@ jobs:
           files: aegis-icons.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}"
+"
