@@ -24,7 +24,8 @@ jobs:
       - name: Detect icon changes
         id: detect
         run: |
-          git config --global core.quotePath false
+          echo "Debug: Running updated workflow logic"
+          git config core.quotePath false
           if [ -z "${{ steps.get_tag.outputs.tag }}" ]; then
             CHANGED=$(git ls-files icons/)
             NEW="$CHANGED"
@@ -171,6 +172,12 @@ jobs:
             echo "EOF"
           } >> $GITHUB_OUTPUT
 
+      - name: Generate Icon Pack ZIP
+        if: steps.detect.outputs.changed == 'true'
+        run: |
+          # Using the script mentioned in FAQ.md
+          python3 make-pack.py gen --output aegis-icons.zip --version $(date +%Y%m%d)
+
       - name: Create Release
         if: steps.detect.outputs.changed == 'true'
         uses: softprops/action-gh-release@v2
@@ -178,5 +185,6 @@ jobs:
           tag_name: "$(date +%Y-%m-%d)"
           name: "$(date +%Y-%m-%d)"
           body: ${{ steps.body.outputs.body }}
+          files: aegis-icons.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
