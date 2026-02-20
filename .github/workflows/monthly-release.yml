@@ -1,4 +1,4 @@
-name: Monthly Icon Release
+name: "Monthly Icon Release"
 
 on:
   schedule:
@@ -139,7 +139,7 @@ jobs:
           NEW_LIST: ${{ steps.authors.outputs.new_list }}
           MISC_LIST: ${{ steps.authors.outputs.misc_list }}
         run: |
-          BODY="#### :question: Didn't find an icon from the pack? [Check it from our website](https://aegis-icons.github.io) first before making new issues!
+          BODY="#### :question: Didn't find an icon from the pack? [Check it from our website](https://aegis-icons.github.io) first before making new issues!"
 
 ### :package: [Latest ZIP Download](https://github.com/aegis-icons/aegis-icons/releases/latest/download/aegis-icons.zip)
 
@@ -147,7 +147,7 @@ jobs:
 
 ---
 
-"
+
           BODY+="## Updated icons\n"
           if [ -n "$UPDATED_LIST" ]; then
             BODY+="$UPDATED_LIST\n"
@@ -191,4 +191,3 @@ jobs:
           files: aegis-icons.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}"
-"
