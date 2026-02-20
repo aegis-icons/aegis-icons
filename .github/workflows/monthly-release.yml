@@ -41,9 +41,23 @@ jobs:
           UPDATED=$(echo "$CHANGED" | awk '/^M/ {print $2}')
           MISC=$(echo "$CHANGED" | awk '/^D/ {print $2}')
 
-          echo "new=$NEW" >> $GITHUB_OUTPUT
-          echo "updated=$UPDATED" >> $GITHUB_OUTPUT
-          echo "misc=$MISC" >> $GITHUB_OUTPUT
+          {
+            echo "new<<EOF"
+            echo "$NEW"
+            echo "EOF"
+          } >> $GITHUB_OUTPUT
+
+          {
+            echo "updated<<EOF"
+            echo "$UPDATED"
+            echo "EOF"
+          } >> $GITHUB_OUTPUT
+
+          {
+            echo "misc<<EOF"
+            echo "$MISC"
+            echo "EOF"
+          } >> $GITHUB_OUTPUT
 
       - name: Collect PR authors
         if: steps.detect.outputs.changed == 'true'
@@ -83,17 +97,23 @@ jobs:
           UPDATED_LIST=$(build_list "${{ steps.detect.outputs.updated }}" | sort)
           MISC_LIST=$(build_list "${{ steps.detect.outputs.misc }}" | sort)
 
-          echo "new_list<<EOF" >> $GITHUB_OUTPUT
-          echo -e "$NEW_LIST" >> $GITHUB_OUTPUT
-          echo "EOF" >> $GITHUB_OUTPUT
+          {
+            echo "new_list<<EOF"
+            echo -e "$NEW_LIST"
+            echo "EOF"
+          } >> $GITHUB_OUTPUT
 
-          echo "updated_list<<EOF" >> $GITHUB_OUTPUT
-          echo -e "$UPDATED_LIST" >> $GITHUB_OUTPUT
-          echo "EOF" >> $GITHUB_OUTPUT
+          {
+            echo "updated_list<<EOF"
+            echo -e "$UPDATED_LIST"
+            echo "EOF"
+          } >> $GITHUB_OUTPUT
 
-          echo "misc_list<<EOF" >> $GITHUB_OUTPUT
-          echo -e "$MISC_LIST" >> $GITHUB_OUTPUT
-          echo "EOF" >> $GITHUB_OUTPUT
+          {
+            echo "misc_list<<EOF"
+            echo -e "$MISC_LIST"
+            echo "EOF"
+          } >> $GITHUB_OUTPUT
 
       - name: Build release body
         if: steps.detect.outputs.changed == 'true'
@@ -133,9 +153,11 @@ jobs:
             BODY+="*(none)*\n"
           fi
 
-          echo "body<<EOF" >> $GITHUB_OUTPUT
-          echo -e "$BODY" >> $GITHUB_OUTPUT
-          echo "EOF" >> $GITHUB_OUTPUT
+          {
+            echo "body<<EOF"
+            echo -e "$BODY"
+            echo "EOF"
+          } >> $GITHUB_OUTPUT
 
       - name: Create Release
         if: steps.detect.outputs.changed == 'true'
