@@ -3,19 +3,12 @@ Contributions to the project are appreciated!
 
 *This documentation is long and comprehensive, because the project strives for high quality for the icons and aims to minimize extra work as much as possible.*
 
-:mega: **ALWAYS double-check from this page before asking a question about submissions**.
-
 > **Warning** \
-> For contributing, you must know **basics of making / editing vectors** with **vector graphics editor** (see the [software](#software) section).<br><br>
-> ***Please get familiar with the editor before creating ANY icons:*** \
-> Google [`[vector editor name] basics`](https://www.google.com/search?q=%5Bvector%20editor%20name%5D%20basics) *(recommended to use vector editor's official guides)*.
+> Contributing **requires basic knowledge of making / editing vectors with a vector graphics editor** (see the [software](#software) section).\
+> Instructions are provided for some steps, but not for everything.
 
 > **Note** \
-> It's **highly recommended** to also have **some knowledge of graphic design** and design in general, if possible.<br><br>
-> ***Specially in these subjects:*** white space[^1], creating monochrome logos[^2].
-
-Icons may look simple, but logos / symbols in them are actually carefully crafted, positioned and scaled. \
-**We except same kind of quality from every submission.** 
+> Having some **knowledge of graphic design** and design in general is **highly recommended**.
 
 ---
 
@@ -67,7 +60,7 @@ Before making or requesting an icon for an app/site, refer to the "acceptability
 
 - Apps / sites that are popular and has Aegis supported 2FA support **(specially wanted).**
   - *Examples (not limited to):* social media, productivity tools, cloud services, development tools, gaming related etc.
-- Almost any app / site / service, **that's trustworthy and doesn't have the exceptions from below.**
+- Almost any app / site / service, **that doesn't have the exceptions from below.**
   - Still in spite of this, aegis-icons has right to reject requests or submissions if needed or necessary.
 
 ### Case-by-case basis
@@ -99,13 +92,12 @@ Before making or requesting an icon for an app/site, refer to the "acceptability
 - Apps / sites **not** having Aegis supported 2FA support.
   - Also when service has officially discontinued 3rd party 2FA support (only supporting legacy users) and no known workaround for new users.
 - **Unregulated** (crypto) currency trading / investing platforms.
-  - Checked with [WikiBit](https://www.wikibit.com), [WikiFX](https://www.wikifx.com/en/), [P2PMarketData](https://p2pmarketdata.com/) and/or Google.
-    - If regulation information isn't found from those sites or googling, request / submission is also rejected.
+  - Checked with [WikiBit](https://www.wikibit.com), [WikiFX](https://wikifx.com/en) and/or other search results.
+  - If no regulation information is found, request / submission is also rejected.
   - Why this restriction?
-    1. Too many requests for these platforms and high maintenance for it.
-    2. So many of these platforms are scams / frauds or do money laundering
-       - See: [FTX](https://en.wikipedia.org/wiki/FTX#Legal_process), [Celsius](https://www.forbes.com/sites/mitchellmartin/2023/01/05/celsius-founder-mashinsky-hit-with-fraud-suit-by-new-york-state/), [Samtrade FX](https://www.straitstimes.com/singapore/courts-crime/online-trading-platform-samtrade-fx-under-probe-by-police-mas-3-arrested), [Vauld](https://techcrunch.com/2022/08/12/india-seizes-46-million-from-crypto-exchange-vauld-in-money-laundering-probe/) etc.
-    3. Checking regulation is the only way to *somewhat* certainly verify the legality of the company.
+    1. Many of these platforms are scams or operate illegally in other ways.
+    2. There are too many requests for these platforms, and high maintenance is required.
+    3. Checking regulation is the only way to somewhat certainly determine the legality of the company.
 - Apps / sites **focusing** on **highly** immoral and illegal activity / material.
   - *Examples (not limited to):* black hat hacking, malware, malvertising, money laundering, illegal or highly controversal sexual material / services, harassment / cyberbullying etc.
 - Scams or other shady apps / sites.
@@ -124,10 +116,10 @@ Lists of softwares that are suitable for making vectors (and opposite).
 
 These are recommended because the maintainer can give advice/help for these softwares:
 
-- [Adobe Illustrator](https://www.adobe.com/products/illustrator.html) (industry standard, most used software in this repository)
-- [Affinity Designer](https://affinity.serif.com/designer/) (way cheaper but powerful and better alternatives to Illustrator)
-- [Figma](https://www.figma.com/) (more known as interface design tool, but has good vector functions for making icons as well)
-- [Inkscape](https://inkscape.org/) (popular open source option)
+- [Adobe Illustrator](https://adobe.com/products/illustrator) (industry standard, most used software in this repository)
+- [Affinity Designer](https://affinity.serif.com/designer) (way cheaper but powerful and better alternatives to Illustrator)
+- [Figma](https://figma.com) (more known as interface design tool, but has good enough vector functions for making icons as well)
+- [Inkscape](https://inkscape.org) (popular open source option)
 
 If the software isn't listed here or in the prohibited section, **check the software's website.**
 
@@ -216,9 +208,9 @@ When making icons, download and use provided [templates](/_templates).
 ### Layout
 *Go these instructions in order:*
 
-- Always use logomark[^3] if brand is using one.
-- If logo only has text (known as logotype[^3]), use that instead.
-  - **Only if absolutely necessary:** if you think that logotype is too long and hard to see on smaller size, make it similar to [favicon](https://en.wikipedia.org/wiki/Favicon) / app icon or use first letter of logotype.
+- Always use logomark[^1] if brand is using one.
+- If the logo only has text (known as logotype[^1]), use that instead.
+  - **Only if absolutely necessary:** if the logotype appears too long and hard to see at smaller sizes, make the icon similar to a [favicon](https://en.wikipedia.org/wiki/Favicon) / app icon or use the first letter of the logotype.
 - Stay inside of the guides as much as possible.
 - Square like shaped logos shouldn't step outside of the guides (size wise).
 - For wider logos, furthest left & right side guides are max size limit.
@@ -326,8 +318,8 @@ Just change the logo for alternative version.
 "Generic" – in this case – means icons that doesn't represent any brand and are using symbol-like vectors.
 
 - Use `ai_template_generic.ait` or `svg_template_generic.svg` template, depending on the software.
-- Don't change the background color of the template (`#6750a4`[^4]).
-- Foreground color is always white (`#FFFFFF`).
+- Don't change the background colour of the template (`#6750a4`[^2]).
+- Foreground colour is always white (`#FFFFFF`).
 - Use these icon libraries:
   - [Phosphor Icons](https://phosphoricons.com/?weight=light) (primary, **use light weight**)
   - [Cryptocurrency Icons](http://cryptoicons.co) (when *Phosphor Icons* doesn't have an icon for cryptocurrency)
@@ -428,11 +420,10 @@ When everything is done and ready to go, [submit icons with either as pull reque
 - Generic icon: 
   - *Name as what the icon symbolises with big capital letter.*
   - *Example:* `Cloud.svg`
- 
-#### _New versions, version naming and organizing old files_
-- New versions of icons are only made when it's major branding change (new logo).
-  - Logos with only **barely noticeable** brand related changes ([example by T-Mobile](https://user-images.githubusercontent.com/3540275/160298574-c28cfe2a-3393-44b0-9fd1-63a4e6ade214.png)) doesn't need new icon version.
-  - New versions aren't made, if **only just BG color changes.**
+    
+#### _New versions, version naming and organising old files_
+- New versions of icons are only made when there is a major change (new logo or brand colour).
+  - Logos with only **barely noticable** brand related changes with same brand colour ([example by T-Mobile](https://user-images.githubusercontent.com/3540275/160298574-c28cfe2a-3393-44b0-9fd1-63a4e6ade214.png)), doesn't need new icon version.
 - Icon files that are outdated for the first time, `v1` is added to end of the filename.
   - Examples: `Codeberg v1.svg`.
 - Version label number increases for outdated icons when new versions of the primary icon are released (`v2`, `v3`, `v4`, `v5` etc.).
@@ -557,10 +548,6 @@ NOTE: remember to link this section in the TOC when ready.
 ## Footnotes
 *Here's all the footnotes:*
 
-[^1]: Article: [How to correctly design the monochrome version of a logo](https://www.creativosonline.org/en/how-to-correctly-design-the-monochrome-version-of-a-logo.html) <sup>[[archive.is](https://archive.is/OfYrY)]</sup>
+[^1]: Article: [Logo, Logomark, Logotype - What's The Difference And What Do You Need?](https://blog.designcrowd.com/article/997/logo-logomark-logotype-whats-the-difference-and-what-do-you-need) <sup>[[wayback machine](https://web.archive.org/web/20200606123728/https://blog.designcrowd.com/article/997/logo-logomark-logotype-whats-the-difference-and-what-do-you-need)]</sup>
 
-[^2]: Article: [White space in graphic design: What is white space in design?](https://fabrikbrands.com/white-space-in-graphic-design-white-space-principle-of-design/) <sup>[[archive.is](https://archive.is/ryCkS)]</sup>
-
-[^3]: Article: [Logo, Logomark, Logotype - What's The Difference And What Do You Need?](https://blog.designcrowd.com/article/997/logo-logomark-logotype-whats-the-difference-and-what-do-you-need) <sup>[[wayback machine](https://web.archive.org/web/20200606123728/https://blog.designcrowd.com/article/997/logo-logomark-logotype-whats-the-difference-and-what-do-you-need)]</sup>
-
-[^4]: This color is taken from [Material Design 3's color system](https://m3.material.io/styles/color/the-color-system/tokens#0d90da19-3d89-4964-9a97-5a024fc6d77b) (token: `Primary40`, hex: `#6750a4`).
+[^2]: This colour is taken from [Material Design 3's colour system](https://m3.material.io/styles/color/the-color-system/tokens#0d90da19-3d89-4964-9a97-5a024fc6d77b) (token: `Primary40`, hex: `#6750a4`).
