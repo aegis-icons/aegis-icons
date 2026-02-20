@@ -24,10 +24,17 @@ jobs:
       - name: Detect icon changes
         id: detect
         run: |
+          git config --global core.quotePath false
           if [ -z "${{ steps.get_tag.outputs.tag }}" ]; then
             CHANGED=$(git ls-files icons/)
+            NEW="$CHANGED"
+            UPDATED=""
+            MISC=""
           else
             CHANGED=$(git diff --name-status ${{ steps.get_tag.outputs.tag }} -- icons/)
+            NEW=$(echo "$CHANGED" | grep '^A' | cut -f2)
+            UPDATED=$(echo "$CHANGED" | grep '^M' | cut -f2)
+            MISC=$(echo "$CHANGED" | grep '^D' | cut -f2)
           fi
 
           if [ -z "$CHANGED" ]; then
@@ -36,10 +43,6 @@ jobs:
           fi
 
           echo "changed=true" >> $GITHUB_OUTPUT
-
-          NEW=$(echo "$CHANGED" | awk '/^A/ {print $2}')
-          UPDATED=$(echo "$CHANGED" | awk '/^M/ {print $2}')
-          MISC=$(echo "$CHANGED" | awk '/^D/ {print $2}')
 
           {
             echo "new<<EOF"
@@ -68,6 +71,10 @@ jobs:
           get_author() {
             FILE="$1"
             COMMIT=$(git log -1 --pretty=format:%H -- "$FILE")
+            if [ -z "$COMMIT" ]; then
+              echo ""
+              return
+            fi
             PR=$(gh pr list --search "$COMMIT" --state merged --json number,author --jq '.[0]')
             if [ -n "$PR" ]; then
               NUMBER=$(echo "$PR" | jq -r '.number')
@@ -81,16 +88,21 @@ jobs:
           build_list() {
             INPUT="$1"
             OUTPUT=""
+            SAVEIFS=$IFS
+            IFS=$'\n'
             for f in $INPUT; do
+              if [ -z "$f" ]; then continue; fi
               ICON=$(basename "$f" .svg)
               AUTHOR=$(get_author "$f")
               if [ -n "$AUTHOR" ]; then
-                OUTPUT+="$ICON *(thanks to @$AUTHOR!)*\n"
+                OUTPUT+="$ICON *(thanks to @$AUTHOR!)*"
               else
-                OUTPUT+="$ICON\n"
+                OUTPUT+="$ICON"
               fi
+              OUTPUT+=$'\n'
             done
-            printf "%b" "$OUTPUT"
+            IFS=$SAVEIFS
+            echo "$OUTPUT"
           }
 
           NEW_LIST=$(build_list "${{ steps.detect.outputs.new }}" | sort)
@@ -99,19 +111,19 @@ jobs:
 
           {
             echo "new_list<<EOF"
-            echo -e "$NEW_LIST"
+            echo "$NEW_LIST"
             echo "EOF"
           } >> $GITHUB_OUTPUT
 
           {
             echo "updated_list<<EOF"
-            echo -e "$UPDATED_LIST"
+            echo "$UPDATED_LIST"
             echo "EOF"
           } >> $GITHUB_OUTPUT
 
           {
             echo "misc_list<<EOF"
-            echo -e "$MISC_LIST"
+            echo "$MISC_LIST"
             echo "EOF"
           } >> $GITHUB_OUTPUT
 
