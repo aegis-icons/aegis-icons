@@ -69,7 +69,7 @@ For example:
 
 ❌ IT CANNOT BE JUST COPY-PASTE OF THE "URL of the site or app" PART. -->
 
-**Background color info:**
+**Background colour info:**
 
 <!-- ▲▲▲ REQUIRED (unless it's generic icon)
 
