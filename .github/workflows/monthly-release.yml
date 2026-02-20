@@ -1,4 +1,4 @@
-name: "Monthly Icon Release"
+name: Monthly Icon Release
 
 on:
   schedule:
