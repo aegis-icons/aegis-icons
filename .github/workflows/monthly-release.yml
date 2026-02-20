@@ -68,6 +68,9 @@ jobs:
         id: authors
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NEW_FILES: ${{ steps.detect.outputs.new }}
+          UPDATED_FILES: ${{ steps.detect.outputs.updated }}
+          MISC_FILES: ${{ steps.detect.outputs.misc }}
         run: |
           get_author() {
             FILE="$1"
@@ -106,9 +109,9 @@ jobs:
             echo "$OUTPUT"
           }
 
-          NEW_LIST=$(build_list "${{ steps.detect.outputs.new }}" | sort)
-          UPDATED_LIST=$(build_list "${{ steps.detect.outputs.updated }}" | sort)
-          MISC_LIST=$(build_list "${{ steps.detect.outputs.misc }}" | sort)
+          NEW_LIST=$(build_list "$NEW_FILES" | sort)
+          UPDATED_LIST=$(build_list "$UPDATED_FILES" | sort)
+          MISC_LIST=$(build_list "$MISC_FILES" | sort)
 
           {
             echo "new_list<<EOF"
