@@ -147,7 +147,7 @@ jobs:
 
 ---
 
-
+"
           BODY+="## Updated icons\n"
           if [ -n "$UPDATED_LIST" ]; then
             BODY+="$UPDATED_LIST\n"
