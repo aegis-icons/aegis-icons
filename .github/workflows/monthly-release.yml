@@ -1,0 +1,148 @@
+name: Monthly Icon Release
+
+on:
+  schedule:
+    - cron: "0 0 1 * *"
+  workflow_dispatch:
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Get latest tag
+        id: get_tag
+        run: |
+          TAG=$(git describe --tags --abbrev=0 2>/dev/null || echo "")
+          echo "tag=$TAG" >> $GITHUB_OUTPUT
+
+      - name: Detect icon changes
+        id: detect
+        run: |
+          if [ -z "${{ steps.get_tag.outputs.tag }}" ]; then
+            CHANGED=$(git ls-files icons/)
+          else
+            CHANGED=$(git diff --name-status ${{ steps.get_tag.outputs.tag }} -- icons/)
+          fi
+
+          if [ -z "$CHANGED" ]; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+
+          echo "changed=true" >> $GITHUB_OUTPUT
+
+          NEW=$(echo "$CHANGED" | awk '/^A/ {print $2}')
+          UPDATED=$(echo "$CHANGED" | awk '/^M/ {print $2}')
+          MISC=$(echo "$CHANGED" | awk '/^D/ {print $2}')
+
+          echo "new=$NEW" >> $GITHUB_OUTPUT
+          echo "updated=$UPDATED" >> $GITHUB_OUTPUT
+          echo "misc=$MISC" >> $GITHUB_OUTPUT
+
+      - name: Collect PR authors
+        if: steps.detect.outputs.changed == 'true'
+        id: authors
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          get_author() {
+            FILE="$1"
+            COMMIT=$(git log -1 --pretty=format:%H -- "$FILE")
+            PR=$(gh pr list --search "$COMMIT" --state merged --json number,author --jq '.[0]')
+            if [ -n "$PR" ]; then
+              NUMBER=$(echo "$PR" | jq -r '.number')
+              AUTHOR=$(echo "$PR" | jq -r '.author.login')
+              echo "$AUTHOR (PR #$NUMBER)"
+            else
+              echo ""
+            fi
+          }
+
+          build_list() {
+            INPUT="$1"
+            OUTPUT=""
+            for f in $INPUT; do
+              ICON=$(basename "$f" .svg)
+              AUTHOR=$(get_author "$f")
+              if [ -n "$AUTHOR" ]; then
+                OUTPUT+="$ICON *(thanks to @$AUTHOR!)*\n"
+              else
+                OUTPUT+="$ICON\n"
+              fi
+            done
+            printf "%b" "$OUTPUT"
+          }
+
+          NEW_LIST=$(build_list "${{ steps.detect.outputs.new }}" | sort)
+          UPDATED_LIST=$(build_list "${{ steps.detect.outputs.updated }}" | sort)
+          MISC_LIST=$(build_list "${{ steps.detect.outputs.misc }}" | sort)
+
+          echo "new_list<<EOF" >> $GITHUB_OUTPUT
+          echo -e "$NEW_LIST" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+          echo "updated_list<<EOF" >> $GITHUB_OUTPUT
+          echo -e "$UPDATED_LIST" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+          echo "misc_list<<EOF" >> $GITHUB_OUTPUT
+          echo -e "$MISC_LIST" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+      - name: Build release body
+        if: steps.detect.outputs.changed == 'true'
+        id: body
+        run: |
+          TODAY=$(date +%Y-%m-%d)
+
+          BODY="#### :question: Didn't find an icon from the pack? [Check it from our website](https://aegis-icons.github.io) first before making new issues!
+
+### :package: [Latest ZIP Download](https://github.com/aegis-icons/aegis-icons/releases/latest/download/aegis-icons.zip)
+
+#### :memo: Help how to: [install](https://github.com/aegis-icons/aegis-icons/blob/master/FAQ.md#with-icon-pack) • [update](https://github.com/aegis-icons/aegis-icons/blob/master/FAQ.md#how-to-update-the-icon-pack)
+
+---
+
+"
+
+          BODY+="## Updated icons\n"
+          if [ -n "${{ steps.authors.outputs.updated_list }}" ]; then
+            BODY+="${{ steps.authors.outputs.updated_list }}\n"
+          else
+            BODY+="*(none)*\n"
+          fi
+
+          BODY+="\n## New icons\n"
+          if [ -n "${{ steps.authors.outputs.new_list }}" ]; then
+            BODY+="${{ steps.authors.outputs.new_list }}\n"
+          else
+            BODY+="*(none)*\n"
+          fi
+
+          BODY+="\n## Misc\n"
+          if [ -n "${{ steps.authors.outputs.misc_list }}" ]; then
+            BODY+="**Icons moved to outdated:**\n"
+            BODY+="${{ steps.authors.outputs.misc_list }}\n"
+          else
+            BODY+="*(none)*\n"
+          fi
+
+          echo "body<<EOF" >> $GITHUB_OUTPUT
+          echo -e "$BODY" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+      - name: Create Release
+        if: steps.detect.outputs.changed == 'true'
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: "$(date +%Y-%m-%d)"
+          name: "$(date +%Y-%m-%d)"
+          body: ${{ steps.body.outputs.body }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
