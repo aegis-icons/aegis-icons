@@ -24,8 +24,8 @@ jobs:
       - name: Detect icon changes
         id: detect
         run: |
-          echo "Debug: Running updated workflow logic"
           git config --global core.quotePath false
+
           if [ -z "${{ steps.get_tag.outputs.tag }}" ]; then
             CHANGED=$(git ls-files icons/)
             NEW="$CHANGED"
@@ -141,7 +141,8 @@ jobs:
         run: |
           TODAY=$(date +%Y-%m-%d)
 
-          BODY="#### :question: Didn't find an icon from the pack? [Check it from our website](https://aegis-icons.github.io) first before making new issues!
+          BODY=$(cat << 'EOF'
+#### :question: Didn't find an icon from the pack? [Check it from our website](https://aegis-icons.github.io) first before making new issues!
 
 ### :package: [Latest ZIP Download](https://github.com/aegis-icons/aegis-icons/releases/latest/download/aegis-icons.zip)
 
@@ -149,7 +150,8 @@ jobs:
 
 ---
 
-"
+EOF
+)
 
           BODY+="## Updated icons\n"
           if [ -n "$UPDATED_LIST" ]; then
@@ -175,14 +177,13 @@ jobs:
 
           {
             echo "body<<EOF"
-            echo -e "$BODY"
+            echo "$BODY"
             echo "EOF"
           } >> $GITHUB_OUTPUT
 
       - name: Generate Icon Pack ZIP
         if: steps.detect.outputs.changed == 'true'
         run: |
-          # Using the script mentioned in FAQ.md
           python3 make-pack.py gen --output aegis-icons.zip --version $(date +%Y%m%d)
 
       - name: Create Release

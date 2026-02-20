@@ -15,12 +15,12 @@
 </p>
 
 <p align="center">
-   <b><a href="https://aegis-icons.github.io">Browse the icons on our website</a></b> • <b><a href="../../releases/latest">Download icon pack</a></b> • <b><a href="FAQ.md">FAQ</a></b> • 
+   <b><a href="https://aegis-icons.github.io">Website</a></b> • <b><a href="../../releases/latest">Download icon pack</a></b> • <b><a href="FAQ.md">FAQ</a></b> • 
    <b><a href="CONTRIBUTING.md">Contributing</a></b>
 </p>
 
 <p align="center">
-    <i><b>Make a issue</b> to request a new icon (please read our <a href="CONTRIBUTING.md#issue-guidelines">issue guidelines</a> first).</i>
+    <i><b>Make a issue</b> to request a new icon (please read the <a href="CONTRIBUTING.md#issue-guidelines">issue guidelines</a> first).</i>
 </p>
 
 ## Credits
