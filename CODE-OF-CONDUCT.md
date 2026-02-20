@@ -43,5 +43,5 @@ We hold the right and responsibility to remove comments or other contributions t
 
 This Code of Conduct is adapted from:
 
-- [Code of Conduct Generator 🦄](https://miloslav.website/code-of-conduct/) ([BSL-1.0 License](https://github.com/mvoloskov/code-of-conduct/blob/master/LICENSE))
+- [Code of Conduct Generator 🦄](https://miloslav.website/code-of-conduct) ([BSL-1.0 License](https://github.com/mvoloskov/code-of-conduct/blob/master/LICENSE))
 - [dev.to](https://dev.to/code-of-conduct).

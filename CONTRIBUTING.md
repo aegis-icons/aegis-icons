@@ -1,7 +1,7 @@
 # Contributing
-Thank you for taking the time to read and contribute to our project!
+Contributions to the project are appreciated!
 
-*This documentation is long and comprehensive, because we strive for high quality for our icons and want to minimize extra work as much possible.*
+*This documentation is long and comprehensive, because the project strives for high quality for the icons and aims to minimize extra work as much as possible.*
 
 :mega: **ALWAYS double-check from this page before asking a question about submissions**.
 
@@ -35,7 +35,7 @@ Icons may look simple, but logos / symbols in them are actually carefully crafte
   - [Layout](#layout)
     - [Icon grid](#icon-grid)
   - [Vectors](#vectors)
-  - [Colors](#colors)
+  - [Colours](#colours)
   - [bg.var, fg.var & fg.bg.var icons](#bgvar-fgvar--fgbgvar-icons)
   - [Alternative icons](#alternative-icons)
   - [Generic icons](#generic-icons)
@@ -44,15 +44,15 @@ Icons may look simple, but logos / symbols in them are actually carefully crafte
 - [**Technical**](#technical)
   - [Directories](#directories)
   - [Filename](#filename)
-    - [New versions, version naming and organizing old files](#new-versions-version-naming-and-organizing-old-files)
+    - [New versions, version naming and organising old files](#new-versions-version-naming-and-organising-old-files)
   - [About PNGs](#about-pngs)
   - [About JSONs](#about-jsons)
 - [**Resources**](#resources)
   - [Logos](#logos)
-    - [Google tips for searching logos](#google-tips-for-searching-logos)
+    - [Tips for searching logos](#tips-for-searching-logos)
   - [Image tracing tools](#image-tracing-tools)
   - [Lists of sites supporting 2FA](#lists-of-sites-supporting-2fa)
-    - [Google search queries for double-checking 2FA support](#google-search-queries-for-double-checking-2fa-support)
+    - [Search queries for double-checking 2FA support](#search-queries-for-double-checking-2fa-support)
   - [Software](#software)
 - [**Issue guidelines**](#issue-guidelines)
 - [**Footnotes**](#footnotes)
@@ -60,7 +60,7 @@ Icons may look simple, but logos / symbols in them are actually carefully crafte
 ---
 
 ## Icon acceptability criteria
-Before making or requesting an icon for app / site, please check if it fits our "acceptability criteria".
+Before making or requesting an icon for an app/site, refer to the "acceptability criteria".
 
 ### Approved
 :heavy_check_mark: *Almost* always accepted to request or submit.
@@ -71,24 +71,24 @@ Before making or requesting an icon for app / site, please check if it fits our 
   - Still in spite of this, aegis-icons has right to reject requests or submissions if needed or necessary.
 
 ### Case-by-case basis
-:grey_question: Needs some examining before accepting or rejecting. Request or submit and we will tell if it's accepted or not.
+:grey_question: Needs some examining before accepting or rejecting. Requests and submissions will be reviewed to determine acceptance.
 
 - Forums, message groups and similar sites / communities using pre-existing hosted software.
-  - We rather make icons based of the softwares, because those are more universally usable for users then specific communities.
+  - Icons based on the software are preferred, as they are more universally usable for users than specific communities.
     - Detected with tools like [What CMS](https://whatcms.org) and [W3Techs Site Info](https://w3techs.com/sites).
   - *Exception:* really popular forums can get their own icons (at least **over 250,000 total members** and high posting activity).
 - Platforms that icon requester / submitter is the creator or owner of the platform itself.
-  - We don't do free work or want self-advertising here.
+  - Requests for free work or self-advertising are not accepted.
   - *Exception:* if platform is actually popular and has potential users for Aegis.
 - Self-hosted or similar software.
-  - Suggested to have ≥ 500 GitHub / Gitlab stars or other non-maintainer activity to back it up.
-  - If things previously mentioned aren't available, then we measure popularity based of search results.
+  - A suggestion is to have ≥ 500 GitHub/GitLab stars or other non-maintainer activity to support the request.
+  - If the previously mentioned metrics aren't available, then popularity is measured based on search results.
 - Adult content, piracy & gambling related sites / apps / services.
-  - Mostly okay here, **but** it cannot break **any** of the "not approved" bullet points.
+  - Mostly acceptable, **but** submissions must not break **any** of the "not approved" bullet points.
   - These services are **always** researched from any "not approved" points before accepting.
 - App / site being too vague.
   - *Examples (not limited to):* site only has login page and nothing else, search results don't answer what that app / site is either.
-  - It's not enough that you tell what the app / site does, we need at least **some** evidence from the web. Otherwise it counts to *shady apps / sites* category.
+  - Stating what the app or site does is not enough; there must be at least **some** evidence from the web. Otherwise, the app or site falls into the *shady apps / sites* category.
 - Ad networks.
   - Most of them belongs to *shady apps / sites* category, because often these services violate privacy on other users expense and trick users for unwanted things.
   - *Exception:* ad networks with ethical standpoints (minimal or no user tracking / data collecting, no dark patterns, high advertiser monitoring etc).
@@ -112,7 +112,7 @@ Before making or requesting an icon for app / site, please check if it fits our 
 - Platforms having massive hate speech group following and poor moderation (a.k.a. "Alt-tech").
   - *Examples (not limited to):* [most of the platforms listed here](https://en.wikipedia.org/wiki/Alt-tech#Platforms).
 - :warning: **Only for icon submissions:** submitting unmodified SVGs / [raster images](https://simple.wikipedia.org/wiki/Raster_graphics) from the web.
-  - You'll need to design the icon **yourself** for submissions!
+  - Icons must be designed manually for submissions.
 
 ## Icon creation walkthrough
 
@@ -122,22 +122,22 @@ Lists of softwares that are suitable for making vectors (and opposite).
 #### _Allowed_
 :heavy_check_mark: Most used and approved software.
 
-We recommend these because the maintainer can give advice / help for these softwares:
+These are recommended because the maintainer can give advice/help for these softwares:
 
 - [Adobe Illustrator](https://www.adobe.com/products/illustrator.html) (industry standard, most used software in this repository)
 - [Affinity Designer](https://affinity.serif.com/designer/) (way cheaper but powerful and better alternatives to Illustrator)
 - [Figma](https://www.figma.com/) (more known as interface design tool, but has good vector functions for making icons as well)
 - [Inkscape](https://inkscape.org/) (popular open source option)
 
-If your software isn't listed in here or prohibited section, **check your software's website.**
+If the software isn't listed here or in the prohibited section, **check the software's website.**
 
-**If it mentions** being *"vector graphics editor"* (and **not** *"photo / image editor"*), then it most likely is okay as long as it can save vectors as SVG.
+**If the software mentions** being a *"vector graphics editor"* (and **not** a *"photo/image editor"*), then the software is most likely acceptable as long as vectors can be saved as SVG.
 
 > **Note** \
-> If your software is outside of the mentioned list, then we cannot give you help or support for your vector creating problems.
+> If the software is outside of the mentioned list, then there is no help or support for vector creation problems.
 
 #### _Prohibited_
-:x: *Some* of the softwares we don't approve, **change to one of the allowed softwares or cancel the making of the icon.**
+:x: *Some* of the softwares are not approved. **Change to one of the allowed softwares or cancel the creation of the icon.**
 
 - Adobe Photoshop
 - Affinity Photo
@@ -152,25 +152,25 @@ These softwares are mostly for photo / image editing and aren't designed for vec
 Some of the softwares might have some basic vector editing capabilities, but aren't good enough for e.g. combining logos into one path or creating SVGs without lot of bloat code.
 
 ### Repository submitting options
-Before creating icons, you have decide which way you want to submit your icon creations:
+Before creating icons, contributors should decide which way to submit icon creations:
 
-- **Option 1:** Fork this project and submit it via pull request *a.k.a. PR* **(recommended)**.
-  - :information_source: We recommend [GitHub Desktop](https://desktop.github.com/) GUI software, if you're new to this.
+- **Option 1:** Fork this project and submit via pull request *a.k.a. PR* **(recommended)**.
+  - :information_source: [GitHub Desktop](https://desktop.github.com/) is recommended as a GUI software for this process.
   - First, **fork the project** ([how to fork the project in GitHub Desktop](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories/cloning-and-forking-repositories-from-github-desktop#forking-a-repository)).
   - Sidenote: **creating changes in new branch(es)** instead of using `master` branch is **highly recommended**.
-    - This way, for example, you can submit multiple PRs with ease and aegis-icons's own `master` branch updates aren't in your way.
+    - This approach allows for submitting multiple PRs with ease without aegis-icons's own `master` branch updates interfering.
     - [Creating branches in GitHub Desktop](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/making-changes-in-a-branch/managing-branches#creating-a-branch) (remember to also [publish that branch](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/making-changes-in-a-branch/managing-branches#publishing-a-branch) after creating one).
   - When icon is finished, fixed, tweaked or have any new changes, **create new commit** ([creating new commits in GitHub Desktop](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/making-changes-in-a-branch/committing-and-reviewing-changes-to-your-project#write-a-commit-message-and-push-your-changes)).
-  - And when you're finally ready to submit for aegis-icons, **[create a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request).**
+  - When ready to submit to aegis-icons, **[create a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request).**
     - [Quick link for aegis-icons's PR submission page](https://github.com/aegis-icons/aegis-icons/compare).
 
-- **Option 2:** Submit your icon for review by [opening a new issue](../../issues/new/choose) (select "Icon submission") and add your file(s) / info.
+- **Option 2:** Submit the icon for review by [opening a new issue](../../issues/new/choose) (select "Icon submission") and add the file(s) / info.
   - This is the easiest option, but can become more complicated route later on if new changes are needed.
   - Submitting via new issue is also more inconvenient to the maintainers.
 
 #### _Filling requests_
 
-To ensure that icons have been made correctly based of the CONTRIBUTING guidelines, **we require all the contributers to create submission issue or pull request for filling requests** (excludes organization members).
+To ensure that icons have been made correctly based of the CONTRIBUTING guidelines, **all contributers must create a submission issue or pull request for filling requests** (excludes organisation members).
 
 ### Finding source images
 Search through the logo resources to find a vector-based image (SVG, AI, EPS, PDF).
@@ -178,30 +178,30 @@ Search through the logo resources to find a vector-based image (SVG, AI, EPS, PD
 > **Warning** \
 > Never use JPG / PNG / GIF / WebP or other raster images **(as is)!**
 
-*Here are things you can check, go these options in order:*
+*Here are things to check, go though these options in order:*
 
 - **Press kit on the company website**
-  - Eg. Zenkit has ["Press Kit" page](https://zenkit.com/en/press-kit/), that has ZIPs containing vector-based logos.
+  - Eg. Zenkit has ["Press Kit" page](https://zenkit.com/en/press-kit), that has ZIPs containing vector-based logos.
   - Look for pages like: *Brand(ing), Press, Media, Logos, Assets, Marketing, About* etc.
-    - Trying googling too: `logo site:offical-site-for-app-or-site.com`
+    - Trying searching too: `logo site:offical-site-for-app-or-site.com`
 - **Embedded logo(s) on company website**
-  - **Easiest way** for finding / downloading SVGs from web pages is using [SVG Gobbler](https://www.svggobbler.com/) browser extension (Chrome & Firefox, [open source](https://github.com/rossmoody/svg-gobbler)).
-    - Alternatives: [SVG Export](https://svgexport.io/) (Chrome & Firefox), [svg-grabber](https://chrome.google.com/webstore/detail/svg-grabber-get-all-the-s/ndakggdliegnegeclmfgodmgemdokdmg) (Chrome only, abandonware).
+  - **Easiest way** for finding / downloading SVGs from web pages is using [SVG Gobbler](https://www.svggobbler.com) browser extension (Chrome & Firefox, [open source](https://github.com/rossmoody/svg-gobbler)).
+
   - **Ways without extension:**
     1. Try right-clicking logo image and selecting <kbd><i>Save image as...</i></kbd>, and see if the save dialogue appears with SVG (not as JPG, PNG, GIF, WebP or [any other raster graphic format](https://en.wikipedia.org/wiki/Image_file_formats#Raster_formats)).
        - If right-clicking the image does not have an option for <kbd><i>Save image as...</i></kbd>, try using <kbd><i>Inspect</i></kbd> at the bottom of the right-click menu. This opens the developer tools which can reveal hidden URLs.
-          - Eg. at [Codeberg](https://codeberg.org/), inspecting the logo in the left side of the navigation or logo at center reveals the location of SVG. Right-click and "open in new tab" to see the SVG file.
-          - Sometimes SVG is embedded as inline. Means that instead of linking to external file, whole SVG file code is added to the HTML site code (see [SVG code example](https://gist.github.com/krisu5/677a8a3478331498929a11b900741aa2)). In that case, copy the SVG code completely from HTML (website embedded SVG starts with `<svg` & so forth and ends with `</svg>`), open your refer text editor and save copypasted text as `filename.svg`. You can test if the file works by opening in it into web browser (drag-and-drop SVG to tab bar or *shortcut:* <kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>O</kbd>).
+          - Eg. at [Codeberg](https://codeberg.org), inspecting the logo in the left side of the navigation or logo at center reveals the location of SVG. Right-click and "open in new tab" to see the SVG file.
+          - Sometimes SVG is embedded as inline. This means that instead of linking to an external file, the whole SVG file code is added to the HTML site code (see [SVG code example](https://gist.github.com/krisu5/677a8a3478331498929a11b900741aa2)). In that case, copy the SVG code completely from HTML (website embedded SVG starts with `<svg` & so forth and ends with `</svg>`), open a text editor and save copypasted text as `filename.svg`. To test if the file works, open the file into a web browser (drag-and-drop SVG to tab bar or *shortcut:* <kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>O</kbd>).
     2. Right-click the website and select <kbd><i>View page source</i></kbd>, then press <kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>F</kbd> to open the search tool and type `SVG` to look for possible SVG vector files. Web inspector is also useful and better tool for some users / use cases (press <kbd>F12</kbd> on the website, go to "Inspector" / "Elements" tab, then press <kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>F</kbd> to search).
-       - Eg. [You Need A Budget](https://www.youneedabudget.com) reveals the hidden SVG resource in HTML metadata section (`https://www-assets.youneedabudget.com/wp-content/themes/dupatta/dist/images/safari-pinned-tab_[alphanumerical-string].svg`) which can be copy-paste into the browser and save (<kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>S</kbd>).
+       - Eg. [You Need A Budget](https://youneedabudget.com) reveals the hidden SVG resource in HTML metadata section (`https://www-assets.youneedabudget.com/wp-content/themes/dupatta/dist/images/safari-pinned-tab_[alphanumerical-string].svg`) which can be copy-paste into the browser and save (<kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>S</kbd>).
 - If everything has failed so far, then **check [logo resources](#logos) section.**
   - Remember though, logo has to be latest one that company uses.
-- As last resort, you can **try [image tracing](#image-tracing-tools) with raster images**.
+- As a last resort, **[image tracing](#image-tracing-tools) with raster images** can be attempted.
   - :warning: Only use tools recommended in the "image tracing tools" section. *Using tool outside of the list is not acceptable.*
-- **Making vectorized logo from scratch** is also option, if you're skilled and patient enough.
+- **Making a vectorised logo from scratch** is also an option with the necessary skills and patience.
 
 > **Note** \
-> Is the SVG file broken? [SVG compression with SVGO or SVGOMG](#svg-compression--cleanup) might just fix it.
+> Is the SVG file broken? [SVG compression with SVGO or SVGOMG](#svg-compression--cleanup) might just fix the file.
 
 > **Warning** \
 > Watch out for SVGs that are using raster graphics ([example](https://github.com/haiwen/seafile-client/blob/7d8f06111960921ce01ef08e169d41bae13959ed/data/icons/scalable/apps/seafile.svg?short_path=d0d75d2#L54-L218)). These are not common, but does exist.
@@ -222,19 +222,20 @@ When making icons, download and use provided [templates](/_templates).
 - Stay inside of the guides as much as possible.
 - Square like shaped logos shouldn't step outside of the guides (size wise).
 - For wider logos, furthest left & right side guides are max size limit.
-- Guides don't necessarily mean that logo's size should be exactly like from *guide a* to *guide b*, it's more often a safe area for logo or suggestion for logo's size.
+- Guides don't necessarily mean that the logo's size should be exactly between *guide a* to *guide b*; they represent more often a safe area for the logo or a suggestion for logo's size.
   - *Examples:* [one](https://raw.githubusercontent.com/aegis-icons/misc/main/screenshots/contributing_003.png), [two](https://raw.githubusercontent.com/aegis-icons/misc/main/screenshots/contributing_004.png), [three](https://raw.githubusercontent.com/aegis-icons/misc/main/screenshots/contributing_005.png), [four](https://raw.githubusercontent.com/aegis-icons/misc/main/screenshots/contributing_006.png).
-- **Technically center doesn't always look center in your eyes.** You can visually center the logo, if necessary.
+- **Technically centre doesn't always look center visually.** The logo can be visually centred, if necessary.
   - This can be a hard concept to understand, so here's few articles / resources:
     - ["The PLAY button is not optical alignment" by Xue Gu](https://medium.com/@erqiudao/the-play-button-is-not-optical-alignment-4cea11bda175) <sup>[[wayback machine](https://web.archive.org/web/20220505201053/https://medium.com/@erqiudao/the-play-button-is-not-optical-alignment-4cea11bda175)]</sup>
     - ["‘Eyeballing’ or Optical Alignment in Design" by Sergey Vlastiuk](https://medium.com/ringcentral-ux/eyeballing-or-optical-alignment-in-design-4ef5ab2d326f) <sup>[[archive.today](https://archive.ph/6JHdU)]</sup>
     - ["Optical Adjustment – Logic vs. Designers" by Luke Jones](https://marvelapp.com/blog/optical-adjustment-logic-vs-designers/) <sup>[[archive.today](https://archive.ph/9gd7h)]</sup>
-    - [Visual Center](https://javier.xyz/visual-center/) tool (not always accurate results to human eye).
-- **Compare your creation to other icons**, try to keep logo size visually consistent to other icons.
+    - [Visual Center](https://javier.xyz/visual-center) tool (not always accurate results to human eye).
+- **Compare the icon to other icons**, try to keep logo size visually consistent to other icons.
 
 #### _Icon grid_
 
 *Documentation coming soon...*
+*Please consider a pull reqest with this*
 
 ### Vectors
 - :warning: Logo must be in **single** path / compound path / object:
@@ -272,26 +273,26 @@ When making icons, download and use provided [templates](/_templates).
 </details>
 
 > **Note** – **For Affinity Designer users:** \
-> Change "fill mode" of the logo vector and its parts from *"Winding (Non-Zero)"* **into** *"Alternative (Even-Odd)"* (*menu:* <kbd><i>Layer</i> ➜ <i>Fill Mode</i></kbd>). Otherwise it creates CSS rules we don't want for our SVGs and we want everything to contain by the vector path.
+> Change "fill mode" of the logo vector and its parts from *"Winding (Non-Zero)"* **into** *"Alternative (Even-Odd)"* (*menu:* <kbd><i>Layer</i> ➜ <i>Fill Mode</i></kbd>). Otherwise, undesired CSS rules are created for the SVGs and the vector path should contain everything.
 
-### Colors
+### Colours
 *Go these instructions in order:*
 
 - **Never use white as background** (abbreviation: *BG*), white is always preserved for logo (a.k.a. *foreground*, short for *FG*).
-- Don't use random color.
-- Don't use gradients, use solid colors.
+- Don't use random colour.
+- Don't use gradients, use solid colours.
 - Keep everything at 100% opacity, no blending etc.
 - **Logo / FG should always use white** (`#FFFFFF`).
   - *Exceptions:* `fg.var` & `fg.bg.var` icons.
-- If you find brand guideline that has documented brand colors ([example](https://brave.com/brave-branding-assets/) <sup>[[wayback machine](https://web.archive.org/web/20200606124434/https://brave.com/brave-branding-assets/)]</sup>), then go with that. Use primary brand color that has specifically said on the guideline or based on what color is used most.
-- If there's no guidelines and logo only has one color, use logo color as icon background.
-  - For multi-color logos, pick the best looking or most used color. 
-    - **Tip:** In Illustrator, if logo is using gradient, use [this method](http://miraimages.com/illustrator-gradient-colors-to-swatches/) <sup>[[wayback machine](https://web.archive.org/web/20200606124113/http://miraimages.com/illustrator-gradient-colors-to-swatches/)]</sup> to extract all the colors in the gradient to the swatches.
-- :warning: **Only when absolutely necessary:** if there's no brand guidelines and **only found white versions** of the logo, pick some color from website (preferably from header or site's most used color).
-- **If icon you're making is using dark background, you have to make** `bg.var` **icon version as well.**
-  - Or opposite, **if background is too bright for white logo, then make** `fg.var` **icon version.**
-  - Check with ["BG colors to avoid" SVG](https://github.com/aegis-icons/aegis-icons/blob/master/_templates/z_bg-colors_to_avoid.svg) if `bg.var` version is needed.
-- For *generic icons*, use templates (`ai_template_generic.ait` or `svg_template_generic.svg`) and **don't change the BG colors!**
+- If a brand guideline has documented brand colours ([example](https://brave.com/brave-branding-assets) <sup>[[wayback machine](https://web.archive.org/web/20200606124434/https://brave.com/brave-branding-assets)]</sup>), then go with that. Use the primary brand colour that is specifically stated in the guideline or based on what colour is used most.
+- If there's no guidelines and logo only has one colour, use logo colour as icon background.
+  - For multi-colour logos, pick the best looking or most used colour. 
+    - **Tip:** In Illustrator, if the logo is using gradient, use [this method](http://miraimages.com/illustrator-gradient-colors-to-swatches) <sup>[[wayback machine](https://web.archive.org/web/20200606124113/http://miraimages.com/illustrator-gradient-colors-to-swatches)]</sup> to extract all the colours in the gradient to the swatches.
+- :warning: **Only when absolutely necessary:** if there's no brand guidelines and **only found white versions** of the logo, pick some colour from website (preferably from header or site's most used colour).
+- **If an icon being created uses a dark background, a** `bg.var` **icon version must be made as well.**
+  - Or conversely, **if the background is too bright for a white logo, a** `fg.var` **icon version should be created.**
+  - Check with ["BG colours to avoid" SVG](https://github.com/aegis-icons/aegis-icons/blob/master/_templates/z_bg-colors_to_avoid.svg) if `bg.var` version is needed.
+- For *generic icons*, use templates (`ai_template_generic.ait` or `svg_template_generic.svg`) and **don't change the BG colours!**
   - [More info at the "generic icons" section](#generic-icons).
   
 ### bg.var, fg.var & fg.bg.var icons
@@ -301,18 +302,18 @@ When making icons, download and use provided [templates](/_templates).
 - `bg.var` icons are for dark / AMOLED themes. These are made when **primary icon has dark background that blends in when using the darker theme.**
   - **Examples:** [primary Steam icon](https://user-images.githubusercontent.com/3540275/85153557-042e4580-b25f-11ea-85ff-7cb883f977d4.png), [Steam `bg.var` icon](https://user-images.githubusercontent.com/3540275/85153530-fbd60a80-b25e-11ea-9197-d7400eeec74f.png).
   - *Use brighter alternative background.*
-  - If there's no brand guidelines for alternative colors, check the website or app to see what other colors there might be.
-  - Check with ["BG colors to avoid" SVG](https://github.com/aegis-icons/aegis-icons/blob/master/_templates/z_bg-colors_to_avoid.svg) if `bg.var` version is needed.
+  - If there's no brand guidelines for alternative colours, check the website or app to see what other colours there might be.
+  - Check with ["BG colours to avoid" SVG](https://github.com/aegis-icons/aegis-icons/blob/master/_templates/z_bg-colors_to_avoid.svg) if `bg.var` version is needed.
 
-- `fg.var` icons are made when **primary icon's BG color is too bright and hard to see with white logo.**
+- `fg.var` icons are made when **primary icon's BG colour is too bright and hard to see with white logo.**
   - **Examples:** [primary Snapchat icon](https://user-images.githubusercontent.com/3540275/83945146-6162d980-a811-11ea-8910-9e93ff65e804.png), [Snapchat `fg.var` icon](https://user-images.githubusercontent.com/3540275/151216951-ed34ea5e-d443-4e72-864e-56595e9a32c5.png). 
-  - *Use black* (`#000000`) *as foreground color.* 
+  - *Use black* (`#000000`) *as foreground colour.* 
   
-- `fg.bg.var` is combination of both variations, for edge cases **when** `bg.var` **BG color is too bright and makes white logo hard to see.**
-  - :warning: **Only make these if absolutely necessary!** Find better BG color for `bg.var` if possible to avoid making these.
-    - Check with ["BG colors to avoid" SVG](https://github.com/aegis-icons/aegis-icons/blob/master/_templates/z_bg-colors_to_avoid.svg) if `fg.bg.var` version is needed.
+- `fg.bg.var` is combination of both variations, for edge cases **when** `bg.var` **BG colour is too bright and makes white logo hard to see.**
+  - :warning: **Only make these if absolutely necessary!** Find better BG colour for `bg.var` if possible to avoid making these.
+    - Check with ["BG colours to avoid" SVG](https://github.com/aegis-icons/aegis-icons/blob/master/_templates/z_bg-colors_to_avoid.svg) if `fg.bg.var` version is needed.
   - **Examples:** [Lichess `bg.var` icon](https://user-images.githubusercontent.com/3540275/151090580-9b4a3bf2-7221-493c-b71c-597f52a0666b.png), [Lichess `fg.bg.var` icon](https://user-images.githubusercontent.com/3540275/151090581-0898b5e6-7df7-47e7-978e-3466a21a52b0.png)
-  - *Use black* (`#000000`) *as foreground color for* `bg.var` *version.*
+  - *Use black* (`#000000`) *as foreground colour for* `bg.var` *version.*
   
 ### Alternative icons
 "Alternative" – in this case – means icons for brands that provide alternative logos of their brands.
@@ -329,39 +330,39 @@ Just change the logo for alternative version.
 - Foreground color is always white (`#FFFFFF`).
 - Use these icon libraries:
   - [Phosphor Icons](https://phosphoricons.com/?weight=light) (primary, **use light weight**)
-  - [Cryptocurrency Icons](http://cryptoicons.co/) (when *Phosphor Icons* doesn't have an icon for cryptocurrency)
+  - [Cryptocurrency Icons](http://cryptoicons.co) (when *Phosphor Icons* doesn't have an icon for cryptocurrency)
     - [Link to SVG directory](https://github.com/spothq/cryptocurrency-icons/tree/master/svg/black).
 
 ### Save and export
 > **Note** \
 > Please read the info about naming at the [filename](#filename) section.
 
-- If you're using **Adobe Illustrator CC 2017 or newer**, save the file as SVG with *"Export for Screens"* option (*shortcut:* <kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>Alt [⌥ Option]</kbd>+<kbd>E</kbd> or *menu:* <kbd><i>File</i> ➜ <i>Export</i> ➜ <i>Export for Screens...</i></kbd>) with [these settings](https://raw.githubusercontent.com/aegis-icons/misc/main/screenshots/contributing_007.png).
-  - **For older Illustrator versions,** [check the other methods mentioned here](https://css-tricks.com/illustrator-to-svg/) <sup>[[wayback machine](https://web.archive.org/web/20220425015517/https://css-tricks.com/illustrator-to-svg/)]</sup>
-  - We also recommend saving it (temporarily) to `ai` file format for making edit requests faster and easier to do.
+- If using **Adobe Illustrator CC 2017 or newer**, save the file as SVG with *"Export for Screens"* option (*shortcut:* <kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>Alt [⌥ Option]</kbd>+<kbd>E</kbd> or *menu:* <kbd><i>File</i> ➜ <i>Export</i> ➜ <i>Export for Screens...</i></kbd>) with [these settings](https://raw.githubusercontent.com/aegis-icons/misc/main/screenshots/contributing_007.png).
+  - **For older Illustrator versions,** [check the other methods mentioned here](https://css-tricks.com/illustrator-to-svg) <sup>[[wayback machine](https://web.archive.org/web/20220425015517/https://css-tricks.com/illustrator-to-svg)]</sup>
+  - Saving (temporarily) to `ai` file format for making edit requests may be faster and easier to do.
 - For other softwares:
   - Before saving final version, remember to **remove the guide strokes!**
   - **In Affinity Designer,** export file with *"SVG (digital - small size)"* preset.
-    - We also recommend saving it (temporarily) to `afdesign` file format for making edit requests faster and easier to do.
+    - Saving (temporarily) to `afdesign` file format for making edit requests may be faster and easier to do.
   - **In Inkscape,** save the file as *"Optimized SVG".* (:warning: Hugely important!)
     - [In the prompt window, use these settings!](https://raw.githubusercontent.com/aegis-icons/misc/main/screenshots/contributing_002.png) (:warning: Equally important!)
   - **In software that's non-above,** save as *"SVG"* or *"Plain SVG",* whichever is the safest available option.
 - :x: Don't make PNG files! PNG files are legacy content ([with some exceptions](#about-pngs)).
-- If you're submitting pull request, read also the [directories](#directories) section.
+- When submitting a pull request, read also the [directories](#directories) section.
 
 Next, do SVG compression & cleanup.
 
 ### SVG compression & cleanup
-*If you're comfortable with command line tools:*
-- Install [Node.js](https://nodejs.org/en/download/) and [SVGO](https://github.com/svg/svgo#installation)
+*If comfortable with command line tools:*
+- Install [Node.js](https://nodejs.org/en/download) and [SVGO](https://github.com/svg/svgo#installation)
 - Use this command:
   ```console
   svgo --multipass --pretty --indent 3 -f "input/folder/path/here" -o "output/folder/path/here"
   ```
-  (Or if you're in Windows, we have [batch file](https://github.com/aegis-icons/aegis-icons/blob/master/_compress/.1_svgo_prettify-svg.bat) for this).
+  (Or for Windows systems, a [batch file](https://github.com/aegis-icons/aegis-icons/blob/master/_compress/.1_svgo_prettify-svg.bat) is available).
 
-*If you don't know how to use command line:*
-- Use [SVGOMG](https://jakearchibald.github.io/svgomg/)
+*For those unfamiliar with command line usage:*
+- Use [SVGOMG](https://jakearchibald.github.io/svgomg)
   - Just tick "[Prettify markup](https://raw.githubusercontent.com/aegis-icons/misc/main/screenshots/contributing_001.png)" before downloading the compressed SVG.
   - **Don't make other changes to settings.**
 
@@ -376,14 +377,14 @@ Next, do SVG compression & cleanup.
 <sup>▲&nbsp;&nbsp;&nbsp; *SVG code formatting example*</sup>
 
 - :spiral_notepad: Checklist for SVG formatting:
-  - Check that the **indentation is 3 spaces** (important if you used SVGOMG).
+  - Check that the **indentation is 3 spaces** (important if SVGOMG was used).
   - Check that the **order of all the [elements](https://developer.mozilla.org/en-US/docs/Web/SVG/Element) and [attributes](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute) is EXACTLY same** as the *SVG code formatting example*.
   - Check that possible `fill="` **prefixes are changed to** `style="fill:`
   - **Remove all the [elements](https://developer.mozilla.org/en-US/docs/Web/SVG/Element) and [attributes](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute) that aren't featured** in the *SVG code formatting example*.
   - *See the [example SVG code after manual cleanup](https://github.com/aegis-icons/misc/commit/c0128f61f0d2b88d5953881699955a4a17477e47?diff=split) for aimed optimal result.*
 
 > **Note** \
-> **Test the SVG on the web browser** that it still works after edits! (drag-and-drop SVG to tab bar or *"Open File..." shortcut:* <kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>O</kbd>).
+> **Test the SVG on the web browser** that the svg still works after edits! (drag-and-drop SVG to tab bar or *"Open File..." shortcut:* <kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>O</kbd>).
 
 When everything is done and ready to go, [submit icons with either as pull request or issue](#repository-submitting-options).
 
@@ -397,11 +398,11 @@ When everything is done and ready to go, [submit icons with either as pull reque
   - `/icons/2_Variations/` folder.
 - Generic icons ➜
   - `/icons/3_Generic/` folder.
-- For the outdated icons, see the [new versions, version naming and organizing old files](#new-versions-version-naming-and-organizing-old-files) section.
+- For the outdated icons, see the [new versions, version naming and organising old files](#new-versions-version-naming-and-organising-old-files) section.
 
 ### Filename
 > **Warning** \
-> When naming brand based icon(s), check how brand capitalised and spell the name from their app / website (check the capitalization / spelling from browser tab title or body text of their website, **not from the logo!**).
+> When naming brand based icon(s), check how brand capitalised and spell the name from their app / website (check the capitalisation / spelling from browser tab title or body text of the website, **not from the logo!**).
 
 > **Note** – **Filename character limitations:** \
 > Only use [ISO basic Latin alphabet letters](https://en.wikipedia.org/wiki/ISO_basic_Latin_alphabet), numbers, spaces, dashes and other safe ASCII characters ([list of forbidden ASCII](https://stackoverflow.com/questions/1976007/what-characters-are-forbidden-in-windows-and-linux-directory-names/31976060#31976060)).
@@ -412,20 +413,20 @@ When everything is done and ready to go, [submit icons with either as pull reque
 - Icon variations with alternate logo:
   - `[Primary icon name] alt.<ext>`
   - *Example:* `IVPN alt.svg`
-- Icon variations with black foreground or different background color:
+- Icon variations with black foreground or different background colour:
   - `[Primary icon name] bg.var.<ext>`
   - `[Primary icon name] fg.var.<ext>`
   - *Examples:* `Squarespace bg.var.svg`, `Snapchat fg.var.svg`
-- Icon variations with black foreground **and** different background color:
+- Icon variations with black foreground **and** different background colour:
   - `[Primary icon name] fg.bg.var.<ext>`
   - *Example:* `Lichess fg.bg.var.svg`
-- Alt. icons with black foreground **or/and** different background color:
+- Alt. icons with black foreground **or/and** different background colour:
   - `[Primary icon name] alt bg.var.<ext>`
   - `[Primary icon name] alt fg.var.<ext>`
   - `[Primary icon name] alt fg.bg.var.<ext>`
   - *Example:* `Discourse alt bg.var.svg`
 - Generic icon: 
-  - *Name as what the icon symbolizes with big capital letter.*
+  - *Name as what the icon symbolises with big capital letter.*
   - *Example:* `Cloud.svg`
  
 #### _New versions, version naming and organizing old files_
@@ -450,9 +451,9 @@ Instead, PNGs are only made when noticing problems with SVG on Aegis and are add
 > **Warning** \
 > Please do not submit PRs that make changes to JSON files!
 
-Because of the JSON update process, currently only the maintainer ([@krisu5](https://github.com/krisu5)) is allowed to make changes to JSONs.
+Because of the JSON update process, currently only maintainers are to make changes to JSONs.
 
-If you want to suggest a change related to JSONs, [make a issue instead](https://github.com/aegis-icons/aegis-icons/issues/new/choose) (choose "Other").
+If changes related to JSONs are needed, [create an issue instead](https://github.com/aegis-icons/aegis-icons/issues/new/choose) (choose "Other").
 
 ## Resources
 Resources marked with star (:star:) are recommended / most used by the maintainers.
@@ -463,20 +464,20 @@ Resources for finding logos in vector format, when no official brand kit / vecto
 > **Warning** \
 > Remember to always double check if logo provided by these resources is the latest one company uses!
 
-- [Brandfetch](https://brandfetch.com/) (not always accurate results)
-- [LogoSearch](https://logosear.ch/) :star:
-- [Seeklogo](https://seeklogo.com/)
-- [Simple Icons](https://simpleicons.org/) :star:
-- [VectorWiki](https://vectorwiki.com/)
-- [Worldvectorlogo](https://worldvectorlogo.com/)
+- [Brandfetch](https://brandfetch.com) (not always accurate results)
+- [LogoSearch](https://logosear.ch) :star:
+- [Seeklogo](https://seeklogo.com)
+- [Simple Icons](https://simpleicons.org) :star:
+- [VectorWiki](https://vectorwiki.com)
+- [Worldvectorlogo](https://worldvectorlogo.com)
 - [Wikimedia Commons](https://commons.wikimedia.org/wiki/Main_Page)
 - Wikipedia pages of the brand :star:
 
-More resources at [LogoSearch's "Alternative Logo Sources"](https://logosear.ch/alternatives/) list.
+More resources at [LogoSearch's "Alternative Logo Sources"](https://logosear.ch/alternatives) list.
 
 #### _Google tips for searching logos_
 - `logo site:offical-site-for-app-or-site.com`
-- `filetype:pdf site:offical-site-for-app-or-site.com` (you can rip vectors from PDF, really often logos in these PDFs are vector).
+- `filetype:pdf site:offical-site-for-app-or-site.com` (vectors can be extracted from PDFs, as logos in these PDFs are often vector-based).
 - `"app-or-site-name-here" svg` or `"app-or-site-name-here" vector`.
 
 ### Image tracing tools
@@ -488,30 +489,30 @@ In a nutshell, image tracing means converting raster image (PNG, JPG etc.) to ve
 
 :balance_scale: **Rule of thumb with image tracing:**
 1. Use high resolution image if possible.
-2. Preferably with image that doesn't have many colors.
+2. Preferably with image that doesn't have many colours.
 3. Doesn't have any [compression artifacts](https://simple.wikipedia.org/wiki/Compression_artifact).
-   - If image does have artifacts, try [Pix Fix](https://pixfix.com/) tool to remove them.
+   - If image does have artifacts, try [Pix Fix](https://pixfix.com) tool to remove them.
 
 > **Warning** \
 > Using tool **outside of these recommendations below** can do mediocre job and **is not acceptable.** \
 > Maintainer has tested many image tracing tools and these are only actually good ones so far (yes, even Illustrator is mediocre).
 
-- [Vector Magic](https://vectormagic.com/) :star:
+- [Vector Magic](https://vectormagic.com) :star:
   - The one of best – if not the best – image tracer, often used by the maintainer. Unfortunately **commercial software**, trial only allows previews.
-- [Vectorizer.AI](https://vectorizer.ai/) :star:
+- [Vectorizer.AI](https://vectorizer.ai) :star:
   - From makers of Vector Magic. **Free to use while in beta**, no account needed, almost as good results as Vector Magic.
 - [Vectorizer.io](https://href.li/?https://www.vectorizer.io) :star: <!-- href.li (referrer hider) is added on purpose, preventing devs finding the loophole -->
   - Not as good as previous two but still great image tracer. **Generating vectors without account / freely is possible.**
-    - **There's a loophole to download the SVG:** use [SVG Gobbler](https://www.svggobbler.com/) after vector is generated.
+    - **There's a loophole to download the SVG:** use [SVG Gobbler](https://www.svggobbler.com) after vector is generated.
       - *Alternatively:* Inspect the output image (<kbd>Ctrl [⌘ Cmd]</kbd>+<kbd>Shift</kbd>+<kbd>C</kbd>), copy the SVG code from dev tools and use plain text editor to create & save as SVG file.
-- [Vectorizer(.com)](https://vectorizer.com/)
-  - Out of these four options, this one is worst one of the bunch. But best part is that it's **completely free to use** and it's still better then most other tools out there.
+- [Vectorizer(.com)](https://vectorizer.com)
+  - Out of these four options, this one is worst one of the bunch. But best part is that it's **completely free to use** and still better then most other tools out there.
 
 ### Lists of sites supporting 2FA
 Need to check if service has 2FA? These list apps / websites that support 2FA and in what kind of format.
 
-- [2FA Directory](https://2fa.directory/int/) (*[GitHub commits](https://github.com/2factorauth/twofactorauth/commits/master)*) :star:
-- [Authy - Guides](https://authy.com/guides/)
+- [2FA Directory](https://2fa.directory/int) (*[GitHub commits](https://github.com/2factorauth/twofactorauth/commits/master)*) :star:
+- [Authy - Guides](https://authy.com/guides)
 
 #### _Google search queries for double-checking 2FA support_
 ```
@@ -526,7 +527,7 @@ site:official-domain-of-the-app-or-site.com 2fa OR mfa OR otp OR totp OR factor 
 
 <!--
 ## Maintainer's Guide
-*This is for admins of the repo. If you're regular contributor, you can ignore this section.*
+*This section is for repository admins. Regular contributors can ignore this section.*
 
 [ DISABLED, NEEDS TEXT HERE ]
 
@@ -537,20 +538,20 @@ NOTE: remember to link this section in the TOC when ready.
 *(Issue guidelines was last updated on: 2022-10-26)*
 
 1. App / site related requests has to **have Aegis-compatible 2FA support** one way or another, this project does not make icons outside of Aegis usage.
-   - Don't lie, we always double-check if requested service has 2FA support. You can add proof for the existence of Aegis-compatible 2FA to the issue form's "Proof of the Aegis-compatible 2FA" section.
-     - For the similar icons for general purpose, check out [Simple Icons](https://simpleicons.org/) instead.
-2. **Check that icon you're about to request doesn't [already exist](https://aegis-icons.github.io/)** or opened / closed in the [issues](https://github.com/aegis-icons/aegis-icons/issues).
-   - Icon packs are updated monthly, not every time a new icon is created ([see the pack releases](https://github.com/aegis-icons/aegis-icons/releases)). Icons created after the latest pack update are downloadable on [the website](https://aegis-icons.github.io/).
+   - Always double-check if the requested service has 2FA support. Proof of Aegis-compatible 2FA can be added to the issue form's "Proof of the Aegis-compatible 2FA" section.
+     - For the similar icons for general purpose, check out [Simple Icons](https://simpleicons.org) instead.
+2. **Check that the icon being requested doesn't [already exist](https://aegis-icons.github.io/)** or have open / closed issues [in the repository](https://github.com/aegis-icons/aegis-icons/issues).
+   - Icon packs are updated monthly, not every time a new icon is created ([see the pack releases](https://github.com/aegis-icons/aegis-icons/releases)). Icons created after the latest pack update are downloadable on [the website](https://aegis-icons.github.io).
 3. Read the issue form **carefully** and **follow the instructions.**
 4. Don't open **more then 5 icon request issues** at the same time.
-   - You can request more after **all** of your current requests are filled.
-5. Aegis-icons can reject any icon request for any reason, but most of the requests gets filled. Usually we do provide explanation and possibly alternative option if we reject the request.
+   - More icon requests can be submitted after **all** current requests have been completed.
+5. Aegis-icons can reject any icon request for any reason, but most requests are fulfilled. Typically an explanation and possibly an alternative option are provided if the request is rejected.
    - *Possible reasons for rejections (among others):*
      - App / site not offering Aegis supported 2FA in the first place.
      - Forum not popular enough (forum software related icon is the alternative).
      - No high quality logo resources available.
    - **[More info](#icon-acceptability-criteria)** about **approved & unapproved types of apps / sites.**
-6. If you have question or miscellaneous suggestion, check out [FAQ](FAQ.md) first.
+6. For questions or miscellaneous suggestions, check out [FAQ](FAQ.md) first.
 7. Be respectful to the maintainers and contributers.
 
 ## Footnotes

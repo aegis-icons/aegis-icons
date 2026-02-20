@@ -20,7 +20,7 @@
 </p>
 
 <p align="center">
-    <i><b>Make a issue</b> if you want to request a new icon (please read our <a href="CONTRIBUTING.md#issue-guidelines">issue guidelines</a> first).</i>
+    <i><b>Make a issue</b> to request a new icon (please read our <a href="CONTRIBUTING.md#issue-guidelines">issue guidelines</a> first).</i>
 </p>
 
 ## Credits
