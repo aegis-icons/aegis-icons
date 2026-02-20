@@ -46,4 +46,8 @@ This project's icons are not intended for general-purpose use, but focus specifi
 ## Disclaimer
 This project includes material that may be protected as a trademark in some jurisdictions. The presence of trademarks in the "aegis-icons" project does not indicate endorsement of the brands. Users wishing to use icons publicly must ensure they have the legal right to do so and do not infringe upon any trademark rights. Brand-based icons should be used solely to represent the company, product, or service to which they refer.
 
-The CC0 license applies only to templates, texts, codes, and some of the icons. All other content is either licensed (see the credits) or the property of trademark owners. Trademark owners wishing to have an icon removed for any reason may [contact the maintainers](messageme.md).
+The CC0 license applies only to templates, texts, codes and some of the icons. Everything else is either licensed (see the credits) or property of trademark owners. If you're owner of certain trademark(s) and want icon taken down for whatever reason, please [contact us](messageme.md).
+
+We don't make icons for general purpose, we only focus on userbase of Aegis, the Android app. Check out [Simple Icons](https://simpleicons.org/) instead!
+
+We aren't associated with [Beem Development](https://github.com/beemdevelopment), the creators of Aegis Authenticator.
