@@ -1,195 +1,46 @@
-name: Monthly Icon Release
+name: Release
+run-name: Release @ Aegis Icons - ${{ github.sha }}
 
 on:
-  schedule:
-    - cron: "0 0 1 * *"
-  workflow_dispatch:
+  push:
+    branches:
+      - master
+
+env:
+  zipname:  aegis-icons.zip
 
 jobs:
   release:
+    name: Release
     runs-on: ubuntu-latest
 
     steps:
+      - name: Get current date
+        run: echo "CURRENT_DATE=$(date +'%Y%m%d')" >> $GITHUB_ENV
+
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
         with:
-          fetch-depth: 0
+          python-version: "3.11"
 
-      - name: Get latest tag
-        id: get_tag
-        run: |
-          TAG=$(git describe --tags --abbrev=0 2>/dev/null || echo "")
-          echo "tag=$TAG" >> $GITHUB_OUTPUT
+      - name: Execute py script
+        run: python make-pack.py gen-def
 
-      - name: Detect icon changes
-        id: detect
-        run: |
-          git config --global core.quotePath false
-
-          if [ -z "${{ steps.get_tag.outputs.tag }}" ]; then
-            CHANGED=$(git ls-files icons/)
-            NEW="$CHANGED"
-            UPDATED=""
-            MISC=""
-          else
-            CHANGED=$(git diff --name-status ${{ steps.get_tag.outputs.tag }} -- icons/)
-            NEW=$(echo "$CHANGED" | grep '^A' | cut -f2 || true)
-            UPDATED=$(echo "$CHANGED" | grep '^M' | cut -f2 || true)
-            MISC=$(echo "$CHANGED" | grep '^D' | cut -f2 || true)
-          fi
-
-          if [ -z "$CHANGED" ]; then
-            echo "changed=false" >> $GITHUB_OUTPUT
-            exit 0
-          fi
-
-          echo "changed=true" >> $GITHUB_OUTPUT
-
-          {
-            echo "new<<EOF"
-            echo "$NEW"
-            echo "EOF"
-          } >> $GITHUB_OUTPUT
-
-          {
-            echo "updated<<EOF"
-            echo "$UPDATED"
-            echo "EOF"
-          } >> $GITHUB_OUTPUT
-
-          {
-            echo "misc<<EOF"
-            echo "$MISC"
-            echo "EOF"
-          } >> $GITHUB_OUTPUT
-
-      - name: Collect PR authors
-        if: steps.detect.outputs.changed == 'true'
-        id: authors
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NEW_FILES: ${{ steps.detect.outputs.new }}
-          UPDATED_FILES: ${{ steps.detect.outputs.updated }}
-          MISC_FILES: ${{ steps.detect.outputs.misc }}
-        run: |
-          get_author() {
-            FILE="$1"
-            COMMIT=$(git log -1 --pretty=format:%H -- "$FILE")
-            if [ -z "$COMMIT" ]; then
-              echo ""
-              return
-            fi
-            PR=$(gh pr list --search "$COMMIT" --state merged --json number,author --jq '.[0]')
-            if [ -n "$PR" ]; then
-              NUMBER=$(echo "$PR" | jq -r '.number')
-              AUTHOR=$(echo "$PR" | jq -r '.author.login')
-              echo "$AUTHOR (PR #$NUMBER)"
-            else
-              echo ""
-            fi
-          }
-
-          build_list() {
-            INPUT="$1"
-            OUTPUT=""
-            SAVEIFS=$IFS
-            IFS=$'\n'
-            for f in $INPUT; do
-              if [ -z "$f" ]; then continue; fi
-              ICON=$(basename "$f" .svg)
-              AUTHOR=$(get_author "$f")
-              if [ -n "$AUTHOR" ]; then
-                OUTPUT+="$ICON *(thanks to @$AUTHOR!)*"
-              else
-                OUTPUT+="$ICON"
-              fi
-              OUTPUT+=$'\n'
-            done
-            IFS=$SAVEIFS
-            echo "$OUTPUT"
-          }
-
-          NEW_LIST=$(build_list "$NEW_FILES" | sort)
-          UPDATED_LIST=$(build_list "$UPDATED_FILES" | sort)
-          MISC_LIST=$(build_list "$MISC_FILES" | sort)
-
-          {
-            echo "new_list<<EOF"
-            echo "$NEW_LIST"
-            echo "EOF"
-          } >> $GITHUB_OUTPUT
-
-          {
-            echo "updated_list<<EOF"
-            echo "$UPDATED_LIST"
-            echo "EOF"
-          } >> $GITHUB_OUTPUT
-
-          {
-            echo "misc_list<<EOF"
-            echo "$MISC_LIST"
-            echo "EOF"
-          } >> $GITHUB_OUTPUT
-
-      - name: Build release body
-        if: steps.detect.outputs.changed == 'true'
-        id: body
-        env:
-          UPDATED_LIST: ${{ steps.authors.outputs.updated_list }}
-          NEW_LIST: ${{ steps.authors.outputs.new_list }}
-          MISC_LIST: ${{ steps.authors.outputs.misc_list }}
-        run: |
-          BODY=$(cat <<'EOF'
-#### :question: Didn't find an icon from the pack? [Check it from our website](https://aegis-icons.github.io) first before making new issues!
-
-### :package: [Latest ZIP Download](https://github.com/aegis-icons/aegis-icons/releases/latest/download/aegis-icons.zip)
-
-#### :memo: Help how to: [install](https://github.com/aegis-icons/aegis-icons/blob/master/FAQ.md#with-icon-pack) • [update](https://github.com/aegis-icons/aegis-icons/blob/master/FAQ.md#how-to-update-the-icon-pack)
-
----
-EOF
-)
-
-          BODY+="## Updated icons\n"
-          if [ -n "$UPDATED_LIST" ]; then
-            BODY+="$UPDATED_LIST\n"
-          else
-            BODY+="*(none)*\n"
-          fi
-
-          BODY+="\n## New icons\n"
-          if [ -n "$NEW_LIST" ]; then
-            BODY+="$NEW_LIST\n"
-          else
-            BODY+="*(none)*\n"
-          fi
-
-          BODY+="\n## Misc\n"
-          if [ -n "$MISC_LIST" ]; then
-            BODY+="**Icons moved to outdated:**\n"
-            BODY+="$MISC_LIST\n"
-          else
-            BODY+="*(none)*\n"
-          fi
-
-          {
-            echo "body<<EOF"
-            echo "$BODY"
-            echo "EOF"
-          } >> $GITHUB_OUTPUT
-
-      - name: Generate Icon Pack ZIP
-        if: steps.detect.outputs.changed == 'true'
-        run: |
-          python3 make-pack.py gen --output aegis-icons.zip --version $(date +%Y%m%d)
-
-      - name: Create Release
-        if: steps.detect.outputs.changed == 'true'
-        uses: softprops/action-gh-release@v2
+      - name: Commit json
+        uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          tag_name: "$(date +%Y-%m-%d)"
-          name: "$(date +%Y-%m-%d)"
-          body: ${{ steps.body.outputs.body }}
-          files: aegis-icons.zip
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          commit_message: Update pack.json
+    
+      - name: Execute py script
+        run: python make-pack.py gen --output ${{ env.zipname }} --version ${{ env.CURRENT_DATE }}
+
+      - name: Create a GitHub release
+        uses: softprops/action-gh-release@v0.1.15
+        with:
+          files: ${{ env.zipname }}
+          name: v${{ env.CURRENT_DATE }}
+          tag_name: v${{ env.CURRENT_DATE }}
+      
