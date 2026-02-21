@@ -39,7 +39,7 @@ If you want name changed or deleted, [please make a new issue](https://github.co
   - For these icons: *(ISC)²* ([#537](https://github.com/aegis-icons/aegis-icons/issues/537)), *Cloudinary* ([#538](https://github.com/aegis-icons/aegis-icons/issues/538)), *Qualys* ([#552](https://github.com/aegis-icons/aegis-icons/issues/552)), *ZEBEDEE* ([#554](https://github.com/aegis-icons/aegis-icons/issues/554)), *Pipeflare* ([#555](https://github.com/aegis-icons/aegis-icons/issues/555)), *CoinTracker* ([#578](https://github.com/aegis-icons/aegis-icons/issues/578)), *Ripe NCC* ([#580](https://github.com/aegis-icons/aegis-icons/issues/580)), *Square* ([#581](https://github.com/aegis-icons/aegis-icons/issues/581)), *USAA* ([#582](https://github.com/aegis-icons/aegis-icons/issues/582)).
 - **[Centenoe](https://github.com/Centenoe)** (Centeno)
   - For *Neeva* icon ([#502](https://github.com/aegis-icons/aegis-icons/pull/502)).
-- **[ConzzTV](https://github.com/ConzzTV)** (Conzz)
+- **[C0NZZ](https://github.com/C0NZZ)** (Conzz)
   - For these icons: *LimeSurvey* ([#848](https://github.com/aegis-icons/aegis-icons/issues/848)), *Rocket.Chat* ([#849](https://github.com/aegis-icons/aegis-icons/issues/849)).
 - **[cfanoulis](https://github.com/cfanoulis)** (Charalampos Fanoulis)
   - For *Hyper Expert* icon ([#514](https://github.com/aegis-icons/aegis-icons/issues/514)).
