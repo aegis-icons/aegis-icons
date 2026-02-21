@@ -102,7 +102,7 @@ jobs:
                               except:
                                   author = ""
                               
-                              added.append(f"- {name} (thanks to @{author})" if author else f"- {name}")
+                              added.append(f"- {name} (thanks to @{author})")
                   if added:
                       added.sort()
                       output_md += "\n## New icons\n" + "\n".join(added)
@@ -172,11 +172,11 @@ jobs:
       - name: Generate Release Notes
         run: |
           cat <<EOF > release_notes.md
-          #### :question: Didn't find an icon from the pack? [Check it from the website](https://aegis-icons.github.io) first before making new issues!
+          #### :question: Didn't find an icon from the pack? [have a look on the website](https://aegis-icons.github.io) first before making new issues!
 
           ### :package: [Latest ZIP Download](https://github.com/aegis-icons/aegis-icons/releases/latest/download/aegis-icons.zip) 
 
-          #### :memo: Help how to: [install](https://github.com/aegis-icons/aegis-icons/blob/master/FAQ.md#with-icon-pack) • [update](https://github.com/aegis-icons/aegis-icons/blob/master/FAQ.md#how-to-update-the-icon-pack)
+          #### :memo: Help how to: [install](https://github.com/aegis-icons/aegis-icons/blob/master/FAQ.md#with-icon-pack) or [update](https://github.com/aegis-icons/aegis-icons/blob/master/FAQ.md#how-to-update-the-icon-pack)
 
           ---
           ${{ steps.build_changelog.outputs.changelog }}
