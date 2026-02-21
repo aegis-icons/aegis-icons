@@ -63,6 +63,59 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Generate Renamed Icons List
+        id: renamed_icons
+        shell: python
+        run: |
+          import subprocess
+          import os
+
+          try:
+              prev_tag = subprocess.check_output(["git", "describe", "--tags", "--abbrev=0"]).decode("utf-8").strip()
+          except subprocess.CalledProcessError:
+              prev_tag = ""
+
+          output_md = ""
+
+          if prev_tag:
+              cmd = ["git", "diff", "--diff-filter=R", "--name-status", "-z", prev_tag, "HEAD", "--", "icons/"]
+              try:
+                  diff_out = subprocess.check_output(cmd).decode("utf-8")
+              except subprocess.CalledProcessError:
+                  diff_out = ""
+
+              if diff_out:
+                  parts = diff_out.split('\0')
+                  if parts and parts[-1] == "":
+                      parts.pop()
+                  
+                  renames = []
+                  i = 0
+                  while i < len(parts):
+                      status = parts[i]
+                      if status.startswith('R'):
+                          if i + 2 < len(parts):
+                              old_path = parts[i+1]
+                              new_path = parts[i+2]
+                              if old_path.endswith('.svg') and new_path.endswith('.svg'):
+                                  old_name = os.path.splitext(os.path.basename(old_path))[0]
+                                  new_name = os.path.splitext(os.path.basename(new_path))[0]
+                                  renames.append(f"- {old_name} → {new_name}")
+                              i += 3
+                          else:
+                              break
+                      else:
+                          i += 1
+                  
+                  if renames:
+                      renames.sort()
+                      output_md = "\n## Renamed icons\n" + "\n".join(renames)
+
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+              f.write("list<<EOF\n")
+              f.write(output_md)
+              f.write("\nEOF\n")
+
       - name: Create a GitHub release
         uses: softprops/action-gh-release@v0.1.15
         with:
@@ -78,3 +131,4 @@ jobs:
 
             ---
             ${{ steps.build_changelog.outputs.changelog }}
+            ${{ steps.renamed_icons.outputs.list }}
