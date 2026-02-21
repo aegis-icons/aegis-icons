@@ -4068,6 +4068,14 @@
             ]
         },
         {
+            "name": "Pretix",
+            "filename": "icons/1_Primary/Pretix.svg",
+            "category": null,
+            "issuer": [
+                "Pretix"
+            ]
+        },
+        {
             "name": "Prey",
             "filename": "icons/1_Primary/Prey.svg",
             "category": null,
