@@ -16,7 +16,9 @@ jobs:
 
     steps:
       - name: Get current date
-        run: echo "CURRENT_DATE=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
+        run: |
+          echo "DATE_ISO=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
+          echo "DATE_INT=$(date +'%Y%m%d')" >> $GITHUB_ENV
 
       - name: Checkout
         uses: actions/checkout@v3
@@ -26,7 +28,7 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Execute py script
+      - name: Execute py script (gen-def)
         run: python make-pack.py gen-def
 
       - name: Commit json
@@ -34,12 +36,12 @@ jobs:
         with:
           commit_message: Update pack.json
 
-      - name: Execute py script
-        run: python make-pack.py gen --output ${{ env.zipname }} --version ${{ env.CURRENT_DATE }}
+      - name: Execute py script (generate ZIP)
+        run: python make-pack.py gen --output ${{ env.zipname }} --version ${{ env.DATE_INT }}
 
       - name: Create a GitHub release
         uses: softprops/action-gh-release@v0.1.15
         with:
           files: ${{ env.zipname }}
-          name: ${{ env.CURRENT_DATE }}
-          tag_name: ${{ env.CURRENT_DATE }}
+          name: ${{ env.DATE_ISO }}
+          tag_name: ${{ env.DATE_ISO }}
