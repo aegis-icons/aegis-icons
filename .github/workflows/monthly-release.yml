@@ -7,7 +7,7 @@ on:
       - master
 
 env:
-  zipname:  aegis-icons.zip
+  zipname: aegis-icons.zip
 
 jobs:
   release:
@@ -33,7 +33,7 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Update pack.json
-    
+
       - name: Execute py script
         run: python make-pack.py gen --output ${{ env.zipname }} --version ${{ env.CURRENT_DATE }}
 
@@ -41,6 +41,5 @@ jobs:
         uses: softprops/action-gh-release@v0.1.15
         with:
           files: ${{ env.zipname }}
-          name: v${{ env.CURRENT_DATE }}
-          tag_name: v${{ env.CURRENT_DATE }}
-      
+          name: ${{ env.CURRENT_DATE }}
+          tag_name: ${{ env.CURRENT_DATE }}
