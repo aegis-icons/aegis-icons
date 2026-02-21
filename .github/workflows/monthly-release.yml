@@ -102,7 +102,7 @@ jobs:
                               except:
                                   author = ""
                               
-                              added.append(f"- {name} *(thanks to {author})*" if author else f"- {name}")
+                              added.append(f"- {name} *(thanks to @{author}!)*" if author else f"- {name}")
                   if added:
                       added.sort()
                       output_md += "\n## New icons\n" + "\n".join(added)
