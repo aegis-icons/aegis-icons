@@ -62,7 +62,7 @@ jobs:
                 }
               ],
               "template": "#{{CHANGELOG}}",
-              "pr_template": "- #{{TITLE}} *(thanks to [#{{AUTHOR}}](#{{PR_URL}})!)*"
+              "pr_template": "- #{{TITLE}} *(thanks to @#{{AUTHOR}}!)*"
             }
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
