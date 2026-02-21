@@ -47,6 +47,7 @@ jobs:
         with:
           configurationJson: |
             {
+              "ignore_on_undeclared_labels": true,
               "categories": [
                 {
                   "title": "## New icons",
@@ -55,10 +56,6 @@ jobs:
                 {
                   "title": "## Updated icons",
                   "labels": ["Update", "update"]
-                },
-                {
-                  "title": "## New icons",
-                  "labels": []
                 }
               ],
               "template": "#{{CHANGELOG}}",
