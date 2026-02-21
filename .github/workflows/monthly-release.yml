@@ -163,6 +163,20 @@ jobs:
               f.write(output_md)
               f.write("\nEOF\n")
 
+      - name: Preview Release Notes
+        run: |
+          cat <<EOF
+          #### :question: Didn't find an icon from the pack? [Check it from our website](https://aegis-icons.github.io) first before making new issues!
+
+          ### :package: [Latest ZIP Download](https://github.com/aegis-icons/aegis-icons/releases/latest/download/aegis-icons.zip) 
+
+          #### :memo: Help how to: [install](https://github.com/aegis-icons/aegis-icons/blob/master/FAQ.md#with-icon-pack) • [update](https://github.com/aegis-icons/aegis-icons/blob/master/FAQ.md#how-to-update-the-icon-pack)
+
+          ---
+          ${{ steps.build_changelog.outputs.changelog }}
+          ${{ steps.renamed_icons.outputs.list }}
+          EOF
+
       - name: Create a GitHub release
         uses: softprops/action-gh-release@v0.1.15
         with:
