@@ -111,6 +111,30 @@ jobs:
                       renames.sort()
                       output_md = "\n## Renamed icons\n" + "\n".join(renames)
 
+              cmd_del = ["git", "diff", "--diff-filter=D", "--name-only", "-z", prev_tag, "HEAD", "--", "icons/"]
+              try:
+                  del_out = subprocess.check_output(cmd_del).decode("utf-8")
+              except subprocess.CalledProcessError:
+                  del_out = ""
+
+              if del_out:
+                  deletions = []
+                  for path in del_out.split('\0'):
+                      if path and path.endswith('.svg'):
+                          name = os.path.splitext(os.path.basename(path))[0]
+                          try:
+                              reason = subprocess.check_output(["git", "log", "-1", "--format=%s", "--diff-filter=D", f"{prev_tag}..HEAD", "--", path]).decode("utf-8").strip()
+                          except:
+                              reason = ""
+
+                          if reason:
+                              deletions.append(f"- {name} *({reason})*")
+                          else:
+                              deletions.append(f"- {name}")
+                  if deletions:
+                      deletions.sort()
+                      output_md += "\n## Removed icons\n" + "\n".join(deletions)
+
           with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
               f.write("list<<EOF\n")
               f.write(output_md)
