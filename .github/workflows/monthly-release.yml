@@ -69,6 +69,7 @@ jobs:
         run: |
           import subprocess
           import os
+          import re
 
           try:
               prev_tag = subprocess.check_output(["git", "describe", "--tags", "--abbrev=0"]).decode("utf-8").strip()
@@ -78,6 +79,28 @@ jobs:
           output_md = ""
 
           if prev_tag:
+              cmd_add = ["git", "diff", "--diff-filter=A", "--name-only", "-z", prev_tag, "HEAD", "--", "icons/"]
+              try:
+                  add_out = subprocess.check_output(cmd_add).decode("utf-8")
+              except subprocess.CalledProcessError:
+                  add_out = ""
+
+              if add_out:
+                  added = []
+                  for path in add_out.split('\0'):
+                      if path and path.endswith('.svg'):
+                          name = os.path.splitext(os.path.basename(path))[0]
+                          try:
+                              commit_msg = subprocess.check_output(["git", "log", "-1", "--format=%s", "--diff-filter=A", f"{prev_tag}..HEAD", "--", path]).decode("utf-8").strip()
+                          except:
+                              commit_msg = ""
+
+                          if not (re.search(r'\(#\d+\)', commit_msg) or commit_msg.startswith("Merge pull request #")):
+                              added.append(f"- {name}")
+                  if added:
+                      added.sort()
+                      output_md += "\n## New icons\n" + "\n".join(added)
+
               cmd = ["git", "diff", "--diff-filter=R", "--name-status", "-z", prev_tag, "HEAD", "--", "icons/"]
               try:
                   diff_out = subprocess.check_output(cmd).decode("utf-8")
@@ -109,7 +132,7 @@ jobs:
                   
                   if renames:
                       renames.sort()
-                      output_md = "\n## Renamed icons\n" + "\n".join(renames)
+                      output_md += "\n## Renamed icons\n" + "\n".join(renames)
 
               cmd_del = ["git", "diff", "--diff-filter=D", "--name-only", "-z", prev_tag, "HEAD", "--", "icons/"]
               try:
