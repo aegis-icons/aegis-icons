@@ -2,9 +2,9 @@ name: Release
 run-name: Release @ Aegis Icons - ${{ github.sha }}
 
 on:
-  push:
-    branches:
-      - master
+  schedule:
+    - cron: "0 0 1 * *"   # 00:00 UTC on the 1st of each month
+  workflow_dispatch:
 
 env:
   zipname: aegis-icons.zip
