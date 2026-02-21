@@ -39,6 +39,18 @@ jobs:
       - name: Execute py script (generate ZIP)
         run: python make-pack.py gen --output ${{ env.zipname }} --version ${{ env.DATE_INT }}
 
+      - name: Build Changelog
+        id: build_changelog
+        uses: mikepenz/release-changelog-builder-action@v4
+        with:
+          configurationJson: |
+            {
+              "template": "#{{CHANGELOG}}",
+              "pr_template": "- #{{TITLE}} *(thanks to [#{{AUTHOR}}](#{{PR_URL}})!)*"
+            }
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Create a GitHub release
         uses: softprops/action-gh-release@v0.1.15
         with:
@@ -53,3 +65,5 @@ jobs:
             #### :memo: Help how to: [install](https://github.com/aegis-icons/aegis-icons/blob/master/FAQ.md#with-icon-pack) • [update](https://github.com/aegis-icons/aegis-icons/blob/master/FAQ.md#how-to-update-the-icon-pack)
 
             ---
+            ## New icons
+            ${{ steps.build_changelog.outputs.changelog }}
