@@ -45,3 +45,11 @@ jobs:
           files: ${{ env.zipname }}
           name: ${{ env.DATE_ISO }}
           tag_name: ${{ env.DATE_ISO }}
+          body: |
+            #### :question: Didn't find an icon from the pack? [Check it from our website](https://aegis-icons.github.io) first before making new issues!
+
+            ### :package: [Latest ZIP Download](https://github.com/aegis-icons/aegis-icons/releases/latest/download/aegis-icons.zip) 
+
+            #### :memo: Help how to: [install](https://github.com/aegis-icons/aegis-icons/blob/master/FAQ.md#with-icon-pack) • [update](https://github.com/aegis-icons/aegis-icons/blob/master/FAQ.md#how-to-update-the-icon-pack)
+
+            ---
