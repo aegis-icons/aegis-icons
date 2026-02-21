@@ -47,6 +47,16 @@ jobs:
         with:
           configurationJson: |
             {
+              "categories": [
+                {
+                  "title": "## New icons",
+                  "labels": ["Submission", "New Icon", "new-icon"]
+                },
+                {
+                  "title": "## Updated icons",
+                  "labels": ["Update", "update"]
+                }
+              ],
               "template": "#{{CHANGELOG}}",
               "pr_template": "- #{{TITLE}} *(thanks to [#{{AUTHOR}}](#{{PR_URL}})!)*"
             }
@@ -67,5 +77,4 @@ jobs:
             #### :memo: Help how to: [install](https://github.com/aegis-icons/aegis-icons/blob/master/FAQ.md#with-icon-pack) • [update](https://github.com/aegis-icons/aegis-icons/blob/master/FAQ.md#how-to-update-the-icon-pack)
 
             ---
-            ## New icons
             ${{ steps.build_changelog.outputs.changelog }}
