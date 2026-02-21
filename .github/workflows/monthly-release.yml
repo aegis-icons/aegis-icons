@@ -55,6 +55,10 @@ jobs:
                 {
                   "title": "## Updated icons",
                   "labels": ["Update", "update"]
+                },
+                {
+                  "title": "## New icons",
+                  "labels": []
                 }
               ],
               "template": "#{{CHANGELOG}}",
@@ -91,12 +95,17 @@ jobs:
                       if path and path.endswith('.svg'):
                           name = os.path.splitext(os.path.basename(path))[0]
                           try:
-                              commit_msg = subprocess.check_output(["git", "log", "-1", "--format=%s", "--diff-filter=A", f"{prev_tag}..HEAD", "--", path]).decode("utf-8").strip()
+                              log_out = subprocess.check_output(["git", "log", "-1", "--format=%s%n%b", "--diff-filter=A", f"{prev_tag}..HEAD", "--", path]).decode("utf-8").strip()
                           except:
-                              commit_msg = ""
+                              log_out = ""
 
-                          if not (re.search(r'\(#\d+\)', commit_msg) or commit_msg.startswith("Merge pull request #")):
-                              added.append(f"- {name}")
+                          if not (re.search(r'\(#\d+\)', log_out) or "Merge pull request #" in log_out):
+                              try:
+                                  author = subprocess.check_output(["git", "log", "-1", "--format=%an", "--diff-filter=A", f"{prev_tag}..HEAD", "--", path]).decode("utf-8").strip()
+                              except:
+                                  author = ""
+                              
+                              added.append(f"- {name} *(thanks to {author})*" if author else f"- {name}")
                   if added:
                       added.sort()
                       output_md += "\n## New icons\n" + "\n".join(added)
