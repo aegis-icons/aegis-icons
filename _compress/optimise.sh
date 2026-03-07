@@ -31,7 +31,7 @@ for dir in "${DIRECTORIES[@]}"; do
         stats=$(echo "$output" | sed 's/.*: //')
         echo "  CLEANED: $file ($stats)"
       else
-        echo "  SKIPPED: $file (already optimized)"
+        echo "  SKIPPED: $file (already optimised)"
       fi
     done
   fi

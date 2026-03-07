@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1024 1024">
+  <!-- Generator: Adobe Illustrator 30.2.1, SVG Export Plug-In . SVG Version: 2.1.1 Build 1)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #fa500f;
+      }
+
+      .st1 {
+        fill: #e10500;
+      }
+
+      .st2 {
+        fill: none;
+      }
+
+      .st3 {
+        fill: #ff8205;
+      }
+
+      .st4 {
+        fill: #ffd800;
+      }
+
+      .st5 {
+        fill: #ffaf00;
+      }
+
+      .st6 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="st2" x="202.45" y="292.22" width="619.09" height="439.56"/>
+    </clipPath>
+  </defs>
+  <circle cx="512" cy="512" r="512"/>
+  <g class="st6">
+    <g>
+      <path class="st4" d="M379.32,292.22h-88.46v88.2h88.46v-88.2Z"/>
+      <path class="st4" d="M733.12,292.22h-88.46v88.2h88.46v-88.2Z"/>
+      <path class="st5" d="M467.76,380.43h-176.89v88.2h176.89v-88.2Z"/>
+      <path class="st5" d="M733.14,380.43h-176.89v88.2h176.89v-88.2Z"/>
+      <path class="st3" d="M733.09,468.59h-442.22v88.2h442.22v-88.2Z"/>
+      <path class="st0" d="M379.32,556.8h-88.46v88.2h88.46v-88.2Z"/>
+      <path class="st0" d="M556.25,556.8h-88.46v88.2h88.46v-88.2Z"/>
+      <path class="st0" d="M733.12,556.8h-88.46v88.2h88.46v-88.2Z"/>
+      <path class="st1" d="M467.78,644.97H202.45v88.2h265.33v-88.2Z"/>
+      <path class="st1" d="M821.61,644.97h-265.36v88.2h265.36v-88.2Z"/>
+    </g>
+  </g>
+</svg>
