@@ -9,4 +9,4 @@ _compress/*.svg
 _compress/*.webp
 _resources/
 _templates/ai_template_empty.ait
-__pycache__/
+__pycache__/node_modules/
