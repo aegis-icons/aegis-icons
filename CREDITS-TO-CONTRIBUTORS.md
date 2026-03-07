@@ -40,7 +40,8 @@ If you want name changed or deleted, [please make a new issue](https://github.co
 - **[Centenoe](https://github.com/Centenoe)** (Centeno)
   - For *Neeva* icon ([#502](https://github.com/aegis-icons/aegis-icons/pull/502)).
 - **[C0NZZ](https://github.com/C0NZZ)** (Conzz)
-  - For these icons: *LimeSurvey* ([#848](https://github.com/aegis-icons/aegis-icons/issues/848)), *Rocket.Chat* ([#849](https://github.com/aegis-icons/aegis-icons/issues/849)).
+  - For these icons: *LimeSurvey* ([#848](https://github.com/aegis-icons/aegis-icons/issues/848)), *Rocket.Chat* ([#849](https://github.com/aegis-icons/aegis-icons/issues/849)), *Pretix* ([#942](https://github.com/aegis-icons/aegis-icons/pull/942)), *Datev* ([#948](https://github.com/aegis-icons/aegis-icons/pull/948)), *Vaultwarden* ([#949](https://github.com/aegis-icons/aegis-icons/pull/949)), *Paperless-ngx* ([#955](https://github.com/aegis-icons/aegis-icons/pull/955)), *GOG.com* ([#958](https://github.com/aegis-icons/aegis-icons/pull/958)), *Zammad* ([#959](https://github.com/aegis-icons/aegis-icons/pull/959)), *Cal.com* ([#960](https://github.com/aegis-icons/aegis-icons/pull/960)), *Lenovo* ([#972](https://github.com/aegis-icons/aegis-icons/pull/972)), *NetBird* ([#973](https://github.com/aegis-icons/aegis-icons/pull/973)).
+  - For updating *Home Assistant* ([#951](https://github.com/aegis-icons/aegis-icons/pull/951)), *Patreon* ([#956](https://github.com/aegis-icons/aegis-icons/pull/956)).
 - **[cfanoulis](https://github.com/cfanoulis)** (Charalampos Fanoulis)
   - For *Hyper Expert* icon ([#514](https://github.com/aegis-icons/aegis-icons/issues/514)).
 - **[columndeeply](https://github.com/columndeeply)**
