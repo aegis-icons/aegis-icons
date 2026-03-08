@@ -1,0 +1,53 @@
+name: Close Issues with Icon Link
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  close-issues:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Get commit message
+        id: commit_message
+        run: |
+          COMMIT_MSG=$(git log -1 --pretty=%B)
+          echo "commit_message=$COMMIT_MSG" >> $GITHUB_OUTPUT
+
+      - name: Close related issues
+        if: success()
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          COMMIT_MSG="${{ steps.commit_message.outputs.commit_message }}"
+          COMMIT_HASH=$(git rev-parse HEAD)
+          COMMIT_URL="https://github.com/aegis-icons/aegis-icons/commit/$COMMIT_HASH"
+
+          # Extract issue numbers and icon names from commit message (e.g., "#123 New icon:Whatever")
+          while read -r line; do
+            if [[ $line =~ \#([0-9]+)\ New\ icon\:([^\ ]+) ]]; then
+              ISSUE_NUMBER="${BASH_REMATCH[1]}"
+              ICON_NAME="${BASH_REMATCH[2]}"
+
+              # Construct the direct link to the new icon
+              ICON_LINK="https://github.com/aegis-icons/aegis-icons/blob/$COMMIT_HASH/icons/direct/link/${ICON_NAME}.svg"
+
+              # Post a comment with the icon link and close the issue
+              curl -X POST \
+                -H "Authorization: token $GITHUB_TOKEN" \
+                -H "Accept: application/vnd.github.v3+json" \
+                "https://api.github.com/repos/aegis-icons/aegis-icons/issues/$ISSUE_NUMBER/comments" \
+                -d "{
+                  \"body\": \"Here you go!\n\n$ICON_LINK\n\n❓ How to add icon(s) to Aegis?\n\n⭐ Support this project by giving a star! Just adding like to this comment is also appreciated.\"
+                }"
+
+              curl -X PATCH \
+                -H "Authorization: token $GITHUB_TOKEN" \
+                -H "Accept: application/vnd.github.v3+json" \
+                "https://api.github.com/repos/aegis-icons/aegis-icons/issues/$ISSUE_NUMBER" \
+                -d "{\"state\":\"closed\"}"
+            fi
+          done <<< "$COMMIT_MSG"
