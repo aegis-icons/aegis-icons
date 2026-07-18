@@ -131,7 +131,7 @@ body:
           required: true
         - label: The URL that I added meets [the requirements](#url-requirements).
           required: true
-        - label: _If I selected **Brand changed their name** or **Other** as reason for update,_ then I also [wrote explanation](#explanation).
+        - label: _If I selected **Brand overhaul (a corporate name change)** or **Other** as reason for update,_ then I also [wrote explanation](#explanation).
           required: true
         - label: By checking this box, I acknowledge that **I did _not_** follow the given instructions.
           required: false
