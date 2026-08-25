@@ -1,24 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1024 1024">
-  <!-- Generator: Adobe Illustrator 30.7.0, SVG Export Plug-In . SVG Version: 2.1.4 Build 114)  -->
-  <defs>
-    <style>
-      .st0 {
-        fill: #fff;
-      }
-
-      .st1 {
-        display: none;
-        fill: none;
-        stroke: #1ded7e;
-        stroke-dasharray: 2;
-        stroke-miterlimit: 10;
-        stroke-width: 2px;
-      }
-    </style>
-  </defs>
-  <circle id="Background__x28_CHANGE_THE_COLOR_x29_" class="st0" cx="512" cy="512" r="512"/>
-  <path id="Min_Guides__x28_REMOVE_WHEN_FINISHED_x29_" class="st1" d="M256,.5v1023.5M768,0v1024M1024,256H0M1024,768H0"/>
-  <path id="Max_Guides__x28_REMOVE_WHEN_FINISHED_x29_" class="st1" d="M128,.5v1023.5M896,1023.5V0"/>
-  <path d="M512,0C229.23,0,0,229.23,0,512s229.23,512,512,512,512-229.23,512-512S794.77,0,512,0ZM511.7,218.45c191.15,0,255.79,129.07,258.73,202.41h-138.2c-2.94-41.05-38.27-102.66-123.56-102.66-91.14,0-149.93,79.23-149.93,176.04s58.79,176,149.93,176c82.35,0,117.67-64.51,132.39-129.07h-132.39v-52.82h277.72v269.95h-121.81v-170.2c-8.83,61.61-47.02,181.93-196.99,181.93s-238.25-120.32-238.25-269.91,97.11-281.69,282.37-281.69Z"/>
+   <defs>
+      <style>
+         .st1{display:none;fill:none;stroke:#1ded7e;stroke-dasharray:2;stroke-miterlimit:10;stroke-width:2px}
+      </style>
+   </defs>
+   <circle id="Background__x28_CHANGE_THE_COLOR_x29_" cx="512" cy="512" r="512" style="fill:#fff"/>
+   <path d="M512 0C229.23 0 0 229.23 0 512s229.23 512 512 512 512-229.23 512-512S794.77 0 512 0Zm-.3 218.45c191.15 0 255.79 129.07 258.73 202.41h-138.2c-2.94-41.05-38.27-102.66-123.56-102.66-91.14 0-149.93 79.23-149.93 176.04s58.79 176 149.93 176c82.35 0 117.67-64.51 132.39-129.07H508.67v-52.82h277.72V758.3H664.58V588.1c-8.83 61.61-47.02 181.93-196.99 181.93S229.34 649.71 229.34 500.12s97.11-281.69 282.37-281.69Z"/>
 </svg>
