@@ -92,6 +92,14 @@
             ]
         },
         {
+            "name": "ARIN",
+            "filename": "icons/1_Primary/ARIN.svg",
+            "category": null,
+            "issuer": [
+                "ARIN"
+            ]
+        },
+        {
             "name": "AVG",
             "filename": "icons/1_Primary/AVG.svg",
             "category": null,
@@ -1868,6 +1876,14 @@
             ]
         },
         {
+            "name": "Fluxer",
+            "filename": "icons/1_Primary/Fluxer.svg",
+            "category": null,
+            "issuer": [
+                "Fluxer"
+            ]
+        },
+        {
             "name": "Fly.io",
             "filename": "icons/1_Primary/Fly.io.svg",
             "category": null,
@@ -2209,6 +2225,14 @@
             "category": null,
             "issuer": [
                 "Guilded"
+            ]
+        },
+        {
+            "name": "Gumroad",
+            "filename": "icons/1_Primary/Gumroad.svg",
+            "category": null,
+            "issuer": [
+                "Gumroad"
             ]
         },
         {
@@ -3908,6 +3932,14 @@
             ]
         },
         {
+            "name": "ObsidianMD",
+            "filename": "icons/1_Primary/ObsidianMD.svg",
+            "category": null,
+            "issuer": [
+                "ObsidianMD"
+            ]
+        },
+        {
             "name": "Odido",
             "filename": "icons/1_Primary/Odido.svg",
             "category": null,
@@ -5260,6 +5292,14 @@
             ]
         },
         {
+            "name": "Stoat",
+            "filename": "icons/1_Primary/Stoat.svg",
+            "category": null,
+            "issuer": [
+                "Stoat"
+            ]
+        },
+        {
             "name": "Stockbit Crypto",
             "filename": "icons/1_Primary/Stockbit Crypto.svg",
             "category": null,
@@ -5740,6 +5780,14 @@
             ]
         },
         {
+            "name": "Turso",
+            "filename": "icons/1_Primary/Turso.svg",
+            "category": null,
+            "issuer": [
+                "Turso"
+            ]
+        },
+        {
             "name": "Tuta",
             "filename": "icons/1_Primary/Tuta.svg",
             "category": null,
@@ -5849,6 +5897,14 @@
             "category": null,
             "issuer": [
                 "Ultimaker"
+            ]
+        },
+        {
+            "name": "UltraCC",
+            "filename": "icons/1_Primary/UltraCC.svg",
+            "category": null,
+            "issuer": [
+                "UltraCC"
             ]
         },
         {
