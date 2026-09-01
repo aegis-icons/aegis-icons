@@ -42,163 +42,23 @@ jobs:
         run: python make-pack.py gen --output ${{ env.zipname }} --version ${{ env.DATE_INT }}
 
       # -------------------------------
-      # FIXED: Get previous tag safely
+      # Build release notes
       # -------------------------------
-      - name: Determine previous tag
-        id: prevtag
-        run: |
-          tags=$(git tag --sort=creatordate)
-          count=$(echo "$tags" | wc -l)
-
-          if [ "$count" -lt 2 ]; then
-            echo "prev_tag=" >> "$GITHUB_OUTPUT"
-          else
-            prev_index=$((count-1))
-            prev=$(echo "$tags" | sed -n "${prev_index}p")
-            echo "prev_tag=$prev" >> "$GITHUB_OUTPUT"
-          fi
-
-#     🚧 2026-05-01: CODE BELOW CURRENTLY FAILS
-#
-#      - name: Build Changelog
-#        id: build_changelog
-#        uses: mikepenz/release-changelog-builder-action@v4
-#        with:
-#          configurationJson: |
-#            {
-#              "ignore_on_undeclared_labels": true,
-#              "categories": [
-#                {
-#                  "title": "## New icons",
-#                  "labels": ["Submission", "New Icon", "new-icon"]
-#                },
-#                {
-#                  "title": "## Updated icons",
-#                  "labels": ["Update", "update"]
-#                }
-#              ],
-#              "template": "#{{CHANGELOG}}",
-#              "pr_template": "- #{{TITLE}} (thanks to @#{{AUTHOR}}) ##{{NUMBER}}"
-#            }
-#        env:
-#          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-#      🚧 2026-05-01: COMMENTED OUT JUST TO BE SAFE
-#
-#      # -----------------------------------------
-#      # FIXED: Added/renamed/deleted icon logic
-#      # -----------------------------------------
-#      - name: Generate Renamed Icons List
-#        id: renamed_icons
-#        shell: python
-#        env:
-#          PREV_TAG: ${{ steps.prevtag.outputs.prev_tag }}
-#        run: |
-#          import subprocess, os, re
-#
-#          prev_tag = os.environ.get("PREV_TAG", "")
-#          output_md = ""
-#
-#          if prev_tag:
-#              # Added icons
-#              cmd_add = ["git", "diff", "--diff-filter=A", "--name-only", "-z", prev_tag, "HEAD", "--", "icons/"]
-#              try:
-#                  add_out = subprocess.check_output(cmd_add).decode()
-#              except:
-#                  add_out = ""
-#
-#              added = []
-#              for path in add_out.split("\0"):
-#                  if path.endswith(".svg"):
-#                      name = os.path.splitext(os.path.basename(path))[0]
-#                      try:
-#                          author = subprocess.check_output([
-#                              "git", "log", "-1", "--format=%an", f"{prev_tag}..HEAD", "--", path
-#                          ]).decode().strip()
-#                      except:
-#                          author = ""
-#                      added.append(f"- {name} (thanks to @{author})")
-#
-#              if added:
-#                  added.sort()
-#                  output_md += "\n## New icons\n" + "\n".join(added)
-#
-#              # Renamed icons
-#              cmd = ["git", "diff", "--diff-filter=R", "--name-status", "-z", prev_tag, "HEAD", "--", "icons/"]
-#              try:
-#                  diff_out = subprocess.check_output(cmd).decode()
-#              except:
-#                  diff_out = ""
-#
-#              renames = []
-#              parts = diff_out.split("\0")
-#              parts = [p for p in parts if p]
-#
-#              i = 0
-#              while i < len(parts):
-#                  status = parts[i]
-#                  if status.startswith("R"):
-#                      old_path = parts[i+1]
-#                      new_path = parts[i+2]
-#                      old_name = os.path.splitext(os.path.basename(old_path))[0]
-#                      new_name = os.path.splitext(os.path.basename(new_path))[0]
-#                      renames.append(f"- {old_name} → {new_name}")
-#                      i += 3
-#                  else:
-#                      i += 1
-#
-#              if renames:
-#                  renames.sort()
-#                  output_md += "\n## Renamed icons\n" + "\n".join(renames)
-#
-#              # Deleted icons
-#              cmd_del = ["git", "diff", "--diff-filter=D", "--name-only", "-z", prev_tag, "HEAD", "--", "icons/"]
-#              try:
-#                  del_out = subprocess.check_output(cmd_del).decode()
-#              except:
-#                  del_out = ""
-#
-#              deletions = []
-#              for path in del_out.split("\0"):
-#                  if path.endswith(".svg"):
-#                      name = os.path.splitext(os.path.basename(path))[0]
-#                      deletions.append(f"- {name}")
-#
-#              if deletions:
-#                  deletions.sort()
-#                  output_md += "\n## Removed icons\n" + "\n".join(deletions)
-#
-#          with open(os.environ["GITHUB_OUTPUT"], "a") as f:
-#              f.write("list<<EOF\n")
-#              f.write(output_md)
-#              f.write("\nEOF\n")
-
-#      🚧 2026-05-01: COMMENTED OUT JUST TO BE SAFE (CHECK THE REPLACEMENT)
-#      - name: Generate Release Notes
-#        run: |
-#          cat <<EOF > release_notes.md
-#          #### :question: Didn't find an icon from the pack? [Check the website](https://aegis-icons.github.io) first!
-#
-#          ### :package: [Latest ZIP Download](https://github.com/aegis-icons/aegis-icons/releases/latest/download/aegis-icons.zip)
-#
-#          #### :memo: Help: [install](https://github.com/aegis-icons/aegis-icons/blob/master/FAQ.md#with-icon-pack) or [update](https://github.com/aegis-icons/aegis-icons/blob/master/FAQ.md#how-to-update-the-icon-pack)
-#
-#          ---
-#          ${{ steps.build_changelog.outputs.changelog }}
-#          ${{ steps.renamed_icons.outputs.list }}
-#          EOF
-          
+      # The previous changelog generation relied on PR labels via
+      # mikepenz/release-changelog-builder-action and a fragile git-diff
+      # script. Both were commented out and the workflow fell back to a
+      # hardcoded "Release notes coming soon." placeholder.
+      #
+      # We now use GitHub's own release-notes engine
+      # (POST /releases/generate-notes). Because merged icon PRs follow the
+      # "New icon: ..." / "Update icon: ..." title convention, the generated
+      # "## What's Changed" list matches the desired format:
+      #   * New icon: Duitku by @partingscientist in #1021
       - name: Generate Release Notes
-        run: |
-          cat <<EOF > release_notes.md
-          ### :package: [Latest ZIP Download](https://github.com/aegis-icons/aegis-icons/releases/latest/download/aegis-icons.zip)
-
-          #### :memo: Help: [install](https://github.com/aegis-icons/aegis-icons/blob/master/FAQ.md#with-icon-pack) or [update](https://github.com/aegis-icons/aegis-icons/blob/master/FAQ.md#how-to-update-the-icon-pack)
-
-          ---
-
-          Release notes coming soon.
-          EOF
+        run: python generate-release-notes.py
+        env:
+          RELEASE_TAG: ${{ env.DATE_ISO }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Create a GitHub release
         uses: softprops/action-gh-release@v0.1.15
@@ -207,3 +67,4 @@ jobs:
           name: ${{ env.DATE_ISO }}
           tag_name: ${{ env.DATE_ISO }}
           body_path: release_notes.md
+
