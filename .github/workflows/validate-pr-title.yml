@@ -1,0 +1,41 @@
+name: Validate PR title
+
+on:
+  pull_request:
+    types: [opened, edited, synchronise, reopened]
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  validate:
+    name: Validate icon PR title
+    runs-on: ubuntu-latest
+    steps:
+      # Detect whether this PR touches any icon files.
+      - name: Check changed files
+        uses: dorny/paths-filter@v3
+        id: changes
+        with:
+          filters: |
+            icons:
+              - 'icons/**'
+
+      # Only require the correct title if the PR contains icon changes.
+      # Non-icon PRs (docs, chores, workflow fixes) are allowed to skip it.
+      - name: Validate PR title
+        if: steps.changes.outputs.icons == 'true'
+        env:
+          PR_TITLE: ${{ github.event.pull_request.title }}
+        run: |
+          if echo "$PR_TITLE" | grep -Eq '^(New icon|Update icon): '; then
+            echo "✅ Valid icon PR title: $PR_TITLE"
+          else
+            echo "::error::Icon PRs must use one of these title formats:"
+            echo "::error::  New icon: <brand name>"
+            echo "::error::  Update icon: <brand name>"
+            echo "::error::  New icon: <symbol name> (generic)"
+            echo "::error::Received: $PR_TITLE"
+            exit 1
+          fi
